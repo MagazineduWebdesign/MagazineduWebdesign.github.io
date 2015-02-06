@@ -1,0 +1,114 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+# Site settings
+title: Magazine du Webdesign
+description:
+author:
+  name: guillaumepalayer
+  email: guillaume.palayer@gmail.com
+twitter_username: MagDuWebdesign
+github_username: jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: /:title
+url: "http://magazineduwebdesign.com" # the base hostname & protocol for your site
+highlighter: rouge
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess', '.nojekyll']
+
+# Collections settings
+collections:
+  encyclo:
+    output: true
+    permalink: /:collection/:title/
+  note:
+    output: true
+    permalink: /:collection/:title/
+  collection:
+    output: true
+    permalink: /:collection/:title/
+  offre-emploi:
+    output: true
+    permalink: /:collection/:title/
+  conseil-candidater:
+    output: true
+    permalink: /:collection/:title/
+  conseil-recruter:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults front matter variables for various types
+# http://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      auteur: "MagDuWebdesign" # overrides previous default layout
+      bgimgheader: "false"
+  -
+    scope:
+      path: "note"
+      type: "note"
+    values:
+      layout: "note" # overrides previous default layout
+  -
+    scope:
+      path: "encyclo"
+      type: "encyclo"
+    values:
+      layout: "encyclo" # overrides previous default layout
+      bgimgheader: "false"
+  -
+    scope:
+      path: "collection"
+      type: "collection"
+    values:
+      layout: "collection" # overrides previous default layout
+      bgimgheader: "false"
+  -
+    scope:
+      path: "offre-emploi"
+      type: "offre-emploi"
+    values:
+      layout: "emploi" # overrides previous default layout
+      bgimgheader: "false"
+
+  -
+    scope:
+      path: "conseil-candidater"
+      type: "conseil-candidater"
+    values:
+      layout: "candidater" # overrides previous default layout
+      bgimgheader: "false"
+
+  -
+    scope:
+      path: "conseil-recruter"
+      type: "conseil-recruter"
+    values:
+      layout: "recruter" # overrides previous default layout
+      bgimgheader: "false"
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Conversion
+markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false

@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %} 
+
+<article>
+
+  <header class="row-body-article">
+    <div class="column-header-article">
+      <!-- Categories on GitHub Pages without plugin
+      source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
+      ================================================== -->
+      {% if page.category %}
+      {% for encyclo_category in site.data.encyclo_categories %}
+        {% if encyclo_category.slug == page.category %}
+          {% assign category = encyclo_category %}
+        {% endif %}
+      {% endfor %}
+      {% if category %}
+        {% capture category_content %}<a href="/encyclo/categorie/{{ category.slug }}/">{{ category.name | upcase }}</a>{% endcapture %}
+      {% endif %}
+      {% else %}
+        {% assign category_content = '' %}
+      {% endif %}
+    
+      <ul class="breadcrumbs"><li>{{ category_content }}</li></ul>
+      <h1>{{ page.title }}</h1>
+    </div>
+  </header>
+
+  {% if page.image %}
+    <div class="row-article-featured-image">
+      <div class="column-article-featured-image">
+        <img data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'/img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+      </div>
+
+      {% if page.image-legende %}
+      <div class="row-body-article">
+        <div class="column-article-featured-image-caption">
+          <p>{{ page.image-legende }}</p>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  {% endif %}
+
+  <div class="row-body-article item-contenu"> 
+    <aside class="article-meta-by-time show-for-large-up">
+      <div class="callout panel radius text-center">
+        Before you can use the top bar you'll want to verify that jQuery and <code>foundation.js</code> are available on your page. You can refer to the <a href="../javascript.html">Javascript documentation</a> on setting that up.
+        <a href="{{site.baseurl}}/{{ site.collections.encyclo.label | downcase}}/" class="button-without-border">EXPLOREZ L'ENCYCLO</a>
+      </div>
+    </aside>
+
+    <main class="column-body-article">
+      {% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
+      {{ content }}
+      
+      <div class="row collapse article-partage">
+        <div class="small-12 medium-6 columns">
+          <ul class="inline-list">
+            <li><a href="#" class="article-partage-twitter">TWEETER</a></li>
+            <li><a href="#" class="article-partage-facebook">PARTAGER</a></li>
+          </ul>
+        </div>
+        <div class="small-12 medium-offset-2 medium-4 columns show-for-large-up">
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns partage-url"><span class="prefix">URL</span></div>
+            <div class="small-9 columns"><input type="text" value="{{ site.url }}{{ page.url }}"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</article>

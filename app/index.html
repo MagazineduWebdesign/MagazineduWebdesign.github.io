@@ -1,0 +1,23 @@
+---
+layout: default
+title: Magazine du Webdesing
+---
+
+{% include header.html %}
+
+{% include custom/sections/hero.html %}
+
+{% include custom/sections/brief.html %}
+<section>
+	<header class="row-liste-index">
+    <div class="small-12 columns section-brief-header"> 
+      <h1 class="section-brief-header-titre">Les derniers articles</h1>
+    </div>
+	</header>
+	{% include custom/cartes/carte_cat.html param="ux" %}
+	{% include custom/cartes/carte_cat.html param="wordpress" %}
+</section>
+
+{% include custom/cartes/cartenl.html %}
+
+{% include custom/cartes/cartetwtr.html %}

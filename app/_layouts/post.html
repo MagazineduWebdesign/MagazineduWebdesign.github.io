@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+{% assign post = page %}
+
+{% include custom/sections/article_header.html %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+{% if page.bgimgheader == true %}
+	<div class="header-article-bgimg is-img" data-is-img="{{ page.image | prepend:'/img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
+	  <div class="header-article-bgimg-shadow">
+	    <div class="header-article-bgimg-conteneur">
+		    <div class="header-article-bgimg-cellule">
+		    {% else %}{% endif %}
+		      <header class="row-body-article">
+		        <div class="column-header-article">
+		          <h1 class="headline-post" itemprop="headline">{{ page.title }}</h1>
+		          <aside class="hide-for-large-up">
+						  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time>
+					      </p>
+						  </aside>
+		        </div>
+		      </header>
+
+	{% if page.bgimgheader == true %}
+			  </div>
+	    </div>
+	  </div>
+	</div>
+
+	{% if page.image-legende %}
+  <div class="row-body-article">
+  	<div class="column-article-featured-image-caption">
+  		<p>{{ page.image-legende }}</p>
+  	</div>
+  </div>
+  {% endif %}
+	
+	{% else %}
+		{% if page.image %}
+		<div class="row-article-featured-image">
+		  <div class="column-article-featured-image">
+		  	<img class="is-img" data-is-img="{{ page.image | prepend:'/img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'/img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  </div>
+
+		  {% if page.image-legende %}
+		  <div class="row-body-article">
+		  	<div class="column-article-featured-image-caption">
+		  		<p>{{ page.image-legende }}</p>
+		  	</div>
+		  </div>
+		  {% endif %}
+
+		</div>
+		{% endif %}
+	{% endif %}
+
+	<div class="row-body-article item-contenu"> 
+	  <aside class="article-meta-by-time show-for-large-up">
+	  	<p class="article-meta-item-by">Ecrit par</p><p class="article-meta-auteur"><a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %}</p>
+	  	<p class="article-meta-item-time"><time>{{ datearticle }}</time></p>
+	  </aside>
+
+	  <main class="column-body-article">
+	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
+	  	{{ content }}
+			<!-- Tags on GitHub Pages without plugin
+			source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
+			================================================== -->
+			{% if post.tags.size > 0 %}
+        {% capture tags_content %} ITEMS RELATIFS {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+        {% for post_tag in post.tags %}
+          {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+              {% assign tag = data_tag %}
+            {% endif %}
+          {% endfor %}
+          {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign tags_content = '' %}
+      {% endif %}
+
+			{% if page.viatitle %}
+			<!-- Via
+			================================================== -->
+			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>Via <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}">{{ page.viatitle }}</a></span>
+			{% endif %}
+			<!-- Tags
+			================================================== -->
+			<span class="article-tags"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z" fill="#999999"/></svg>{{ tags_content | upcase }}</span>
+			<div class="row collapse article-partage">
+			  <div class="small-12 medium-6 columns">
+				  <ul class="inline-list">
+				  	<li>
+				  		<a href="#" class="article-partage-twitter">
+				  			<svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		            width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+		            <path id="twitter-icon" d="M462,128.223c-15.158,6.724-31.449,11.269-48.547,13.31c17.449-10.461,30.854-27.025,37.164-46.764
+		              c-16.333,9.687-34.422,16.721-53.676,20.511c-15.418-16.428-37.386-26.691-61.698-26.691c-54.56,0-94.668,50.916-82.337,103.787
+		              c-70.25-3.524-132.534-37.177-174.223-88.314c-22.142,37.983-11.485,87.691,26.158,112.85c-13.854-0.438-26.891-4.241-38.285-10.574
+		              c-0.917,39.162,27.146,75.781,67.795,83.949c-11.896,3.237-24.926,3.978-38.17,1.447c10.754,33.58,41.972,58.018,78.96,58.699
+		              C139.604,378.282,94.846,390.721,50,385.436c37.406,23.982,81.837,37.977,129.571,37.977c156.932,0,245.595-132.551,240.251-251.435
+		              C436.339,160.061,450.668,145.174,462,128.223z" fill="#ffffff" />
+		            </svg>TWEETER
+				  		</a>
+				  	</li>
+					  <li>
+					  	<a href="#" class="article-partage-facebook"><svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+	            <path id="facebook-square-rounded-icon" d="M411.945,50h-312c-27.614,0-50,22.386-50,50v312c0,27.614,22.386,50,50,50h312
+	              c27.614,0,50-22.386,50-50V100C461.945,72.386,439.56,50,411.945,50z M323.688,160.658c0,0-22.893,0-31.988,0
+	              c-11.291,0-13.645,4.625-13.645,16.309c0,9.723,0,28.227,0,28.227h45.633l-4.391,49.551h-41.242v148.03h-59.111V255.372h-30.74
+	              v-50.178h30.74c0,0,0-7.215,0-39.517c0-37.087,19.832-56.452,63.818-56.452c7.205,0,40.926,0,40.926,0V160.658z" fill="#ffffff"/>
+            	</svg>PARTAGER</a>
+            </li>
+            <li><a href="class="article-partage-facebook""></a></li>
+				  </ul>
+			  </div>
+			  <div class="small-12 medium-offset-2 medium-4 columns show-for-large-up">
+			  	<div class="row collapse prefix-radius">
+					  <div class="small-3 columns partage-url"><span class="prefix"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="#999999"/></svg></span></div>
+					  <div class="small-9 columns"><input type="text" value="{{ site.url }}{{ page.url }}"></div>
+					</div>
+			  </div>
+			</div>
+	  </main>
+	</div>
+</article>
+
+{% include custom/sections/article_footer.html %}

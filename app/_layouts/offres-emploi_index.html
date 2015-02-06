@@ -1,0 +1,206 @@
+---
+layout: default
+---
+
+{% include header.html %}
+<section>
+	{% if page.svg %}
+	<!-- Beautiful svg background generated on notegraphy.com
+  ==> https://notegraphy.com/
+  ================================================== -->
+  {% endif %}
+  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'/img/integration/' }})"{% endif %}>
+		<header class="row-liste-index text-center"> 
+			<div class="small-12 columns">
+				<div class="job--header-liste-link">
+					<a href="/emploi/" {% if page.tab1 == true %}class="is-active"{% endif %} title="offres d'emploi">OFFRES D'EMPLOI</a>
+					<a href="/recruter/" {% if page.tab2 == true %}class="is-active"{% endif %} title="recruter">RECRUTER</a>
+					<a href="/data-salaire/" {% if page.tab3 == true %}class="is-active"{% endif %} title="recruter">DATA SALAIRE</a>
+					<a href="/candidater/" {% if page.tab4 == true %}class="is-active"{% endif %} title="recruter">CONSEILS</a>
+				</div>
+				<h1>{{ page.title }} {% if page.tab3 == true %}<span class="label--secondary">COMING SOON</span>{% endif %}</h1>
+				{{ content }}
+			</div>
+		</header>
+
+		 <!--job-valeurs-promesses offres d'emploi -->
+		{% if page.tab1 == true %}
+			<div class="row job--valeurs-promesses text-center hide-for-small-only">
+			  <div class="small-12 medium-4 columns"><h2>100% privé</h2><p>Pas de création de compte. Vous êtes le seul maître des informations que vous transmettez à l'entreprise à laquelle vous postulez. Votre boss actuel n'en sera rien.</p></div>
+			  <div class="small-12 medium-4 columns"><h2>Comparez votre salaire</h2><p>Vous serez mieux armé(e) pour négocier en explorant les salaires par rôles, compétences et régions avant de postulez via <a href="/data-salaire/">le Data-salaire</a>.</p></div>
+			  <div class="small-12 medium-4 columns"><h2>Pas d'intermédiaires</h2><p>Communiquez directement avec les fondateurs de l'entreprise. Les cabinets de recrutement ne sont pas autorisés.</p></div>
+			</div>
+		{% endif %}
+		<!-- job-valeurs-promesses publier une offre d'emploi -->
+		{% if page.tab2 == true %}
+			<div class="row job--valeurs-promesses text-center hide-for-small-only">
+			  <div class="small-12 medium-4 columns"><h2>Des talents qualifiés</h2><p>10,000+ développeurs et designers actifs chaque mois.</p></div>
+			  <div class="small-12 medium-4 columns"><h2>199€ HT</h2><p>Votre offre d'emploi est publiée sans durée limite d'affichage.</p></div>
+			  <div class="small-12 medium-4 columns"><h2>Economisez votre temps</h2><p>Connectez-vous avez des candidats qualifiés en quelques clics.</p></div>
+			</div>
+			<div class="row text-center">
+				<div class="small-12 columns">
+					<span class="section-header-titre">Besoin d'aide ? Une question ? écrivez à <a href="mailto:talent@magazineduwebdesign.com">talent@magazineduwebdesign.com</a></span>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+	<div class="row-liste-index">
+	  <div class="small-12 columns section-header">
+	  	<!-- nb offre d'emploi -->
+	  	{% if page.tab1 == true %}
+		    {% for offre in site.offre-emploi %}
+		      {% capture length %}{{ forloop.length }}{% endcapture %}
+		    {% endfor %}
+		    <span class="section-header-titre">{{ length | append: ' talents recherchés'}}</span>
+	    {% endif %}
+			<!-- nb conseils recruter -->
+	  	{% if page.tab2 == true %}
+		    {% for conseil in site.conseil-recruter %}
+		      {% capture length %}{{ forloop.length }}{% endcapture %}
+		    {% endfor %}
+		    <span class="section-header-titre">{{ length | append: ' conseils pour réussir votre recrutement'}}</span>
+	    {% endif %}
+			<!-- nb conseils candidater -->
+	  	{% if page.tab4 == true %}
+		    {% for conseil in site.conseil-candidater %}
+		      {% capture length %}{{ forloop.length }}{% endcapture %}
+		    {% endfor %}
+		    <span class="section-header-titre">{{ length | append: ' conseils pour réussir votre candidature'}}</span>
+	    {% endif %}
+	  </div>
+	</div>
+
+	<!-- offres d'emploi -->
+	{% if page.tab1 == true %}
+		<div class="row-liste-index">
+		  <main class="small-12 columns section-carte-index-panel">
+				{% for offre in site.offre-emploi reversed %}
+					<a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+	          <article class="carte-categorie-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	            
+	            <div class="row collapse">
+	              <div class="small-2 medium-1 columns">
+	                {% if offre.image %}
+	                <img class="job--entreprise-logo" width="40px" height="40px" src="{{ offre.image | prepend:'/img/xsmall/' }}" alt="{{ offre.title }}" />
+	                {% endif %}
+	              </div>
+	              <div class="small-10 medium-11 columns"> 
+	              	<h1 class="job--title" itemprop="headline"><span class="left job--entreprise">{{ offre.entreprise }} {% if offre.statut %}<span class="label--new">{{ offre.statut }}{% endif %}</span></span><span class="job--description">recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}</span></h1>
+	              </div>
+	            </div>
+
+	          </article>
+	        </a>
+				{% endfor %}
+		  </main>
+		</div>
+		{% include custom/cartes/carte_alerte-job.html %}
+	{% endif %}
+
+	<!-- Conseils recruter -->
+	{% if page.tab2 == true %}
+		<div class="row-liste-index">
+		  <main class="small-12 columns section-carte-index-panel">
+				{% for conseil in site.conseil-recruter reversed %}
+					<a href="{{ conseil.url | prepend: site.baseurl }}" title="{{ conseil.title }}">
+	          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	            
+	            <div class="row collapse">
+	              <div class="small-9 columns">
+	              	<h1 itemprop="headline">{{ conseil.title }}</h1> 
+	              </div>
+
+	              <div class="small-3 columns">
+	                {% if conseil.image %}
+	                <img class="right" src="{{ conseil.image | prepend:'/img/xsmall/' }}" alt="{{ conseil.image-legende }}" />
+	                {% endif %}
+	              </div>
+	            </div>
+
+	          </article>
+	        </a>
+				{% endfor %}
+		  </main>
+		</div>
+	{% endif %}
+
+	<!-- Conseils candidater -->
+	{% if page.tab4 == true %}
+		<div class="row-liste-index">
+		  <main class="small-12 columns section-carte-index-panel">
+				{% for conseil in site.conseil-candidater reversed %}
+					<a href="{{ conseil.url | prepend: site.baseurl }}" title="{{ conseil.title }}">
+	          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	            
+	            <div class="row collapse">
+	              <div class="small-9 columns">
+	              	<h1 itemprop="headline">{{ conseil.title }}</h1> 
+	              </div>
+
+	              <div class="small-3 columns">
+	                {% if conseil.image %}
+	                <img class="right" src="{{ conseil.image | prepend:'/img/xsmall/' }}" alt="{{ conseil.image-legende }}" />
+	                {% endif %}
+	              </div>
+	            </div>
+
+	          </article>
+	        </a>
+				{% endfor %}
+		  </main>
+		</div>
+		{% include custom/cartes/carte_alerte-job.html %}
+	{% endif %}
+</section>
+
+{% if page.tab3 == true %}
+<!-- Modalbox enquete-data-salaire
+================================================== -->
+<div id="enquete--data-salaire" class="reveal-modal" data-reveal>
+  <div class="row-liste-index">
+    <div class="small-12 columns">
+      <a class="close-reveal-modal">&#215;</a>
+      <p class="text-center titre-modal-box">Data Salaire - Beta</p>
+      <p class="text-center">Sans vous, rien ne serait possible. Afin de construire un outil pertinent et utile au plus grand nombre d'entre vous, je vous invite à compléter de manière anonyme les 4 colonnes contenus dans ce <a href="https://docs.google.com/spreadsheets/d/1fM7ny5WB6oOJf7HIFozrUwEUXjNQa1sovVELaiCa9Eg/edit?usp=sharing" target="_blank" class="brief-partage">document Google Drive</a></p>
+    </div>
+  </div>
+</div>
+<!-- Modalbox alerte-coming-soon-data-salaire
+================================================== -->
+<div id="alerte--data-salaire" class="reveal-modal" data-reveal>
+  <div class="row-liste-index">
+    <div class="small-12 columns">
+      <a class="close-reveal-modal">&#215;</a>
+      <p class="text-center titre-modal-box">Recevez un email lorsque Data Salaire sera prêt</p>
+      
+      <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    
+        <div id="mc_embed_signup_scroll">
+          <div class="row">
+            <div class="small-12 medium-6 columns">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"></label>
+                <input type="email" placeholder="Insérez votre adresse@email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
+
+            <div class="small-12 medium-6 columns">
+              <input type="submit" class="small button radius expand" value="S'INSCRIRE" name="subscribe" id="mc-embedded-subscribe">  
+            </div>
+          </div>
+        </div>
+      </form>
+      <p class="text-center">Vous n'aimez pas les mails ? Suivez Magazine du Webdesign sur <a href="#" class="brief-partage">Twitter</a> &bull; <a href="#" class="brief-partage">Facebook</a> afin d'être prévenu(e) de la sortie.</p>
+    </div>
+  </div>
+</div>
+{% endif %}

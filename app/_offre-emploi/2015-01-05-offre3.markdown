@@ -1,0 +1,32 @@
+---
+title: Twiglio recrute un SysAdmin à San Francisco
+entreprise: Twiglio
+fonction: System Administrator
+type: CDI
+lieu: Paris
+statut: new
+image: list_view_banner_collection-hero-selfie-dog.jpg
+date: 2015-01-05 00:00:00
+---
+We're looking for a full-stack developer with excellent Javascript skills in the browser and on the server to join our small and talented product team in London. As a core engineer in a small but growing team, you'll be working at all levels of the stack from optimising infrastructure and architecting server-side APIs to building the web app front-end.
+
+This is a role for someone who's excited to join a very early-stage team, who loves a challenge and who is passionate about [building meaningful products](http://twitter.com). You'll love using modern approaches and be responsible for implementing new technologies.
+
+If you want to make a difference to millions of people interacting with your product, whilst having a chance to learn, have your say, grow and create something special, then we'd love to hear from you.
+
+##Skills & Requirements
+
+- Node.js
+- Client side Javascript MVC frameworks
+  - REST APIs (both designing them and using them)
+  - MySQL
+- nginx
+- Working with Git
+- Nice to have
+
+- Redis
+  - Some PHP experience or background
+- Javascript test frameworks
+- AWS
+- Linux sysadmin and/or devops knowledge
+  - A degree in computer science or similar is a plus.

@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %}
+
+<section>
+  {% capture currentday %}
+    {% assign A = page.date | date: "%A" %}
+    {% case A %}
+      {% when 'Monday' %}Lundi
+      {% when 'Tuesday' %}Mardi
+      {% when 'Wednesday' %}Mercredi
+      {% when 'Thursday' %}Jeudi
+      {% when 'Friday' %}Vendredi
+      {% when 'Saturday' %}Samedi
+      {% when 'Sunday' %}Dimanche
+    {% endcase %}
+    <span class="section-brief-header-baseline">
+      {{ page.date | date: " %-d " }}
+      {% assign B = page.date | date: "%-m" %}
+      {% case B %}
+        {% when '1' %}Janvier
+        {% when '2' %}F&eacute;vrier
+        {% when '3' %}Mars
+        {% when '4' %}Avril
+        {% when '5' %}Mai
+        {% when '6' %}Juin
+        {% when '7' %}Juillet
+        {% when '8' %}Ao&ucirc;t
+        {% when '9' %}Septembre
+        {% when '10' %}Octobre
+        {% when '11' %}Novembre
+        {% when '12' %}D&eacute;cembre
+      {% endcase %}
+      {{ page.date | date: " %Y" }}
+    </span>
+  {% endcapture %}
+  {% if currentday != day %}
+    <header class="row-liste-index">
+      <time class="small-12 columns section-brief-header" itemprop="datePublished" datetime="{{ page.date | date: "%d-%m-%Y" }}" data-cleaned="{{ page.date | date: "%d%m%Y" }}" data-week-day="
+        {% assign A = page.date | date: "%A" %}
+        {% case A %}
+          {% when 'Monday' %}Lundi
+          {% when 'Tuesday' %}Mardi
+          {% when 'Wednesday' %}Mercredi
+          {% when 'Thursday' %}Jeudi
+          {% when 'Friday' %}Vendredi
+          {% when 'Saturday' %}Samedi
+          {% when 'Sunday' %}Dimanche
+        {% endcase %}
+        ">
+        <h1 class="section-brief-header-titre">Note de Brief, {{ currentday }}</h1>
+      </time>
+    </header>
+    <div class="row-liste-index">
+      <div class="small-12 columns section-brief-panel">
+    {% capture day %}{{currentday}}{% endcapture %} 
+  {% endif %}
+  
+      <article class="note note-first"> 
+
+        <div class="note-source-id">
+          <img src="{{ page.source-favicon }}" alt="{{ page.source-name }}" class="note-source-favicon" >
+          <span class="note-source-name">{{ page.source-name | upcase }}</span>
+        </div>
+         
+        <a href="{{ page.source-url }}">
+          <h1>{{ page.title }}</h1>
+        </a>
+        
+        {% if page.image %}
+          <img data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" class="note-img" alt="{{ page.image-legende }}" />
+        {% endif %}
+        
+        {% if content %}
+          <main>{{ content }}</main>
+        {% endif %}
+
+        <div class="note-partage"><a href="#" data-reveal-id="{{ page.title | replace: ' ', '-' | remove_first: '.' }}"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" fill="#999999"/></svg>Partager</a></div>
+        <!-- Modalbox partage note
+        ================================================== -->
+        <div id="{{ page.title | replace: ' ', '-' | remove_first: '.' }}" class="reveal-modal" data-reveal>
+          <div class="row-liste-index">
+            <div class="small-12 columns text-center">
+              <a class="close-reveal-modal">&#215;</a>
+              <p class=" titre-modal-box">Partager la note "{{ page.title }}"</p>
+              <div class="row-liste-index large-collapse note-partage">
+                <div class="small-6 medium-3 medium-offset-3 columns">
+                  <a href="#" class="partage-twitter">TWEETER</a>
+                </div>
+                <div class="small-6 medium-3 end columns">
+                  <a href="#" class="partage-facebook">PARTAGER</a>
+                </div>
+              </div>
+              <div class="row-liste-index">
+                <div class="small-12 medium-6 medium-centered columns note-partage-url">
+                  <input type="text" value="{{ site.url }}{{ page.url }}">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-action text-center">
+      <a href="{{site.baseurl}}/notes/">EXPLOREZ LE BRIEF DU JOUR</a>
+    </div>
+  </div>
+</section>

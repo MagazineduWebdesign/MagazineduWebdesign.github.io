@@ -1,0 +1,23 @@
+{% if page.reference-name %}
+<aside class="section-carte-reference">
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-header">
+      <h1>Références</h1>
+    </div>
+  </div>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-panel">
+      <div class="reference">
+        <div class="reference-name">{{ page.reference-name | upcase }}</div>
+        <a href="{{ page.reference-url }}">{{ page.reference-title }}</a>
+      </div>
+      {% if page.reference-02-name %}
+        <div class="reference">
+          <div class="reference-name">{{ page.reference-02-name | upcase }}</div>
+          <a href="{{ page.reference-02-url }}">{{ page.reference-02-title }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</aside>
+{% endif %}

@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% if page.bgimgheader == true %}
+  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'/img/medium/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
+{% endif %}
+
+{% include custom/sections/article_header.html %}
+<section> 
+  <div class="header-collection-shadow">
+    <div class="header-collection">
+      <header class="row-liste-index">
+        <div class="small-12 columns">
+          <h1 class="headline-collection text-center">{{ page.title }}</h1>
+          <p class="desc-collection text-center">{{ page.desc }}</p>
+        </div>
+      </header>
+    </div>
+  </div>
+</section>
+
+{% if page.bgimgheader == true %}
+</div>
+{% endif %}
+<div class="row-liste-index">
+  <div class="small-12 columns section-header">
+    <!-- Number of item by collection -->
+    {% for item in site.data.collections.[page.titre_fichier_data] %}
+      {% capture length %}{{ forloop.length }}{% endcapture %}
+    {% endfor %}
+    <span class="section-header-titre">{{ length | append: ' Items dans cette collection'}}</span>
+  </div>
+</div>
+
+<div class="row-liste-index">
+  <main class="small-12 columns section-carte-index-panel">
+    
+    {% if site.data.collections.[page.titre_fichier_data] %}
+      {% for item in site.data.collections.[page.titre_fichier_data] %}
+
+        <a href="{{ item.href }}">
+          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            
+            <div class="row collapse">
+              <div class="small-9 columns">
+                <h1 itemprop="headline">{{ item.title }}</h1>
+                <p>{{ item.desc }}</p>
+              </div>
+
+              <div class="small-3 columns">
+                {% if item.image %}
+                <img class="right" src="{{ item.image | prepend:'/img/xsmall/' }}" alt="{{ item.title }}" />
+                {% endif %}
+              </div>
+            </div>
+
+          </article>
+        </a>
+
+      {% endfor %}
+
+    {% else %}
+      <p>Il n'y a pas d'items dans cette collection.</p>
+    {% endif %}
+
+  </main>
+</div>

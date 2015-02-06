@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<article>
+  {% if page.bgimgheader == true %}
+	<div class="header-article-bgimg" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
+	  <div class="header-article-bgimg-shadow">
+	    <div class="header-article-bgimg-conteneur">
+		    <div class="header-article-bgimg-cellule">
+		    {% else %}{% endif %}
+
+		    {% if page.svg %}
+				<!-- Beautiful svg background generated on notegraphy.com
+			  ==> https://notegraphy.com/
+			  ================================================== -->
+			  {% endif %}
+		      <header class="row-body-article {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'/img/integration/' }});"{% endif %}>
+		        <div class="column-header-article" >
+		          <h1>{{ page.title }}</h1>
+		        </div>
+		      </header>
+
+	{% if page.bgimgheader == true %}
+			  </div>
+	    </div>
+	  </div>
+	</div>
+
+	{% if page.image-legende %}
+  <div class="row-body-article">
+  	<div class="column-article-featured-image-caption">
+  		<p>{{ page.image-legende }}</p>
+  	</div>
+  </div>
+  {% endif %}
+	
+	{% else %}
+		{% if page.image %}
+		<div class="row-article-featured-image">
+		  <div class="column-article-featured-image">
+		  	<img data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'/img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  </div>
+
+		  {% if page.image-legende %}
+		  <div class="row-body-article">
+		  	<div class="column-article-featured-image-caption">
+		  		<p>{{ page.image-legende }}</p>
+		  	</div>
+		  </div>
+		  {% endif %}
+
+		</div>
+		{% endif %}
+	{% endif %}
+
+	<div class="row-body-article"> 
+	  <aside class="page-editoriale-intro">
+	  	{% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+	  </aside>
+
+	  <main class="column-body-article">
+	   	{{ content }}
+	  </main>
+	</div>
+</article>

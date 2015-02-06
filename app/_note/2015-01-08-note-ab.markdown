@@ -1,0 +1,10 @@
+---
+title: note avc
+source-name: frontendfront 
+source-url: http://frontendfront.com/recent/
+source-favicon: http://frontendfront.com/favicon.ico
+image: 
+date: 2015-01-02 00:00:00
+---
+Trusted by some of the world's smartest companies !
+<blockquote>He just wants to pour that additional money into the broken, existing system.<cite>Preemptive Strikes  Jan 18, 2015</cite></blockquote> 

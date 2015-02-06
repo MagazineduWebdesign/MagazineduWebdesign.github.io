@@ -1,0 +1,11 @@
+---
+layout:
+---
+{
+  "posts" : [
+    {% assign notes = site.note | reverse %}
+  	{% for note in notes %}
+    "{{ note.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

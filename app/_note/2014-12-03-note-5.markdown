@@ -1,0 +1,10 @@
+---
+title: Note 5
+date: 2014-12-03 00:00:00
+source-name: BUZZFEED
+source-url: http://www.buzzfeed.com/matthewzeitlin/bloomberg-passed-over-its-top-woman-editor-in-hiri
+source-favicon: http://s3-ak.buzzfed.com/static/favicon.ico?v=201412091637
+image:
+---
+<blockquote class="twitter-tweet" data-conversation="none" lang="fr"><p>“RT <a href="https://twitter.com/MagDuWebdesign">@MagDuWebdesign</a>: The Birth of the Shoelace Bootstrap Grid Builder <a href="http://t.co/pjI6ZTIEn6">http://t.co/pjI6ZTIEn6</a> <a href="https://twitter.com/hashtag/UX?src=hash">#UX</a> <a href="https://twitter.com/hashtag/servicedesign?src=hash">#servicedesign</a>” <a href="http://t.co/tMTIUPpObZ">pic.twitter.com/tMTIUPpObZ</a></p>&mdash; Alexandre Pajard (@GoViralStudio) <a href="https://twitter.com/GoViralStudio/status/540603045047201792">4 Décembre 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

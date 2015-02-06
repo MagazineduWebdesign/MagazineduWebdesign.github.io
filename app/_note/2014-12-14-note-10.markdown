@@ -1,0 +1,9 @@
+---
+title: Who killed cat fancy
+source-name: NYMAG
+source-url: http://nymag.com/daily/intelligencer/2014/12/who-killed-cat-fancy.html?mid=nymag_press
+source-favicon: http://cache.nymag.com/media/di/favicon.ico
+image: air.png
+date: 2014-12-14 00:00:00
+---
+“Of course, there’s one big question left unanswered: If Catster is supposed to capture the energy of online cat content … then why should anybody bother buying it in print? That’s where I-5’s problems stop being cat-specific. That’s where it has to be like any other magazine publisher: It’s trying to make a visually sumptuous publication that readers will want to hold, not just click.”

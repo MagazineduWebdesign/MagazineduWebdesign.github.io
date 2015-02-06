@@ -1,0 +1,10 @@
+---
+layout:
+---
+{
+  "posts" : [
+    {% for collection in site.collection %}
+    "{{ collection.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

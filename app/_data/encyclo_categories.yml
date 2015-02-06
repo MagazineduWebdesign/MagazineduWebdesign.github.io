@@ -1,0 +1,7 @@
+- slug: ruby-on-rails
+  name: Ruby on Rails
+  color: '#ff0000'
+  
+- slug: github
+  name: GitHub
+  color: '#424242'
