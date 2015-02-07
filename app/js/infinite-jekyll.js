@@ -1,3 +1,6 @@
+/*global postCount:false */
+/*global callback:false */
+/*jshint -W020 */
 $(function() {
   $('.infinite-spinner').css('display', 'none');
   var postURLs,
@@ -32,7 +35,6 @@ $(function() {
 
     $.getJSON(urlJson, function(data) {
     postURLs = data.posts;
-    //postURLs.reverse()
     // If there aren't any more posts available to load than already visible, disable fetching
     if (postURLs.length <= postsToLoad)
       disableFetching();
@@ -66,7 +68,7 @@ $(function() {
     $('.infinite-spinner').css('display', 'block');
     // Load as many posts as there were present on the page when it loaded
     // After successfully loading a post, load the next one
-    var loadedPosts = 0,
+    
         postCount = $('.infinite-index').children().length,
         callback = function() {
           loadedPosts++;
@@ -92,7 +94,6 @@ $(function() {
   function fetchPostWithIndex(index, callback) {
     
     var postURL = postURLs[index];
-
     $.get(postURL, function(data) {
       var poststructure;
       var strHeader = '';
@@ -129,14 +130,13 @@ $(function() {
           // ----------------------------
          
           if(dateClean !== $(data).find('.section-brief-header').attr('data-cleaned')) {
-
-           if(dateClean !== '') str+='</div></div></section>';
-          strHeader = '';
-          strHeader+='<section><header class="row-liste-index">';
-          strHeader+='<time class="small-12 columns section-brief-header"><h1 class="section-brief-header-titre">'+$(data).find('.section-brief-header').attr('data-week-day')+'<span class="section-brief-header-baseline">'+$(data).find('.section-brief-header-baseline').html()+'</span></h1></time>';
-          strHeader+='</header><div class="row-liste-index"><div class="small-12 columns section-brief-panel date-'+$(data).find('.section-brief-header').attr('data-cleaned')+'"></div></div></section>';
-          $('.note-index').append(strHeader);
-       }
+            if(dateClean !== '') str+='</div></div></section>';
+            strHeader = '';
+            strHeader+='<section><header class="row-liste-index">';
+            strHeader+='<time class="small-12 columns section-brief-header"><h1 class="section-brief-header-titre">'+$(data).find('.section-brief-header').attr('data-week-day')+'<span class="section-brief-header-baseline">'+$(data).find('.section-brief-header-baseline').html()+'</span></h1></time>';
+            strHeader+='</header><div class="row-liste-index"><div class="small-12 columns section-brief-panel date-'+$(data).find('.section-brief-header').attr('data-cleaned')+'"></div></div></section>';
+            $('.note-index').append(strHeader);
+          }
           
           // ----------------------------------
           // fin header item section10
@@ -145,10 +145,10 @@ $(function() {
           // ----------------------------------
 
           if(dateClean !== $(data).find('.section-brief-header').attr('data-cleaned')) {
-           str='<article class="note first-note"><div class="row"><div class="small-1 columns note-circle-number">';
-         } else {
-          str='<article class="note"><div class="row"><div class="small-1 columns note-circle-number">';
-         }
+          str='<article class="note first-note"><div class="row"><div class="small-1 columns note-circle-number">';
+          } else {
+            str='<article class="note"><div class="row"><div class="small-1 columns note-circle-number">';
+          }
           str+='<div class="circle"><div class="circle-content"><!--??? gestion numéro de la note --></div></div></div>';
           str+='<div class="small-11 columns note-border">'+$(data).find('.section-brief-panel').html()+'</div></div></article>';
           $('.date-'+$(data).find('.section-brief-header').attr('data-cleaned')).append(str);
