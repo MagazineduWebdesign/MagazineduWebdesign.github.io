@@ -258,6 +258,7 @@ module.exports = function (grunt) {
     },
     responsive_images: {
       options: {
+        newFilesOnly: true,
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
@@ -284,7 +285,7 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          newFilesOnly: true,
+          newFilesOnly: true
         },
         files: [{
           expand: true,
