@@ -535,6 +535,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
   }
   .article-meta-footer, .article-via{
 		@include item-row;
+		margin-bottom:rem-calc(24);
 		line-height:rem-calc(24)!important;
 		padding-bottom: $rem-base;
 	}
