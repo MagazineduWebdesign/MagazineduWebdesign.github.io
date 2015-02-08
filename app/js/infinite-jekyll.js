@@ -12,16 +12,28 @@ $(function() {
   // Load the JSON file containing all URLs
     var urlJson;
       switch($('body').find('.current-page').attr('data-page')) {
+        
+        // categories
         case 'ux':
-          urlJson = '/articles_ux.json';
+          urlJson = '/articles-cat_ux.json';
         break;
 
         case 'wordpress':
-          urlJson = '/articles_wordpress.json';
+          urlJson = '/articles-cat_wordpress.json';
         break;
 
+        // tags
+        case 'html5':
+          urlJson = '/articles-tag_html5.json';
+        break;
+
+        // divers
         case 'collections':
           urlJson = '/collections.json';
+        break;
+
+        case 'encyclos':
+          urlJson = '/encyclos.json';
         break;
 
         case 'briefs':
@@ -100,6 +112,7 @@ $(function() {
       var str = '';
       switch($('body').find('.current-page').attr('data-page')) {
         
+        // categories
         case 'ux':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
           str+='<div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
@@ -114,6 +127,15 @@ $(function() {
           $('.section-carte-index-panel').append(str);
           break;
 
+        // tags
+        case 'html5':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'">';
+          str+='<article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.headline-post').html()+'"/></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        // divers
         case 'collections':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-collection').html()+'">';
           str+='<article class="collection-index-article" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"><div class="collection-index-article-shadow"><div class="collection-index-article-content">';
