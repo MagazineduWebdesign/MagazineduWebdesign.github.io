@@ -1,6 +1,10 @@
 {
-  "name": "mdw",
+  "name": "magazineduwebdesign",
   "version": "0.0.0",
+  "homepage": "http://magazineduwebdesign.com/",
+  "authors": [
+    "Guillaume Palayer <hey@magazineduwebdesign.com>"
+  ],
   "dependencies": {
     "foundation": "~5.4.7"
   },
