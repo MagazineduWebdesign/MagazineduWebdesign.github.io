@@ -123,12 +123,6 @@ $(function() {
           break;
 
         case 'briefs':
-          // question: gestion de la chronologie d'affichage des items (cf reversed liquid)
-
-          // header item section10
-          // cycle de ces balises ouvrantes tous les 10 items
-          // ----------------------------
-         
           if(dateClean !== $(data).find('.section-brief-header').attr('data-cleaned')) {
             if(dateClean !== '') str+='</div></div></section>';
             strHeader = '';
@@ -137,13 +131,9 @@ $(function() {
             strHeader+='</header><div class="row-liste-index"><div class="small-12 columns section-brief-panel date-'+$(data).find('.section-brief-header').attr('data-cleaned')+'"></div></div></section>';
             $('.note-index').append(strHeader);
           }
-          
-          // ----------------------------------
-          // fin header item section10
 
           // item note
           // ----------------------------------
-
           if(dateClean !== $(data).find('.section-brief-header').attr('data-cleaned')) {
           str='<article class="note first-note"><div class="row"><div class="small-1 columns note-circle-number">';
           } else {
@@ -152,15 +142,7 @@ $(function() {
           str+='<div class="circle"><div class="circle-content"><!--??? gestion numéro de la note --></div></div></div>';
           str+='<div class="small-11 columns note-border">'+$(data).find('.section-brief-panel').html()+'</div></div></article>';
           $('.date-'+$(data).find('.section-brief-header').attr('data-cleaned')).append(str);
-          // ----------------------------------
-          // fin item note
 
-          // footer item section10
-          // cycle de ces balises fermantes tous les 10 items
-          // ------------------------------------------
-         
-          // ------------------------------------------
-          // fin footer item section10
           dateClean = $(data).find('.section-brief-header').attr('data-cleaned');
           
           break;
