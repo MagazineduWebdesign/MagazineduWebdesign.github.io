@@ -45,10 +45,10 @@ layout: default
 
 
 	<div class="row-liste-index">
-	  <div class="small-12 columns section-carte-index-panel">
+	  <div class="small-12 columns section-carte-index-panel infinite-index current-page" data-page="{{page.tag}}">
 
 			{% if site.tags[page.tag] %}
-				{% for post in site.tags[page.tag] %}
+				{% for post in site.tags[page.tag] limit: 5 %}
 
 					<a href="{{ post.url | prepend: site.baseurl }}">
 	          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
@@ -76,4 +76,5 @@ layout: default
 
 	  </div>
 	</div>
+	<div class="infinite-spinner"></div>
 </section>
