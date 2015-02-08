@@ -1,9 +1,10 @@
 ---
-layout:
+layout: null
 ---
 {
   "posts" : [
-    {% for collection in site.collection %}
+    {% assign collections = site.collection | reverse %}
+    {% for collection in collections %}
     "{{ collection.url }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
