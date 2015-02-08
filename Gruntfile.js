@@ -333,8 +333,8 @@ module.exports = function (grunt) {
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
+            '_bower_components/modernizr/modernizr.js',
             '_bower_components/foundation/js/vendor/jquery.js',
-            '_bower_components/foundation/js/vendor/modernizr.js',
             '_bower_components/foundation/js/vendor/jquery.cookie.js',
             '_bower_components/foundation/js/vendor/placeholder.js',
             '_bower_components/foundation/js/vendor/fastclick.js',
@@ -343,9 +343,7 @@ module.exports = function (grunt) {
             '_bower_components/foundation/js/foundation/foundation.accordion.js',
             '_bower_components/foundation/js/foundation/foundation.interchange.js',
             '_bower_components/foundation/js/foundation/foundation.reveal.js',
-            '_bower_components/foundation/js/foundation/foundation.topbar.js',
-            'js/headroom.js',
-            'js/jQuery.headroom.js'
+            '_bower_components/foundation/js/foundation/foundation.topbar.js'
             //'favicon.ico',
             //'apple-touch*.png'
           ],
