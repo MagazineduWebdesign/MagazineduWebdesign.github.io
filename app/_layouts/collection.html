@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-
+{% include custom/sections/article_header.html %}
+<section>
 {% if page.bgimgheader == true %}
   <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'/img/medium/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
 {% endif %}
 
-{% include custom/sections/article_header.html %}
-<section> 
   <div class="header-collection-shadow">
     <div class="header-collection">
       <header class="row-liste-index">
@@ -66,3 +65,4 @@ layout: default
 
   </main>
 </div>
+{% include custom/cartes/cartenl.html %}
