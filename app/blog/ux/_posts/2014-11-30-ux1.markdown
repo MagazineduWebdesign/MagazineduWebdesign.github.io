@@ -1,6 +1,6 @@
 ---
-title:  UX 1 Zomato just made its biggest ever acquisition—but the real test starts now
-date:   2014-11-31 17:22:56
+title: UX 1 Zomato just made its biggest ever acquisition—but the real test starts now
+date: 2014-11-31 17:22:56
 category: ux
 tags: 
 - jekyll
