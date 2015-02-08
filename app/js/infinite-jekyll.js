@@ -28,7 +28,7 @@ $(function() {
           urlJson = '/briefs.json';
         break;
 
-        default: urlJson = '/all-posts.json';
+        default: urlJson = '';
 
     }
 
