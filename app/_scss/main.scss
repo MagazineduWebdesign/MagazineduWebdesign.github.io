@@ -533,6 +533,11 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
   	padding-left:rem-calc(12)!important;
   	padding-right:rem-calc(12)!important
   }
+  .article-meta-footer, .article-via{
+		@include item-row;
+		line-height:rem-calc(24)!important;
+		padding-bottom: $rem-base;
+	}
 }
 @media #{$medium-only} {
 	.row-article-featured-image {
