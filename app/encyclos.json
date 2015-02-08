@@ -1,0 +1,11 @@
+---
+layout: null
+---
+{
+  "posts" : [
+    {% assign encyclos = site.encyclo | sort: 'title' %}
+		{% for encyclo in encyclos %}
+    "{{ encyclo.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
