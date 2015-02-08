@@ -403,7 +403,7 @@ $linkedin:#0077B5;
   color:$white;
   font-weight:$font-weight-bold
 }
-.panel-twitter a:hover {color:scale-color($white, $lightness: -16%);}
+.panel-twitter a:hover {color:scale-color($white, $lightness: -16%)}
 @media #{$small-only} {
 	.carte-twtr-text{
 		display:block;
@@ -512,7 +512,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 	@include font-serif-paragraphe
 }
 .highlight{margin-bottom:rem-calc(24)}
-.article-tags, .article-via{
+.article-meta-footer, .article-via{
 	@include item-row;
 	display:block;
 	margin-bottom:rem-calc(24);
