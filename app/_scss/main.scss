@@ -215,6 +215,7 @@ $linkedin:#0077B5;
 
 // button
 .button-without-border{@include button($bg:false, $radius:2px); margin-bottom:0;}
+.button-without-bg{@include button($bg:false, $radius:2px);border:1px solid $primary-color}
 
 // breadcrumb
 .breadcrumbs{margin-bottom:rem-calc(0)}
@@ -621,20 +622,16 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 	color:$oil;
 	font-weight:$font-weight-normal
 }
+.breadcrumbs.is-encyclo{padding-top:0}
 .encyclo-titre:hover{color:$oil}
+.encyclo--title{margin:0}
+.encyclo--title-def{width:100%}
+.encyclo--description{display:block;font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
+@media #{$large-up}{.row-body-article.encyclo-offre--contenu{padding-top:rem-calc(48)}}
 
 // 00. SECTION COMMENTAIRES
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .carte-commentaire{border-bottom:1px solid $secondary-color;}
-
-// 00. SECTION ENCYCLO
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-.encyclo-titre{
-	font-size:$h3-font-size;
-	color:$oil;
-	font-weight:$font-weight-normal
-}
-.encyclo-titre:hover{color:$oil}
 
 // 00. SECTION COLLECTIONS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
