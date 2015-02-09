@@ -233,8 +233,7 @@ module.exports = function (grunt) {
         options: {
           collapseWhitespace: true,
           collapseBooleanAttributes: true,
-          removeAttributeQuotes: true,
-          removeRedundantAttributes: true
+          removeAttributeQuotes: true
         },
         files: [{
           expand: true,
@@ -275,23 +274,12 @@ module.exports = function (grunt) {
           width: 1024
         }]
       },
-      dist: {
-        files: [{
-          expand: true,
-          src: ['img/**/*.{gif,jpg,png}'],
-          cwd: '<%= yeoman.app %>',
-          custom_dest: '<%= yeoman.dist %>/img/{%= name %}'
-        }]
-      },
       server: {
-        options: {
-          newFilesOnly: true
-        },
         files: [{
           expand: true,
           src: ['img/**/*.{gif,jpg,png}'],
           cwd: '<%= yeoman.app %>',
-          custom_dest: '.tmp/img/{%= name %}'
+          custom_dest: '<%= yeoman.app %>/img/{%= name %}'
         }]
       }
     },
@@ -348,6 +336,16 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
+        }]
+      },
+      // Copy *img into .tmp directory
+      stageImg: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          src: 'img/**/*',
+          dest: '.tmp/img'
         }]
       },
       // Copy CSS into .tmp directory for Autoprefixer processing
@@ -414,6 +412,7 @@ module.exports = function (grunt) {
       server: [
         'sass:server',
         'copy:stageCss',
+        'copy:stageImg',
         'jekyll:server'
       ],
       dist: [
@@ -431,9 +430,9 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
+      'responsive_images:server',
       'concurrent:server',
       'autoprefixer:server',
-      'responsive_images:server',
       'connect:livereload',
       'watch'
     ]);
@@ -470,7 +469,6 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'imagemin',
-    'responsive_images:dist',
     'svgmin',
     'filerev',
     'usemin',
