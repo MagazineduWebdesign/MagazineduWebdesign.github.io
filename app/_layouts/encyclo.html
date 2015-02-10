@@ -10,23 +10,6 @@ layout: default
         <div class="job--entreprise-logo is-offre" alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]"></div>
       </div>
       <div class="small-12 medium-12 large-8 columns columns small-text-center large-text-left">
-        <!-- Categories on GitHub Pages without plugin
-        source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
-        ================================================== -->
-        {% if page.category %}
-        {% for encyclo_category in site.data.encyclocategories %}
-          {% if encyclo_category.slug == page.category %}
-            {% assign category = encyclo_category %}
-          {% endif %}
-        {% endfor %}
-        {% if category %}
-          {% capture category_content %}<a href="/encyclo/categorie/{{ category.slug }}/">{{ category.name | upcase }}</a>{% endcapture %}
-        {% endif %}
-        {% else %}
-          {% assign category_content = '' %}
-        {% endif %}
-      
-        <ul class="breadcrumbs is-encyclo show-for-large-up"><li>{{ category_content }}</li></ul>
         <h1 class="encyclo--title" itemprop="headline"><span class="left encyclo--title-def">{{ page.title }}</span>{% if page.intro %}<span class="encyclo--description">{{ page.intro }}</span>{% endif %}</h1>
       </div>
       <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
