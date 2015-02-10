@@ -14,7 +14,7 @@ layout: default
         source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
         ================================================== -->
         {% if page.category %}
-        {% for encyclo_category in site.data.encyclo_categories %}
+        {% for encyclo_category in site.data.encyclocategories %}
           {% if encyclo_category.slug == page.category %}
             {% assign category = encyclo_category %}
           {% endif %}
