@@ -9,11 +9,4 @@ $(document).foundation({
 	  scrolltop : false // jump to top when sticky nav menu toggle is clicked
 	}
 });
-$(document).ready(function() {
-  $('pre code').each(function(i, block) {
-    hljs.configure({tabReplace: '  '});
-    hljs.highlightBlock(block);
-  });
-});
-
 $('#header').headroom();

@@ -27,7 +27,21 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 King was a man of the people, arguably the strongest leader for African-American civil rights the world has ever seen. He worked with communities across the country, spending intimate time with churchgoers, non-violent protestors and people who travelled from afar to hear his mighty speeches.
 
 Jekyll also offers powerful support for code snippets:
-
+{% highlight html %}
+<li class="name">
+  <a href="{{ site.baseurl }}/"> 
+    <svg id="logo" class="left" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <g id="svg_3">
+          <circle fill="#FF5700" stroke="#000000" stroke-width="0" cx="20" cy="20" r="20" id="svg_1"/>
+          <text fill="#ffffff" stroke="#000000" stroke-width="0" x="20" y="27" id="svg_2" font-size="20" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold">M</text>
+        </g>
+      </g>
+    </svg>
+    <span class="show-for-medium-up right">MagazineDu<span id="titre-site-orange">Webdesign</span></span>          
+  </a>
+</li>
+{% endhighlight %}
 {% highlight html %}
 <div class="projects-container">
   <ul>

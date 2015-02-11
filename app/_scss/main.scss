@@ -1,6 +1,5 @@
 @import "settings";
 // @import "foundation";
-@import "_syntax-highlighting"; 
 // Or selectively include components
 @import 
 //   "foundation/components/accordion",
@@ -125,6 +124,19 @@ $linkedin:#0077B5;
 .twitter{color:$twitter!important}
 .label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
+.highlight {
+	background:$jet;
+	overflow:auto;
+	font-family:$font-family-monospace;
+	font-size: rem-calc(14);
+	border-radius:$global-radius;
+	padding:$rem-base;
+	margin-bottom:rem-calc(24)
+}
+.highlight code {
+	padding:0;
+	color:$white
+}
 
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -135,7 +147,7 @@ $linkedin:#0077B5;
 .header-liste-link a:hover{color:$oil}
 .header-bg-svg{
 	background-position: right rem-calc(-64);
-	background-repeat: no-repeat
+	background-repeat:no-repeat
 }
 @media #{$small-only}{
 	.header-bg-svg{background-image:none!important}
@@ -512,7 +524,6 @@ $linkedin:#0077B5;
 main.column-body-article p, main.column-body-article ul, main.column-body-article ol, main.column-body-article blockquote, .page-editoriale-intro p{
 	@include font-serif-paragraphe
 }
-.highlight{margin-bottom:rem-calc(24)}
 .article-meta-footer, .article-via{
 	@include item-row;
 	display:block;
