@@ -3,6 +3,7 @@ title: Twitter recrute un UX researcher à San Francisco
 entreprise: Twitter
 fonction: UX researcher
 lieu: San Francisco
+type: CDI
 statut: 
 image: galaxie.jpg
 date: 2015-01-05 00:00:00

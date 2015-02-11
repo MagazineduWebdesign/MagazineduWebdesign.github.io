@@ -3,7 +3,8 @@ title: Google recrute un UX Designer à San Francisco
 entreprise: Google
 fonction: UX Designer
 lieu: San Francisco
-statut: 
+type: CDI
+statut:
 image: galaxie.jpg
 date: 2015-01-05 00:00:01
 ---
