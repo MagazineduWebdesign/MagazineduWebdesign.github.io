@@ -703,7 +703,11 @@ background-position: center}
 	.row-body-article.job-offre--contenu{padding-top:rem-calc(48)}
 	.job--valeurs-promesses p{margin-bottom:0}
 }
-
+// offres in article
+.job--in-article{padding-top:rem-calc(24)}
+.job--in-article h1{font-size:rem-calc(14);margin-bottom:rem-calc(8)}
+.job--in-article p{margin-bottom:rem-calc(8)}
+.job--in-article-to-board{color:$tuatara}
 
 // 00. FOOTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
