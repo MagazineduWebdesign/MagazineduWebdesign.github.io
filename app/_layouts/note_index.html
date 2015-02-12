@@ -16,7 +16,7 @@ layout: default
         <h1 class="text-center"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M27 1.34s1.48 5.3 1.48 9.6c0 4.12-2.7 7.47-6.83 7.47s-7.25-3.34-7.25-7.47l.05-.72C10.43 15.03 8 21.23 8 28c0 8.84 7.16 16 16 16s16-7.16 16-16c0-10.79-5.19-20.41-13-26.66zM23.42 38c-3.56 0-6.45-2.81-6.45-6.28 0-3.25 2.09-5.53 5.63-6.24s7.2-2.41 9.23-5.15c.78 2.58 1.19 5.3 1.19 8.07 0 5.29-4.3 9.6-9.6 9.6z" fill="#999999"/></svg>{{ page.title }}</h1>
         
         <p class="text-center">
-          {{ page.desc }}
+          {{ page.intro }}
           <a href="">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -38,7 +38,7 @@ layout: default
       </div>
     </header>
   </div>
-  <div class="note-index infinite-index current-page" data-page="briefs">
+  <div class="note-index current-page" data-page="briefs">
   <!-- source group list items by date http://stackoverflow.com/a/20777475/4376200 -->
   {% assign notes = site.note | reverse %}
   {% for note in notes limit: 5 %}
@@ -85,7 +85,7 @@ layout: default
       {% capture day %}{{currentday}}{% endcapture %} 
     {% endif %}
 
-    <article class="note {% cycle 'note-first', '', '', '', '', '', '', '', '', 'note-last' %}">
+    <article class="js-postcount note {% cycle 'note-first', '', '', '', '', '', '', '', '', 'note-last' %}">
       <div class="row">
         <div class="small-1 columns note-circle-number">
           <div class="circle">

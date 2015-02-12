@@ -35,19 +35,25 @@
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
   Twitter: https://dev.twitter.com/docs/cards/types/summary-card
   ============================== -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}"/>
-  <meta property="og:site_name" content="{{ site.title }}"/>
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-  <meta property="og:description" content="{{ page.description }}"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}" />
+  <meta property="article:published_time" content="{{ page.date }}" />
+  <meta property="article:modified_time" content="{{ page.date }}" />
+  <meta property="article:author" content="https://twitter.com/MagDuWebdesign" />
+  <meta property="og:site_name" content="Magazine du Webdesign" />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | prepend:'/img/medium/' }}"/>
+  <meta property="og:image" content="{{ page.image | prepend:'/img/medium/' }}" />
   {% endif %}
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@MagDuWebdesign" />
+  <meta name="twitter:creator" content="@guillaumpalayer">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
+  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}">
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | prepend:'/img/medium/' }}">
+  <meta name="twitter:image:src" content="{{ page.image | prepend:'/img/medium/' }}" />
   {% endif %}
 
 </head>

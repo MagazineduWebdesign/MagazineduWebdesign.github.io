@@ -30,60 +30,7 @@
           <a href="#" data-reveal-id="partage-article">
             <svg class="ic_block-h64-no-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" fill="#999999"/></svg>
           </a>
-          <!-- Modalbox partage de la carte brief
-          ================================================== -->
-          <div id="partage-article" class="reveal-modal" data-reveal>
-            <div class="row-liste-index">
-              <div class="small-12 columns text-center">
-                <a class="close-reveal-modal">&#215;</a>
-                <p class=" titre-modal-box">Partager "{{ page.title }}"</p>
-                <div class="row-liste-index large-collapse note-partage">
-                  <div class="small-6 medium-3 medium-offset-3 columns">
-                    <a href="#" class="partage-twitter">
-                      <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path id="twitter-icon" d="M462,128.223c-15.158,6.724-31.449,11.269-48.547,13.31c17.449-10.461,30.854-27.025,37.164-46.764 c-16.333,9.687-34.422,16.721-53.676,20.511c-15.418-16.428-37.386-26.691-61.698-26.691c-54.56,0-94.668,50.916-82.337,103.787 c-70.25-3.524-132.534-37.177-174.223-88.314c-22.142,37.983-11.485,87.691,26.158,112.85c-13.854-0.438-26.891-4.241-38.285-10.574 c-0.917,39.162,27.146,75.781,67.795,83.949c-11.896,3.237-24.926,3.978-38.17,1.447c10.754,33.58,41.972,58.018,78.96,58.699 C139.604,378.282,94.846,390.721,50,385.436c37.406,23.982,81.837,37.977,129.571,37.977c156.932,0,245.595-132.551,240.251-251.435 C436.339,160.061,450.668,145.174,462,128.223z" fill="#ffffff" />
-                      </svg>TWEETER
-                    </a>
-                  </div>
-                  <div class="small-6 medium-3 end columns">
-                    <a href="#" class="partage-facebook">
-                      <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="facebook-square-rounded-icon" d="M411.945,50h-312c-27.614,0-50,22.386-50,50v312c0,27.614,22.386,50,50,50h312
-                        c27.614,0,50-22.386,50-50V100C461.945,72.386,439.56,50,411.945,50z M323.688,160.658c0,0-22.893,0-31.988,0
-                        c-11.291,0-13.645,4.625-13.645,16.309c0,9.723,0,28.227,0,28.227h45.633l-4.391,49.551h-41.242v148.03h-59.111V255.372h-30.74
-                        v-50.178h30.74c0,0,0-7.215,0-39.517c0-37.087,19.832-56.452,63.818-56.452c7.205,0,40.926,0,40.926,0V160.658z" fill="#ffffff"/></svg>
-                      PARTAGER
-                    </a>
-                  </div>
-                </div>
-                <div class="row-liste-index large-collapse note-partage">
-                  <div class="small-6 medium-3 medium-offset-3 columns">
-                    <a href="#" class="partage-linkedin">
-                      <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                      <path id="linkedin-square-rounded-icon" d="M411.945,50h-312c-27.614,0-50,22.386-50,50v312c0,27.614,22.386,50,50,50h312
-                      c27.614,0,50-22.386,50-50V100C461.945,72.386,439.56,50,411.945,50z M180.996,392.99h-56.537V210.336h56.537V392.99z
-                      M152.457,186.417c-18.465,0-33.432-15.09-33.432-33.703c0-18.614,14.967-33.704,33.432-33.704c18.463,0,33.432,15.09,33.432,33.704
-                      C185.889,171.327,170.92,186.417,152.457,186.417z M392.865,392.99h-56.262c0,0,0-69.582,0-95.881
-                      c0-26.296-9.988-40.974-30.781-40.974c-22.629,0-34.453,15.289-34.453,40.974c0,28.133,0,95.881,0,95.881h-54.223V210.336h54.223
-                      v24.599c0,0,16.309-30.171,55.041-30.171s66.455,23.648,66.455,72.572C392.865,326.262,392.865,392.99,392.865,392.99z" fill="#ffffff"/>
-                      </svg>
-                      LINKEDIN
-                    </a>
-                  </div>
-                  <div class="small-6 medium-3 end columns">
-                    <a href="#" class="partage-googleplus">
-                      <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M10 8H8v4H4v2h4v4h2v-4h4v-2h-4zm4.5-1.92V7.9l2.5-.5V18h2V5z" fill="#ffffff"/></svg>
-                      GOOGLE+
-                    </a>
-                  </div>
-                </div>
-                <div class="row-liste-index">
-                  <div class="small-12 medium-6 medium-centered columns note-partage-url">
-                    <input type="text" value="{{ site.url }}{{ page.url }}">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {% include custom/sections/share-post-modal-box.html %}
         </div>
       </li>
     </ul>
@@ -92,7 +39,7 @@
       <!-- Right Nav Section -->
       <ul class="topbar-partage right">
         <li class="has-form topbar-partage-item">
-          <a href="#" class="button radius topbar-partage-twitter">
+          <a href="https://twitter.com/share?url={{ page.url }}&amp;text={{ page.title }}&amp;via=MagDuWebdesign" class="button radius topbar-partage-twitter" rel="nofollow" target="_blank">
             <svg class="ic-block-h24--share" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
@@ -106,7 +53,7 @@
           </a>
         </li>
         <li class="has-form topbar-partage-item">
-          <a href="#" class="button radius topbar-partage-facebook">
+          <a href="http://www.facebook.com/sharer.php?u={{ page.url }}}&amp;t={{ page.title }}" class="button radius topbar-partage-facebook" rel="nofollow" target="_blank">
             <svg class="ic-block-h24--share" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="facebook-square-rounded-icon" d="M411.945,50h-312c-27.614,0-50,22.386-50,50v312c0,27.614,22.386,50,50,50h312
               c27.614,0,50-22.386,50-50V100C461.945,72.386,439.56,50,411.945,50z M323.688,160.658c0,0-22.893,0-31.988,0
               c-11.291,0-13.645,4.625-13.645,16.309c0,9.723,0,28.227,0,28.227h45.633l-4.391,49.551h-41.242v148.03h-59.111V255.372h-30.74
@@ -117,8 +64,9 @@
           <a href="#"><svg class="ic_block-h64-no-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
           <ul class="dropdown">
               <li><label>PARTAGER SUR..</label></li>
-              <li><a href="#">GOOGLE+</a></li>
-              <li><a href="#">LINKEDIN</a></li>
+              <li><a href="https://plus.google.com/share?url={{ page.url }}" rel="nofollow" target="_blank">GOOGLE+</a></li>
+              <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url }}&amp;title={{ page.title }}" rel="nofollow" target="_blank">LINKEDIN</a></li>
+              <li><a href="http://www.pinterest.com/pin/create/button/?url={{ page.url }}&amp;media=&amp;description={{ page.title }}" rel="nofollow" target="_blank">LINKEDIN</a></li>
           </ul>
         </li>
 
