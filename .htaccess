@@ -1,0 +1,20 @@
+#
+Options All -Indexes
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE image/gif
+AddOutputFilterByType DEFLATE image/jpg
+AddOutputFilterByType DEFLATE image/jpeg
+AddOutputFilterByType DEFLATE image/png
+</ifmodule>
+# END GZIP
+
+# BEGIN Expire headers
+<FilesMatch "(?i)^.*\.(ico|flv|jpg|jpeg|png|gif|js|css|woff|svg)$">
+ExpiresActive On
+ExpiresDefault A2592000
+</FilesMatch>
