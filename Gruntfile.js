@@ -331,8 +331,7 @@ module.exports = function (grunt) {
             '_bower_components/foundation/js/foundation/foundation.accordion.js',
             '_bower_components/foundation/js/foundation/foundation.interchange.js',
             '_bower_components/foundation/js/foundation/foundation.reveal.js',
-            '_bower_components/foundation/js/foundation/foundation.topbar.js',
-            '.htaccess'
+            '_bower_components/foundation/js/foundation/foundation.topbar.js'
             //'favicon.ico',
             //'apple-touch*.png'
           ],
