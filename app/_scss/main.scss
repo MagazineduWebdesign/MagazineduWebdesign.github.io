@@ -400,9 +400,10 @@ $linkedin:#0077B5;
 }
 .note h1:hover{color:$jet}
 .note p, .note blockquote{@include font-serif-paragraphe}
+.note-figure{margin: 0 rem-calc(-24) 0;}
 .note-img{
-	display:block;
-	margin:($rem-base * 1.5) 0
+	width: 100%;
+	max-width: 100%;
 }
 .note-partage {@include item-row}
 .note-partage a {color:$aluminum}

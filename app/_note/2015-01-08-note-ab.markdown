@@ -1,10 +1,11 @@
 ---
-title: note avc
+title: note ab
 source-name: frontendfront 
 source-url: http://frontendfront.com/recent/
 source-favicon: http://frontendfront.com/favicon.ico
-image: 
+image: galaxie.jpg
+image-legende: Arctium minus (lesser burdock) plant, bud and section through burr. © Thomé, 1885
 date: 2015-01-02 00:00:00
 ---
 Trusted by some of the world's smartest companies !
-<blockquote>He just wants to pour that additional money into the broken, existing system.<cite>Preemptive Strikes  Jan 18, 2015</cite></blockquote> 
+Of course, there’s one big question left unanswered: If Catster is supposed to capture the energy of online cat content … then why should anybody bother buying it in print? That’s where I-5’s problems stop being cat-specific. That’s where it has to be like any other magazine publisher: It’s trying to make a visually sumptuous publication that readers will want to hold, not just click.
