@@ -67,14 +67,14 @@ layout: default
   </div>
 
   <div class="row-liste-index">
-    <div class="small-12 columns section-carte-index-panel infinite-index current-page" data-page="encyclos">
+    <div class="small-12 columns section-carte-index-panel current-page" data-page="encyclos">
 
       {% if site.collections.encyclo %}
         {% assign encyclos = site.encyclo | sort: 'title' %}
         {% for encyclo in encyclos %}
 
           <a href="{{ encyclo.url | prepend: site.baseurl }}">
-            <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               
               <div class="row collapse">
                 <div class="small-9 columns">
