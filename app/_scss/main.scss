@@ -120,7 +120,7 @@ $linkedin:#0077B5;
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.titre-modal-box{font-size:$h2-font-size}
+.titre-modal-box{font-family:$font-family-serif;font-size:$h3-font-size}
 .twitter{color:$twitter!important}
 .label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
@@ -210,14 +210,6 @@ $linkedin:#0077B5;
 	margin:0 auto ($rem-base * 1.5);
 	width:24px
 }
-.reveal-modal-bg{
-	background-image:url(../img/integration/infini.svg);
-	background-position: left rem-calc(88);
-	background-repeat: no-repeat
-}
-@media #{$small-only}{
-	.reveal-modal-bg{background-image:none}
-}
 
 //partage
 .partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
@@ -241,24 +233,6 @@ $linkedin:#0077B5;
 .ic-block-h24--share{display:inline-block;vertical-align:middle;margin-top:rem-calc(-2)}
 .ic-block-h48{display:inline-block;vertical-align:middle;margin-right:rem-calc(8)} 
 .ic-block-h48-title-left{position:relative;top:rem-calc(12);margin:rem-calc(0 8 8 0)} 
-
-// shape
-.note-circle-number{padding-left:0}
-.circle{
-	border-radius:50%;
-  width:rem-calc(24);
-  height:rem-calc(24);
-  border:1px solid $aluminum;
-}
-.circle-content{
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-	font-size:rem-calc(14);
-	color:$aluminum;
-	text-align:center
-}
 
 // loader
 .infinite-spinner {
@@ -378,10 +352,12 @@ $linkedin:#0077B5;
 	padding-bottom:0;
 	margin-bottom:0
 }
-.note{padding:rem-calc(24) 0 0}
-.note-border{border-bottom:1px solid $secondary-color}
-.note-border-last{border-bottom:0}
-.note-first{padding:0}
+@media #{$small-only} {
+	.section-brief-panel{@include panel($padding:$rem-base);margin-bottom:0}
+	.section-brief-header{padding:0 rem-calc(16)}
+}
+.note{padding:rem-calc(24) 0 0;border-top:1px solid $secondary-color}
+.note-first{padding:0;border-top:0}
 .note-source-id{margin-bottom:($rem-base / 2)}
 .note-source-favicon{
 	width:$rem-base;
@@ -399,12 +375,19 @@ $linkedin:#0077B5;
 	font-weight:$font-weight-bold
 }
 .note h1:hover{color:$jet}
-.note p, .note blockquote{@include font-serif-paragraphe}
-.note-figure{margin: 0 rem-calc(-24) 0;}
-.note-img{
-	width: 100%;
-	max-width: 100%;
+.note-figcaption, .note p, .note blockquote{@include font-serif-paragraphe}
+.note-flex-video{@include flex-video-container();margin-bottom:0}
+.note-figure-img, .note-figure-video{margin: 0 rem-calc(-24) 0;}
+.note-container-img{	
+	min-height:rem-calc(250);
+	background-color:$primary-color;
+	width: 100%;max-width: 100%
 }
+.note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(8) rem-calc(24) 0;font-style:italic;color:$aluminum}
+@media #{$medium-up} {
+	.note-figcaption{line-height:rem-calc(48);padding-top:0;}
+}
+
 .note-partage {@include item-row}
 .note-partage a {color:$aluminum}
 .note-partage a:hover{color:$topbar-link-color-hover}
