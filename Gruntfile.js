@@ -265,7 +265,7 @@ module.exports = function (grunt) {
           height: 80
         },{
         name: 'small',
-          width: 320
+          width: 360
         },{
           name: 'medium',
           width: 640
