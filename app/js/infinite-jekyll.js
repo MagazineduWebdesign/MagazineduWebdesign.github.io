@@ -158,12 +158,11 @@ $(function() {
           // item note
           // ----------------------------------
           if(dateClean !== $(data).find('.section-brief-header').attr('data-cleaned')) {
-          str='<article class="note first-note js-postcount"><div class="row"><div class="small-1 columns note-circle-number">';
+          str='<article class="js-postcount note note-first"><div class="row collapse"><div class="small-12 columns">';
           } else {
-            str='<article class="note js-postcount"><div class="row"><div class="small-1 columns note-circle-number">';
+            str='<article class="js-postcount note"><div class="row collapse"><div class="small-12 columns">';
           }
-          str+='<div class="circle"><div class="circle-content"><!--??? gestion numéro de la note --></div></div></div>';
-          str+='<div class="small-11 columns note-border">'+$(data).find('.section-brief-panel').html()+'</div></div></article>';
+          str+= $(data).find('.section-brief-panel').html();
           $('.date-'+$(data).find('.section-brief-header').attr('data-cleaned')).append(str);
 
           dateClean = $(data).find('.section-brief-header').attr('data-cleaned');
@@ -171,7 +170,7 @@ $(function() {
           break;
 
         default: $('.section-carte-index-panel').append('<h1>'+$(data).find('.headline-post').html()+'</h1>');
-
+        $(document).foundation('interchange', 'reflow');  
       }
       $(poststructure);
       callback();
