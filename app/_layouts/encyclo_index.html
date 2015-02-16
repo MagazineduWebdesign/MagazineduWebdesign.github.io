@@ -18,13 +18,13 @@ layout: default
           <div class="small-12 columns header-liste-link text-center">
             {% if page.category %}
               <a href="{{site.baseurl}}/{{site.collections.encyclo.label | downcase}}/">{{ site.collections.encyclo.label | upcase }}</a>
-            {% endif %}
+            {% endif %} 
           </div>
         </div>
         <h1 class="text-center">#{{ page.title }}</h1>
         <p class="text-center">
           {{ page.intro }} 
-          <a href="">
+          <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
@@ -71,7 +71,7 @@ layout: default
 
       {% if site.collections.encyclo %}
         {% assign encyclos = site.encyclo | sort: 'title' %}
-        {% for encyclo in encyclos %}
+        {% for encyclo in encyclos limit: 2 %}
 
           <a href="{{ encyclo.url | prepend: site.baseurl }}">
             <article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
