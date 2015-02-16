@@ -117,7 +117,7 @@ $black       : #000000;
 
 // We use these as default colors throughout
 $primary-color: #FF5700;
-$secondary-color: #e7e7e7;
+$secondary-color: #ededed;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 $warning-color: #f08a24;
@@ -956,8 +956,8 @@ $panel-bg: $white;
 // $panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
-// $panel-function-factor: -11%;
-// $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
+$panel-function-factor: -7%;
+$panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
 
 // We use these to set default inner padding and bottom margin
  $panel-margin-bottom: rem-calc(24);
