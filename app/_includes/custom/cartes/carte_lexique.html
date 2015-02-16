@@ -5,12 +5,14 @@
     </div>
   </div>
   <div class="row-liste-index">
-    <div class="small-12 columns section-carte-panel">
-      <dl>
-        <dt><a class="encyclo-titre" href="{{site.baseurl}}/{{site.collections.encyclo.label}}/{{ page.keyword_title | downcase }}/">{{ page.keyword_title }}</a></dt>
-        <dd>{{ page.keyword_desc }}</dd>
-      </dl>
-    </div>
+    <a class="encyclo-titre" href="{{site.baseurl}}/{{site.collections.encyclo.label}}/{{ page.keyword_title | downcase }}/">
+      <div class="small-12 columns carte-encyclo section-carte-panel">
+        <dl>
+          <dt>{{ page.keyword_title }}</dt>
+          <dd>{{ page.keyword_desc }}</dd>
+        </dl>
+      </div>
+    </a>
   </div>
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-action">
