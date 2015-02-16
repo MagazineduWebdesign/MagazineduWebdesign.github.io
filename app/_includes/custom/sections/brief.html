@@ -121,29 +121,7 @@
           <a href="#" data-reveal-id="partage-carte-brief" class="button-without-border">PARTAGEZ LE BRIEF AVEC VOS AMIS</a>
         </div>
       </div>
-      <!-- Modalbox partage de la carte brief
-      ================================================== -->
-      <div id="partage-carte-brief" class="reveal-modal" data-reveal>
-        <div class="row-liste-index">
-          <div class="small-12 columns text-center">
-            <a class="close-reveal-modal">&#215;</a>
-            <p class=" titre-modal-box">Partager le Brief avec vos amis</p>
-            <div class="row-liste-index large-collapse note-partage">
-              <div class="small-6 medium-3 medium-offset-3 columns">
-                <a href="#" class="partage-twitter">TWEETER</a>
-              </div>
-              <div class="small-6 medium-3 end columns">
-                <a href="#" class="partage-facebook">PARTAGER</a>
-              </div>
-            </div>
-            <div class="row-liste-index">
-              <div class="small-12 medium-6 medium-centered columns note-partage-url">
-                <input type="text" value="{{ site.url }}{{ note.url }}">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% include custom/sections/share-brief-footer.html %}
     </div>
   </article>
 </section>
