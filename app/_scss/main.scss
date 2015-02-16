@@ -399,6 +399,8 @@ background-position: center}
 .note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(8) rem-calc(24) 0;font-style:italic;color:$aluminum}
 @media #{$medium-up} {
 	.note-figcaption{line-height:rem-calc(48);padding-top:0;}
+}@media #{$small-only} {
+	.note-figure-img, .note-figure-video{margin: 0 rem-calc(-12) 0;}
 }
 
 .note-partage {@include item-row}
