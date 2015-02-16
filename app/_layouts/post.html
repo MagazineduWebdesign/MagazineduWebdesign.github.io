@@ -69,7 +69,7 @@ layout: default
 		  	{% assign offres = site.offre-emploi | reverse %}
   			{% for offre in offres limit: 2 %}
 					<p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
-	          {{ offre.entreprise }} {% if offre.statut %} {{ offre.statut }}{% endif %} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+	          {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
 	        </a></p>
 				{% endfor %}
 				<p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>

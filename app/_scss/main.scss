@@ -175,9 +175,15 @@ $linkedin:#0077B5;
 }
 .section-carte-panel {
   @include panel;
-  margin-bottom:0
+  margin-bottom:0;
+	border-bottom-width:rem-calc(2);
+	border-top-width:0;
 }
-.section-carte-index-panel {@include panel($padding:0)}
+.section-carte-index-panel {
+	@include panel($padding:0);
+	border-bottom-width:rem-calc(2);
+	border-top-width:0;
+}
 .section-carte-panel h1{
   font-size:($rem-base * 1.5);
   line-height:($rem-base * 1.5)
@@ -186,7 +192,8 @@ $linkedin:#0077B5;
 	margin-bottom:($rem-base * 1.5);
 	padding:0 $rem-base;
 	border:1px solid $secondary-color;
-	border-top:0px;
+	border-bottom-width:rem-calc(2);
+	border-top-width:0;
 	background-color:$white;
 	line-height:48px; 
 	font-size:rem-calc(14)
@@ -233,6 +240,12 @@ $linkedin:#0077B5;
 .ic-block-h24--share{display:inline-block;vertical-align:middle;margin-top:rem-calc(-2)}
 .ic-block-h48{display:inline-block;vertical-align:middle;margin-right:rem-calc(8)} 
 .ic-block-h48-title-left{position:relative;top:rem-calc(12);margin:rem-calc(0 8 8 0)} 
+
+// icons
+.rounded-img-d64{width:rem-calc(64)!important;height:rem-calc(64)!important;margin:0 auto rem-calc(24);border-radius:50%;background-size: cover;
+background-position: center}
+.rounded-img-d40{width:rem-calc(40)!important;height:rem-calc(40)!important;margin:0 auto;border-radius:50%;background-size: cover;
+background-position: center}
 
 // loader
 .infinite-spinner {
@@ -395,7 +408,11 @@ $linkedin:#0077B5;
 
 // 00. SECTION TWITTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.panel-twitter {@include panel($bg:$twitter,$adjust:true);}
+.panel-twitter {
+	@include panel($bg:$twitter,$adjust:true);
+	border-bottom-width:rem-calc(2);
+	border-top-width:0
+}
 .panel-twitter a {
   color:$white;
   font-weight:$font-weight-bold
@@ -619,10 +636,10 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 }
 .breadcrumbs.is-encyclo{padding-top:0}
 .encyclo-titre:hover{color:$oil}
-.encyclo--title{margin:0}
-.encyclo--title-def{width:100%}
-.encyclo--description{display:block;font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
-@media #{$large-up}{.row-body-article.encyclo-offre--contenu{padding-top:rem-calc(48)}}
+.encyclo-title{margin:0}
+.encyclo-title-def{width:100%}
+.encyclo-description{display:block;font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
+@media #{$large-up}{.row-body-article.encyclo-offre-contenu{padding-top:rem-calc(48)}}
 
 // 00. SECTION COMMENTAIRES
 // - - - - - - - - - - - - - - - - - - - - - - - - -

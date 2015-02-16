@@ -7,16 +7,14 @@ layout: default
   <div class="header-liste">
     <header class="row-body-article">
       <div class="small-12 medium-12 large-1 columns small-text-center">
-        <div class="job--entreprise-logo is-offre" alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]"></div>
+        <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'/img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]"></div>
       </div>
       <div class="small-12 medium-12 large-8 columns columns small-text-center large-text-left">
-        <h1 class="encyclo--title" itemprop="headline"><span class="left encyclo--title-def">{{ page.title }}</span>{% if page.intro %}<span class="encyclo--description">{{ page.intro }}</span>{% endif %}</h1>
+        <h1 class="encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
       </div>
       <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
-        <ul class="inline-list">
-        {% if page.github %}<li><a href="{{ page.github }}" class="button-without-bg" target="_blank">Github</a></li>{% endif %}
-        {% if page.siteweb %}<li><a href="{{ page.siteweb }}" class="button-without-bg" target="_blank">Site Web</a></li>{% endif %}
-        </ul>
+        {% if page.github %}<a href="{{ page.github }}" class="button-without-bg" target="_blank">Github</a>{% endif %}
+        {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button-without-bg" target="_blank">Site Web</a>{% endif %}
       </div>
     </header>
   </div>
@@ -25,7 +23,7 @@ layout: default
       <span class="section-header-titre article-bgimg-meta-by-time">Publiée le {% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></span>
     </div>
   </div>
-  <div class="row-body-article encyclo-offre--contenu"> 
+  <div class="row-body-article encyclo-offre-contenu"> 
     <div class="article-meta-by-time show-for-large-up">
       <aside>
         <p class="article-bgimg-meta-by-time">Publiée le {% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
@@ -36,7 +34,7 @@ layout: default
         {% assign offres = site.offre-emploi | reverse %}
         {% for offre in offres limit: 2 %}
           <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
-            {{ offre.entreprise }} {% if offre.statut %} {{ offre.statut }}{% endif %} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+            {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
           </a></p>
         {% endfor %}
         <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>

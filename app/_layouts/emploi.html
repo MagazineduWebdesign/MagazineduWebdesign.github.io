@@ -7,7 +7,7 @@ layout: default
   <div class="header-liste">
 		<header class="row-body-article">
 			<div class="small-12 medium-12 large-1 columns small-text-center">
-				<div class="job--entreprise-logo is-offre" alt="logo {{ page.entreprise }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]"></div>
+				<div class="rounded-img-d64" alt="logo {{ page.entreprise }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]"></div>
 			</div>
       <div class="small-12 medium-12 large-9 columns columns small-text-center large-text-left">
         <h1 class="job--title" itemprop="headline"><span class="left job--entreprise">{{ page.entreprise }} {% if page.statut %}<span class="label--secondary">{{ page.statut }}{% endif %}</span></span><span class="job--description">recrute un {{ page.fonction }} en {{ page.type }} à {{ page.lieu }}</span></h1>
@@ -29,11 +29,11 @@ layout: default
       </aside>
       <aside class="job--in-article">
         {% if site.offre-emploi %}
-          <h1>AU TRAVAIL, NERD !</h1>
+          <h1>ILS RECHERCHENT DES TALENTS</h1>
           {% assign offres = site.offre-emploi | reverse %}
           {% for offre in offres limit: 2 %}
             <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
-              {{ offre.entreprise }} {% if offre.statut %} {{ offre.statut }}{% endif %} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+              {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
             </a></p>
           {% endfor %}
           <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
