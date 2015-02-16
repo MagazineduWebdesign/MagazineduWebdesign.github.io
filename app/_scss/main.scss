@@ -599,11 +599,12 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 // 00. SECTION NEWSLETTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .section-carte-newsletter{
-	margin-bottom:($rem-base * 1.5);
-	padding:($rem-base * 1.5);
+	margin-bottom:rem-calc(24);
+	padding:rem-calc(24);
 }
+.section-carte-newsletter.is-header-liste{margin-bottom:0}
 .section-carte-newsletter h1{
-	margin-bottom:($rem-base * 1.5);
+	margin-bottom:rem-calc(24);
 	font-size: $h2-font-size;
 }
 .section-carte-newsletter input, .reveal-modal input{
