@@ -178,7 +178,6 @@ $(function() {
           break;
 
         default: $('.section-carte-index-panel').append('<h1>'+$(data).find('.headline-post').html()+'</h1>');
-        $(document).foundation('interchange', 'reflow');  
       }
       $(poststructure);
       callback();
