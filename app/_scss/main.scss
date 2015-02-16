@@ -396,11 +396,11 @@ background-position: center}
 	background-color:$primary-color;
 	width: 100%;max-width: 100%
 }
-.note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(8) rem-calc(24) 0;font-style:italic;color:$aluminum}
+.note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(8) rem-calc(16) 0;font-style:italic;color:$aluminum}
 @media #{$medium-up} {
-	.note-figcaption{line-height:rem-calc(48);padding-top:0;}
+	.note-figcaption{line-height:rem-calc(48);padding:rem-calc(0) rem-calc(24) 0;}
 }@media #{$small-only} {
-	.note-figure-img, .note-figure-video{margin: 0 rem-calc(-12) 0;}
+	.note-figure-img, .note-figure-video{margin: 0 rem-calc(-16) 0;}
 }
 
 .note-partage {@include item-row}
@@ -631,13 +631,15 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 
 // 00. SECTION ENCYCLO
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+.carte-encyclo{border-bottom-width:rem-calc(1)}
+.carte-encyclo:hover{background-color: scale-color($white, $lightness: -5%);color:$oil}
 .encyclo-titre{
 	font-size:$h3-font-size;
 	color:$oil;
 	font-weight:$font-weight-normal
 }
+.encyclo-titre:hover{background-color: scale-color($white, $lightness: -5%);color:$oil}
 .breadcrumbs.is-encyclo{padding-top:0}
-.encyclo-titre:hover{color:$oil}
 .encyclo-title{margin:0}
 .encyclo-title-def{width:100%}
 .encyclo-description{display:block;font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
