@@ -61,10 +61,26 @@ layout: default
 	{% endif %}
 
 	<div class="row-body-article item-contenu"> 
-	  <aside class="article-meta-by-time show-for-large-up">
-	  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
-	  </aside>
-
+	  <div class="article-meta-by-time show-for-large-up">
+		  <aside>
+		  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
+		  </aside>
+			<aside class="job--in-article">
+        {% if site.offre-emploi %}
+          <h1>AU TRAVAIL, NERD !</h1>
+          {% assign offres = site.offre-emploi | reverse %}
+          {% for offre in offres limit: 2 %}
+            <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+              {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+            </a></p>
+          {% endfor %}
+          <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
+        {% else %}
+          <h1>AU TRAVAIL, NERD !</h1>
+          <p>Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
+        {% endif %}
+      </aside>
+    </div>
 	  <main class="column-body-article">
 	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
 	  	{{ content }}
