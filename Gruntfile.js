@@ -9,7 +9,7 @@
 //   fonts: fonts
 
 // param Cache-Headers S3 storage
-var EXPIRE_IN_2030 = new Date('2030');  
+var EXPIRE_IN_2030 = new Date('2030');
 var TWO_YEAR_CACHE_PERIOD_IN_SEC = 60 * 60 * 24 * 365 * 2;
 
 module.exports = function (grunt) {
