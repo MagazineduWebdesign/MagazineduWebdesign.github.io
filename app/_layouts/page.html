@@ -6,7 +6,7 @@ layout: default
 
 <article>
   {% if page.bgimgheader == true %}
-	<div class="header-article-bgimg" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
+	<div class="header-article-bgimg" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
 	  <div class="header-article-bgimg-shadow">
 	    <div class="header-article-bgimg-conteneur">
 		    <div class="header-article-bgimg-cellule">
@@ -17,7 +17,7 @@ layout: default
 			  ==> https://notegraphy.com/
 			  ================================================== -->
 			  {% endif %}
-		      <header class="row-body-article {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'/img/integration/' }});"{% endif %}>
+		      <header class="row-body-article {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }});"{% endif %}>
 		        <div class="column-header-article" >
 		          <h1>{{ page.title }}</h1>
 		        </div>
@@ -41,7 +41,7 @@ layout: default
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">
-		  	<img data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'/img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  	<img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}"></noscript>
 		  </div>
 
 		  {% if page.image-legende %}

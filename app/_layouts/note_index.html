@@ -10,7 +10,7 @@ layout: default
   ==> https://notegraphy.com/
   ================================================== -->
   {% endif %}
-  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'/img/integration/' }})"{% endif %}>
+  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
     <header class="row-liste-index">
       <div class="small-12 columns">
         <h1 class="text-center"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M27 1.34s1.48 5.3 1.48 9.6c0 4.12-2.7 7.47-6.83 7.47s-7.25-3.34-7.25-7.47l.05-.72C10.43 15.03 8 21.23 8 28c0 8.84 7.16 16 16 16s16-7.16 16-16c0-10.79-5.19-20.41-13-26.66zM23.42 38c-3.56 0-6.45-2.81-6.45-6.28 0-3.25 2.09-5.53 5.63-6.24s7.2-2.41 9.23-5.15c.78 2.58 1.19 5.3 1.19 8.07 0 5.29-4.3 9.6-9.6 9.6z" fill="#999999"/></svg>{{ page.title }}</h1>
@@ -109,8 +109,8 @@ layout: default
       <div class="row collapse">
         <div class="small-12 columns">
           <figure class="note-figure-img">
-            <img data-interchange="[{{ note.image | prepend:'/img/small/' }}, (small)],[{{ note.image | prepend:'/img/medium/' }}, (medium)],[{{ note.image | prepend:'/img/large/' }}, (large)]" class="note-container-img" />
-            <noscript><img src="{{ note.image | prepend:'/img/large/' }}" alt="{{ note.image-legende }}"></noscript>
+            <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" class="note-container-img" />
+            <noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ note.image-legende }}"></noscript>
             
             {% if note.image-legende %}
             <div class="row collapse">

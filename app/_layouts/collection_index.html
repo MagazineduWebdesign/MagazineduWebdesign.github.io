@@ -10,7 +10,7 @@ layout: default
   ==> https://notegraphy.com/
   ================================================== -->
   {% endif %}
-  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'/img/integration/' }})"{% endif %}> 
+  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}> 
     <header class="row-liste-index">
       <div class="small-12 columns">
         
@@ -52,7 +52,7 @@ layout: default
         {% for collection in collections limit: 2 %}
 
           <a href="{{ collection.url | prepend: site.baseurl }}" title="{{ collection.title }}">
-            <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'/img/small/' }}, (small)],[{{ collection.image | prepend:'/img/medium/' }}, (medium)],[{{ collection.image | prepend:'/img/large/' }}, (large)]">
+            <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
               <div class="collection-index-article-shadow">
                 <div class="collection-index-article-content">
                   <h1 class="text-center" itemprop="headline">{{ collection.title }}</h1>

@@ -13,7 +13,7 @@ layout: default
 	</a>
 </div>
 {% if page.bgimgheader == true %}
-	<div class="header-article-bgimg is-img" data-is-img="{{ page.image | prepend:'/img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]">
+	<div class="header-article-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
 	  <div class="header-article-bgimg-shadow">
 	    <div class="header-article-bgimg-conteneur">
 		    <div class="header-article-bgimg-cellule">
@@ -45,7 +45,7 @@ layout: default
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">
-		  	<img class="is-img" data-is-img="{{ page.image | prepend:'/img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'/img/small/' }}, (small)],[{{ page.image | prepend:'/img/medium/' }}, (medium)],[{{ page.image | prepend:'/img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'/img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}"></noscript>
 		  </div>
 
 		  {% if page.image-legende %}
