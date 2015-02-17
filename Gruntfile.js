@@ -8,6 +8,10 @@
 //   images: img
 //   fonts: fonts
 
+// param Cache-Headers S3 storage
+var EXPIRE_IN_2030 = new Date('2030');  
+var TWO_YEAR_CACHE_PERIOD_IN_SEC = 60 * 60 * 24 * 365 * 2;
+
 module.exports = function (grunt) {
   // Show elapsed time after tasks run
   require('time-grunt')(grunt);
@@ -15,6 +19,8 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+    //
+    aws: grunt.file.readJSON('grunt-aws.json'),
     // Configurable paths
     yeoman: {
       app: 'app',
@@ -318,6 +324,7 @@ module.exports = function (grunt) {
             // Copy moves asset files and directories.
             'img/**/*',
             'fonts/**/*',
+            '.gitignore',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
@@ -419,6 +426,22 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+    s3: {
+      options: {
+        accessKeyId: '<%= aws.key %>',
+        secretAccessKey: '<%= aws.secret %>',
+        bucket: '<%= aws.bucket %>',
+        region: 'eu-west-1',
+        headers: {
+          CacheControl: TWO_YEAR_CACHE_PERIOD_IN_SEC,
+          Expires: EXPIRE_IN_2030
+        },
+      },
+      dist: {
+        cwd: '<%= yeoman.dist %>/img',
+        src: '**'
+      }
     }
   });
 
@@ -479,6 +502,7 @@ module.exports = function (grunt) {
     'check',
     'test',
     'build',
+    's3:dist',
     'buildcontrol:dist'
     ]);
 

@@ -32,7 +32,13 @@ Thumbs.db
 *.zip
 
 # Ignore for Yeoman-Jekyll projects #
+# This take care of img during push to dist #
 app/_bower_components
 dist
 node_modules
 .tmp
+app/img
+img
+
+# Ignore for S3 storage #
+grunt-aws.json
