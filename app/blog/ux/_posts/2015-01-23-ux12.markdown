@@ -7,7 +7,7 @@ tags:
 - topic
 intro: Paragraphe d'introduction...
 description: blablabla
-image: galaxie.jpg
+image: hungarian-money-concept-euro-barbara-bernat-11.jpg
 keyword_title: Jekyll
 keyword_desc: blabla bla bla bla blablabla bla blablabla bla blablabla.
 reference-name: Bloomberg
