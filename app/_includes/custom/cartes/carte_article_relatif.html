@@ -31,7 +31,7 @@
 
               <div class="small-3 columns">
                 {% if post.image %}
-                <img class="right" src="{{ post.image | prepend:'/img/xsmall/' }}" alt="{{ post.image-legende }}" />
+                <img class="right" src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ post.image-legende }}" />
                 {% endif %}
               </div>
 

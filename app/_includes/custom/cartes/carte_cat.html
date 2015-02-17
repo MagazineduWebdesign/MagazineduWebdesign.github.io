@@ -9,7 +9,7 @@
     	{% for post in site.categories.[include.param] limit:1 %}
 
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <article class="carte-categorie-article-prioritaire" data-interchange="[{{ post.image | prepend:'/img/small/' }}, (small)],[{{ post.image | prepend:'/img/medium/' }}, (medium)],[{{ post.image | prepend:'/img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="carte-categorie-article-prioritaire" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/edium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="carte-categorie-article-prioritaire-shadow">
               <div class="carte-categorie-article-prioritaire-content">
                 <h1 itemprop="headline">{{ post.title }}</h1>
@@ -31,7 +31,7 @@
 
               <div class="small-3 columns">
                 {% if post.image %}
-                <img class="right" src="{{ post.image | prepend:'/img/xsmall/' }}" alt="{{ post.title }}" width="140" height="80"/>
+                <img class="right" src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ post.title }}" width="140" height="80"/>
                 {% endif %}
               </div>
             </div>

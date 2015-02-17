@@ -35,7 +35,7 @@
         <div class="row collapse">
           <div class="small-12 columns">
             <figure class="note-figure-img">
-              <img data-interchange="[{{ note.image | prepend:'/img/small/' }}, (small)],[{{ note.image | prepend:'/img/medium/' }}, (medium)],[{{ note.image | prepend:'/img/large/' }}, (large)]" class="note-container-img" /><noscript><img src="{{ note.image | prepend:'/img/large/' }}" alt="{{ note.image-legende }}"></noscript>
+              <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" class="note-container-img" /><noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ note.image-legende }}"></noscript>
               
               {% if note.image-legende %}
               <div class="row collapse">
