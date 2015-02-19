@@ -12,11 +12,11 @@ layout: default
   <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
 		<header class="row-liste-index text-center"> 
 			<div class="small-12 columns">
-				<div class="job--header-liste-link">
-					<a href="/emploi/" {% if page.tab1 == true %}class="is-active"{% endif %} title="offres d'emploi">OFFRES D'EMPLOI</a>
-					<a href="/recruter/" {% if page.tab2 == true %}class="is-active"{% endif %} title="recruter">RECRUTER</a>
-					<a href="/data-salaire/" {% if page.tab3 == true %}class="is-active"{% endif %} title="recruter">DATA SALAIRE</a>
-					<a href="/candidater/" {% if page.tab4 == true %}class="is-active"{% endif %} title="recruter">CONSEILS</a>
+				<div class="tabs">
+					<a href="/emploi/" class="tabs-item {% if page.tab1 == true %}is-active{% endif %}" title="offres d'emploi">OFFRES D'EMPLOI</a>
+					<a href="/recruter/" class="tabs-item {% if page.tab2 == true %}is-active{% endif %}" title="recruter">RECRUTER</a>
+					<a href="/data-salaire/" class="tabs-item {% if page.tab3 == true %}is-active{% endif %}" title="recruter">DATA SALAIRE</a>
+					<a href="/candidater/" class="tabs-item {% if page.tab4 == true %}is-active{% endif %}" title="recruter">CONSEILS</a>
 				</div>
 				<h1>{{ page.title }} {% if page.tab3 == true %}<span class="label--secondary">COMING SOON</span>{% endif %}</h1>
 				{{ content }}
