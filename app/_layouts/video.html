@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+{% assign post = page %}
+
+{% include custom/sections/article_header.html %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+{% if page.bgimgheader == true %}
+	<div class="header-article-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
+	  <div class="header-article-bgimg-shadow">
+	    <div class="header-article-bgimg-conteneur">
+		    <div class="header-article-bgimg-cellule">
+		    {% else %}{% endif %}
+		      <header class="row-body-article">
+		        <div class="column-header-article">
+		          <h1 class="headline-post" itemprop="headline">{{ page.title }}</h1>
+		          <aside class="hide-for-large-up">
+						  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time>
+					      </p>
+						  </aside>
+		        </div>
+		      </header>
+
+	{% if page.bgimgheader == true %}
+			  </div>
+	    </div>
+	  </div>
+	</div>
+
+	{% if page.image-legende %}
+  <div class="row-body-article">
+  	<div class="column-article-featured-image-caption">
+  		<p>{{ page.image-legende }}</p>
+  	</div>
+  </div>
+  {% endif %}
+	
+	{% else %}
+		{% if page.image %}
+		<div class="row-article-featured-image">
+		  <div class="column-article-featured-image">
+		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  </div>
+
+		  {% if page.image-legende %}
+		  <div class="row-body-article">
+		  	<div class="column-article-featured-image-caption">
+		  		<p>{{ page.image-legende }}</p>
+		  	</div>
+		  </div>
+		  {% endif %}
+
+		</div>
+		{% endif %}
+	{% endif %}
+
+	<div class="row-body-article item-contenu"> 
+	  <div class="article-meta-by-time show-for-large-up">
+	  	
+	  	<aside>
+		  	<p class="article-meta-item-by">Ecrit par</p><p class="article-meta-auteur"><a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %}</p>
+		  	<p class="article-meta-item-time"><time>{{ datearticle }}</time></p>
+		  </aside>
+		  
+		  <aside class="job--in-article">
+		  {% if site.offre-emploi %}
+		  	<h1>AU TRAVAIL, NERD !</h1>
+		  	{% assign offres = site.offre-emploi | reverse %}
+  			{% for offre in offres limit: 2 %}
+					<p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+	          {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+	        </a></p>
+				{% endfor %}
+				<p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
+			{% else %}
+				<h1>AU TRAVAIL, NERD !</h1>
+				<p>Vous cherchez du travail ?	Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
+			{% endif %}
+		  </aside>
+		  
+	  </div>
+
+	  <main class="column-body-article">
+	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
+	  	{{ content }}
+			<!-- Tags on GitHub Pages without plugin
+			source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
+			================================================== -->
+			{% if post.tags.size > 0 %}
+        {% capture tags_content %} ITEMS RELATIFS : {% endcapture %}
+        {% for post_tag in post.tags %}
+          {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+              {% assign tag = data_tag %}
+            {% endif %}
+          {% endfor %}
+          {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign tags_content = '' %}
+      {% endif %}
+
+			{% if page.viatitle %}
+			<!-- Via
+			================================================== -->
+			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>Via <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}">{{ page.viatitle }}</a></span>
+			{% endif %}
+			<!-- Tags
+			================================================== -->
+			<span class="article-meta-footer"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z" fill="#999999"/></svg>{{ tags_content | upcase }}</span>
+			<div class="row collapse article-partage">
+			  {% include custom/sections/share-article-footer.html %}
+			</div>
+	  </main>
+	</div>
+</article>
+
+{% include custom/sections/article_footer.html %}

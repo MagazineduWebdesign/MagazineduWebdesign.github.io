@@ -4,12 +4,22 @@
     <h1 class="hide">Navigation</h1>
     <ul class="title-area"> 
       <li class="name">
+      {% if page.category == 'video' %}
+        {% capture tags %}
+          {{ page.tags | last  }}
+        {% endcapture %}
+      {% else %}
         {% capture layout %}
           {% assign layout = page.layout %}
           {% case layout %}{% when 'note' %}notes{% when 'collection' %}collections{% when 'encyclo' %}encyclo{% when 'encyclo_category_index' %}encyclo{% when 'emploi' %}emploi{% when 'recruter' %}recruter{% when 'candidater' %}candidater{% else %}{{ page.category }}{% endcase %}
         {% endcapture %}
-        
+      {% endif %}
+      
+      {% if page.category == 'video' %}
+        <a href="{{ site.baseurl }}{{ tags | remove: ' ' | prepend: '/videos/' }}">
+      {% else %}
         <a href="{{ site.baseurl }}/{{ layout | remove: ' ' }}/">
+      {% endif %}
 
           <div class="left">
             <svg class="ic_block-h64-ic-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="#999999"/></svg>
@@ -23,7 +33,13 @@
                 </g>
               </g>
             </svg>
-            <span class="show-for-medium-up left">MagazineDu<span id="titre-site-orange">Webdesign</span></span><span class="left"><svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>{{ layout | capitalize }}</span>
+            <span class="show-for-medium-up left">MagazineDu<span id="titre-site-orange">Webdesign</span></span><span class="left"><svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+            {% if page.category == 'video' %}
+              {{ tags | replace: '-', ' ' | camelcase }}
+            {% else %}
+              {{ layout | replace: '-', ' ' | capitalize }}
+            {% endif %}
+            </span>
           </div>
         </a>
         <div class="show-for-small-only right">

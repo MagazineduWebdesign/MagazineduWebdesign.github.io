@@ -1,0 +1,25 @@
+---
+layout: video
+title:  Video AJS 1
+date:   2015-02-17 17:22:57
+category: video
+tags: 
+- videos
+- angular-js
+intro: Paragraphe d'introduction...
+description: blablabla
+image: hungarian-money-concept-euro-barbara-bernat-11.jpg
+keyword_title: Jekyll
+keyword_desc: blabla bla bla bla blablabla bla blablabla bla blablabla.
+reference-name: Bloomberg
+reference-title: Je suis le titre de la référence
+reference-url: http://twitter.com
+reference-02-name: Bloomberg
+reference-02-title: Je suis le titre de la référence
+reference-02-url: http://twitter.com
+---
+
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+
+Jekyll also offers...
