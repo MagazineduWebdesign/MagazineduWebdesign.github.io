@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "settings";
 // @import "foundation";
 // Or selectively include components
@@ -25,7 +26,7 @@
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
 "foundation/components/reveal",
-//   "foundation/components/side-nav",
+"foundation/components/side-nav",
 //   "foundation/components/split-buttons",
 //   "foundation/components/sub-nav",
 //   "foundation/components/switch",
@@ -58,6 +59,7 @@
 // 00. SECTION COLLECTIONS
 // 00. SECTION COLLECTION
 // 00. SECTION JOB
+// 00. SECTION VIDEO
 // 02. FOOTER
 // 00. 404
 
@@ -141,6 +143,7 @@ $linkedin:#0077B5;
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{@include header-liste}
+.header-liste.mod-videos-index{padding-bottom: 0}
 .header-liste h1{@include header-liste-title($color:$tuatara)}
 .header-liste p{@include font-serif-paragraphe}
 .header-liste-link a{@include header-liste-link}
@@ -279,6 +282,19 @@ background-position: center}
   }
 }
 
+// tabs
+.tabs{margin-bottom: rem-calc(24)}
+.tabs.mod-tabs-videos{margin-bottom: 0}
+	.tabs-item{
+		display:inline-block;
+		@include header-liste-link;
+		line-height:rem-calc(48);
+		padding:rem-calc(0 16)
+	}
+	.tabs-item:hover{color:$oil}
+	.tabs-item.is-active{border-bottom:1px solid $primary-color}
+	.tabs-item:hover.is-active{border-bottom:1px solid scale-color($primary-color, $lightness: -16%)}
+
 // 01. TOP BAR
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .dropdown{
@@ -391,9 +407,7 @@ background-position: center}
 .note-figcaption, .note p, .note blockquote{@include font-serif-paragraphe}
 .note-flex-video{@include flex-video-container();margin-bottom:0}
 .note-figure-img, .note-figure-video{margin: 0 rem-calc(-24) 0;}
-.note-container-img{	
-	min-height:rem-calc(250);
-	background-color:$primary-color;
+.note-container-img{
 	width: 100%;max-width: 100%
 }
 .note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(8) rem-calc(16) 0;font-style:italic;color:$aluminum}
@@ -434,8 +448,11 @@ background-position: center}
   margin-bottom:0
 }
 .carte-categorie-article-prioritaire{
-	height: ($topbar-height * 5.625);
+	height:rem-calc(360);
 	@include header-bgimg
+}
+@media #{$small-only} {
+	.carte-categorie-article-prioritaire{height:rem-calc(224)}
 }
 .carte-categorie-article-prioritaire-content{padding:$rem-base}
 .carte-categorie-article-prioritaire-content h1{color:$white}
@@ -693,16 +710,6 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .job--notification-header a{display:block;line-height:rem-calc(48);background-color:$primary-color;color:$white}
 .job--notification-header a:hover{background-color: scale-color($primary-color, $lightness: -16%)}
-.job--header-liste-link{margin-bottom:rem-calc(24)}
-.job--header-liste-link a{
-	display:inline-block;
-	@include header-liste-link;
-	line-height:rem-calc(48);
-	padding:rem-calc(0 16)
-}
-.job--header-liste-link a.is-active{border-bottom:1px solid $primary-color}
-.job--header-liste-link a:hover{color:$oil}
-.job--header-liste-link a:hover.is-active{border-bottom:1px solid scale-color($primary-color, $lightness: -16%)}
 .job--valeurs-promesses {margin-bottom:rem-calc(24)}
 .job--valeurs-promesses h2{font-size:$h3-font-size;margin-bottom:0}
 .job--valeurs-promesses p{@include font-sans-serif-paragraphe; color:$aluminum}
@@ -725,6 +732,12 @@ background-position: center}
 .job--in-article h1{font-size:rem-calc(14);margin-bottom:rem-calc(8)}
 .job--in-article p{margin-bottom:rem-calc(8)}
 .job--in-article-to-board{color:$tuatara}
+
+// 00. SECTION VIDEO
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+header-liste-video{
+	padding:rem-calc(48) 0;
+}
 
 // 00. FOOTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
