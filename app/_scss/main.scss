@@ -775,8 +775,8 @@ background-position: center}
 			@include blend;
 			border-radius: $global-radius;
 			opacity: 0;
-			background: -webkit-linear-gradient(-45deg, #FF5700 0%,#f83600 100%);
-			background: linear-gradient(-45deg, #FF5700 0%,#f83600 100%);
+			background: -webkit-linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
+			background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
 			transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
 			-webkit-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
 			-moz-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
