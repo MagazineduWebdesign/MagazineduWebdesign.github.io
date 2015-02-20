@@ -1,19 +1,9 @@
 ---
 layout: page
-title: Feedback
-description: Questions, commentaires et demandes de fonctionnalités sont fortement encouragés.
-image-legende: Image via notegraphy.com
-bgimgheader:
-intro: Si quelque chose est cassé ou ne fonctionne pas comme vous l'auriez souhaité, cette page est faite pour vous.
+title: Say Hello !
+description: Notre objectif est de créer une synergie de partage et d’apprentissage pour la communauté francophone de designers et de développeurs Web.
+intro: Le Magazine du Webdesign explore et partage les dernières innovations en Webdesign et en développement Web.
 permalink: /hello/
 ---
-Questions, commentaires et demandes de fonctionnalités sont fortement encouragés. Alors lâchez-vous !
-
-* Feedback via <hello@magazineduwebdesign.com> 
-* <a href="github.com">Feedback via GitHub</a>
-
-## TO DO > DOING > DONE
-Magazine Du Webdesign est en constante évolution.
-J'ai créé un <a href="">board Trello</a> contenant une liste de fonctionnalités en cours de développement et une autre liste pour les éléments prévues dans quelques releases. De cette manière, vous pouvez voir mon avancée.
-
-Vous voulez donner un coup de main ? Vous êtes le/la bienvenu(e) sur <a href="https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io/issues">GitHub</a>.
+Nous sommes passionnés par le design, le code et tout ce qui s’y rattache.
+Notre objectif ? Faire de MDW une vitrine de ces passions avec des articles de qualité, pour créer une synergie de partage et d’apprentissage pour la communauté francophone de designers et de développeurs Web.
