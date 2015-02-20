@@ -83,10 +83,10 @@ layout: default
 
 
 	<div class="row">
-	  <div class="small-12 columns current-page" data-page="{{ page.tags }}">
-			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+	  <div class="small-12 columns" data-page="videos">
+			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 current-page">
 			{% if site.tags[page.tags] %}
-				{% for post in site.tags[page.tags] limit: 5 %}
+				{% for post in site.tags[page.tags] limit: 6 %}
 				<li>
 					
 	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article" class="js-postcount">
@@ -94,7 +94,7 @@ layout: default
 	            <div class="row">
 	              <div class="small-12 columns">
 	              	{% if post.id-youtube %}
-	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (small)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/maxresdefault.jpg, (medium)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (large)]">
+	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (small)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (medium)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (large)]">
 	                <a href="{{ post.url | prepend: site.baseurl }}">
 	                	<div class="videos-index-video-thumbnail-shadow">
 	                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>

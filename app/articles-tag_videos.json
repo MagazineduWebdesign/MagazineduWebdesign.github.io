@@ -1,0 +1,10 @@
+---
+layout: null
+---
+{
+  "posts" : [
+    {% for post in site.tags.videos %}
+    "{{ post.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
