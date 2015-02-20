@@ -8,7 +8,7 @@ tags:
 - design
 intro: Paragraphe d'introduction...
 description: blablabla
-image: hungarian-money-concept-euro-barbara-bernat-11.jpg
+id-youtube: a7bX7T8lltI
 keyword_title: Jekyll
 keyword_desc: blabla bla bla bla blablabla bla blablabla bla blablabla.
 reference-name: Bloomberg

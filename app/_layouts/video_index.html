@@ -88,24 +88,32 @@ layout: default
 			{% if site.tags[page.tags] %}
 				{% for post in site.tags[page.tags] limit: 5 %}
 				<li>
-					<a href="{{ post.url | prepend: site.baseurl }}">
-	          <article itemscope="" itemtype="http://schema.org/Article" class="js-postcount">
+					
+	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article" class="js-postcount">
 	            
 	            <div class="row">
 	              <div class="small-12 columns">
-	              	{% if post.image %}
-	                <img class="right" src="http://img.youtube.com/vi/a7bX7T8lltI/mqdefault.jpg" alt="{{ post.image-legende }}" />
+	              	{% if post.id-youtube %}
+	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (small)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/maxresdefault.jpg, (medium)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (large)]">
+	                <a href="{{ post.url | prepend: site.baseurl }}">
+	                	<div class="videos-index-video-thumbnail-shadow">
+	                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
+	                	</div>
+	                </a>
+	                </div>
 	                {% endif %}
 	              </div>
 	            </div>
 	            <div class="row">
 	              <div class="small-12 columns">
-	              	<h1 itemprop="headline">{{ post.title }}</h1> 
+	              <a href="{{ post.url | prepend: site.baseurl }}">
+	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
+	              </a>
 	              </div>
 	            </div>
 
 	          </article>
-	        </a>
+
 				</li>
 				{% endfor %}
 			</ul>

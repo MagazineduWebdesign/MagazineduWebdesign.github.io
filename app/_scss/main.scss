@@ -85,6 +85,7 @@
 // Utilisé pour contrôler le style des blends image
 @mixin blend($padding: $rem-base,$color: $black, $opacity:.4) {
 	height:100%;
+	width: 100%;
 	padding:$padding;
 	background-color:rgba($color,$opacity);
 	box-shadow:inset 0 0px 24px rgba($color,.2)
@@ -735,9 +736,41 @@ background-position: center}
 
 // 00. SECTION VIDEO
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-header-liste-video{
-	padding:rem-calc(48) 0;
+.videos-index-video-item{
+	min-height: rem-calc(248);
 }
+	.videos-index-video-thumbnail{
+		position: relative;
+		min-width: rem-calc(290);
+		min-height: rem-calc(160);
+		border-radius: $global-radius;
+		background-size: cover;
+		background-position: center center;
+	}
+		.videos-index-video-thumbnail-shadow{
+			position: absolute;
+			left: 0;
+			top: 0;
+			@include blend;
+			border-radius: $global-radius
+		}	
+		.videos-index-video-thumbnail-shadow:hover{
+			background-color:rgba($black,.6)
+		}
+		.videos-index-video-play-icon{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: rem-calc(48);
+			height: rem-calc(48);
+			margin: -24px 0 0 -24px
+		}
+	.videos-index-video-title{
+		padding-top: $rem-base;
+		font-size: $rem-base;
+		line-height: rem-calc(24);
+		color: $primary-color
+	}
 
 // 00. FOOTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
