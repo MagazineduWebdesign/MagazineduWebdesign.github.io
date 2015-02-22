@@ -1,11 +1,11 @@
 ---
 layout: video
-title:  This Gamer Girl Bursts Into Tears When She Gets The Surprise Present From Her Brothers
-date:   2015-02-17 17:23:57
+title: Kate Upton Brings Out An Epic Rap Battle On Game Of War
+date: 2015-02-17 17:22:57
 category: videos
 tags:
-- ux-design
-tag-title: UX Design
+- angular-js
+- design
 intro: Paragraphe d'introduction...
 description: blablabla
 id-youtube: a7bX7T8lltI
