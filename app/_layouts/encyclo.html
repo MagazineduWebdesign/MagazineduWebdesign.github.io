@@ -10,7 +10,7 @@ layout: default
         <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
       </div>
       <div class="small-12 medium-12 large-8 columns columns small-text-center large-text-left">
-        <h1 class="encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
+        <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
       </div>
       <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
         {% if page.github %}<a href="{{ page.github }}" class="button-without-bg" target="_blank">Github</a>{% endif %}

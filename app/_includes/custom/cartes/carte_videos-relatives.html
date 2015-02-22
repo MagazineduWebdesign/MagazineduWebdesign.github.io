@@ -1,27 +1,27 @@
 <!-- source jekyll-related-posts-without-plugin >> http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/ -->
 {% assign hasSimilar = '' %}
-{% for post in site.related_posts limit:5 %}
+{% for post in site.related_posts | last | limit:5 %}
   {% assign postHasSimilar = false %}
-  {% for tag in post.tags %}
-    {% for thisTag in page.tags %}
+  {% for tag in post.tags | last %}
+    {% for thisTag in page.tags | last %}
       {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
         {% if hasSimilar.size == 0 %}
           <section>
             <div class="row-liste-index">
-              <div class="small-12 columns section-carte-header">
-                <h1 class="section-carte-header-title">Articles sur le même sujet</h1>
+              <div class="small-12 columns section-carte-header mod-article-video-header-relative">
+                <h1 class="section-carte-header-title mod-videos-relatives">Vidéos sur le même sujet</h1>
               </div>
             </div>
             <div class="row-liste-index">
-              <div class="small-12 columns carte-categorie">
+              <div class="small-12 columns carte-article-videos-relatives">
         {% endif %}
 
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="carte-article-secondaire mod-videos-relatives" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
             <div class="row collapse">
               <div class="small-9 columns">
-                <h1 class="carte-article-secondaire-post-title" itemprop="headline">
+                <h1 class="carte-article-secondaire-post-title mod-videos-relatives-post-title" itemprop="headline">
                   {{ post.title }}
                     {% if post.series %}
                       (Series: {{ post.series }})
@@ -30,8 +30,8 @@
               </div>
 
               <div class="small-3 columns">
-                {% if post.image %}
-                <img class="right" src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ post.image-legende }}" />
+                {% if post.id-youtube %}
+                <img class="carte-article-videos-relatives-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.image-legende }}" width="140" />
                 {% endif %}
               </div>
 
@@ -48,8 +48,8 @@
     </div>
   </div>
   <div class="row-liste-index">
-    <div class="small-12 columns section-carte-action">
-      <a href="{{ site.baseurl }}/{{ page.category | downcase }}/">TOUS LES ARTICLES {{ page.category | upcase }}</a>
+    <div class="small-12 columns section-carte-action mod-article-video-action-relative">
+      <a href="{{ site.baseurl }}{{ page.tags | last | remove: ' ' | prepend: '/videos/' }}">TOUS LES VIDEOS {{ page.tags | last | replace: '-', ' ' | upcase }}</a>
     </div>
   </div>
 </section>

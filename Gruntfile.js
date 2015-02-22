@@ -434,7 +434,8 @@ module.exports = function (grunt) {
         region: 'eu-west-1',
         headers: {
           CacheControl: TWO_YEAR_CACHE_PERIOD_IN_SEC,
-          Expires: EXPIRE_IN_2030
+          Expires: EXPIRE_IN_2030,
+          StorageClass: REDUCED_REDUNDANCY
         },
       },
       dist: {

@@ -34,7 +34,7 @@
         {% if note.image %}
         <div class="row collapse">
           <div class="small-12 columns">
-            <figure class="note-figure-img">
+            <figure class="figure-img mod-note-img">
               <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" class="note-container-img" /><noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ note.image-legende }}"></noscript>
               
               {% if note.image-legende %}
@@ -52,7 +52,7 @@
         {% if note.id-youtube %}
         <div class="row collapse">
           <div class="small-12 columns">
-            <figure class="note-figure-video">
+            <figure class="figure-video mod-note-video">
               <div class="note-flex-video widescreen">
                 <iframe src="https://www.youtube.com/embed/{{ note.id-youtube }}?showinfo=0&modestbranding=1&controls=2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
               </div>
@@ -71,7 +71,7 @@
         {% if note.id-vimeo %}
         <div class="row collapse">
           <div class="small-12 columns">
-            <figure class="note-figure-video">
+            <figure class="figure-video mod-note-video">
               <div class="note-flex-video widescreen vimeo">
                 <iframe src="http://player.vimeo.com/video/{{ note.id-vimeo }}?byline=0&color=ffffff&portrait=0&title=0&badge=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
               </div>

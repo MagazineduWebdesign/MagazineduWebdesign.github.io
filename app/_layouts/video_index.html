@@ -13,8 +13,8 @@ layout: default
 	<div class="header-liste mod-videos-index{% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
 	  <header class="row-liste-index">
 	    <div class="small-12 columns">
-	    	<h1 class="text-center">{{ page.title }}</h1>
-				<p class="text-center">
+	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
+				<p class="header-liste-content text-center">
 					{{ page.intro }} 
 					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -29,6 +29,13 @@ layout: default
             </svg>
           </a>
 	       </p>
+        <div class="yt-subscribe mod-videos-index">
+        	<span>Abonnez-vous à MDW VIDEOS</span>
+        	<div class="yt-subscribe-cta">
+        		<script src="https://apis.google.com/js/platform.js"></script>
+						<div class="g-ytsubscribe" data-channelid="UCd1PMrs5t1mOVrf-DlygcDA" data-layout="default" data-count="hidden"></div>
+					</div>
+        </div>
 	    </div>
 		</header>
 		<div class="row text-center">
@@ -74,27 +81,33 @@ layout: default
 	<div class="row">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
-		  {% for post in site.tags[page.tags] %}
-		    {% capture length %}{{ forloop.length }}{% endcapture %}
-		  {% endfor %}
+			{% if page.category == 'videos' %}
+				{% for post in site.categories.videos %}
+			    {% capture length %}{{ forloop.length }}{% endcapture %}
+			  {% endfor %}
+			{% else %}
+				{% for post in site.tags[page.tags] %}
+			    {% capture length %}{{ forloop.length }}{% endcapture %}
+			  {% endfor %}
+			{% endif %}
 	    <span class="section-header-titre">{{ length | append: ' vidéos à regarder'}}</span>
 	  </div>
 	</div>
 
 
 	<div class="row">
-	  <div class="small-12 columns" data-page="videos">
-			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 current-page">
-			{% if site.tags[page.tags] %}
-				{% for post in site.tags[page.tags] limit: 6 %}
-				<li>
-					
-	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article" class="js-postcount">
+	  <div class="small-12 columns">
+			<ul class="videos-index-container small-block-grid-1 medium-block-grid-2 large-block-grid-3 {% if page.category == 'videos' %}current-page{% endif %}" {% if page.category == 'videos' %}data-page="videos"{% endif %}>
+			{% if page.category == 'videos' %}
+				{% if site.categories.videos %}
+					{% for post in site.categories.videos limit: 6 %}
+					<li>
+	          <article class="videos-index-video-item js-postcount" itemscope="" itemtype="http://schema.org/Article">
 	            
 	            <div class="row">
 	              <div class="small-12 columns">
 	              	{% if post.id-youtube %}
-	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (small)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (medium)],[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (large)]">
+	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
 	                <a href="{{ post.url | prepend: site.baseurl }}">
 	                	<div class="videos-index-video-thumbnail-shadow">
 	                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
@@ -111,16 +124,50 @@ layout: default
 	              </a>
 	              </div>
 	            </div>
-
 	          </article>
+					</li>
+					{% endfor %}
+				</ul>
 
-				</li>
-				{% endfor %}
-			</ul>
-
+				{% else %}
+					<p>Il n'y a pas d'articles pour ce tag.</p>
+				{% endif %}
 			{% else %}
-				<p>Il n'y a pas d'articles pour ce tag.</p>
+				{% if site.tags[page.tags] %}
+					{% for post in site.tags[page.tags] limit: 6 %}
+					<li>
+	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article">
+	            
+	            <div class="row">
+	              <div class="small-12 columns">
+	              	{% if post.id-youtube %}
+	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
+	                <a href="{{ post.url | prepend: site.baseurl }}">
+	                	<div class="videos-index-video-thumbnail-shadow">
+	                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
+	                	</div>
+	                </a>
+	                </div>
+	                {% endif %}
+	              </div>
+	            </div>
+	            <div class="row">
+	              <div class="small-12 columns">
+	              <a href="{{ post.url | prepend: site.baseurl }}">
+	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
+	              </a>
+	              </div>
+	            </div>
+	          </article>
+					</li>
+					{% endfor %}
+				</ul>
+
+				{% else %}
+					<p>Il n'y a pas d'articles pour ce tag.</p>
+				{% endif %}
 			{% endif %}
+			
 
 	  </div>
 	</div>

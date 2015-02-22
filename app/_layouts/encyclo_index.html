@@ -21,8 +21,8 @@ layout: default
             {% endif %} 
           </div>
         </div>
-        <h1 class="text-center">#{{ page.title }}</h1>
-        <p class="text-center">
+        <h1 class="header-liste-headline text-center">#{{ page.title }}</h1>
+        <p class="header-liste-content text-center">
           {{ page.intro }} 
           <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -74,11 +74,11 @@ layout: default
         {% for encyclo in encyclos limit: 2 %}
 
           <a href="{{ encyclo.url | prepend: site.baseurl }}">
-            <article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               
               <div class="row collapse">
                 <div class="small-9 columns">
-                  <h1 itemprop="headline">{{ encyclo.title }}</h1> 
+                  <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ encyclo.title }}</h1> 
                 </div>
 
                 <div class="small-3 columns">

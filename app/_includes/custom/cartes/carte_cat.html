@@ -1,7 +1,7 @@
 <section>
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-header">
-      <h1>#{{ include.param | capitalize }}</h1>
+      <h1 class="section-carte-header-title">#{{ include.param | capitalize }}</h1>
     </div>
   </div>
   <div class="row-liste-index">
@@ -9,9 +9,9 @@
     	{% for post in site.categories.[include.param] limit:1 %}
 
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <article class="carte-categorie-article-prioritaire" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-            <div class="carte-categorie-article-prioritaire-shadow">
-              <div class="carte-categorie-article-prioritaire-content">
+          <article class="carte-article-prioritaire" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="carte-article-prioritaire-shadow">
+              <div class="carte-article-prioritaire-content">
                 <h1 itemprop="headline">{{ post.title }}</h1>
               </div>
             </div>
@@ -22,11 +22,11 @@
       {% for post in site.categories.[include.param] limit:2 offset:1 %}
       
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             
             <div class="row collapse">
               <div class="small-9 columns">
-              	<h1 itemprop="headline">{{ post.title }}</h1> 
+              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title }}</h1> 
               </div>
 
               <div class="small-3 columns">

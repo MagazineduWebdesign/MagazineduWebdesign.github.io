@@ -13,7 +13,7 @@ layout: default
 	<div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
 	  <header class="row-liste-index">
 	    <div class="small-12 columns">
-	    	<h1 class="text-center">{{ page.title }}</h1>
+	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
 				<p class="text-center">
 					{{ page.intro }} 
 					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
@@ -51,11 +51,11 @@ layout: default
 				{% for post in site.tags[page.tag] limit: 5 %}
 
 					<a href="{{ post.url | prepend: site.baseurl }}">
-	          <article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	          <article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 	            
 	            <div class="row collapse">
 	              <div class="small-9 columns">
-	              	<h1 itemprop="headline">{{ post.title }}</h1> 
+	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title }}</h1> 
 	              </div>
 
 	              <div class="small-3 columns">

@@ -1425,7 +1425,7 @@ $topbar-menu-icon-color-toggled: $aluminum;
 // $topbar-media-query: $medium-up;
 
 // Divider Styles
-$topbar-divider-border-bottom: solid 1px  scale-color($secondary-color, $lightness: 16%);
+$topbar-divider-border-bottom: solid 1px  $secondary-color;
 $topbar-divider-border-top: solid 1px scale-color($secondary-color, $lightness: -8%);
 
 // Sticky Class

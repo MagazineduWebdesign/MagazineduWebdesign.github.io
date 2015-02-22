@@ -4,9 +4,9 @@
     <h1 class="hide">Navigation</h1>
     <ul class="title-area"> 
       <li class="name">
-      {% if page.category == 'video' %}
+      {% if page.category == 'videos' %}
         {% capture tags %}
-          {{ page.tags | last  }}
+          {{ page.tags | first  }}
         {% endcapture %}
       {% else %}
         {% capture layout %}
@@ -15,7 +15,7 @@
         {% endcapture %}
       {% endif %}
       
-      {% if page.category == 'video' %}
+      {% if page.category == 'videos' %}
         <a href="{{ site.baseurl }}{{ tags | remove: ' ' | prepend: '/videos/' }}">
       {% else %}
         <a href="{{ site.baseurl }}/{{ layout | remove: ' ' }}/">
@@ -33,12 +33,22 @@
                 </g>
               </g>
             </svg>
-            <span class="show-for-medium-up left">MagazineDu<span id="titre-site-orange">Webdesign</span></span><span class="left"><svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
-            {% if page.category == 'video' %}
-              {{ tags | replace: '-', ' ' | camelcase }}
-            {% else %}
-              {{ layout | replace: '-', ' ' | capitalize }}
+            <span class="show-for-medium-up left">
+              MagazineDu<span id="titre-site-orange">Webdesign</span>
+            </span>
+            {% if page.category == 'videos' %}
+            <span class="left">
+              <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+              vidéos
+            </span>
             {% endif %}
+            <span class="left">
+              <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+              {% if page.category == 'videos' %}
+                {{ tags | replace: '-', ' ' | camelcase }}
+              {% else %}
+                {{ layout | replace: '-', ' ' | capitalize }}
+              {% endif %}
             </span>
           </div>
         </a>

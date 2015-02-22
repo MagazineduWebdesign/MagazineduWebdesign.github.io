@@ -12,7 +12,7 @@ layout: default
       <header class="row-liste-index">
         <div class="small-12 columns">
           <h1 class="headline-collection text-center">{{ page.title }}</h1>
-          <p class="desc-collection text-center">{{ page.intro }}</p>
+          <p class="header-liste-content u-no-margin-b text-center">{{ page.desc }}</p>
         </div>
       </header>
     </div>
@@ -39,11 +39,11 @@ layout: default
       {% for item in site.data.collections.[page.titre_fichier_data] %}
 
         <a href="{{ item.href }}">
-          <article class="carte-categorie-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             
             <div class="row collapse">
               <div class="small-9 columns">
-                <h1 itemprop="headline">{{ item.title }}</h1>
+                <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ item.title }}</h1>
                 <p>{{ item.desc }}</p>
               </div>
 

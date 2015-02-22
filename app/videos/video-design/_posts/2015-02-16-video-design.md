@@ -1,10 +1,9 @@
 ---
 layout: video
-title:  Video design 1
+title:  Crazy Fans Replaced Every Sound Effect In "Doom"
 date:   2015-02-16 17:22:57
-category: video
-tags: 
-- videos
+category: videos
+tags:
 - design
 intro: Paragraphe d'introduction...
 description: blablabla

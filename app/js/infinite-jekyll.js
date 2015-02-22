@@ -29,7 +29,7 @@ $(function() {
 
         // videos
         case 'videos':
-          urlJson = '/articles-tag_videos.json';
+          urlJson = '/articles-videos.json';
         break;
 
         // divers
@@ -120,15 +120,15 @@ $(function() {
         
         // categories
         case 'ux':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.headline-post').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'wordpress':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'">';
-          str+='<article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.headline-post').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
@@ -136,7 +136,7 @@ $(function() {
         // tags
         case 'html5':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'">';
-          str+='<article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.headline-post').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
@@ -144,25 +144,25 @@ $(function() {
         // videos
         case 'videos':
           str+='<li>';
-          str+='<article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article" class="js-postcount"><div class="row"><div class="small-12 columns">';
+          str+='<article class="videos-index-video-item js-postcount" itemscope="" itemtype="http://schema.org/Article"><div class="row"><div class="small-12 columns">';
           // video-thumbnail
-          str+='<div class="videos-index-video-thumbnail"style="background-image: url('+$(data).find('.video').attr('data-is-video')+');">';
-          str+='<a href="'+postURL+'" title="'+$(data).find('.video-title').html()+'">';
+          str+='<div class="videos-index-video-thumbnail" style="background-image: url('+$(data).find('.figure-video').attr('data-is-video')+');">';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
           str+='<div class="videos-index-video-thumbnail-shadow">';
           str+='<svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
           str+='</div></a></div></div></div>';
           // video-title
           str+='<div class="row"><div class="small-12 columns">';
-          str+='<a href="'+postURL+'" title="'+$(data).find('.video-title').html()+'">';
-          str+='<h1 class="videos-index-video-title" itemprop="headline">'+$(data).find('.video-title').html()+'</h1>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
+          str+='<h1 class="videos-index-video-title" itemprop="headline">'+$(data).find('.header-liste-headline').html()+'</h1>';
           str+='</a></div></div></article></li>';
-          $('.current-page').append(str);
+          $('.videos-index-container').append(str);
           break;
 
         // divers
         case 'encyclos':
           str+='<a href="'+postURL+'" title="'+$(data).find('.encyclo-title-def').html()+'">';
-          str+='<article class="carte-categorie-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 itemprop="headline">'+$(data).find('.encyclo-title-def').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.encyclo-title-def').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.encyclo-title-def').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;

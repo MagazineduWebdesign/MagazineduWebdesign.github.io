@@ -1,11 +1,11 @@
 ---
 layout: video
-title:  Video AJS 1
+title:  Kate Upton Brings Out An Epic Rap Battle On "Game Of War"
 date:   2015-02-17 17:22:57
-category: video
-tags: 
-- videos
+category: videos
+tags:
 - angular-js
+- design
 intro: Paragraphe d'introduction...
 description: blablabla
 id-youtube: a7bX7T8lltI
