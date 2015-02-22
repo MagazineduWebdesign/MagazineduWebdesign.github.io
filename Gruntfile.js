@@ -435,7 +435,7 @@ module.exports = function (grunt) {
         headers: {
           CacheControl: TWO_YEAR_CACHE_PERIOD_IN_SEC,
           Expires: EXPIRE_IN_2030,
-          StorageClass: REDUCED_REDUNDANCY
+          StorageClass: 'REDUCED_REDUNDANCY'
         },
       },
       dist: {
