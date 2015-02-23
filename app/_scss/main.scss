@@ -231,13 +231,20 @@ $linkedin:#0077B5;
 
 //article-prioritaire
 .carte-article-prioritaire{
-	height:rem-calc(360);
-	@include header-bgimg
+	@include header-bgimg;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.2%;
 }
 	.carte-article-prioritaire-content{padding:$rem-base}
-	.carte-article-prioritaire-content h1{color:$white}
+	.carte-article-prioritaire-title{font-size: $h2-font-size; line-height:rem-calc(24)!important; color:$white!important}
 	.carte-article-prioritaire-shadow{
-		height:100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
 		background-color:rgba($black,.4);
 		box-shadow: inset 0 0px 24px rgba($black,.2);
 		transition: all .2s cubic-bezier(.42, 0, 1, 1); 
@@ -275,8 +282,8 @@ $linkedin:#0077B5;
 	.carte-article-secondaire-post-title{
 		margin: rem-calc(0 16 0 0);
 		font-size: $h3-font-size;
-		color: $jet;
-		line-height: rem-calc(24)
+		line-height: rem-calc(24)!important;
+		color: $jet
 	}
 	.carte-article-secondaire-post-title.mod-job-title{
 		margin: 0
