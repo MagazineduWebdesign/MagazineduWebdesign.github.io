@@ -1,0 +1,11 @@
+- name: FULL SCREEN
+  currentnav:
+  permalink: /ressources/themes-wordpress/full-screen/
+
+- name: 1 COLONNE
+  currentnav:
+  permalink: /ressources/themes-wordpress/1-colonne/
+
+- name: 2 COLONNES
+  currentnav:
+  permalink: /ressources/themes-wordpress/2-colonnes

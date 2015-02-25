@@ -1,0 +1,29 @@
+- name: NOUVEAUTES
+  currentnav:
+  permalink: /ressources/
+
+- name: THEMES WP
+  currentnav:
+  permalink: /ressources/themes-wordpress/
+
+- name: PLUGINS WP
+  currentnav:
+  permalink: /ressources/plugins-wordpress/
+
+- name: ICONES
+  currentnav: 
+  permalink: /ressources/icones/
+
+- name: TEMPLATES
+  currentnav: 
+  permalink: /ressources/templates/
+
+- name: KIT UI
+  currentnav:
+  permalink: /ressources/kits-ui/
+
+- name: FONTS
+  currentnav:
+  permalink: /ressources/fonts/
+
+

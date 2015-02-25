@@ -1,11 +1,11 @@
 ---
-layout: ressources-wordpress-theme-wordpress
+layout: post
 title:  This Gamer Girl Bursts Into Tears When She Gets The Surprise Present From Her Brothers
 date:   2015-02-17 17:23:57
-category: ressources-wordpress
+category: plugins-wordpress-all
 tags:
-- ressources-wordpress-theme-wordpress
-tag-title: UX Design
+- ressources-themes-wp-portfolio
+tag-title: Thème Portfolio
 intro: Paragraphe d'introduction...
 description: blablabla
 id-youtube: a7bX7T8lltI
