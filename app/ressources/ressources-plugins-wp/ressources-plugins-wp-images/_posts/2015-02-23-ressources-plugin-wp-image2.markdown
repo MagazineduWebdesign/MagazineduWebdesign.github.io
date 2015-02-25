@@ -1,7 +1,7 @@
 ---
 layout: post
-title: urigo-angular
-date: 2015-02-17 17:23:57
+title: lukemadera autoform-googleplace
+date: 2015-02-22 17:23:57
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image

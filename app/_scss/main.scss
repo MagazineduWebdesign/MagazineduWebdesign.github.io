@@ -252,6 +252,14 @@ $linkedin:#0077B5;
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
+.carte-article-secondaire.mod-ressources-article{
+	@include panel($padding:$rem-base);
+	margin-bottom:0;
+}
+@media #{$medium-up} {
+	.carte-article-secondaire.mod-ressources-article{min-height: rem-calc(192)}
+}
+
 .carte-article-secondaire:hover{
 	background-color: scale-color($white, $lightness: -5%);
 	transition: all .2s cubic-bezier(.42, 0, 1, 1); 
@@ -268,11 +276,15 @@ $linkedin:#0077B5;
 	.carte-article-secondaire-post-title.mod-job-title{
 		margin: 0
 	}
+	.carte-article-secondaire-post-title.mod-ressources-post-title{
+		margin: 0 0 rem-calc(8)
+	}
 	.carte-article-secondaire-post-title.mod-videos-relatives-post-title{
 		margin: rem-calc(0 16 0 0);
 		font-size: $rem-base;
 	  line-height: rem-calc(20)
 	}
+	.carte-article-secondaire-post-description{margin-bottom:0;font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
 	.carte-article-secondaire img{width:rem-calc(140)}
 
 //shadow

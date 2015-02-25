@@ -1,12 +1,12 @@
 ---
 layout: post
-title: urigo-angular
-date: 2015-02-17 17:23:57
+title: Blaze
+date: 2015-01-20 17:23:57
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image
 tag-title: Plugin WordPress images
-intro: Google Places Autocomplete input (without map). Returns an object with formatted address components
+intro: Meteor Reactive Templating library
 description: blablabla
 ---
 

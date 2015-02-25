@@ -1,12 +1,12 @@
 ---
 layout: post
-title: urigo-angular
-date: 2015-02-17 17:23:57
+title: useraccounts semantic-ui
+date: 2015-02-25 17:23:57
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image
 tag-title: Plugin WordPress images
-intro: Google Places Autocomplete input (without map). Returns an object with formatted address components
+intro: Accounts Templates styled for Semantic UI.
 description: blablabla
 ---
 
