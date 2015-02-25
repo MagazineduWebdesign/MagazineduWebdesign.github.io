@@ -104,7 +104,7 @@ layout: default
 					<li>
 	          <article class="videos-index-video-item js-postcount" itemscope="" itemtype="http://schema.org/Article">
 	            
-	            <div class="row">
+	            <div class="row collapse">
 	              <div class="small-12 columns">
 	              	{% if post.id-youtube %}
 	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
@@ -117,7 +117,7 @@ layout: default
 	                {% endif %}
 	              </div>
 	            </div>
-	            <div class="row">
+	            <div class="row collapse">
 	              <div class="small-12 columns">
 	              <a href="{{ post.url | prepend: site.baseurl }}">
 	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
@@ -138,7 +138,7 @@ layout: default
 					<li>
 	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article">
 	            
-	            <div class="row">
+	            <div class="row collapse">
 	              <div class="small-12 columns">
 	              	{% if post.id-youtube %}
 	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
@@ -151,7 +151,7 @@ layout: default
 	                {% endif %}
 	              </div>
 	            </div>
-	            <div class="row">
+	            <div class="row collapse">
 	              <div class="small-12 columns">
 	              <a href="{{ post.url | prepend: site.baseurl }}">
 	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
