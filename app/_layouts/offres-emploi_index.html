@@ -4,6 +4,55 @@ layout: default
 
 {% include header.html %}
 <section>
+<div class="navigation-sub-header">
+		<div class="row text-center">
+		  <div class="small-12 columns">
+		  	<div class="tabs mod-sub-header hide-for-small-only">
+					<a href="/emploi/" class="tabs-item mod-sub-header {% if page.tab1 == true %}is-active{% endif %}" title="offres d'emploi">OFFRES D'EMPLOI</a>
+					<a href="/recruter/" class="tabs-item mod-sub-header {% if page.tab2 == true %}is-active{% endif %}" title="recruter">RECRUTER</a>
+					<a href="/data-salaire/" class="tabs-item mod-sub-header {% if page.tab3 == true %}is-active{% endif %}" title="Data salaire">DATA SALAIRE</a>
+					<a href="/candidater/" class="tabs-item mod-sub-header {% if page.tab4 == true %}is-active{% endif %}" title="Conseils candidats">CONSEILS CANDIDATS</a>
+				</div>
+		  	<div class="tabs mod-tabs-videos show-for-small-only">
+					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="video-categories">
+						<svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z" fill="#999999"/></svg>EXPLORER LA SECTION JOB</a>
+					<!-- Modalbox ressources entry
+	        ================================================== -->
+	        <div id="video-categories" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Explorez la section job</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav" role="navigation" title="Link List">
+											<li role="menuitem">
+												<a href="/emploi/" class="tabs-item mod-sub-header {% if page.tab1 == true %}is-active{% endif %}" title="offres d'emploi">OFFRES D'EMPLOI</a>
+											</li>
+											<li role="menuitem">
+												<a href="/recruter/" class="tabs-item mod-sub-header {% if page.tab2 == true %}is-active{% endif %}" title="recruter">RECRUTER</a>
+											</li>
+											<li role="menuitem">
+												<a href="/data-salaire/" class="tabs-item mod-sub-header {% if page.tab3 == true %}is-active{% endif %}" title="Data salaire">DATA SALAIRE</a>
+											</li>
+											<li role="menuitem">
+												<a href="/candidater/" class="tabs-item mod-sub-header {% if page.tab4 == true %}is-active{% endif %}" title="Conseils candidats">CONSEILS CANDIDATS</a>
+											</li>
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+				</div>
+		  </div>
+		</div>
+	</div>
 	{% if page.svg %}
 	<!-- Beautiful svg background generated on notegraphy.com
   ==> https://notegraphy.com/
@@ -12,12 +61,6 @@ layout: default
   <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
 		<header class="row-liste-index text-center"> 
 			<div class="small-12 columns">
-				<div class="tabs">
-					<a href="/emploi/" class="tabs-item {% if page.tab1 == true %}is-active{% endif %}" title="offres d'emploi">OFFRES D'EMPLOI</a>
-					<a href="/recruter/" class="tabs-item {% if page.tab2 == true %}is-active{% endif %}" title="recruter">RECRUTER</a>
-					<a href="/data-salaire/" class="tabs-item {% if page.tab3 == true %}is-active{% endif %}" title="recruter">DATA SALAIRE</a>
-					<a href="/candidater/" class="tabs-item {% if page.tab4 == true %}is-active{% endif %}" title="recruter">CONSEILS</a>
-				</div>
 				<h1 class="header-liste-headline">{{ page.title }} {% if page.tab3 == true %}<span class="label--secondary">COMING SOON</span>{% endif %}</h1>
 				<p class="header-liste-content">{{ page.intro }}
 					{% if page.text-twtr %}
