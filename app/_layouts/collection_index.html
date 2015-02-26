@@ -56,7 +56,7 @@ layout: default
               <div class="shadow-img">
                 <div class="collection-index-article-content">
                   <h1 class="text-center" itemprop="headline">{{ collection.title }}</h1>
-                  <p class="text-center">{{ collection.desc }}</p>
+                  <p class="text-center">{{ collection.desc | truncate: 80 }}</p>
                 </div>
               </div>
             </article>
