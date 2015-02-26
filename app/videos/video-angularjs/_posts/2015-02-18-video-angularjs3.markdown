@@ -2,6 +2,9 @@
 layout: video
 title: How Airbnb Simplifies with Mesos
 date: 2015-02-12 17:22:57
+path1: videos
+path2: angular-js
+path3:
 category: videos
 tags:
 - angular-js

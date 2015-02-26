@@ -2,6 +2,9 @@
 layout: video
 title: Kate Upton Brings Out An Epic Rap Battle On Game Of War
 date: 2015-02-17 17:22:57
+path1: videos
+path2: angular-js
+path3:
 category: videos
 tags:
 - angular-js

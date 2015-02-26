@@ -2,10 +2,12 @@
 layout: video
 title: What Ferris Bueller Taught Me About Interaction Design
 date:   2015-02-22 17:23:57
+path1: videos
+path2: design
+path3:
 category: videos
 tags:
 - ux-design
-tag-title: UX Design
 intro: Paragraphe d'introduction...
 description: blablabla
 id-youtube: gQYBRYbfoI4

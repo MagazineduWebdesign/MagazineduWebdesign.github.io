@@ -1,12 +1,16 @@
 ---
-layout: post
+layout: ressource-default
 title: Blaze
 date: 2015-01-20 17:23:57
+path1: ressources
+path2: plugins-wordpress
+path3: images
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image
-tag-title: Plugin WordPress images
 intro: Meteor Reactive Templating library
+github: https://github.com/MagazineduWebdesign
+siteweb: https://magazineduwebdesign.com
 description: blablabla
 ---
 

@@ -2,6 +2,9 @@
 layout: video
 title:  FITC Tokyo 2015 Titles from FITC
 date:   2015-02-20 17:22:57
+path1: videos
+path2: design
+path3:
 category: videos
 tags:
 - design

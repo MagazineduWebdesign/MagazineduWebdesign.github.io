@@ -2,6 +2,9 @@
 layout: video
 title: Poor Guy Loses His Ski Doo Goes Butt-Sliding Down The Whole Damn Mountain
 date: 2015-02-18 17:22:57
+path1: videos
+path2: angular-js
+path3:
 category: videos
 tags:
 - angular-js

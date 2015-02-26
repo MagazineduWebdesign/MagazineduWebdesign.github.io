@@ -1,12 +1,16 @@
 ---
-layout: post
+layout: ressource-default
 title: lukemadera autoform-googleplace
 date: 2015-02-22 17:23:57
+path1: ressources
+path2: plugins-wordpress
+path3: images
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image
-tag-title: Plugin WordPress images
 intro: Google Places Autocomplete input (without map). Returns an object with formatted address components
+github: https://github.com/MagazineduWebdesign
+siteweb: https://magazineduwebdesign.com
 description: blablabla
 ---
 
