@@ -255,6 +255,7 @@ $linkedin:#0077B5;
 .carte-article-secondaire.mod-ressources-article{
 	@include panel($padding:$rem-base);
 	margin-bottom:0;
+	border-radius:$global-radius
 }
 @media #{$medium-up} {
 	.carte-article-secondaire.mod-ressources-article{
