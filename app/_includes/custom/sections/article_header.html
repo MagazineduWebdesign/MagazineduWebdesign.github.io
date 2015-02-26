@@ -2,12 +2,9 @@
   <h1 class="hide">Magazine Du Webdesign</h1>
   <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false, back_text: Retour">
     <h1 class="hide">Navigation</h1>
-    <ul class="title-area"> 
+    <ul class="title-area">
       <li class="name">
-      {% if page.category == 'videos' %}
-        {% capture tags %}
-          {{ page.tags | first  }}
-        {% endcapture %}
+      {% if page.path1 %}
       {% else %}
         {% capture layout %}
           {% assign layout = page.layout %}
@@ -15,8 +12,8 @@
         {% endcapture %}
       {% endif %}
       
-      {% if page.category == 'videos' %}
-        <a href="{{ site.baseurl }}{{ tags | remove: ' ' | prepend: '/videos/' }}">
+      {% if page.path1 %}
+        <a href="{{ site.baseurl }}/{{ page.path1 }}/{% if page.path2 %}{{ page.path2 }}/{% endif %}{% if page.path3 %}{{ page.path3 }}/{% endif %}">
       {% else %}
         <a href="{{ site.baseurl }}/{{ layout | remove: ' ' }}/">
       {% endif %}
@@ -36,20 +33,29 @@
             <span class="show-for-medium-up left">
               MagazineDu<span id="titre-site-orange">Webdesign</span>
             </span>
-            {% if page.category == 'videos' %}
+            {% if page.path1 %}
             <span class="left">
               <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
-              vidéos
+              {{ page.path1 | replace: '-', ' ' }}
+            </span>
+              {% if page.path2 %}
+              <span class="left show-for-large-up">
+                <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+                {{ page.path2 | replace: '-', ' ' }}
+              </span>
+              {% endif %}
+                {% if page.path3 %}
+                <span class="left show-for-large-up">
+                  <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+                  {{ page.path3 | replace: '-', ' ' }}
+                </span>
+                {% endif %}
+            {% else %}
+            <span class="left">
+              <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
+              {{ layout | replace: '-', ' ' }}
             </span>
             {% endif %}
-            <span class="left">
-              <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
-              {% if page.category == 'videos' %}
-                {{ tags | replace: '-', ' ' | camelcase }}
-              {% else %}
-                {{ layout | replace: '-', ' ' | capitalize }}
-              {% endif %}
-            </span>
           </div>
         </a>
         <div class="show-for-small-only right">
