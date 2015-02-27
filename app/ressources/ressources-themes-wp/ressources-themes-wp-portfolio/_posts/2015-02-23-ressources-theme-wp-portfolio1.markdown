@@ -2,10 +2,12 @@
 layout: post
 title:  This Gamer Girl Bursts Into Tears When She Gets The Surprise Present From Her Brothers
 date:   2015-02-17 17:23:57
+path1: ressources
+path2: themes-wordpress
+path3: portfolio
 category: themes-wp-all
 tags:
 - ressources-themes-wp-portfolio
-tag-title: Thème Portfolio
 intro: Paragraphe d'introduction...
 description: blablabla
 id-youtube: a7bX7T8lltI
