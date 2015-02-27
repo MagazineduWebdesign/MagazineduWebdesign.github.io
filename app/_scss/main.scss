@@ -255,7 +255,9 @@ $linkedin:#0077B5;
 .carte-article-secondaire.mod-ressources-article{
 	@include panel($padding:$rem-base);
 	margin-bottom:0;
-	border-radius:$global-radius
+	border-radius:$global-radius;
+	border-bottom-width: rem-calc(2);
+	border-top-width: 0;
 }
 @media #{$medium-up} {
 	.carte-article-secondaire.mod-ressources-article{
@@ -458,6 +460,7 @@ background-position: center}
 		height:rem-calc(56);
 		line-height:rem-calc(56)
 	}
+	.top-bar.expanded{border-bottom: 2px solid $secondary-color}
 	.top-bar .name{height:rem-calc(56)}
 	.name{line-height:rem-calc(56)}
 	#logo{margin:rem-calc(8 8 8 0)}
@@ -516,10 +519,6 @@ background-position: center}
 .note{padding:rem-calc(24) 0 0;border-top:1px solid $secondary-color}
 .note-first{padding:0;border-top:0}
 .note-source-id{margin-bottom:($rem-base / 2)}
-.note-source-favicon{
-	width:$rem-base;
-	height:$rem-base
-}
 .note-source-name{
 	font-size:rem-calc(14);
 	margin-left:$rem-base;
@@ -844,7 +843,7 @@ background-position: center}
 // offres in article
 .job--in-article{padding-top:rem-calc(24)}
 .job--in-article.mod-job-in-article-video{padding-top:rem-calc(0)}
-.job--in-article h1{font-size:rem-calc(14);margin-bottom:rem-calc(8)}
+.job--in-article h1{margin-bottom:rem-calc(8);font-size:rem-calc(12);font-weight:$font-weight-bold;color:$aluminum}
 .job--in-article p{margin-bottom:rem-calc(8)}
 .job--in-article-to-board{color:$tuatara}
 
