@@ -8,6 +8,7 @@ path3: images
 category: plugins-wordpress-all
 tags:
 - ressources-plugins-wp-image
+- ressources-plugins-wp-premium
 intro: Accounts Templates styled for Semantic UI.
 github: https://github.com/MagazineduWebdesign
 siteweb: https://magazineduwebdesign.com

@@ -1,11 +1,20 @@
-- title: VID&Eacute;OS
+- title: VOIR
   href: /videos/
 
-- title: JOBS
-  href: /emploi/ 
-
-- title: RESSOURCES
+- title: S'INSPIRER
   href: /ressources/themes-wordpress/
+
+- title: D&Eacute;COUVRIR
+  href: /ressources/themes-wordpress/
+
+- title: APPRENDRE
+  href: /ressources/themes-wordpress/
+
+- title: JOBS
+  href: /emploi/
+
+- title: EVENTS
+  href: /emploi/
 
 - title: COLLECTIONS
   href: /collections/

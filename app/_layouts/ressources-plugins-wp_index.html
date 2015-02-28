@@ -36,13 +36,37 @@ layout: default
 		  <div class="small-12 columns">
 		  	<div class="tabs mod-tabs-videos hide-for-small-only">
 					<a href="/ressources/plugins-wordpress/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">NOUVEAUTES</a>
-					<a href="/ressources/plugins-wordpress/images/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">IMAGES</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">FILTRE 2</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">FILTRE 3</a>
+					<a href="/ressources/plugins-wordpress/gratuits/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">GRATUITS</a>
+					<a href="/ressources/plugins-wordpress/premium/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">PREMIUM</a>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title=""  data-reveal-id="plugins-wp-filtre-categories">CATEGORIES</a>
+					<!-- Modalbox categories
+	        ================================================== -->
+	        <div id="plugins-wp-filtre-categories" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Explorez les plugins WordPress...</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					        	<ul class="side-nav" role="navigation" title="Link List">
+					        		{% for item in site.data.ressources.plugins-wp-categories %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					        	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
 				</div>
 		  	<div class="tabs mod-tabs-videos show-for-small-only">
 					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="plugins-wp-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
-					<!-- Modalbox fitlres
+					<!-- Modalbox filtres
 	        ================================================== -->
 	        <div id="plugins-wp-filtre-mobile" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
@@ -57,10 +81,12 @@ layout: default
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="" title="">FILTRE</a></li>
-					        		<li role="menuitem"><a href="" title="">FILTRE</a></li>
-					        		<li role="menuitem"><a href="" title="">FILTRE</a></li>
-					        		<li role="menuitem"><a href="" title="">FILTRE</a></li>
+						        	<li role="menuitem"><a href="/ressources/plugins-wordpress/" title="">NOUVEAUTES</a></li>
+											<li role="menuitem"><a href="/ressources/plugins-wordpress/gratuits/" title="Plugins WordPress gratuits">GRATUITS</a></li>
+											<li role="menuitem"><a href="/ressources/plugins-wordpress/premium/" title="Plugins WordPress premium">PREMIUM</a></li>
+					        		{% for item in site.data.ressources.plugins-wp-categories %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
 					        	</ul>
 					        </div>
 					      </div>
