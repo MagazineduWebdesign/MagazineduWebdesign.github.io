@@ -117,19 +117,6 @@ layout: default
 	<div class="row">
 	  <div class="small-12 columns">
 			<ul class="videos-index-container small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'themes-wordpress-all' %}current-page{% endif %}" {% if page.category == 'plugins-wordpress-all' %}data-page="plugins-wordpress-all"{% endif %} data-equalizer>
-
-				<li>
-					<a href="">
-	          <article class="carte-article-secondaire mod-ressources-article js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
-	            <div class="row collapse">
-	              <div class="small-12 columns">
-	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">Partager avec la communauté votre plugin préféré.</h1>
-	              	<p class="carte-article-secondaire-post-description"><a href="#" class="button expand radius" data-reveal-id="">PUBLIER</a></p>
-	              </div>
-	            </div>
-	          </article>
-					</a>
-				</li>
 			{% if page.category == 'plugins-wordpress-all' %}
 				{% if site.categories.plugins-wordpress-all %}
 					{% for post in site.categories.plugins-wordpress-all limit: 6 %}
