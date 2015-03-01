@@ -88,7 +88,7 @@
 	width: 100%;
 	padding:$padding;
 	background-color:rgba($color,$opacity);
-	box-shadow:inset 0 0px 24px rgba($color,.2)
+	box-shadow:inset 0 0 rem-calc(24) rgba($color,.2)
 }
 // Utilisé pour contrôler le style des arrière-plans en image
 @mixin header-bgimg($bgsize: cover,$bgposition: center) {
@@ -204,7 +204,7 @@ $linkedin:#0077B5;
 	border-bottom-width:rem-calc(2);
 	border-top-width:0;
 	background-color:$white;
-	line-height:48px; 
+	line-height:rem-calc(48); 
 	font-size:rem-calc(14)
 }
 .section-carte-header{
@@ -301,7 +301,7 @@ $linkedin:#0077B5;
 	height: 100%;
 	width: 100%;
 	background-color:rgba($black,.4);
-	box-shadow: inset 0 0px 24px rgba($black,.2);
+	box-shadow: inset 0 0 rem-calc(24) rgba($black,.2);
 	transition: all .2s cubic-bezier(.42, 0, 1, 1); 
 	-webkit-transition: all .2s cubic-bezier(.42, 0, 1, 1); 
 	-moz-transition: all .2s cubic-bezier(.42, 0, 1, 1); 
@@ -358,11 +358,11 @@ background-position: center}
 // loader
 .infinite-spinner {
   display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
+  width: rem-calc(40);
+  height: rem-calc(40);
+  border-radius: rem-calc(40);
   background-color: $primary-color;
-  margin: 60px auto;
+  margin: rem-calc(60) auto;
   
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
@@ -425,6 +425,20 @@ background-position: center}
 //navigation
 .navigation-sub-header{background-color:$secondary-color}
 
+//label
+.button-label-prix{
+  @include label(
+    // This options sets label padding
+    $padding: rem-calc(2) rem-calc(8),
+    // This option sets label text-size
+    $text-size:12px,
+    // This option sets label background-color
+    $bg: scale-color($success-color, $lightness: -20%),
+    // This option sets the radius of the label
+    $radius: $global-radius
+  );
+  margin: rem-calc(0 8 0 0)
+}
 // 01. TOP BAR
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .dropdown{
@@ -641,7 +655,7 @@ background-position: center}
 // main
 .page-editoriale-intro{
 	@include grid-column($columns:12,$center:true,$collapse:false);
-	max-width: 640px
+	max-width: rem-calc(640)
 }
 .article-intro, .page-editoriale-intro p{font-style:italic;color:$black}
 main.column-body-article p, main.column-body-article ul, main.column-body-article ol, main.column-body-article blockquote, .page-editoriale-intro p{
@@ -682,7 +696,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 	.row-article-featured-image {
 	  @include grid-row;
 	  .column-article-featured-image{@include grid-column(12)}
-	  max-width: 1024px!important;
+	  max-width: rem-calc(1024)!important;
 	  padding:0!important
 	}
   .column-header-article {padding-top:rem-calc(48)}
@@ -693,7 +707,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 	  @include grid-row;
 	  .column-body-article {
 	    @include grid-column($columns:9,$last-column:true,$collapse:true);
-		  max-width: 640px;
+		  max-width: rem-calc(640);
 		  float:right!important;
 		  padding:0!important
 	  };
@@ -703,7 +717,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 	  };
 	  .column-header-article, .column-article-featured-image-caption {
 	    @include grid-column(12);
-		  max-width: 940px;
+		  max-width: rem-calc(940);
 		  padding-left: 0;
 		  padding-right: 0;
 	  }
@@ -748,7 +762,7 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 }
 @media #{$small-only}{
 	.section-carte-newsletter input{
-		margin-bottom:1rem
+		margin-bottom:rem-calc(16)
 	}
 }
 
@@ -887,7 +901,7 @@ background-position: center}
 			top: 50%;
 			width: rem-calc(48);
 			height: rem-calc(48);
-			margin: -24px 0 0 -24px
+			margin: rem-calc(-24 0 0 -24)
 		}
 			.videos-index-video-thumbnail-shadow:hover > .videos-index-video-play-icon{
 				transform: translate3d(0, 0, 0);
@@ -942,7 +956,7 @@ background-position: center}
 footer{
 	color: $aluminum;
 	margin-top:rem-calc(24);
-	padding: ($rem-base * 1.5) 0;
+	padding: rem-calc(24) 0;
 }
 footer a{color:$primary-color;}
 footer a:hover{color: scale-color($primary-color, $lightness: -16%)}

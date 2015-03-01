@@ -116,32 +116,36 @@ layout: default
 
 	<div class="row">
 	  <div class="small-12 columns">
-			<ul class="videos-index-container small-block-grid-1 medium-block-grid-2 {% if page.category == 'themes-wp-all' %}current-page{% endif %}" {% if page.category == 'videos' %}data-page="videos"{% endif %}>
+			<ul class="videos-index-container small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'themes-wp-all' %}current-page{% endif %}">
 			{% if page.category == 'themes-wp-all' %}
 				{% if site.categories.themes-wp-all %}
 					{% for post in site.categories.themes-wp-all limit: 6 %}
 					<li>
-	          <article class="videos-index-video-item js-postcount" itemscope="" itemtype="http://schema.org/Article">
-	            
-	            <div class="row">
-	              <div class="small-4 columns">
-	              	{% if post.id-youtube %}
-	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
-		                <a href="{{ post.url | prepend: site.baseurl }}">
-		                	<div class="videos-index-video-thumbnail-shadow">
-		                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
-		                	</div>
-		                </a>
-	                </div>
-	                {% endif %}
-	              </div>
-	              <div class="small-8 columns">
-		              <a href="{{ post.url | prepend: site.baseurl }}">
-		              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
-		              </a>
-	              </div>
-	            </div>
-	          </article>
+						<a href="{{ post.url | prepend: site.baseurl }}">
+		          <article class="carte-article-secondaire mod-ressources-article js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+		            <div class="row collapse">
+		              <div class="small-12 columns">
+		              	{% if post.image %}
+		                <div class="videos-index-video-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+			                <a href="{{ post.url | prepend: site.baseurl }}">
+			                	<div class="videos-index-video-thumbnail-shadow">
+			                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
+			                	</div>
+			                </a>
+		                </div>
+		                {% endif %}
+		              </div>
+		            </div>
+		            <div class="row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
+		              	{% if post.price %}
+		              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
+		              	{% endif %}
+		              </div>
+		            </div>
+		          </article>
+						</a>
 					</li>
 					{% endfor %}
 				</ul>
@@ -153,27 +157,31 @@ layout: default
 				{% if site.tags[page.tags] %}
 					{% for post in site.tags[page.tags] limit: 6 %}
 					<li>
-	          <article class="videos-index-video-item" itemscope="" itemtype="http://schema.org/Article">
-	            
-	            <div class="row">
-	              <div class="small-4 columns">
-	              	{% if post.id-youtube %}
-	                <div class="videos-index-video-thumbnail" data-interchange="[http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg, (default)]">
-	                <a href="{{ post.url | prepend: site.baseurl }}">
-	                	<div class="videos-index-video-thumbnail-shadow">
-	                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
-	                	</div>
-	                </a>
-	                </div>
-	                {% endif %}
-	              </div>
-	              <div class="small-8 columns">
-		              <a href="{{ post.url | prepend: site.baseurl }}">
-		              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
-		              </a>
-	              </div>
-	            </div>
-	          </article>
+						<a href="{{ post.url | prepend: site.baseurl }}">
+		          <article class="carte-article-secondaire mod-ressources-article js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+		            <div class="row collapse">
+		              <div class="small-12 columns">
+		              	{% if post.image %}
+		                <div class="videos-index-video-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+			                <a href="{{ post.url | prepend: site.baseurl }}">
+			                	<div class="videos-index-video-thumbnail-shadow">
+			                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
+			                	</div>
+			                </a>
+		                </div>
+		                {% endif %}
+		              </div>
+		            </div>
+		            <div class="row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
+		              	{% if post.price %}
+		              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
+		              	{% endif %}
+		              </div>
+		            </div>
+		          </article>
+						</a>
 					</li>
 					{% endfor %}
 				</ul>

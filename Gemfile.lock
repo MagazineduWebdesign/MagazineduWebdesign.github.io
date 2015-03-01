@@ -9,7 +9,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.0)
+    coffee-script-source (1.9.1)
     colorator (0.1)
     execjs (2.3.0)
     fast-stemmer (1.0.2)
@@ -38,8 +38,8 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    kramdown (1.5.0)
-    liquid (2.6.1)
+    kramdown (1.6.0)
+    liquid (2.6.2)
     listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -47,8 +47,8 @@ GEM
     mercenary (0.3.5)
     parslet (1.5.0)
       blankslate (~> 2.0)
-    posix-spawn (0.3.9)
-    pygments.rb (0.6.1)
+    posix-spawn (0.3.10)
+    pygments.rb (0.6.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
     rb-fsevent (0.9.4)
@@ -57,7 +57,7 @@ GEM
     redcarpet (3.2.2)
     rouge (1.8.0)
     safe_yaml (1.0.4)
-    sass (3.4.11)
+    sass (3.4.13)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -71,4 +71,4 @@ DEPENDENCIES
   jekyll
   kramdown
   rouge
-  sass (~> 3.4.3)
+  sass

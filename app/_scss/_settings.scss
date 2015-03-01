@@ -52,7 +52,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // This is the default html and body font-size for the base rem value.
-$rem-base: 16px;
+// $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
@@ -119,7 +119,7 @@ $black       : #000000;
 $primary-color: #FF5700;
 $secondary-color: #ededed;
 // $alert-color: #f04124;
-// $success-color: #43AC6A;
+$success-color: #43AC6A;
 $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
@@ -140,7 +140,7 @@ $body-font-color: $tuatara;
 // $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-$global-radius: 2px;
+$global-radius: rem-calc(2);
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -1365,7 +1365,7 @@ $topbar-bg-color: $white;
 $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-$topbar-height: 64px;
+$topbar-height: rem-calc(64);
 $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
@@ -1396,12 +1396,12 @@ $topbar-link-bg-hover: $white;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
-$topbar-link-padding: $rem-base;
-$topbar-back-link-size:rem-calc(14);
-$topbar-link-dropdown-padding: 16px;
+$topbar-link-padding: rem-calc(16);
+$topbar-back-link-size: rem-calc(14);
+$topbar-link-dropdown-padding: rem-calc(16);
 
-$topbar-button-font-size: 0.875rem;
-$topbar-button-top: 17px;
+$topbar-button-font-size: rem-calc(14);
+$topbar-button-top: rem-calc(17);
 
 $topbar-dropdown-label-color: scale-color($secondary-color, $lightness: -8%);
 // $topbar-dropdown-label-text-transform: uppercase;

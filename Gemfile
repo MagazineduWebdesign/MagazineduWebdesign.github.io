@@ -3,6 +3,6 @@ gem 'jekyll'
 
 gem 'kramdown'
 
-gem 'sass', '~> 3.4.3'
+gem 'sass'
 
 gem 'rouge'
