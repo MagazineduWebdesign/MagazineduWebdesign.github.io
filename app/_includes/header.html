@@ -13,7 +13,6 @@
               </g>
             </g>
           </svg>
-          <span class="show-for-medium-up right">MagazineDu<span id="titre-site-orange">Webdesign</span></span>          
         </a>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -33,7 +32,7 @@
             <li class="divider"></li>
             <li><label>EXPLOREZ</label></li>
             {% for item in site.data.navigation.navigation-header %}
-            <li class=""><a href="{{ item.href }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.href }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>

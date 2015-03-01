@@ -439,13 +439,11 @@ background-position: center}
 	padding:0 $rem-base;
 	line-height:$topbar-height
 }
-#logo{margin:rem-calc(12 8 12 0)}
+#logo{margin:rem-calc(12 0 12 0)}
 .name a{
 	color:$aluminum;
 	font-size:rem-calc(20)
 }
-.name a:hover{color:$oil}
-#titre-site-orange{color:$primary-color}
 .topbar-partage-item{padding-left:0!important}
 .topbar-partage-facebook{background-color:$facebook !important; margin-bottom:0; color:$white!important}
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
