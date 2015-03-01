@@ -517,6 +517,10 @@ background-position: center}
 .note{padding:rem-calc(24) 0 0;border-top:1px solid $secondary-color}
 .note-first{padding:0;border-top:0}
 .note-source-id{margin-bottom:($rem-base / 2)}
+.note-source-name{
+	font-size:rem-calc(14);
+	color:$jumbo
+}
 .note-content{cursor: pointer}
 .note h1{
 	display:inline;
