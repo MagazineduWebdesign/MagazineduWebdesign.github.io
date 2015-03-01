@@ -25,32 +25,30 @@
         <li class="show-for-medium-only has-dropdown">
           <a href="#">SECTIONS <svg class="ic_block-h64-no-text ic-arrow-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
           <ul class="dropdown">
-            <li><label>TH&Egrave;MES</label></li>
-            {% for category in site.data.categories %}
-            <li><a href="{{ site.baseurl }}/{{ category.slug }}">{{ category.name }}</a></li>
-            {% endfor %}
-            <li class="divider"></li>
             <li><label>EXPLOREZ</label></li>
             {% for item in site.data.navigation.navigation-header %}
-            <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+            {% endfor %}
+            {% for item in site.data.navigation.navigation-header-more-left %}
+              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
-        <li class="hide-for-medium-only has-dropdown">
-          <a href="#">TH&Egrave;MES <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
-          <ul class="dropdown">
-            {% for category in site.data.categories %}
-              <li><a href="{{ site.baseurl }}/{{ category.slug }}">{{ category.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-
+        
         <!-- Data driven navigation in Jekyll
         source ==> http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
         ================================================== -->
         {% for item in site.data.navigation.navigation-header %}
           <li class="hide-for-medium-only"><a href="{{ item.href }}">{{ item.title }}</a></li>
         {% endfor %}
+        <li class="hide-for-medium-only has-dropdown">
+          <a href="#">PLUS <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
+          <ul class="dropdown">
+            {% for item in site.data.navigation.navigation-header-more-left %}
+              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
       </ul>
 
       <!-- Right Nav Section -->
@@ -99,7 +97,7 @@
         <li><a href="https://twitter.com/{{ site.twitter_username }}" class="twitter">@<span class="hidden-for-large-up hidden-for-small-only">MDW</span><span class="hidden-for-medium-only">MDW</span></a></li>
 
         <li class="has-dropdown">
-          <a href="#"><span class="hide-for-medium-up">PLUS..</span><svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
+          <a href="#"><span class="hide-for-medium-up">LE MAGAZINE..</span><svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more %}
             <li class=""><a href="{{ site.baseurl }}/{{ item.href }}">{{ item.title | upcase }}</a></li>
