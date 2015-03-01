@@ -1,6 +1,6 @@
 ---
 layout: ressource-default
-title: Sparks
+title: Awesome porto
 date: 2015-02-25 17:23:57
 path1: ressources
 path2: themes-wordpress
@@ -11,8 +11,6 @@ tags:
 - ressources-themes-wp-premium
 intro: Sparks is chocked full of features, making it perfect for creative agencies, freelancers or businesses looking for a handsome, professional web presence.
 image: air.jpg
-price: $59
-url-buy: http://www.themezilla.com/themes/sparks/
 url-demo: http://demo.themezilla.com/?theme=sparks
 description: blablabla
 ---
