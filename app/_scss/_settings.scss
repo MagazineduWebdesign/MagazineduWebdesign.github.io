@@ -1375,7 +1375,7 @@ $topbar-title-font-size: rem-calc(20);
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $white;
 $topbar-dropdown-link-color: $aluminum;
-$topbar-dropdown-link-bg: $white;
+$topbar-dropdown-link-bg: $white!important;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 $topbar-dropdown-toggle-size:0;
 $topbar-dropdown-toggle-color: $aluminum;
