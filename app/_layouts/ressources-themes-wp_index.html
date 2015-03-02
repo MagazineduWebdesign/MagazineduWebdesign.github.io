@@ -156,31 +156,30 @@ layout: default
 				{% if site.tags[page.tags] %}
 					{% for post in site.tags[page.tags] limit: 6 %}
 					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}">
-		          <article class="carte-article-secondaire mod-ressources-article js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
-		            <div class="row collapse">
-		              <div class="small-12 columns">
-		              	{% if post.image %}
-		                <div class="videos-index-video-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-			                <a href="{{ post.url | prepend: site.baseurl }}">
-			                	<div class="videos-index-video-thumbnail-shadow">
-			                    <svg class="videos-index-video-play-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>
-			                	</div>
-			                </a>
-		                </div>
-		                {% endif %}
-		              </div>
-		            </div>
-		            <div class="row collapse">
-		              <div class="small-12 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
-		              	{% if post.price %}
-		              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
-		              	{% endif %}
-		              </div>
-		            </div>
-		          </article>
-						</a>
+	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	            <div class="row collapse">
+	              <div class="small-12 columns">
+	              	{% if post.image %}
+	                <div class="carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+		                <a href="{{ post.url | prepend: site.baseurl }}">
+		                	<div class="shadow-img"></div>
+		                </a>
+	                </div>
+	                {% endif %}
+	              </div>
+	            </div>
+	            <a href="{{ post.url | prepend: site.baseurl }}">
+	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
+	              <div class="small-12 columns">
+	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
+					
+	              	{% if post.price %}
+	              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
+	              	{% endif %}
+	              </div>
+	            </div>
+	          </a>
+	          </article>
 					</li>
 					{% endfor %}
 				</ul>
