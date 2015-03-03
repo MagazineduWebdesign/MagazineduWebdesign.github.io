@@ -14,10 +14,6 @@
   currentnav: 
   permalink: /ressources/icones/
 
-- name: TEMPLATES
-  currentnav: 
-  permalink: /ressources/templates/
-
 - name: KIT UI
   currentnav:
   permalink: /ressources/kits-ui/
@@ -26,12 +22,35 @@
   currentnav:
   permalink: /ressources/fonts/
 
-- name: PLUGINS JS
+- name: VECTORS
+  currentnav:
+  permalink: /ressources/vectors/
+
+- name: PLUGINS JAVASCRIPT
   currentnav:
   permalink: /ressources/plugins-javascript/
 
-- name: FRAMEWORKS CSS
-  currentnav:
-  permalink: /ressources/plugins-javascript/
+- name: TEMPLATES APP WEB
+  currentnav: 
+  permalink: /ressources/templates-app-web/
 
+- name: TEMPLATES APP IOS
+  currentnav: 
+  permalink: /ressources/templates-app-ios/
+
+- name: TEMPLATES APP ANDROID
+  currentnav: 
+  permalink: /ressources/templates-app-android/
+
+- name: TEMPLATES EMAIL
+  currentnav: 
+  permalink: /ressources/templates-email/
+
+- name: FRAMEWORKS FRONT END
+  currentnav:
+  permalink: /ressources/frameworks-front-end/
+
+- name: FONDS D'ECRAN
+  currentnav:
+  permalink: /ressources/fonds-ecran/
 
