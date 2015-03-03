@@ -156,10 +156,11 @@ layout: default
 	            <a href="{{ post.url | prepend: site.baseurl }}">
 	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
 	              <div class="small-12 columns">
-	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 80 }}</h1>
+	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
 	              	{% if post.price %}
 	              		<span class="label-price">{{ post.price }}</span>
 	              	{% endif %}
+	              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
 	              </div>
 	            </div>
 	          </a>
@@ -192,10 +193,11 @@ layout: default
 	            <a href="{{ post.url | prepend: site.baseurl }}">
 	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
 	              <div class="small-12 columns">
-	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 80 }}</h1>
+	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
 	              	{% if post.price %}
 	              		<span class="label-price">{{ post.price }}</span>
 	              	{% endif %}
+	              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
 	              </div>
 	            </div>
 	          </a>

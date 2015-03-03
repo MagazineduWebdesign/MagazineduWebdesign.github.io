@@ -11,6 +11,7 @@ tags:
 - ressources-themes-wp-gratuits
 intro: Sparks is chocked full of features, making it perfect for creative agencies, freelancers or businesses looking for a handsome, professional web presence.
 image: air.jpg
+price: $59
 url-demo: http://demo.themezilla.com/?theme=sparks
 description: blablabla
 ---
