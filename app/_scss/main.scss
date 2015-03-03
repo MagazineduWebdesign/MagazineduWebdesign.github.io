@@ -144,7 +144,7 @@ $linkedin:#0077B5;
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{@include header-liste}
-.header-liste.mod-videos-index{padding-bottom: 0}
+.header-liste.u-no-padding-bottom{padding-bottom: 0}
 	.header-liste-headline{@include header-liste-title($color:$tuatara)}
 	.header-liste-headline.mod-article-video-title{
 		@include header-liste-title($color:$tuatara);
@@ -632,7 +632,9 @@ background-position: center}
 }
 .article-meta-by-time.mod-article-right-meta{
 	@include grid-column(4);
-	float: right!important
+	float: right!important;
+	width:rem-calc(240);
+	padding: rem-calc(0 0 0 24)
 }
 .article-meta-item-by{
 	@include item-row($lineh:24);
@@ -726,7 +728,8 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 		  padding:0!important
 	  };
 	  .column-body-article.mod-article-left-body{
-		  @include grid-column($columns:8,$collapse:true);
+		  @include grid-column($columns:9,$collapse:true);
+		  max-width: rem-calc(640);
 		  float:left!important;
 	  };
 	  .column-header-article, .column-article-featured-image-caption {
