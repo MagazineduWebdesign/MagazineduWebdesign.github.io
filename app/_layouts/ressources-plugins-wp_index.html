@@ -38,8 +38,8 @@ layout: default
 					<a href="/ressources/plugins-wordpress/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">NOUVEAUTES</a>
 					<a href="/ressources/plugins-wordpress/gratuits/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">GRATUITS</a>
 					<a href="/ressources/plugins-wordpress/premium/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="">PREMIUM</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title=""  data-reveal-id="plugins-wp-filtre-categories">CATEGORIES</a>
-					<!-- Modalbox categories
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title=""  data-reveal-id="plugins-wp-filtre-types">TYPES</a>
+					<!-- Modalbox types
 	        ================================================== -->
 	        <div id="plugins-wp-filtre-categories" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
@@ -54,7 +54,7 @@ layout: default
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		{% for item in site.data.ressources.plugins-wp-categories %}
+					        		{% for item in site.data.ressources.plugins-wp-types %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
@@ -84,7 +84,7 @@ layout: default
 						        	<li role="menuitem"><a href="/ressources/plugins-wordpress/" title="">NOUVEAUTES</a></li>
 											<li role="menuitem"><a href="/ressources/plugins-wordpress/gratuits/" title="Plugins WordPress gratuits">GRATUITS</a></li>
 											<li role="menuitem"><a href="/ressources/plugins-wordpress/premium/" title="Plugins WordPress premium">PREMIUM</a></li>
-					        		{% for item in site.data.ressources.plugins-wp-categories %}
+					        		{% for item in site.data.ressources.plugins-wp-types %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>

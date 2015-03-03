@@ -1,3 +1,19 @@
+- name: STARTUP
+  currentnav:
+  permalink: /ressources/themes-wordpress/startup/
+
+- name: PORTFOLIO
+  currentnav:
+  permalink: /ressources/themes-wordpress/portfolio/
+
+- name: MAGAZINE
+  currentnav:
+  permalink: /ressources/themes-wordpress/magazine/
+
+- name: BLOG
+  currentnav:
+  permalink: /ressources/themes-wordpress/magazine/
+  
 - name: FULL SCREEN
   currentnav:
   permalink: /ressources/themes-wordpress/full-screen/
@@ -8,4 +24,4 @@
 
 - name: 2 COLONNES
   currentnav:
-  permalink: /ressources/themes-wordpress/2-colonnes
+  permalink: /ressources/themes-wordpress/2-colonnes/
