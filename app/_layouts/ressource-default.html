@@ -4,7 +4,7 @@ layout: default
 
 {% include custom/sections/article_header.html %}
 <article>
-  <div class="header-liste u-no-padding-bottom">
+  <div class="header-liste {% if page.image %}u-no-padding-bottom{% endif %}">
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
@@ -14,8 +14,8 @@ layout: default
           <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
         </div>
         <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
-          {% if page.github %}<a href="{{ page.github }}" class="button-without-bg" target="_blank">Github</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button-without-bg" target="_blank">Site Web</a>{% endif %}
+          {% if page.github %}<a href="{{ page.github }}" class="button small secondary" target="_blank">Github</a>{% endif %}
+          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
         </div>
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
@@ -23,9 +23,9 @@ layout: default
           <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
-          {% if page.github %}<a href="{{ page.github }}" class="button-without-bg" target="_blank">Github</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button-without-bg" target="_blank">Site Web</a>{% endif %} 
-          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius secondary" target="_blank">DEMO</a>{% endif %}
+          {% if page.github %}<a href="{{ page.github }}" class="button small secondary" target="_blank">Github</a>{% endif %}
+          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %} 
+          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button small secondary" target="_blank">DEMO</a>{% endif %}
           {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank"><span class="button-label-prix">{{ page.price }}</span> ACHETER</a>{% endif %}
         </div>
       </div>
