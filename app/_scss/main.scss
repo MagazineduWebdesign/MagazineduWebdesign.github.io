@@ -293,18 +293,15 @@ $linkedin:#0077B5;
 		line-height: rem-calc(24)!important;
 		color: $jet
 	}
-	.carte-article-secondaire-post-title.mod-job-title{
-		margin: 0
-	}
-	.carte-article-secondaire-post-title.mod-ressources-post-title{
-		margin: 0 0 rem-calc(8)
+	.carte-article-secondaire-post-title.mod-job-title, .carte-article-secondaire-post-title.mod-ressources-post-title{
+		margin: 0!important
 	}
 	.carte-article-secondaire-post-title.mod-videos-relatives-post-title{
 		margin: rem-calc(0 16 0 0);
 		font-size: $rem-base;
 	  line-height: rem-calc(20)
 	}
-	.carte-article-secondaire-post-description{margin-bottom:0;font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
+	.carte-article-secondaire-post-description{margin: rem-calc(8 0 0);font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
 	.carte-article-secondaire img{width:rem-calc(140)}
 
 //shadow
@@ -444,6 +441,8 @@ background-position: center}
 	position: absolute;
 	right: 0;
 	top: 0;
+	font-size: rem-calc(14);
+	color: $primary-color
 }
 // 01. TOP BAR
 // - - - - - - - - - - - - - - - - - - - - - - - - -
