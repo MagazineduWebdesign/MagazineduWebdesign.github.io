@@ -7,12 +7,9 @@ layout: default
 <section>
 	{% include custom/sections/ressources-entries.html %}
 
-	{% if page.svg %}
-	<!-- Beautiful svg background generated on notegraphy.com
-  ==> https://notegraphy.com/
-  ================================================== -->
-  {% endif %}
-	<div class="header-liste u-no-padding-bottom{% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
+	<!-- list header 
+	================================================== -->
+	<div class="header-liste u-no-padding-bottom">
 	  <header class="row-liste-index">
 	    <div class="small-12 columns">
 	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
@@ -33,14 +30,21 @@ layout: default
 	       </p>
 	    </div>
 		</header>
+
+		<!-- list filters
+		================================================== -->
 		<div class="row text-center">
 		  <div class="small-12 columns">
+
+		  	<!-- desktop list filters 
+				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
 					<a href="/ressources/themes-wordpress/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux themes WordPress">NOUVEAUTES</a>
 					<a href="/ressources/themes-wordpress/gratuits/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="themes WordPress gratuits">GRATUITS</a>
 					<a href="/ressources/themes-wordpress/premium/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="themes WordPress premium">PREMIUM</a>
 					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les themes par type" data-reveal-id="themes-wp-filtre-types">TYPES</a>
-					<!-- Modalbox themes wp filtre types
+					
+					<!-- desktop list filter modalbox
 	        ================================================== -->
 	        <div id="themes-wp-filtre-types" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
@@ -64,10 +68,15 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
+
 				</div>
+
+				<!-- mobile list filters
+				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
 					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="themes-wp-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
-					<!-- Modalbox filtres mobiles
+					
+					<!--  mobile list filters modalbox
 	        ================================================== -->
 	        <div id="themes-wp-filtre-mobile" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
@@ -94,11 +103,16 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
+
 				</div>
+
 		  </div>
 		</div>
-	</div>
 
+	</div>
+	
+	<!-- list subheader
+	================================================== -->
 	<div class="row">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
@@ -114,10 +128,15 @@ layout: default
 	    <span class="section-header-titre">{{ length }} thèmes WordPress</span>
 	  </div>
 	</div>
-
+	
+	<!-- list items
+	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'themes-wp-all' %}current-page{% endif %}">
+			
+			<!-- list all items
+			================================================== -->
 			{% if page.category == 'themes-wp-all' %}
 				{% if site.categories.themes-wp-all %}
 					{% for post in site.categories.themes-wp-all limit: 6 %}
@@ -149,10 +168,12 @@ layout: default
 					</li>
 					{% endfor %}
 				</ul>
-
 				{% else %}
 					<p>Il n'y a pas d'articles pour ce tag.</p>
 				{% endif %}
+
+			<!-- list items by tags
+			================================================== -->
 			{% else %}
 				{% if site.tags[page.tags] %}
 					{% for post in site.tags[page.tags] limit: 6 %}
@@ -184,12 +205,15 @@ layout: default
 					</li>
 					{% endfor %}
 				</ul>
-
 				{% else %}
 					<p>Il n'y a pas d'articles pour ce tag.</p>
 				{% endif %}
+
 			{% endif %}
+
 	  </div>
 	</div>
+	
 	<div class="infinite-spinner"></div>
+	
 </section>
