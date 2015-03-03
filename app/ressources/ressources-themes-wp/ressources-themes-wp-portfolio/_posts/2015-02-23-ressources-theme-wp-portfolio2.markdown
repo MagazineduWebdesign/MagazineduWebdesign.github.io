@@ -8,7 +8,7 @@ path3: portfolio
 category: themes-wp-all
 tags:
 - ressources-themes-wp-portfolio
-- ressources-themes-wp-premium
+- ressources-themes-wp-gratuits
 intro: Sparks is chocked full of features, making it perfect for creative agencies, freelancers or businesses looking for a handsome, professional web presence.
 image: air.jpg
 url-demo: http://demo.themezilla.com/?theme=sparks
