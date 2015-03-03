@@ -2,11 +2,11 @@
   currentnav:
   permalink: /ressources/
 
-- name: THEMES WP
+- name: THEMES WORDPRESS
   currentnav:
   permalink: /ressources/themes-wordpress/
 
-- name: PLUGINS WP
+- name: PLUGINS WORDPRESS
   currentnav:
   permalink: /ressources/plugins-wordpress/
 
@@ -25,5 +25,13 @@
 - name: FONTS
   currentnav:
   permalink: /ressources/fonts/
+
+- name: PLUGINS JS
+  currentnav:
+  permalink: /ressources/plugins-javascript/
+
+- name: FRAMEWORKS CSS
+  currentnav:
+  permalink: /ressources/plugins-javascript/
 
 
