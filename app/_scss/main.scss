@@ -440,18 +440,10 @@ background-position: center}
 .navigation-sub-header{background-color:$secondary-color}
 
 //label
-.button-label-prix{
-  @include label(
-    // This options sets label padding
-    $padding: rem-calc(2) rem-calc(8),
-    // This option sets label text-size
-    $text-size:12px,
-    // This option sets label background-color
-    $bg: scale-color($success-color, $lightness: -20%),
-    // This option sets the radius of the label
-    $radius: $global-radius
-  );
-  margin: rem-calc(0 8 0 0)
+.label-price{
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 // 01. TOP BAR
 // - - - - - - - - - - - - - - - - - - - - - - - - -

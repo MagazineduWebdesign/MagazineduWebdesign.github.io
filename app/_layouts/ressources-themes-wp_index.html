@@ -157,9 +157,8 @@ layout: default
 	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
 	              <div class="small-12 columns">
 	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
-					
 	              	{% if post.price %}
-	              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
+	              		<span class="label-price">{{ post.price }}</span>
 	              	{% endif %}
 	              </div>
 	            </div>
@@ -194,9 +193,8 @@ layout: default
 	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
 	              <div class="small-12 columns">
 	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title }}</h1>
-					
 	              	{% if post.price %}
-	              		<p class="carte-article-secondaire-post-description"><span class="button-label-prix">{{ post.price }}</span></p>
+	              		<span class="label-price">{{ post.price }}</span>
 	              	{% endif %}
 	              </div>
 	            </div>
@@ -215,5 +213,5 @@ layout: default
 	</div>
 	
 	<div class="infinite-spinner"></div>
-	
+
 </section>
