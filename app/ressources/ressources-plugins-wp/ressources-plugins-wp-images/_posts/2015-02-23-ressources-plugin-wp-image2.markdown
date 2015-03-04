@@ -10,6 +10,7 @@ tags:
 - ressources-plugins-wp-image
 - ressources-plugins-wp-gratuits
 - ressources-plugins-wp-navigation
+price: $59
 intro: Google Places Autocomplete input (without map). Returns an object with formatted address components
 github: https://github.com/MagazineduWebdesign
 siteweb: https://magazineduwebdesign.com
