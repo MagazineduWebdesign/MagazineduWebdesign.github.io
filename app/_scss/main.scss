@@ -483,7 +483,7 @@ background-position: center}
 	}
 	.top-bar.expanded{border-bottom: 2px solid $secondary-color}
 	.top-bar .name{height:rem-calc(56)}
-	.name{line-height:rem-calc(56)}
+	.top-bar .name span, .name{line-height:rem-calc(56)}
 	#logo{margin:rem-calc(8 8 8 0)}
 	.fixed.expanded:not(.top-bar) .top-bar-section {margin-top:rem-calc(56)}
 	.ic-hide-for-small{display:none}
