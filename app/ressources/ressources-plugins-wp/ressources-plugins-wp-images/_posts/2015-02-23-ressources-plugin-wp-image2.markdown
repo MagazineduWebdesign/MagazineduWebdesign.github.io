@@ -1,6 +1,6 @@
 ---
 layout: ressource-default
-title: lukemadera autoform-googleplace
+title: Google Places Autocomplete input
 date: 2015-02-22 17:23:57
 path1: ressources
 path2: plugins-wordpress
