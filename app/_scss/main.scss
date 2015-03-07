@@ -263,6 +263,11 @@ ul{list-style-position: inside;}
 .carte-article-secondaire-thumbnail.mod-thumbnail-action{
 	background-color:$secondary-color;
 }
+.carte-article-secondaire-thumbnail.mod-thumbnail-action-white{
+	background-color:$white;
+	border-left: 1px solid $secondary-color;
+	border-right: 1px solid $secondary-color
+}
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
