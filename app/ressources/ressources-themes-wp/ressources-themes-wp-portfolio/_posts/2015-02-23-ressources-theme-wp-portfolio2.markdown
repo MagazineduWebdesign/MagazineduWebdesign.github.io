@@ -5,7 +5,7 @@ date: 2015-02-25 17:23:57
 path1: ressources
 path2: themes-wordpress
 path3: portfolio
-category: themes-wp-all
+category: themes-wordpress
 tags:
 - ressources-themes-wp-portfolio
 - ressources-themes-wp-gratuits

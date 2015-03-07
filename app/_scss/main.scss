@@ -199,7 +199,7 @@ ul{list-style-position: inside;}
   line-height:($rem-base * 1.5)
 }
 .section-carte-action, .section-carte-header {
-	margin-bottom:($rem-base * 1.5);
+	margin-bottom:rem-calc(24);
 	padding:0 $rem-base;
 	border:1px solid $secondary-color;
 	border-bottom-width:rem-calc(2);
@@ -212,6 +212,9 @@ ul{list-style-position: inside;}
 	margin-bottom:0;
 	border-top:1px solid $secondary-color;
 	border-bottom:0
+}
+.section-carte-header-no-bg{
+	padding:0 $rem-base;
 }
 .section-carte-action.mod-article-video-action-relative, .section-carte-header.mod-article-video-header-relative{
 	border:0
@@ -257,7 +260,7 @@ ul{list-style-position: inside;}
 	height: 0;
 	padding-bottom: 56.2%;
 }
-.carte-article-secondaire-thumbnail.mod-thumbnail-submit{
+.carte-article-secondaire-thumbnail.mod-thumbnail-action{
 	background-color:$secondary-color;
 }
 .carte-article-secondaire.mod-videos-relatives{
@@ -321,14 +324,14 @@ ul{list-style-position: inside;}
 	}
 	.carte-article-secondaire-post-description{margin: rem-calc(8 0 0);font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
 	.carte-article-secondaire img{width:rem-calc(140)}
-	.carte-article-secondaire-container-submit{
+	.carte-article-secondaire-container-action{
 		position: absolute;
 		left: 0;
 		top: 0;
 		width: 100%;
 		height: 100%
 	}
-	.carte-article-secondaire-submit-texte{
+	.carte-article-secondaire-action-texte{
 		position: relative;
 		top: 50%;
 		-webkit-transform: translateY(-50%);
@@ -336,6 +339,7 @@ ul{list-style-position: inside;}
 		font-size: rem-calc(14);
 		color: $aluminum!important
 	}
+	.carte-article-secondaire-action-link{color: $aluminum!important}
 
 //shadow
 .shadow-img{

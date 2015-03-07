@@ -5,7 +5,7 @@ date: 2015-02-22 17:23:57
 path1: ressources
 path2: plugins-wordpress
 path3: images
-category: plugins-wordpress-all
+category: plugins-wordpress
 tags:
 - ressources-plugins-wp-image
 - ressources-plugins-wp-gratuits

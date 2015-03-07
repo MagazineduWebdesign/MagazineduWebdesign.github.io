@@ -1,8 +1,8 @@
-- name: NOUVEAUTES
+- name: NOUVEAUT&Eacute;S
   currentnav:
   permalink: /ressources/
 
-- name: THEMES WORDPRESS
+- name: TH&Egrave;MES WORDPRESS
   currentnav:
   permalink: /ressources/themes-wordpress/
 
@@ -14,7 +14,7 @@
   currentnav: 
   permalink: /ressources/icones/
 
-- name: KIT UI
+- name: KITS UI
   currentnav:
   permalink: /ressources/kits-ui/
 
@@ -22,9 +22,9 @@
   currentnav:
   permalink: /ressources/fonts/
 
-- name: VECTORS
+- name: FICHIERS VECTORIS&Eacute;S
   currentnav:
-  permalink: /ressources/vectors/
+  permalink: /ressources/fichiers-vectorises/
 
 - name: PLUGINS JAVASCRIPT
   currentnav:
@@ -46,11 +46,15 @@
   currentnav: 
   permalink: /ressources/templates-email/
 
+- name: TEMPLATES WEARABLE UI
+  currentnav: 
+  permalink: /ressources/templates-wearable-ui/
+
 - name: FRAMEWORKS FRONT END
   currentnav:
   permalink: /ressources/frameworks-front-end/
 
-- name: FONDS D'ECRAN
+- name: FONDS D'&Eacute;CRAN
   currentnav:
   permalink: /ressources/fonds-ecran/
 
