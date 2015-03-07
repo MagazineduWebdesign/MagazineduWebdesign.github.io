@@ -1,0 +1,31 @@
+- name: NOUVEAUT&Eacute;S
+  currentnav:
+  permalink: /apprendre/
+
+- name: LIVRES
+  currentnav:
+  permalink: /apprendre/livres/
+
+- name: EBOOKS
+  currentnav:
+  permalink: /apprendre/ebooks/
+
+- name: GUIDES
+  currentnav:
+  permalink: /apprendre/guides/
+
+- name: ETUDES
+  currentnav:
+  permalink: /apprendre/etudes/
+
+- name: STATISTIQUES
+  currentnav: 
+  permalink: /apprendre/statistiques/
+
+- name: ENCYCLO
+  currentnav:
+  permalink: /apprendre/encyclo/
+
+- name: CITATIONS
+  currentnav:
+  permalink: /apprendre/citations/
