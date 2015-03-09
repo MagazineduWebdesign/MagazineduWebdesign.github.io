@@ -15,7 +15,7 @@
       {% for post in site.categories.[include.param] limit:3 %}
         <li>
           <a href="{{ post.url | prepend: site.baseurl }}">
-            <article class="carte-article-secondaire mod-ressources-article" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+            <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
               <div class="row collapse">
                 <div class="small-12 columns">
                   <h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 33 }}</h1>
@@ -31,7 +31,7 @@
       {% endfor %}
         <li>
           <a href="{{ site.baseurl }}/ressources/{{ include.param }}/" class="carte-article-secondaire-action-link">
-            <article class="carte-article-secondaire mod-ressources-article" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+            <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
               <div class="row collapse">
                 <div class="small-12 columns carte-article-secondaire-container-action">
                   <p class="carte-article-secondaire-action-texte text-center">
