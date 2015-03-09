@@ -1,0 +1,235 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<section>
+	{% include custom/sections/apprendre-entries.html %}
+
+	<!-- list header 
+	================================================== -->
+	<div class="header-liste u-no-padding-bottom">
+	  <header class="row-liste-index">
+	    <div class="small-12 columns">
+	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
+				<p class="header-liste-content text-center">
+					{{ page.intro }} 
+					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
+            <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <path id="twitter-icon" d="M462,128.223c-15.158,6.724-31.449,11.269-48.547,13.31c17.449-10.461,30.854-27.025,37.164-46.764
+              c-16.333,9.687-34.422,16.721-53.676,20.511c-15.418-16.428-37.386-26.691-61.698-26.691c-54.56,0-94.668,50.916-82.337,103.787
+              c-70.25-3.524-132.534-37.177-174.223-88.314c-22.142,37.983-11.485,87.691,26.158,112.85c-13.854-0.438-26.891-4.241-38.285-10.574
+              c-0.917,39.162,27.146,75.781,67.795,83.949c-11.896,3.237-24.926,3.978-38.17,1.447c10.754,33.58,41.972,58.018,78.96,58.699
+              C139.604,378.282,94.846,390.721,50,385.436c37.406,23.982,81.837,37.977,129.571,37.977c156.932,0,245.595-132.551,240.251-251.435
+              C436.339,160.061,450.668,145.174,462,128.223z" fill="#00ACED" />
+            </svg>
+          </a>
+	       </p>
+	    </div>
+		</header>
+
+		<!-- list filters
+		================================================== -->
+		<div class="row text-center">
+		  <div class="small-12 columns">
+
+		  	<!-- desktop list filters 
+				================================================== -->
+		  	<div class="tabs u-no-margin-b hide-for-small-only">
+					<a href="/apprendre/livres/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux livres">NOUVEAUTES</a>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les livres par catégories" data-reveal-id="livres-filtre-categories">CATEGORIES</a>
+					
+					<!-- desktop list filter modalbox
+	        ================================================== -->
+	        <div id="themes-wp-filtre-types" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Filtrer par catégories de livres</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav" role="navigation" title="Link List">
+									  	{% for item in site.data.apprendre.livres-categories %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+
+				</div>
+
+				<!-- mobile list filters
+				================================================== -->
+		  	<div class="tabs u-no-margin-b show-for-small-only">
+					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="themes-wp-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
+					
+					<!--  mobile list filters modalbox
+	        ================================================== -->
+	        <div id="themes-wp-filtre-mobile" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Vous cherchez un livre...</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					        	<ul class="side-nav" role="navigation" title="Link List">
+					        		<li role="menuitem"><a href="/apprendre/livres/" title="Nouveaux livres">NOUVEAUTES</a></li>
+					        		{% for item in site.data.apprendre.livres-categories %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					        	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+
+				</div>
+
+		  </div>
+		</div>
+
+	</div>
+	
+	<!-- list subheader
+	================================================== -->
+	<div class="row">
+	  <div class="small-12 columns section-header">
+	    <!-- Number of item by index -->
+			{% if page.category == 'livres' %}
+				{% for post in site.categories.livres %}
+			    {% capture length %}{{ forloop.length }}{% endcapture %}
+			  {% endfor %}
+			{% else %}
+				{% for post in site.tags[page.tags] %}
+			    {% capture length %}{{ forloop.length }}{% endcapture %}
+			  {% endfor %}
+			{% endif %}
+	    <span class="section-header-titre">{{ length }} livres</span>
+	  </div>
+	</div>
+	
+	<!-- list items
+	================================================== -->
+	<div class="row"> 
+	  <div class="small-12 columns">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-5 {% if page.category == 'livres' %}current-page{% endif %}">
+
+			<!-- Upload yours
+			================================================== -->
+			<li>
+        <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+
+          <div class="row collapse hide-for-small">
+            <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-action"></div>
+          </div>
+
+          <a href="">
+	          <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
+	            <div class="small-12 columns carte-article-secondaire-container-action">
+		          	<p class="carte-article-secondaire-action-texte text-center">
+		          		<a class="typeform-share link carte-article-secondaire-action-link" href="https://magazineduwebdesign.typeform.com/to/VhkhK9" data-mode="2" target="_blank"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>SUGGERER</a>
+									<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+		          	</p>
+	            </div>
+	          </div>
+        	</a>
+
+        </article>
+			</li>
+
+			<!-- list all items
+			================================================== -->
+			{% if page.category == 'livres' %}
+				{% if site.categories.livres %}
+					{% for post in site.categories.livres limit: 6 %}
+					<li>
+	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	            	            
+	            {% if post.image %}
+		            <div class="row collapse">
+	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+		                <a href="{{ post.url | prepend: site.baseurl }}">
+		                	<div class="shadow-img"></div>
+		                </a>
+	                </div>
+		            </div>
+	            {% endif %}
+
+	            <a href="{{ post.url | prepend: site.baseurl }}">
+		            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+		              	{% if post.price %}
+		              		<span class="label-price">{{ post.price }}</span>
+		              	{% endif %}
+		              </div>
+		            </div>
+		          </a>
+	          </article>
+					</li>
+					{% endfor %}
+				</ul>
+				{% else %}
+					<p>Il n'y a pas d'articles pour ce tag.</p>
+				{% endif %}
+
+			<!-- list items by tags
+			================================================== -->
+			{% else %}
+				{% if site.tags[page.tags] %}
+					{% for post in site.tags[page.tags] limit: 6 %}
+					<li>
+	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	            
+	            {% if post.image %}
+		            <div class="row collapse">
+	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+		                <a href="{{ post.url | prepend: site.baseurl }}">
+		                	<div class="shadow-img"></div>
+		                </a>
+	                </div>
+		            </div>
+	            {% endif %}
+
+	            <a href="{{ post.url | prepend: site.baseurl }}">
+	            <div class="carte-article-secondaire mod-ressources-article-thumbnail row collapse">
+	              <div class="small-12 columns">
+	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+	              	{% if post.price %}
+	              		<span class="label-price">{{ post.price }}</span>
+	              	{% endif %}
+	              </div>
+	            </div>
+	          </a>
+	          </article>
+					</li>
+					{% endfor %}
+				</ul>
+				{% else %}
+					<p>Il n'y a pas d'articles pour ce tag.</p>
+				{% endif %}
+
+			{% endif %}
+
+	  </div>
+	</div>
+	
+	<div class="infinite-spinner"></div>
+
+</section>

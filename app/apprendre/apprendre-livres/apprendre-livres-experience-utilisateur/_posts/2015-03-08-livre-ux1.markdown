@@ -1,0 +1,20 @@
+---
+layout: apprendre-default
+title: How Buildings Learn - What Happens After They're Built
+date: 2015-02-17 17:23:57
+path1: apprendre
+path2: livres
+path3: experience-utilisateur
+category: livres
+tags: livres-experience-utilisateur
+intro: Buildings have often been studies whole in space, but never before have they been studied whole in time. How Buildings Learn is a masterful new synthesis that proposes that buildings adapt best when constantly refined and reshaped by their occupants, and that architects can mature from being artists of space to becoming artists of time.
+image: air.jpg
+price: €26,83
+url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
+description: blablabla
+---
+
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+
+Jekyll also offers...
