@@ -227,6 +227,10 @@ ul{list-style-position: inside;}
 		color:$jumbo;
 		border-bottom: 1px solid $secondary-color
 	}
+	.section-carte-header-title-big{
+		margin: rem-calc(48 0 24);
+		font-size: $h2-font-size;
+	}
 	.section-carte-action a, .section-carte-header a{
 		padding:0;
 		color:$aluminum
