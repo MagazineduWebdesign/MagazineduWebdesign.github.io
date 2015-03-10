@@ -1,0 +1,15 @@
+- name: GUIDES UTILISABILITE
+  currentnav:
+  permalink: /apprendre/livre/utilisabilite/
+
+- name: GUIDES ATELIER DE DESIGN
+  currentnav:
+  permalink: /apprendre/guides/atelier-design/
+
+- name: GUIDES RECHERCHE UX
+  currentnav:
+  permalink: /apprendre/guides/recherche-ux/
+
+- name: GUIDES ANIMATION UI
+  currentnav:
+  permalink: /apprendre/guides/animation-ui/
