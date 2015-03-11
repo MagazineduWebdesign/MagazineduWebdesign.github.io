@@ -11,22 +11,24 @@ layout: default
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
         <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
-          {% if page.github %}<a href="{{ page.github }}" class="button small secondary" target="_blank">Github</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
+          {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Github</a>{% endif %}
+          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
         </div>
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
-          {% if page.github %}<a href="{{ page.github }}" class="button small secondary" target="_blank">Github</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %} 
-          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button small secondary" target="_blank">DEMO</a>{% endif %}
-          {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank"><span class="button-label-prix">{{ page.price }}</span> ACHETER</a>{% endif %}
+          {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Github</a>{% endif %}
+          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %} 
+          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small secondary" target="_blank">DEMO</a>{% endif %}
+          {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
         </div>
       </div>
       {% endif %}
@@ -53,9 +55,6 @@ layout: default
     
     <main class="column-body-article mod-article-left-body">
       {{ content }}
-      <div class="row collapse article-partage">
-        {% include custom/sections/share-article-footer.html %}
-      </div>
     </main>
 
     <div class="article-meta-by-time mod-article-right-meta show-for-large-up">

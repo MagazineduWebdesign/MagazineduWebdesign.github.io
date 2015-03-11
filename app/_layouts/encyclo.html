@@ -10,11 +10,12 @@ layout: default
         <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
       </div>
       <div class="small-12 medium-12 large-8 columns columns small-text-center large-text-left">
-        <h1 class="header-liste-headline encyclo-title" itemprop="headline"><span class="encyclo-title-def left">{{ page.title }}</span>{% if page.intro %}<span class="encyclo-description">{{ page.intro }}</span>{% endif %}</h1>
+        <h1 itemprop="headline">{{ page.title }}</h1>
+        {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
       </div>
       <div class="small-12 medium-12 large-3 columns small-text-center large-text-right"> 
-        {% if page.github %}<a href="{{ page.github }}" class="button small secondary" target="_blank">Github</a>{% endif %}
-        {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
+        {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Github</a>{% endif %}
+        {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
       </div>
     </header>
   </div>
@@ -23,7 +24,7 @@ layout: default
       <span class="section-header-titre article-bgimg-meta-by-time">Publiée le {% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></span>
     </div>
   </div>
-  <div class="row-body-article encyclo-offre-contenu"> 
+  <div class="row-body-article item-contenu"> 
     <div class="article-meta-by-time show-for-large-up">
       <aside>
         <p class="article-bgimg-meta-by-time">Publiée le {% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
@@ -46,12 +47,7 @@ layout: default
     </div>
     
     <main class="column-body-article">
-      
       {{ content }}
-
-      <div class="row collapse article-partage">
-        {% include custom/sections/share-article-footer.html %}
-      </div>
     </main>
   </div>
 </article>

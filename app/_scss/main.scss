@@ -146,11 +146,6 @@ ul{list-style-position: inside;}
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{@include header-liste}
 .header-liste.u-no-padding-bottom{padding-bottom: 0}
-	.header-liste-headline{@include header-liste-title($color:$tuatara)}
-	.header-liste-headline.mod-article-video-title{
-		@include header-liste-title($color:$tuatara);
-		font-size: $h2-font-size;
-	}
 	.header-liste-content{@include font-serif-paragraphe}
 	.header-liste-content.u-no-margin-b{@include font-serif-paragraphe; margin-bottom: 0}
 	.header-liste-link a{@include header-liste-link}
@@ -469,6 +464,7 @@ background-position: center}
 
 //img
 .figure-img{margin: 0}
+.figure-img.mod-article-couverture-livre{margin: 0 0 rem-calc(24)}
 .figure-img.mod-note-img{margin: 0 rem-calc(-24) 0}
 @media #{$small-only} {
 	.figure-img.mod-note-img {margin: 0 rem-calc(-16) 0;}
@@ -654,7 +650,7 @@ background-position: center}
 	display: table-cell;
 	vertical-align: bottom;
 }
-.header-article-bgimg-cellule h1{@include header-liste-title($margin:($rem-base * 1.5))}
+.header-article-bgimg-cellule h1{@include header-liste-title}
 .column-article-featured-image-caption{border-bottom:1px dotted $secondary-color}
 .column-article-featured-image img {width:100%}
 .column-article-featured-image-caption p{
@@ -842,8 +838,6 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 .breadcrumbs.is-encyclo{padding-top:0}
 .encyclo-title{margin:0}
 .encyclo-title-def{width:100%}
-.encyclo-description{display:block;margin-bottom:rem-calc(24);font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
-@media #{$large-up}{.row-body-article.encyclo-offre-contenu{padding-top:rem-calc(48)}}
 
 // 00. SECTION COMMENTAIRES
 // - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -7,8 +7,8 @@ path2: livres
 path3: experience-utilisateur
 category: livres
 tags: livres-experience-utilisateur
-intro: Buildings have often been studies whole in space, but never before have they been studied whole in time. How Buildings Learn is a masterful new synthesis that proposes that buildings adapt best when constantly refined and reshaped by their occupants, and that architects can mature from being artists of space to becoming artists of time.
-image: livre1.jpg
+intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
+image: air.jpg
 price: €26,83
 url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla

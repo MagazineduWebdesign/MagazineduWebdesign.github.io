@@ -222,10 +222,10 @@ $h4-font-reduction: rem-calc(0) !default;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
-// $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
+$subheader-font-color: $aluminum;
 // $subheader-font-weight: $font-weight-normal;
 // $subheader-top-margin: .2rem;
-// $subheader-bottom-margin: .5rem;
+$subheader-bottom-margin: 1.5rem;
 
 // A general <small> styling
 // $small-font-size: 60%;
