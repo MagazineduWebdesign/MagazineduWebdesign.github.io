@@ -273,12 +273,22 @@ ul{list-style-position: inside;}
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
-.carte-article-secondaire.mod-article-1-col, .carte-article-secondaire.mod-article-thumbnail-1-col, .carte-article-secondaire.mod-article-thumbnail-1-col-ratio-8-11{
+.carte-article-secondaire.mod-article-1-col, .carte-article-secondaire.mod-article-thumbnail-1-col{
 	@include panel($padding:$rem-base);
 	margin-bottom:0;
 	border-radius:$global-radius;
 	border-bottom-width: rem-calc(2);
 	border-top-width: 0;
+}
+.carte-article-secondaire.mod-article-thumbnail-1-col-ratio-8-11{
+	@include panel($padding:$rem-base);
+	margin-bottom:0;
+	border-radius:$global-radius;
+	border-bottom-width: rem-calc(2);
+	border-top-width: 0;
+  position: relative;
+  top: rem-calc(8);
+  margin: rem-calc(0 8)!important; 
 }
 .carte-article-secondaire.mod-index-video-one-col-action{
 	@include panel($padding:0);
