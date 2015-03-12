@@ -8,11 +8,11 @@
       {% else %}
         {% capture layout %}
           {% assign layout = page.layout %}
-          {% case layout %}{% when 'note' %}notes{% when 'collection' %}collections{% when 'encyclo' %}encyclo{% when 'encyclo_category_index' %}encyclo{% when 'emploi' %}emploi{% when 'recruter' %}recruter{% when 'candidater' %}candidater{% else %}{{ page.category }}{% endcase %}
+          {% case layout %}{% when 'note' %}notes{% when 'collection' %}collections{% when 'encyclo' %}apprendre/encyclo{% when 'encyclo_category_index' %}encyclo{% when 'emploi' %}emploi{% when 'recruter' %}recruter{% when 'candidater' %}candidater{% else %}{{ page.category }}{% endcase %}
         {% endcapture %}
       {% endif %}
       
-      {% if page.path1 %}
+      {% if page.path1 %} 
         <a href="{{ site.baseurl }}/{{ page.path1 }}/{% if page.path2 %}{{ page.path2 }}/{% endif %}{% if page.path3 %}{{ page.path3 }}/{% endif %}">
       {% else %}
         <a href="{{ site.baseurl }}/{{ layout | remove: ' ' }}/">
@@ -50,7 +50,7 @@
             {% else %}
             <span class="left">
               <svg class="ic_block-h64-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#999999"/></svg>
-              {{ layout | replace: '-', ' ' }}
+              {{ layout | replace: '-', ' ' | remove: "apprendre/"  }}
             </span>
             {% endif %}
           </div>

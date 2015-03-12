@@ -25,7 +25,7 @@ include: ['.htaccess', '.nojekyll']
 collections:
   encyclo:
     output: true
-    permalink: /:collection/:title/
+    permalink: /apprendre/:collection/:title/
   note:
     output: true
     permalink: /:collection/:title/
@@ -61,7 +61,7 @@ defaults:
       layout: "note" # overrides previous default layout
   -
     scope:
-      path: "encyclo"
+      path: "apprendre/encyclo"
       type: "encyclo"
     values:
       layout: "encyclo" # overrides previous default layout
