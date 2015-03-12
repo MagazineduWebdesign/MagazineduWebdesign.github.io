@@ -19,11 +19,7 @@ layout: default
       </div>
     </header>
   </div>
-  <div class="row-liste-index hide-for-large-up">
-    <div class="small-12 columns section-header">
-      <span class="section-header-titre article-bgimg-meta-by-time">Publiée le {% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></span>
-    </div>
-  </div>
+
   <div class="row-body-article item-contenu"> 
     <div class="article-meta-by-time show-for-large-up">
       <aside>
@@ -49,5 +45,6 @@ layout: default
     <main class="column-body-article">
       {{ content }}
     </main>
+    
   </div>
 </article>
