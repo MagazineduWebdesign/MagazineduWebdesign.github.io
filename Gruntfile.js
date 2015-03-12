@@ -264,13 +264,14 @@ module.exports = function (grunt) {
     responsive_images: {
       options: {
         newFilesOnly: true,
+        upscale: true,
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
           width: 140,
           height: 80
         },{
-        name: 'small',
+          name: 'small',
           width: 360
         },{
           name: 'medium',
