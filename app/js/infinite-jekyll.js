@@ -162,7 +162,7 @@ $(function() {
         // divers
         case 'encyclos':
           str+='<a href="'+postURL+'" title="'+$(data).find('.encyclo-title-def').html()+'">';
-          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.encyclo-title-def').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.encyclo-title-def').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
