@@ -8,7 +8,7 @@ path3: experience-utilisateur
 category: livres
 tags: livres-experience-utilisateur
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-image: air.jpg
+image: book1.jpg
 price: €26,83
 url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla
