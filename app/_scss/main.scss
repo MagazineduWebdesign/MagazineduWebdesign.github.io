@@ -357,7 +357,7 @@ ul{list-style-position: inside;}
 	.carte-article-secondaire-post-title{
 		margin: rem-calc(0 16 0 0);
 		font-size: $h3-font-size;
-		line-height: rem-calc(20)!important;
+		line-height: 1.25!important;
 		color: $jet
 	}
 	.carte-article-secondaire-post-title.mod-job-title, .carte-article-secondaire-post-title.mod-ressources-post-title{
@@ -440,6 +440,7 @@ ul{list-style-position: inside;}
 .link-partage {@include item-row}
 	.link-partage a {color:$aluminum}
 	.link-partage.mod-partage-index-quote a {color:$white}
+	.link-partage.mod-partage-index-quote a:hover {color:$gainsboro}
 	.link-partage a:hover{color:$topbar-link-color-hover}
 	.link-partage-url{margin-top:($rem-base * 1.5)}
 
@@ -1069,7 +1070,7 @@ background-position: center}
 	padding: rem-calc(48 0 24);
 }
 	.index-quote p{
-		@include font-serif-paragraphe ($fontsize: 20,$lineh: 30);
+		@include font-serif-paragraphe ($fontsize: 24,$lineh: 30);
 		color: $white;
 	}
 	.index-quote-author, .index-quote-author-link{
@@ -1077,7 +1078,7 @@ background-position: center}
 		color: $white!important;
 	}
 	.index-quote-author-link:hover{
-		color: scale-color($white, $lightness: -16%);
+		color: $gainsboro!important;
 	}
 
 // 00. FOOTER
