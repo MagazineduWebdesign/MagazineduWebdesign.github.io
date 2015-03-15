@@ -1,0 +1,16 @@
+---
+layout: citations-default
+title: Citations 1
+date: 2015-02-17 17:23:57
+path1: apprendre
+path2: citations
+path3: echec
+category: citations
+tags: citations-echec
+auteur: Mary Montezuma, Design badass users
+source-url: http://twitter.com
+bg-color: messenger
+---
+Caught up in a race for money and fame, we lost our focus on the important. We talk of venture capital, recruiting tactics, dreams of disrupting industries, stock options, growth hacks, and the superiority of our tools. We do not talk of the bugs, the quirks, the difficulties of using our creations, the exploitation of the public, or the worst secret of all: software is broken, we are responsible, and we’re making a lot of money off it.
+
+We’ve become obsessed with process and tools. We’ve stopped caring about the product.

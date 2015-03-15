@@ -60,6 +60,7 @@
 // 00. SECTION COLLECTION
 // 00. SECTION JOB
 // 00. SECTION VIDEO
+// 00. SECTION CITATION
 // 02. FOOTER
 // 00. 404
 
@@ -108,7 +109,7 @@
 	font-size:rem-calc($fontsize);
 	line-height:rem-calc($lineh)
 }
-// Utilisé pour contrôler le style des paragraphes sans-serif
+
 @mixin font-sans-serif-paragraphe($fontsize: 16,$lineh: 24) {
 	font-family:$font-family-sans-serif;
 	font-size:rem-calc($fontsize);
@@ -119,7 +120,20 @@
 $twitter:#00ACED;
 $facebook:#3B5998;
 $googleplus:#CC3732;
-$linkedin:#0077B5; 
+$linkedin:#0077B5;
+// color gradient (via the awesome tool http://uigradients.com/)
+.cherry{background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%);}
+.kashmir{background: linear-gradient(90deg, #614385 10%, #516395 90%);}
+.midnight-city{background: linear-gradient(90deg, #232526 10%, #414345 90%);}
+.pinot-noir{background: linear-gradient(90deg, #4b6cb7 10%, #182848 90%);}
+.amethyste{background: linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%);}
+.electric-violet{background: linear-gradient(90deg, #4776E6 10%, #8E54E9 90%);}
+.messenger{background: linear-gradient(90deg, #00c6ff 10%, #0072ff 90%);}
+.shrimpy{background: linear-gradient(90deg, #e43a15 10%, #e65245 90%);}
+.vine{background: linear-gradient(90deg, #00bf8f 10%, #001510 90%);}
+.instagram{background: linear-gradient(90deg, #517fa4 10%, #243949 90%);}
+.wine{background: linear-gradient(90deg, #870000 10%, #190A05 90%);}
+        
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -261,6 +275,8 @@ ul{list-style-position: inside;}
 }
 .carte-article-secondaire-thumbnail.mod-thumbnail-ratio-8-11{
 	padding-bottom: 137.2%;
+	box-shadow: inset rem-calc(3) 0 0 rgba($black,.2);
+	border-radius: rem-calc(2 4 4 2);
 }
 .carte-article-secondaire-thumbnail.mod-thumbnail-action, .carte-article-secondaire-thumbnail.mod-thumbnail-action-ratio-8-11{
 	background-color:$secondary-color;
@@ -341,7 +357,7 @@ ul{list-style-position: inside;}
 	.carte-article-secondaire-post-title{
 		margin: rem-calc(0 16 0 0);
 		font-size: $h3-font-size;
-		line-height: rem-calc(24)!important;
+		line-height: rem-calc(20)!important;
 		color: $jet
 	}
 	.carte-article-secondaire-post-title.mod-job-title, .carte-article-secondaire-post-title.mod-ressources-post-title{
@@ -355,6 +371,13 @@ ul{list-style-position: inside;}
 	.carte-article-secondaire-post-title.mod-ratio-8-11-post-title{
 		margin: 0!important;
 		font-size: $rem-base;
+		overflow: hidden;
+	}
+	@media #{$small-only} {
+		.carte-article-secondaire-post-title.mod-ratio-8-11-post-title{
+		font-size: rem-calc(14);
+		line-height: rem-calc(20)!important;
+	}
 	}
 	.carte-article-secondaire-post-description{margin: rem-calc(8 0 0);font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
 	.carte-article-secondaire img{width:rem-calc(140)}
@@ -413,6 +436,12 @@ ul{list-style-position: inside;}
 .partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 .partage-googleplus{@include button($bg:$googleplus,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 .partage-linkedin{@include button($bg:$linkedin,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
+
+.link-partage {@include item-row}
+	.link-partage a {color:$aluminum}
+	.link-partage.mod-partage-index-quote a {color:$white}
+	.link-partage a:hover{color:$topbar-link-color-hover}
+	.link-partage-url{margin-top:($rem-base * 1.5)}
 
 // button
 .button-without-border{@include button($bg:false, $radius:2px); margin-bottom:0;}
@@ -628,10 +657,6 @@ background-position: center}
 @media #{$medium-up} {
 	.note-figcaption{line-height:rem-calc(48);padding:rem-calc(0) rem-calc(24) 0;}
 }
-.note-partage {@include item-row}
-.note-partage a {color:$aluminum}
-.note-partage a:hover{color:$topbar-link-color-hover}
-.note-partage-url{margin-top:($rem-base * 1.5)}
 
 // 00. SECTION TWITTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1028,6 +1053,32 @@ background-position: center}
 	margin: rem-calc(0 8 -14);
 	vertical-align: middle;
 }
+
+// 00. SECTION CITATION
+// - - - - - - - - - - - - - - - - - - - - - - - - - 
+.index-apprendre-quote{
+	margin-top: rem-calc(48);
+	padding-bottom: rem-calc(24);
+}
+.index-quote{
+	margin: 0;
+	padding: rem-calc(48 0); 
+	border-left: 0;
+}
+.index-quote.mod-index-apprendre-quote{
+	padding: rem-calc(48 0 24);
+}
+	.index-quote p{
+		@include font-serif-paragraphe ($fontsize: 20,$lineh: 30);
+		color: $white;
+	}
+	.index-quote-author, .index-quote-author-link{
+		font-size: $rem-base;
+		color: $white!important;
+	}
+	.index-quote-author-link:hover{
+		color: scale-color($white, $lightness: -16%);
+	}
 
 // 00. FOOTER
 // - - - - - - - - - - - - - - - - - - - - - - - - -

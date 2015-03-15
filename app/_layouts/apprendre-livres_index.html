@@ -39,7 +39,7 @@ layout: default
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
 					<a href="/apprendre/livres/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux livres">NOUVEAUTES</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les livres par catégories" data-reveal-id="livres-filtre-categories">CATEGORIES</a>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les livres par thèmes" data-reveal-id="livres-filtre-categories">THEMES</a>
 					
 					<!-- desktop list filter modalbox
 	        ================================================== -->
@@ -49,7 +49,7 @@ layout: default
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par catégories de livres</p>
+							      <p class="titre-modal-box">Filtez les livres par thèmes</p>
 							      <hr>
 							    </div>
 							  </div>
@@ -200,7 +200,8 @@ layout: default
 		                <a href="{{ post.url | prepend: site.baseurl }}">
 		                	<div class="carte-article-secondaire mod-article-thumbnail-1-col-ratio-8-11 row collapse">
 					              <div class="small-12 columns">
-					              	<h1 class="carte-article-secondaire-post-title mod-ratio-8-11-post-title" itemprop="headline">{{ post.title | truncate: 68 }}</h1>
+					              	<h1 class="carte-article-secondaire-post-title mod-ratio-8-11-post-title show-for-small-only" itemprop="headline">{{ post.title | truncate: 34 }}</h1>
+					              	<h1 class="carte-article-secondaire-post-title mod-ratio-8-11-post-title hide-for-small" itemprop="headline">{{ post.title | truncate: 68 }}</h1> 
 					              </div>
 					            </div>
 		                </a>

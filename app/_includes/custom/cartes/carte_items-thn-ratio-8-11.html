@@ -1,0 +1,60 @@
+<section>
+  <div class="row">
+    <div class="small-12 columns section-carte-header-no-bg">
+      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | capitalize }}</h1>
+    </div>
+  </div>
+  <!-- list items
+  ================================================== -->
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5" data-equalizer>
+
+      <!-- list all items
+      ================================================== -->
+      {% for post in site.categories.[include.param] limit:3 %}
+        <li>
+            <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+              
+              {% if post.image %}
+                <div class="row collapse">
+                  <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-ratio-8-11" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                      <div class="carte-article-secondaire mod-article-thumbnail-1-col-ratio-8-11 row collapse">
+                        <div class="small-12 columns">
+                          <h1 class="carte-article-secondaire-post-title mod-ratio-8-11-post-title show-for-small-only" itemprop="headline">{{ post.title | truncate: 34 }}</h1>
+                          <h1 class="carte-article-secondaire-post-title mod-ratio-8-11-post-title hide-for-small" itemprop="headline">{{ post.title | truncate: 68 }}</h1> 
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              {% endif %}
+
+            </article>
+          </li>
+      {% endfor %}
+        <li>
+          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+
+            <div class="row collapse">
+              <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-ratio-8-11 mod-thumbnail-action-ratio-8-11">
+                <a href="{{ site.baseurl }}{{ page.permalink }}{{ include.param }}/" class="carte-article-secondaire-action-link">
+                  <div class="carte-article-secondaire mod-article-thumbnail-1-col-ratio-8-11 row collapse">
+                    <div class="small-12 columns carte-article-secondaire-container-action">
+                      <p class="carte-article-secondaire-action-texte text-center">
+                        EN VOIR PLUS <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#999999"/></svg>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </article>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
