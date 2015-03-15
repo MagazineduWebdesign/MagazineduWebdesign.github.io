@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %}
+<article>
+  <div class="{{ page.bg-color }}">
+    <div class="row-liste-index">
+      <main class="small-12 columns">
+        <blockquote class="index-quote text-center">
+          {{ content }}
+          <cite class="index-quote-author">
+            <a class="index-quote-author-link" href="{{ page.source-url }}">{{ page.auteur }}</a>
+          </cite>
+        </blockquote>
+        <div class="row collapse">
+          <div class="small-12 columns">
+            <div class="link-partage mod-partage-index-quote text-center">
+              <a href="{{ site.baseurl }}/{{ page.path1 }}/{{ page.path2 }}/">
+                PLUS DE CITATIONS <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#ffffff"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="row-body-article item-contenu"> 
+
+    <div class="article-meta-by-time mod-article-right-meta show-for-large-up">
+      <aside class="job--in-article mod-job-in-article-first-position">
+      {% if site.offre-emploi %}
+        <h1>AU TRAVAIL, NERD !</h1>
+        {% assign offres = site.offre-emploi | reverse %}
+        {% for offre in offres limit: 2 %}
+          <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+            {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+          </a></p>
+        {% endfor %}
+        <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
+      {% else %}
+        <h1>AU TRAVAIL, NERD !</h1>
+        <p>Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
+      {% endif %}
+      </aside>
+    </div>
+
+    <div class="row-body-article">
+      <div class="column-body-article mod-article-left-body">
+        {% include custom/cartes/carte_nl-in-post.html %}
+        {% include custom/cartes/carte_twtr_no-mail.html %}
+      </div>
+    </div>
+  </div>
+</article>
