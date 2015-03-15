@@ -1,5 +1,5 @@
 ---
-layout: citations-default
+layout: citation
 title: Citations 5
 date: 2015-02-17 17:23:57
 path1: apprendre
