@@ -1,0 +1,11 @@
+- name: TOURISME
+  currentnav:
+  permalink: /inspiration/sites-web/themes/tourisme/
+
+- name: MUSIQUE
+  currentnav:
+  permalink: /inspiration/sites-web/themes/musique/
+
+- name: AUTOMOBILE
+  currentnav:
+  permalink: /inspiration/sites-web/themes/automobile/

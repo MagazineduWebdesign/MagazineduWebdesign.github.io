@@ -1,0 +1,136 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %}
+<article>
+  <div class="header-liste {% if page.image %}u-no-padding-bottom{% endif %}">
+    <header class="row-body-article medium-uncollapse large-collapse">
+      
+      <div class="column-header-article mod-header-article-no-margin-top row collapse">
+        <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+        </div>
+        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
+          {% if page.url-site %}<a href="{{ page.url-site }}" class="button radius small primary" target="_blank">VISITER LE SITE WEB</a>{% endif %}
+        </div>
+      </div>
+
+      <div class="row collapse">
+
+        <div class="small-12 medium-8 columns">
+          {% if page.image-1 %}
+          <figure class="figure-img">
+            <img src="{{ page.image-1 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 1 - {{ page.title }}">
+          </figure>
+          {% endif %}
+          {% if page.image-2 %}
+          <figure class="figure-img">
+            <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 2 - {{ page.title }}">
+          </figure>
+          {% endif %}
+        </div>
+
+        <div class="small-12 medium-4 columns">
+          <ul class="side-nav" role="navigation" title="metadata site Web">
+            <li role="menuitem">Thème</li>
+            {% if page.theme %}
+            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme }}</a></li>
+            {% endif %}
+
+            <li role="menuitem">Format</li>
+            {% if page.format %}
+            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format }}</a></li>
+            {% endif %}
+
+            <li role="menuitem">Styles</li>
+            {% if page.style-1 %}
+            <li role="menuitem"><a href="{{ page.style-1-url }}" title="{{ page.style-1 }}">{{ page.style-1 }}</a></li>
+            {% endif %}
+            {% if page.style-2 %}
+            <li role="menuitem"><a href="{{ page.style-2-url }}" title="{{ page.style-2 }}">{{ page.style-2 }}</a></li>
+            {% endif %}
+            {% if page.style-3 %}
+            <li role="menuitem"><a href="{{ page.style-3-url }}" title="{{ page.style-3 }}">{{ page.style-3 }}</a></li>
+            {% endif %}
+
+            <li role="menuitem">Technologies</li>
+            {% if page.technologie-1 %}
+            <li role="menuitem"><a href="{{ page.technologie-1-url }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 }}</a></li>
+            {% endif %}
+            {% if page.technologie-2 %}
+            <li role="menuitem"><a href="{{ page.technologie-2-url }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 }}</a></li>
+            {% endif %}
+
+            <li role="menuitem">Crédit</li>
+            {% if page.by %}
+            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}">{{ page.by }}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+
+      </div>
+
+    </header>
+  </div>
+
+  <div class="row-body-article item-contenu"> 
+
+    <div class="article-meta-by-time mod-article-right-meta show-for-large-up">
+      <aside class="job--in-article mod-job-in-article-first-position">
+      {% if site.offre-emploi %}
+        <h1>AU TRAVAIL, NERD !</h1>
+        {% assign offres = site.offre-emploi | reverse %}
+        {% for offre in offres limit: 2 %}
+          <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+            {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
+          </a></p>
+        {% endfor %}
+        <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
+      {% else %}
+        <h1>AU TRAVAIL, NERD !</h1>
+        <p>Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
+      {% endif %}
+      </aside>
+    </div>
+
+
+    <div class="row-body-article">
+      <div class="column-body-article mod-article-left-body">
+        <article class="row-liste-index">
+          <div class="small-12 columns section-carte-newsletter section-carte-panel">
+            <h1 class="text-center">Vous voulez plus d'inspiration ?</h1>
+            <p class="text-center">Recevez le meilleur du Web design chaque jour par email.</p>
+            <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              
+              <div id="mc_embed_signup_scroll">
+                <div class="row">
+                  <div class="small-12 medium-6 columns">
+                    <div class="mc-field-group">
+                      <label for="mce-EMAIL"></label>
+                      <input type="email" placeholder="Insérez votre adresse@email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    
+                  </div>
+
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
+
+                  <div class="small-12 medium-6 columns">
+                    <input type="submit" class="small button radius expand" value="S'INSCRIRE" name="subscribe" id="mc-embedded-subscribe">  
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </article>
+        {% include custom/cartes/carte_twtr_no-mail.html %}
+      </div>
+    </div>
+  </div>
+</article>
