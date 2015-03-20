@@ -1,0 +1,11 @@
+- name: DESIGN
+  currentnav:
+  permalink: /evenements/design/
+  
+- name: DEV FRONT END
+  currentnav:
+  permalink: /evenements/front-end/
+
+- name: UX DESIGN
+  currentnav:
+  permalink: /evenements/ux-design/

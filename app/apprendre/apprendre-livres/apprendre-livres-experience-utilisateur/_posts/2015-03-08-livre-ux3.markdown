@@ -1,6 +1,6 @@
 ---
 layout: apprendre-default
-title: American sniper - l'autobiographie du sniper le plus redoutable de l'histoire militaire américaine
+title: histoire militaire
 date: 2015-02-18 17:23:57
 path1: apprendre
 path2: livres

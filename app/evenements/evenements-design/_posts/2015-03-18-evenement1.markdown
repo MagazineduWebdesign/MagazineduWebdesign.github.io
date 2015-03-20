@@ -1,17 +1,19 @@
 ---
-layout: apprendre-default
-title: American sniper - l'autobiographie du sniper le plus redoutable de l'histoire militaire américaine
-date: 2015-02-18 17:23:57
-path1: apprendre
-path2: livres
-path3: experience-utilisateur
-category: livres
-tags: 
-- livres-experience-utilisateur
+layout: evenement
+title:  Amsterdam FITC
+date:   2015-02-17 17:23:57
+path1: evenements
+path2: design
+path3:
+category: evenements
+tags:
+- evenements-design
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-image: livre1.jpg
-price: €26,83
-url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
+logo: galaxie.jpg
+event-date: 23 mai 2015
+event-lieu: Amsterdam
+image:
+siteweb: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla
 ---
 

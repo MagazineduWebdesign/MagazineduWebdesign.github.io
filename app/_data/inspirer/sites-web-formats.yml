@@ -1,0 +1,11 @@
+- name: BLOG
+  currentnav:
+  permalink: /inspiration/sites-web/formats/blog/
+
+- name: MAGAZINE
+  currentnav:
+  permalink: /inspiration/sites-web/formats/magazine/
+
+- name: PORTFOLIO
+  currentnav:
+  permalink: /inspiration/sites-web/formats/portfolio/

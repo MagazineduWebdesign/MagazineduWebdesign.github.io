@@ -19,7 +19,7 @@ highlighter: rouge
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-include: ['.htaccess', '.nojekyll']
+include: ['.nojekyll']
 
 # Collections settings
 collections:

@@ -6,7 +6,8 @@ path1: apprendre
 path2: livres
 path3: experience-utilisateur
 category: livres
-tags: livres-experience-utilisateur
+tags: 
+- livres-experience-utilisateur
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
 image: book1.jpg
 price: €26,83

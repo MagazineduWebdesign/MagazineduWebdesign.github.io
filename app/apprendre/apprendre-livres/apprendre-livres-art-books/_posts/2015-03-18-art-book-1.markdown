@@ -1,13 +1,12 @@
 ---
 layout: apprendre-default
-title: American sniper - l'autobiographie du sniper le plus redoutable de l'histoire militaire américaine
+title: Art books 1
 date: 2015-02-18 17:23:57
 path1: apprendre
 path2: livres
-path3: experience-utilisateur
+path3: art-books
 category: livres
-tags: 
-- livres-experience-utilisateur
+tags: livres-art-books
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
 image: livre1.jpg
 price: €26,83

@@ -53,12 +53,7 @@ layout: default
 		  </div>
 		</div>
 	</div>
-	{% if page.svg %}
-	<!-- Beautiful svg background generated on notegraphy.com
-  ==> https://notegraphy.com/
-  ================================================== -->
-  {% endif %}
-  <div class="header-liste {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }})"{% endif %}>
+  <div class="header-liste">
 		<header class="row-liste-index text-center"> 
 			<div class="small-12 columns">
 				<h1 class="header-liste-headline">{{ page.title }} {% if page.tab3 == true %}<span class="label--secondary">COMING SOON</span>{% endif %}</h1>

@@ -1,19 +1,20 @@
 ---
 layout: inspirer-sites-web-default
-title: Magazine du Webdesign
-date: 2015-02-25 17:23:57
+title: Lucid Inc
+date: 2015-02-28 17:23:57
 path1: inspiration
 path2: sites-web
 category: sites-web
 tags:
 - sites-web-themes-tourisme
-- sites-web-format-ecommerce
-- sites-web-style-illustration
-- sites-web-technologie-webgl
+- sites-web-themes-musique
+- sites-web-formats-blog
+- sites-web-styles-illustration
+- sites-web-technologies-webgl
 theme: tourisme
 theme-url: /inspiration/sites-web/themes/tourisme/
-format: ecommerce
-format-url: /inspiration/sites-web/formats/
+format: blog
+format-url: /inspiration/sites-web/formats/blog/
 style-1: illustration
 style-url-1: /inspiration/sites-web/styles/illustration/
 style-2:
@@ -21,14 +22,14 @@ style-url-2:
 style-3:
 style-url-3:
 technologie-1: webgl
-technologie-url-1: /inspiration/sites-web/technologie/webgl/
+technologie-url-1: /inspiration/sites-web/technologies/webgl/
 technologie-2:
 technologie-url-2:
 by: metalab
 by-url: http://twitter.com/guillaumpalayer/
 url-site: http://magazineduwebdesign.com
-image-1: air.jpg
+image: air.jpg
 image-2: air.jpg
 intro: Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station.
-description: blablabla
+description: blablabla 
 ---

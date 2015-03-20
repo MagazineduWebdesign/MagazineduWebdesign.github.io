@@ -4,82 +4,56 @@ layout: default
 
 {% include custom/sections/article_header.html %}
 <article>
-  <div class="header-liste u-no-padding-bottom">
+  <div class="header-liste {% if page.image %}u-no-padding-bottom{% endif %}">
     <header class="row-body-article medium-uncollapse large-collapse">
-      
+      {% if page.logo %}
+        <div class="small-12 medium-12 large-1 columns small-text-center">
+          <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
+        </div>
+        <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+        </div>
+        <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
+          {% if page.event-date %}<p class="subheader">{{ page.event-date }} &bull; {{ page.event-lieu }}</p>{% endif %}
+          {% if page.siteweb %}<a class="button radius primary" href="{{ page.siteweb }}" title="Plus d'infos sur cet événement" target="_blank">+ INFOS</a>{% endif %}
+        </div>
+      {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline">{{ page.title }}</h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
-        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
-          {% if page.url-site %}<a href="{{ page.url-site }}" class="button radius small primary" target="_blank">VISITER LE SITE WEB</a>{% endif %}
+        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
+          {% if page.event-date %}<p class="subheader">{{ page.event-date }} &bull; {{ page.event-lieu }}</p>{% endif %}
+          {% if page.siteweb %}<a class="button radius primary" href="{{ page.siteweb }}" title="Plus d'infos sur cet événement" target="_blank">+ INFOS</a>{% endif %}
         </div>
       </div>
+      {% endif %}
 
-      <div class="row collapse">
-        
-        <!-- screenshots
-        ================================================== -->
-        <div class="small-12 medium-8 columns">
-          {% if page.image %}
-          <figure class="figure-img mod">
-            <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 1 - {{ page.title }}">
-          </figure>
-          {% endif %}
-          {% if page.image-2 %}
-          <figure class="figure-img">
-            <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 2 - {{ page.title }}">
-          </figure>
-          {% endif %}
+      {% if page.image %}
+        <div class="row collapse">
+          <div class="small-12 columns">
+            <figure class="figure-img">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+              {% if page.image-legende %}
+              <div class="row collapse">
+                <div class="small-12 columns">
+                  <figcaption class="note-figcaption">{{ page.image-legende }}</figcaption>
+                </div>
+              </div>
+              {% endif %}
+            </figure>
+          </div>
         </div>
-
-        <!-- metadata
-        ================================================== -->
-        <div class="small-12 medium-4 columns">
-          <ul class="side-nav" role="navigation" title="metadata site Web">
-            <li role="menuitem">Thème</li>
-            {% if page.theme %}
-            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme }}</a></li>
-            {% endif %}
-
-            <li role="menuitem">Format</li>
-            {% if page.format %}
-            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format }}</a></li>
-            {% endif %}
-
-            <li role="menuitem">Styles</li>
-            {% if page.style-1 %}
-            <li role="menuitem"><a href="{{ page.style-1-url }}" title="{{ page.style-1 }}">{{ page.style-1 }}</a></li>
-            {% endif %}
-            {% if page.style-2 %}
-            <li role="menuitem"><a href="{{ page.style-2-url }}" title="{{ page.style-2 }}">{{ page.style-2 }}</a></li>
-            {% endif %}
-            {% if page.style-3 %}
-            <li role="menuitem"><a href="{{ page.style-3-url }}" title="{{ page.style-3 }}">{{ page.style-3 }}</a></li>
-            {% endif %}
-
-            <li role="menuitem">Technologies</li>
-            {% if page.technologie-1 %}
-            <li role="menuitem"><a href="{{ page.technologie-1-url }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 }}</a></li>
-            {% endif %}
-            {% if page.technologie-2 %}
-            <li role="menuitem"><a href="{{ page.technologie-2-url }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 }}</a></li>
-            {% endif %}
-
-            <li role="menuitem">Crédit</li>
-            {% if page.by %}
-            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by }}</a></li>
-            {% endif %}
-          </ul>
-        </div>
-
-      </div>
-
+        {% endif %}
     </header>
   </div>
-
   <div class="row-body-article item-contenu"> 
+    
+    <main class="column-body-article mod-article-left-body">
+      {{ content }}
+    </main>
 
     <div class="article-meta-by-time mod-article-right-meta show-for-large-up">
       <aside class="job--in-article mod-job-in-article-first-position">
@@ -104,7 +78,7 @@ layout: default
       <div class="column-body-article mod-article-left-body">
         <article class="row-liste-index">
           <div class="small-12 columns section-carte-newsletter section-carte-panel">
-            <h1 class="text-center">Vous avez besoin de plus d'inspiration ?</h1>
+            <h1 class="text-center">Vous voulez plus d'événements comme ça ?</h1>
             <p class="text-center">Recevez le meilleur du Web design chaque jour par email.</p>
             <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               
