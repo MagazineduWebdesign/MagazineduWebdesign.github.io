@@ -272,6 +272,7 @@ ul{list-style-position: inside;}
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.2%;
+	border: 1px solid $secondary-color;
 }
 .carte-article-secondaire-thumbnail.mod-thumbnail-ratio-8-11{
 	padding-bottom: 137.2%;
@@ -283,8 +284,8 @@ ul{list-style-position: inside;}
 }
 .carte-article-secondaire-thumbnail.mod-thumbnail-action-white{
 	background-color:$white;
-	border-left: 1px solid $secondary-color;
-	border-right: 1px solid $secondary-color
+	border-top: 0;
+	border-bottom: 0;
 }
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
@@ -421,6 +422,57 @@ ul{list-style-position: inside;}
 	-webkit-transform: translateZ(0) scale(1,1);
 }
 
+.gradient-shadow-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	@include blend;
+	border-radius: $global-radius;
+	opacity: 0;
+	background: -webkit-linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
+	background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
+	transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-webkit-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-moz-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-webkit-transform: translateZ(0) scale(1,1);
+}	
+.gradient-shadow-img:hover{
+	opacity: 0.7;
+	transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-webkit-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-moz-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
+	-webkit-transform: translateZ(0) scale(1,1);
+}
+.gradient-shadow-img-icon{
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: rem-calc(48);
+	height: rem-calc(48);
+	margin: rem-calc(-24 0 0 -24)
+}
+	.gradient-shadow-img:hover > .gradient-shadow-img-icon{
+		transform: translate3d(0, 0, 0);
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	}
+	.gradient-shadow-img > .gradient-shadow-img-icon{
+		transform: translate3d(0, -24px, 0);
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	}
+.gradient-shadow-img-icon.mod-icon-open-new{
+	width: rem-calc(24);
+	height: rem-calc(24);
+	margin: rem-calc(-12 0 0 -12)
+}
+	.carte-article-secondaire-thumbnail:hover > .gradient-shadow-img-icon.mod-icon-open-new{
+		transform: translate3d(0, 0, 0);
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	}
+	.carte-article-secondaire-thumbnail > .gradient-shadow-img-icon.mod-icon-open-new{
+		transform: translate3d(0, -12px, 0);
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	}
 //reveal
 .close-reveal-modal{
 	position:relative!important;
@@ -977,44 +1029,6 @@ background-position: center}
 		background-position: center center;
 		border: 1px solid $secondary-color;
 	}
-		.videos-index-video-thumbnail-shadow{
-			position: absolute;
-			left: 0;
-			top: 0;
-			@include blend;
-			border-radius: $global-radius;
-			opacity: 0;
-			background: -webkit-linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
-			background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
-			transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-webkit-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-moz-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-webkit-transform: translateZ(0) scale(1,1);
-		}	
-		.videos-index-video-thumbnail-shadow:hover{
-			opacity: 0.7;
-			transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-webkit-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-moz-transition: opacity .2s cubic-bezier(.42, 0, 1, 1); 
-			-webkit-transform: translateZ(0) scale(1,1);
-		}
-		.videos-index-video-play-icon{
-			opacity: 1;
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			width: rem-calc(48);
-			height: rem-calc(48);
-			margin: rem-calc(-24 0 0 -24)
-		}
-			.videos-index-video-thumbnail-shadow:hover > .videos-index-video-play-icon{
-				transform: translate3d(0, 0, 0);
-				transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-			}
-			.videos-index-video-thumbnail-shadow > .videos-index-video-play-icon{
-				transform: translate3d(0, -24px, 0);
-				transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-			}
 	.videos-index-video-title{
 		padding-top: $rem-base;
 		margin-bottom: 0;
