@@ -1029,14 +1029,15 @@ background-position: center}
 		padding-bottom: 56.2%
 	}
 }
-.carte-article-videos-relatives{
-	margin-bottom: 0;
-	padding: 0;
-	border: 0
+.videos-relatives-container{
+	margin-left: rem-calc(8);
 }
-.carte-article-videos-relatives-thumbnail{
-	border: 1px solid $secondary-color;
-}
+	.videos-relatives-carte-article{
+		padding: 0;
+	}
+		.videos-relatives-carte-article-thumbnail{
+			border: 1px solid $secondary-color;
+		}
 .yt-subscribe{
 	@include item-row;
 	display:block;

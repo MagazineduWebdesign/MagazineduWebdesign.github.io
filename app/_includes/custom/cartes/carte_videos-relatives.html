@@ -1,13 +1,13 @@
 <!-- source jekyll-related-posts-without-plugin >> http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/ -->
 
-<section>
+<aside class="videos-relatives-container">
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-header mod-article-video-header-relative">
       <h1 class="section-carte-header-title mod-videos-relatives">Vidéos du moment</h1>
     </div>
   </div>
   <div class="row-liste-index">
-    <div class="small-12 columns carte-article-videos-relatives">
+    <div class="small-12 columns videos-relatives-carte-article">
     {% for post in site.categories[page.category] limit: 5 %}
       <a href="{{ post.url | prepend: site.baseurl }}">
         <article class="carte-article-secondaire mod-videos-relatives" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
@@ -24,7 +24,7 @@
 
             <div class="small-3 columns">
               {% if post.id-youtube %}
-              <img class="carte-article-videos-relatives-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.image-legende }}" width="140" />
+              <img class="videos-relatives-carte-article-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.image-legende }}" width="140" />
               {% endif %}
             </div>
 
@@ -39,4 +39,4 @@
       <a href="/{{ page.category }}/">TOUS LES VIDEOS</a> 
     </div>
   </div>
-</section>
+</aside>
