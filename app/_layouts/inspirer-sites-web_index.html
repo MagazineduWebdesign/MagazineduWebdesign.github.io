@@ -95,6 +95,60 @@ layout: default
 	          </div>
 	        </div>
 
+					<!-- styles
+	        ================================================== -->
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les sites web par styles" data-reveal-id="sites-web-filtre-styles">STYLES</a>
+					<!-- desktop list filter styles modalbox -->
+	        <div id="sites-web-filtre-styles" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Filtrer par styles</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav" role="navigation" title="Link List">
+									  	{% for item in site.data.inspirer.sites-web-styles %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+
+					<!-- technologies
+	        ================================================== -->
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les sites web par technologies" data-reveal-id="sites-web-filtre-technologies">TECH</a>
+					<!-- desktop list filter technologies modalbox -->
+	        <div id="sites-web-filtre-technologies" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Filtrer par technologies</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav" role="navigation" title="Link List">
+									  	{% for item in site.data.inspirer.sites-web-technologies %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+
 				</div>
 
 				<!-- mobile list filters
@@ -118,12 +172,20 @@ layout: default
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
 					        		<li role="menuitem"><a href="/inspiration/sites-web/" title="Nouveaux thèmes WordPress">NOUVEAUTES</a></li>
-					        		<li>Thèmes</li>
+					        		<hr>
 					        		{% for item in site.data.inspirer.sites-web-themes %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
-					        		<li>Formats</li>
+					        		<hr>
 					        		{% for item in site.data.inspirer.sites-web-formats %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					          	<hr>
+					        		{% for item in site.data.inspirer.sites-web-styles %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					          	<hr>
+					        		{% for item in site.data.inspirer.sites-web-technologies %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
