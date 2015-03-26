@@ -5,3 +5,7 @@
 - name: SITES WEB
   currentnav:
   permalink: /inspiration/sites-web/
+
+- name: PARCOURS UX APPS iOS
+  currentnav:
+  permalink: /inspiration/parcours-apps-ios/

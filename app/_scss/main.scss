@@ -95,7 +95,7 @@
 @mixin header-bgimg($bgsize: cover,$bgposition: center) {
 	background-size:$bgsize;
 	background-position:$bgposition;
-	background-color:$primary-color
+	background-color: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
 }
 // Utilisé pour contrôler le style de blocs nécessitant une hauteur de 48px et pas de marge bottom
 @mixin item-row($mbottom: 0,$lineh: 48, $fontsize: 14) {
@@ -398,6 +398,39 @@ ul{list-style-position: inside;}
 		color: $aluminum!important
 	}
 	.carte-article-secondaire-action-link{color: $aluminum!important}
+
+// article meta-data
+@media #{$large-up} {
+	.article-meta-data-right{
+		@include grid-column($columns:3,$center:false,$collapse:true);
+		float: right!important;
+		max-width: rem-calc(240)!important;
+		padding: rem-calc(0 0 48 24)!important;
+	}
+}
+.article-meta-data-right{
+	@include grid-column($columns:12,$center:true,$collapse:false);
+	max-width: rem-calc(640);
+	padding: rem-calc(48 20);
+}
+.article-meta-data-right.mod-article-contenu-meta-data{
+	@include grid-column($columns:12,$center:true,$collapse:false);
+	max-width: rem-calc(640);
+	padding: rem-calc(0 20);
+	margin-bottom: rem-calc(24);
+}
+.side-nav.mod-article-meta-data{
+	.article-meta-data-header-title{
+		@include item-row;
+		color: $aluminum;
+		border-bottom:1px dotted $secondary-color
+	}
+}
+
+// side-nav
+.side-nav.mod-article-meta-data{
+	padding: 0;
+}
 
 //shadow
 .shadow-img{
@@ -763,7 +796,6 @@ background-position: center}
 	font-style: italic;
 	color:$aluminum
 }
-
 .header-article-link {@include item-row}
 .header-article-link a{@include header-liste-link($color:$primary-color)}
 .article-meta-by-time{
@@ -772,7 +804,7 @@ background-position: center}
 	width:rem-calc(240)
 }
 .article-meta-by-time.mod-article-right-meta{
-	@include grid-column(4);
+	@include grid-column(3);
 	float: right!important;
 	width:rem-calc(240);
 	padding: rem-calc(0 0 0 24)
@@ -833,11 +865,16 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 .article-partage-facebook{@include button($bg:$facebook,$radius:2px); margin-bottom:0; color:$white!important}
 .article-partage-twitter{@include button($bg:$twitter,$radius:2px); margin-bottom:0; color:$white!important}
 @media #{$small-only} {
-	.column-body-article{padding:0 rem-calc(12)}
+	.row-body-article {
+		.column-body-article{
+			padding-left:rem-calc(20);
+  		padding-right:rem-calc(20);
+		}
+	}
   .column-header-article{
   	padding-top:rem-calc(48);
-  	padding-left:rem-calc(12)!important;
-  	padding-right:rem-calc(12)!important
+  	padding-left:rem-calc(20)!important;
+  	padding-right:rem-calc(20)!important
   }
   .column-header-article.mod-header-article-video{
   	padding-top:rem-calc(0);

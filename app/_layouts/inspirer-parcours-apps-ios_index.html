@@ -5,7 +5,7 @@ layout: default
 {% include header.html %}
 
 <section>
-	{% include custom/sections/ressources-entries.html %}
+	{% include custom/sections/inspirer-entries.html %}
 
 	<!-- list header 
 	================================================== -->
@@ -39,27 +39,26 @@ layout: default
 		  	<!-- desktop list filters 
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/ressources/themes-wordpress/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux themes WordPress">NOUVEAUTES</a>
-					<a href="/ressources/themes-wordpress/gratuits/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="themes WordPress gratuits">GRATUITS</a>
-					<a href="/ressources/themes-wordpress/premium/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="themes WordPress premium">PREMIUM</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les themes par type" data-reveal-id="themes-wp-filtre-types">TYPES</a>
+					<a href="/inspiration/parcours-apps-ios/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux sites Web">NOUVEAUTES</a>
 					
-					<!-- desktop list filter modalbox
+					<!-- Scénarios
 	        ================================================== -->
-	        <div id="themes-wp-filtre-types" class="reveal-modal" data-reveal>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par scénarios utilisateur" data-reveal-id="parcours-apps-ios-filtre-scenarios">SCENARIOS UTILISATEUR</a>
+					<!-- desktop list filter SCENARIOS modalbox -->
+	        <div id="parcours-apps-ios-filtre-scenarios" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par types de thèmes</p>
+							      <p class="titre-modal-box">Filtrer par scénarios utilisateur</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.ressources.themes-wp-types %}
+									  	{% for item in site.data.inspirer.parcours-apps-ios-scenarios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -69,32 +68,60 @@ layout: default
 	          </div>
 	        </div>
 
-				</div>
-
-				<!-- mobile list filters
-				================================================== -->
-		  	<div class="tabs u-no-margin-b show-for-small-only">
-					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="themes-wp-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
-					
-					<!--  mobile list filters modalbox
+					<!-- Apps
 	        ================================================== -->
-	        <div id="themes-wp-filtre-mobile" class="reveal-modal" data-reveal>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par applications" data-reveal-id="parcours-apps-ios-filtre-apps">APPS</a>
+					<!-- desktop list filter apps modalbox -->
+	        <div id="parcours-apps-ios-filtre-apps" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Vous cherchez un thème...</p>
+							      <p class="titre-modal-box">Filtrer par applications</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav" role="navigation" title="Link List">
+									  	{% for item in site.data.inspirer.parcours-apps-ios %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
+				</div>
+				<!-- mobile list filters
+				================================================== -->
+		  	<div class="tabs u-no-margin-b show-for-small-only">
+					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="parcours-apps-ios-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
+					
+					<!--  mobile list filters modalbox
+	        ================================================== -->
+	        <div id="parcours-apps-ios-filtre-mobile" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Filtrer les parcours utilisateurs par...</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/ressources/themes-wordpress/" title="Nouveaux thèmes WordPress">NOUVEAUTES</a></li>
-											<li role="menuitem"><a href="/ressources/themes-wordpress/gratuits/" title="Thèmes WordPress gratuits">GRATUITS</a></li>
-											<li role="menuitem"><a href="/ressources/themes-wordpress/premium/" title="Thèmes WordPress premium">PREMIUM</a></li>
-					        		{% for item in site.data.ressources.themes-wp-types %}
+					        		<li role="menuitem"><a href="/inspiration/parcours-apps-ios/" title="Nouveaux parcours utilisateur">NOUVEAUTES</a></li>
+					        		<hr>
+					        		{% for item in site.data.inspirer.parcours-apps-ios-scenarios %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					        		<hr>
+					        		{% for item in site.data.inspirer.parcours-apps-ios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
@@ -116,8 +143,8 @@ layout: default
 	<div class="row">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
-			{% if page.category == 'themes-wordpress' %}
-				{% for post in site.categories.themes-wordpress %}
+			{% if page.category == 'parcours-apps-ios' %}
+				{% for post in site.categories.parcours-apps-ios %}
 			    {% capture length %}{{ forloop.length }}{% endcapture %}
 			  {% endfor %}
 			{% else %}
@@ -125,7 +152,7 @@ layout: default
 			    {% capture length %}{{ forloop.length }}{% endcapture %}
 			  {% endfor %}
 			{% endif %}
-	    <span class="section-header-titre">{{ length }} thèmes WordPress</span>
+	    <span class="section-header-titre">{{ length }} sites web</span>
 	  </div>
 	</div>
 	
@@ -133,12 +160,12 @@ layout: default
 	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'themes-wordpress' %}current-page{% endif %}">
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
 
 			<!-- Upload yours
 			================================================== -->
 			<li>
-        <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+        <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 
           <div class="row collapse hide-for-small">
             <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-action"></div>
@@ -160,42 +187,27 @@ layout: default
 
 			<!-- list all items
 			================================================== -->
-			{% if page.category == 'themes-wordpress' %}
-				{% if site.categories.themes-wordpress %}
-					{% for post in site.categories.themes-wordpress limit: 6 %}
+			{% if page.category == 'parcours-apps-ios' %}
+				{% if site.categories.parcours-apps-ios %}
+					{% for post in site.categories.parcours-apps-ios %}
 					<li>
-	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 	            	            
 	            {% if post.image %}
 		            <div class="row collapse">
-	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-		                <a href="{{ post.url | prepend: site.baseurl }}">
-		                	<div class="gradient-shadow-img">
-		                		<a href="{{ post.url | prepend: site.baseurl }}"> 
-				                	<div class="gradient-shadow-img"></div>
-				                </a>
-			                	{% if post.url-demo %}
-	                        <a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-demo }}" title="Visiter {{ post.title }}" target="_blank">
-	                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
-	                        </a>
-	                      {% endif %}
-		                	</div>
-		                </a>
+	                <a href="{{ post.url | prepend: site.baseurl }}"> 
+	               		<div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"></div>
+	                </a>
 	                </div>
 		            </div>
 	            {% endif %}
-
-	            <a href="{{ post.url | prepend: site.baseurl }}">
-		            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
-		              <div class="small-12 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
-		              	{% if post.price %}
-		              		<span class="label-price">{{ post.price }}</span>
-		              	{% endif %}
-		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
-		              </div>
-		            </div>
-		          </a>
+							<div class="row collapse">
+	              <div class="small-12 columns">
+	              <a href="{{ post.url | prepend: site.baseurl }}">
+	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+	              </a>
+	              </div>
+	            </div>
 	          </article>
 					</li>
 					{% endfor %}
@@ -208,14 +220,13 @@ layout: default
 			================================================== -->
 			{% else %}
 				{% if site.tags[page.tags] %}
-					{% for post in site.tags[page.tags] limit: 6 %}
+					{% for post in site.tags[page.tags] %}
 					<li>
-	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 	            
 	            {% if post.image %}
 		            <div class="row collapse">
 	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-		                <a href="{{ post.url | prepend: site.baseurl }}">
 		                	<div class="gradient-shadow-img">
 		                		<a href="{{ post.url | prepend: site.baseurl }}"> 
 				                	<div class="gradient-shadow-img"></div>
@@ -226,22 +237,18 @@ layout: default
 	                        </a>
 	                      {% endif %}
 		                	</div>
-		                </a>
-	                </div>
+	                </div> 
 		            </div>
 	            {% endif %}
 
 	            <a href="{{ post.url | prepend: site.baseurl }}">
-	            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
-	              <div class="small-12 columns">
-	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
-	              	{% if post.price %}
-	              		<span class="label-price">{{ post.price }}</span>
-	              	{% endif %}
-	              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
-	              </div>
-	            </div>
-	          </a>
+		            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
+		              </div>
+		            </div>
+	          	</a>
 	          </article>
 					</li>
 					{% endfor %}

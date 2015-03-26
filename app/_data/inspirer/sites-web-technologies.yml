@@ -5,3 +5,7 @@
 - name: JEKYLL
   currentnav:
   permalink: /inspiration/sites-web/technologies/jekyll/
+
+- name: WEBGL
+  currentnav:
+  permalink: /inspiration/sites-web/technologies/webgl/

@@ -171,7 +171,7 @@ layout: default
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/inspiration/sites-web/" title="Nouveaux thèmes WordPress">NOUVEAUTES</a></li>
+					        		<li role="menuitem"><a href="/inspiration/sites-web/" title="Nouveaux sites Web">NOUVEAUTES</a></li>
 					        		<hr>
 					        		{% for item in site.data.inspirer.sites-web-themes %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
@@ -260,18 +260,16 @@ layout: default
 	            {% if post.image %}
 		            <div class="row collapse">
 	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-		                <a href="{{ post.url | prepend: site.baseurl }}">
 		                	<div class="gradient-shadow-img">
 		                		<a href="{{ post.url | prepend: site.baseurl }}"> 
 				                	<div class="gradient-shadow-img"></div>
 				                </a>
-			                	{% if post.url-site %}
-	                        <a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-site }}" title="Visiter {{ post.title }}" target="_blank">
+			                	{% if post.url-demo %}
+	                        <a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-demo }}" title="Visiter {{ post.title }}" target="_blank">
 	                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
 	                        </a>
 	                      {% endif %}
 		                	</div>
-		                </a>
 	                </div>
 		            </div>
 	            {% endif %}
@@ -303,24 +301,28 @@ layout: default
 	            {% if post.image %}
 		            <div class="row collapse">
 	                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-		                <a href="{{ post.url | prepend: site.baseurl }}"> 
-		                	<div class="gradient-shadow-img"></div>
-		                </a>
-	                	<a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-site }}" title="Visiter {{ post.title }}" target="_blank">
-                			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
-                		</a>
+		                	<div class="gradient-shadow-img">
+		                		<a href="{{ post.url | prepend: site.baseurl }}"> 
+				                	<div class="gradient-shadow-img"></div>
+				                </a>
+			                	{% if post.url-demo %}
+	                        <a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-demo }}" title="Visiter {{ post.title }}" target="_blank">
+	                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
+	                        </a>
+	                      {% endif %}
+		                	</div>
 	                </div> 
 		            </div>
 	            {% endif %}
 
 	            <a href="{{ post.url | prepend: site.baseurl }}">
-	            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
-	              <div class="small-12 columns">
-	              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
-	              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
-	              </div>
-	            </div>
-	          </a>
+		            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-ressources-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
+		              </div>
+		            </div>
+	          	</a>
 	          </article>
 					</li>
 					{% endfor %}

@@ -10,7 +10,7 @@ permalink: /feedback/
 Questions, commentaires et demandes de fonctionnalités sont fortement encouragés. Alors lâchez-vous !
 
 * Feedback via <hello@magazineduwebdesign.com> 
-* Feedback via <a href="github.com" title="GitHub" target="_blank">GitHub</a>
+* Feedback via <a href="http://example.com/" title="GitHub" target="_blank">GitHub</a>
 
 ## TO DO > DOING > DONE
 Magazine Du Webdesign est en constante évolution.
