@@ -162,29 +162,6 @@ layout: default
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
 
-			<!-- Upload yours
-			================================================== -->
-			<li>
-        <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-
-          <div class="row collapse hide-for-small">
-            <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-action"></div>
-          </div>
-
-          <a href="">
-	          <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
-	            <div class="small-12 columns carte-article-secondaire-container-action">
-		          	<p class="carte-article-secondaire-action-texte text-center">
-		          		<a class="typeform-share link carte-article-secondaire-action-link" href="https://magazineduwebdesign.typeform.com/to/VhkhK9" data-mode="2" target="_blank"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>SUGGERER</a>
-									<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-		          	</p>
-	            </div>
-	          </div>
-        	</a>
-
-        </article>
-			</li>
-
 			<!-- list all items
 			================================================== -->
 			{% if page.category == 'parcours-apps-ios' %}
@@ -193,7 +170,7 @@ layout: default
 					<li>
 	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 	            	            
-	            {% if post.image %}
+	            {% if post.logo %}
 		            <div class="row collapse">
 	                <a href="{{ post.url | prepend: site.baseurl }}"> 
 	               		<div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"></div>
