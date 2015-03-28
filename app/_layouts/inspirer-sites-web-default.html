@@ -116,22 +116,6 @@ layout: default
       </article>
       {% include custom/cartes/carte_twtr_no-mail.html %}
     </div>
-    <div class="article-meta-data-right mod-article-contenu-meta-data">
-      <aside class="job--in-article mod-job-in-article-first-position">
-      {% if site.offre-emploi %}
-        <h1>AU TRAVAIL, NERD !</h1>
-        {% assign offres = site.offre-emploi | reverse %}
-        {% for offre in offres limit: 2 %}
-          <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
-            {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
-          </a></p>
-        {% endfor %}
-        <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
-      {% else %}
-        <h1>AU TRAVAIL, NERD !</h1>
-        <p>Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
-      {% endif %}
-      </aside>
-    </div>
+    {% include custom/cartes/carte_job-in-article_right.html %}
   </div>
 </article>
