@@ -160,7 +160,7 @@ layout: default
 	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
+			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
 
 			<!-- list all items
 			================================================== -->
@@ -169,22 +169,14 @@ layout: default
 					{% for post in site.categories.parcours-apps-ios %}
 					<li>
 	          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-	            	            
-	            {% if post.logo %}
-		            <div class="row collapse">
-	                <a href="{{ post.url | prepend: site.baseurl }}"> 
-	               		<div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"></div>
-	                </a>
-	                </div>
+	            <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+		            <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
+		              <div class="small-12 columns text-center">
+		              	<img class="carte-article-secondaire-thumbnail-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" width="64" height="64">
+		              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+		              </div>
 		            </div>
-	            {% endif %}
-							<div class="row collapse">
-	              <div class="small-12 columns">
-	              <a href="{{ post.url | prepend: site.baseurl }}">
-	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
-	              </a>
-	              </div>
-	            </div>
+		          </a>
 	          </article>
 					</li>
 					{% endfor %}

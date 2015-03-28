@@ -287,15 +287,26 @@ ul{list-style-position: inside;}
 	border-top: 0;
 	border-bottom: 0;
 }
+.carte-article-secondaire-thumbnail-app-icon{
+	width: rem-calc(64)!important;
+	height: rem-calc(64);
+	margin: rem-calc(-34) auto rem-calc(16);
+	border-radius: rem-calc(4);
+}
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
-.carte-article-secondaire.mod-article-1-col, .carte-article-secondaire.mod-article-thumbnail-1-col{
+.carte-article-secondaire.mod-article-1-col, 
+.carte-article-secondaire.mod-article-thumbnail-1-col, 
+.carte-article-secondaire.mod-article-thumbnail-app-icon{
 	@include panel($padding:$rem-base);
 	margin-bottom:0;
 	border-radius:$global-radius;
 	border-bottom-width: rem-calc(2);
 	border-top-width: 0;
+}
+.carte-article-secondaire.mod-article-thumbnail-app-icon{
+	margin-top: rem-calc(18)!important;
 }
 .carte-article-secondaire.mod-article-thumbnail-1-col-ratio-8-11{
 	@include panel($padding:$rem-base);
@@ -356,13 +367,10 @@ ul{list-style-position: inside;}
 	-webkit-transform: translateZ(0) scale(1,1);
 }
 	.carte-article-secondaire-post-title{
-		margin: rem-calc(0 16 0 0);
+		margin: 0;
 		font-size: $h3-font-size;
 		line-height: 1.25!important;
 		color: $jet
-	}
-	.carte-article-secondaire-post-title.mod-job-title, .carte-article-secondaire-post-title.mod-ressources-post-title{
-		margin: 0!important;
 	}
 	.carte-article-secondaire-post-title.mod-videos-relatives-post-title{
 		margin: rem-calc(0 16 0 0);
@@ -506,6 +514,7 @@ ul{list-style-position: inside;}
 		transform: translate3d(0, -12px, 0);
 		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 	}
+
 //reveal
 .close-reveal-modal{
 	position:relative!important;
@@ -546,7 +555,6 @@ ul{list-style-position: inside;}
 .ic-block-h48{display:inline-block;vertical-align:middle;margin-right:rem-calc(8)} 
 .ic-block-h48-title-left{position:relative;top:rem-calc(12);margin:rem-calc(0 8 8 0)} 
 
-// icons
 .rounded-img-d64{width:rem-calc(64)!important;height:rem-calc(64)!important;margin:0 auto rem-calc(24);border-radius:50%;background-size: cover;
 background-position: center}
 .rounded-img-d40{width:rem-calc(40)!important;height:rem-calc(40)!important;margin:0 auto;border-radius:50%;background-size: cover;
