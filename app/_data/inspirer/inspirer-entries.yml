@@ -6,18 +6,18 @@
   currentnav:
   permalink: /inspiration/sites-web/
 
-- name: PARCOURS UTILISATEUR SUR iOS
+- name: USER FLOW iOS
   currentnav:
   permalink: /inspiration/parcours-apps/ios/
 
-- name: PARCOURS UTILISATEUR SUR APPLE WATCH
+- name: USER FLOW APPLE WATCH
   currentnav:
   permalink: /inspiration/parcours-apps/apple-watch/
 
-- name: PARCOURS UTILISATEUR SUR ANDROID
+- name: USER FLOW ANDROID
   currentnav:
   permalink: /inspiration/parcours-apps/android/
 
-- name: PARCOURS UTILISATEUR SUR ANDDROID WEAR
+- name: USER FLOW ANDROID WEAR
   currentnav:
   permalink: /inspiration/parcours-apps/android-wear/
