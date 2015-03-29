@@ -159,9 +159,9 @@ layout: default
 			{% if site.tags[page.tags] %}
 				{% for post in site.tags[page.tags] %}
 				<li>
-          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+          <article class="carte-article-secondaire mod-article-thumbnail-app-icon js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
             <a href="{{ post.url | prepend: site.baseurl }}" title="Scénario {{ post.title }}">
-	            <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
+	            <div class="row">
 	              <div class="small-12 columns text-center">
 	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.scenario | truncate: 12 }}</h1>
 	              </div>
