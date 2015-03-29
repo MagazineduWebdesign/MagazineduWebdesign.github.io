@@ -1,0 +1,8 @@
+# App names to filter iOS' user flows in index page
+- name: TWITTER
+  logo: twitter-icon-app-ios.png
+  permalink: /inspiration/parcours-apps/ios/twitter/
+
+- name: DATADOG
+  logo: datadog_128.png
+  permalink: /inspiration/parcours-apps/ios/datadog/

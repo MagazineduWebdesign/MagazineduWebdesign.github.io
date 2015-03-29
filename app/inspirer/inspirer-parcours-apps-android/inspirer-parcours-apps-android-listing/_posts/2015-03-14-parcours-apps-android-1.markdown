@@ -5,7 +5,7 @@ logo: twitter-icon-app-ios.png
 intro: Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station.
 parcours-apps-os: Android
 scenario: onboarding
-url-app-android: http://localhost:9000/parcours-apps-ios-1/
+url-app-ios: http://localhost:9000/parcours-apps-ios-2/
 url-app-android-wear: http://localhost:9000/parcours-apps-ios-1/
 url-app-apple-watch: http://localhost:9000/parcours-apps-ios-1/
 image-1: twitter-ios-parcours-onboarding-step1.png

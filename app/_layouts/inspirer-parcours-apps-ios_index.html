@@ -67,6 +67,33 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
+
+					<!-- Apps
+	        ================================================== -->
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par applications" data-reveal-id="parcours-apps-ios-filtre-apps">APPS iOS</a>
+					<!-- desktop list filter apps modalbox -->
+	        <div id="parcours-apps-ios-filtre-apps" class="reveal-modal" data-reveal>
+	          <div class="row-liste-index">
+	            <div class="small-12 columns text-center">
+	              <a class="close-reveal-modal">&#215;</a>
+	              <div class="row-liste-index">
+							    <div class="small-12 medium-6 medium-centered columns">
+							      <p class="titre-modal-box">Filtrer par applications</p>
+							      <hr>
+							    </div>
+							  </div>
+	              <div class="row-liste-index note-partage">
+					        <div class="small-12 medium-6 medium-centered columns">
+					         	<ul class="side-nav text-left" role="navigation" title="Link List">
+									  	{% for item in site.data.inspirer.parcours-apps-ios %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
+					          	{% endfor %}
+									 	</ul>
+					        </div>
+					      </div>
+	            </div>
+	          </div>
+	        </div>
 				</div>
 
 				<!-- mobile list filters
@@ -88,11 +115,15 @@ layout: default
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
-					        	<ul class="side-nav" role="navigation" title="Link List">
+					        	<ul class="side-nav text-left" role="navigation" title="Link List">
 					        		<li role="menuitem"><a href="/inspiration/parcours-apps/ios/" title="Nouveaux parcours utilisateur">NOUVEAUTES</a></li>
 					        		<hr>
 					        		{% for item in site.data.inspirer.parcours-apps-ios-scenarios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					          	{% endfor %}
+					          	<hr>
+					          	{% for item in site.data.inspirer.parcours-apps-ios %}
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
 					        </div>
@@ -139,7 +170,7 @@ layout: default
 	            <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
 	              <div class="small-12 columns text-center">
 	              	<img class="carte-article-secondaire-thumbnail-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ post.title }}" width="64" height="64">
-	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 11 }}</h1>
 	              </div>
 	            </div>
 	          </a>

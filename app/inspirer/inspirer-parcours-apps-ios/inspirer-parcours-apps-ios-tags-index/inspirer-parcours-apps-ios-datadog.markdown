@@ -1,0 +1,10 @@
+---
+layout: inspirer-parcours-app-ios-scenarios_index
+title: Parcours utilisateur de l'app Datadog sur iOS
+logo: datadog_128.png
+tags: parcours-apps-ios-datadog
+permalink: /inspiration/parcours-apps/ios/datadog/
+intro:
+text-twtr: En train d'explorer le parcours utilisateur de l'app Datadog sur iOS by @MagDuWebdesign
+current_nav: all
+---

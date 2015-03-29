@@ -12,14 +12,14 @@
 
       <!-- list all items
       ================================================== -->
-      {% for post in site.categories.[include.param] limit:3 %} 
+      {% for post in site.categories.[include.param] limit:3 %}
         <li>
           <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
             <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
               <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
                 <div class="small-12 columns text-center">
                   <img class="carte-article-secondaire-thumbnail-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ post.title }}" width="64" height="64">
-                  <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 16 }}</h1>
+                  <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 11 }}</h1> 
                 </div>
               </div>
             </a>
@@ -28,7 +28,7 @@
       {% endfor %}
         <li>
           <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
-            <a href="{{ site.baseurl }}{{ page.permalink }}/parcours-apps/{{ include.param | remove:'parcours-apps-' }}/" class="carte-article-secondaire-action-link">
+            <a href="{{ site.baseurl }}{{ page.permalink }}parcours-apps/{{ include.param | remove:'parcours-apps-' }}/" class="carte-article-secondaire-action-link">
               <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
                 <div class="small-12 columns carte-article-secondaire-container-action">
                   <p class="carte-article-secondaire-action-texte text-center">

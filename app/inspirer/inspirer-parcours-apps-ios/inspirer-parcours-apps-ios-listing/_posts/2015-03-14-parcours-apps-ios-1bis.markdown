@@ -1,11 +1,11 @@
 ---
 layout: inspirer-parcours-apps-default
-title: rainforest QA
-logo: service_128.png
+title: Twitter
+logo: twitter-icon-app-ios.png
 intro: Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station.
-parcours-apps-os: Android
-scenario: onboarding
-url-app-ios: http://localhost:9000/parcours-apps-ios-1/
+parcours-apps-os: iOS
+scenario: upload
+url-app-android: http://localhost:9000/parcours-apps-android-1/
 url-app-android-wear: http://localhost:9000/parcours-apps-ios-1/
 url-app-apple-watch: http://localhost:9000/parcours-apps-ios-1/
 image-1: twitter-ios-parcours-onboarding-step1.png
@@ -30,9 +30,9 @@ date: 2015-02-25 17:24:57
 description: blablabla
 path1: inspiration
 path2: parcours-apps
-path3: android
-category: parcours-apps-android
+path3: ios
+category: parcours-apps-ios
 tags:
-- parcours-apps-android-onboarding
-- parcours-apps-android-upload
+- parcours-apps-ios-upload
+- parcours-apps-ios-twitter
 ---

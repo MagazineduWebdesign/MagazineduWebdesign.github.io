@@ -564,6 +564,15 @@ background-position: center}
 	margin-bottom: rem-calc(24);
 	border-radius: rem-calc(4);
 }
+.app-icon-24{
+	// for dropdown
+	display:inline-block;
+	vertical-align:middle;
+	margin:rem-calc(-2 8 0 0);
+	max-width: rem-calc(24);
+	max-height: rem-calc(24);
+	border-radius: $global-radius;
+}
 
 // loader
 .infinite-spinner {

@@ -11,9 +11,10 @@ layout: default
 	================================================== -->
 	<div class="header-liste u-no-padding-bottom">
 	  <header class="row-liste-index">
-	    <div class="small-12 columns">
-	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
-				<p class="header-liste-content text-center">
+	    <div class="small-12 columns text-center">
+	    	<img class="app-icon-64" src="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ page.tags | remove:'parcours-apps-ios-' }}" width="64" height="64">
+	    	<h1 class="header-liste-headline">{{ page.title }}</h1>
+				<p class="header-liste-content">
 					{{ page.intro }} 
 					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -39,13 +40,13 @@ layout: default
 		  	<!-- desktop list filters 
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/inspiration/parcours-apps/android/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux sites Web">NOUVEAUTES</a>
+					<a href="/inspiration/parcours-apps/ios/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux sites Web">NOUVEAUTES</a>
 					
 					<!-- Scénarios
 	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par scénarios utilisateur" data-reveal-id="parcours-apps-android-filtre-scenarios">SCENARIOS UTILISATEUR</a>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par scénarios utilisateur" data-reveal-id="parcours-apps-ios-filtre-scenarios">SCENARIOS UTILISATEUR</a>
 					<!-- desktop list filter SCENARIOS modalbox -->
-	        <div id="parcours-apps-android-filtre-scenarios" class="reveal-modal" data-reveal>
+	        <div id="parcours-apps-ios-filtre-scenarios" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
@@ -58,7 +59,7 @@ layout: default
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.parcours-apps-android-scenarios %}
+									  	{% for item in site.data.inspirer.parcours-apps-ios-scenarios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -67,12 +68,12 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
-				
+
 					<!-- Apps
 	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par applications" data-reveal-id="parcours-apps-android-filtre-apps">APPS ANDROID</a>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtez les parcours par applications" data-reveal-id="parcours-apps-ios-filtre-apps">APPS iOS</a>
 					<!-- desktop list filter apps modalbox -->
-	        <div id="parcours-apps-android-filtre-apps" class="reveal-modal" data-reveal>
+	        <div id="parcours-apps-ios-filtre-apps" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
@@ -85,7 +86,7 @@ layout: default
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav text-left" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.parcours-apps-android %}
+									  	{% for item in site.data.inspirer.parcours-apps-ios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -99,11 +100,11 @@ layout: default
 				<!-- mobile list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
-					<a href="#" class="tabs-item" title="Filtrer les parcours utilisateur par catégories" data-reveal-id="parcours-apps-android-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER</a>
+					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="parcours-apps-ios-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER</a>
 					
 					<!--  mobile list filters modalbox
 	        ================================================== -->
-	        <div id="parcours-apps-android-filtre-mobile" class="reveal-modal" data-reveal>
+	        <div id="parcours-apps-ios-filtre-mobile" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
@@ -115,14 +116,14 @@ layout: default
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
-					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/inspiration/parcours-apps/android/" title="Nouveaux parcours utilisateur">NOUVEAUTES</a></li>
+					        	<ul class="side-nav text-left" role="navigation" title="Link List">
+					        		<li role="menuitem"><a href="/inspiration/parcours-apps/ios/" title="Nouveaux parcours utilisateur">NOUVEAUTES</a></li>
 					        		<hr>
-					        		{% for item in site.data.inspirer.parcours-apps-android-scenarios %}
+					        		{% for item in site.data.inspirer.parcours-apps-ios-scenarios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					          	<hr>
-					          	{% for item in site.data.inspirer.parcours-apps-android %}
+					          	{% for item in site.data.inspirer.parcours-apps-ios %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
@@ -139,13 +140,6 @@ layout: default
 
 	</div>
 
-	{% if page.category == 'parcours-apps-android' %}
-	<!-- list all items
-	================================================== -->
-		{% include custom/cartes/carte_items-thn-app-icon_tags.html param="parcours-apps-android-onboarding" %}
-		{% include custom/cartes/carte_items-thn-app-icon_tags.html param="parcours-apps-android-upload" %}
-	
-	{% else %}
 	<!-- list items by tags
 	================================================== -->
 	<div class="row">
@@ -154,11 +148,11 @@ layout: default
 			{% for post in site.tags[page.tags] %}
 		    {% capture length %}{{ forloop.length }}{% endcapture %}
 		  {% endfor %}
-	    <span class="section-header-titre">{{ length }} applications Android</span>
+	    <span class="section-header-titre">{{ length }} scénarios pour ce parcours</span>
 	  </div>
 	</div>
 
-	<div class="row"> 
+	<div class="row">
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
@@ -166,11 +160,10 @@ layout: default
 				{% for post in site.tags[page.tags] %}
 				<li>
           <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+            <a href="{{ post.url | prepend: site.baseurl }}" title="Scénario {{ post.title }}">
 	            <div class="carte-article-secondaire mod-article-thumbnail-app-icon row collapse">
 	              <div class="small-12 columns text-center">
-	              	<img class="carte-article-secondaire-thumbnail-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ post.title }}" width="64" height="64">
-	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title | truncate: 11 }}</h1>
+	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.scenario | truncate: 11 }}</h1>
 	              </div>
 	            </div>
 	          </a>
@@ -186,7 +179,5 @@ layout: default
 	</div>
 	
 	<div class="infinite-spinner"></div>
-
-	{% endif %}
 
 </section>
