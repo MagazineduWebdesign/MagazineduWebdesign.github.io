@@ -6,6 +6,18 @@
   currentnav:
   permalink: /inspiration/sites-web/
 
-- name: PARCOURS UX APPS iOS
+- name: PARCOURS UTILISATEUR SUR iOS
   currentnav:
   permalink: /inspiration/parcours-apps-ios/
+
+- name: PARCOURS UTILISATEUR SUR APPLE WATCH
+  currentnav:
+  permalink: /inspiration/parcours-apps-apple-watch/
+
+- name: PARCOURS UTILISATEUR SUR ANDROID
+  currentnav:
+  permalink: /inspiration/parcours-apps-android/
+
+- name: PARCOURS UTILISATEUR SUR ANDDROID WEAR
+  currentnav:
+  permalink: /inspiration/parcours-apps-android-wear/
