@@ -8,16 +8,16 @@
 
 - name: PARCOURS UTILISATEUR SUR iOS
   currentnav:
-  permalink: /inspiration/parcours-apps-ios/
+  permalink: /inspiration/parcours-apps/ios/
 
 - name: PARCOURS UTILISATEUR SUR APPLE WATCH
   currentnav:
-  permalink: /inspiration/parcours-apps-apple-watch/
+  permalink: /inspiration/parcours-apps/apple-watch/
 
 - name: PARCOURS UTILISATEUR SUR ANDROID
   currentnav:
-  permalink: /inspiration/parcours-apps-android/
+  permalink: /inspiration/parcours-apps/android/
 
 - name: PARCOURS UTILISATEUR SUR ANDDROID WEAR
   currentnav:
-  permalink: /inspiration/parcours-apps-android-wear/
+  permalink: /inspiration/parcours-apps/android-wear/

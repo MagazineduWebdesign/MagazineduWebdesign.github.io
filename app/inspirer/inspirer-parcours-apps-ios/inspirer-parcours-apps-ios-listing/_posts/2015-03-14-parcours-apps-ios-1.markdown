@@ -29,10 +29,10 @@ keyword_title: jekyll
 date: 2015-02-25 17:24:57
 description: blablabla
 path1: inspiration
-path2: parcours-apps-ios
+path2: parcours-apps
+path3: ios
 category: parcours-apps-ios
 tags:
 - parcours-apps-ios-onboarding
-- parcours-apps-ios-upload
 - parcours-apps-ios-twitter
 ---
