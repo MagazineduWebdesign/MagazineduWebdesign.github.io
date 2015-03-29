@@ -34,5 +34,5 @@ path3: android-wear
 category: parcours-apps-android-wear
 tags:
 - parcours-apps-android-wear-onboarding
-- parcours-apps-android-wear-twitter
+- parcours-apps-android-wear-datadog
 ---
