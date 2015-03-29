@@ -1,7 +1,7 @@
 <section>
   <div class="row">
     <div class="small-12 columns section-carte-header-no-bg">
-      <h1 class="section-carte-header-title">{{ include.param  | remove:'parcours-apps-ios-' | remove:'parcours-apps-android-' | replace: '-', ' ' | capitalize }}</h1>
+      <h1 class="section-carte-header-title">{{ include.param | remove:'parcours-apps-ios-' | remove:'parcours-apps-apple-watch-' | remove:'parcours-apps-android-' | remove:'parcours-apps-android-wear-' | replace: '-', ' ' | capitalize }}</h1>
     </div>
   </div>
   <!-- list items
@@ -28,7 +28,7 @@
       {% endfor %}
         <li>
           <article class="carte-article-secondaire mod-article-thumbnail-app-icon js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
-            <a href="{{ site.baseurl }}{{ page.permalink }}{{ include.param | remove:'parcours-apps-ios-' | remove:'parcours-apps-android-' }}/" class="carte-article-secondaire-action-link">
+            <a href="{{ site.baseurl }}{{ page.permalink }}{{ include.param | remove:'parcours-apps-ios-' | remove:'parcours-apps-apple-watch-' | remove:'parcours-apps-android-' | remove:'parcours-apps-android-wear-' }}/" class="carte-article-secondaire-action-link">
               <div class="row">
                 <div class="small-12 columns carte-article-secondaire-container-action">
                   <p class="carte-article-secondaire-action-texte text-center">
