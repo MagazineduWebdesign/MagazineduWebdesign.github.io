@@ -39,18 +39,18 @@ layout: default
         <div class="article-meta-data-right">
           <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
             
-            <li class="article-meta-data-header-title">Thème</li>
             {% if page.theme %}
+            <li class="article-meta-data-header-title">Thème</li>
             <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme }}</a></li>
             {% endif %}
 
-            <li class="article-meta-data-header-title">Format</li>
             {% if page.format %}
+            <li class="article-meta-data-header-title">Format</li>
             <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format }}</a></li>
             {% endif %}
 
-            <li class="article-meta-data-header-title">Styles</li>
             {% if page.style-1 %}
+            <li class="article-meta-data-header-title">Styles</li>
             <li role="menuitem"><a href="{{ page.style-1-url }}" title="{{ page.style-1 }}">{{ page.style-1 }}</a></li>
             {% endif %}
             {% if page.style-2 %}
@@ -60,17 +60,22 @@ layout: default
             <li role="menuitem"><a href="{{ page.style-3-url }}" title="{{ page.style-3 }}">{{ page.style-3 }}</a></li>
             {% endif %}
 
-            <li class="article-meta-data-header-title">Technologies</li>
             {% if page.technologie-1 %}
+            <li class="article-meta-data-header-title">Technologies</li>
             <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 }}</a></li>
             {% endif %}
             {% if page.technologie-2 %}
             <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 }}</a></li>
             {% endif %}
 
-            <li class="article-meta-data-header-title">Crédit</li>
             {% if page.by %}
+            <li class="article-meta-data-header-title">Crédit</li>
             <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by }}</a></li>
+            {% endif %}
+            
+            {% if page.element-ui %}
+            <li class="article-meta-data-header-title">Eléments UI</li>
+            <li role="menuitem"><a href="{{ page.element-ui-url }}" title="Explorer la sélection {{ page.element-ui }}">{{ page.element-ui }}</a></li>
             {% endif %}
 
           </ul>
