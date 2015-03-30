@@ -15,7 +15,7 @@ layout: default
           </div>
           <div class="small-12 medium-8 large-8 columns small-text-center medium-text-left ">
             <h1 itemprop="headline">{{ page.title }}</h1>
-            {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+            {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
             {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
             {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
           </div>

@@ -810,6 +810,7 @@ background-position: center}
 .header-article-bgimg-cellule{
 	display: table-cell;
 	vertical-align: bottom;
+	padding-bottom: rem-calc(24);
 }
 .header-article-bgimg-cellule h1{@include header-liste-title}
 .column-article-featured-image-caption{border-bottom:1px dotted $secondary-color}
@@ -841,8 +842,7 @@ background-position: center}
 	border-bottom:1px dotted $secondary-color
 }
 .article-meta-item-time{@include item-row}
-.article-bgimg-meta-by-time{@include header-liste-link}
-.article-bgimg-meta-by-time.mod-article-video-meta-by-time{margin-bottom:0}
+.article-bgimg-meta-by-time{@include header-liste-link; margin-bottom:0}
 .row-article-featured-image {
   @include grid-row;
   .column-article-featured-image{

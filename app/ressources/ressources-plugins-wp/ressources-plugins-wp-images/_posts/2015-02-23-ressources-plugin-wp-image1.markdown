@@ -13,6 +13,7 @@ intro: Google Places Autocomplete input (without map). Returns an object with fo
 github: https://github.com/MagazineduWebdesign
 siteweb: https://magazineduwebdesign.com
 description: blablabla
+auteur: amine 
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
