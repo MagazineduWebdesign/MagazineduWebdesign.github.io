@@ -291,15 +291,15 @@ module.exports = function (grunt) {
       }
     },
     imagemin: {
-      dist: {
+      server: {
         options: {
           progressive: true
         },
         files: [{
           expand: true,
-          cwd: '<%= yeoman.dist %>',
+          cwd: '<%= yeoman.app %>',
           src: '**/*.{jpg,jpeg,png}',
-          dest: '<%= yeoman.dist %>'
+          dest: '<%= yeoman.app %>'
         }]
       }
     },
@@ -455,6 +455,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'responsive_images:server',
+      'newer:imagemin:server',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
@@ -492,7 +493,6 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin',
     'uglify',
-    'imagemin',
     'svgmin',
     'filerev',
     'usemin',
