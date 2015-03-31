@@ -10,6 +10,10 @@
   currentnav:
   permalink: /inspiration/ui-design/sites-web/
 
+- name: ELEMENTS UI ANDROID
+  currentnav:
+  permalink: /inspiration/ui-design/android/
+
 - name: USER FLOW iOS
   currentnav:
   permalink: /inspiration/parcours-apps/ios/
