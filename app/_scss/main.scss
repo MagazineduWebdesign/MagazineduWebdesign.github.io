@@ -160,8 +160,8 @@ ul{list-style-position: inside;}
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{@include header-liste}
 .header-liste.u-no-padding-bottom{padding-bottom: 0}
-	.header-liste-content{@include font-serif-paragraphe}
-	.header-liste-content.u-no-margin-b{@include font-serif-paragraphe; margin-bottom: 0}
+	.header-liste-content{@include font-sans-serif-paragraphe; color: $aluminum;}
+	.header-liste-content.u-no-margin-b{@include font-sans-serif-paragraphe; margin-bottom: 0; color: $aluminum;}
 	.header-liste-link a{@include header-liste-link}
 	.header-liste-link a:hover{color:$oil}
 	.header-bg-svg{
