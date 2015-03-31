@@ -11,9 +11,9 @@ layout: default
 	================================================== -->
 	<div class="header-liste u-no-padding-bottom">
 	  <header class="row-liste-index">
-	    <div class="small-12 columns">
-	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
-				<p class="header-liste-content text-center">
+	    <div class="small-12 columns text-center">
+	    	<h1 class="header-liste-headline">{{ page.title }}</h1>
+				<p class="header-liste-content">
 					{{ page.intro }} 
 					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -28,6 +28,7 @@ layout: default
             </svg>
           </a>
 	       </p>
+	       <a href="#" data-reveal-id="brief" class="button radius">RECEVOIR LE BRIEF CHAQUE JOUR</a>
 	    </div>
 		</header>
 
