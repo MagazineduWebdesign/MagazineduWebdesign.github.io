@@ -152,10 +152,10 @@ $(function() {
           str+='<svg class="gradient-shadow-img-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
           str+='</div></a></div></div></div>';
           // video-title
-          str+='<div class="row"><div class="small-12 columns">';
           str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
-          str+='<h1 class="videos-index-video-title" itemprop="headline">'+$(data).find('.header-liste-headline').html()+'</h1>';
-          str+='</a></div></div></article></li>';
+          str+='<div class="carte-article-secondaire mod-index-videos row collapse"><div class="small-12 columns">';
+          str+='<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">'+$(data).find('.header-liste-headline').html()+'</h1>';
+          str+='</div></div></a></article></li>';
           $('.videos-index-container').append(str);
           break;
 
