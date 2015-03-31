@@ -165,13 +165,13 @@ layout: default
 	                {% endif %}
 	              </div>
 	            </div>
-	            <div class="row collapse">
-	              <div class="small-12 columns">
-	              <a href="{{ post.url | prepend: site.baseurl }}">
-	              	<h1 class="videos-index-video-title" itemprop="headline">{{ post.title }}</h1>
-	              </a>
-	              </div>
-	            </div>
+	            <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+		            <div class="carte-article-secondaire mod-index-videos row collapse">
+		              <div class="small-12 columns">
+		              	<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title }}</h1>
+		              </div>
+		            </div>
+	            </a>
 	          </article>
 					</li>
 					{% endfor %}
