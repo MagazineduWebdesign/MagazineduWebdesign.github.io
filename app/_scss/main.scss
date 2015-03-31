@@ -423,17 +423,16 @@ ul{list-style-position: inside;}
 	padding: rem-calc(0 20);
 	margin-bottom: rem-calc(24);
 }
-.side-nav.mod-article-meta-data{
-	.article-meta-data-header-title{
-		@include item-row;
-		color: $aluminum;
-		border-bottom:1px dotted $secondary-color
-	}
-}
 
 // side-nav
 .side-nav.mod-article-meta-data{
-	padding: 0;
+	border:1px solid $secondary-color;
+	border-radius: $global-radius;
+	.article-meta-data-header-title{
+		@include item-row;
+		color: $aluminum;
+		border-bottom:1px dotted $secondary-color;
+	}
 }
 
 //shadow
