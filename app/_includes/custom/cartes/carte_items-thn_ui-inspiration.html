@@ -1,0 +1,72 @@
+<section>
+  <div class="row">
+    <div class="small-12 columns section-carte-header-no-bg">
+      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | capitalize }}</h1>
+    </div>
+  </div>
+  <!-- list items
+  ================================================== -->
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+
+      <!-- list all items
+      ================================================== -->
+      {% for post in site.categories.[include.param] limit:3 %}
+        <li>
+          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+                          
+            {% if post.image %}
+              <div class="row collapse">
+                <div class="small-12 columns carte-article-secondaire-thumbnail" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="gradient-shadow-img">
+                      <a href="{{ post.url | prepend: site.baseurl }}"> 
+                        <div class="gradient-shadow-img"></div>
+                      </a>
+                      {% if post.url-demo %}
+                        <a class="gradient-shadow-img-icon mod-icon-open-new" href="{{ post.url-demo }}" title="Visiter {{ post.title }}" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
+                        </a>
+                      {% endif %}
+                    </div>
+                  </a>
+                </div>
+              </div>
+            {% endif %}
+
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
+                <div class="small-12 columns">
+                  <h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title | truncate: 20 }}</h1>
+                  {% if post.price %}
+                    <span class="label-price">{{ post.price }}</span>
+                  {% endif %}
+                  <p class="carte-article-secondaire-post-description">{{ post.element-ui | truncate: 24 }}</p>
+                </div>
+              </div>
+            </a>
+          </article>
+        </li>
+      {% endfor %}
+        <li>
+          <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+            <a href="{{ site.baseurl }}{{ page.permalink }}ui-design/{{ include.param | remove:'ui-' }}/" class="carte-article-secondaire-action-link" title="Explorer les inspirations UI">
+              <div class="row collapse hide-for-small">
+                <div class="small-12 columns carte-article-secondaire-thumbnail mod-thumbnail-action-white"></div>
+              </div>
+              <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
+                <div class="small-12 columns carte-article-secondaire-container-action">
+                  <p class="carte-article-secondaire-action-texte text-center">
+                    EN VOIR PLUS <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#999999"/></svg>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </article>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>

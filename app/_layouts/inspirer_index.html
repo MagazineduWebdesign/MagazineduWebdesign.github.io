@@ -29,7 +29,8 @@ layout: default
 	</div>
 	
 	{% include custom/cartes/carte_items-thn.html param="sites-web" %}
-	{% include custom/cartes/carte_items-thn.html param="ui-sites-web" %}
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-sites-web" %}
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-android" %}
 	{% include custom/cartes/carte_items-thn-app-icon_cat.html param="parcours-apps-apple-watch" %}
 	{% include custom/cartes/carte_items-thn-app-icon_cat.html param="parcours-apps-ios" %}
 	{% include custom/cartes/carte_items-thn-app-icon_cat.html param="parcours-apps-android-wear" %}
@@ -50,7 +51,7 @@ layout: default
 		    
 		    {% for item in site.data.inspirer.inspirer-entries %}
 		    	<li role="menuitem">
-		        <a class="carte-article-secondaire-action-link" href="{{ item.permalink }}" title="{{ item.name }}">
+		        <a class="carte-article-secondaire-action-link" href="{{ item.permalink }}" title="Explorer les {{ item.name }}">
 		          <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 		            <div class="row">
 		              <div class="small-12 columns carte-article-secondaire-container-action">
