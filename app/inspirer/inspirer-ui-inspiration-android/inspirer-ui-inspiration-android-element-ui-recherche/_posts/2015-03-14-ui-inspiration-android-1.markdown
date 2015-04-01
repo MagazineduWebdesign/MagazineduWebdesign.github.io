@@ -11,7 +11,7 @@ tags:
 element-ui: recherche
 element-ui-url: /inspiration/ui-design/android/recherche/
 url-demo: http://magazineduwebdesign.com
-image: search.gif
+image: mobile-ui-recherche.png
 intro: Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station.
 auteur: amine
 description: blablabla 
