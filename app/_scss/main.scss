@@ -61,6 +61,7 @@
 // 00. SECTION JOB
 // 00. SECTION VIDEO
 // 00. SECTION CITATION
+// 00. SECTION SWIPER MODULE
 // 02. FOOTER
 // 00. 404
 
@@ -404,24 +405,24 @@ ul{list-style-position: inside;}
 	.carte-article-secondaire-action-link{color: $aluminum!important}
 
 // article meta-data
+.article-meta-data-right{
+	@include grid-column($columns:12,$center:true,$collapse:false);
+	max-width: rem-calc(640);
+	padding: rem-calc(48 16 48 16);
+}
+.article-meta-data-right.mod-article-contenu-meta-data{
+	@include grid-column($columns:12,$center:true,$collapse:false);
+	max-width: rem-calc(640);
+	padding: rem-calc(0 0 24 20);
+	margin-bottom: rem-calc(24);
+}
 @media #{$large-up} {
 	.article-meta-data-right{
 		@include grid-column($columns:3,$center:false,$collapse:true);
 		float: right!important;
 		max-width: rem-calc(240)!important;
-		padding: rem-calc(0 0 48 24)!important;
+		padding: rem-calc(0 0 48 24);
 	}
-}
-.article-meta-data-right{
-	@include grid-column($columns:12,$center:true,$collapse:false);
-	max-width: rem-calc(640);
-	padding: rem-calc(48 20);
-}
-.article-meta-data-right.mod-article-contenu-meta-data{
-	@include grid-column($columns:12,$center:true,$collapse:false);
-	max-width: rem-calc(640);
-	padding: rem-calc(0 20);
-	margin-bottom: rem-calc(24);
 }
 
 // side-nav
@@ -1142,6 +1143,33 @@ background-position: center}
 	}
 	.index-quote-author-link:hover{
 		color: $gainsboro!important;
+	}
+
+// 00. SECTION SWIPER MODULE - SCREENSHOT APP MOBILE
+// - - - - - - - - - - - - - - - - - - - - - - - - - 
+.swiper-container {
+  width: 100%;
+  height: rem-calc(546);
+  margin: 0 auto;
+}
+	.swiper-slide {
+	  width: 300px!important;
+	  /* Center slide text vertically */
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -ms-flex-pack: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  -webkit-align-items: center;
+	  align-items: center;
+	}
+	.swiper-pagination-bullet-active{
+		background: $primary-color!important;
 	}
 
 // 00. FOOTER

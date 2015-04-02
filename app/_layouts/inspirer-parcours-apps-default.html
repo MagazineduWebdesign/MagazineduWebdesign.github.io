@@ -31,128 +31,114 @@ layout: default
             <li role="menuitem"><a href="{{ page.url-app-ios }}" title="Scénario {{ page.scenario }} de {{ page.title }} sur Apple Watch">Apple Watch</a></li>
             {% endif %}
           </ul>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="small-12 columns">
-          <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-            {% if page.image-1 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-1 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-1-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">1 &mdash; {{ page.image-1-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-2 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-2-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">2 &mdash; {{ page.image-2-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-3 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-3-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">3 &mdash; {{ page.image-3-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-4 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-4-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">4 &mdash; {{ page.image-4-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-5 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-5-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">5 &mdash; {{ page.image-5-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-6 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-6-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">6 &mdash; {{ page.image-6-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-7 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-7 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-7-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">7 &mdash; {{ page.image-7-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-            {% if page.image-8 %}
-            <li>
-              <figure class="figure-img mod-app-screenshot">
-                <img src="{{ page.image-8 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
-                {% if page.image-8-tache %}
-                <div class="row collapse">
-                  <div class="small-12 columns">
-                    <figcaption class="note-figcaption">8 &mdash; {{ page.image-8-tache }}</figcaption>
-                  </div>
-                </div>
-                {% endif %}
-              </figure>
-            </li>
-            {% endif %}
-          </ul>
-        </div>
+        </div> 
       </div>
     </header>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% if page.image-1-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">1 &mdash; {{ page.image-1-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-1 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-2-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">2 &mdash; {{ page.image-2-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>  
+        </div>
+        {% endif %}
+        {% if page.image-3-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">3 &mdash; {{ page.image-3-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-4-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">4 &mdash; {{ page.image-4-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-5-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">5 &mdash; {{ page.image-5-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-6-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">6 &mdash; {{ page.image-6-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-7-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">7 &mdash; {{ page.image-7-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-7 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+        {% if page.image-8-tache %}
+        <div class="swiper-slide">
+          <figure class="figure-img mod-app-screenshot">
+            <div class="row collapse">
+              <div class="small-12 columns">
+                <figcaption class="note-figcaption">8 &mdash; {{ page.image-8-tache }}</figcaption>
+              </div>
+            </div>
+            <img src="{{ page.image-8 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+          </figure>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Add Scrollbar -->
+      <div class="swiper-scrollbar"></div>
+
+    </div>
   </div>
 
   <div class="row-body-article item-contenu"> 
