@@ -1,60 +1,60 @@
 - name: NOUVEAUT&Eacute;S
   currentnav:
-  permalink: /ressources/
+  permalink: /decouvrir/
 
 - name: TH&Egrave;MES WORDPRESS
   currentnav:
-  permalink: /ressources/themes-wordpress/
+  permalink: /decouvrir/themes-wordpress/
 
 - name: PLUGINS WORDPRESS
   currentnav:
-  permalink: /ressources/plugins-wordpress/
+  permalink: /decouvrir/plugins-wordpress/
 
 - name: ICONES
   currentnav: 
-  permalink: /ressources/icones/
+  permalink: /decouvrir/icones/
 
 - name: KITS UI
   currentnav:
-  permalink: /ressources/kits-ui/
+  permalink: /decouvrir/kits-ui/
 
 - name: FONTS
   currentnav:
-  permalink: /ressources/fonts/
+  permalink: /decouvrir/fonts/
 
 - name: FICHIERS VECTORIS&Eacute;S
   currentnav:
-  permalink: /ressources/fichiers-vectorises/
+  permalink: /decouvrir/fichiers-vectorises/
 
 - name: PLUGINS JAVASCRIPT
   currentnav:
-  permalink: /ressources/plugins-javascript/
+  permalink: /decouvrir/plugins-javascript/
 
 - name: TEMPLATES APP WEB
   currentnav: 
-  permalink: /ressources/templates-app-web/
+  permalink: /decouvrir/templates-app-web/
 
 - name: TEMPLATES APP IOS
   currentnav: 
-  permalink: /ressources/templates-app-ios/
+  permalink: /decouvrir/templates-app-ios/
 
 - name: TEMPLATES APP ANDROID
   currentnav: 
-  permalink: /ressources/templates-app-android/
+  permalink: /decouvrir/templates-app-android/
 
 - name: TEMPLATES EMAIL
   currentnav: 
-  permalink: /ressources/templates-email/
+  permalink: /decouvrir/templates-email/
 
 - name: TEMPLATES WEARABLE UI
   currentnav: 
-  permalink: /ressources/templates-wearable-ui/
+  permalink: /decouvrir/templates-wearable-ui/
 
 - name: FRAMEWORKS FRONT END
   currentnav:
-  permalink: /ressources/frameworks-front-end/
+  permalink: /decouvrir/frameworks-front-end/
 
 - name: FONDS D'&Eacute;CRAN
   currentnav:
-  permalink: /ressources/fonds-ecran/
+  permalink: /decouvrir/fonds-ecran/
 

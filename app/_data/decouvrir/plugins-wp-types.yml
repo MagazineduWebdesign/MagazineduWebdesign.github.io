@@ -1,0 +1,32 @@
+- name: NAVIGATION
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/navigation/
+
+- name: FORMULAIRE
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/formulaire/
+
+- name: SOCIAL MEDIA
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/social-media/
+
+- name: CATEGORIES
+  currentnav: 
+  permalink: /decouvrir/plugins-wordpress/categories/
+
+- name: EDITION
+  currentnav: 
+  permalink: /decouvrir/plugins-wordpress/edition/
+
+- name: MAP / CARTE INTERACTIVE
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/map/
+
+- name: TAGS
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/tags/
+
+- name: COMMENTAIRES
+  currentnav:
+  permalink: /decouvrir/plugins-wordpress/commentaires
+

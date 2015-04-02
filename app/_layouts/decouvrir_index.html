@@ -4,7 +4,7 @@ layout: default
 
 {% include header.html %}
 <section>
-	{% include custom/sections/ressources-entries.html %}
+	{% include custom/sections/decouvrir-entries.html %}
 	
 	<div class="header-liste">
 	  <header class="row-liste-index">
@@ -46,7 +46,7 @@ layout: default
 		  <div class="small-12 columns">
 		    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
 		    
-		    {% for item in site.data.ressources.ressources-entries %}
+		    {% for item in site.data.decouvrir.decouvrir-entries %}
 		    	<li role="menuitem">
 		        <a class="carte-article-secondaire-action-link" href="{{ item.permalink }}" title="{{ item.name }}">
 		          <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
