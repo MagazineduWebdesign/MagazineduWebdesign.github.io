@@ -11,6 +11,7 @@ tags:
 - decouvrir-plugins-wp-gratuits
 - decouvrir-plugins-wp-navigation
 price: $59
+url-buy: http://www.themezilla.com/themes/sparks/
 intro: Google Places Autocomplete input (without map). Returns an object with formatted address components
 github: https://github.com/MagazineduWebdesign
 siteweb: https://magazineduwebdesign.com
