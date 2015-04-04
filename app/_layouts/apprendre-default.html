@@ -4,7 +4,7 @@ layout: default
 
 {% include custom/sections/article_header.html %}
 <article>
-  <div class="header-liste {% if page.image %}u-no-padding-bottom{% endif %}">
+  <div class="header-liste">
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.image %}
         <div class="row column-header-article mod-header-article-no-margin-top">
@@ -36,6 +36,7 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
       {% include custom/cartes/carte_job-in-article_right.html %}
@@ -43,4 +44,3 @@ layout: default
   </div>
 
 </article>
-{% include custom/sections/article_footer_left.html %}

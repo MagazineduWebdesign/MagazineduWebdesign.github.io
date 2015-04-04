@@ -144,6 +144,7 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
       {% include custom/cartes/carte_job-in-article_right.html %}
@@ -151,4 +152,3 @@ layout: default
   </div>
 
 </article>
-{% include custom/sections/article_footer_left.html %}
