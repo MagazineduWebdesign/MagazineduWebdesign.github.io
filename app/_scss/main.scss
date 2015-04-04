@@ -1131,7 +1131,7 @@ background-position: center}
 }
 .index-quote{
 	margin: 0;
-	padding: rem-calc(48 0); 
+	padding: rem-calc(48 12); 
 	border-left: 0;
 }
 .index-quote.mod-index-apprendre-quote{
@@ -1140,6 +1140,11 @@ background-position: center}
 	.index-quote p{
 		@include font-serif-paragraphe ($fontsize: 24,$lineh: 30);
 		color: $white;
+	}
+	@media #{$small-only} {
+		.index-quote p{
+		@include font-serif-paragraphe ($fontsize: 20,$lineh: 24);
+	}
 	}
 	.index-quote-author, .index-quote-author-link{
 		font-size: $rem-base;
