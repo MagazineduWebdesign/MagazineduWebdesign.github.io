@@ -33,12 +33,13 @@ layout: default
 </div>
 
 <div class="row-liste-index">
-  <main class="small-12 columns section-carte-index-panel">
-    
+  <main class="small-12 columns">
+    <div class="section-carte-index-panel">
+
     {% if site.data.collections.[page.titre_fichier_data] %}
       {% for item in site.data.collections.[page.titre_fichier_data] %}
 
-        <a href="{{ item.href }}">
+        <a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             
             <div class="row collapse">
@@ -62,7 +63,8 @@ layout: default
     {% else %}
       <p>Il n'y a pas d'items dans cette collection.</p>
     {% endif %}
-
+    </div>
+    {% include custom/sections/article_footer_left.html %}
   </main>
+
 </div>
-{% include custom/cartes/cartenl.html %}
