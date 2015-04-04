@@ -17,7 +17,11 @@ siteweb: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers...
+##Features
+- Full screen responsive slider
+- Fully responsive design and layout
+- Valid XHTML + CSS
+- WordPress 4.1+ compatible
+- Bold theme options
+- Support and updates
+- Works in

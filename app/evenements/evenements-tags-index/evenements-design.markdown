@@ -1,6 +1,6 @@
 ---
 layout: evenements_index
-title: Evènements sur le design interactif
+title: Evénements sur le design interactif
 tags: evenements-design
 permalink: /evenements/design/
 intro: Adding sketching to the design process 

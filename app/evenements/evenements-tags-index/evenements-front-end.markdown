@@ -1,6 +1,6 @@
 ---
 layout: evenements_index
-title: Evènements sur le développement front-end
+title: Evénements sur le développement front-end
 tags: evenements-front-end
 permalink: /evenements/front-end/
 intro: Adding sketching to the front-end process 
