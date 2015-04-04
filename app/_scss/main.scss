@@ -838,7 +838,7 @@ background-position: center}
 	border-bottom:1px dotted $secondary-color
 }
 .article-meta-item-time{@include item-row}
-.article-bgimg-meta-by-time{@include header-liste-link; margin-bottom:0}
+.article-bgimg-meta-by-time{@include header-liste-link; margin-bottom:rem-calc(24);}
 .row-article-featured-image {
   @include grid-row;
   .column-article-featured-image{
@@ -903,6 +903,9 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 		margin-bottom:rem-calc(24);
 		line-height:rem-calc(24)!important;
 		padding-bottom: $rem-base;
+	}
+	.column-article-featured-image-caption{
+		padding: rem-calc(0 20);
 	}
 }
 @media #{$medium-only} {
