@@ -1,6 +1,6 @@
 ---
 layout: inspirer-ui-sites-web_index
-title: Sélection d'éléments UI &ndash; Recherche sur sites Web
+title: Sélection d'éléments UI &ndash; Recherche sur Android
 tags: ui-android-recherche
 permalink: /inspiration/ui-design/android/recherche/
 intro: Adding sketching to the design process is.
