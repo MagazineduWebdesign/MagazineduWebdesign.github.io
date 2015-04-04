@@ -48,8 +48,11 @@
                 GOOGLE+
               </a>
             </li>
-            <li class="menuitem">
+            <li class="menuitem hide-for-small">
               <input type="text" value="{{ site.url }}{{ note.url }}">
+            </li>
+            <li class="menuitem show-for-small-only">
+              <a href="mailto:?subject={{ note.title | uri_escape }}&amp;body={{ 'Cela pourrait te plaire ' | uri_escape }}{{ site.url | cgi_escape }}{{ note.url | cgi_escape }}" rel="nofollow"><svg class="ic_block-h64-text-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#999999"/></svg>PARTAGER VIA EMAIL</a>
             </li>
           </ul>
         </div>
