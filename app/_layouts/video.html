@@ -45,7 +45,7 @@ layout: default
 			{% if post.tags.size > 0 %}
         {% capture tags_content %} ITEMS RELATIFS : {% endcapture %}
         {% for post_tag in post.tags %}
-          {% for data_tag in site.data.videos-tags %}
+          {% for data_tag in site.data.videos.videos-tags %}
             {% if data_tag.slug == post_tag %}
               {% assign tag = data_tag %}
             {% endif %}
