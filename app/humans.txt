@@ -1,0 +1,38 @@
+UI Design and development: Guillaume Palayer
+Site: http://magazineduwebdesign.com
+Twitter: @MagDuWebdesign
+Location: Lille, France
+
+
+// App
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// Source code
+https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io
+
+// JavaScript
+Node.js
+Make life easier: jQuery
+Animations: Headroom.js, infinite-jekyll.js (thx @tobiasahlin), swiper.js
+Package manager: Npm, Bower
+Init: Yeoman
+build tools: Grunt
+features detection: Modernizr
+Tests: JSHint
+
+// HTML - CSS
+HTML5
+CSS3
+SVG
+Framework: Foundation
+Preprocessors: SASS
+Tests: CSS Lint
+
+// MISC
+Ruby
+Jekyllrb
+Version control: Git               
+Software: Sublime Text, Console2, Google Chrome, Adobe Illustrator CC, GitHub
+Colors: uigradients.com
+Icons: Material design icons - Google
+Fonts: Roboto - Google Web fonts
