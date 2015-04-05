@@ -1,0 +1,15 @@
+- name: ANGULAR JS
+  currentnav:
+  permalink: /videos/angular-js/
+
+- name: DESIGN
+  currentnav:
+  permalink: /videos/design/
+
+- name: STARTUP
+  currentnav:
+  permalink: /videos/startup/
+
+- name: UX DESIGN
+  currentnav:
+  permalink: /videos/ux-design/
