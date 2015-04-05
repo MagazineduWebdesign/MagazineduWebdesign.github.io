@@ -181,11 +181,11 @@ ul{list-style-position: inside;}
 }
 .row-liste-index {
   @include grid-row;
-  max-width:640px
+  max-width:640px;
 }
 .section-header{
-	padding:0 $rem-base;
-	line-height:rem-calc(48)
+	padding:0 rem-calc(20);
+	line-height:rem-calc(48);
 }
 .section-header-titre{
 	margin-bottom:0;
