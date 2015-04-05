@@ -268,8 +268,7 @@ module.exports = function (grunt) {
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
-          width: 140,
-          height: 80
+          width: 140
         },{
           name: 'small',
           width: 360
