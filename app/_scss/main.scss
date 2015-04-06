@@ -165,20 +165,6 @@ ul{list-style-position: inside;}
 	.header-liste-content.u-no-margin-b{@include font-sans-serif-paragraphe; margin-bottom: 0; color: $aluminum;}
 	.header-liste-link a{@include header-liste-link}
 	.header-liste-link a:hover{color:$oil}
-	.header-bg-svg{
-		background-position: right rem-calc(-64);
-		background-repeat:no-repeat
-	}
-@media #{$small-only}{
-	.header-bg-svg{background-image:none!important}
-}
-@media #{$medium-only}{
-	.header-bg-svg{
-		background-size: contain;
-		background-position: right rem-calc(128);
-		background-origin: content-box
-	}
-}
 .row-liste-index {
   @include grid-row;
   max-width:640px;
@@ -544,7 +530,7 @@ ul{list-style-position: inside;}
 
 // icons
 .ic_block-h64-ic-left{position:relative;top:rem-calc(4);margin-right:rem-calc(16)}
-.ic_block-h64-text-left{display:inline-block;vertical-align:middle;margin:rem-calc(0 8 0 0)}
+.ic_block-h64-text-left{display:inline-block;vertical-align:middle;margin:0;}
 .ic_block-h64-no-text{display:inline-block;vertical-align:middle;margin:rem-calc(0)}
 .ic_block-h64-chevron{display:inline-block;vertical-align:middle;margin-left:rem-calc(4)}
 .ic-block-h24{display:inline-block;vertical-align:middle;margin:rem-calc(-2 8 0 0)}
@@ -663,13 +649,12 @@ background-position: center}
 .headroom--unpinned {transform: translateY(-100%)}
 .name{
 	padding:0 $rem-base;
-	line-height:$topbar-height
-}
-#logo{margin:rem-calc(12 0 12 0)}
-.name a{
-	color:$aluminum;
 	font-size:rem-calc(20)
 }
+.logo{margin:rem-calc(12 16 12 0)}
+	.logo-title{float: left;}
+	.logo-orange{display:block; line-height:rem-calc(20)!important; margin-top: rem-calc(12)!important; color:$primary-color;}
+	.logo-grey{display:block; line-height:rem-calc(20)!important; color:$aluminum;}
 .topbar-partage-item{padding-left:0!important}
 .topbar-partage-facebook{background-color:$facebook !important; margin-bottom:0; color:$white!important}
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
@@ -686,8 +671,7 @@ background-position: center}
 	}
 	.top-bar.expanded{border-bottom: 2px solid $secondary-color}
 	.top-bar .name{height:rem-calc(56)}
-	.top-bar .name span, .name{line-height:rem-calc(56)}
-	#logo{margin:rem-calc(8 8 8 0)}
+	.logo{margin:rem-calc(8 8 8 0)}
 	.fixed.expanded:not(.top-bar) .top-bar-section {margin-top:rem-calc(56)}
 	.ic-hide-for-small{display:none}
 }
@@ -710,8 +694,7 @@ background-position: center}
 		float:right!important;
 		position: absolute;
 		right: 0;
-		padding-left: rem-calc(16)!important;
-		background-color:$white
+		background-color:$white,
 	}
 }
 
