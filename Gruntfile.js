@@ -303,6 +303,13 @@ module.exports = function (grunt) {
       }
     },
     svgmin: {
+      options: {
+        plugins: [{
+          removeViewBox: false
+          }, {
+          removeUselessStrokeAndFill: false
+          }]
+        },
       dist: {
         files: [{
           expand: true,
