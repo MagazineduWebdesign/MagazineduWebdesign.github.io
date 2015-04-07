@@ -663,7 +663,10 @@ background-position: center}
  	font-size:rem-calc(20)
 }
 .logo{margin:rem-calc(12 16 12 0)}
-	.logo-title{float: left;}
+	.logo-title{
+		float: left;
+		margin-right: rem-calc(8);
+	}
 	.logo-orange{display:block; line-height:rem-calc(20)!important; margin-top: rem-calc(12)!important; color:$primary-color;}
 	.logo-grey{display:block; line-height:rem-calc(20)!important; color:$aluminum;}
 .topbar-partage-item{padding-left:0!important}
