@@ -2,7 +2,6 @@
 layout: decouvrir_index
 title: Découvrir
 permalink: /decouvrir/
-intro: Explorez des centaines de ressources sélectionnées pour leurs qualités. Templates, Plugins JS, thèmes WordPress, icônes, fichiers vecto... L'objectif est de vous fournir un répertoire exhaustif des meilleures ressources permettant de faciliter votre quotidien. N'hésitez pas à partager avec la communauté vos découvertes et vos créations.
-bgimgheader: true
-text-twtr: En train d'explorer la sélection de ressources webdesign et développement Web du @MagDuWebdesign
+intro: Designers, développeurs, retrouvez les meilleurs outils, services et ressources de la communauté du Web design en un seul endroit. N'hésitez pas à partager vos découvertes et vos créations avec nous :-).
+text-twtr: En train d'explorer la sélection d'outils, de services et de ressources du @MagDuWebdesign
 ---
