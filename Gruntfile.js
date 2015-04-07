@@ -302,6 +302,23 @@ module.exports = function (grunt) {
         }]
       }
     },
+    svgmin: {
+      options: {
+        plugins: [{
+          removeViewBox: false
+          }, {
+          removeUselessStrokeAndFill: false
+          }]
+        },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>',
+          src: '**/*.svg',
+          dest: '<%= yeoman.dist %>'
+        }]
+      }
+    },
     copy: {
       dist: {
         files: [{
@@ -484,6 +501,7 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin',
     'uglify',
+    'svgmin',
     'filerev',
     'usemin',
     'htmlmin'
