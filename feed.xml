@@ -1300,5 +1300,31 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<guid isPermaLink="true">http://magazineduwebdesign.com/ruby1</guid>
 			</item>
 		
+			<item>
+				<title>Insérer les tags WordPress des posts dans vos boutons Twitter</title>
+				        
+				
+					<description>&lt;p&gt;L’efficacité de l’Optimisation pour les Médias Sociaux n’est plus à prouver. Les contenus publiés sur ces derniers peuvent représenter une source non négligeable de trafic pour votre site Web. Encore faut-il que ces contenus jouissent d’une visibilité sur ces plateformes sociales.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 22 Aug 2012 19:22:56 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/inserer-les-tags-wordpress-des-posts-dans-vos-boutons-twitter</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/inserer-les-tags-wordpress-des-posts-dans-vos-boutons-twitter</guid>
+			</item>
+		
+			<item>
+				<title>Filtrer vos articles via les custom taxonomies des post types WordPress</title>
+				        
+				
+					<description>&lt;p&gt;Via cette solution de tri, l’utilisabilité de votre site Web s’en trouvera fortement améliorée, en simplifiant la navigation et en réduisant le temps de recherche. Dans ce tutoriel, vous trouverez les codes sources, les instructions et nos conseils pour parvenir à filtrer vos custom posts via les taxonomies des custom post types WordPress.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 08 Aug 2012 19:22:56 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/filtrer-vos-articles-via-les-custom-taxonomies-des-post-types-wordpress</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/filtrer-vos-articles-via-les-custom-taxonomies-des-post-types-wordpress</guid>
+			</item>
+		
 	</channel>
 </rss>
