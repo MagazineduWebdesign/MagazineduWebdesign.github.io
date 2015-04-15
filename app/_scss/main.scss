@@ -870,6 +870,10 @@ background-position: center}
 main.column-body-article p, main.column-body-article ul, main.column-body-article ol, main.column-body-article blockquote, .page-editoriale-intro p{
 	@include font-serif-paragraphe
 }
+main.column-body-article h2, main.column-body-article h3,{
+	margin-top: rem-calc(48);
+	font-weight: $font-weight-bold;
+}
 .article-meta-footer, .article-via{
 	@include item-row;
 	display:block;
