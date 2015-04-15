@@ -24,7 +24,7 @@ Rassurez-vous, l’implémentation de cette technique WordPress est simple. Et s
 
 ##Récupérer le slug des tags relatifs à votre article WordPress
 
-Pour cela, vous devez au préalable appeler les tags de votre article via la fonction `[get_the_tags](http://codex.wordpress.org/Function_Reference/get_the_tags "Codex WordPress Fonction get_the_tags")`.
+Pour cela, vous devez au préalable appeler les tags de votre article via la fonction [get_the_tags](http://codex.wordpress.org/Function_Reference/get_the_tags "Codex WordPress Fonction get_the_tags").
 
 Deuxième étape : déterminez quelles données de vos tags vous souhaitez insérer dans votre URL de partage Twitter. Dans notre cas, nous souhaitons conserver seulement le slug des tags.
 
