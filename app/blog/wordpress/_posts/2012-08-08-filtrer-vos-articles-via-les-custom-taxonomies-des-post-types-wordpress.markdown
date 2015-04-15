@@ -154,6 +154,7 @@ jQuery(document).ready(function(jQuery){
 {% endhighlight %}
 
 Via les quelques lignes de codes ci-dessus, vous pourrez également appliquer au filtre sélectionné un état « actif » via l’ajout de la class `actif`.
+
 ![alt text](https://s3-eu-west-1.amazonaws.com/mdw-img/large/liste-filtre-terme-custom-taxonomie.png "Logo Title Text 1")
 
 ##Step 5 : on charte le tout via CSS
