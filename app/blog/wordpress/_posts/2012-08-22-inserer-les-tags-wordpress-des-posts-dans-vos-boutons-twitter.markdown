@@ -30,7 +30,6 @@ Deuxième étape : déterminez quelles données de vos tags vous souhaitez insé
 
 Insérez le code suivant au-dessus de l’URL :
 
-
 {% highlight php %}
 <?php
 // Obtenir les tags
