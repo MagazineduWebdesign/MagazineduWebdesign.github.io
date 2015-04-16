@@ -31,7 +31,7 @@
 
               <div class="small-3 columns">
                 {% if post.image %}
-                <img class="right" src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ post.title }}" width="140" height="80"/>
+                <div class="carte-article-secondaire-thumbnail right" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (default)]"></div>
                 {% endif %}
               </div>
             </div>
