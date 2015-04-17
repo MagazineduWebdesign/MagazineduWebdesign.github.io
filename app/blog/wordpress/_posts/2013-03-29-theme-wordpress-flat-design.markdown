@@ -5,8 +5,8 @@ category: wordpress
 tags: 
 - themes
 - wordpress
-intro: Le flat design pourrait se résumer de la sorte : un focus sur la couleur, la typographie et l'espace, omettant tous les éléments graphiques "superflux" des autres tendances du Web design.
-description: 15 thèmes WordPress suivant la tendance 2013 du flat design: des couleurs vives, une typographie de qualité et une hiérarchisation parfaite.
+intro: Le flat design pourrait se résumer de la sorte – un focus sur la couleur, la typographie et l'espace, omettant tous les éléments graphiques superflux des autres tendances du Web design.
+description: 15 thèmes WordPress suivant la tendance 2013 du flat design – des couleurs vives, une typographie de qualité et une hiérarchisation parfaite.
 image: theme-wordpress-crowd-funding-fundify.jpg
 image-legende:
 auteur: MagDuWebdesign
@@ -14,7 +14,7 @@ keyword_title:
 keyword_desc:
 ---
 
-<p>Vous me direz sans aucun doute : «&nbsp;C’est gentil… oui merci… je connais déjà&nbsp;» ce que <strong>flat design</strong> signifie. Partons de ce principe et explorons cette <strong><a title="Comment aborder le flat design en 2013 ? 23 exemples à suivre" href="http://magazineduwebdesign.com/flat-design-23-exemples">tendance du Web design</a></strong> appliquée à la conception de <strong>thèmes WordPress</strong>.</p>
+<p>Vous me direz sans aucun doute : «&nbsp;C’est gentil… oui merci… je connais déjà&nbsp;» ce que <strong>flat design</strong> signifie. Partons de ce principe et explorons cette <strong><a title="Comment aborder le flat design en 2013 ? 23 exemples à suivre" href="http://magazineduwebdesign.com/flat-design-23-exemples">tendance du Web design</a></strong> appliquée à la conception de <strong>thèmes WordPress</strong>.</p> 
 <p>Les thèmes WP suivent généralement la mouvance graphique du moment. Le flat design n’échappe pas à la tradition.</p>
 <p>J’en profite donc pour vous soumettre une sélection de <strong>thèmes WordPress flat design</strong> respectant à la lettre les <a title="Flat design – Swiss design inspiration ?" href="http://magazineduwebdesign.com/flat-design">principes de cette tendance so 2013</a>.</p>
 <p>Les templates ci-dessous sont pour la plupart des thèmes WordPress premium. Découvrez sans plus tarder la sélection du Magazine du Webdesign.</p>
