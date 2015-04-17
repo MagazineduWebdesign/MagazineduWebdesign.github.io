@@ -20,11 +20,11 @@ keyword_desc:
 <h3>Designfolio</h3>
 <p>Designfolio est un thème responsive conçu pour les créatifs en quête d’un <strong>portfolio en ligne</strong>. Adaptatif, ce thème WordPress offre une compatibilité avec de nombreux supports mobiles et desktop. Le slider et l’ensemble de ses templates sont responsives.</p>
 <p><img title="designfolio-theme-wordpress-portfolio-responsive" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/designfolio-theme-wordpress-portfolio-responsive.jpg" alt="designfolio-theme-wordpress-portfolio-responsive" width="555" height="319"></p>
-<a class="button secondary radius"class="button secondary radius" href="http://www.presscoders.com/demos/demo/designfolio.php" target="_blank">Voir la Démo</a>
+<a class="button secondary radius" href="http://www.presscoders.com/demos/demo/designfolio.php" target="_blank">Voir la Démo</a>
 <a class="button primary radius" href="http://www.presscoders.com/designfolio-free-download/" target="_blank">Télécharger</a>
 <h3>Ayoshop</h3>
 <p>Avec son design minimaliste et responsive, ce child&nbsp;<strong>template gratuit</strong>&nbsp;répondra à la plupart de vos besoins si vous souhaitez réaliser une boutique en ligne.&nbsp;<strong>AyoShop</strong>&nbsp;est un&nbsp;<a title="Thème WordPress gratuit ecommerce ayoshop" href="http://magazineduwebdesign.com/theme-wordpress-gratuit-ecommerce-ayoshop"><strong>thème WordPress e-commerce</strong></a>&nbsp;créé pour le framework Genesis et fonctionnant à l’aide du plugin WooCommerce.</p>
-<p><img title="ayoshop-theme-wordpress-gratuit-ecommerce-responsive" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/https://s3-eu-west-1.amazonaws.com/mdw-img/large/ayoshop-theme-wordpress-gratuit-ecommerce-responsive.jpg" alt="ayoshop-theme-wordpress-gratuit-ecommerce-responsive" width="555" height="319"></p>
+<p><img title="ayoshop-theme-wordpress-gratuit-ecommerce-responsive" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/ayoshop-theme-wordpress-gratuit-ecommerce-responsive.jpg" alt="ayoshop-theme-wordpress-gratuit-ecommerce-responsive" width="555" height="319"></p>
 <a class="button secondary radius" href="http://demo.ayothemes.com/ayoshop/" target="_blank">Voir la Démo</a>
 <a class="button primary radius" href="http://designmodo.com/free-wordpress-theme/" target="_blank">Télécharger</a>
 <h3>Alkane</h3>
@@ -68,5 +68,5 @@ keyword_desc:
 <a class="button secondary radius" href="http://demo.cpothemes.com/panoramica/" target="_blank">Voir la Démo</a>
 <a class="button primary radius" href="http://www.cpothemes.com/theme/panoramica" target="_blank">Télécharger</a>
 <p><strong>Hey ! Ne partez pas si vite…</strong></p>
-<p style="text-align: center;"><a href="http://magazineduwebdesign.com/tag/themes/" target="_blank">D’autres sélections de thèmes WordPress gratuits</a> vous attendent</p>
-<p style="text-align: left;">Et sinon j’ai quelques secrets pour vous concernant le <a title="Gravity forms, 10+ secrets pour personnaliser ces fonctionnalités" href="http://magazineduwebdesign.com/plugin-wordpress-gravity-forms-amelioration-fonctionnalite">plugin Gravity Forms</a>.</p>
+<p><a href="http://magazineduwebdesign.com/tag/themes/" target="_blank">D’autres sélections de thèmes WordPress gratuits</a> vous attendent</p>
+<p>Et sinon j’ai quelques secrets pour vous concernant le <a title="Gravity forms, 10+ secrets pour personnaliser ces fonctionnalités" href="http://magazineduwebdesign.com/plugin-wordpress-gravity-forms-amelioration-fonctionnalite">plugin Gravity Forms</a>.</p>

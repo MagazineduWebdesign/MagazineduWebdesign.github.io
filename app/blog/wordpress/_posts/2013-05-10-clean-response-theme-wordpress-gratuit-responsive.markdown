@@ -33,6 +33,4 @@ Vous trouverez un grand nombre d’options dans le panneau d’administration du
 * Typographie (Google Web Fonts),
 * etc.
 
-![alt text](https://s3-eu-west-1.amazonaws.com/mdw-img/large/screenshot-options.jpg "screenshot-options")
-
 Ce thème est [téléchargeable gratuitement sur ThemeFurnace.](http://themefurnace.com/blog/portfolio/clean-response/)

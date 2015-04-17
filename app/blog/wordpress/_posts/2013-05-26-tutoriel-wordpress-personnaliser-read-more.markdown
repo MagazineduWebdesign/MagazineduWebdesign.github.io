@@ -45,4 +45,4 @@ add_filter( 'the_content_more_link', 'mon_lire_la_suite' );
 
 Insérez le code ci-dessus dans le fichier functions.php de votre thème WordPress.
 
-D’autres options de personnalisation des extraits d’articles et de leur lien « Read more » sont disponibles sur le Code WordPress.
+D’autres options de personnalisation des extraits d’articles et de leur lien Read more sont disponibles sur le Code WordPress.

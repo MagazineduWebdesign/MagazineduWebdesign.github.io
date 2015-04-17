@@ -3,8 +3,8 @@ title: Filtrer vos articles via les custom taxonomies des post types WordPress
 date: 2012-08-08 17:22:56
 category: wordpress
 tags: 
-- jekyll
-- topic
+- techniques
+- tutoriels
 intro: Parcourir un portfolio, une bibliothèque d’objets, une liste d'items n'est pas toujours aisé lorsque une grande quantité d'informations y est présentée. Avec l'avènement des custom post types WordPress, il est possible de créer facilement des listes d'items accompagnées d'un système de filtres.
 description: Tutoriel complet vous révélant comment filtrer et organiser vos articles via les termes des custom taxonomies des post types WordPress.
 image: filtrer-custom-posts-par-termes-custom-taxonomies-wordpress.png

@@ -3,8 +3,9 @@ title: Insérer les tags WordPress des posts dans vos boutons Twitter
 date: 2012-08-22 17:22:56
 category: wordpress
 tags: 
-- jekyll
-- topic
+- techniques
+- tutoriels
+- twitter
 intro: L'efficacité de l’Optimisation pour les Médias Sociaux n'est plus à prouver. Les contenus publiés sur ces derniers peuvent représenter une source non négligeable de trafic pour votre site Web. Encore faut-il que ces contenus jouissent d'une visibilité sur ces plateformes sociales.
 description: L'efficacité du SMO n'est plus à prouver. Dans ce tutoriel, nous aborderons l'optimisation de l'URL de partage Twitter à l'aide des tags WP.
 image: tag-wordpress-et-twitter-api.jpg
