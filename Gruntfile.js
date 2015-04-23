@@ -264,26 +264,29 @@ module.exports = function (grunt) {
     responsive_images: {
       options: {
         newFilesOnly: true,
-        upscale: true,
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
+          upscale: true,
           width: 140
         },{
           name: 'small',
+          upscale: true,
           width: 360
         },{
           name: 'medium',
+          upscale: true,
           width: 640
         },{
           name: 'large',
+          upscale: true,
           width: 1024
         }]
       },
       server: {
         files: [{
           expand: true,
-          src: ['img/**/*.{jpg,png}'],
+          src: ['img/sources/**/*.{jpg,gif,png}'],
           cwd: '<%= yeoman.app %>',
           custom_dest: '<%= yeoman.app %>/img/{%= name %}'
         }]
