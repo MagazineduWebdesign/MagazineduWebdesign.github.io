@@ -11,6 +11,7 @@ author:
   email: guillaume.palayer@gmail.com
 twitter_username: MagDuWebdesign
 github_username: jekyll
+source: app
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title
 url: "http://magazineduwebdesign.com" # the base hostname & protocol for your site
@@ -20,7 +21,6 @@ exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 include: ['.nojekyll']
-
 # Collections settings
 collections:
   encyclo:
