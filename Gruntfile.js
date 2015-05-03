@@ -264,6 +264,7 @@ module.exports = function (grunt) {
     responsive_images: {
       options: {
         newFilesOnly: true,
+        quality: 80,
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
@@ -286,8 +287,8 @@ module.exports = function (grunt) {
       server: {
         files: [{
           expand: true,
-          src: ['img/sources/**/*.{jpg,png}'],
           cwd: '<%= yeoman.app %>',
+          src: ['img/sources/**/*.{jpg,jpeg,png,gif}'],
           custom_dest: '<%= yeoman.app %>/img/{%= name %}'
         }]
       }
@@ -300,8 +301,8 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>',
-          src: '**/*.{jpg,jpeg,png,gif}',
-          dest: '<%= yeoman.app %>'
+          src: ['img/sources/**/*.{jpg,jpeg,png,gif}'],
+          dest: '<%= yeoman.app %>/img/sources/'
         }]
       }
     },
