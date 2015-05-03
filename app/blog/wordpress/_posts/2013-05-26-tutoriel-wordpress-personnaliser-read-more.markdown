@@ -37,12 +37,13 @@ J’ai donc chercher à remédier à ces deux « problèmes » en personnalisant
 
 Voici la technique que j’ai employée pour supprimer la référence à l’ancre `#more` dans l’URL de l’article et y insérer un attribut `title` reprenant le titre de l’article :
 
+{% highlight php %}
 // Ajouter l'attribut title et retirer la balise #more du lien "Read more"
 function mon_lire_la_suite() {
  return ' <a class="ma-classe" href="' . get_permalink() . '" title="Lire la suite - ' . get_the_title() . '">Lire la suite...</a>';
 }
 add_filter( 'the_content_more_link', 'mon_lire_la_suite' );
-
+{% endhighlight %}
 Insérez le code ci-dessus dans le fichier functions.php de votre thème WordPress.
 
 D’autres options de personnalisation des extraits d’articles et de leur lien Read more sont disponibles sur le Code WordPress.
