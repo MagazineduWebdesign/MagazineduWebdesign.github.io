@@ -29,7 +29,7 @@ keyword_desc:
 <a class="button primary radius" href="http://designmodo.com/free-wordpress-theme/" target="_blank">Télécharger</a>
 <h3>Alkane</h3>
 <p>Alkane est un template de blog pour WordPress simple et efficace. Destiné aux blogueurs souhaitant directement publier du contenu sans perdre du temps sur les réglages. Deux templates sont proposés, un pour les articles et un pour le formulaire de contact.</p>
-<p><img title="Alkane - Thème WordPress gratuit " src="http://magazineduwebdesign.com/wp-content/uploads/2013/02/theme-wordpress-gratuit-Alkane.jpg" alt="Alkane - Thème WordPress gratuit Alkane" width="555" height="601"></p>
+<p><img title="Alkane - Thème WordPress gratuit " src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/theme-wordpress-gratuit-Alkane.jpg" alt="Alkane - Thème WordPress gratuit Alkane" width="555" height="601"></p>
 <a class="button secondary radius" href="http://wpalkane.com/category/wordpress/" target="_blank">Voir la Démo</a>
 <a class="button primary radius" href="http://wordpress.org/extend/themes/alkane" target="_blank">Télécharger</a>
 <h3>Flozo</h3>
