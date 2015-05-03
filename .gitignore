@@ -40,3 +40,6 @@ app/img
 
 # Ignore for S3 storage #
 grunt-aws.json
+
+# Ignore specific files #
+help-snippets.txt
