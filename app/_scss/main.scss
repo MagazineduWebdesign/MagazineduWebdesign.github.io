@@ -156,6 +156,15 @@ $linkedin:#0077B5;
 	color:$white
 }
 ul{list-style-position: inside;}
+::selection{
+  background-color:$tuatara;
+  color:$white;
+}
+/* Firefox */
+::-moz-selection {
+  background-color:$tuatara;
+  color:$white;
+}
 
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
