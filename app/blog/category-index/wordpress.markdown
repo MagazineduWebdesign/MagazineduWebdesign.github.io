@@ -3,8 +3,6 @@ layout: category_index
 title: WordPress
 category: wordpress
 permalink: /wordpress/
-svg:
-intro: Adding sketching to the design process is a great way to amplify software and hardware tools. Sketching provides a unique space that can help you think differently, generate a variety of ideas quickly, explore alternatives with less risk, and encourage constructive discussions with colleagues and clients.
-bgimgheader: true
-text-twtr: blbabblgrg
+intro: Le condensé des dernières actualités concernant le CMS WordPress – une sélection des meilleurs thèmes WordPress gratuits, la présentation de plugins WP pour booster votre productivité. Vous y trouverez également des tutoriels et un ensemble d’astuces afin d’être toujours au top de l’innovation WordPress.
+text-twtr: En train d'explorer les articles WordPress — @MagDuWebdesign
 ---
