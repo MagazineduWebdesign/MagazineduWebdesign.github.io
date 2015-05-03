@@ -1,0 +1,31 @@
+---
+title: Foundation 3.1 – les templates HTML sont arrivés
+date: 2012-09-16 17:22:56
+category: design
+tags:
+- responsive
+- wireframing
+intro: L'équipe du Studio Zurb a travaillé dur ces dernières semaines pour fournir à la communauté du Framework Foundation une nouvelle mouture de cet outil de prototypage.
+image: foundation-3-1.jpg
+image-legende:
+auteur: MagDuWebdesign
+keyword_title:
+keyword_desc:
+viaurl:
+viatitle:
+---
+
+<p>La version 3.1 de Foundation inclue des nouvelles fonctionnalités et des nouveaux éléments UI. Rassurez-vous aucune mise à jour du coeur n’a été réalisée. Tous vos projets basés sur le framework sont encore viables.</p>
+<h2>Les nouveautés apportées par Foundation 3.1</h2>
+<p>Les évolutions ne sont pas majeures mais quelques nouveautés sont à retenir tels que l’intégration des add-ons, des nouveaux éléments d’interface et les templates HTML. La mise à jour comprend :</p>
+<ul>
+<li>Des modèles de pages HTML à télécharger, disponibles dans l’interface de customisation du site Web de Foundation.<img class="alignnone size-full wp-image-1060" title="Foundation--HTML-Templates" src="http://magazineduwebdesign.com/wp-content/uploads/2012/09/Foundation-HTML-Templates.jpg" alt="Foundation--HTML-Templates" width="555" height="346"></li>
+<li>Des add-ons : modèles de pages HTML, polices, tableaux responsives, icônes sociales en SVG, éléments OmniGraffle.</li>
+<li>Foundation&nbsp;inclut&nbsp;désormais une barre de navigation responsive vous permettant de contrôler plus facilement son intégration dans un environnement mobile et l’emplacement des items du menu.</li>
+<li>Support des langues écrites à partir de la droite vers la gauche.</li>
+<li>Nouveaux styles d’UI : barre de progression et vignette d’image.</li>
+<li>Installation de jQuery 1.8.1.</li>
+<li>Une documentation plus fournie concernant le plugin Orbit et Reveal.</li>
+</ul>
+<p>Voilà, cela fait pas mal de nouveautés, non? Pour le téléchargement de la nouvelle version, rendez-vous à cette adresse&nbsp;<a href="http://foundation.zurb.com/">http://foundation.zurb.com</a>.</p>
+<p>Pour celles et ceux souhaitant en apprendre davantage, je vous conseille la lecture de notre article présentant <a title="Place à la pratique, les outils de wireframing HTML – 3/3" href="http://magazineduwebdesign.com/place-a-la-pratique-les-outils-de-wireframing-html-33">Foundation 3</a>.</p>
