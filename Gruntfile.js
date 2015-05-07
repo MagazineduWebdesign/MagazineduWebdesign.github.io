@@ -301,7 +301,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>',
           src: ['img/sources/**/*.{jpg,jpeg,png,gif}'],
-          dest: '<%= yeoman.app %>/img/sources/'
+          dest: '<%= yeoman.app %>'
         }]
       }
     },
@@ -363,8 +363,11 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '<%= yeoman.app %>',
-          src: 'img/**/*',
-          dest: '.tmp/img'
+          src: [
+            'img/**/*',
+            '!img/sources/**/*',
+            ],
+          dest: '.tmp'
         }]
       },
       // Copy CSS into .tmp directory for Autoprefixer processing
