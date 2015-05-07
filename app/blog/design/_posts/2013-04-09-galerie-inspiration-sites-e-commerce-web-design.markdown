@@ -1,11 +1,11 @@
 ---
-title: Avez-vous déjà vu ces 30 sites Web E-Commerce élégants et innovants ?
+title: Avez-vous déjà vu ces 30 sites Web E-Commerce élégants et innovants
 date: 2013-04-09 17:22:56
 category: design
 tags:
 - inspiration
 - e-commerce
-intro: Les webdesigners sont des gens naturellement frustrés. D'un côté, ils doivent réaliser des interfaces design avec effet "Wahou" tout en respectant des contraintes plus ou moins fortes en fonction du projet. Pas toujours évident.
+intro: Les webdesigners sont des gens naturellement frustrés. D'un côté, ils doivent réaliser des interfaces design avec effet Wahou tout en respectant des contraintes plus ou moins fortes en fonction du projet. Pas toujours évident.
 image: 12-krys.jpg
 image-legende:
 auteur: MagDuWebdesign
@@ -15,7 +15,7 @@ viaurl:
 viatitle:
 ---
 
-<p>Et comme chacun d’entre vous le sait, l’e-commerce n’est pas un domaine du Webdesign avare&nbsp;en matière de contraintes, qu’elles soient techniques, business ou liées à l’utilisabilité.<span id="more-4565"></span></p>
+<p>Et comme chacun d’entre vous le sait, l’e-commerce n’est pas un domaine du Webdesign avare&nbsp;en matière de contraintes, qu’elles soient techniques, business ou liées à l’utilisabilité.</p>
 <p>Je souhaite vous présenter aujourd’hui une <strong>sélection de sites Web e-commerce</strong> ayant opté pour une approche technique innovante et un style graphique élégant ou original. Cette <a title="Articles pour Inspiration - Magazine du Webdesign" href="http://magazineduwebdesign.com/tag/inspiration/">galerie d’inspirations</a> vous sera peut-être utile si vous êtes amené à travailler sur ce type de projet.</p>
 <h2>Des sites e-commerce élégants et innovants pour votre inspiration</h2>
 <p>La réalisation d’un <strong>site e-commerce</strong> novateur en terme de design ou de fonctionnalités est à la portée de tous. Nul besoin d’une kyrielle&nbsp;d’animations et d’effets en tout genre. Un simple mot doux destiné à l’acheteur ou un panier chaleureux peuvent faire une grande différence. A l’occasion, consultez le site Threadless, un cas d’école en matière d’<strong>expérience utilisateur e-commerce</strong>, que ce soit pour son front ou l’objet de ses <a title="Du moniteur au mobile : optimisation des templates mail mobile" href="http://magazineduwebdesign.com/templates-mail-mobile">emails</a>.</p>
