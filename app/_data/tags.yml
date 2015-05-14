@@ -1,2 +1,116 @@
+- slug: accessibilite
+  name: Accessibilité
+
+- slug: android
+  name: Android
+
+- slug: best-of
+  name: Best of
+
+- slug: bootstrap
+  name: Bootstrap
+
+- slug: css3
+  name: CSS3
+
+- slug: e-commerce
+  name: E-commerce
+
+- slug: email
+  name: Email
+
+- slug: fireworks
+  name: Fireworks
+
+- slug: fonts
+  name: Fonts
+
+- slug: fonts-gratuites
+  name: Fonts gratuites
+
+- slug: html5
+  name: HTML5
+
+- slug: icon-font
+  name: Icon font
+
+- slug: icones
+  name: Icônes
+
+- slug: illustration
+  name: Illustration
+
+- slug: inspiration
+  name: Inspiration
+
+- slug: javascript
+  name: JavaScript
+
+- slug: jquery
+  name: jQuery
+
+- slug: mobile
+  name: Mobile
+
+- slug: navigation
+  name: Navigation
+
+- slug: net-art
+  name: Net art
+
 - slug: outils
   name: Outils
+
+- slug: plugin
+  name: Plugin
+
+- slug: psd
+  name: Psd
+
+- slug: responsive
+  name: Responsive
+
+- slug: ressources
+  name: Ressources
+
+- slug: svg
+  name: SVG
+
+- slug: techniques
+  name: Techniques
+
+- slug: templates
+  name: Templates
+
+- slug: themes
+  name: Thèmes
+
+- slug: theme-wordpress
+  name: Thème WordPress
+
+- slug: tutoriels
+  name: Tutoriels
+
+- slug: twitter
+  name: Twitter
+
+- slug: ui
+  name: UI
+
+- slug: useful
+  name: Useful
+
+- slug: ux
+  name: UX
+
+- slug: video
+  name: Vidéo
+
+- slug: webdesign
+  name: Webdesign
+
+- slug: wireframing
+  name: Wireframing
+  
+- slug: wordpress
+  name: WordPress
