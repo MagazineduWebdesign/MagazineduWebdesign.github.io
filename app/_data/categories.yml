@@ -1,11 +1,5 @@
 - slug: wordpress
   name: WORDPRESS
-  color: '#3498db'
 
-- slug: ux
+- slug: ux-design
   name: UX DESIGN
-  color: '#1abc9c'
-
-- slug: ruby-on-rails
-  name: RUBY ON RAILS
-  color: '#1abc9c'
