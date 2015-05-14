@@ -114,7 +114,7 @@ layout: default
             {% endif %}
           {% endfor %}
           {% if tag %}
-            {% capture tags_content_temp %}{{ tags_content }}<a href="/{{ tag.slug | downcase }}/">{{ tag.name | upcase }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ tag.slug | downcase }}/">{{ tag.name | upcase }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
             {% assign tags_content = tags_content_temp %}
           {% endif %}
         {% endfor %}
