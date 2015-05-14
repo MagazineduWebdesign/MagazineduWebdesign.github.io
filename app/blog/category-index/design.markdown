@@ -1,8 +1,8 @@
 ---
 layout: category_index
-title: Design & Cie...
+title: Design et Cie...
 category: design
 permalink: /design/
 intro: Des articles et des showcases concernant le design d'interfaces.
-text-twtr: En train d'explorer les articles #design — @MagDuWebdesign
+text-twtr: En train d'explorer les articles design — @MagDuWebdesign
 ---

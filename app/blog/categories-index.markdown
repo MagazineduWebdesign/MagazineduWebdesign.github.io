@@ -5,5 +5,5 @@ permalink: /lire/
 svg:
 intro: Les articles de fond du blog MDW.
 bgimgheader: true
-text-twtr: blbabblgrg
+text-twtr: En train d'explorer les articles du @MagDuWebdesign
 ---
