@@ -1,0 +1,63 @@
+---
+title: 7 points pour être prêt à passer au Web mobile en 2013
+date: 2013-01-17 17:22:56
+category: mobile
+tags:
+- mobile
+intro: Définir une stratégie pour le Web mobile est une des premières choses à faire en 2013. Cela requiert une planification méticuleuse, une connaissance des technologies disponibles et le plus important, une compréhension des attentes de vos utilisateurs sur les terminaux mobiles.
+image: google-glass-responsive-web-mobile.jpg
+image-legende:
+auteur: MagDuWebdesign
+keyword_title:
+keyword_desc:
+viaurl:
+viatitle:
+---
+
+<p>Dans cet article, je vous propose un tour d’horizon des principaux points à aborder pour ne pas foirer la conception et la mise en place de votre <strong>stratégie mobile</strong>.</p>
+<h2><span style="color: #888888;">1.</span> Pourquoi le mobile ?</h2>
+<p>Le mobile est le medium du siècle. Personnel, toujours allumé et à portée de main, il est un prolongement naturel de «&nbsp;l’homo Numericus&nbsp;». Demandez-vous comment vous pourriez en&nbsp;tirer avantage et&nbsp;être en mesure d’améliorer l’expérience sur mobile de vos utilisateurs.</p>
+<p>Ne vous focalisez pas sur la simple adaptation d’un contenu existant. Prenez le temps de découvrir les capacités de l’univers mobile et transformez-les en opportunités pour <strong>augmenter l’engagement des utilisateurs</strong>. C’est là que se cache la véritable valeur ajoutée de votre projet.</p>
+<h2><span style="color: #888888;">2.</span> Pensez utilisateur avant device</h2>
+<p>Etudier son audience est la base d’un projet réussi. La mise en place d’une phase de recherche vous permettra de comparer les attentes utilisateurs aux&nbsp;vôtres&nbsp;et ainsi ajuster le périmètre de votre projet. Ce n’est qu’après cette étape que vous connaîtrez le bon chemin à emprunter.</p>
+<figure>
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/web-mobile-contexte-usage.jpg" alt="Web mobile - contexte et usage" width="500" height="333">
+  <figcaption>(Image – <a title="Denis Dervisevic" href="http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream" target="_blank">Denis Dervisevic</a>)</figcaption>
+</figure>
+<p>De nombreux facteurs dans un projet peuvent être un obstacle durant cette phase de recherche. <strong>Ne visez pas la perfection, essayez, échouez et recommencez !&nbsp;</strong></p>
+<h2><span style="color: #888888;">3.</span> Une version mobile d’un site n’est pas le reflet d’une version desktop</h2>
+<p>Le mobile est un outil plein de ressources. Géolocalisation, NFC, réalité augmentée ne sont pas des fonctionnalités gadgets. Elles sont une opportunité unique pour créer de nouvelles expériences mobiles.</p>
+<ol>
+<li>Assurez-vous que le contenu délivré soit à sa juste place afin d’offrir une expérience utilisateur optimale.</li>
+<li>Ajustez vos contenus, remettez en cause l’existence de cet image corporate en header, de cette sidebar et de cette affreuse navigation à 14 entrées.</li>
+<li>Remplacez-les par un contenu contextualisé et innovant, en veillant à ne pas perdre la valeur informative de ce dernier. La simplicité n’est pas synonyme de médiocrité.</li>
+</ol>
+<h2><span style="color: #888888;">4.</span> Un site Web mobile, en responsive ou une application ?</h2>
+<p>Il n’existe pas une unique réponse pour le <strong>Web mobile</strong>. Analyser les besoins des utilisateurs, vos besoins et la nature de vos contenus vous aidera à faire émerger une solution adaptée à de multiples contraintes.</p>
+<p>Parfois, le moyen le plus simple est de séparer les dispositifs dédiés à l’expérience mobile de votre stratégie digitale globale. L’approche pour une telle décision se fait en fonction des objectifs du projet, du planning, des ressources et bien entendu en fonction du budget.</p>
+<h2><span style="color: #888888;">5.</span> Quels terminaux mobiles ciblés ?</h2>
+<p>Le nombre de terminaux mobiles disponibles sur le marché ne cesse de croître, avec de grandes disparités sur le plan hardware. Les capacités techniques des appareils mobiles et de leurs applications sont parfois très limitées.&nbsp;Définir quels sont les modèles de terminaux adaptés à votre projet vous permettra d’effectuer des choix judicieux en phase de conception et de développement. L’expérience utilisateur finale en dépend grandement.</p>
+<h2><span style="color: #888888;">6.</span> Optez pour l’ajustement progressif</h2>
+<p>Il est pratiquement impossible d’optimiser une expérience mobile pour tous les terminaux de la planète. Il est néanmoins facile d’assurer un seuil d’<a title="40 points à checker pour atteindre le nirvāṇa de l’accessibilité Web" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist">accessibilité</a> minimum pour une grande majorité de devices en recourant à l’<strong>ajustement progressif</strong>. Une version dégradée mais néanmoins accessible sur un Nokia X2-01 offrira un accès à vos contenus à des millions de personnes à travers le monde. Pour vous en convaincre, lisez cet article&nbsp;<a title="See your site like the rest of the world does. On the Nokia X2-01 " href="http://generatedcontent.org/post/31441135779/mobileweb-row" target="_blank">See your site like the rest of the world does. On the Nokia X2-01</a>.</p>
+<figure>
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_ma9mnfEKBF1qmllqg.jpg" alt="Ajustement progressif mobile" width="434" height="406">
+  <figcaption>(Image – <a title="Denis Dervisevic" href="http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream" target="_blank">Denis Dervisevic</a>)</figcaption>
+</figure>
+<p>Offrez une expérience fonctionnelle à la plupart des personnes qui n’ont pas le dernier smartphone à la mode en Occident et présentez une expérience utilisateur plus qualitative pour les terminaux mobiles de votre coeur de cible.</p>
+<h2><span style="color: #888888;">7.</span> Fuyez la rigidité, anticipez les évolutions du Web mobile</h2>
+<p>Certains modèles ou OS mobiles sont les stars du marché actuel. Mais dans 2 ou 3 ans, votre dispositif mobile sera-t-il encore adapté aux attentes de vos utilisateurs ?&nbsp;S’accommodera-t-il si votre marché connaît une surprenante croissance sur un autre continent où les OS mobiles sont différents ? Je vous passe les questions concernant les évolutions techniques : écran souple, Google Glass, etc.</p>
+<p><img class="alignnone size-full wp-image-2911" title="Google Glass et Web mobile" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/google-glass-responsive-web-mobile.jpg" alt="Google Glass et Web mobile" width="552" height="468"></p>
+<p>Si cela vous intéresse, Zurb a écrit un article sur un des&nbsp;<a title="Google Glasses: You've Got Responsive Design in Your Eye" href="http://www.zurb.com/article/1141/google-glasses-you-ve-got-responsive-desi" target="_blank">prochains supports pour le Web mobile</a>. Utiliser l’<strong>ajustement progressif</strong>&nbsp;pour vos dispositifs mobiles vous épargnera bien des&nbsp;déboires&nbsp;à long terme. Cette flexibilité augmentera la taille de votre audience et son engagement en proposant une expérience utilisateur fonctionnelle pour tous, sans trop dépendre de l’évolution des supports.</p>
+<h2>Comment y parvenir</h2>
+<p>Adopter la bonne stratégie vous permettra d’aborder les enjeux du <strong>Web mobile</strong> sereinement. Accordez-vous du temps pour la définition du périmètre de votre projet. Effectuez des recherches, échangez et surtout testez dès que cela vous est possible.</p>
+<p>Les outils indispensables pour bien commencer :</p>
+<ul>
+<li><a href="http://www.thinkwithgoogle.com/insights/search/?q=mobile#/insights/search/?q=mobile" target="_blank">thinkwithgoogle.com</a>,</li>
+<li><a href="http://www.thinkwithgoogle.com/mobileplanet/fr/" target="_blank">mobileplanet</a>.</li>
+</ul>
+<p>Les sources d’inspirations pour éviter le syndrome de la feuille blanche :</p>
+<ul>
+<li><a title="Mobile Mozaic – Galerie d’inspirations pour les applications iOS" href="http://magazineduwebdesign.com/galerie-inspiration-ui-applications-ios">Mobile Mozaic – Galerie d’inspirations pour les applications iOS</a>,</li>
+<li><a title="Off-canvas – contrer la verticalité des sites Web mobiles" href="http://magazineduwebdesign.com/off-canvas-navigation-contenu-site-mobile">Off-canvas – contrer la verticalité des sites Web mobiles</a>,</li>
+<li><a title="30 sources d’inspiration pour vos prochaines applications Web mobile" href="http://magazineduwebdesign.com/30-sources-dinspiration-pour-vos-prochaines-applications-web-mobiles">30 sources d’inspiration pour vos prochaines applications Web mobile</a>.</li>
+</ul>

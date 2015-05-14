@@ -1,11 +1,11 @@
 ---
-title: Vos landing pages racontent des histoires !
+title: Vos landing pages racontent des histoires
 date: 2013-03-14 17:22:56
 category: design
 tags:
 - inspiration
 - webdesign
-intro: Votre landing page parle-t-elle le même langage que vos utilisateurs ?
+intro: Votre landing page ne parlent peut-être pas le même langage que vos utilisateurs.
 image: Inky.jpg
 image-legende:
 auteur: MagDuWebdesign

@@ -1,7 +1,7 @@
 ---
 title: Headings HTML5 – au service de la sémantique
 date: 2012-10-16 17:22:56
-category: design
+category: developpement
 tags:
 - html5
 - techniques

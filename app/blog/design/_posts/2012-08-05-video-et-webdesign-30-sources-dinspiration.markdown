@@ -5,7 +5,7 @@ category: design
 tags:
 - video
 - webdesign
-intro: Quelles sont les dernières tendances en matière d'insertion vidéo dans le Webdesign ? Sélection des 30 sites les plus créatifs et les plus surprenants.
+intro: Sélection des 30 sites les plus créatifs et les plus surprenants du moment.
 description: Voici la technique que j'ai employée pour personnaliser l'URL du read more et y insérer un attribut title reprenant le titre de l'article
 image: Summer-wind-reserved-swimwear-collection-2012-img-featured-569x314.png
 image-legende:

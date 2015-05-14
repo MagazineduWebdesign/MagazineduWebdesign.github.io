@@ -15,7 +15,7 @@ viaurl:
 viatitle:
 ---
 
-<p>La puissance du vecteur prend sa source dans son silence, son automatisme et sa capacité à répéter inlassablement la «&nbsp;mème&nbsp;» histoire <img src="http://magazineduwebdesign.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley"> .<span id="more-1492"></span></p>
+<p>La puissance du vecteur prend sa source dans son silence, son automatisme et sa capacité à répéter inlassablement la «&nbsp;mème&nbsp;» histoire</p>
 <p>Dépourvu de son et supportant seulement 256 couleurs, le <strong>GIF</strong> a pourtant accompagné le Net depuis ses débuts. Accroché en arrière plan des premières pages Web ou utilisé en masse par les communautés telles que 4Chan, YTMND, Reddit et bien d’autres, le GIF continue encore aujourd’hui a nous étonner.</p>
 <p>Quelques créatifs du Webdesign explorent sans&nbsp;relâche&nbsp;de nouvelles voies pour mettre en scène le&nbsp;<a title="GIF animé – Anthologie 2013 – vol.1" href="http://magazineduwebdesign.com/gif-anime-anthologie-2013-vol-1"><strong>GIF animé</strong></a>&nbsp;au sein de multiples contextes. Voici quelques exemples de sites Web perpétuant l’artisanat du GIF :</p>
 <h2>The New Web design Guidelines</h2>

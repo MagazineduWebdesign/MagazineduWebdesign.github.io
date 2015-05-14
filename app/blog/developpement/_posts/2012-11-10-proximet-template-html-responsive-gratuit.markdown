@@ -1,11 +1,11 @@
 ---
 title: PROXIMET – Template HTML5 responsive gratuit
 date: 2012-11-10 17:22:56
-category: design
+category: developpement
 tags:
 - responsive
 - templates
-intro: Proximet est un template de site Web responsive réalisé en HTML5 / CSS3 100% gratuit
+intro: Proximet est un template de site Web responsive réalisé en HTML5 - CSS3 100% gratuit
 image: proximetsingle.jpg
 image-legende:
 auteur: MagDuWebdesign

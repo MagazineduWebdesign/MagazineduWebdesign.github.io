@@ -5,7 +5,7 @@ category: wordpress
 tags: 
 - plugin
 - wordpress
-intro: La création de textures vous ennuie au plus haut point ?
+intro: Si la création de textures vous ennuie au plus haut point...
 description: Le plugin Subtle Background Patterns vous permet de donner du caractère à votre thème WordPress avec 300 textures issues de Subtle Patterns.
 image: custom-background-wordpress-texture-plugin-subtle-background-patterns.jpg
 image-legende:

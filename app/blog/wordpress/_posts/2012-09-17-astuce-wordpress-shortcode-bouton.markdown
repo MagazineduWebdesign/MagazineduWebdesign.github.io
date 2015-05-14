@@ -5,7 +5,7 @@ category: wordpress
 tags: 
 - techniques
 - tutoriels  
-intro: Vous avez installé WordPress. Votre thème a été paramétré. Vous éditez vos premières pages et articles, et là, Paf !. Il vous manque la fonctionnalité indispensable pour compléter l'article dont vous rêviez.
+intro: Vous avez installé WordPress. Votre thème a été paramétré. Vous éditez vos premières pages et articles, et là, Paf... Il vous manque la fonctionnalité indispensable pour compléter l'article dont vous rêviez.
 description: L'astuce WordPress du jour qui vous permettra d'agrémenter vos articles d'un bouton entièrement customisable grâce aux shortcodes WordPress.
 image: shortcode-bouton-magazine-du-webdesign.jpg
 image-legende:

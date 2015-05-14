@@ -4,7 +4,7 @@ date: 2012-10-26 17:22:56
 category: wordpress
 tags: 
 - themes 
-intro: Vous avez un nouveau projet dans les cartons ? Vous êtes l'heureux propriétaire du nom de domaine le plus en vue de l'année 2012 ?
+intro: Si vous avez un nouveau projet dans les starting blocks, ces thèmes sont faits pour vous.
 description: Sélection de thèmes WordPress pour vos pages de maintenance et de lancement. Ne cherchez plus, les voici dans cet article.
 image: Our-Website-is-Under-Construction.jpg
 image-legende:

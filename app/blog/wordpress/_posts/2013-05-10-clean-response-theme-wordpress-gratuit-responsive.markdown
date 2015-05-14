@@ -6,7 +6,7 @@ tags:
 - themes
 - wordpress
 intro:
-description: Clean Response - Thème WordPress magazine / blog accompagné d'un slider ou homepage business avec widgets texte. Ce thème RWD est gratuit.
+description: Clean Response - Thème WordPress magazine - blog accompagné d'un slider ou homepage business avec widgets texte. Ce thème RWD est gratuit.
 image: clean-response-theme-wordpress-gratuit-responsive.jpg
 image-legende:
 auteur: MagDuWebdesign

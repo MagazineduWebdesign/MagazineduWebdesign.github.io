@@ -4,7 +4,7 @@ date: 2013-06-10 17:22:56
 category: design
 tags:
 - net-art
-intro: Si vous êtes nostalgique des premiers jeux Nintendo et PC des années 80' qui demandaient beaucoup d'imagination pour obtenir un rendu graphique satisfaisant, alors vous allez adorer cette série de GIFs pixelisés.
+intro: Si vous êtes nostalgique des premiers jeux Nintendo et PC des années 80 qui demandaient beaucoup d'imagination pour obtenir un rendu graphique satisfaisant, alors vous allez adorer cette série de GIFs pixelisés.
 image: tumblr_mnoimaAaDl1rnbw6mo1_r2_400.gif
 image-legende:
 auteur: MagDuWebdesign

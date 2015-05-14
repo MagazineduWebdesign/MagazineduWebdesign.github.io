@@ -1,11 +1,11 @@
 ---
 title: Modifier la couleur par défaut d’un texte sélectionné en CSS3
 date: 2012-09-17 17:22:56
-category: design
+category: developpement
 tags:
 - css3
 - tutoriels
-intro: Comment se distinguer des autres lorsque la concurrence est rude ? L'attention portée à chaque détail. En Web design, ces détails peuvent être la distinction majeure en regard d'un site Web concurrent.
+intro: En Web design, les détails peuvent être la distinction majeure en regard d'un site Web concurrent.
 image: Blog-Web-design-tutorial-et-inspiration-Magazine-du-Webdesign.jpg
 image-legende:
 auteur: MagDuWebdesign

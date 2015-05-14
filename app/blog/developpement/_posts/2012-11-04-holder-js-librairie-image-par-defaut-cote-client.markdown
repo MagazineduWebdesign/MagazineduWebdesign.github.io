@@ -1,7 +1,7 @@
 ---
 title: Holder.js, une librairie d’images par défaut côté client
 date: 2012-11-04 17:22:56
-category: design
+category: developpement
 tags:
 - ressources
 - techniques

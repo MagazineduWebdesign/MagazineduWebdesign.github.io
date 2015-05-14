@@ -1,5 +1,5 @@
 ---
-title: Comment aborder le flat design en 2013 ? 23 exemples à suivre
+title: Comment aborder le flat design en 2013 – 23 exemples à suivre
 date: 2013-01-27 17:22:56
 category: design
 tags:
