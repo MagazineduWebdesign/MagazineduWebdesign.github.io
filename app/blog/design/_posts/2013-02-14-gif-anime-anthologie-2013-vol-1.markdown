@@ -6,7 +6,7 @@ tags:
 - inspiration
 - net-art
 intro:
-image: gif+anime+Stephen+Vuillemin+acevee_case.gif
+image: gif-anthologie-2013-vol1.jpg
 image-legende:
 auteur: MagDuWebdesign
 keyword_title:

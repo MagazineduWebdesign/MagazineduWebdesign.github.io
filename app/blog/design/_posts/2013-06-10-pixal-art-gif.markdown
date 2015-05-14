@@ -5,7 +5,7 @@ category: design
 tags:
 - net-art
 intro: Si vous êtes nostalgique des premiers jeux Nintendo et PC des années 80 qui demandaient beaucoup d'imagination pour obtenir un rendu graphique satisfaisant, alors vous allez adorer cette série de GIFs pixelisés.
-image: tumblr_mnoimaAaDl1rnbw6mo1_r2_400.gif
+image: pixel-art.jpg
 image-legende:
 auteur: MagDuWebdesign
 keyword_title:
@@ -20,7 +20,7 @@ viatitle: visualnews
 <h2>Collection de GIFs pixel art</h2>
 <p><img class="alignnone size-full wp-image-5630" title="Gif pixel art 08" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mo00xncb6E1rnbw6mo1_400.gif" alt="Gif pixel art 08" width="300" height="420"></p>
 <p><img class="alignnone size-full wp-image-5629" title="Gif pixel art 07" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mnw89tMkpR1rnbw6mo1_400.gif" alt="Gif pixel art 07" width="300" height="420"></p>
-<p><img class="alignnone size-full wp-image-5628" title="Gif pixel art 06" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mnoimaAaDl1rnbw6mo1_r2_400.gif" alt="Gif pixel art 06" width="400" height="560"http://www.visualnews.com/2013/05/30/pixelated-gifs-are-out-of-this-world/></p>
+<p><img class="alignnone size-full wp-image-5628" title="Gif pixel art 06" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mnoimaAaDl1rnbw6mo1_r2_400.gif" alt="Gif pixel art 06" width="400" height="560"></p>
 <p><img class="alignnone size-full wp-image-5627" title="Gif pixel art 05" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mnbfddrvl91rnbw6mo1_r5_400.gif" alt="Gif pixel art 05" width="300" height="300"></p>
 <p><img class="alignnone size-full wp-image-5626" title="Gif pixel art 04" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_mmcpp42FQn1rnbw6mo1_400.gif" alt="Gif pixel art 04" width="400" height="400"></p>
 <p><img class="alignnone size-full wp-image-5625" title="Gif pixel art 03" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_ml9qzyASRn1rnbw6mo1_r1_400.gif" alt="Gif pixel art 03" width="400" height="600"></p>
