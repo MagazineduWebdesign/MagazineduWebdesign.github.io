@@ -449,7 +449,6 @@ ul{list-style-position: inside;}
 	-webkit-transition: all .2s cubic-bezier(.42, 0, 1, 1); 
 	-moz-transition: all .2s cubic-bezier(.42, 0, 1, 1); 
 	-webkit-transform: translateZ(0) scale(1,1);
-	border-radius: $global-radius;
 }
 .shadow-img:hover{
 	background-color: rgba($black,.6);
