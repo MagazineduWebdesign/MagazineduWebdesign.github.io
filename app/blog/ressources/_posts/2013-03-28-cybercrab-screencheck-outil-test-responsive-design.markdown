@@ -6,7 +6,7 @@ tags:
 - outils
 - responsive
 intro: Découvrez CyberCrab Screen Check, l'outil pour tester vos designs responsive sur différentes résolutions d'écran.
-image: CyberCrab-Responsive-design-testing-tool-Viewport-Resizer-Device-simulation-tool-Resolution-Tester-Responsive-Screen-Tester-Responsive-Screen-Tester-Screen-Check-Resolution-Tester.png
+image: CyberCrab-Responsive-design.png
 image-legende:
 auteur: MagDuWebdesign
 keyword_title:
