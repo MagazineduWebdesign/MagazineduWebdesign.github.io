@@ -454,9 +454,25 @@ module.exports = function (grunt) {
         },
       },
       dist: {
-        cwd: '<%= yeoman.dist %>/img',
-        src: '**'
-      }
+        files: [{
+          cwd: '<%= yeoman.dist %>',
+          src: [
+            'img/**/*',
+            '!img/sources/**/*',
+            ]
+        }]
+      },
+      //upload the sources/ folder and all its files to a different bucket – Glacier Storage Class
+      glacier: {
+        //override options
+        options: {
+          bucket: 'mdw-img-source'
+        },
+        files: [{
+          cwd: '<%= yeoman.dist %>',
+          src: 'img/sources/**/*'
+        }]
+      },
     }
   });
 
