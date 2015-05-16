@@ -534,6 +534,7 @@ module.exports = function (grunt) {
     'test',
     'build',
     's3:dist',
+    's3:glacier',
     'buildcontrol:dist'
     ]);
 
