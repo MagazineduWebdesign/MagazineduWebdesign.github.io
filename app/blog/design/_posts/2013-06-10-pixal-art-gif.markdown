@@ -5,7 +5,7 @@ category: design
 tags:
 - net-art
 intro: Si vous êtes nostalgique des premiers jeux Nintendo et PC des années 80 qui demandaient beaucoup d'imagination pour obtenir un rendu graphique satisfaisant, alors vous allez adorer cette série de GIFs pixelisés.
-image: pixel-art.jpg
+image: pixel-art.JPG
 image-legende:
 auteur: MagDuWebdesign
 keyword_title:
