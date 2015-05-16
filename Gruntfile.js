@@ -455,10 +455,10 @@ module.exports = function (grunt) {
       },
       dist: {
         files: [{
-          cwd: '<%= yeoman.dist %>',
+          cwd: '<%= yeoman.dist %>/img',
           src: [
-            'img/**/*',
-            '!img/sources/**/*',
+            '**/*',
+            '!sources/**/*',
             ]
         }]
       },
@@ -469,8 +469,8 @@ module.exports = function (grunt) {
           bucket: 'mdw-img-source'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>',
-          src: 'img/sources/**/*'
+          cwd: '<%= yeoman.dist %>/img',
+          src: 'sources/**/*'
         }]
       },
     }
