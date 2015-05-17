@@ -1,7 +1,7 @@
 <section>
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-header">
-      <h1 class="section-carte-header-title">#{{ include.param | replace: '-', '' | capitalize }}</h1>
+      <h1 class="section-carte-header-title">#{{ include.param | upcase }}</h1>
     </div>
   </div>
   <div class="row-liste-index">
@@ -45,7 +45,7 @@
 
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-action">
-      <a href="{{ site.baseurl }}/{{ include.param }}/">TOUS LES ARTICLES {{ include.param | upcase }}</a>
+      <a href="{{ site.baseurl }}/{{ include.param }}/">EXPLORER LES ARTICLES {{ include.param | upcase }}</a>
     </div>
   </div>
 </section>
