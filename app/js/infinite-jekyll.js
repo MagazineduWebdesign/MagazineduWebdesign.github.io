@@ -14,7 +14,31 @@ $(function() {
       switch($('body').find('.current-page').attr('data-page')) {
         
         // categories
-        case 'ux':
+        case 'design':
+          urlJson = '/articles-cat_design.json';
+        break;
+
+        case 'developpement':
+          urlJson = '/articles-cat_developpement.json';
+        break;
+
+        case 'fun':
+          urlJson = '/articles-cat_fun.json';
+        break;
+
+        case 'graphisme':
+          urlJson = '/articles-cat_graphisme.json';
+        break;
+
+        case 'mobile':
+          urlJson = '/articles-cat_mobile.json';
+        break;
+
+        case 'ressources':
+          urlJson = '/articles-cat_ressources.json';
+        break;
+
+        case 'ux-design':
           urlJson = '/articles-cat_ux.json';
         break;
 
@@ -114,7 +138,49 @@ $(function() {
       switch($('body').find('.current-page').attr('data-page')) {
         
         // categories
-        case 'ux':
+        case 'design':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'developpement':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'fun':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'graphisme':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'mobile':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'ressources':
+          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
+          $('.section-carte-index-panel').append(str);
+          break;
+
+        case 'ux-design':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
           str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
