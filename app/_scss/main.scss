@@ -169,14 +169,28 @@ ul{list-style-position: inside;}
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{@include header-liste}
-.header-liste.u-no-padding-bottom{padding-bottom: 0}
+.header-liste.u-no-padding-bottom{padding-bottom: 0;}
+.header-liste.mod-break-edge{padding-bottom: rem-calc(72)}
 	.header-liste-content{@include font-sans-serif-paragraphe; color: $aluminum;}
 	.header-liste-content.u-no-margin-b{@include font-sans-serif-paragraphe; margin-bottom: 0; color: $aluminum;}
 	.header-liste-link a{@include header-liste-link}
 	.header-liste-link a:hover{color:$oil}
+
+@media #{$small-only} {
+	.header-liste.u-no-padding-bottom{padding-bottom: 0}
+}
 .row-liste-index {
   @include grid-row;
   max-width:640px;
+}
+	.row-liste-index-break-edge{
+		@include grid-row;
+		margin-top: rem-calc(-48);
+	}
+	@media #{$small-only} {
+	.row-liste-index-break-edge{
+		margin-top: rem-calc(0);
+	}
 }
 .section-header{
 	padding:0 rem-calc(20);
@@ -186,7 +200,7 @@ ul{list-style-position: inside;}
 	margin-bottom:0;
 	display:inline;
 	font-size:rem-calc(14);
-	color:$jumbo
+	color:$iron;
 }
 .section-carte-panel {
   @include panel;
@@ -262,9 +276,6 @@ ul{list-style-position: inside;}
 	-moz-transition: all .2s cubic-bezier(.42, 0, 1, 1); 
 	-webkit-transform: translateZ(0) scale(1,1);
 }
-.carte-article-secondaire.mod-index-videos{
-	min-height:rem-calc(48);
-}
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
@@ -276,6 +287,8 @@ ul{list-style-position: inside;}
 	margin-bottom:0;
 	border-radius:$global-radius;
 	border-bottom-width: rem-calc(2);
+}
+.carte-article-secondaire.mod-article-thumbnail-1-col{
 	border-top-width: 0;
 }
 .carte-article-secondaire.mod-article-thumbnail-app-icon{
@@ -347,6 +360,7 @@ ul{list-style-position: inside;}
 		height: 0;
 		padding-bottom: 56.2%;
 		border: 1px solid $secondary-color;
+		background-color:$secondary-color;
 	}
 	.carte-article-secondaire-thumbnail.mod-thumbnail-ratio-8-11{
 		padding-bottom: 137.2%;
@@ -1098,26 +1112,6 @@ background-position: center}
 
 // 00. SECTION VIDEO
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.videos-index-video-item{
-	margin-bottom: rem-calc(24);
-}
-	.videos-index-video-thumbnail{
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding-bottom: 56.2%;
-		border-radius: $global-radius;
-		background-size: cover;
-		background-position: center center;
-		border: 1px solid $secondary-color;
-	}
-@media #{$small-only} {
-	.videos-index-video-thumbnail{
-		width: 100%;
-		height: 0;
-		padding-bottom: 56.2%
-	}
-}
 .videos-relatives-container{
 	margin-left: rem-calc(8);
 }

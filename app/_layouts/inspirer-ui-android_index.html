@@ -9,15 +9,15 @@ layout: default
 
 	<!-- list header 
 	================================================== -->
-	<div class="header-liste u-no-padding-bottom">
+	<div class="header-liste mod-break-edge">
 	  <header class="row-liste-index">
 			{% include custom/sections/index-header-intro.html %}
 		</header>
 
 		<!-- list filters
 		================================================== -->
-		<div class="row text-center">
-		  <div class="small-12 columns">
+		<div class="row text-center large-text-left">
+		  <div class="medium-12 large-9 columns">
 
 		  	<!-- desktop list filters 
 				================================================== -->
@@ -88,13 +88,26 @@ layout: default
 				</div>
 
 		  </div>
+		  <div class="large-3 columns text-right show-for-large-up section-header"> 
+		  	<!-- Number of item by index -->
+				{% if page.category == 'ui-android' %}
+					{% for post in site.categories.ui-android %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% else %}
+					{% for post in site.tags[page.tags] %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% endif %}
+		    <span class="section-header-titre">{{ length }} inspirations UI</span>
+		  </div>
 		</div>
 
 	</div>
 	
 	<!-- list subheader
 	================================================== -->
-	<div class="row">
+	<div class="row show-for-small-only">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
 			{% if page.category == 'ui-android' %}
@@ -112,7 +125,7 @@ layout: default
 	
 	<!-- list items
 	================================================== -->
-	<div class="row"> 
+	<div class="row-liste-index-break-edge"> 
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'ui-android' %}current-page{% endif %}">
 

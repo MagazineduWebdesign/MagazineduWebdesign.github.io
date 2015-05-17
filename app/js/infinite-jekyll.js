@@ -196,20 +196,23 @@ $(function() {
 
         // videos
         case 'videos':
-          str+='<li>';
-          str+='<article class="videos-index-video-item js-postcount" itemscope="" itemtype="http://schema.org/Article"><div class="row"><div class="small-12 columns">';
+          str+='<li><article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>';
           // video-thumbnail
-          str+='<div class="videos-index-video-thumbnail" style="background-image: url('+$(data).find('.figure-video').attr('data-is-video')+');">';
-          str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
-          str+='<div class="gradient-shadow-img">';
-          str+='<svg class="gradient-shadow-img-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
-          str+='</div></a></div></div></div>';
+          str+='<div class="row collapse">';
+            str+='<div class="small-12 columns carte-article-secondaire-thumbnail" style="background-image: url('+$(data).find('.figure-video').attr('data-is-video')+');">';
+              str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
+                str+='<div class="gradient-shadow-img">';
+                  str+='<svg class="gradient-shadow-img-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
+                str+='</div>';
+              str+='</a>';
+            str+='</div>';
+          str+='</div>';
           // video-title
           str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
-          str+='<div class="carte-article-secondaire mod-index-videos row collapse"><div class="small-12 columns">';
+          str+='<div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse"><div class="small-12 columns">';
           str+='<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">'+$(data).find('.header-liste-headline').html()+'</h1>';
           str+='</div></div></a></article></li>';
-          $('.videos-index-container').append(str);
+          $('.small-block-grid-1').append(str);
           break;
 
         // divers

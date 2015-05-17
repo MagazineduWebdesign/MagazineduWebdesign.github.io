@@ -9,15 +9,15 @@ layout: default
 
 	<!-- list header 
 	================================================== -->
-	<div class="header-liste u-no-padding-bottom">
+	<div class="header-liste mod-break-edge">
 	  <header class="row-liste-index">
 			{% include custom/sections/index-header-intro.html %}
 		</header>
 
 		<!-- list filters
 		================================================== -->
-		<div class="row text-center">
-		  <div class="small-12 columns">
+		<div class="row text-center large-text-left"> 
+		  <div class="medium-12 large-9 columns">
 
 		  	<!-- desktop list filters 
 				================================================== -->
@@ -118,13 +118,20 @@ layout: default
 				</div>
 
 		  </div>
+		  <div class="large-3 columns text-right show-for-large-up section-header"> 
+		  	<!-- Number of item by index -->
+				{% for post in site.tags[page.tags] %}
+			    {% capture length %}{{ forloop.length }}{% endcapture %}
+			  {% endfor %}
+		    <span class="section-header-titre">{{ length }} scénarios pour ce parcours</span>
+		  </div>
 		</div>
 
 	</div>
 
-	<!-- list items by tags
+	<!-- list subheader
 	================================================== -->
-	<div class="row">
+	<div class="row show-for-small-only">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
 			{% for post in site.tags[page.tags] %}
@@ -134,7 +141,9 @@ layout: default
 	  </div>
 	</div>
 
-	<div class="row">
+	<!-- list items by tags
+	================================================== -->
+	<div class="row-liste-index-break-edge">
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
