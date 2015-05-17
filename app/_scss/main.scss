@@ -631,6 +631,20 @@ background-position: center}
 .figure-img.mod-article-couverture-livre{margin: 0 0 rem-calc(24)}
 .figure-img.mod-note-img{margin: 0 rem-calc(-24) 0}
 .figure-img.mod-app-screenshot{border: 1px solid $secondary-color;}
+figcaption{
+	@include font-serif-paragraphe;
+	min-height:rem-calc(48);
+	font-size:rem-calc(14);
+	line-height:rem-calc(20);
+	padding:rem-calc(12) rem-calc(16) 0;
+	font-style:italic;color:$aluminum;
+}
+@media #{$medium-up} {
+	figcaption{
+		line-height:rem-calc(48);
+		padding:rem-calc(0) rem-calc(24) 0;
+	}
+}
 @media #{$small-only} {
 	.figure-img.mod-note-img {margin: 0 rem-calc(-16) 0;}
 }
@@ -762,14 +776,10 @@ background-position: center}
 	font-weight:$font-weight-bold
 }
 .note h1:hover{color:$jet}
-.note-figcaption, .note p, .note blockquote{@include font-serif-paragraphe}
+.note p, .note blockquote{@include font-serif-paragraphe}
 .note-flex-video{@include flex-video-container();margin-bottom:0}
 .note-container-img{
 	width: 100%;max-width: 100%
-}
-.note-figcaption{min-height:rem-calc(48);font-size:rem-calc(14);line-height:rem-calc(20);padding:rem-calc(12) rem-calc(16) 0;font-style:italic;color:$aluminum}
-@media #{$medium-up} {
-	.note-figcaption{line-height:rem-calc(48);padding:rem-calc(0) rem-calc(24) 0;}
 }
 
 // 00. SECTION TWITTER
