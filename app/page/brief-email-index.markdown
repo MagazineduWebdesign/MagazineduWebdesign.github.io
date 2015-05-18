@@ -1,8 +1,8 @@
 ---
 layout: brief-emails_index
-title: Le Brief – Le meilleur des interfaces chaque jour par email
-description: Rejoignez 10 000+ designers et développeurs à la recherche des dernières nouveautés en webdesign.
-intro:  Rejoignez 10 000+ designers et développeurs à la recherche des dernières nouveautés en webdesign.
-text-twtr : Le Brief – Le meilleur des interfaces chaque jour par email.
+title: Le Brief du Web design – Le meilleur des interfaces par email
+description: Collection organisée d'articles, de conseils et de ressources liés au design interactif délivrée par email.
+intro: Collection organisée d'articles, de conseils et de ressources liés au design interactif, délivrée par email presque chaque jour.
+text-twtr : Le Brief – Le meilleur des interfaces, délivré par email presque chaque jour.
 permalink: /le-brief-du-magazine-du-webdesign/ 
 ---

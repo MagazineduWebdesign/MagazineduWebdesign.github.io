@@ -2,7 +2,7 @@
 layout: note_index
 title: Le Brief du Magazine
 permalink: /notes/
-intro: Les meilleurs actus, lectures, showcases et ressources du jour pour les webdesigners et les développeurs.
+intro: Collection organisée d'articles, de conseils et de ressources liés au design d'interfaces pour les webdesigners et les developpeurs.
 bgimgheader: true
 text-twtr: Test
 ---

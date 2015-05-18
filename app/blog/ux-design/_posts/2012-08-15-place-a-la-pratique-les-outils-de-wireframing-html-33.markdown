@@ -32,14 +32,14 @@ viatitle:
 <h2>Présentation d’outils identifiés, et testés !</h2>
 <h3>Les frameworks testés</h3>
 <p><a title="Framework foundation" href="http://foundation.zurb.com/" target="_blank">Foundation</a></p>
-<p><img class="alignnone size-full wp-image-666" title="Foundation Rapid Prototyping" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Foundation-+Rapid+Prototyping.jpg" alt="Foundation Rapid Prototyping" width="555" height="290"></p>
+<p><img class="alignnone size-full wp-image-666" title="Foundation Rapid Prototyping" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Foundation-Rapid-Prototyping.jpg" alt="Foundation Rapid Prototyping" width="555" height="290"></p>
 <p>Un <strong>framework front-end responsive</strong> développé par la <a title="Société Zurb" href="http://www.zurb.com/" target="_blank">société Zurb</a>.<br>
 Son plus : il&nbsp;permet de développer très facilement des <span style="text-decoration: line-through;">prototypes</span> <strong>wireframes d’applications Web</strong> multi-supports. Via une bibliothèque de styles et d’éléments tels que des barres de navigation, des slideshows, des formulaires…</p>
 <p><strong>Foundation</strong> autorise la <strong>conception de wireframes fonctionnels</strong> entièrement <strong>customisables. </strong>A insérer&nbsp;directement en phase de production.<br>
 En le couplant par exemple à un <strong>environnement WordPress</strong>, cet outil basé sur un <strong>code solide et propre</strong>&nbsp;(de nombreux navigateurs sont compatibles)&nbsp;peut représenter un important gain de temps (non négligeable) entre la phase de conception et celle de développement.</p>
 <p>Preuve en images. Les deux exemples ci-dessous ont été développés via&nbsp;<strong>Foundation</strong>:</p>
 <p><a title="unu.edu" href="http://unu.edu/" target="_blank">unu.edu</a></p>
-<p><img class="alignnone size-full wp-image-668" title="United Nations University" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/United+Nations+University.jpg" alt="United Nations University" width="555" height="290"><br>
+<p><img class="alignnone size-full wp-image-668" title="United Nations University" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/United-Nations-University.jpg" alt="United Nations University" width="555" height="290"><br>
 <a title="flite.com" href="http://www.flite.com/" target="_blank">flite.com</a></p>
 <p><img class="alignnone size-full wp-image-669" title="Flite — Ad Innovation at Scale" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Flite-—-Ad-Innovation-at-Scale.jpg" alt="Flite — Ad Innovation at Scale" width="555" height="290"></p>
 <p>Un autre framework testé ces jours-ci :&nbsp;<a title="Wirefy" href="http://cjdsie.github.com/wirefy/#whatAndWhy" target="_blank">Wirefy</a></p>
