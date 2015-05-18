@@ -1,5 +1,5 @@
 ---
-title: @fltdsgn – une galerie d’inspiration flat design
+title: Fltdsgn – une galerie d’inspiration flat design
 date: 2013-03-30 17:22:56
 category: design
 tags:
