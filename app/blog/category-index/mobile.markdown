@@ -1,8 +1,8 @@
 ---
 layout: category_index
 title: Mobile
-category: design
+category: mobile
 permalink: /mobile/
-intro: Des articles et des showcases concernant le design mobile.
+intro: Une collection sur l'unviers du design mobile – responsive, ressources, showcases et techniques.
 text-twtr: En train d'explorer les articles design mobile — @MagDuWebdesign
 ---
