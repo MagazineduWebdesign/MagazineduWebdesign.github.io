@@ -1,11 +1,10 @@
 ---
-title: Prototype d’un wireframe codé pléonasme – 2
+title: Prototype d’un wireframe codé – pléonasme – 2
 date: 2012-08-13 17:23:56
 category: ux-design
 tags: 
 - wireframing
-intro: Après avoir vu en détails quels étaient les objectifs du wireframing, place au 
-débat. Peut-on dire que les wireframes et les prototypes sont deux étapes distinctes dans le processus d’un projet Web ? Faites-vous une idée.
+intro: Une controverse agite la communauté des architectes de l’information et les concepteurs UX. L’objet du délit ? Savoir si un wireframe HTML n’est autre que la création d’un prototype fonctionnel et codé. Autrement dit, est-ce que les deux concepts renvoient à la même chose ? ou sont-ils radicalement différents ?
 description:
 image: le-jugement-de-paris-de-peter-paul-rubens.jpg
 image-legende:
@@ -19,9 +18,8 @@ reference-02-title:
 reference-02-url:
 viaurl:
 viatitle:
---- 
+---
 
-<p>Une controverse agite la communauté des <strong>architectes de l’information</strong> et les<strong> concepteurs UX</strong>. L’objet du délit ? Savoir si un&nbsp;<strong>wireframe HTML</strong> n’est autre que la création d’un <a title="Wireframe Windows 8 – Templates gratuits PowerPoint" href="http://magazineduwebdesign.com/windows-8-wireframe"><strong>prototype fonctionnel</strong></a> et <strong>codé</strong>. Autrement dit, est-ce que les deux concepts renvoient à la même chose ? ou sont-ils radicalement différents ?</p>
 <h2>La lutte prend place sur le terrain lexical et sémantique</h2>
 <p><strong></strong>Une seule question crée le débat : peut-on dire que les <strong>wireframes</strong> et les <strong>prototypes</strong> sont deux étapes distinctes dans le processus d’un <strong>projet Web</strong>&nbsp;avec des objectifs clairement différents ?</p>
 <p>Certains, ceux qui répondent «&nbsp;oui&nbsp;», vous diront que les <strong>wireframes</strong> sont au service de <strong>l’architecture de l’information</strong> tandis que les <strong>prototypes</strong> sont eux au service de <strong>l’interaction</strong>. En gros, ils sont radicalement différents.</p>
