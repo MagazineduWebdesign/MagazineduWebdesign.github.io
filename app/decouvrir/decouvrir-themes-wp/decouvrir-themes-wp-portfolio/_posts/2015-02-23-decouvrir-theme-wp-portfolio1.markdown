@@ -16,6 +16,7 @@ url-buy: http://www.themezilla.com/themes/sparks/
 url-demo: http://demo.themezilla.com/?theme=sparks
 description: blablabla
 ---
+Vous trouverez ci-dessous les principales caractéristiques transmises par le fondeur.
 
 ##Features
 - Full screen responsive slider
