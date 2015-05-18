@@ -1,6 +1,6 @@
 ---
 title: Wireframe codé, l’HTML au service de l’expérience utilisateur – 1
-date: 2012-08-13 17:22:56
+date: 2012-08-12 17:22:56
 category: ux-design
 tags: 
 - wireframing

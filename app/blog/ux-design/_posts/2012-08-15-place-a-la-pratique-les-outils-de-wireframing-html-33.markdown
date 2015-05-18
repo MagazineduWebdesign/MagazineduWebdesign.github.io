@@ -1,6 +1,6 @@
 ---
 title: Place à la pratique, les outils de wireframing HTML – 3
-date: 2012-08-15 17:22:56
+date: 2012-08-15 17:29:56
 category: ux-design
 tags: 
 - wireframing
