@@ -1105,9 +1105,23 @@ background-position: center}
 // offres in article
 .job--in-article{padding-top:rem-calc(24)}
 .job--in-article.mod-job-in-article-first-position{padding-top:rem-calc(0)}
-.job--in-article h1{margin-bottom:rem-calc(8);font-size:rem-calc(12);font-weight:$font-weight-bold;color:$aluminum}
-.job--in-article p{margin-bottom:rem-calc(8)}
-.job--in-article-to-board{color:$tuatara}
+.job--in-article-title{
+	margin-bottom: rem-calc(8);
+	font-size:rem-calc(14);
+	font-weight:$font-weight-bold;
+	color:$aluminum}
+.job--in-article-offer-title{
+	margin-bottom: rem-calc(8);
+	font-size:rem-calc(14);
+}
+.job--in-article-content{
+	font-size:rem-calc(14);
+}
+.job--in-article-button-outline{
+	  @include button($padding: $button-sml,$bg: false,$radius: true);
+	  border-width: 1px; 
+}
+.job--in-article-to-board{color:$tuatara; border-bottom: rem-calc(1) dotted;}
 
 // 00. SECTION VIDEO
 // - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -1,15 +1,15 @@
 <aside class="job--in-article mod-job-in-article-first-position">
 {% if site.offre-emploi %}
-  <h1>AU TRAVAIL, NERD !</h1>
+  <h1 class="job--in-article-title">Au travail, Nerd !</h1>
   {% assign offres = site.offre-emploi | reverse %}
   {% for offre in offres limit: 2 %}
-    <p><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+    <p class="job--in-article-offer-title"><a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
       {{ offre.entreprise }} recrute un {{ offre.fonction }} en {{ offre.type }} à {{ offre.lieu }}
     </a></p>
   {% endfor %}
-  <p>via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
+  <p class="job--in-article-content">via le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a></p>
 {% else %}
-  <h1>AU TRAVAIL, NERD !</h1>
-  <p>Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
+  <h1 class="job--in-article-title">Au travail, Nerd !</h1>
+  <p class="job--in-article-content">Vous cherchez du travail ? Explorez le <a class="job--in-article-to-board" href="/emploi/" title="Explorez la section emploi">Job Board du MDW</a>.</p>
 {% endif %}
 </aside>
