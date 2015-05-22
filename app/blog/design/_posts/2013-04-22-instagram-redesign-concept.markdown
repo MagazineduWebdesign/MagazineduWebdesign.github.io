@@ -11,8 +11,8 @@ image-legende:
 auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
-viaurl:
-viatitle:
+viaurl: http://www.coalesceideas.com/instagram-redesign-concept/
+viatitle: coalesceideas.com
 ---
 
 <p>Son concept baptisé <strong>Instagram Redesign Concept</strong> propose une interface graphique épurée avec un relooking du logo et des icônes. Les interactions ont été revues afin d’offrir davantage de liberté aux utilisateurs concernant la manière de consommer les contenus.<span id="more-4854"></span></p>
@@ -23,4 +23,3 @@ viatitle:
 <p><img class="alignnone size-full wp-image-4865" title="Instagram Redesign Concept-5" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Instagram-Redesign-Concept-5.jpg" alt="Instagram Redesign Concept-5" width="555" height="1211"></p>
 <p><img class="alignnone size-full wp-image-4866" title="Instagram Redesign Concept-6" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Instagram-Redesign-Concept-6.jpg" alt="Instagram Redesign Concept-6" width="555" height="1087"></p>
 <p>Consultez l’ensemble des visuels sur son profil <a title="Shadman Ahmed" href="http://www.behance.net/gallery/Instagram-Redesign-Concept/8100297" target="_blank">Behance</a>. Le redesign des pages Google+ est disponible dans sa galerie de projets.</p>
-<p>[<a title="coalesceideas.com - instagram redesign concept" href="http://www.coalesceideas.com/instagram-redesign-concept/" target="_blank">Source</a>]</p>
