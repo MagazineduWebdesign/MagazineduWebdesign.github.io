@@ -807,6 +807,9 @@ figcaption{
   font-weight:$font-weight-bold
 }
 .panel-twitter a:hover {color:scale-color($white, $lightness: -16%)}
+.index-wide-carte-twitter{
+	margin-top: rem-calc(24);
+}
 @media #{$small-only} {
 	.carte-twtr-text{
 		display:block;
@@ -1013,6 +1016,15 @@ main.column-body-article h2, main.column-body-article h3,{
 .reveal-modal input{
 	margin-bottom:1rem
 }
+.index-note-carte-newsletter{
+	margin-top: rem-calc(48);
+}
+.index-wide-carte-newsletter{
+	margin-top: rem-calc(24);
+}
+	.section-carte-newsletter-description{
+		line-height: rem-calc(36);
+	}
 @media #{$small-only}{
 	.section-carte-newsletter input{
 		margin-bottom:rem-calc(16)
