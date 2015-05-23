@@ -29,7 +29,7 @@ by: metalab
 by-url: http://twitter.com/guillaumpalayer/
 url-demo: http://magazineduwebdesign.com
 image: air.jpg
-image-2: air.jpg
+image-2: 06-G-Fore-Golf-Gloves.jpg
 intro: Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station.
 description: blablabla 
 ---
