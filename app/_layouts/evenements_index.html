@@ -140,7 +140,6 @@ layout: default
 		          </article>
 		        </a>
 					{% endfor %}
-					{% include custom/cartes/cartenl.html %}
 				{% else %}
 					<p>Il n'y a pas d'item pour ce tag.</p>
 				{% endif %}
@@ -167,14 +166,14 @@ layout: default
 			          </article>
 			        </a>
 						{% endfor %}
-						{% include custom/cartes/cartenl.html %}
-					{% else %} 
+					{% else %}
 						<p>Il n'y a pas d'item pour ce tag.</p>
 					{% endif %}
 				{% endif %}
 		
 		  </main>
 		</div>
+		{% include custom/cartes/cartenl.html %}
   </div>
 
 	<div class="infinite-spinner"></div>
