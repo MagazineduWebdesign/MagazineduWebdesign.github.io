@@ -350,7 +350,9 @@ module.exports = function (grunt) {
             '_bower_components/foundation/js/foundation/foundation.reveal.js',
             '_bower_components/foundation/js/foundation/foundation.topbar.js',
             '_bower_components/swiper/dist/js/swiper.jquery.min.js',
-            '_bower_components/swiper/dist/css/swiper.min.css'
+            '_bower_components/swiper/dist/css/swiper.min.css',
+            '/_bower_components/fluidbox/jquery.fluidbox.min.js',
+            '/_bower_components/fluidbox/css/fluidbox.css'
             //'favicon.ico',
             //'apple-touch*.png'
           ],

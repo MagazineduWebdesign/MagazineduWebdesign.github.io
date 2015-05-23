@@ -11,6 +11,12 @@ $(document).foundation({
 	}
 });
 $('#header').headroom();
+
+$(function () {
+  $('.gallery a[rel="lightbox"]').fluidbox({
+      stackIndex: 100
+  });
+})
 $(document).ready(function () {
   //initialize swiper when document ready  
   var mySwiper = new Swiper ('.swiper-container', {

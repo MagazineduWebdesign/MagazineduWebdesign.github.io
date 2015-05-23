@@ -553,6 +553,10 @@ $linkedin:#0077B5;
 	width:24px
 }
 
+//Fluidbox 1.4.3 – fix issue with transition animation
+.fluidbox-ghost{
+	transition: all .25s ease-in-out;
+}
 //partage
 .partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 .partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
@@ -661,6 +665,7 @@ background-position: center}
 
 //img
 .figure-img{margin: 0}
+.figure-img.mod-inspiration-article-gallery{margin: 0 0 rem-calc(24)}
 .figure-img.mod-article-couverture-livre{margin: 0 0 rem-calc(24)}
 .figure-img.mod-note-img{margin: 0 rem-calc(-24) 0}
 .figure-img.mod-app-screenshot{border: 1px solid $secondary-color;}
