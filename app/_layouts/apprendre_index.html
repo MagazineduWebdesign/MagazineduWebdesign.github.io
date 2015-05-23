@@ -14,6 +14,7 @@ layout: default
 	
 	{% include custom/cartes/carte_items-no-thn.html param="guides" %}
 	{% include custom/cartes/carte_items-no-thn.html param="guides" %}
+	{% include custom/cartes/carte_nl-index-large.html %}
 	{% include custom/cartes/carte_items-thn-ratio-8-11.html param="livres" %}
 	{% for post in site.categories.citations limit:1 %}
 		<div class="index-apprendre-quote {{ post.bg-color }}">
@@ -39,13 +40,14 @@ layout: default
 		</div>
 	{% endfor %}
 	{% include custom/cartes/carte_items-no-thn.html param="guides" %}
+	{% include custom/cartes/carte_twtr_index-large.html %}
 
 	<!-- list all section's categories
 	================================================== -->
 	<section>
 		<div class="row">
 		  <div class="small-12 columns section-carte-header-no-bg">
-		    <h1 class="section-carte-header-title-big text-center">Continuez votre exploration</h1>
+		    <h1 class="section-carte-header-title-big text-center">Développez votre talent en explorant ces collections</h1>
 		  </div>
 		</div>
 
