@@ -271,7 +271,7 @@ layout: default
 	            {% endif %}
 
 	            <a href="{{ post.url | prepend: site.baseurl }}">
-		            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse">
+		            <div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse"> 
 		              <div class="small-12 columns">
 		              	<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title | truncate: 20 }}</h1>
 		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
@@ -281,6 +281,7 @@ layout: default
 	          </article>
 					</li>
 					{% endfor %}
+					<li>{% include custom/cartes/carte_nl-in-thn-grid-index.html %}</li>
 				</ul>
 				{% else %}
 					<p>Il n'y a pas d'articles pour ce tag.</p>
@@ -322,6 +323,7 @@ layout: default
 	          </article>
 					</li>
 					{% endfor %}
+					<li>{% include custom/cartes/carte_nl-in-thn-grid-index.html %}</li>
 				</ul>
 				{% else %}
 					<p>Il n'y a pas d'articles pour ce tag.</p>
