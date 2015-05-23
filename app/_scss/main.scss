@@ -810,12 +810,20 @@ figcaption{
 .index-wide-carte-twitter{
 	margin-top: rem-calc(24);
 }
-@media #{$small-only} {
 	.carte-twtr-text{
-		display:block;
-		margin-bottom:$rem-base
+		margin-bottom: 0;
+		line-height: rem-calc(24);
 	}
-}
+	@media #{$small-only} {
+		.carte-twtr-text{
+			margin-bottom:$rem-base;
+		}
+	}
+	@media #{$large-up} {
+		.carte-twtr-text{ 
+			line-height: rem-calc(36);
+		}
+	}
 
 // 00. SECTION CATEGORIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1001,18 +1009,28 @@ main.column-body-article h2, main.column-body-article h3,{
 	padding:rem-calc(24);
 }
 .section-carte-newsletter.is-header-liste{margin-bottom:0}
-.section-carte-newsletter h1{
-	margin-bottom:rem-calc(24);
-	font-size: $h2-font-size;
-}
-.section-carte-newsletter input, .reveal-modal input{
-	margin-bottom:0;
-	border-bottom:1px solid $secondary-color;
-	border-top:0;
-	border-left:0;
-	border-right:0;
-	box-shadow:0 0 0
-}
+	.section-carte-newsletter h1{
+		margin-bottom:rem-calc(24);
+		font-size: $h2-font-size;
+	}
+	.section-carte-newsletter input, .reveal-modal input{
+		margin-bottom:0;
+		border-bottom:1px solid $secondary-color;
+		border-top:0;
+		border-left:0;
+		border-right:0;
+		box-shadow:0 0 0
+	}
+	.section-carte-newsletter-description{
+		margin-bottom: $rem-base;
+		line-height: rem-calc(24);
+	}
+	@media #{$large-up}{
+		.section-carte-newsletter-description{
+			margin-bottom: 0;
+			line-height: rem-calc(36);
+		}
+	}
 .reveal-modal input{
 	margin-bottom:1rem
 }
@@ -1022,9 +1040,6 @@ main.column-body-article h2, main.column-body-article h3,{
 .index-wide-carte-newsletter{
 	margin-top: rem-calc(24);
 }
-	.section-carte-newsletter-description{
-		line-height: rem-calc(36);
-	}
 @media #{$small-only}{
 	.section-carte-newsletter input{
 		margin-bottom:rem-calc(16)
