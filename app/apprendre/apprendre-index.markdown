@@ -2,7 +2,7 @@
 layout: apprendre_index
 title: Apprendre
 permalink: /apprendre/
-intro: Vous connaissez le syndrome de l'imposteur ? Un sentiment tenace comme quoi les pros qui vous entourent en savent plus que vous ! Dans la majorité des cas, ils en savent autant que vous, mais pas forcément sur les mêmes sujets. La communication est la meilleure arme contre ce sentiment. Je partage donc avec vous ma compilation d'ouvrages sur les thématiques du design, de l'expérience utilisateur, de l'architecture et de tous les pans de connaissances permettant de former un esprit âpte à concevoir des expériences claires et utiles.
+intro: Une collection de livres, de guides &amp; de citations qui vous permettra d'optimiser le design, le code et l'accompagnement des produits &amp; services que vous développer au quotidien. "Quels intérêts ?" me direz vous, "c'est chiant les bouquins...". Ok. Néanmoins, il s'agit du meilleur moyen pour lutter contre le syndrome de l'imposteur. Ce sentiment tenace comme quoi les pros qui vous entourent en savent plus que vous. Dans la majorité des cas, ils en savent autant que vous, mais pas forcément sur les mêmes sujets. Alors lisez et surtout partagez ce que vous apprenez.
 bgimgheader: true
-text-twtr: En train d'explorer la sélection de ressources webdesign et développement Web du @MagDuWebdesign
+text-twtr: En train d'explorer la collection de livres & de guides du @MagDuWebdesign
 ---

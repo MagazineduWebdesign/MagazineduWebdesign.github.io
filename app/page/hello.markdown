@@ -2,7 +2,7 @@
 layout: page-1-column
 title: Hello
 description: Faisons quelque chose ensemble
-intro: Tu as des projets pour nous deux. Faisons quelque chose ensemble !
+intro: Vous avez des projets ? Faisons quelque chose ensemble !
 permalink: /hello/
 ---
 
