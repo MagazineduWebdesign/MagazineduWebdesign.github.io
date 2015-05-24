@@ -6914,7 +6914,7 @@ Pour en savoir plus sur l’accessibilité Web, consultez le site de l’&lt;a h
 &lt;h2&gt;Les nouveautés apportées par Foundation 3.1&lt;/h2&gt;
 &lt;p&gt;Les évolutions ne sont pas majeures mais quelques nouveautés sont à retenir tels que l’intégration des add-ons, des nouveaux éléments d’interface et les templates HTML. La mise à jour comprend :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Des modèles de pages HTML à télécharger, disponibles dans l’interface de customisation du site Web de Foundation.&lt;img class=&quot;alignnone size-full wp-image-1060&quot; title=&quot;Foundation--HTML-Templates&quot; src=&quot;http://magazineduwebdesign.com/wp-content/uploads/2012/09/Foundation-HTML-Templates.jpg&quot; alt=&quot;Foundation--HTML-Templates&quot; width=&quot;555&quot; height=&quot;346&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Des modèles de pages HTML à télécharger, disponibles dans l’interface de customisation du site Web de Foundation.&lt;img class=&quot;alignnone size-full wp-image-1060&quot; title=&quot;Foundation--HTML-Templates&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Foundation-HTML-Templates.jpg&quot; alt=&quot;Foundation--HTML-Templates&quot; width=&quot;555&quot; height=&quot;346&quot; /&gt;&lt;/li&gt;
 &lt;li&gt;Des add-ons : modèles de pages HTML, polices, tableaux responsives, icônes sociales en SVG, éléments OmniGraffle.&lt;/li&gt;
 &lt;li&gt;Foundation&amp;nbsp;inclut&amp;nbsp;désormais une barre de navigation responsive vous permettant de contrôler plus facilement son intégration dans un environnement mobile et l’emplacement des items du menu.&lt;/li&gt;
 &lt;li&gt;Support des langues écrites à partir de la droite vers la gauche.&lt;/li&gt;
