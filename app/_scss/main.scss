@@ -380,10 +380,9 @@ $linkedin:#0077B5;
 		border-bottom: 0;
 	}
 	.carte-article-secondaire-thumbnail.mod-thumbnail-action-white-newsletter{
-		padding-top: 21.2%;
+		padding-top: 20.7%;
 		padding-bottom: 36%;
 		background-color:$white;
-		border-top: 0;
 		border-bottom: 0;
 	}
 	@media #{$small-only} {
@@ -826,8 +825,8 @@ figcaption{
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .panel-twitter {
 	@include panel($bg:$twitter,$adjust:true);
-	border-bottom-width:rem-calc(2);
-	border-top-width:0
+	border: 0;
+	border-radius: $global-radius;
 }
 .panel-twitter a {
   color:$white;
