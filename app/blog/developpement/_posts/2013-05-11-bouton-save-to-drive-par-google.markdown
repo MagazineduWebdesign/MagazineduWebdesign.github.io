@@ -11,8 +11,8 @@ image-legende:
 auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
-viaurl:
-viatitle:
+viaurl: http://thenextweb.com/google/2013/05/09/google-launches-a-one-click-button-to-save-files-on-the-web-to-google-drive/
+viatitle: thenextweb
 ---
 
 <p>La fonctionnalité est disponible dès à présent, vous pouvez donc l’implémenter sur votre site en quelques lignes de codes.</p>
@@ -26,4 +26,3 @@ viatitle:
 <p>Avec cette fonctionnalité, Google tente de <a title="Archives pour Expérience utilisateur sur MDW" href="http://magazineduwebdesign.com/ux-design/">simplifier l’expérience utilisateur</a> en évitant à l’internaute de devoir effectuer un clic droit pour sauvegarder un document Web en local. En un seul clic, l’utilisateur archive directement le document sur son compte Google Drive.</p>
 <p>Pour l’utilisabilité des sites Web proposant des PDFs, des vidéos ou des images en téléchargement direct, ce bouton peut avoir un certain intérêt.</p>
 <p><strong>Consultez également</strong>&nbsp;:&nbsp;<a title="Plugin de sauvegarde automatique de données WordPress vers Google Drive" href="http://magazineduwebdesign.com/sauvegarde-automatique-wordpress-google-drive">Backup WordPress vers Google Drive</a>.</p>
-<p>[<a href="http://thenextweb.com/google/2013/05/09/google-launches-a-one-click-button-to-save-files-on-the-web-to-google-drive/" target="_blank">Source</a>]</p>
