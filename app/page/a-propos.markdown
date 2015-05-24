@@ -1,11 +1,8 @@
 ---
 layout: page
-title: A propos
-description: Notre objectif est de créer une synergie de partage et d’apprentissage pour la communauté francophone de designers et de développeurs Web.
-intro: Le Magazine du Webdesign explore et partage les dernières innovations en Webdesign et en développement Web.
+title: Magazine du Webdesign
+description: Le meilleur des interfaces, chaque jour.
+intro: Le meilleur des interfaces, chaque jour.
 permalink: /a-propos/
 ---
-Nous sommes passionnés par le design, le code et tout ce qui s’y rattache.
-Notre objectif ? Faire de MDW une vitrine de ces passions avec des articles de qualité, pour créer une synergie de partage et d’apprentissage pour la communauté francophone de designers et de développeurs Web.
-
-Bonne visite !
+Une collection d'articles, d'inspirations, d'outils & de ressources pour une communauté de 10 000+ passionnés s'efforçant de designer et de développer des produits & services enrichissant la vie de milliards de personnes. Good design matters.
