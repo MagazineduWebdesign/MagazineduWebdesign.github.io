@@ -50,7 +50,6 @@
 // 01. TOP BAR
 // 02. SECTION BRIEF
 // 02. SECTION TWITTER
-// 02. SECTION HERO
 // 02. SECTION CATEGORIE
 // 02. SECTION ARTICLE BLOG + PAGE EDITORIALE
 // 00. SECTION REFERENCES ARTICLE
@@ -122,6 +121,9 @@ $twitter:#00ACED;
 $facebook:#3B5998;
 $googleplus:#CC3732;
 $linkedin:#0077B5;
+.text-black{
+	color: $tuatara;
+}
 // color gradient (via the awesome tool http://uigradients.com/)
 .cherry{background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%);}
 .kashmir{background: linear-gradient(90deg, #614385 10%, #516395 90%);}
@@ -836,8 +838,12 @@ figcaption{
 	margin-top: rem-calc(24);
 }
 	.carte-twtr-text{
+		font-family:$font-family-sans-serif!important;
+		font-size:rem-calc(16)!important;
 		margin-bottom: 0;
-		line-height: rem-calc(24);
+	}
+	.carte-twtr-text.mod-carte-twtr-in-post{
+		line-height:rem-calc(24)!important;
 	}
 	@media #{$small-only} {
 		.carte-twtr-text{
@@ -1049,6 +1055,11 @@ main.column-body-article h2, main.column-body-article h3,{
 	.section-carte-newsletter-description{
 		margin-bottom: $rem-base;
 		line-height: rem-calc(24);
+	}
+	.section-carte-newsletter-description.mod-carte-nl-in-post{
+		font-family:$font-family-sans-serif!important;
+		font-size:rem-calc(16)!important;
+		margin-bottom: $rem-base;
 	}
 	@media #{$large-up}{
 		.section-carte-newsletter-description{
