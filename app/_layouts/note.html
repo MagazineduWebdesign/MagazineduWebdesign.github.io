@@ -80,8 +80,10 @@ layout: default
         {% if page.image %}
         <div class="row collapse">
           <div class="small-12 columns">
-            <figure class="figure-img mod-note-img">
-              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+            <figure class="gallery figure-img mod-note-img">
+              <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
+                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+              </a>
               {% if page.image-legende %}
               <div class="row collapse">
                 <div class="small-12 columns">
@@ -149,4 +151,5 @@ layout: default
       <a href="{{site.baseurl}}/notes/">EXPLOREZ LE BRIEF DU JOUR</a>
     </div>
   </div>
+  {% include custom/cartes/cartenl.html %}
 </section>
