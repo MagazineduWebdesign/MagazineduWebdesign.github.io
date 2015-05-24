@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<!--
+o o     o     +              o
++   +     +             o     +       +
+            +
+o  +    +        o  +           +        +
+  __  __                   _                            
+ |  \/  |__ _ __ _ __ _ __(_)_ _  ___                   
+ | |\/| / _` / _` / _` |_ / | ' \/ -_)                  
+ |_|  |_\__,_\__, \__,_/__|_|_||_\___|                  
+     _       |___/   __   _        _        _           
+  __| |_  _  \ \    / /__| |__  __| |___ __(_)__ _ _ _  
+ / _` | || |  \ \/\/ / -_) '_ \/ _` / -_|_-< / _` | ' \ 
+ \__,_|\_,_|   \_/\_/\___|_.__/\__,_\___/__/_\__, |_||_| 
+                                             |___/ 
+
+                                             From ☁ since ∞
+               o o     o     +              o
++   +     +             o     +       +
+            +
+o  +    +        o  +           +        +
+
+Quoi de mieux que l'ASCII pour casser la monotonie 
+d'un code source décortiqué par un développeur.
+Je présume que vous êtes ce type de personne si vous bidouillez cette page.
+
+Si vous cherchez des infos concernant les outils et les services que
+j'utilise pour faire tourner l'app, je vous conseille de consulter
+cette page http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign/ et 
+ce doc http://magazineduwebdesign.com/humans.txt/
+
+Vous y trouverez la recette pour maintenir ce site performant car votre temps est précieux
+et je n'ai nul envie d'être en travers de votre chemin.
+
+Hey ! Si vous avez un peu temps, consultez la section jobs, il y a du taf pour vous
+http://magazineduwebdesign.com/emploi/
+
+<3'z
+
+@MagDuWebdesign
+@guillaumpalayer
+-->
+<html class="no-js" lang="fr">
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/Blog">
+
+    {% include header.html %} 
+
+		<article>
+		  {% if page.bgimgheader == true %}
+			<div class="header-article-bgimg" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
+			  <div class="header-article-bgimg-shadow">
+			    <div class="header-article-bgimg-conteneur">
+				    <div class="header-article-bgimg-cellule">
+				    {% else %}{% endif %}
+
+				      <header class="row-body-article text-center">
+				        <div class="column-header-article" >
+				          <h1>{{ page.title }}</h1>
+				        </div>
+				      </header>
+
+			{% if page.bgimgheader == true %}
+					  </div>
+			    </div>
+			  </div>
+			</div>
+
+			{% if page.image-legende %}
+		  <div class="row-body-article">
+		  	<div class="column-article-featured-image-caption">
+		  		<p>{{ page.image-legende }}</p>
+		  	</div>
+		  </div>
+		  {% endif %}
+			
+			{% else %}
+				{% if page.image %}
+				<div class="row-article-featured-image">
+				  <div class="column-article-featured-image">
+				  	<img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}"></noscript>
+				  </div>
+
+				  {% if page.image-legende %}
+				  <div class="row-body-article">
+				  	<div class="column-article-featured-image-caption">
+				  		<p>{{ page.image-legende }}</p>
+				  	</div>
+				  </div>
+				  {% endif %}
+
+				</div>
+				{% endif %}
+			{% endif %}
+
+			<div class="row-body-article">
+
+			  <main class="column-body-article mod-article-1-column">
+			   	{% if page.intro %}
+			   		<p class="subheader text-center">{{ page.intro }}</p>
+			   	{% endif %}
+			   	{{ content }}
+			  </main>
+
+			</div>
+		</article>
+
+		<footer>
+		  <div class="row">
+		    <div class="small-12 medium-12 large-12 columns">
+		      <p class="text-center"><a class="twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@MagduWebdesign</a> w/ &#9787; + <a href="http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign" title="stackshare.io" target="_blank"><img src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="stack share"></a></p>
+		    </div>
+		  </div>
+		</footer>
+
+		<!-- Usemin JS
+		================================================== -->
+		<!-- build:js(app) /js/application.js -->
+		<script src="/_bower_components/foundation/js/vendor/jquery.js"></script>
+		<script src="/_bower_components/foundation/js/vendor/jquery.cookie.js"></script>
+		<script src="/_bower_components/foundation/js/vendor/placeholder.js"></script>
+		<script src="/_bower_components/foundation/js/vendor/fastclick.js"></script>
+		<script src="/_bower_components/foundation/js/foundation/foundation.js"></script>
+		<script src="/_bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+		<script src="/_bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+		<script src="/_bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+		<script src="/_bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+		<script src="/js/infinite-jekyll.js"></script>
+		<script src="/js/headroom.js"></script>
+		<script src="/js/jQuery.headroom.js"></script>
+		<script src="/_bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+		<script src="/_bower_components/fluidbox/jquery.fluidbox.min.js"></script>
+		<script src="/js/main.js"></script>
+		<!-- endbuild -->
+
+  </body>
+
+</html>
