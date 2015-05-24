@@ -19,7 +19,7 @@ viatitle:
 <h2>Les nouveautés apportées par Foundation 3.1</h2>
 <p>Les évolutions ne sont pas majeures mais quelques nouveautés sont à retenir tels que l’intégration des add-ons, des nouveaux éléments d’interface et les templates HTML. La mise à jour comprend :</p>
 <ul>
-<li>Des modèles de pages HTML à télécharger, disponibles dans l’interface de customisation du site Web de Foundation.<img class="alignnone size-full wp-image-1060" title="Foundation--HTML-Templates" src="http://magazineduwebdesign.com/wp-content/uploads/2012/09/Foundation-HTML-Templates.jpg" alt="Foundation--HTML-Templates" width="555" height="346"></li>
+<li>Des modèles de pages HTML à télécharger, disponibles dans l’interface de customisation du site Web de Foundation.<img class="alignnone size-full wp-image-1060" title="Foundation--HTML-Templates" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Foundation-HTML-Templates.jpg" alt="Foundation--HTML-Templates" width="555" height="346"></li>
 <li>Des add-ons : modèles de pages HTML, polices, tableaux responsives, icônes sociales en SVG, éléments OmniGraffle.</li>
 <li>Foundation&nbsp;inclut&nbsp;désormais une barre de navigation responsive vous permettant de contrôler plus facilement son intégration dans un environnement mobile et l’emplacement des items du menu.</li>
 <li>Support des langues écrites à partir de la droite vers la gauche.</li>
