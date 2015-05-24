@@ -1,3 +1,12 @@
+- title: A propos
+  href: a-propos
+
+- title: Hello
+  href: hello
+
+- title: Feedback
+  href: feedback
+
 - title: facebook
   href: http://facebook.com
 
@@ -13,11 +22,3 @@
 - title: rss
   href: feed.xml
 
-- title: Say Hello!
-  href: hello
-
-- title: Feedback
-  href: feedback
-
-- title: A propos
-  href: a-propos
