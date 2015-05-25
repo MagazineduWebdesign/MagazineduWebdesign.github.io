@@ -169,6 +169,9 @@ $linkedin:#0077B5;
 .header-liste{@include header-liste}
 .header-liste.u-no-padding-bottom{padding-bottom: 0;}
 .header-liste.mod-break-edge{padding-bottom: rem-calc(72)}
+@media #{$small-only} {
+	.header-liste.mod-break-edge{padding-bottom: 0}
+}
 	.header-liste-content{@include font-sans-serif-paragraphe; color: $aluminum;}
 	.header-liste-content.u-no-margin-b{@include font-sans-serif-paragraphe; margin-bottom: 0; color: $aluminum;}
 	.header-liste-link a{@include header-liste-link}
@@ -225,19 +228,23 @@ $linkedin:#0077B5;
 	line-height:rem-calc(48); 
 	font-size:rem-calc(14)
 }
+.section-carte-background{
+	background-color: $jet;
+  padding-bottom: rem-calc(48);
+  margin-bottom: rem-calc(24);
+}
 .section-carte-header{
 	margin-bottom:0;
 	border-top:1px solid $secondary-color;
 	border-bottom:0
 }
-.section-carte-header-no-bg{
-	padding:0 $rem-base;
-}
 .section-carte-action.mod-article-video-action-relative, .section-carte-header.mod-article-video-header-relative{
 	border:0
 }
 	.section-carte-header-title{
-		@include item-row;color:$jumbo
+		@include item-row;
+		padding: rem-calc(0 16);
+		color: $jumbo;
 	}
 	.section-carte-header-title.mod-videos-relatives{
 		@include item-row;
@@ -291,6 +298,8 @@ $linkedin:#0077B5;
 	}
 .carte-article-secondaire.mod-article-thumbnail-1-col{
 	border-top-width: 0;
+	border-top-left-radius: 0; 
+  border-top-right-radius: 0;
 }
 .carte-article-secondaire.mod-article-thumbnail-app-icon{
 	margin-top: rem-calc(18)!important;
@@ -365,11 +374,16 @@ $linkedin:#0077B5;
 		padding-bottom: 56.2%;
 		border: 1px solid $secondary-color;
 		background-color:$secondary-color;
+		border-radius: rem-calc(2 2 0 0);
 	}
 	.carte-article-secondaire-thumbnail.mod-thumbnail-ratio-8-11{
 		padding-bottom: 137.2%;
 		box-shadow: inset rem-calc(3) 0 0 rgba($black,.2);
 		border-radius: rem-calc(2 4 4 2);
+	}
+	.carte-article-secondaire-thumbnail.mod-section-carte-background{
+		border: 0;
+		border-radius: rem-calc(2 2 0 0);
 	}
 	.carte-article-secondaire-thumbnail.mod-thumbnail-action, .carte-article-secondaire-thumbnail.mod-thumbnail-action-ratio-8-11{
 		background-color:$secondary-color;
@@ -560,12 +574,17 @@ $linkedin:#0077B5;
 .partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 
 .link-partage {@include item-row}
+.link-partage.mod-partage-index-quote a {color:$white}
+.link-partage.mod-partage-index-quote a:hover {color:$gainsboro}
 	.link-partage a {color:$aluminum}
-	.link-partage.mod-partage-index-quote a {color:$white}
-	.link-partage.mod-partage-index-quote a:hover {color:$gainsboro}
 	.link-partage a:hover{color:$topbar-link-color-hover}
 	.link-partage-url{margin-top:($rem-base * 1.5)}
-
+	.link-partage-article-footer {
+  	@include inline-list;
+	}
+	.link-partage-article-footer > li {
+  	margin: 0 rem-calc(24) 0 0;
+	}
 // button
 .button-without-border{@include button($bg:false, $radius:2px); margin-bottom:0;}
 .button-without-bg{@include button($bg:false, $radius:2px);border:1px solid $primary-color}
