@@ -243,7 +243,6 @@ $linkedin:#0077B5;
 }
 	.section-carte-header-title{
 		@include item-row;
-		padding: rem-calc(0 16);
 		color: $jumbo;
 	}
 	.section-carte-header-title.mod-videos-relatives{
