@@ -1,0 +1,46 @@
+<section class="section-carte-background">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | upcase }}</h1>
+    </div>
+  </div>
+  <!-- list items
+  ================================================== -->
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+
+      <!-- list all items
+      ================================================== -->
+      {% for post in site.categories.[include.param] limit:3 %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+              <div class="row collapse">
+                <div class="small-12 columns">
+                  <h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title | truncate: 33 }}</h1>
+                  {% if post.price %}
+                    <span class="label-price">{{ post.price }}</span>
+                  {% endif %}
+                  <p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
+                </div>
+              </div>
+            </article>
+          </a>
+        </li>
+      {% endfor %}
+        <li>
+          <a href="{{ site.baseurl }}{{ page.permalink }}apprendre/{{ include.param }}/" class="carte-article-secondaire-action-link" title="Explorer la collection">
+            <article class="carte-article-secondaire mod-article-1-col row collapse" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+              <div class="small-12 columns carte-article-secondaire-container-action">
+                <h2 class="carte-article-secondaire-action-texte text-center">
+                  EN VOIR PLUS <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#999999"/></svg>
+                </h2>
+              </div>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
