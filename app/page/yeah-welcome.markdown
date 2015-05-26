@@ -8,5 +8,5 @@ permalink: /yeah-welcome/
 
 <figure class="text-center">
   <img class="rounded-img-d64 mod-avatar" src="{{ site.author.avatar | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Avatar" width="64" height="64">
-  <figcaption>A bientôt, <a href="https://twitter.com/guillaumpalayer" title="Twitter @guillaumpalayer" target="_blank">@guillaumpalayer</a></figcaption>
+  <figcaption>Une belle journée <3, <br /><a href="https://twitter.com/guillaumpalayer" title="Twitter @guillaumpalayer" target="_blank">@guillaumpalayer</a></figcaption>
 </figure>
