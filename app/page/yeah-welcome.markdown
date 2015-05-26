@@ -1,10 +1,8 @@
 ---
 layout: page-1-column
 title: Yeah, nous y sommes presque
-description: Je dois maintenant vérifier votre adresse email afin de m'assurer que c'est bien vous.
-Pour cela, cliquez sur le lien envoyé par email.
-intro: Je dois maintenant vérifier votre adresse email afin de m'assurer que c'est bien vous.
-Pour cela, cliquez sur le lien que je vous ai envoyé par email.
+description: Je dois maintenant vérifier votre adresse email afin de m'assurer que c'est bien vous. Pour cela, cliquez sur le lien envoyé par email.
+intro: Je dois maintenant vérifier votre adresse email afin de m'assurer que c'est bien vous. Pour cela, cliquez sur le lien que je vous ai envoyé par email.
 permalink: /yeah-welcome/
 ---
 
