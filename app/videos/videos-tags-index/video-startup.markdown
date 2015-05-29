@@ -3,8 +3,8 @@ layout: video_index
 title: Startup Vidéos
 tags: startup
 permalink: /videos/startup/
-intro: Adding sketching to the design process is a great way to amplify software and hardware tools. Sketching provides a unique space that can help you think differently, generate a variety of ideas quickly, explore alternatives with less risk, and encourage constructive discussions with colleagues and clients.
+intro: Collections des meilleures vidéos de startup. Pitch, présentation de produits, de services & mise en avant de leur culture, les startups déploient beaucoup d'énergie pour convaincre des utilisateurs ou des talents à rejoindre leurs rangs.
 bgimgheader: false
-text-twtr: Video startup
-current_nav: startup
+text-twtr: En train d'explorer la collection des meilleures vidéos de startups du @MagDuWebdesign
+current_nav: startup 
 ---
