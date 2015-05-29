@@ -424,7 +424,6 @@ $linkedin:#0077B5;
 	.carte-article-secondaire-post-title.mod-small-title{
 		margin: 0;
 		font-size: $rem-base;
-		font-weight: $font-weight-bold;
 	}
 	.carte-article-secondaire-post-description{margin: rem-calc(8 0 0);font-size: rem-calc(14);line-height:rem-calc(21);color:$aluminum!important}
 	.carte-article-secondaire img{width:rem-calc(140)}
@@ -455,7 +454,6 @@ $linkedin:#0077B5;
 	@include grid-column($columns:12,$center:true,$collapse:false);
 	max-width: rem-calc(640);
 	padding: rem-calc(0 20 24);
-	margin-bottom: rem-calc(24);
 }
 @media #{$large-up} {
 	.article-meta-data-right{
@@ -466,6 +464,7 @@ $linkedin:#0077B5;
 	}
 	.article-meta-data-right.mod-article-contenu-meta-data{
 		padding: rem-calc(0 0 24 20);
+		margin-bottom: rem-calc(24);
 	}
 }
 
@@ -1201,7 +1200,6 @@ background-position: center}
 .job--in-article-title{
 	margin-bottom: rem-calc(8);
 	font-size:rem-calc(14);
-	font-weight:$font-weight-bold;
 	color:$aluminum}
 .job--in-article-offer-title{
 	margin-bottom: rem-calc(8);
@@ -1209,9 +1207,11 @@ background-position: center}
 }
 .job--in-article-content{
 	font-size:rem-calc(14);
+	color: $tuatara;
 }
 .job--in-article-button-outline{
 	  @include button($padding: $button-sml,$bg: false,$radius: true);
+	  margin-bottom: 0;
 	  border-width: 1px; 
 }
 .job--in-article-to-board{color:$tuatara; border-bottom: rem-calc(1) dotted;}
