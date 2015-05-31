@@ -116,7 +116,7 @@ layout: default
             <span class="note-source-name">{{ note.source-name | upcase }}</span>
           </div>
           
-          <a href="{{ note.source-url }}">
+          <a href="{{ note.source-url }}" title="{{ note.title }}" target="_blank">
             <h1>{{ note.title }}</h1>
           </a>
           
@@ -179,6 +179,18 @@ layout: default
               </div>
             </div>
             {% endif %}
+          </figure>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if note.id-soundcloud %}
+      <div class="row collapse">
+        <div class="small-12 columns">
+          <figure class="figure-video mod-note-video">
+            <div class="note-flex-video widescreen">
+              <iframe width="100%" max-height="384" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ note.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
           </figure>
         </div>
       </div>
