@@ -8,8 +8,7 @@ path3:
 category: videos
 tags:
 - startup
-intro: Une belle vidéo de présentation pour ce drone caméra throw-and-shoot. Aucune configuration requise. Jeter Lily dans l'air pour commencer une nouvelle vidéo. Il vous suivra dans vos moindres mouvements. C'est aussi simple que ça.
+intro: Une belle vidéo de présentation pour ce drone caméra throw-and-shoot. Aucune configuration requise. Jetez Lily dans l'air pour commencer une nouvelle vidéo. Il vous suivra dans vos moindres mouvements. C'est aussi simple que ça.
 description: Une belle vidéo de présentation pour ce drone caméra throw-and-shoot.
 id-youtube: ObDvc1saMr4
 ---
- 
