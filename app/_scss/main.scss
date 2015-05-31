@@ -827,7 +827,7 @@ figcaption{
 }
 .note-content{cursor: pointer}
 .note h1{
-	display:inline;
+	margin-bottom: rem-calc(24);
 	font-size:$h3-font-size;
 	font-weight:$font-weight-bold
 }
