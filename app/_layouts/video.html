@@ -26,7 +26,7 @@ layout: default
 	          <div class="small-12 columns">
 	            <h1 class="header-liste-headline" itemprop="headline">{{ page.title }}</h1>
 	            {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
-						  <p class="article-bgimg-meta-by-time">{% if page.auteur %}Via <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>{% endif %}{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
+						  <p class="article-bgimg-meta-by-time">{% if page.auteur %}<a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>{% endif %}{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
 	          </div>
 	        </div>
 	      </div>
@@ -62,7 +62,7 @@ layout: default
 			{% if page.viatitle %}
 			<!-- Via
 			================================================== -->
-			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>Via <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}">{{ page.viatitle }}</a></span>
+			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>Via <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}" target="_blank">{{ page.viatitle }}</a></span>
 			{% endif %}
 			<!-- Tags
 			================================================== -->
