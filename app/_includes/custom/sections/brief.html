@@ -19,7 +19,7 @@
               <span class="note-source-name">{{ note.source-name | upcase }}</span>
             </div>
             
-            <a href="{{ note.source-url }}">
+            <a href="{{ note.source-url }}" title="{{ page.title }}" target="_blank">
               <h1>{{ note.title }}</h1>
             </a>
             
@@ -88,6 +88,17 @@
         </div>
         {% endif %}
 
+        {% if note.id-soundcloud %}
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <figure class="figure-video mod-note-video">
+                <div class="note-flex-video widescreen">
+                  <iframe width="100%" max-height="384" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ note.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                </div>
+              </figure>
+            </div>
+          </div>
+          {% endif %}
         <div class="row collapse">
           <div class="small-12 columns">
             <div class="link-partage"><a href="#" data-reveal-id="{{ note.title | replace: ' ', '-' | remove_first: '.' }}"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" fill="#999999"/></svg>Partager</a></div>
@@ -110,7 +121,7 @@
 
   <article class="row-liste-index">
     <div class="small-12 columns section-carte-newsletter section-carte-panel">
-      <h1 class="text-center"><svg class="ic-block-h48-title-left"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z" fill="#999999"/></svg>Joli travail ! Vous avez terminé le brief du jour.</h1>
+      <h1 class="text-center"><svg class="ic-block-h48-title-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z" fill="#999999"/></svg>Joli travail ! Vous avez terminé le brief du jour.</h1>
       <p class="text-center">Rejoignez une communauté de 10 000+ designers &amp; développeurs à la recherche des meilleurs articles, inspirations, outils &amp; ressources concernant le design d'interfaces.</p>
       <div class="row text-center">
         <div class="small-12 columns">
