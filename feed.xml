@@ -7,6 +7,19 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Le product management vu par Intercom</title>
+				        
+				
+					<description>&lt;p&gt;Intercom nous offre une synthèe claire du product management gérer au mieux les décisions difficiles auxquelles chaque PM est confronté.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 31 May 2015 19:23:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/le-product-management-selon-intercom</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/le-product-management-selon-intercom</guid>
+			</item>
+		
+			<item>
 				<title>Lily Camera</title>
 				        
 				
@@ -792,20 +805,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 			</item>
 		
 			<item>
-				<title>Guide recherche UX 2</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 17 Feb 2015 19:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/guide-recherche-ux-2</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/guide-recherche-ux-2</guid>
-			</item>
-		
-			<item>
 				<title>This Gamer Girl Bursts Into Tears When She Gets The Surprise Present From Her Brothers</title>
 				        
 				
@@ -834,17 +833,16 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 			</item>
 		
 			<item>
-				<title>Guide recherche UX 1</title>
+				<title>Le modèle Objective-Based Design – Une approche holistique du design de produit</title>
 				        
 				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+					<description>&lt;p&gt;Cette approche du design permet de réduire au maximum les frictions des utitisateurs en gardant en ligne de mire les objectifs du projet &amp;amp; du business. Un modèle de design s’inspirant largement d’autres modèles de pensée tels que le Build, Measure, Learn du courant &lt;a href=&quot;http://theleanstartup.com/principles&quot; target=&quot;_blank&quot;&gt;Lean Startup&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://www.gv.com/sprint/&quot; target=&quot;_blank&quot;&gt;le Design Sprint&lt;/a&gt; de Google Ventures.&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Tue, 17 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/guide-recherche-ux-1</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/guide-recherche-ux-1</guid>
+				<link>http://magazineduwebdesign.com/guide-ux-design-approche-objective-based-design</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/guide-ux-design-approche-objective-based-design</guid>
 			</item>
 		
 			<item>
