@@ -1,7 +1,9 @@
 ---
-title: Conseil 1
+title: Quelques conseils et outils gratuits pour optimisez votre temps de recherche d'emploi
 date: 2015-01-05 00:00:00
 image: galaxie.jpg
 intro: Une candidature qui fait la différence (#cafaitladiffcadonnelaconf)
 ---
-Republicans are expected to win eight seats—and become the majority—in the Senate, while likely capturing nine seats in the House. Key policy issues in the balance include climate change, the legalization of marijuana, and abortion. 
+
+* http://startupstash.com/hr/
+* https://emailhunter.co/

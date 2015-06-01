@@ -1,7 +1,11 @@
 ---
-title: Conseil 1
+title: La collection d'outils du super recruteur 
 date: 2015-01-05 00:00:00
 image: galaxie.jpg
-intro: Une candidature qui fait la différence
+intro: Sélection
 ---
-Republicans are expected to win eight seats—and become the majority—in the Senate, while likely capturing nine seats in the House. Key policy issues in the balance include climate change, the legalization of marijuana, and abortion. 
+
+Une collection organisée d'outils pour gérez vos ressources humaines. Partez plus tôt du bureau ce soir.
+
+* http://startupstash.com/hr/
+* https://emailhunter.co/
