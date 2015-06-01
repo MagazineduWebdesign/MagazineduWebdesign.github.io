@@ -4,7 +4,7 @@ title: Publication de votre offre d'emploi
 tab5: true
 description:
 permalink: /recruter/paiement-publication-offre-emploi/
-intro: Procédez au paiement sécurisé en ligne par carte bancaire, Visa ou MasterCard depuis le site de PayPal.
+intro: Procédez au paiement sécurisé de 99€ par carte bancaire, Visa ou MasterCard depuis le site de PayPal.
 ---
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">

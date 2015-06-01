@@ -8,4 +8,4 @@ id-youtube:
 id-soundcloud:
 video-legende:
 ---
-Un effet d'inclinaison subtile pour les images. L'idée est de déplacer et faire pivoter les copies semi-transparentes de l'image d'arrière-plan afin de créer un effet de mouvement et profondeur.
+Un effet d'inclinaison subtile pour les images. L'idée est de déplacer et faire pivoter les copies semi-transparentes de l'image d'arrière-plan afin de créer un effet de mouvement et de profondeur.
