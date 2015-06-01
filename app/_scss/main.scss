@@ -829,13 +829,22 @@ figcaption{
 .note h1{
 	margin-bottom: rem-calc(24);
 	font-size:$h3-font-size;
-	font-weight:$font-weight-bold
+	font-weight:$font-weight-bold;
+	line-height: rem-calc(24);
 }
 .note h1:hover{color:$jet}
-.note p, .note blockquote{@include font-serif-paragraphe}
-.note-flex-video{@include flex-video-container();margin-bottom:0}
+.note p, .note blockquote{@include font-serif-paragraphe;}
+.note-flex-video{
+	@include flex-video-container;
+	margin-bottom:0;
+	border-top: 1px solid $secondary-color;
+	border-bottom: 1px solid $secondary-color;
+}
 .note-container-img{
-	width: 100%;max-width: 100%
+	width: 100%;
+	max-width: 100%;
+	border-top: 1px solid $secondary-color;
+	border-bottom: 1px solid $secondary-color;
 }
 
 // 00. SECTION TWITTER
