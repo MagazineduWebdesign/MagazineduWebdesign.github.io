@@ -32,7 +32,7 @@ layout: default
             <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
               <div class="shadow-img">
                 <div class="collection-index-article-content">
-                  <h1 class="text-center" itemprop="headline">{{ collection.title }}</h1>
+                  <h1 class="collection-index-article-content-title text-center" itemprop="headline">{{ collection.title }}</h1>
                   <p class="text-center">{{ collection.desc | truncate: 80 }}</p>
                 </div>
               </div>
