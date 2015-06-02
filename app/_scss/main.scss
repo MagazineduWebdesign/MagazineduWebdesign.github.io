@@ -173,7 +173,10 @@ $linkedin:#0077B5;
 	.header-liste.mod-break-edge{padding-bottom: 0}
 }
 	.header-liste-content{@include font-sans-serif-paragraphe; color: $aluminum;}
-	.header-liste-content.u-no-margin-b{@include font-sans-serif-paragraphe; margin-bottom: 0; color: $aluminum;}
+	.header-liste-content.mod-bg-img{
+		margin-bottom: 0;
+		color: $white;
+	}
 	.header-liste-link a{@include header-liste-link}
 	.header-liste-link a:hover{color:$oil}
 
@@ -1155,18 +1158,26 @@ input.index-wide-newsletter-in-grid-submit{
 	@include header-bgimg;
 	border-radius: $global-radius;
 }
+.collection-index-article.mod-collection-in-index-wide{
+	min-height: 0;
+	padding-bottom: rem-calc(72);
+}
 .collection-index-article-content{
 	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	padding: rem-calc(16)
-}
-.collection-index-article-content h1{
-	font-size: $h3-font-size;
-	line-height:($rem-base * 1.5);
-	color:$white
-}
+	}
+	.collection-index-article-content-title{
+		font-size: $h3-font-size;
+		line-height: rem-calc(24);
+		color: $white;
+	}
+	.collection-index-article-content-title.mod-collection-title-in-index-wide{
+		font-size: $rem-base;
+		margin-bottom: 0;
+	}
 .collection-index-article-content p{color:$white}
 .collection-index-article-shadow{@include blend}
 .collection-index-article-shadow:hover{background-color:rgba($black,.6)}
@@ -1180,7 +1191,6 @@ input.index-wide-newsletter-in-grid-submit{
 .header-collection-bgimg{@include header-bgimg}
 .header-collection-shadow{@include blend($padding:0)}
 .header-collection h1{@include header-liste-title}
-.header-collection p{color:$white;}
 .header-collection-link a{@include header-liste-link($color:$white)}
 
 // 00. SECTION JOBS
