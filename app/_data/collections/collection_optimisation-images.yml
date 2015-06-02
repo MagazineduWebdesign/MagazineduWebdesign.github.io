@@ -1,0 +1,49 @@
+- title: ImageMagick
+  href: http://www.imagemagick.org/
+  desc: Une suite de logiciels pour créer, éditer, composer, ou convertir des images bitmap.
+  image:
+
+- title: GraphicsMagick
+  href: http://www.graphicsmagick.org/
+  desc: Un ensemble d'outils acccesibles via votre console de commandeS et une API pour la manipulation, l'édition et la conversion des images bitmap et vectorielles. Il est dérivé de ImageMagick, avec l'objectif de fournir une meilleure stabilité et davantage de performances. Ne perdez plus votre temps, pensez à automatiser toutes ses tâches avec l'utilisation du gestionnaire de tâche Grunt.
+  image:
+
+- title: TinyJPG
+  href: https://tinyjpg.com/
+  desc: Compresser des images JPG.
+  image:
+
+- title: ImageOptim
+  href: https://imageoptim.com/
+  desc: Rend les images moins gourmandes en espace disque pour un chargement plus rapidement.
+  image:
+
+- title: TinyJPG
+  href: https://tinyjpg.com/
+  desc: Compresser des images JPG.
+  image:
+
+- title: ImageOptimizer
+  href: http://www.imageoptimizer.net/Pages/Home.aspx
+  desc: Service en ligne gratuit offrant le redimensionnement, la compression et l'optimisation de vos fichiers image.
+  image:
+
+- title: Compressor.io
+  href: https://compressor.io/
+  desc: Optimiser et compresser vos images en ligne.
+  image:
+
+- title: Kraken
+  href: https://kraken.io/web-interface
+  desc: Optimiseur et compresseur d'images ultra-rapide. Réduisez votre consommation de bande passante et d'espace de stockage. Cela vous permettra de considérablement améliorer les temps de chargement de votre site.
+  image:
+
+- title: Smush.it
+  href: https://kraken.io/web-interface
+  desc: Le plugin WordPress réduisant la taille des fichiers image afin d'améliorer les performances de votre app.
+  image:
+
+- title: Smush.it
+  href: https://kraken.io/web-interface
+  desc: Le plugin WordPress réduisant la taille des fichiers image afin d'améliorer les performances de votre app.
+  image:
