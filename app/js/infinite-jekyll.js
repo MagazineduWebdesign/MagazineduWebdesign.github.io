@@ -226,7 +226,7 @@ $(function() {
         case 'collections':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-collection').html()+'">';
           str+='<article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"><div class="shadow-img"><div class="collection-index-article-content">';
-          str+='<h1 class="text-center" itemprop="headline">'+$(data).find('.headline-collection').html()+'</h1>';
+          str+='<h1 class="collection-index-article-content-title text-center" itemprop="headline">'+$(data).find('.headline-collection').html()+'</h1>';
           str+='<p class="text-center">'+$(data).find('.header-liste-content').html()+'</p></div></div></article></a>';
           $('.collection-index-panel').append(str);
           break;
