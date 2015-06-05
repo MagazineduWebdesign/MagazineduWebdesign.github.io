@@ -43,7 +43,7 @@ layout: default
 			source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
 			================================================== -->
 			{% if post.tags.size > 0 %}
-        {% capture tags_content %} ITEMS RELATIFS : {% endcapture %}
+        {% capture tags_content %} TAGS : {% endcapture %}
         {% for post_tag in post.tags %}
           {% for data_tag in site.data.videos.videos-tags %}
             {% if data_tag.slug == post_tag %}
@@ -62,11 +62,11 @@ layout: default
 			{% if page.viatitle %}
 			<!-- Via
 			================================================== -->
-			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>Via <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}" target="_blank">{{ page.viatitle }}</a></span>
+			<span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>VIA <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}" target="_blank">{{ page.viatitle | upcase }}</a></span>
 			{% endif %}
 			<!-- Tags
 			================================================== -->
-			<span class="article-meta-footer"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z" fill="#999999"/></svg>{{ tags_content}}</span>
+			<span class="article-meta-footer"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z" fill="#999999"/></svg>{{ tags_content }}</span>
 			{% include custom/sections/article_footer_left.html %}
 	  </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
