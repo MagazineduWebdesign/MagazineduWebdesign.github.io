@@ -10,6 +10,9 @@
 - slug: design
   name: Design
 
+- slug: design-stories
+  name: Design stories
+
 - slug: email
   name: email
 
@@ -22,6 +25,9 @@
 - slug: productivite
   name: Productivite
 
+- slug: product-management
+  name: Product management
+
 - slug: sante
   name: Sante
 
@@ -30,6 +36,9 @@
 
 - slug: startup
   name: Startup
+
+- slug: startup-stories
+  name: Startup stories
 
 - slug: ux-design
   name: UX Design
