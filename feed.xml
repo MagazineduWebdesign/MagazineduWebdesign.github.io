@@ -7,6 +7,102 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Living Mural – Projection sur les voiles de l'Opéra de Sydney</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 04 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/vividlive-sydneyoperahouse</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/vividlive-sydneyoperahouse</guid>
+			</item>
+		
+			<item>
+				<title>IRON MAN 3 – GFX PROCESS REEL</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 04 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/iron-man-3-gfx</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/iron-man-3-gfx</guid>
+			</item>
+		
+			<item>
+				<title>Design de l'environnement de travail – Vision Microsoft</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 04 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/environnement-travail-bureau-vision-microsoft</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/environnement-travail-bureau-vision-microsoft</guid>
+			</item>
+		
+			<item>
+				<title>Aperçu de Android M – la nouvelle version de l'OS</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 04 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/android-m-nouvelle-version-os</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/android-m-nouvelle-version-os</guid>
+			</item>
+		
+			<item>
+				<title>Wake - Collaborer entre designers</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 03 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/wake</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/wake</guid>
+			</item>
+		
+			<item>
+				<title>SmartBox par Inbox de Gmail</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 03 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/smartbox-par-inbox-de-gmail</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/smartbox-par-inbox-de-gmail</guid>
+			</item>
+		
+			<item>
+				<title>Google Photos</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 03 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/google-photos</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/google-photos</guid>
+			</item>
+		
+			<item>
+				<title>Google Agenda pour iPhone</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 03 Jun 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/google-agenda</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/google-agenda</guid>
+			</item>
+		
+			<item>
 				<title>Le product management vu par Intercom</title>
 				        
 				
@@ -29,6 +125,18 @@
 				<pubDate>Fri, 29 May 2015 19:22:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/lilly-camera</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/lilly-camera</guid>
+			</item>
+		
+			<item>
+				<title>Awair</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 29 May 2015 19:22:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/awair</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/awair</guid>
 			</item>
 		
 			<item>
@@ -667,20 +775,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 			</item>
 		
 			<item>
-				<title>Android Developer Story The Guardian - Understanding and engaging mobile users</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sun, 22 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-ux1</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-ux1</guid>
-			</item>
-		
-			<item>
 				<title>Google Places Autocomplete input</title>
 				        
 				
@@ -718,20 +812,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Fri, 20 Feb 2015 18:22:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/video-design3</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/video-design3</guid>
-			</item>
-		
-			<item>
-				<title>Android Developer Story Kiwi Inc</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 19 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-ux2</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-ux2</guid>
 			</item>
 		
 			<item>
@@ -788,34 +868,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Wed, 18 Feb 2015 18:23:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/art-book-1</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/art-book-1</guid>
-			</item>
-		
-			<item>
-				<title>Poor Guy Loses His Ski Doo Goes Butt-Sliding Down The Whole Damn Mountain</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 18 Feb 2015 18:22:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-angularjs2</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-angularjs2</guid>
-			</item>
-		
-			<item>
-				<title>This Gamer Girl Bursts Into Tears When She Gets The Surprise Present From Her Brothers</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 17 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-ux</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-ux</guid>
 			</item>
 		
 			<item>
@@ -949,34 +1001,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Tue, 17 Feb 2015 18:23:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/citation-1</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/citation-1</guid>
-			</item>
-		
-			<item>
-				<title>Kate Upton Brings Out An Epic Rap Battle On Game Of War</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 17 Feb 2015 18:22:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-angular</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-angular</guid>
-			</item>
-		
-			<item>
-				<title>How Airbnb Simplifies with Mesos</title>
-				        
-				
-					<description>&lt;p&gt;You&amp;#8217;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 12 Feb 2015 18:22:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/video-angularjs3</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/video-angularjs3</guid>
 			</item>
 		
 			<item>
