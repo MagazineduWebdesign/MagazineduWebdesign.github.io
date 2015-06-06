@@ -75,8 +75,7 @@
 // Utilisé pour contrôler le style des header d'index
 @mixin header-liste($bg: $white) {
 	padding:rem-calc(48) 0;
-	background-color:$bg;
-	border-bottom:1px solid $secondary-color
+	background: linear-gradient(to bottom,$bg 0,$white-smoke 100%);
 }
 // Utilisé pour contrôler le style des titres d'header d'index
 @mixin header-liste-title($margin:rem-calc(24),$color: $white) {
