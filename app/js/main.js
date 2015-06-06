@@ -11,7 +11,7 @@ $(document).foundation({
 	}
 });
 $('#header').headroom();
-
+$('img').VimeoThumb();
 $(function () {
   $('.gallery a[rel="lightbox"]').fluidbox({
       stackIndex: 100

@@ -28,6 +28,12 @@
               {% endif %}
             </div>
 
+            <div class="small-3 columns">
+              {% if post.id-vimeo %}
+              <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" alt="{{ post.image-legende }}" width="140" class="large videos-relatives-carte-article-thumbnail right" />
+              {% endif %}
+            </div>
+
           </div>
         </article>
       </a>

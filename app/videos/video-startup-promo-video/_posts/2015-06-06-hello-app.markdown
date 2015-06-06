@@ -1,0 +1,16 @@
+---
+layout: video
+title:  "Facebook présente Hello"
+date:   2015-06-06 17:22:57
+path1: videos
+path2: startup-promo
+path3:
+category: videos
+tags:
+- startup-promo
+intro: "Hello, une nouvelle application construite par l'équipe Messenger. Connectée avec Facebook, cette app montre les infos sur qui vous appelle, même si vous ne disposez pas de ce numéro enregistré dans votre téléphone."
+description: "Hello, une nouvelle application construite par l'équipe Messenger."
+id-vimeo: 125628290
+viaurl: "http://newsroom.fb.com/news/2015/04/introducing-hello/"
+viatitle: "facebook newsroom"
+---

@@ -12,7 +12,12 @@ layout: default
 	      <div class="small-12 large-8 columns">
 	      	<figure class="figure-video" data-is-video="http://img.youtube.com/vi/{{ page.id-youtube }}/mqdefault.jpg">
 		        <div class="note-flex-video widescreen">
-		          <iframe src="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		          {% if post.id-youtube %}
+		          	<iframe src="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		          {% endif %}
+		        	{% if post.id-vimeo %}
+		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		        	{% endif %}
 		        </div>
 		      </figure>
           <div class="yt-subscribe">

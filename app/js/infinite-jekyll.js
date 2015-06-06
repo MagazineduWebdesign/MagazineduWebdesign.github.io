@@ -201,6 +201,7 @@ $(function() {
           str+='<div class="row collapse">';
             str+='<div class="small-12 columns carte-article-secondaire-thumbnail" style="background-image: url('+$(data).find('.figure-video').attr('data-is-video')+');">';
               str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
+              str+= $(data).find('.secret-vimeo-thumbnail').html();
                 str+='<div class="gradient-shadow-img">';
                   str+='<svg class="gradient-shadow-img-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
                 str+='</div>';
