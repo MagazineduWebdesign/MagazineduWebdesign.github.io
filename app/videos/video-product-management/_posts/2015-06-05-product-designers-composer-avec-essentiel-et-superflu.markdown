@@ -3,11 +3,10 @@ layout: video
 title:  Product designers – comment composer avec l'essentiel et le superflu
 date:   2015-06-05 17:22:57
 path1: videos
-path2: startup
+path2: product-management
 path3:
 category: videos
 tags:
-- startup
 - product-management
 - design
 intro: De nombreux designers au sein des startups se concentrent sur le look & feel de leur produit. Néanmoins, cette approche devient rapidement obsolète si il n'y a pas d'apport de solutions à des problémes ou des besoins utilisateurs.

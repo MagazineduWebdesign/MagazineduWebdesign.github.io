@@ -1,10 +1,9 @@
 ---
 layout: video_index
-title: Videos UX
+title: L'UX design en vidéo
 tags: ux-design
 permalink: /videos/ux-design/
-intro: Adding sketching to the design process is a great way to amplify software and hardware tools. Sketching provides a unique space that can help you think differently, generate a variety of ideas quickly, explore alternatives with less risk, and encourage constructive discussions with colleagues and clients.
+intro: "Collection de vidéos abordant le rôle et l'évolution de l'UX design au sein des statups et des agences de design."
 bgimgheader: false
-text-twtr: Video UX design
-current_nav: ux-design
+text-twtr: "En train d'explorer la collection de vidéos #uxdesign du @MagDuWebdesign."
 ---

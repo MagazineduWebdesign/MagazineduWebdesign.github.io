@@ -3,12 +3,11 @@ layout: video
 title:  Awair
 date:   2015-05-29 17:22:57
 path1: videos
-path2: startup
+path2: startup-promo
 path3:
 category: videos
 tags:
-- startup
-- sante
+- startup-promo
 intro: "Awair est le premier dispositif complet qui vous permettra de garder un oeil sur la qualité de l'air intérieur. Awair analyse la qualité de votre atmopshère en direct, apprend vos routines et communique avec d'autres appareils de la maison pour vous aider à atteindre une qualité optimale d'air."
 description: "Awair est le premier dispositif complet qui vous permettra de garder un oeil sur la qualité de l'air intérieur."
 id-youtube: MONy1hgQ4SQ

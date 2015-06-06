@@ -3,8 +3,8 @@ layout: video_index
 title: Videos
 category: videos
 permalink: /videos/
-intro: Adding sketching to the design process is a great way to amplify software and hardware tools. Sketching provides a unique space that can help you think differently, generate a variety of ideas quickly, explore alternatives with less risk, and encourage constructive discussions with colleagues and clients.
+intro: "Collection de créations, d'interviews et de conseils mettant à l'honneur les designers & les développeurs qui tentent chaque jour d'améliorer le quotidien de milliards de personnes."
 bgimgheader: false
-text-twtr: Video design et dev front
+text-twtr: "En train d'explorer la collection de vidéos du @MagDuWebdesign"
 current_nav: all
 ---

@@ -1,44 +1,35 @@
 - slug: android
   name: Android
-
-- slug: animation
-  name: Animation
-
-- slug: angular-js
-  name: Angular JS
+  permalink: /videos/android/
 
 - slug: design
   name: Design
+  permalink: /videos/design/
 
 - slug: design-stories
   name: Design stories
+  permalink: /videos/design-stories/
 
-- slug: email
-  name: email
-
-- slug: vfx
-  name: VFX
-
-- slug: photographie
-  name: Photographie
-
-- slug: productivite
-  name: Productivite
+- slug: motion-design
+  name: Motion design
+  permalink: /videos/motion-design/
 
 - slug: product-management
   name: Product management
-
-- slug: sante
-  name: Sante
+  permalink: /videos/product-management/
 
 - slug: showreel
   name: Showreel
+  permalink: /videos/showreel/
 
-- slug: startup
-  name: Startup
+- slug: startup-promo
+  name: Startup promo
+  permalink: /videos/startup-promo/
 
 - slug: startup-stories
   name: Startup stories
+  permalink: /videos/startup-stories/
 
 - slug: ux-design
   name: UX Design
+  permalink: /videos/ux-design/

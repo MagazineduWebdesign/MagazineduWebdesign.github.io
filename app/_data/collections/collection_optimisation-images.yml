@@ -5,7 +5,7 @@
 
 - title: "GraphicsMagick"
   href: "http://www.graphicsmagick.org/"
-  desc: "Un ensemble d'outils acccesibles via votre console de commandeS et une API pour la manipulation, l'édition et la conversion des images bitmap et vectorielles. Il est dérivé de ImageMagick, avec l'objectif de fournir une meilleure stabilité et davantage de performances. Ne perdez plus votre temps, pensez à automatiser toutes ses tâches avec l'utilisation du gestionnaire de tâche Grunt."
+  desc: "Un ensemble d'outils acccesibles via votre console de commandes et une API pour la manipulation, l'édition et la conversion des images bitmap et vectorielles. Il est dérivé de ImageMagick, avec l'objectif de fournir une meilleure stabilité et davantage de performances. Ne perdez plus votre temps, pensez à automatiser toutes ses tâches avec l'utilisation du gestionnaire de tâche Grunt."
   image:
 
 - title: "TinyJPG"

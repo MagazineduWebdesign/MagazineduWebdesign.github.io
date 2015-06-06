@@ -3,11 +3,12 @@ layout: video
 title:  Making Material Design
 date:   2015-05-28 17:22:57
 path1: videos
-path2: design
+path2: design-stories
 path3:
 category: videos
 tags:
 - design
+- design-stories
 intro: Quelques témoignages de la team desing de Google à l'origine du framework Material Design.
 description: Quelques témoignages de la team desing de Google à l'origine du framework Material Design.
 id-youtube: rrT6v5sOwJg
