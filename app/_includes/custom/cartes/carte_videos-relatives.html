@@ -24,13 +24,13 @@
 
             <div class="small-3 columns">
               {% if post.id-youtube %}
-              <img class="videos-relatives-carte-article-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.image-legende }}" width="140" />
+              <img class="videos-relatives-carte-article-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" width="64" alt="{{ post.image-legende }}"/>
               {% endif %}
             </div>
 
             <div class="small-3 columns">
               {% if post.id-vimeo %}
-              <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" alt="{{ post.image-legende }}" width="140" class="large videos-relatives-carte-article-thumbnail right" />
+              <img class="small videos-relatives-carte-article-thumbnail right" src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" alt="{{ post.image-legende }}" width="64" alt="{{ post.image-legende }}"/>
               {% endif %}
             </div>
 
