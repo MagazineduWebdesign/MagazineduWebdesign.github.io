@@ -1,11 +1,15 @@
 {
   "posts" : [
     
+    "/hello-app",
+    
     "/shawn-achor-le-bonheur-comme-avantage-concurrentiel",
     
     "/product-hunt-interview-ryan-hoover",
     
     "/product-designers-composer-avec-essentiel-et-superflu",
+    
+    "/interview-elon-musk",
     
     "/vividlive-sydneyoperahouse",
     
@@ -29,9 +33,7 @@
     
     "/flagofplanetearth",
     
-    "/conception-material-design-temoignage-team-design-google",
-    
-    "/video-design3"
+    "/conception-material-design-temoignage-team-design-google"
     
   ]
 }
