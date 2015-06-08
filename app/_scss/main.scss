@@ -272,6 +272,12 @@ $linkedin:#0077B5;
 	.carte-article-prioritaire-content{padding:$rem-base}
 	.carte-article-prioritaire-title{font-size: $h3-font-size; line-height:rem-calc(24)!important; color:$white!important}
 
+
+
+
+
+
+
 //grid-article-card
 .grid-article-card{
 	position: relative;
@@ -287,12 +293,16 @@ $linkedin:#0077B5;
 .grid-article-card.mod-add-new{
 	border: 2px dotted $gainsboro;
 	box-shadow: none;
+	border-radius: rem-calc(2);
 	@include transition($target: border);
 }
 .grid-article-card.mod-add-new:hover{
 	border: 2px dotted $primary-color;
 	box-shadow: none;
 	@include transition($target: border);
+}
+.grid-article-card.mod-action:hover{
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.08);
 }
 	.grid-article-card-link-wrap{
 		display: block;
@@ -315,6 +325,21 @@ $linkedin:#0077B5;
 		.grid-article-card-image.mod-add-new{
 			background: none;
 		}
+		.grid-article-card-image.mod-action{
+			padding-top: 20%;
+		  padding-bottom: 36%;
+		  padding-left: 16px;
+		  padding-right: 16px;
+		  text-align: center;
+		  background-color: white;
+		}
+		@media #{$small-only}{
+			.grid-article-card-image.mod-action{
+				padding-top: rem-calc(24);
+				padding-bottom: rem-calc(16);
+				height: 100%;
+			}
+		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image.mod-add-new{
 			background: none;
 		}
@@ -336,14 +361,19 @@ $linkedin:#0077B5;
 			padding-right: $rem-base!important;
 			background-color: $white;
 		}
-		.grid-article-card-info.mod-add-new{
-			background: none;
-			text-align: center;
-		}
 		@media #{$medium-up} {
 			.grid-article-card-info{ 
 				min-height: rem-calc(128);
 				max-height: rem-calc(128);
+			}
+		}
+		.grid-article-card-info.mod-add-new{
+			background: none;
+			text-align: center;
+		}
+		@media #{$small-only}{
+			.grid-article-card-info.mod-add-new{
+				padding: rem-calc(13);
 			}
 		}
 			.grid-article-card-title{
@@ -352,12 +382,20 @@ $linkedin:#0077B5;
 				margin-bottom: 0;
 				@include transition($target: color);
 			}
+			.grid-article-card-title.mod-add-new{
+				color: $aluminum;
+				@include transition($target: color);
+			}
 			.grid-article-card-meta{
 				font-size: rem-calc(12);
 				color: $gainsboro;
 				@include transition($target: color);
 			}
 			.grid-article-card:hover > .grid-article-card-link-wrap > .row.collapse > .grid-article-card-info > .grid-article-card-title{
+				color: $primary-color;
+				@include transition($target: color);
+			}
+			.grid-article-card:hover > .row.collapse > .grid-article-card-info > .grid-article-card-title{
 				color: $primary-color;
 				@include transition($target: color);
 			}
