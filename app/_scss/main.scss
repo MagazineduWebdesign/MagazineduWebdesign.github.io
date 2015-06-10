@@ -301,6 +301,9 @@ $linkedin:#0077B5;
 	box-shadow: none;
 	@include transition($target: border);
 }
+.grid-article-card.mod-action{
+	text-align: center;
+}
 .grid-article-card.mod-action:hover{
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,.08);
 }
@@ -330,8 +333,11 @@ $linkedin:#0077B5;
 		  padding-bottom: 36%;
 		  padding-left: 16px;
 		  padding-right: 16px;
-		  text-align: center;
 		  background-color: white;
+		}
+		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image.mod-action{
+			background: none;
+			background-color: white;
 		}
 		@media #{$small-only}{
 			.grid-article-card-image.mod-action{
@@ -376,6 +382,18 @@ $linkedin:#0077B5;
 				padding: rem-calc(13);
 			}
 		}
+		@media #{$medium-up} {
+			.grid-article-card-info.mod-no-thumbnail{ 
+				min-height: rem-calc(192);
+				max-height: rem-calc(192);
+			}
+		}
+		@media #{$medium-up} {
+			.grid-article-card.mod-add-new > .row.collapse > .grid-article-card-info.mod-no-thumbnail{ 
+				min-height: rem-calc(190);
+				max-height: rem-calc(190);
+			}
+		}
 			.grid-article-card-title{
 				font-size: $rem-base;
 				line-height: rem-calc(20);
@@ -386,10 +404,18 @@ $linkedin:#0077B5;
 				color: $aluminum;
 				@include transition($target: color);
 			}
+			.grid-article-card-title.mod-no-thumbnail{
+				margin-bottom: $rem-base;
+			}
 			.grid-article-card-meta{
 				font-size: rem-calc(12);
 				color: $gainsboro;
 				@include transition($target: color);
+			}
+			.grid-article-card-meta.mod-no-thumbnail{
+				margin-bottom: 0;
+				font-size: rem-calc(14);
+				color: $aluminum;
 			}
 			.grid-article-card:hover > .grid-article-card-link-wrap > .row.collapse > .grid-article-card-info > .grid-article-card-title{
 				color: $primary-color;
@@ -398,6 +424,9 @@ $linkedin:#0077B5;
 			.grid-article-card:hover > .row.collapse > .grid-article-card-info > .grid-article-card-title{
 				color: $primary-color;
 				@include transition($target: color);
+			}
+			.grid-article-card:hover > .row.collapse > .grid-article-card-info > .grid-article-card-title.mod-no-thumbnail{
+				color: $tuatara;
 			}
 			.grid-article-card:hover > .grid-article-card-link-wrap > .row.collapse > .grid-article-card-info > .grid-article-card-meta{
 				color: $body-font-color;
@@ -901,14 +930,7 @@ figcaption{
 //navigation
 .navigation-sub-header{background-color:$secondary-color}
 
-//label
-.label-price{
-	position: absolute;
-	right: 0;
-	top: 0;
-	font-size: rem-calc(14);
-	color: $primary-color
-}
+
 // 01. TOP BAR
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .dropdown{
