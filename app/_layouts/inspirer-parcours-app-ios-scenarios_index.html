@@ -145,19 +145,20 @@ layout: default
 	================================================== -->
 	<div class="row">
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4">
 
 			{% if site.tags[page.tags] %}
 				{% for post in site.tags[page.tags] %}
 				<li>
-          <article class="carte-article-secondaire mod-article-thumbnail-app-icon js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            <a href="{{ post.url | prepend: site.baseurl }}" title="Scénario {{ post.title }}">
-	            <div class="row">
-	              <div class="small-12 columns text-center">
-	              	<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.scenario | truncate: 20 }}</h1>
+          <article class="grid-article-card mod-app-icon" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+	            <div class="row collapse text-center">
+	              <div class="grid-article-card-info mod-app-icon small-12 columns">
+	              	<img class="grid-article-card-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/'}}" alt="icône app {{ post.title }}" width="64" height="64">
+	              	<h1 class="grid-article-card-title mod-action" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
 	              </div>
 	            </div>
-	          </a>
+		        </a>
           </article>
 				</li>
 				{% endfor %}

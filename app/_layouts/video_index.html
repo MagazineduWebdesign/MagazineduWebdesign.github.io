@@ -31,7 +31,7 @@ layout: default
 					<div class="g-ytsubscribe" data-channelid="UCd1PMrs5t1mOVrf-DlygcDA" data-layout="default" data-count="hidden"></div>
 				</div>
        </div>
-     </header>
+     </header> 
 		
 		
 		<!-- list filters
@@ -194,9 +194,9 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.path2 %}
-                    	<span class="grid-article-card-meta">{{ post.path2 | upcase | replace: '-', ' ' | truncate: 24 }}</span>
+                    	<p class="grid-article-card-meta">{{ post.path2 | capitalize | replace: '-', ' ' | truncate: 24 }}</p>
                   	{% endif %}
 		              </div>
 		            </div>
@@ -242,7 +242,7 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.path2 %}
                     	<span class="grid-article-card-meta">{{ post.path2 | upcase | replace: '-', ' ' | truncate: 24 }}</span>
                   	{% endif %}

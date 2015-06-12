@@ -237,7 +237,7 @@ $(function() {
             if(dateClean !== '') str+='</div></div></section>';
             strHeader = '';
             strHeader+='<section><header class="row-liste-index">';
-            strHeader+='<time class="small-12 columns section-brief-header"><h1 class="section-brief-header-titre">'+$(data).find('.section-brief-header').attr('data-week-day')+'<span class="section-brief-header-baseline">'+$(data).find('.section-brief-header-baseline').html()+'</span></h1></time>';
+            strHeader+='<time class="small-12 columns text-center section-brief-header"><h1 class="section-brief-header-titre">'+$(data).find('.section-brief-header').attr('data-week-day')+'<span class="section-brief-header-baseline">'+$(data).find('.section-brief-header-baseline').html()+'</span></h1></time>';
             strHeader+='</header><div class="row-liste-index"><div class="small-12 columns section-brief-panel date-'+$(data).find('.section-brief-header').attr('data-cleaned')+'"></div></div></section>';
             $('.note-index').append(strHeader);
           }

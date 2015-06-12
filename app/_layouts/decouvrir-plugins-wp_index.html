@@ -124,47 +124,44 @@ layout: default
 	    <span class="section-header-titre">{{ length }} plugins WordPress</span>
 	  </div>
 	</div>
-	
+
 	<!-- list items
 	================================================== -->
 	<div class="row">
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'themes-wordpress' %}current-page{% endif %}" {% if page.category == 'plugins-wordpress' %}data-page="plugins-wordpress"{% endif %} data-equalizer>
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'plugins-wordpress' %}current-page{% endif %}" {% if page.category == 'plugins-wordpress' %}data-page="plugins-wordpress"{% endif %} data-equalizer>
 
 			<!-- Upload yours
 			================================================== -->
 			<li>
-        <article class="js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
-          <div class="carte-article-secondaire mod-article-1-col row collapse">
-            <div class="small-12 columns carte-article-secondaire-container-action">
-	          	<p class="carte-article-secondaire-action-texte text-center">
-	          		<a class="typeform-share link carte-article-secondaire-action-link" href="https://magazineduwebdesign.typeform.com/to/VhkhK9" data-mode="2" target="_blank"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>SUGGERER</a>
-								<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-	          	</p>
-            </div>
-          </div>
+        <article class="js-postcount grid-article-card mod-add-new" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+          <div class="row collapse">
+            <a class="typeform-share link grid-article-card-info mod-add-new mod-no-thumbnail small-12 columns"  href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
+            	<h1 class="grid-article-card-title mod-add-new" itemprop="headline"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
+		        </a>
+		        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+           </div>
         </article>
 			</li>
-
+			
 			<!-- list all items
 			================================================== -->
 			{% if page.category == 'plugins-wordpress' %}
 				{% if site.categories.plugins-wordpress %}
-					{% for post in site.categories.plugins-wordpress limit: 6 %}
+					{% for post in site.categories.plugins-wordpress limit: 20 %}
 					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}">
-		          <article class="carte-article-secondaire mod-article-1-col js-postcount" itemscope="" itemtype="http://schema.org/Article"  data-equalizer-watch>
+	          <article class="js-postcount grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            <div class="row collapse">
-		              <div class="small-12 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title | truncate: 33 }}</h1>
-		              	{% if post.price %}
-	              			<span class="label-price">{{ post.price }}</span>
-	              		{% endif %}
-		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
+		              <div class="grid-article-card-info mod-no-thumbnail small-12 columns">
+		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	{% if post.intro %}
+                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+                  	{% endif %}
 		              </div>
 		            </div>
-		          </article>
-						</a>
+			        </a>
+	          </article>
 					</li>
 					{% endfor %}
 					<li>{% include custom/cartes/carte_nl-in-grid-index.html %}</li>
@@ -177,21 +174,20 @@ layout: default
 			================================================== -->
 			{% else %}
 				{% if site.tags[page.tags] %}
-					{% for post in site.tags[page.tags] limit: 6 %}
+					{% for post in site.tags[page.tags] limit: 20 %}
 					<li>
-						<a href="{{ post.url | prepend: site.baseurl }}">
-		          <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            <div class="row collapse">
-		              <div class="small-12 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">{{ post.title | truncate: 33 }}</h1>
-		              	{% if post.price %}
-	              			<span class="label-price">{{ post.price }}</span>
-	              		{% endif %}
-		              	<p class="carte-article-secondaire-post-description">{{ post.intro | truncate: 80 }}</p>
+		              <div class="grid-article-card-info mod-no-thumbnail small-12 columns">
+		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	{% if post.intro %}
+                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+                  	{% endif %}
 		              </div>
 		            </div>
-		          </article>
-						</a>
+			        </a>
+	          </article>
 					</li>
 					{% endfor %}
 					<li>{% include custom/cartes/carte_nl-in-grid-index.html %}</li>
