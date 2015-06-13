@@ -55,29 +55,30 @@ http://magazineduwebdesign.com/emploi/
 			  <div class="header-article-bgimg-shadow">
 			    <div class="header-article-bgimg-conteneur">
 				    <div class="header-article-bgimg-cellule">
-				    {% else %}{% endif %}
-
-				      <header class="row-body-article text-center">
-				        <div class="column-header-article" >
-				          <h1>{{ page.title }}</h1>
-				        </div>
-				      </header>
-
+	    {% else %}
+				<div class="header-liste u-no-padding-top">
+	    {% endif %}
+      <header class="row-liste-index text-center">
+        <div class="column-header-article" >
+          <h1>{{ page.title }}</h1>
+        </div>
+      </header>
 			{% if page.bgimgheader == true %}
 					  </div>
 			    </div>
 			  </div>
 			</div>
 
-			{% if page.image-legende %}
-		  <div class="row-body-article">
-		  	<div class="column-article-featured-image-caption">
-		  		<p>{{ page.image-legende }}</p>
-		  	</div>
-		  </div>
-		  {% endif %}
+				{% if page.image-legende %}
+			  <div class="row-body-article">
+			  	<div class="column-article-featured-image-caption">
+			  		<p>{{ page.image-legende }}</p>
+			  	</div>
+			  </div>
+			  {% endif %}
 			
 			{% else %}
+				</div>
 				{% if page.image %}
 				<div class="row-article-featured-image">
 				  <div class="column-article-featured-image">

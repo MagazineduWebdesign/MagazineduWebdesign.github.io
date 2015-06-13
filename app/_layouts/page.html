@@ -10,18 +10,14 @@ layout: default
 	  <div class="header-article-bgimg-shadow">
 	    <div class="header-article-bgimg-conteneur">
 		    <div class="header-article-bgimg-cellule">
-		    {% else %}{% endif %}
-
-		    {% if page.svg %}
-				<!-- Beautiful svg background generated on notegraphy.com
-			  ==> https://notegraphy.com/
-			  ================================================== -->
-			  {% endif %}
-		      <header class="row-body-article {% if page.svg %}header-bg-svg{% endif %}" {% if page.svg %} style="background-image: url({{ page.svg | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/integration/' }});"{% endif %}>
-		        <div class="column-header-article" >
-		          <h1>{{ page.title }}</h1>
-		        </div>
-		      </header>
+	{% else %}
+		<div class="header-liste u-no-padding-top">
+	{% endif %}
+  <header class="row-body-article {% if page.svg %}header-bg-svg{% endif %}">
+    <div class="column-header-article" >
+      <h1>{{ page.title }}</h1>
+    </div>
+  </header>
 
 	{% if page.bgimgheader == true %}
 			  </div>
@@ -29,15 +25,16 @@ layout: default
 	  </div>
 	</div>
 
-	{% if page.image-legende %}
-  <div class="row-body-article">
-  	<div class="column-article-featured-image-caption">
-  		<p>{{ page.image-legende }}</p>
-  	</div>
-  </div>
-  {% endif %}
+		{% if page.image-legende %}
+	  <div class="row-body-article">
+	  	<div class="column-article-featured-image-caption">
+	  		<p>{{ page.image-legende }}</p>
+	  	</div>
+	  </div>
+	  {% endif %}
 	
 	{% else %}
+		</div>
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">

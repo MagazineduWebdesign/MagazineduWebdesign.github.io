@@ -11,7 +11,9 @@ layout: default
 	  <div class="header-article-bgimg-shadow">
 	    <div class="header-article-bgimg-conteneur">
 		    <div class="header-article-bgimg-cellule">
-		    {% else %}{% endif %}
+{% else %} 
+	<div class="header-liste u-no-padding-top">
+{% endif %}
 		      <header class="row-body-article">
 		        <div class="column-header-article">
 		          <h1 class="headline-post" itemprop="headline">{{ page.title }}</h1>
@@ -28,15 +30,16 @@ layout: default
 	  </div>
 	</div>
 
-	{% if page.image-legende %}
-  <div class="row-body-article">
-  	<div class="column-article-featured-image-caption">
-  		<p>{{ page.image-legende }}</p>
-  	</div>
-  </div>
-  {% endif %}
+		{% if page.image-legende %}
+	  <div class="row-body-article">
+	  	<div class="column-article-featured-image-caption">
+	  		<p>{{ page.image-legende }}</p>
+	  	</div>
+	  </div>
+	  {% endif %}
 	
 	{% else %}
+		</div>
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">
