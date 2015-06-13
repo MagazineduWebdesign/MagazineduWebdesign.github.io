@@ -171,5 +171,38 @@ layout: default
 	</div>
 	
 	<div class="infinite-spinner"></div>
+	
+	<!-- list all section's categories
+	================================================== -->
+	<section>
+		<div class="row">
+		  <div class="small-12 columns section-carte-header-no-bg">
+		    <h1 class="section-carte-header-title-big text-center">Trouvez l'inspiration en explorant ces collections</h1>
+		  </div>
+		</div>
 
+		<div class="row">
+		  <div class="small-12 columns">
+		    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+		    
+		    {% for item in site.data.inspirer.inspirer-entries %}
+		    	<li role="menuitem">
+		        <a class="carte-article-secondaire-action-link" href="{{ item.permalink }}" title="Explorer les {{ item.name }}">
+		          <article class="carte-article-secondaire mod-article-1-col" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+		            <div class="row">
+		              <div class="small-12 columns carte-article-secondaire-container-action">
+		                <p class="carte-article-secondaire-action-texte text-center">
+		                  {{ item.name }}
+		                </p>
+		              </div>
+		            </div>
+		          </article>
+		        </a>
+		      </li>
+      	{% endfor %}
+
+		    </ul>
+		  </div>
+		</div>
+	</section>
 </section>

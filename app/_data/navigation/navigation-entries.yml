@@ -1,0 +1,23 @@
+- name: LIRE
+  permalink: /lire/
+
+- name: VOIR
+  permalink: /videos/
+
+- name: S'INSPIRER
+  permalink: /inspiration/
+
+- name: D&Eacute;COUVRIR
+  permalink: /decouvrir/
+
+- name: APPRENDRE
+  permalink: /apprendre/
+
+- name: JOBS 
+  permalink: /emploi/
+
+- name: EVENEMENTS
+  permalink: /evenements/
+
+- name: COLLECTIONS
+  permalink: /collections/
