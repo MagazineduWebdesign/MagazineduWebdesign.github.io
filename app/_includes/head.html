@@ -32,24 +32,25 @@
 
   <!-- favicon
   ================================================== -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/mdw-img/large/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/mdw-img/large/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/mdw-img/large/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/mdw-img/large/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/mdw-img/large/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/mdw-img/large/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/mdw-img/large/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/mdw-img/large/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/mdw-img/large/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/mdw-img/large/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/mdw-img/large/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/mdw-img/large/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/mdw-img/large/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="https://s3-eu-west-1.amazonaws.com/mdw-img/large/manifest.json">
   <meta name="apple-mobile-web-app-title" content="Magazine du Webdesign">
   <meta name="application-name" content="Magazine du Webdesign">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mdw-img/large/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="https://s3-eu-west-1.amazonaws.com/mdw-img/large/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
@@ -64,7 +65,7 @@
   <meta property="article:author" content="https://twitter.com/MagDuWebdesign" />
   <meta property="og:site_name" content="Magazine du Webdesign" />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | prepend:'/mdw-img/medium/' }}" />
+  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" />
   {% endif %}
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -73,7 +74,7 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}">
   {% if page.image %}
-  <meta name="twitter:image:src" content="{{ page.image | prepend:'/mdw-img/medium/' }}" />
+  <meta name="twitter:image:src" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" />
   {% endif %}
 
 </head>
