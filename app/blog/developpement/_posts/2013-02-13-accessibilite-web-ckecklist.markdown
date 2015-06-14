@@ -29,27 +29,27 @@ viatitle:
 <li><label><input type="checkbox" name="condgen" value="OK"> Utilisation du tag <code>title</code> pour nommer les pages et indiquer la nature de leurs contenus ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Présence de l’attribut <code>lang</code> définissant la langue du document ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Mise en place de la technologie <a href="http://www.w3.org/TR/wai-aria/" title="www.w3.org/TR/wai-aria" target="_blank">WAI-ARIA</a> (Web Accessibility Initiative’s Accessible Rich Internet Applications) permettant la définition des rôles et des états de chaque élément HTML ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Les sections du document sont hiérarchisées via les headings <code>h1</code> à <code>h6</code> et l’emploi de la technologie ARIA ?</label><br><small>L’utilisation des balises sémantiques HTML5 pour définir le DOM d’un document n’est pas déconseillée, néanmoins toutes les technologies d’assistance ne sont pas encore compatibles. Testez la structure de votre document avec l’outil <a href="http://gsnedders.html5.org/outliner/" title="HTML5 Outliner" target="_blank">HTML5 Outliner</a></small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Les sections du document sont hiérarchisées via les headings <code>h1</code> à <code>h6</code> et l’emploi de la technologie ARIA ?</label><small>L’utilisation des balises sémantiques HTML5 pour définir le DOM d’un document n’est pas déconseillée, néanmoins toutes les technologies d’assistance ne sont pas encore compatibles. Testez la structure de votre document avec l’outil <a href="http://gsnedders.html5.org/outliner/" title="HTML5 Outliner" target="_blank">HTML5 Outliner</a></small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Indication des headers de tableaux via l’utilisation de la balise <code>th</code> ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Chaque tableau dispose d’un sommaire ? </label><br><small>&lt;table border="0" summary="Calendrier mensuel des événements de… "&gt;</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Chaque tableau dispose d’un sommaire ? </label><small>&lt;table border="0" summary="Calendrier mensuel des événements de… "&gt;</small></li>
 </fieldset>
 <fieldset>
 <legend style="margin-bottom: 1em;">
 <h2>Accessibilité, design et contenus</h2>
 </legend>
 <li><label><input type="checkbox" name="condgen" value="OK">&nbsp;Les contenus sont lisibles lorsque les images sont désactivées ? </label> <small>Prêtez attention au contraste de couleur entre les textes et leur background.</small></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Le contraste entre l’arrière-plan et le premier plan de votre design est suffisant ? </label><br><small>Faites le test avec l’outil <a href="http://leaverou.github.com/contrast-ratio/" title="Contrast Ratio" target="_blank">Contrast Ratio</a>.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Le contraste entre l’arrière-plan et le premier plan de votre design est suffisant ? </label><small>Faites le test avec l’outil <a href="http://leaverou.github.com/contrast-ratio/" title="Contrast Ratio" target="_blank">Contrast Ratio</a>.</small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Les tests effectués avec <a href="http://colorfilter.wickline.org/" title="color filter" target="_blank">Color filter</a> pour les déficiences visuelles communes sont concluants ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> La taille de police s’adapte en fonction des paramètres définis par l’utilisateur dans son navigateur ? </label><br><small>Emploi des unités relatives (em) vs unités fixes (px).</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> La taille de police s’adapte en fonction des paramètres définis par l’utilisateur dans son navigateur ? </label><small>Emploi des unités relatives (em) vs unités fixes (px).</small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> La taille de police est supérieure à 0.625em (10px) ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Les contenus sont accessibles et lisibles quand l’utilisateur double la taille de police ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> La longueur des lignes est comprise entre 55 et 75 caractères espaces compris ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Les titres et les liens sont facilement reconnaissables par l’utilisateur ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Les titres et les ancres de liens sont explicites pour l’utilisateur ?</label><br><small>Bannir le <em>cliquez ici</em>.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Les titres et les ancres de liens sont explicites pour l’utilisateur ?</label><small>Bannir le <em>cliquez ici</em>.</small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Les liens dont l’ancre n’est pas explicite pour l’utilisateur sont accompagnés d’une description à l’aide de l’attribut <code>title</code> ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Aucun élément de la page ne produit des flashs ou des clignotements plus de 3 fois par seconde ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> L’indicateur de focus est visible lorsque l’utilisateur navigue à l’aide du clavier ?</label><br><small>Utilisation des pointillés standards ou d’indicateurs indépendants de la couleur.</small></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> La compréhension du contenu ne dépend pas d’un élément graphique ? </label><br><small>Exemple : <em>l’item en rouge est une erreur nécessitant une correction de votre part</em>.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> L’indicateur de focus est visible lorsque l’utilisateur navigue à l’aide du clavier ?</label><small>Utilisation des pointillés standards ou d’indicateurs indépendants de la couleur.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> La compréhension du contenu ne dépend pas d’un élément graphique ? </label><small>Exemple : <em>l’item en rouge est une erreur nécessitant une correction de votre part</em>.</small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> L’<a href="http://webaim.org/techniques/screenreader/" title="webaim.org - screenreader" target="_blank">ordre de lecture</a> pour les lecteurs d’écran est similaire à l’ordre visuel ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Chaque élément d’une page est accessible et manipulable via l’utilisation du clavier ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Mise à disposition de raccourcis clavier pour les principales fonctionnalités du site ?</label></li>
@@ -79,8 +79,8 @@ viatitle:
 </legend>
 <li><label><input type="checkbox" name="condgen" value="OK"> Structuration logique des formulaires ?</label></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Présence de l’élément <code>label</code> pour chaque item du formulaire (<code>input</code>, <code>select</code>, etc) ?</label></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Les champs sont accompagnés d’un label explicite ou disposent d’une aide lorsque cela est nécessaire ?</label><br><small>Exemple : <em>Code de sécurité situé au dos de votre CB</em>.</small></li>
-<li><label><input type="checkbox" name="condgen" value="OK"> Utilisation de l’élément <code>fieldset</code> et <code>legend</code> pour les boutons radio et les check boxes lorsque ces derniers appartiennent à un même ensemble? </label><br><small>Exemple : un formulaire demandant de choisir entre A ou B, sa légende est <em>Votre choix ?</em>, cette dernière et les deux options sont encapsulées dans l’élément <code>fieldset</code>.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Les champs sont accompagnés d’un label explicite ou disposent d’une aide lorsque cela est nécessaire ?</label><small>Exemple : <em>Code de sécurité situé au dos de votre CB</em>.</small></li>
+<li><label><input type="checkbox" name="condgen" value="OK"> Utilisation de l’élément <code>fieldset</code> et <code>legend</code> pour les boutons radio et les check boxes lorsque ces derniers appartiennent à un même ensemble? </label><small>Exemple : un formulaire demandant de choisir entre A ou B, sa légende est <em>Votre choix ?</em>, cette dernière et les deux options sont encapsulées dans l’élément <code>fieldset</code>.</small></li>
 <li><label><input type="checkbox" name="condgen" value="OK"> Les erreurs du formulaire sont notifiées via un texte situé à proximité du champ en cause ou sont listées en haut de page et disposent chacune d’une ancre pointant vers le champ incriminé ?</label></li>
 </fieldset>
 <fieldset>
@@ -92,19 +92,18 @@ viatitle:
 </fieldset>
 </ol>
 </form>
-<p class="total">Score : 0/40</p><p>N’oubliez pas de partager votre score dans les commentaires afin de nous montrer à quel point vous êtes un expert de l’<strong>accessibilité Web</strong>.<br>
+<p class="total">Score : 0/40</p><p>N’oubliez pas de partager votre score dans les commentaires afin de nous montrer à quel point vous êtes un expert de l’<strong>accessibilité Web</strong>.
 Pour en savoir plus sur l’accessibilité Web, consultez le site de l’<a href="http://www.e-accessibility.info/fr/accueil/" target="_blank" title="Association e-accessibility">association e-accessibility</a>.</p>
 
 
 <script type="text/javascript">
 /* Score total */
-var $j = jQuery.noConflict();
 window.onload = function() {
 var scoretotal = function() {
-var n = $j( "input:checked" ).length;
-$j( "p.total" ).text( "Score : " + n + "/40" );
+var n = $( "input:checked" ).length;
+$( "p.total" ).text( "Score : " + n + "/40" );
 };
 scoretotal();
-$j( "input[type=checkbox]" ).on( "click", scoretotal );
+$( "input[type=checkbox]" ).on( "click", scoretotal );
 };
 </script> 
