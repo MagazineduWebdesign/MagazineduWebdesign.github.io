@@ -368,7 +368,20 @@ module.exports = function (grunt) {
             'favicon-96x96.png',
             'favicon-16x16.png',
             'manifest.json',
-            'mstile-144x144.png'
+            'mstile-144x144.png',
+            'android-chrome-144x144.png',
+            'android-chrome-36x36.png',
+            'android-chrome-48x48.png',
+            'android-chrome-72x72.png',
+            'android-chrome-96x96.png',
+            'apple-touch-icon-precomposed.png',
+            'apple-touch-icon.png',
+            'browserconfig.xml',
+            'favicon.ico',
+            'mstile-150x150.png',
+            'mstile-310x150.png',
+            'mstile-310x310.png',
+            'mstile-70x70.png'
             //'favicon.ico',
             //'apple-touch*.png'
           ],
