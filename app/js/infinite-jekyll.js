@@ -46,11 +46,6 @@ $(function() {
           urlJson = '/articles-cat_wordpress.json';
         break;
 
-        // videos
-        case 'videos':
-          urlJson = '/articles-videos.json';
-        break;
-
         // divers
         case 'collections':
           urlJson = '/collections.json';
@@ -193,29 +188,7 @@ $(function() {
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
-
-        // videos
-        case 'videos':
-          str+='<li><article class="js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>';
-          // video-thumbnail
-          str+='<div class="row collapse">';
-            str+='<div class="small-12 columns carte-article-secondaire-thumbnail" style="background-image: url('+$(data).find('.figure-video').attr('data-is-video')+');">';
-              str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
-              str+= $(data).find('.secret-vimeo-thumbnail').html();
-                str+='<div class="gradient-shadow-img">';
-                  str+='<svg class="gradient-shadow-img-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16 10v28l22-14z" fill="#FFFFFF"/></svg>';
-                str+='</div>';
-              str+='</a>';
-            str+='</div>';
-          str+='</div>';
-          // video-title
-          str+='<a href="'+postURL+'" title="'+$(data).find('.header-liste-headline').html()+'">';
-          str+='<div class="carte-article-secondaire mod-article-thumbnail-1-col row collapse"><div class="small-12 columns">';
-          str+='<h1 class="carte-article-secondaire-post-title mod-small-title" itemprop="headline">'+$(data).find('.header-liste-headline').html()+'</h1>';
-          str+='</div></div></a></article></li>';
-          $('.small-block-grid-1').append(str);
-          break;
-
+          
         // divers
         case 'encyclos':
           str+='<a href="'+postURL+'" title="'+$(data).find('.encyclo-title-def').html()+'">';

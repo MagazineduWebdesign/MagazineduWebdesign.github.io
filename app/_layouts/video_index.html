@@ -6,10 +6,10 @@ layout: default
 
 <section>
 	<div class="header-liste">
-	  <header class="row-liste-index">
+	  <header class="row-liste-index text-center">
 	    <div class="small-12 columns">
-	    	<h1 class="header-liste-headline text-center">{{ page.title }}</h1>
-				<p class="header-liste-content text-center">
+	    	<h1 class="header-liste-headline">{{ page.title }}</h1>
+				<p class="header-liste-content">
 					{{ page.intro }} 
 					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags={{ page.tag }}" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -22,14 +22,9 @@ layout: default
               C139.604,378.282,94.846,390.721,50,385.436c37.406,23.982,81.837,37.977,129.571,37.977c156.932,0,245.595-132.551,240.251-251.435
               C436.339,160.061,450.668,145.174,462,128.223z" fill="#00ACED" />
             </svg>
-          </a>
+          </a> 
 	      </p>
-        <div class="yt-subscribe mod-videos-index">
-	      	<span>Abonnez-vous à MDW VIDEOS</span>
-	      	<div class="yt-subscribe-cta">
-      		<script src="https://apis.google.com/js/platform.js"></script>
-					<div class="g-ytsubscribe" data-channelid="UCd1PMrs5t1mOVrf-DlygcDA" data-layout="default" data-count="hidden"></div>
-				</div>
+        <p>Accédez au meilleur des interfaces sur YouTube <a class="button radius button-subscribe-youtube" href="https://www.youtube.com/channel/UCd1PMrs5t1mOVrf-DlygcDA" title="Abonnez-vous à la chaîne YouTube du MDW" target="_blank"><svg class="ic-block-h18" fill="#FFFFFF" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z"/><path d="M0 0h24v24H0z" fill="none"/></svg> ABONNEZ-VOUS</a></p>
        </div>
      </header> 
 		
@@ -144,7 +139,7 @@ layout: default
 	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'videos' %}current-page{% endif %}" {% if page.category == 'videos' %}data-page="videos"{% endif %}>
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
 
 			<!-- Upload yours
 			================================================== -->

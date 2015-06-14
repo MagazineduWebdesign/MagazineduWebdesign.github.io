@@ -126,6 +126,7 @@ $twitter:#00ACED;
 $facebook:#3B5998;
 $googleplus:#CC3732;
 $linkedin:#0077B5;
+$youtube:#E62117;
 // color gradient (via the awesome tool http://uigradients.com/)
 .cherry{background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%);}
 .kashmir{background: linear-gradient(90deg, #614385 10%, #516395 90%);}
@@ -683,6 +684,12 @@ $linkedin:#0077B5;
 // button
 .button-without-border{@include button($bg:false, $radius:2px); margin-bottom:0;}
 .button-without-bg{@include button($bg:false, $radius:2px);border:1px solid $primary-color}
+.button-subscribe-youtube{
+	@include button($bg:$youtube, $radius:2px);
+	margin-bottom: 0;
+	padding: rem-calc(5 8 3 8);
+	font-size: rem-calc(12);
+}
 
 // breadcrumb
 .breadcrumbs{margin-bottom:rem-calc(0)}
@@ -700,6 +707,7 @@ $linkedin:#0077B5;
 .ic_block-h64-no-text{display:inline-block;vertical-align:middle;margin:rem-calc(0)}
 .ic_block-h64-chevron{display:inline-block;vertical-align:middle;margin-left:rem-calc(4)}
 .ic-block-h24{display:inline-block;vertical-align:middle;margin:rem-calc(-2 8 0 0)}
+.ic-block-h18{display:inline-block;vertical-align:middle;margin:rem-calc(-2 4 0 0)}
 .ic-block-h24--share{display:inline-block;vertical-align:middle;margin-top:rem-calc(-4)}
 .ic-block-h48{display:inline-block;vertical-align:middle;margin-right:rem-calc(8)} 
 .ic-block-h48-title-left{position:relative;top:rem-calc(12);margin:rem-calc(0 8 8 0)} 
@@ -1350,23 +1358,6 @@ background-position: center}
 		.videos-relatives-carte-article-thumbnail{
 			border: 1px solid $secondary-color;
 		}
-.yt-subscribe{
-	@include item-row;
-	display:block;
-	margin-bottom:rem-calc(24);
-	border-bottom: 1px solid $secondary-color;
-	text-align: center;
-	line-height: rem-calc(48);
-	color:$aluminum
-}
-.yt-subscribe.mod-videos-index{
-	border-bottom: 0;
-}
-.yt-subscribe-cta{
-	display: inline-block;
-	margin: rem-calc(0 8 -14);
-	vertical-align: middle;
-}
 
 // 00. SECTION CITATION
 // - - - - - - - - - - - - - - - - - - - - - - - - - 
