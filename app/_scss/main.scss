@@ -687,8 +687,19 @@ $youtube:#E62117;
 .button-subscribe-youtube{
 	@include button($bg:$youtube, $radius:2px);
 	margin: rem-calc(0 0 0 8);
-	padding: rem-calc(5 8 3 8);
+	padding: rem-calc(5 12 3 8);
 	font-size: rem-calc(11);
+}
+.button-subscribe-twitter{
+	@include button($bg:$white, $radius:2px);
+	margin: rem-calc(0 0 0 8);
+	padding: rem-calc(5 12 3 12);
+	font-size: rem-calc(11);
+}
+@media #{$small-only} {
+	.button-subscribe-twitter{
+		margin-top:rem-calc(16);
+	}
 }
 
 // breadcrumb
@@ -969,11 +980,6 @@ figcaption{
 	border: 0;
 	border-radius: $global-radius;
 }
-.panel-twitter a {
-  color:$white;
-  font-weight:$font-weight-bold
-}
-.panel-twitter a:hover {color:scale-color($white, $lightness: -16%)}
 .index-wide-carte-twitter{
 	margin-top: rem-calc(24);
 }
@@ -984,11 +990,6 @@ figcaption{
 	}
 	.carte-twtr-text.mod-carte-twtr-in-post{
 		line-height:rem-calc(24)!important;
-	}
-	@media #{$small-only} {
-		.carte-twtr-text{
-			margin-bottom:$rem-base;
-		}
 	}
 	@media #{$large-up} {
 		.carte-twtr-text{ 
