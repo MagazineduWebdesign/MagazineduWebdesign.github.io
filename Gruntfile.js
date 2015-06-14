@@ -353,7 +353,22 @@ module.exports = function (grunt) {
             '_bower_components/swiper/dist/css/swiper.min.css',
             '/_bower_components/fluidbox/jquery.fluidbox.min.js',
             '/_bower_components/fluidbox/css/fluidbox.css',
-            '/_bower_components/jquery-vimeothumb/jquery-vimeothumb.min.js'
+            '/_bower_components/jquery-vimeothumb/jquery-vimeothumb.min.js',
+            'apple-touch-icon-57x57.png',
+            'apple-touch-icon-60x60.png',
+            'apple-touch-icon-72x72.png',
+            'apple-touch-icon-76x76.png',
+            'apple-touch-icon-114x114.png',
+            'apple-touch-icon-120x120.png',
+            'apple-touch-icon-144x144.png',
+            'apple-touch-icon-152x152.png',
+            'apple-touch-icon-180x180.png',
+            'favicon-32x32.png',
+            'android-chrome-192x192.png',
+            'favicon-96x96.png',
+            'favicon-16x16.png',
+            'manifest.json',
+            'mstile-144x144.png'
             //'favicon.ico',
             //'apple-touch*.png'
           ],
