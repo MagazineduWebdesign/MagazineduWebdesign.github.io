@@ -10,7 +10,7 @@ tags:
 element-ui:
 element-ui-url:
 url-demo: "http://www.designplusdata.com/"
-image: "code-art-1.jpg"
+image: "code-art-1.JPG"
 image-2: "code-art-2.jpg"
 intro: "Un code source, des données exotiques et de la dataviz. Le cocktail pour réaliser et vendre un poster."
 auteur: "MagazineDuWebdesign"
