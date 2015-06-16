@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %}
+<article>
+  <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
+    <header class="row-body-article medium-uncollapse large-collapse">
+      
+      <div class="column-header-article mod-header-article-no-margin-top row collapse">
+        <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
+        </div>
+        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
+          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small primary" target="_blank">DEMO</a>{% endif %}
+        </div>
+      </div>
+
+      <div class="row-body-article">
+        
+        <!-- screenshots
+        ================================================== -->
+        <div class="column-body-article">
+          {% if page.image %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery">
+            <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 1 - {{ page.title }}">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-2 %}
+          <figure class="gallery figure-img">
+            <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
+              <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 2 - {{ page.title }}">
+            </a>
+          </figure>
+          {% endif %}
+        </div>
+
+      </div>
+
+    </header>
+  </div>
+
+  <div class="row-body-article item-contenu">
+    <main class="column-body-article mod-article-left-body">
+      {{ content }}
+      {% include custom/sections/article_footer_left.html %}
+    </main>
+    <div class="article-meta-data-right mod-article-contenu-meta-data">
+      {% include custom/cartes/carte_post-a-job-in-article_right.html %}
+    </div>
+  </div>
+
+</article>
