@@ -7,6 +7,31 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Beep 2</title>
+				        
+				
+					<description>&lt;p&gt;Designmatters weekly show about the people who design our favorite products. Hosted by Bryn Jackson and Brian Lovin.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 21 Jun 2015 17:23:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/podcast-2</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/podcast-2</guid>
+			</item>
+		
+			<item>
+				<title>Beep Beep I Like Ferns Beep (feat. Sebastiaan De With)</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 21 Jun 2015 17:23:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/podcast-1</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/podcast-1</guid>
+			</item>
+		
+			<item>
 				<title>Design + Data</title>
 				        
 				
@@ -948,7 +973,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<title>Le modèle Objective-Based Design – Une approche holistique du design de produit</title>
 				        
 				
-					<description>&lt;p&gt;Cette approche du design permet de réduire au maximum les frictions des utitisateurs en gardant en ligne de mire les objectifs du projet &amp;amp; du business. Un modèle de design s’inspirant largement d’autres modèles de pensée tels que le Build, Measure, Learn du courant &lt;a href=&quot;http://theleanstartup.com/principles&quot; target=&quot;_blank&quot;&gt;Lean Startup&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://www.gv.com/sprint/&quot; target=&quot;_blank&quot;&gt;le Design Sprint&lt;/a&gt; de Google Ventures.&lt;/p&gt;
+					<description>&lt;p&gt;Cette approche du design permet de réduire au maximum les frictions des utilisateurs en gardant en ligne de mire les objectifs du projet &amp;amp; du business. Un modèle de design s’inspirant largement d’autres modèles de pensée tels que le Build, Measure, Learn du courant &lt;a href=&quot;http://theleanstartup.com/principles&quot; target=&quot;_blank&quot;&gt;Lean Startup&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://www.gv.com/sprint/&quot; target=&quot;_blank&quot;&gt;le Design Sprint&lt;/a&gt; de Google Ventures.&lt;/p&gt;
 
 </description>
 				
@@ -2184,7 +2209,10 @@ Prenez soin de vous !&lt;/p&gt;
 				
 					<description>&lt;p&gt;La fonctionnalité est disponible dès à présent, vous pouvez donc l’implémenter sur votre site en quelques lignes de codes.&lt;/p&gt;
 &lt;h2&gt;Le bouton Save to Drive en action&lt;/h2&gt;
-&lt;div id=&quot;attachment_5153&quot; class=&quot;wp-caption alignnone&quot; style=&quot;width: 565px&quot;&gt;&lt;img class=&quot;size-full wp-image-5153&quot; title=&quot;save-to-drive-en-action&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/save-to-drive-en-action.jpg&quot; alt=&quot;save-to-drive-en-action&quot; width=&quot;555&quot; height=&quot;541&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Le bouton «&amp;nbsp;Save to Drive&amp;nbsp;» en action&lt;/p&gt;&lt;/div&gt;
+&lt;figure class=&quot;figure-img&quot;&gt;
+  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/save-to-drive-en-action.jpg&quot; alt=&quot;save-to-drive-en-action&quot; width=&quot;555&quot; height=&quot;541&quot; /&gt;
+  &lt;figcaption&gt;Le bouton « Save to Drive » en action&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Si vous souhaitez le mettre en place sur votre site Web, insérez le code HTML suivant :&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”http://apis.google.com/js/plusone.js”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
@@ -4127,48 +4155,18 @@ Couplez &lt;strong&gt;Gravity Forms&lt;/strong&gt; à un de ses nombreux add-ons
 					<description>&lt;p&gt;De nombreux webdesigners l’emploient aujourd’hui pour le redesign ou la réalisation de nouveaux sites Web et applications. Cette tendance popularisée par le Metro style de Windows 8 et la refonte de l’univers Google, fait des émules dans de multiples créations.&lt;/p&gt;
 &lt;h2&gt;Flat design – une question de typographie ?&lt;/h2&gt;
 &lt;p&gt;Certains vous diront que le &lt;strong&gt;flat design&lt;/strong&gt; ne s’apparente pas à un style ou à une période mais plutôt aux bases fondamentales du design graphique. Une utilisation efficace de la couleur, de la typographie et de l’espace pour communiquer un message.&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a onclick=&quot;_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad 468x60 top article', 7]);&quot; href=&quot;http://designmodo.com/flat?u=356&quot; rel=&quot;attachment wp-att-5728&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-5728&quot; title=&quot;flatui_kit-psd-html-small&quot; src=&quot;http://magazineduwebdesign.com/wp-content/uploads/2013/01/flatui_kit-psd-html-small.jpg&quot; alt=&quot;flatui_kit-psd-html&quot; width=&quot;468&quot; height=&quot;60&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Aucune 3d-ification, ni surcharge du design par des effets de textures, de profondeurs ou de dégradés. La simplicité prime avant tout.&lt;/p&gt;
 &lt;p&gt;Le design se limite à l’emploi de couleurs souvent très vives et la typographie y occupe une place prédominante. Le flat design prône la clarté et la lisibilité.&lt;/p&gt;
-&lt;div id=&quot;attachment_3727&quot; class=&quot;wp-caption aligncenter&quot; style=&quot;width: 565px&quot;&gt;&lt;a title=&quot;Flat design - The experiential&quot; href=&quot;http://theexperiential.com/&quot; rel=&quot;attachment wp-att-3727&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;size-full wp-image-3727&quot; title=&quot;Exemple flat design - The Experiential Company &quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/The-Experiential-Company-exemple-flat-design.jpg&quot; alt=&quot;Exemple flat design - The Experiential Company &quot; width=&quot;555&quot; height=&quot;290&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Exemple flat design – The Experiential Company&lt;/p&gt;&lt;/div&gt;
+&lt;figure class=&quot;figure-img&quot;&gt;
+  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/The-Experiential-Company-exemple-flat-design.jpg&quot; alt=&quot;Flat design - The experiential&quot; width=&quot;565&quot; height=&quot;290&quot; /&gt;
+  &lt;figcaption&gt;Exemple flat design – &lt;a title=&quot;Flat design - The experiential&quot; href=&quot;http://theexperiential.com/&quot; target=&quot;_blank&quot;&gt;The Experiential Company&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Cela passe par l’utilisation d’une police&amp;nbsp;sans-serif&amp;nbsp;de grande taille. Les textes sont concis, l’accent est mis de préférence sur le message. La forme sert l’information de manière simple via une mise en page proposant de grands espaces vides.&lt;/p&gt;
 &lt;p&gt;C’est par sa quête de la simplicité et son affection pour la typographie que le flat design peut être apparenté au &lt;strong&gt;Swiss style&lt;/strong&gt;, aussi connu sous la dénomination d’International typographic style.&lt;/p&gt;
-&lt;div id=&quot;attachment_3706&quot; class=&quot;wp-caption aligncenter&quot; style=&quot;width: 510px&quot;&gt;&lt;img class=&quot;size-full wp-image-3706&quot; title=&quot;Erscheinungsbild Flughafen Munchen&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Erscheinungsbild-Flughafen-Munchen.jpg&quot; alt=&quot;Erscheinungsbild Flughafen Munchen&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Erscheinungsbild Flughafen Munchen (Image – &lt;a href=&quot;http://www.flickr.com/photos/9713498@N08/2183737564/in/photostream/&quot;&gt;Alphanumeric&lt;/a&gt;)&lt;/p&gt;&lt;/div&gt;
-&lt;div id=&quot;attachment_3739&quot; class=&quot;wp-caption aligncenter&quot; style=&quot;width: 565px&quot;&gt;&lt;img class=&quot;size-full wp-image-3739 &quot; title=&quot;Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc.jpg&quot; alt=&quot;Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc&quot; width=&quot;555&quot; height=&quot;417&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Karl Gerstner: Review of 5 X 10 Years of Graphic Design etc. (Image -&amp;nbsp;&lt;strong id=&quot;yui_3_7_3_3_1362425545109_1197&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;a id=&quot;yui_3_7_3_3_1362425545109_1196&quot; href=&quot;http://www.flickr.com/photos/hectic_8/&quot;&gt;Andy Hills&lt;/a&gt;)&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Reprenant à son compte les principes du modernisme, le Swiss design a favorisé l’émergence d’un style graphique centré sur le travail de la typographie avec une mise en page parfois étriquée mais le plus souvent très structurée.&lt;/p&gt;
-&lt;p&gt;La mise en valeur du travail typographique se traduit par une utilisation à minima des textures et des illustrations, la préférence allant à l’emploi d’aplats de couleurs et de photographies.&lt;/p&gt;
-&lt;p&gt;On retrouve cette approche graphique dans le flat design. La typographie y occupe une place centrale. C’est elle qui habille et donne un rythme au design par ses variations de tailles, de gras et de couleurs. La photo accompagne les textes et structure la mise en page.&lt;/p&gt;
-&lt;p&gt;&lt;a title=&quot;skype.com&quot; href=&quot;http://www.skype.com/en/&quot; rel=&quot;attachment wp-att-3735&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3041&quot; title=&quot;Site Web Skype&quot; src=&quot;http://magazineduwebdesign.com/wp-content/uploads/2013/01/skype.jpg&quot; alt=&quot;Site Web Skype&quot; width=&quot;555&quot; height=&quot;290&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a title=&quot;wilsonminer.com&quot; href=&quot;http://wilsonminer.com/&quot; rel=&quot;attachment wp-att-3735&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3735&quot; title=&quot;Wilson-Miner&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Wilson-Miner.jpg&quot; alt=&quot;Wilson-Miner&quot; width=&quot;555&quot; height=&quot;265&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a title=&quot;designjudge.co.uk&quot; href=&quot;http://www.designjudge.co.uk/&quot; rel=&quot;attachment wp-att-3736&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3736&quot; title=&quot;design-judge&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/design-judge.jpg&quot; alt=&quot;design-judge&quot; width=&quot;555&quot; height=&quot;265&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Le flat design emprunte en grande partie l’esprit d’un concept graphique apparu dans l’univers du print dont le&amp;nbsp;&lt;strong&gt;Swiss design&lt;/strong&gt;&amp;nbsp;en internationalisa la popularité durant les années 50.&lt;/p&gt;
-&lt;h2&gt;Toujours pas de définition pour le flat design&lt;/h2&gt;
-&lt;p&gt;Je ne me risquerai pas à vous soumettre une définition du flat design. Une aventure bien trop périlleuse pour moi.&lt;/p&gt;
-&lt;p&gt;Néanmoins, des principes de mise en oeuvre peuvent être proposés, comme &lt;a title=&quot;Designmodo - article principes du flat design&quot; href=&quot;http://designmodo.com/flat-design/&quot; target=&quot;_blank&quot;&gt;Designmodo&lt;/a&gt; l’a très bien fait. Pour faire court, selon cet article, le flat design gravite autour de ces 3 fondements :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Focus sur la couleur,&lt;/li&gt;
-&lt;li&gt;Focus sur la typographie,&lt;/li&gt;
-&lt;li&gt;Focus sur la hiérarchisation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;3 termes que l’on peut associer facilement au Swiss style.&lt;/p&gt;
-&lt;p&gt;Si vous souhaitez participer au débat, consultez les différentes discussions concernant la dénomination et la définition du flat design proposées dans&amp;nbsp;&lt;a title=&quot;Branch - Flat design - définition et dénomination&quot; href=&quot;http://branch.com/b/flat-design-needs-a-new-name?ref=group&quot; target=&quot;_blank&quot;&gt;Branch&lt;/a&gt;.&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a onclick=&quot;_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad 468x60 top article', 7]);&quot; href=&quot;http://designmodo.com/flat?u=356&quot; rel=&quot;attachment wp-att-5728&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-5728&quot; title=&quot;flatui_kit-psd-html-small&quot; src=&quot;http://magazineduwebdesign.com/wp-content/uploads/2013/01/flatui_kit-psd-html-small.jpg&quot; alt=&quot;flatui_kit-psd-html&quot; width=&quot;468&quot; height=&quot;60&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Flat design inspiration&lt;/h2&gt;
-&lt;p&gt;Comme le titre de cet article l’indique, il y était question d’inspiration.&amp;nbsp;Consultez ces chefs d’oeuvres de flat design disponibles sur Dribbble pour vous faire une idée de comment vous intégrerez le &lt;a title=&quot;Comment aborder le flat design en 2013 ? 23 exemples à suivre&quot; href=&quot;http://magazineduwebdesign.com/flat-design-23-exemples&quot;&gt;flat design&lt;/a&gt; dans vos prochains projets.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/943079-Webapp-Dashboard&quot; rel=&quot;attachment wp-att-3741&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3741&quot; title=&quot;Dribbble---Afternoon-in-New-York-by-Allan-Grinshtein&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Afternoon-in-New-York-by-Allan-Grinshtein.jpg&quot; alt=&quot;Dribbble---Afternoon-in-New-York-by-Allan-Grinshtein&quot; width=&quot;555&quot; height=&quot;346&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/888592-Scavenger-Hunt&quot; rel=&quot;attachment wp-att-3742&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3742&quot; title=&quot;Dribbble---dbreal.jpg-by-Ben-Garratt&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-dbreal.jpg-by-Ben-Garratt.jpg&quot; alt=&quot;Dribbble---dbreal.jpg-by-Ben-Garratt&quot; width=&quot;555&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/875799-Designer-News&quot; rel=&quot;attachment wp-att-3743&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3743&quot; title=&quot;Dribbble---Designer-News-by-Allan-Grinshtein&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Designer-News-by-Allan-Grinshtein.jpg&quot; alt=&quot;Dribbble---Designer-News-by-Allan-Grinshtein&quot; width=&quot;555&quot; height=&quot;296&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/947782-Freebie-PSD-Flat-UI-Kit&quot; rel=&quot;attachment wp-att-3744&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3744&quot; title=&quot;Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Freebie-PSD-Flat-UI-Kit-by-Riki-Tanone1.jpg&quot; alt=&quot;Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)&quot; width=&quot;555&quot; height=&quot;309&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/896977-Google-Grid&quot; rel=&quot;attachment wp-att-3745&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3745&quot; title=&quot;Dribbble---Google+-Grid-by-Haraldur-Thorleifsson&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Google+-Grid-by-Haraldur-Thorleifsson.jpg&quot; alt=&quot;Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)&quot; width=&quot;555&quot; height=&quot;315&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/917819-iPad-Calendar-Login&quot; rel=&quot;attachment wp-att-3746&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3746&quot; title=&quot;Dribbble---iPad-Calendar-Login&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-iPad-Calendar-Login.jpg&quot; alt=&quot;Dribbble---iPad-Calendar-Login&quot; width=&quot;555&quot; height=&quot;299&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/567475-Afternoon-in-New-York&quot; rel=&quot;attachment wp-att-3747&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3747&quot; title=&quot;Dribbble---iPad-Calendar-Login-by-Ari&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-iPad-Calendar-Login-by-Ari.jpg&quot; alt=&quot;Dribbble---iPad-Calendar-Login-by-Ari&quot; width=&quot;555&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/937610-Student-Guide&quot; rel=&quot;attachment wp-att-3748&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3748&quot; title=&quot;Dribbble---Scavenger-Hunt-by-Cosmin-Capitanu&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Scavenger-Hunt-by-Cosmin-Capitanu.jpg&quot; alt=&quot;Dribbble---Scavenger-Hunt-by-Cosmin-Capitanu&quot; width=&quot;555&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/876515-Search-for-friends-list&quot; rel=&quot;attachment wp-att-3749&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3749&quot; title=&quot;Dribbble---Search-for-friends-list-by-Megan-Fox&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Search-for-friends-list-by-Megan-Fox.jpg&quot; alt=&quot;Dribbble---Search-for-friends-list-by-Megan-Fox&quot; width=&quot;555&quot; height=&quot;376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/960016-Settings-email-client&quot; rel=&quot;attachment wp-att-3750&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3750&quot; title=&quot;Dribbble---Settings-email-client-by-Jakub-Antalík&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Settings-email-client-by-Jakub-Antalík.jpg&quot; alt=&quot;Dribbble---Settings-email-client-by-Jakub-Antalík&quot; width=&quot;555&quot; height=&quot;297&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/829195-Slate&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3751&quot; title=&quot;Dribbble---Slate-by-Eduardo-Santos&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Slate-by-Eduardo-Santos.jpg&quot; alt=&quot;Dribbble---Slate-by-Eduardo-Santos&quot; width=&quot;555&quot; height=&quot;325&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/564078-Minimal-Dashboard&quot; rel=&quot;attachment wp-att-3752&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3752&quot; title=&quot;Dribbble---Student-Guide-by-Cosmin-Capitanu&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Student-Guide-by-Cosmin-Capitanu.jpg&quot; alt=&quot;Dribbble---Student-Guide-by-Cosmin-Capitanu&quot; width=&quot;555&quot; height=&quot;314&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://dribbble.com/shots/880946-Widgets&quot; rel=&quot;attachment wp-att-3753&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-3753&quot; title=&quot;Dribbble---Widgets-by-Jonas-Hermann&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Dribbble-Widgets-by-Jonas-Hermann.jpg&quot; alt=&quot;Dribbble---Widgets-by-Jonas-Hermann&quot; width=&quot;555&quot; height=&quot;301&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ne perdez pas votre temps à réinventer la roue, utilisez &lt;a onclick=&quot;_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad anchor bottom article', 7]);&quot; href=&quot;http://designmodo.com/flat?u=356&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Flat UI Pro&lt;/strong&gt;&lt;/a&gt;, le kit PSD &amp;amp; HTML compatible avec Twitter Bootstrap.&lt;/p&gt;
+&lt;figure class=&quot;figure-img&quot;&gt;
+  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-img/large/Erscheinungsbild-Flughafen-Munchen.jpg&quot; alt=&quot;Erscheinungsbild Flughafen Munchen&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;
+  &lt;figcaption&gt;Exemple flat design – &lt;a title=&quot;Erscheinungsbild Flughafen Munchen&quot; href=&quot;http://www.flickr.com/photos/9713498@N08/2183737564/in/photostream/&quot; target=&quot;_blank&quot;&gt;Erscheinungsbild Flughafen Munchen&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 </description>
 				
