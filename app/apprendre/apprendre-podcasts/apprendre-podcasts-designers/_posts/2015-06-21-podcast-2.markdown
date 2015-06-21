@@ -1,0 +1,19 @@
+---
+layout: apprendre-default
+logo: "galaxie.jpg"
+title: "Beep 2"
+date: "2015-06-21 17:23:57"
+path1: "apprendre"
+path2: "podcasts"
+path3: "design"
+category: "podcasts"
+tags: "podcasts-design"
+intro: "This week we sat down with Sebastiaan de With to chat about everything design (and motorcycles)! We caught up on his evolving career in design, what it’s like building a new agency, how to work with international clients and the power of giving design resources away for free."
+no-soundcloud:
+id-soundcloud: "81367665"
+viatitle: "designmatters"
+viaurl: "http://www.designdetails.fm/"
+description: "Un concentré d'outils et de conseils afin de savoir quelles fonctionnalités implémenter, ignorer ou améliorer & comment répondre de manière plus efficiente aux besoins de vos utilisateurs."
+---
+
+Designmatters weekly show about the people who design our favorite products. Hosted by Bryn Jackson and Brian Lovin.

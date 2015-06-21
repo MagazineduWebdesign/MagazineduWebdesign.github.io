@@ -6,6 +6,7 @@ layout: default
 <article>
   <div class="header-liste mod-no-bg-gradient">
     <header class="row-body-article medium-uncollapse large-collapse">
+
       {% if page.image %}
         <div class="row column-header-article mod-header-article-no-margin-top">
           <div class="small-6 small-centered medium-4 medium-uncentered large-4 columns ">
@@ -16,19 +17,47 @@ layout: default
           <div class="small-12 medium-8 large-8 columns small-text-center medium-text-left ">
             <h1 itemprop="headline">{{ page.title }}</h1>
             {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
-            {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
-            {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
+            {% if page.siteweb %}<a class="button small radius primary" href="{{ page.siteweb }}" target="_blank">Site Web</a>{% endif %}
+            {% if page.url-buy %}<a class="button small radius success" href="{{ page.url-buy }}" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
           </div>
         </div>
       {% else %}
-        <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
-          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
-        </div>
-        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button small primary" target="_blank">Site Web</a>{% endif %}
-          {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
-        </div>
+        {% if page.logo %}
+          <div class="small-12 medium-12 large-1 columns small-text-center">
+            <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
+          </div>
+          <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+            <h1 itemprop="headline">{{ page.title }}</h1>
+            {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+            {% if page.id-soundcloud %}
+            <figure class="figure-video">
+              <div class="note-flex-video widescreen">
+                <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </div>
+            </figure>
+            {% endif %}
+          </div>
+          <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
+            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" target="_blank">ECOUTER</a>{% endif %}
+          </div>
+        {% else %}
+          <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+            <h1 itemprop="headline">{{ page.title }}</h1>
+            {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+            {% if page.id-soundcloud %}
+            <figure class="figure-video">
+              <div class="note-flex-video widescreen">
+                <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </div>
+            </figure>
+            {% endif %}
+          </div>
+          <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
+            {% if page.siteweb %}<a class="button small radius primary" href="{{ page.siteweb }}" target="_blank">Site Web</a>{% endif %}
+            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" target="_blank">ECOUTER</a>{% endif %}
+            {% if page.url-buy %}<a class="button small radius success" href="{{ page.url-buy }}" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
+          </div>
+        {% endif %}
       {% endif %}
     </header>
   </div>
@@ -36,6 +65,12 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      {% if page.viatitle %}
+      <!-- Via
+      ================================================== -->
+      <span class="article-via"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#999999"/></svg>VIA <a href="{{ page.viaurl }}" title="Via {{ page.viatitle }}" target="_blank">{{ page.viatitle | upcase }}</a></span>
+      {% endif %}
+
       {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">

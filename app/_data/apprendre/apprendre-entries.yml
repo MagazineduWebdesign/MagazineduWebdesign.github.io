@@ -10,6 +10,10 @@
   currentnav:
   permalink: /apprendre/ebooks/
 
+- name: PODCASTS
+  currentnav:
+  permalink: /apprendre/podcasts/
+
 - name: GUIDES
   currentnav:
   permalink: /apprendre/guides/

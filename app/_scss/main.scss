@@ -169,7 +169,15 @@ $youtube:#E62117;
   background-color:$tuatara;
   color:$white;
 }
-
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
 // c. GLOBAL
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-liste{
@@ -218,8 +226,8 @@ $youtube:#E62117;
 	border-top-width:0;
 }
 .section-carte-panel h1{
-  font-size: rem-calc(24);
-  line-height: rem-calc(32);
+  font-size: rem-calc(16);
+  line-height: rem-calc(24);
 }
 .section-carte-action, .section-carte-header {
 	margin-bottom:rem-calc(24);
@@ -1187,8 +1195,8 @@ main.column-body-article h2, main.column-body-article h3,{
 }
 .section-carte-newsletter.is-header-liste{margin-bottom:0}
 	.section-carte-newsletter h1{
-		margin-bottom:rem-calc(24);
-		font-size: $h2-font-size;
+		margin-bottom: rem-calc(24);
+		font-size: rem-calc(18);
 	}
 	.section-carte-newsletter input, .reveal-modal input{
 		margin-bottom:0;
@@ -1440,8 +1448,12 @@ footer{
 	margin-top:rem-calc(24);
 	padding: rem-calc(24) 0;
 }
-footer a{color:$primary-color;}
-footer a:hover{color: scale-color($primary-color, $lightness: -16%)}
+footer a{
+	color:$tuatara;
+}
+footer a:hover{
+	color: $jet;
+}
 
 // 00. 404 ERROR
 // - - - - - - - - - - - - - - - - - - - - - - - - -
