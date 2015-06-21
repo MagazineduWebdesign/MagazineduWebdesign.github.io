@@ -248,35 +248,36 @@ layout: default
 	
 	<div class="infinite-spinner"></div>
 
-	<!-- list all section's categories
-	================================================== -->
-	<section>
-		<div class="row">
-		  <div class="small-12 columns section-carte-header-no-bg">
-		    <h1 class="section-carte-header-title-big text-center">Trouvez l'inspiration en explorant ces collections</h1>
-		  </div>
-		</div>
+</section>
 
-		<div class="row">
-		  <div class="small-12 columns">
-		    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
-		    
-		    {% for item in site.data.inspirer.inspirer-entries %}
-		      <li role="menuitem">
-	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-	            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
-		            <div class="row collapse text-center">
-		              <div class="grid-article-card-info mod-action small-12 columns">
-		              	<h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
-		              </div>
-		            </div>
-			        </a>
-	          </article>
-					</li>
-      	{% endfor %}
+<!-- list all section's categories
+================================================== -->
+<section>
+	<div class="row">
+	  <div class="small-12 columns section-carte-header-no-bg">
+	    <h1 class="section-carte-header-title-big text-center">Trouvez l'inspiration en explorant ces collections</h1>
+	  </div>
+	</div>
 
-		    </ul>
-		  </div>
-		</div>
-	</section>
+	<div class="row">
+	  <div class="small-12 columns">
+	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+	    
+	    {% for item in site.data.inspirer.inspirer-entries %}
+	      <li role="menuitem">
+          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+	            <div class="row collapse text-center">
+	              <div class="grid-article-card-info mod-action small-12 columns">
+	              	<h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
+	              </div>
+	            </div>
+		        </a>
+          </article>
+				</li>
+    	{% endfor %}
+
+	    </ul>
+	  </div>
+	</div>
 </section>

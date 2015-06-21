@@ -41,37 +41,36 @@ layout: default
 	{% endfor %}
 	{% include custom/cartes/carte_items-no-thn.html param="guides" %}
 	{% include custom/cartes/carte_twtr_index-large.html %}
+</section>
 
-	<!-- list all section's categories
-	================================================== -->
-	<section>
-		<div class="row">
-		  <div class="small-12 columns section-carte-header-no-bg">
-		    <h1 class="section-carte-header-title-big text-center">Développez votre talent en explorant ces collections</h1>
-		  </div>
-		</div>
+<!-- list all section's categories
+================================================== -->
+<section>
+	<div class="row">
+	  <div class="small-12 columns section-carte-header-no-bg">
+	    <h1 class="section-carte-header-title-big text-center">Développez votre talent en explorant ces collections</h1>
+	  </div>
+	</div>
 
-		<div class="row">
-		  <div class="small-12 columns">
-		    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
-		    
-		    {% for item in site.data.apprendre.apprendre-entries %}
-		      <li role="menuitem">
-	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-	            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
-		            <div class="row collapse text-center">
-		              <div class="grid-article-card-info mod-action small-12 columns">
-		              	<h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
-		              </div>
-		            </div>
-			        </a>
-	          </article>
-					</li>
-      	{% endfor %}
+	<div class="row">
+	  <div class="small-12 columns">
+	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+	    
+	    {% for item in site.data.apprendre.apprendre-entries %}
+	      <li role="menuitem">
+          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+	            <div class="row collapse text-center">
+	              <div class="grid-article-card-info mod-action small-12 columns">
+	              	<h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
+	              </div>
+	            </div>
+		        </a>
+          </article>
+				</li>
+    	{% endfor %}
 
-		    </ul>
-		  </div>
-		</div>
-	</section>
-
+	    </ul>
+	  </div>
+	</div>
 </section>
