@@ -263,7 +263,7 @@ module.exports = function (grunt) {
     },
     responsive_images: {
       options: {
-        quality: 80,
+        quality: 75,
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
