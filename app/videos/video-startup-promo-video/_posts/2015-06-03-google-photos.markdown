@@ -8,6 +8,7 @@ path3:
 category: videos
 tags:
 - startup-promo
+- material-design
 intro: "Une nouvelle approche de la photographie avec Google Photos. Une application embrassant à 100% le framework Material Design afin de mettre en scène et organiser toutes vos photos et vidéos."
 description: "Une nouvelle approche de la photographie avec Google Photos."
 id-youtube: ydBjsZnHrwM

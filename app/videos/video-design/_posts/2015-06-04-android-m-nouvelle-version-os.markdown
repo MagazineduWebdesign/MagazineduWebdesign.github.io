@@ -9,6 +9,7 @@ category: videos
 tags:
 - android
 - design
+- material-design
 intro: "Découvrez en avant première le design d'interface de Android M, la prochaine version de l'OS."
 description: "Découvrez en avant première le design d'interface de Android M, la prochaine version de l'OS."
 id-youtube: vVkii3OAxJA
