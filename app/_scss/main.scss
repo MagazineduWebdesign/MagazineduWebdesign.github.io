@@ -448,8 +448,9 @@ sup {
 			.grid-article-card-title.mod-card-w-tag{
 				margin-bottom: 0;
 				overflow: hidden;
-				white-space: nowrap;
-				text-overflow: ellipsis;			}
+				//white-space: nowrap;
+				//text-overflow: ellipsis;
+			}
 			.grid-article-card-title.mod-action{
 				font-size: rem-calc(14);
 				color: $aluminum;
