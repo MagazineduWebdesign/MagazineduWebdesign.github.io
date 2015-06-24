@@ -1,3 +1,7 @@
+- name: ART
+  currentnav:
+  permalink: /inspiration/sites-web/themes/art/
+
 - name: TOURISME
   currentnav:
   permalink: /inspiration/sites-web/themes/tourisme/

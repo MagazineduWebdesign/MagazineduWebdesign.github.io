@@ -2,6 +2,10 @@
   currentnav:
   permalink: /inspiration/sites-web/technologies/angular-js/
 
+- name: BACKBONE JS
+  currentnav:
+  permalink: /inspiration/sites-web/technologies/backbone-js/
+
 - name: JEKYLL
   currentnav:
   permalink: /inspiration/sites-web/technologies/jekyll/
