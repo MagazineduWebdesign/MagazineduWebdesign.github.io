@@ -1,17 +1,17 @@
 - title: "ImageMagick"
   href: "http://www.imagemagick.org/"
   desc: "Une suite de logiciels pour créer, éditer, composer, ou convertir des images bitmap."
-  image:
+  image: "wizard.png"
 
 - title: "GraphicsMagick"
   href: "http://www.graphicsmagick.org/"
   desc: "Un ensemble d'outils acccesibles via votre console de commandes et une API pour la manipulation, l'édition et la conversion des images bitmap et vectorielles. Il est dérivé de ImageMagick, avec l'objectif de fournir une meilleure stabilité et davantage de performances. Ne perdez plus votre temps, pensez à automatiser toutes ses tâches avec l'utilisation du gestionnaire de tâche Grunt."
-  image:
+  image: "graphicsmagick-logo.png"
 
-- title: "TinyJPG"
-  href: "https://tinyjpg.com/"
-  desc: "Compresser des images JPG."
-  image:
+- title: "Freeimage"
+  href: "http://freeimage.sourceforge.net/"
+  desc: "Une librairie open source pour les développeurs souhaitant appliquer une multitude de traitements sur des images PNG, BMP, JPEG, TIFF, etc. Une alternatie sérieuse à GraphicsMagick et ImageMagick qui peine à traiter des volumes d'images importants (ex: 100K - 1M)"
+  image: "freeimage.jpg"
 
 - title: "TinyJPG"
   href: "https://tinyjpg.com/"
@@ -19,26 +19,31 @@
   image:
 
 - title: "ImageOptim"
-  href: "https://imageoptim.com/"
-  desc: "Rend les images moins gourmandes en espace disque pour un chargement plus rapidement."
-  image:
+  href: "https://imageoptim.com/fr.html"
+  desc: "ImageOptim optimise les images - moins d'espace disque et un chargement plus rapide - en trouvant les meilleurs paramètres de compression et en retirant les commentaires inutiles et les profils couleur. Il supporte les formats PNG, JPEG et GIF animés."
+  image: "imageoptim.png"
+
+- title: "Trimage image compressor"
+  href: "http://trimage.org/"
+  desc: "L'alternative à ImageOptim si vous n'avez pas un mac. Il supporte les formats PNG & JPEG."
+  image: "trimage-icon.png"
 
 - title: "ImageOptimizer"
   href: "http://www.imageoptimizer.net/Pages/Home.aspx"
   desc: "Service en ligne gratuit offrant le redimensionnement, la compression et l'optimisation de vos fichiers image."
-  image:
+  image: "imageoptimizer-logo.jpg"
 
 - title: "Compressor.io"
   href: "https://compressor.io/"
   desc: "Optimiser et compresser vos images en ligne."
-  image:
+  image: "compressor-logo.png"
 
 - title: "Kraken"
   href: "https://kraken.io/web-interface"
   desc: "Optimiseur et compresseur d'images ultra-rapide. Réduisez votre consommation de bande passante et d'espace de stockage. Cela vous permettra de considérablement améliorer les temps de chargement de votre site."
-  image:
+  image: "kraken-logo.png"
 
-- title: "Smush.it"
-  href: "https://kraken.io/web-interface"
-  desc: "Le plugin WordPress réduisant la taille des fichiers image afin d'améliorer les performances de votre app."
+- title: "WP Smush it"
+  href: "https://wordpress.org/plugins/wp-smushit/"
+  desc: "Le plugin WordPress réduisant la taille des fichiers image afin d'améliorer les performances de votre app grâce à l'API Smush."
   image: 
