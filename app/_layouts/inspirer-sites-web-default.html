@@ -45,43 +45,48 @@ layout: default
             
             {% if page.theme %}
             <li class="article-meta-data-header-title">Thème</li>
-            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme }}</a></li>
+            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme | upcase }}</a></li>
             {% endif %}
 
             {% if page.format %}
             <li class="article-meta-data-header-title">Format</li>
-            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format }}</a></li>
+            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format | upcase }}</a></li>
             {% endif %}
 
             {% if page.style-1 %}
             <li class="article-meta-data-header-title">Styles</li>
-            <li role="menuitem"><a href="{{ page.style-1-url }}" title="{{ page.style-1 }}">{{ page.style-1 }}</a></li>
+            <li role="menuitem"><a href="{{ page.style-1-url }}" title="{{ page.style-1 }}">{{ page.style-1 | upcase }}</a></li>
             {% endif %}
             {% if page.style-2 %}
-            <li role="menuitem"><a href="{{ page.style-2-url }}" title="{{ page.style-2 }}">{{ page.style-2 }}</a></li>
+            <li role="menuitem"><a href="{{ page.style-2-url }}" title="{{ page.style-2 }}">{{ page.style-2 | upcase }}</a></li>
             {% endif %}
             {% if page.style-3 %}
-            <li role="menuitem"><a href="{{ page.style-3-url }}" title="{{ page.style-3 }}">{{ page.style-3 }}</a></li>
+            <li role="menuitem"><a href="{{ page.style-3-url }}" title="{{ page.style-3 }}">{{ page.style-3 | upcase }}</a></li>
             {% endif %}
 
             {% if page.technologie-1 %}
             <li class="article-meta-data-header-title">Technologies</li>
-            <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 }}</a></li>
+            <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 | upcase }}</a></li>
             {% endif %}
             {% if page.technologie-2 %}
-            <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 }}</a></li>
+            <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 | upcase }}</a></li>
             {% endif %}
 
             {% if page.by %}
             <li class="article-meta-data-header-title">Crédit</li>
-            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by }}</a></li>
+            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
             {% endif %}
             
-            {% if page.element-ui %}
-            <li class="article-meta-data-header-title">Eléments UI</li>
-            <li role="menuitem"><a href="{{ page.element-ui-url }}" title="Explorer la sélection {{ page.element-ui }}">{{ page.element-ui }}</a></li>
+            {% if page.element-ui-1 %}
+              <li class="article-meta-data-header-title">Eléments UI</li>
+              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la sélection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
+              {% if page.element-ui-2 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la sélection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-3 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la sélection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
+              {% endif %}
             {% endif %}
-
           </ul>
         </div>
 

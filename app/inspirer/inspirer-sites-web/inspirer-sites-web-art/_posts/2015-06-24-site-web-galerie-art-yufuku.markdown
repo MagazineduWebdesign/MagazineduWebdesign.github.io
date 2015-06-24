@@ -12,7 +12,7 @@ tags:
 - sites-web-technologies-backbone-js
 theme: art
 theme-url: /inspiration/sites-web/themes/art/
-format: blog
+format: portfolio
 format-url: /inspiration/sites-web/formats/portfolio/
 style-1: flat
 style-url-1: /inspiration/sites-web/styles/flat/
@@ -26,6 +26,12 @@ technologie-2:
 technologie-url-2:
 by:
 by-url:
+element-ui-1: recherche
+element-ui-url-1:
+element-ui-2: scroll horizontal
+element-ui-url-2:
+element-ui-3: navigation latéral
+element-ui-url-3:
 url-demo: http://www.yufuku.net/
 image: yufuku-yoshiro-kimura.jpg
 image-2: yufuku-artistes.jpg
