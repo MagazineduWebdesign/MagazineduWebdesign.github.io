@@ -16,7 +16,7 @@
 - title: "TinyJPG"
   href: "https://tinyjpg.com/"
   desc: "Compresser des images JPG."
-  image:
+  image: "tinypng.png"
 
 - title: "ImageOptim"
   href: "https://imageoptim.com/fr.html"
