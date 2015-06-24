@@ -27,7 +27,7 @@ technologie-url-2:
 by:
 by-url:
 url-demo: http://www.yufuku.net/
-image: yoshiro-kimura.jpg
+image: yufuku-yoshiro-kimura.jpg
 image-2: yufuku-artistes.jpg
 intro: Site Web de la Galerie d'art Yufuku présentant des artistes japonais et internationaux travaillant leur approche de l'espace via des matériaux tels que le verre, l'argile, le métal, etc.
 description: Site Web de la Galerie d'art Yufuku présentant des artistes japonais et internationaux travaillant leur approche de l'espace via des matériaux tels que le verre, l'argile, le métal, etc.
