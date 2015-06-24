@@ -264,22 +264,19 @@ module.exports = function (grunt) {
     responsive_images: {
       options: {
         quality: 75,
+        upscale: true
         sizes: [{
           name: 'xsmall',
           aspectRatio:false,
-          upscale: true,
           width: 140
         },{
           name: 'small',
-          upscale: true,
           width: 360
         },{
           name: 'medium',
-          upscale: true,
           width: 640
         },{
           name: 'large',
-          upscale: true,
           width: 1024
         }]
       },
