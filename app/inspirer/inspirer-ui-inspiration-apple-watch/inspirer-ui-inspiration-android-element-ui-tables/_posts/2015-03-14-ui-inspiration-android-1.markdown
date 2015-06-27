@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "test1"
+title: "App Apple Watch – élement tables"
 date: "2015-06-27 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
