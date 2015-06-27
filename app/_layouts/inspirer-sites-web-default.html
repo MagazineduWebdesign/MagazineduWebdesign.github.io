@@ -23,14 +23,14 @@ layout: default
         ================================================== -->
         <div class="column-body-article mod-article-left-body">
           {% if page.image %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery">
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
               <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 1 - {{ page.title }}">
             </a>
           </figure>
           {% endif %}
           {% if page.image-2 %}
-          <figure class="gallery figure-img">
+          <figure class="gallery figure-img mod-app-screenshot">
             <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
               <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="Capture 2 - {{ page.title }}">
             </a>
@@ -79,12 +79,23 @@ layout: default
             
             {% if page.element-ui-1 %}
               <li class="article-meta-data-header-title">Eléments UI</li>
-              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la sélection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
+              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la collection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
               {% if page.element-ui-2 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la sélection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
+                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la collection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
               {% endif %}
               {% if page.element-ui-3 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la sélection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
+                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la collection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
+              {% endif %}
+            {% endif %}
+            
+            {% if page.composant-ui-1 %}
+              <li class="article-meta-data-header-title">Composants UI</li>
+              <li role="menuitem"><a href="{{ page.composant-ui-url-1 }}" title="Explorer la collection {{ page.composant-ui-1 }}">{{ page.composant-ui-1 | upcase }}</a></li>
+              {% if page.composant-ui-2 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-2 }}" title="Explorer la collection {{ page.composant-ui-2 }}">{{ page.composant-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-3 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-3 }}" title="Explorer la collection {{ page.composant-ui-3 }}">{{ page.composant-ui-3 | upcase }}</a></li>
               {% endif %}
             {% endif %}
           </ul>

@@ -23,14 +23,14 @@ layout: default
         ================================================== -->
         <div class="small-12 columns">
           {% if page.image %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery">
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
               <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.title }}">
             </a>
           </figure>
           {% endif %}
           {% if page.image-2 %}
-          <figure class="gallery figure-img">
+          <figure class="gallery figure-img mod-app-screenshot">
             <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
               <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.title }}">
             </a>

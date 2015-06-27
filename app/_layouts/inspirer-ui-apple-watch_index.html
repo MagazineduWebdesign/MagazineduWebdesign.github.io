@@ -22,26 +22,26 @@ layout: default
 		  	<!-- desktop list filters 
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/inspiration/sites-web/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux sites Web"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
+					<a href="/inspiration/ui-design/android/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux éléments UI sur Android"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
 					
-					<!-- thèmes
+					<!-- Eléments UI
 	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les sites web par thèmes" data-reveal-id="sites-web-filtre-themes">THEMES</a>
-					<!-- desktop list filter THEMES modalbox -->
-	        <div id="sites-web-filtre-themes" class="reveal-modal" data-reveal>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les Apps Android par élements UI" data-reveal-id="ui-apple-watch-filtre-elements-ui">ELEMENTS UI</a>
+					<!-- desktop list filter éléments UI modalbox -->
+	        <div id="ui-apple-watch-filtre-elements-ui" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par thèmes</p>
+							      <p class="titre-modal-box">Filtrer par éléments UI</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.sites-web-themes %}
+									  	{% for item in site.data.inspirer.ui-apple-watch-elements-ui %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -51,78 +51,24 @@ layout: default
 	          </div>
 	        </div>
 
-					<!-- formats
+					<!-- Composants UI
 	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les sites web par formats" data-reveal-id="sites-web-filtre-formats">FORMATS</a>
-					<!-- desktop list filter formats modalbox -->
-	        <div id="sites-web-filtre-formats" class="reveal-modal" data-reveal>
+					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les Apps Android par élements UI" data-reveal-id="ui-apple-watch-filtre-composants-ui">COMPOSANTS UI</a>
+					<!-- desktop list filter composants UI modalbox -->
+	        <div id="ui-apple-watch-filtre-composants-ui" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par formats</p>
+							      <p class="titre-modal-box">Filtrer par composants UI</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.sites-web-formats %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					          	{% endfor %}
-									 	</ul>
-					        </div>
-					      </div>
-	            </div>
-	          </div>
-	        </div>
-
-					<!-- styles
-	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les sites web par styles" data-reveal-id="sites-web-filtre-styles">STYLES</a>
-					<!-- desktop list filter styles modalbox -->
-	        <div id="sites-web-filtre-styles" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
-	            <div class="small-12 columns text-center">
-	              <a class="close-reveal-modal">&#215;</a>
-	              <div class="row-liste-index">
-							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par styles</p>
-							      <hr>
-							    </div>
-							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.sites-web-styles %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					          	{% endfor %}
-									 	</ul>
-					        </div>
-					      </div>
-	            </div>
-	          </div>
-	        </div>
-
-					<!-- technologies
-	        ================================================== -->
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les sites web par technologies" data-reveal-id="sites-web-filtre-technologies">TECH</a>
-					<!-- desktop list filter technologies modalbox -->
-	        <div id="sites-web-filtre-technologies" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
-	            <div class="small-12 columns text-center">
-	              <a class="close-reveal-modal">&#215;</a>
-	              <div class="row-liste-index">
-							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par technologies</p>
-							      <hr>
-							    </div>
-							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.sites-web-technologies %}
+									  	{% for item in site.data.inspirer.ui-apple-watch-composants-ui %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -137,38 +83,30 @@ layout: default
 				<!-- mobile list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
-					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="sites-web-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
+					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="ui-apple-watch-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
 					
 					<!--  mobile list filters modalbox
 	        ================================================== -->
-	        <div id="sites-web-filtre-mobile" class="reveal-modal" data-reveal>
+	        <div id="ui-apple-watch-filtre-mobile" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer les sites Web par...</p>
+							      <p class="titre-modal-box">Filtrer les inspirations UI...</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/inspiration/sites-web/" title="Nouveaux sites Web"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a></li>
+					        		<li role="menuitem"><a href="/inspiration/ui-design/android/" title="Nouveaux éléments UI sur Android"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a></li>
 					        		<hr>
-					        		{% for item in site.data.inspirer.sites-web-themes %}
+					        		{% for item in site.data.inspirer.ui-apple-watch-elements-ui %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        		<hr>
-					        		{% for item in site.data.inspirer.sites-web-formats %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					          	{% endfor %}
-					          	<hr>
-					        		{% for item in site.data.inspirer.sites-web-styles %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					          	{% endfor %}
-					          	<hr>
-					        		{% for item in site.data.inspirer.sites-web-technologies %}
+					        		{% for item in site.data.inspirer.ui-apple-watch-composants-ui %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
@@ -183,8 +121,8 @@ layout: default
 		  </div>
 		  <div class="large-3 columns text-right show-for-large-up section-header"> 
 		  	<!-- Number of item by index -->
-				{% if page.category == 'sites-web' %}
-					{% for post in site.categories.sites-web %}
+				{% if page.category == 'ui-apple-watch' %}
+					{% for post in site.categories.ui-apple-watch %}
 				    {% capture length %}{{ forloop.length }}{% endcapture %}
 				  {% endfor %}
 				{% else %}
@@ -192,7 +130,7 @@ layout: default
 				    {% capture length %}{{ forloop.length }}{% endcapture %}
 				  {% endfor %}
 				{% endif %}
-		    <span class="section-header-titre">{{ length }} sites web</span>
+		    <span class="section-header-titre">{{ length }} inspirations UI</span>
 		  </div>
 		</div>
 
@@ -203,8 +141,8 @@ layout: default
 	<div class="row show-for-small-only">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item by index -->
-			{% if page.category == 'sites-web' %}
-				{% for post in site.categories.sites-web %}
+			{% if page.category == 'ui-apple-watch' %}
+				{% for post in site.categories.ui-apple-watch %}
 			    {% capture length %}{{ forloop.length }}{% endcapture %}
 			  {% endfor %}
 			{% else %}
@@ -212,21 +150,21 @@ layout: default
 			    {% capture length %}{{ forloop.length }}{% endcapture %}
 			  {% endfor %}
 			{% endif %}
-	    <span class="section-header-titre">{{ length }} sites Web</span>
+	    <span class="section-header-titre">{{ length }} inspirations UI</span>
 	  </div>
 	</div>
-
+	
 	<!-- list items
 	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'ui-apple-watch' %}current-page{% endif %}">
 
 			<!-- Upload yours
 			================================================== -->
 			<li>
         <article class="grid-article-card mod-add-new js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-          <div class="row collapse hide-for-small grid-article-card-image mod-add-new mod-web-app-screenshot">
+          <div class="row collapse hide-for-small grid-article-card-image mod-add-new">
             <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             </div>
           </div>
@@ -242,16 +180,16 @@ layout: default
 
 			<!-- list all items
 			================================================== -->
-			{% if page.category == 'sites-web' %}
-				{% if site.categories.sites-web %}
-					{% for post in site.categories.sites-web %}
+			{% if page.category == 'ui-apple-watch' %}
+				{% if site.categories.ui-apple-watch %}
+					{% for post in site.categories.ui-apple-watch %}
 
 					<li>
 	          <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 	            
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            
-		            <div class="row collapse grid-article-card-image mod-web-app-screenshot">
+		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (medium)]" alt="{{ post.title }}" />
@@ -262,9 +200,9 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
-		              	{% if post.path2 %}
-                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	{% if post.element-ui %}
+                    	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
                   	{% endif %}
 		              </div>
 		            </div>
@@ -281,7 +219,6 @@ layout: default
 
 	          </article>
 					</li>
-
 
 					{% endfor %}
 					<li>{% include custom/cartes/carte_nl-in-thn-grid-index.html %}</li>
@@ -301,7 +238,7 @@ layout: default
 	            
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            
-		            <div class="row collapse grid-article-card-image mod-web-app-screenshot">
+		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (medium)]" alt="{{ post.title }}" />
@@ -312,9 +249,9 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
-		              	{% if post.path2 %}
-                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	{% if post.element-ui %}
+                    	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
                   	{% endif %}
 		              </div>
 		            </div>
