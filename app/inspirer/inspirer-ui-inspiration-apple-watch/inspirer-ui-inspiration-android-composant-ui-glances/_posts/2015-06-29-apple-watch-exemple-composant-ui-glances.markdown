@@ -19,10 +19,10 @@ element-ui-3: "tables"
 element-ui-url-3: "/inspiration/ui-design/apple-watch/elements-ui/tables/"
 composant-ui-1: "glances"
 composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/glances/"
-composant-ui-2: ""
-composant-ui-url-2: ""
-composant-ui-3: ""
-composant-ui-url-3: ""
+composant-ui-2:
+composant-ui-url-2:
+composant-ui-3:
+composant-ui-url-3:
 url-demo:
 image: "inspiration-apple-watch-composant-ui-glances-1.gif"
 image-2:
