@@ -1,8 +1,8 @@
 ---
-title: Découvrez le monde merveilleux du density-independent pixel – DP
+title: Photoshop & Retina – Découvrez le monde merveilleux du density-independent pixel
 date: 2015-05-31 00:00:00
 source-name: 
-source-url: http://blog.percolatestudio.com/design/animation-timing-guidelines/
+source-url: http://www.smashingmagazine.com/2015/05/18/retina-design-in-photoshop/
 image:
 image-legende:
 id-youtube:
