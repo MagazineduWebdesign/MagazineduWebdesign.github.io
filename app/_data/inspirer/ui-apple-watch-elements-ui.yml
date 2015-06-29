@@ -1,3 +1,11 @@
+- name: BOUTONS
+  currentnav:
+  permalink: /inspiration/ui-design/apple-watch/elements-ui/boutons/
+  
+- name: LABELS
+  currentnav:
+  permalink: /inspiration/ui-design/apple-watch/elements-ui/labels/
+  
 - name: TABLES
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/elements-ui/tables/
