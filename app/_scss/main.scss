@@ -323,12 +323,11 @@ sup {
 			height: 0;
 			padding-bottom: 56%;
 			overflow: hidden;
-			background:$secondary-color;
-			@include transition($target: background);
 			border-radius: rem-calc(2 2 0 0);
+			background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
+			@include transition($target: background);
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image{
-			background: -webkit-linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
 			background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
 			@include transition($target: background);
 		}
@@ -341,7 +340,7 @@ sup {
 		  padding-bottom: 36%;
 		  padding-left: 16px;
 		  padding-right: 16px;
-		  background-color: white;
+		  background: white;
 		}
 		.grid-article-card-image.mod-book-image{
 			height: 0;
@@ -374,8 +373,8 @@ sup {
 			display: block;
 			width: 100%;
 			opacity: 1;
-			border-radius: rem-calc(2 2 0 0);
 			@include transition($target: opacity);
+			border-radius: rem-calc(2 2 0 0);
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image img{
 			opacity: .25;
