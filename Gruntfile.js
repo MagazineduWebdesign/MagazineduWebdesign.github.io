@@ -238,6 +238,10 @@ module.exports = function (grunt) {
       dist: {
         options: {
           removeComments: true,
+          ignoreCustomComments: [
+            /^\s+customcomment/,
+            /\/customcomment\s+$/
+          ],
           collapseWhitespace: true,
           collapseBooleanAttributes: true,
           removeAttributeQuotes: true
