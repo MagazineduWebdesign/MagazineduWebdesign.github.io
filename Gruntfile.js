@@ -238,13 +238,22 @@ module.exports = function (grunt) {
       dist: {
         options: {
           removeComments: true,
-          ignoreCustomComments: [
-            /^\s+customcomment/,
-            /\/customcomment\s+$/
-          ],
+          removeCommentsFromCDATA: true,
           collapseWhitespace: true,
+          conservativeCollapse: true,
           collapseBooleanAttributes: true,
-          removeAttributeQuotes: true
+          removeAttributeQuotes: true,
+          removeRedundantAttributes: true,
+          useShortDoctype: true,
+          removeEmptyAttributes: true,
+          removeEmptyElements: true,
+          removeScriptTypeAttributes: true,
+          removeStyleLinkTypeAttributes: true,
+          caseSensitive: true,
+          keepClosingSlash: true,
+          minifyJS: true,
+          minifyCSS: true,
+          lint: true
         },
         files: [{
           expand: true,
