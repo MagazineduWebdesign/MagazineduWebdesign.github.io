@@ -252,8 +252,7 @@ module.exports = function (grunt) {
           caseSensitive: true,
           keepClosingSlash: true,
           minifyJS: true,
-          minifyCSS: true,
-          lint: true
+          minifyCSS: true
         },
         files: [{
           expand: true,
