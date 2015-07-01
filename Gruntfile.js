@@ -241,18 +241,12 @@ module.exports = function (grunt) {
           removeCommentsFromCDATA: true,
           collapseWhitespace: true,
           conservativeCollapse: true,
-          collapseBooleanAttributes: true,
           removeAttributeQuotes: true,
           removeRedundantAttributes: true,
           useShortDoctype: true,
-          removeEmptyAttributes: true,
-          removeEmptyElements: true,
           removeScriptTypeAttributes: true,
           removeStyleLinkTypeAttributes: true,
-          caseSensitive: true,
-          keepClosingSlash: true,
-          minifyJS: true,
-          minifyCSS: true
+          minifyJS: true
         },
         files: [{
           expand: true,
