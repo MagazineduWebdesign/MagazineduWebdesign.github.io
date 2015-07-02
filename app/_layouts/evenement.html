@@ -11,21 +11,21 @@ layout: default
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
+          <h1 class="header-liste-headline" itemprop="headline"><span class="left job--entreprise">{{ page.title }}</span><span class="job--description">{{ page.event-date }} &bull; {{ page.event-lieu }}</span>
+          </h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
-        <div class="small-12 medium-12 large-3 columns small-text-center large-text-left"> 
-          {% if page.event-date %}<p class="subheader">{{ page.event-date }} &bull; {{ page.event-lieu }}</p>{% endif %}
+        <div class="small-12 medium-12 large-3 columns small-text-center large-text-left">
           {% if page.siteweb %}<a class="button radius primary" href="{{ page.siteweb }}" title="Plus d'infos sur cet événement" target="_blank">+ INFOS</a>{% endif %}
         </div>
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
+          <h1 class="header-liste-headline" itemprop="headline"><span class="left job--entreprise">{{ page.title }}</span><span class="job--description">{{ page.event-date }} &bull; {{ page.event-lieu }}</span>
+          </h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
-          {% if page.event-date %}<p class="subheader">{{ page.event-date }} &bull; {{ page.event-lieu }}</p>{% endif %}
           {% if page.siteweb %}<a class="button radius primary" href="{{ page.siteweb }}" title="Plus d'infos sur cet événement" target="_blank">+ INFOS</a>{% endif %}
         </div>
       </div>
