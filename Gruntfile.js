@@ -8,6 +8,10 @@
 //   images: img
 //   fonts: fonts
 
+var pngquant = require('imagemin-pngquant');
+var mozjpeg  = require('imagemin-mozjpeg');
+var gifsicle = require('imagemin-gifsicle');
+
 // param Cache-Headers S3 storage
 var EXPIRE_IN_2030 = new Date('2030');
 var TWO_YEAR_CACHE_PERIOD_IN_SEC = 60 * 60 * 24 * 365 * 2;
@@ -270,7 +274,7 @@ module.exports = function (grunt) {
     },
     responsive_images: {
       options: {
-        quality: 75,
+        quality: 85,
         upscale: true,
         sizes: [{
           name: 'xsmall',
@@ -299,8 +303,11 @@ module.exports = function (grunt) {
     imagemin: {
       server: {
         options: {
-          progressive: true
+          optimizationLevel: 7,
+          progressive: true,
+          use: [pngquant(), mozjpeg(), gifsicle()]
         },
+
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>',
@@ -520,8 +527,8 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'responsive_images:server',
       'newer:imagemin:server',
+      'responsive_images:server',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
