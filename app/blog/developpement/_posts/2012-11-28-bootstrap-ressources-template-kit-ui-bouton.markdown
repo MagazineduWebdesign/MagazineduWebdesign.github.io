@@ -20,7 +20,7 @@ viatitle:
 <p>En voici quelques unes.</p>
 <h2>Thèmes Bootstrap</h2>
 <h3 id="item_name">LandingStrip – Landing page</h3>
-<p><a title="LandingStrip - Landing page" href="http://wrapbootstrap.com/preview/WB03N894J" rel="attachment wp-att-2250" target="_blank"><img class="alignnone size-full wp-image-2250" title="LandingStrip - Landing page" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/LandingStrip-Landing-page.jpg" alt="LandingStrip - Landing page" width="555" height="347"></a></p>
+<p><a title="LandingStrip - Landing page" href="http://wrapbootstrap.com/preview/WB03N894J" rel="attachment wp-att-2250" target="_blank"><img class="alignnone size-full wp-image-2250" title="LandingStrip - Landing page" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/LandingStrip-Landing-page.jpg" alt="LandingStrip - Landing page" width="555" height="347"></a></p>
 <a class="button secondary radius" href="http://wrapbootstrap.com/preview/WB03N894J" target="_blank">Démo</a>
 <a class="button primary radius" href="https://wrapbootstrap.com/theme/landingstrip-landing-page-WB03N894J" target="_blank">Télécharger</a>
 <h3>Lion -&nbsp;Thème&nbsp;admin&nbsp;responsive</h3>
@@ -28,7 +28,7 @@ viatitle:
 <a class="button secondary radius" href="http://wrapbootstrap.com/preview/WB0967058" target="_blank">Démo</a>
 <a class="button primary radius" href="https://wrapbootstrap.com/theme/lion-responsive-admin-theme-WB0967058" target="_blank">Télécharger</a>
 <h3>Unicorn – Template&nbsp;admin</h3>
-<p><a title="Unicorn - Template admin" href="http://wrapbootstrap.com/preview/WB0F35928" rel="attachment wp-att-2253" target="_blank"><img class="alignnone size-full wp-image-2253" title="Unicorn - Template admin" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Unicorn-Template-admin.jpg" alt="Unicorn - Template admin" width="555" height="347"></a></p>
+<p><a title="Unicorn - Template admin" href="http://wrapbootstrap.com/preview/WB0F35928" rel="attachment wp-att-2253" target="_blank"><img class="alignnone size-full wp-image-2253" title="Unicorn - Template admin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Unicorn-Template-admin.jpg" alt="Unicorn - Template admin" width="555" height="347"></a></p>
 <a class="button secondary radius" href="http://wrapbootstrap.com/preview/WB0F35928" target="_blank">Démo</a>
 <a class="button primary radius" href="https://wrapbootstrap.com/theme/unicorn-admin-template-WB0F35928" target="_blank">Télécharger</a>
 <h3>Fbootstrapp – Template Bootstrap Facebook Apps</h3>
@@ -36,23 +36,23 @@ viatitle:
 <a class="button secondary radius" href="http://ckrack.github.com/fbootstrapp/" target="_blank">Démo</a>
 <a class="button primary radius" href="https://github.com/ckrack/fbootstrapp" target="_blank">Télécharger</a>
 <h3>Boot Metro</h3>
-<p><a title="Boot Metro" href="http://wrapbootstrap.com/preview/WB06L327S" rel="attachment wp-att-2243" target="_blank"><img class="alignnone size-full wp-image-2243" title="Boot Metro" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Boot-Metro.jpg" alt="Boot Metro" width="555" height="347"></a></p>
+<p><a title="Boot Metro" href="http://wrapbootstrap.com/preview/WB06L327S" rel="attachment wp-att-2243" target="_blank"><img class="alignnone size-full wp-image-2243" title="Boot Metro" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Boot-Metro.jpg" alt="Boot Metro" width="555" height="347"></a></p>
 <a class="button secondary radius" href="http://wrapbootstrap.com/preview/WB06L327S" target="_blank">Démo</a>
 <a class="button primary radius" href="https://wrapbootstrap.com/theme/boot-metro-WB06L327S" target="_blank">Télécharger</a>
 <h3>Cosmo – Thème Metro gratuit pour Bootstrap</h3>
-<p><a title="Cosmo - Thème Metro gratuit pour Bootstrap" href="http://bootswatch.com/cosmo/" rel="attachment wp-att-2246" target="_blank"><img class="alignnone size-full wp-image-2246" title="Cosmo - Thème Metro gratuit pour Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Cosmo-Theme-Metro-gratuit-pour-Bootstrap.jpg" alt="Cosmo - Thème Metro gratuit pour Bootstrap" width="500" height="612"></a></p>
+<p><a title="Cosmo - Thème Metro gratuit pour Bootstrap" href="http://bootswatch.com/cosmo/" rel="attachment wp-att-2246" target="_blank"><img class="alignnone size-full wp-image-2246" title="Cosmo - Thème Metro gratuit pour Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Cosmo-Theme-Metro-gratuit-pour-Bootstrap.jpg" alt="Cosmo - Thème Metro gratuit pour Bootstrap" width="500" height="612"></a></p>
 <a class="button secondary radius" href="http://bootswatch.com/cosmo/" target="_blank">Démo</a>
 <a class="button primary radius" href="http://news.bootswatch.com/post/36588968129/cosmo-a-free-metro-inspired-theme-for-bootstrap" target="_blank">Télécharger</a>
 <h3>Bootswatch.com – Liste de thèmes gratuits Bootstrap</h3>
-<p><a title="Bootswatch.com - Liste de thèmes gratuits Bootstrap" href="http://bootswatch.com/" rel="attachment wp-att-2254" target="_blank"><img class="alignnone size-full wp-image-2254" title="Bootswatch.com - Liste de thèmes gratuits Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Bootswatch-com-Liste-de-themes-gratuits-Bootstrap.jpg" alt="Bootswatch.com - Liste de thèmes gratuits Bootstrap" width="555" height="278"></a></p>
+<p><a title="Bootswatch.com - Liste de thèmes gratuits Bootstrap" href="http://bootswatch.com/" rel="attachment wp-att-2254" target="_blank"><img class="alignnone size-full wp-image-2254" title="Bootswatch.com - Liste de thèmes gratuits Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Bootswatch-com-Liste-de-themes-gratuits-Bootstrap.jpg" alt="Bootswatch.com - Liste de thèmes gratuits Bootstrap" width="555" height="278"></a></p>
 <h3>Thème Bootstrap Tumblr</h3>
-<p><a title="Thème Bootstrap Tumblr" href="http://safe.tumblr.com/theme/preview/36370" rel="attachment wp-att-2252" target="_blank"><img class="alignnone size-full wp-image-2252" title="Thème Bootstrap Tumblr" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Theme-Bootstrap-Tumblr.jpg" alt="Thème Bootstrap Tumblr" width="555" height="396"></a></p>
+<p><a title="Thème Bootstrap Tumblr" href="http://safe.tumblr.com/theme/preview/36370" rel="attachment wp-att-2252" target="_blank"><img class="alignnone size-full wp-image-2252" title="Thème Bootstrap Tumblr" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Theme-Bootstrap-Tumblr.jpg" alt="Thème Bootstrap Tumblr" width="555" height="396"></a></p>
 <a class="button secondary radius" href="http://safe.tumblr.com/theme/preview/36370" target="_blank">Démo</a>
 <a class="button primary radius" href="http://www.tumblr.com/theme/36370" target="_blank">Installer</a>
 <h2>Générateur de formulaires Bootstrap</h2>
-<p><a title="Générateur de formulaires Bootstrap" href="http://bootsnipp.com/forms" rel="attachment wp-att-2249" target="_blank"><img class="alignnone size-full wp-image-2249" title="Générateur de formulaires Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Generateur-de-formulaires-Bootstrap-bootsnipp-com.jpg" alt="Générateur de formulaires Bootstrap" width="555" height="275"></a></p>
+<p><a title="Générateur de formulaires Bootstrap" href="http://bootsnipp.com/forms" rel="attachment wp-att-2249" target="_blank"><img class="alignnone size-full wp-image-2249" title="Générateur de formulaires Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Generateur-de-formulaires-Bootstrap-bootsnipp-com.jpg" alt="Générateur de formulaires Bootstrap" width="555" height="275"></a></p>
 <h2>UI Bootstrap</h2>
 <h3>Bouton Bootstrap – UI Google</h3>
-<p><a title="Bouton Bootstrap - UI Google" href="http://xbreaker.github.com/plusstrap/base-css.html#buttons" rel="attachment wp-att-2245" target="_blank"><img class="alignnone size-full wp-image-2245" title="Bouton-Bootstrap-UI-Google" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Bouton-Bootstrap-UI-Google.jpg" alt="Bouton Bootstrap - UI Google" width="555" height="278"></a></p>
+<p><a title="Bouton Bootstrap - UI Google" href="http://xbreaker.github.com/plusstrap/base-css.html#buttons" rel="attachment wp-att-2245" target="_blank"><img class="alignnone size-full wp-image-2245" title="Bouton-Bootstrap-UI-Google" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Bouton-Bootstrap-UI-Google.jpg" alt="Bouton Bootstrap - UI Google" width="555" height="278"></a></p>
 <h3>Fuel UX – UI pour Bootstrap</h3>
-<p><a title="Fuel UX - UI pour Bootstrap" href="http://exacttarget.github.com/fuelux/#pillbox" rel="attachment wp-att-2248" target="_blank"><img class="alignnone size-full wp-image-2248" title="Fuel UX - UI pour Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Fuel-UX-UI-pour-Bootstrap.jpg" alt="Fuel UX - UI pour Bootstrap" width="555" height="278"></a></p>
+<p><a title="Fuel UX - UI pour Bootstrap" href="http://exacttarget.github.com/fuelux/#pillbox" rel="attachment wp-att-2248" target="_blank"><img class="alignnone size-full wp-image-2248" title="Fuel UX - UI pour Bootstrap" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Fuel-UX-UI-pour-Bootstrap.jpg" alt="Fuel UX - UI pour Bootstrap" width="555" height="278"></a></p>

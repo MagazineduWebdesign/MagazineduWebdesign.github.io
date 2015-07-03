@@ -9,7 +9,7 @@ intro: Procédez au paiement sécurisé de 99€ par carte bancaire, Visa ou Mas
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="4LFADH7P9UXKN">
-<input type="image" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/bouton-payer-via-paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<input type="image" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/bouton-payer-via-paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
 <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 </form>
 <div class="row text-center">

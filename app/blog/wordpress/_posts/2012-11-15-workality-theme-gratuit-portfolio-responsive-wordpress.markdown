@@ -25,7 +25,7 @@ keyword_desc:
 <li><strong>HTML5</strong> valide et <strong>SEO</strong> friendly.</li>
 </ul>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/page-accueil-workality.jpg" alt="page-accueil-workality" width="555" height="296">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/page-accueil-workality.jpg" alt="page-accueil-workality" width="555" height="296">
   <figcaption>Template de la page d’accueil Workality</figcaption>
 </figure>
 <p>Un grand merci à&nbsp;<a title="Mert Daglaroglu" href="https://twitter.com/mertdaglaroglu" target="_blank">@mertdaglaroglu</a>&nbsp;pour ce merveilleux thème WordPress offert gracieusement.</p>
@@ -38,7 +38,7 @@ keyword_desc:
 <li><strong>Slider</strong> pour les pages et les posts avec un support du format <strong>vidéo</strong>.</li>
 </ul>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Workality-Free-WordPress-Theme-for-Creative-People.jpg" alt="Workality-Free-WordPress-Theme-for-Creative-People" width="555" height="401">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Workality-Free-WordPress-Theme-for-Creative-People.jpg" alt="Workality-Free-WordPress-Theme-for-Creative-People" width="555" height="401">
   <figcaption>Template de la page d’accueil Workality Premium</figcaption>
 </figure>
 <a class="button primary radius" href="http://premium.workality.ca/" target="_blank">Démo – Premium</a>

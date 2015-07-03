@@ -132,8 +132,8 @@ layout: default
         <div class="small-12 columns">
           <figure class="figure-img mod-note-img">
             <a href="{{ note.source-url }}" title="{{ note.title }}" target="_blank">
-            <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]" class="note-container-img" />
-            <noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ note.image-legende }}"></noscript>
+            <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" class="note-container-img" />
+            <noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ note.image-legende }}"></noscript>
             </a>
             {% if note.image-legende %}
             <div class="row collapse">

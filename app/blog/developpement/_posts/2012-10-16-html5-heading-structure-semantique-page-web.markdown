@@ -42,7 +42,7 @@ Tim Berners Lee fut le premier a énoncé le terme de Web sémantique dans un ar
 Métamorphoser le Web en un lieu où les ressources circuleraient librement entre machines afin d’être analysées, exploitées et distribuées via des services et des applications variés.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Semantic_Web_Stack.png" alt="Semantic_Web_Stack" width="" height="">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Semantic_Web_Stack.png" alt="Semantic_Web_Stack" width="" height="">
   <figcaption>Le Semantic Web Stack – Photo Wikipédia</figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ Le « poids sémantique » de notre nouveau noeud au sein de l’arborescence es
 ##L’HTML5, une nouvelle structure de page Web
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/html5-badge-h-semantics.png" alt="html5-badge-h-semantics" width="" height="">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/html5-badge-h-semantics.png" alt="html5-badge-h-semantics" width="" height="">
   <figcaption>Badge HTML5</figcaption>
 </figure>
 

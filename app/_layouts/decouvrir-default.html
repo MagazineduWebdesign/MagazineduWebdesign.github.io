@@ -8,7 +8,7 @@ layout: default
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
-          <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
+          <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline">{{ page.title }}</h1>
@@ -37,8 +37,8 @@ layout: default
         <div class="row collapse">
           <div class="small-12 columns">
             <figure class="gallery figure-img">
-              <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" rel="lightbox">
-                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+              <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}">
               </a>
               {% if page.image-legende %}
               <div class="row collapse">

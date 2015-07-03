@@ -23,20 +23,20 @@ viatitle:
 <p>Le côté sérieux et intéressant de cet article se trouve quelques pixels plus bas. Je vous ai concocté des captures de sites Web incorporant un flux Instagram. Les interactions avec l’API Instagram sont connues mais certains exemples sélectionnés recèlent de bonnes surprises.</p>
 <h2>Exemples de flux Instagram doucettement intégrés à un site Web</h2>
 <p><strong><a href="http://www.ff9263.com/" target="_blank">#ff9263.com</a></strong></p>
-<p><img class="alignnone size-full wp-image-5662" title="BRDG - A SOCIAL BRIDGE BETWEEN PARIS AND SHANGHAI" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/BRDG-A-SOCIAL-BRIDGE-BETWEEN-PARIS-AND-SHANGHAI.jpg" alt="Webdesign et flux Instagram" width="555" height="290"></p>
+<p><img class="alignnone size-full wp-image-5662" title="BRDG - A SOCIAL BRIDGE BETWEEN PARIS AND SHANGHAI" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/BRDG-A-SOCIAL-BRIDGE-BETWEEN-PARIS-AND-SHANGHAI.jpg" alt="Webdesign et flux Instagram" width="555" height="290"></p>
 <p><strong><a href="http://rockawayrelief.com/" target="_blank">#rockawayrelief</a></strong></p>
-<p><img class="alignnone size-full wp-image-5050" title="Rockaway-Relief-New-York" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Rockaway-Relief-New-York.jpg" alt="Rockaway-Relief-New-York" width="555" height="275"></p>
+<p><img class="alignnone size-full wp-image-5050" title="Rockaway-Relief-New-York" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Rockaway-Relief-New-York.jpg" alt="Rockaway-Relief-New-York" width="555" height="275"></p>
 <p><strong><a href="http://photoid.nike.com/gallery/0/36.htm" target="_blank">#photoid.nike</a></strong></p>
-<p><img class="alignnone size-full wp-image-5047" title="Nike-PHOTOiD" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Nike-PHOTOiD.jpg" alt="Nike-PHOTOiD" width="555" height="247"></p>
+<p><img class="alignnone size-full wp-image-5047" title="Nike-PHOTOiD" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Nike-PHOTOiD.jpg" alt="Nike-PHOTOiD" width="555" height="247"></p>
 <p><strong><a href="http://www.onitsukatiger.com/fr-fr#!your-style" target="_blank">#onitsukatiger</a></strong></p>
-<p><img class="alignnone size-full wp-image-5048" title="Onitsuka-Tiger" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Onitsuka-Tiger.jpg" alt="Onitsuka-Tiger" width="555" height="419"></p>
+<p><img class="alignnone size-full wp-image-5048" title="Onitsuka-Tiger" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Onitsuka-Tiger.jpg" alt="Onitsuka-Tiger" width="555" height="419"></p>
 <p><strong><a href="http://phosho.co/" target="_blank">#phosho</a></strong></p>
-<p><img class="alignnone size-full wp-image-5051" title="Showcase-your-Instagram-photos-PhoSho" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Showcase-your-Instagram-photos-PhoSho.jpg" alt="Showcase-your-Instagram-photos-PhoSho" width="555" height="322"></p>
+<p><img class="alignnone size-full wp-image-5051" title="Showcase-your-Instagram-photos-PhoSho" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Showcase-your-Instagram-photos-PhoSho.jpg" alt="Showcase-your-Instagram-photos-PhoSho" width="555" height="322"></p>
 <p><strong><a href=" http://social.ufc.com/" target="_blank">#social.ufc</a></strong></p>
-<p><img class="alignnone size-full wp-image-5052" title="UFC-Social" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/UFC-Social.jpg" alt="UFC-Social" width="555" height="269"></p>
+<p><img class="alignnone size-full wp-image-5052" title="UFC-Social" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/UFC-Social.jpg" alt="UFC-Social" width="555" height="269"></p>
 <p><strong><a href="http://www.untamed-installation.com/fr/fr/" target="_blank">#anticonformiste</a></strong></p>
-<p><img class="alignnone size-full wp-image-5046" title="mercedes-benz-anticonformiste" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/mercedes-benz-anticonformiste.jpg" alt="mercedes-benz-anticonformiste" width="555" height="357"></p>
+<p><img class="alignnone size-full wp-image-5046" title="mercedes-benz-anticonformiste" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/mercedes-benz-anticonformiste.jpg" alt="mercedes-benz-anticonformiste" width="555" height="357"></p>
 <p><strong><a href="http://rigoneri.com/" target="_blank">#rigoneri</a></strong></p>
-<p><img class="alignnone size-full wp-image-5049" title="Rigo-Rodrigo-Neri" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Rigo-Rodrigo-Neri.jpg" alt="Rigo-Rodrigo-Neri" width="555" height="383"></p>
+<p><img class="alignnone size-full wp-image-5049" title="Rigo-Rodrigo-Neri" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Rigo-Rodrigo-Neri.jpg" alt="Rigo-Rodrigo-Neri" width="555" height="383"></p>
 <p><strong><a href="http://loftcitychurch.com/">#Loftcitychurch</a></strong></p>
-<p><img class="alignnone size-full wp-image-5236" title="loft-city-church" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/loft-city-church.jpg" alt="loft-city-church" width="555" height="263"></p>
+<p><img class="alignnone size-full wp-image-5236" title="loft-city-church" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/loft-city-church.jpg" alt="loft-city-church" width="555" height="263"></p>

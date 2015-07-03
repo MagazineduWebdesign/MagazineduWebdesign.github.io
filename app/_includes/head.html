@@ -64,7 +64,7 @@
   <meta property="article:author" content="https://twitter.com/MagDuWebdesign" />
   <meta property="og:site_name" content="Magazine du Webdesign" />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" />
+  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" />
   {% endif %}
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -73,7 +73,7 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}">
   {% if page.image %}
-  <meta name="twitter:image:src" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" />
+  <meta name="twitter:image:src" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" />
   {% endif %}
 
 </head>

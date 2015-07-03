@@ -18,7 +18,7 @@ viatitle: thenextweb
 <p>La fonctionnalité est disponible dès à présent, vous pouvez donc l’implémenter sur votre site en quelques lignes de codes.</p>
 <h2>Le bouton Save to Drive en action</h2>
 <figure class="figure-img">
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/save-to-drive-en-action.jpg" alt="save-to-drive-en-action" width="555" height="541">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/save-to-drive-en-action.jpg" alt="save-to-drive-en-action" width="555" height="541">
   <figcaption>Le bouton « Save to Drive » en action</figcaption>
 </figure>
 <p>Si vous souhaitez le mettre en place sur votre site Web, insérez le code HTML suivant :</p>

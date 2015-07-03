@@ -22,7 +22,7 @@ Il existe de nombreux plugins jQuery pour filtrer et trier des données. J’ava
 MixItUp est un plugin jQuery léger offrant de belles animations lors du filtrage et du tri des contenus. Il s’adapte parfaitement à n’importe quelle structure HTML et CSS, ce qui le rend compatible avec la majorité des mises en page fixes, fluides et responsives. Il conviendra merveilleusement bien à un portfolio ou à un listing d’articles et de produits.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/mixitup-plugin-jquery-filtre-tri-liste-html.jpg" alt="mixitup-plugin-jquery-filtre-tri-liste-html" width="555" height="274">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/mixitup-plugin-jquery-filtre-tri-liste-html.jpg" alt="mixitup-plugin-jquery-filtre-tri-liste-html" width="555" height="274">
 </figure>
 
 MixItUp utilise jQuery pour masquer, afficher ou repositionner les éléments de la liste en fonction des filtres que vous avez définis. Une surcouche de CSS3 transitions [CSS3 transitions](http://magazineduwebdesign.com/css3-animation-transition-exemples-tutoriels "CSS3 transitions") anime en douceur les éléments pour les accompagner jusqu’à leur nouvel emplacement.

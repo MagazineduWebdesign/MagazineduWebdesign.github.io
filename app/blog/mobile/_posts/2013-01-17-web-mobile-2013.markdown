@@ -21,7 +21,7 @@ viatitle:
 <h2><span style="color: #888888;">2.</span> Pensez utilisateur avant device</h2>
 <p>Etudier son audience est la base d’un projet réussi. La mise en place d’une phase de recherche vous permettra de comparer les attentes utilisateurs aux&nbsp;vôtres&nbsp;et ainsi ajuster le périmètre de votre projet. Ce n’est qu’après cette étape que vous connaîtrez le bon chemin à emprunter.</p>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/web-mobile-contexte-usage.jpg" alt="Web mobile - contexte et usage" width="500" height="333">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-mobile-contexte-usage.jpg" alt="Web mobile - contexte et usage" width="500" height="333">
   <figcaption>(Image – <a title="Denis Dervisevic" href="http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream" target="_blank">Denis Dervisevic</a>)</figcaption>
 </figure>
 <p>De nombreux facteurs dans un projet peuvent être un obstacle durant cette phase de recherche. <strong>Ne visez pas la perfection, essayez, échouez et recommencez !&nbsp;</strong></p>
@@ -40,13 +40,13 @@ viatitle:
 <h2><span style="color: #888888;">6.</span> Optez pour l’ajustement progressif</h2>
 <p>Il est pratiquement impossible d’optimiser une expérience mobile pour tous les terminaux de la planète. Il est néanmoins facile d’assurer un seuil d’<a title="40 points à checker pour atteindre le nirvāṇa de l’accessibilité Web" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist">accessibilité</a> minimum pour une grande majorité de devices en recourant à l’<strong>ajustement progressif</strong>. Une version dégradée mais néanmoins accessible sur un Nokia X2-01 offrira un accès à vos contenus à des millions de personnes à travers le monde. Pour vous en convaincre, lisez cet article&nbsp;<a title="See your site like the rest of the world does. On the Nokia X2-01 " href="http://generatedcontent.org/post/31441135779/mobileweb-row" target="_blank">See your site like the rest of the world does. On the Nokia X2-01</a>.</p>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/tumblr_ma9mnfEKBF1qmllqg.jpg" alt="Ajustement progressif mobile" width="434" height="406">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/tumblr_ma9mnfEKBF1qmllqg.jpg" alt="Ajustement progressif mobile" width="434" height="406">
   <figcaption>(Image – <a title="Denis Dervisevic" href="http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream" target="_blank">Denis Dervisevic</a>)</figcaption>
 </figure>
 <p>Offrez une expérience fonctionnelle à la plupart des personnes qui n’ont pas le dernier smartphone à la mode en Occident et présentez une expérience utilisateur plus qualitative pour les terminaux mobiles de votre coeur de cible.</p>
 <h2><span style="color: #888888;">7.</span> Fuyez la rigidité, anticipez les évolutions du Web mobile</h2>
 <p>Certains modèles ou OS mobiles sont les stars du marché actuel. Mais dans 2 ou 3 ans, votre dispositif mobile sera-t-il encore adapté aux attentes de vos utilisateurs ?&nbsp;S’accommodera-t-il si votre marché connaît une surprenante croissance sur un autre continent où les OS mobiles sont différents ? Je vous passe les questions concernant les évolutions techniques : écran souple, Google Glass, etc.</p>
-<p><img class="alignnone size-full wp-image-2911" title="Google Glass et Web mobile" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/google-glass-responsive-web-mobile.jpg" alt="Google Glass et Web mobile" width="552" height="468"></p>
+<p><img class="alignnone size-full wp-image-2911" title="Google Glass et Web mobile" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/google-glass-responsive-web-mobile.jpg" alt="Google Glass et Web mobile" width="552" height="468"></p>
 <p>Si cela vous intéresse, Zurb a écrit un article sur un des&nbsp;<a title="Google Glasses: You've Got Responsive Design in Your Eye" href="http://www.zurb.com/article/1141/google-glasses-you-ve-got-responsive-desi" target="_blank">prochains supports pour le Web mobile</a>. Utiliser l’<strong>ajustement progressif</strong>&nbsp;pour vos dispositifs mobiles vous épargnera bien des&nbsp;déboires&nbsp;à long terme. Cette flexibilité augmentera la taille de votre audience et son engagement en proposant une expérience utilisateur fonctionnelle pour tous, sans trop dépendre de l’évolution des supports.</p>
 <h2>Comment y parvenir</h2>
 <p>Adopter la bonne stratégie vous permettra d’aborder les enjeux du <strong>Web mobile</strong> sereinement. Accordez-vous du temps pour la définition du périmètre de votre projet. Effectuez des recherches, échangez et surtout testez dès que cela vous est possible.</p>

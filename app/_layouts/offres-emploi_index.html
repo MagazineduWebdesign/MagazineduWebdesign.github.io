@@ -183,7 +183,7 @@ layout: default
 	            <div class="row collapse">
 	              <div class="small-2 medium-1 columns">
 	                {% if offre.image %}
-	                <div class="rounded-img-d40 left" alt="logo {{ offre.entreprise }}" data-interchange="[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]"></div>
+	                <div class="rounded-img-d40 left" alt="logo {{ offre.entreprise }}" data-interchange="[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ offre.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]"></div>
 	                {% endif %}
 	              </div>
 	              <div class="small-10 medium-11 columns"> 
@@ -214,7 +214,7 @@ layout: default
 
 	              <div class="small-3 columns">
 	                {% if conseil.image %}
-	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ conseil.image-legende }}" />
+	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ conseil.image-legende }}" />
 	                {% endif %}
 	              </div>
 	            </div>
@@ -241,7 +241,7 @@ layout: default
 
 	              <div class="small-3 columns">
 	                {% if conseil.image %}
-	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ conseil.image-legende }}" />
+	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ conseil.image-legende }}" />
 	                {% endif %}
 	              </div>
 	            </div>
@@ -268,7 +268,7 @@ layout: default
 
 	              <div class="small-3 columns">
 	                {% if conseil.image %}
-	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ conseil.image-legende }}" />
+	                <img class="right" src="{{ conseil.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ conseil.image-legende }}" />
 	                {% endif %}
 	              </div>
 	            </div>

@@ -26,7 +26,7 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
 
               <div class="small-3 columns">
                 
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Italie" width="140">
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Italie" width="140">
                 
               </div>
             </div>
@@ -47,7 +47,7 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
 
               <div class="small-3 columns">
                 
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane France" width="140">
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane France" width="140">
                 
               </div>
             </div>
@@ -68,7 +68,7 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
 
               <div class="small-3 columns">
                 
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Espagne" width="140">
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Espagne" width="140">
                 
               </div>
             </div>
@@ -89,7 +89,7 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
 
               <div class="small-3 columns">
                 
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Brésil" width="140">
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Brésil" width="140">
                 
               </div>
             </div>

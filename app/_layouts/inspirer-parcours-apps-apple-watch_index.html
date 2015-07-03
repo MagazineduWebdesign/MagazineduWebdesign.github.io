@@ -78,7 +78,7 @@ layout: default
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav text-left" role="navigation" title="Link List">
 									  	{% for item in site.data.inspirer.parcours-apps-apple-watch %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
 					          	{% endfor %}
 									 	</ul>
 					        </div>
@@ -115,7 +115,7 @@ layout: default
 					          	{% endfor %}
 					          	<hr>
 					          	{% for item in site.data.inspirer.parcours-apps-apple-watch %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}"><img class="app-icon-24" src="{{ item.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/'}}" alt="icône app {{ item.title }}" width="24" height="24">{{ item.name }}</a></li>
 					          	{% endfor %}
 					        	</ul>
 					        </div>
@@ -173,7 +173,7 @@ layout: default
             <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 	            <div class="row collapse text-center">
 	              <div class="grid-article-card-info mod-app-icon small-12 columns">
-	              	<img class="grid-article-card-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/'}}" alt="icône app {{ post.title }}" width="64" height="64">
+	              	<img class="grid-article-card-app-icon" src="{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/'}}" alt="icône app {{ post.title }}" width="64" height="64">
 	              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
 	              </div>
 	            </div>

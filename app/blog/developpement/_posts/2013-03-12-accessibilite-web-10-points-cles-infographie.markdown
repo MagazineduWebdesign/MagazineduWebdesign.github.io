@@ -20,7 +20,7 @@ viatitle:
 <p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist" target="_blank">Evaluez mon score d’accessibilité</a></p>
 <h2 style="text-align: left;">Un Web accessible en 10 points</h2>
 <p>Voici 10&nbsp;règles&nbsp;pouvant être mises en place facilement dans un projet Web :<br>
-<img class="aligncenter size-full wp-image-3947" title="Accessibilité Web Infographie" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/accessibilite-web-infographie-magazine-du-web-design.jpg" alt="Accessibilité Web Infographie" width="534" height="517"></p>
+<img class="aligncenter size-full wp-image-3947" title="Accessibilité Web Infographie" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/accessibilite-web-infographie-magazine-du-web-design.jpg" alt="Accessibilité Web Infographie" width="534" height="517"></p>
 <ol>
 <li>Présence du&nbsp;tag&nbsp;<code>title</code>&nbsp;afin de nommer les pages et définir la nature de leurs contenus,</li>
 <li>Les pages doivent être accessibles et manipulables via l’utilisation du clavier,</li>

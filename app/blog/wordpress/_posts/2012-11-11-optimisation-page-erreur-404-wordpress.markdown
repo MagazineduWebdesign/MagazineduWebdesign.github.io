@@ -19,7 +19,7 @@ viatitle: Codex WordPress
 En effet, beaucoup de webmasters risquent de manquer à l’appel. Alors à vos claviers pour optimiser votre page 404 WordPress afin d’être prêt pour le grand jour.
 
 ##L’objectif : améliorer cette page
-![apache-erreur-404](https://s3-eu-west-1.amazonaws.com/mdw-img/large/apache-erreur-404.gif)
+![apache-erreur-404](https://s3-eu-west-1.amazonaws.com/mdw-images/large/apache-erreur-404.gif)
 
 ##Conseils et astuces pour optimiser une page 404 WordPress
 
@@ -91,7 +91,7 @@ Collez à la suite du code précédent ces quelques lignes :
 
 L’utilisateur et l’administrateur du site sont désormais informés. Dans le texte, nous avons indiqué à l’utilisateur différentes solutions pour sortir de l’impasse 404.
 
-![Page-introuvable-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-img/large/Page-introuvable-Magazine-du-Webdesign.jpg)
+![Page-introuvable-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-images/large/Page-introuvable-Magazine-du-Webdesign.jpg)
 
 Voyons en détails comment mettre en oeuvres ces dernières.
 
@@ -99,7 +99,7 @@ Voyons en détails comment mettre en oeuvres ces dernières.
 
 Première solution, mettre en place un formulaire de recherche.
 
-![Page-introuvable-section-recherche-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-img/large/Page-introuvable-section-recherche-Magazine-du-Webdesign.jpg)
+![Page-introuvable-section-recherche-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-images/large/Page-introuvable-section-recherche-Magazine-du-Webdesign.jpg)
 
 Collez ce code à la suite de la balise de fermeture `</p>` :
 
@@ -136,13 +136,13 @@ Collez ce code à la suite du formulaire de recherche :
 
 Lorsque l’utilisateur aura sélectionné une catégorie, il sera automatiquement redirigé vers la page archive de la catégorie sélectionnée.
 
-![Page-introuvable-section-categories-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-img/large/Page-introuvable-section-categories-Magazine-du-Webdesign.jpg)
+![Page-introuvable-section-categories-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-images/large/Page-introuvable-section-categories-Magazine-du-Webdesign.jpg)
 
 ###4. Mettre à disposition de l’utilisateur un lien de retour à la page d’accueil
 
 Si aucune solution ne conviendrait à l’utilisateur, proposez lui en dernier recours un lien pointant vers votre page d’accueil.
 
-![Page-introuvable-section-home-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-img/large/Page-introuvable-section-home-Magazine-du-Webdesign.jpg)
+![Page-introuvable-section-home-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-images/large/Page-introuvable-section-home-Magazine-du-Webdesign.jpg)
 
 Collez ce code à la suite de la liste déroulante des catégories :
 
@@ -159,7 +159,7 @@ Collez ce code à la suite de la liste déroulante des catégories :
 ##Conclusion
 
 Le résultat final :
-![Page-introuvable-ensemble-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-img/large/Page-introuvable-ensemble-Magazine-du-Webdesign.jpg)
+![Page-introuvable-ensemble-Magazine-du-Webdesign](https://s3-eu-west-1.amazonaws.com/mdw-images/large/Page-introuvable-ensemble-Magazine-du-Webdesign.jpg)
 
 Il est impératif de proposer un template de page 404 efficace et utile à l’utilisateur afin de le garder le plus longtemps possible sur le site et ainsi éviter de voir grimper en flèche votre taux de rebonds.
 

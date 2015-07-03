@@ -21,14 +21,14 @@ Ces textures sont issues de la populaire plateforme [Subtle Patterns](http://sub
 Subtle Background Patterns est un nouveau plugin vous donnant un accès direct aux textures Subtle Patterns depuis l’éditeur de backgrounds WordPress (Onglet Apparence). Vous pouvez ainsi choisir parmi plus de 300 textures laquelle conviendra le mieux à votre site, sans éditer la moindre ligne de CSS.
 
 <figure class="left">
-  <img src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Plugin-WordPress-Subtle-Background-Patterns-choix-textures.jpg" alt="Plugin WordPress Subtle Background Patterns - choix textures" width="555" height="409">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Plugin-WordPress-Subtle-Background-Patterns-choix-textures.jpg" alt="Plugin WordPress Subtle Background Patterns - choix textures" width="555" height="409">
   <figcaption>Choix de la texture Subtle Patterns dans l’onglet custom backgrounds WordPress.</figcaption>
 </figure>
 
 Une des fonctionnalités pratiques de ce plugin est la possibilité de voir en live les textures directement depuis le front-office. Avec cette prévisualisation, vous pouvez naviguer parmi les 300 textures et tester le rendu du background texturé avec le design et le contenu de votre thème.
 
 <figure>
-  <img src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/Plugin-WordPress-Subtle-Background-Patterns-previsualisation-texture-front-office.jpg" alt="Plugin WordPress Subtle Background Patterns - previsualisation texture front office" width="555" height="290">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Plugin-WordPress-Subtle-Background-Patterns-previsualisation-texture-front-office.jpg" alt="Plugin WordPress Subtle Background Patterns - previsualisation texture front office" width="555" height="290">
   <figcaption>Prévisualisation et choix du background texturé directement en front-office.</figcaption>
 </figure>
 

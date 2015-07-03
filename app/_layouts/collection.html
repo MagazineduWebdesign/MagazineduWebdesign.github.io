@@ -4,7 +4,7 @@ layout: default
 {% include custom/sections/article_header.html %}
 <section>
 {% if page.bgimgheader == true %}
-  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
+  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
 {% endif %}
 
   <div class="header-collection-shadow">
@@ -50,7 +50,7 @@ layout: default
 
               <div class="small-3 columns">
                 {% if item.image %}
-                <img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}" alt="{{ item.title }}" width="140"/>
+                <img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ item.title }}" width="140"/>
                 {% endif %}
               </div>
             </div>

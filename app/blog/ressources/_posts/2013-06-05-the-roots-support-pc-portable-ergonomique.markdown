@@ -17,7 +17,7 @@ viatitle:
 <p>Le support de PC portable The roots souhaite corriger nos mauvaises postures en portant l’écran de l’ordinateur à la hauteur de nos yeux.</p>
 <p>Pliable, ce pied pour PC nécessite l’utilisation d’un clavier et d’une souris. Vous ne regretterez pas votre pad et votre clavier intégré.</p>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/the-roots-pied-pc-portable-pliable.jpg" alt="the-roots-pied-pc-portable-pliable" width="555" height="404">
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/the-roots-pied-pc-portable-pliable.jpg" alt="the-roots-pied-pc-portable-pliable" width="555" height="404">
   <figcaption>The roots, support PC portable pliable en carbone.</figcaption>
 </figure>
 <p style="text-align: left;"><strong>Pré-commandez The roots sur Kickstarter</strong>, votre dos vous en remerciera et votre créativité augmentera.</p>

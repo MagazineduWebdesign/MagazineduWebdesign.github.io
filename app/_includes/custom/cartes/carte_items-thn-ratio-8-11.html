@@ -21,8 +21,8 @@
               <div class="row collapse grid-article-card-image mod-book-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if post.image %}
-                    <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)]" alt="{{ post.title }}" />
-                    <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}" alt="{{ post.title }}" /></noscript>
+                    <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]" alt="{{ post.title }}" />
+                    <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}" alt="{{ post.title }}" /></noscript>
                   {% endif %}
                 </div>
               </div>

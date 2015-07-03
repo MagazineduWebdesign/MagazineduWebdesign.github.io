@@ -29,7 +29,7 @@ layout: default
         {% for collection in collections limit: 2 %}
 
           <a href="{{ collection.url | prepend: site.baseurl }}" title="{{ collection.title }}">
-            <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (small)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (medium)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}, (large)]">
+            <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
               <div class="shadow-img">
                 <div class="collection-index-article-content">
                   <h1 class="collection-index-article-content-title text-center" itemprop="headline">{{ collection.title }}</h1>

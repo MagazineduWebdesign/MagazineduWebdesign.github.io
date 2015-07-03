@@ -18,9 +18,9 @@ viatitle:
 <p>J’ai découvert récemment un service d’icon fonts tout frais et fort utile qu’il fallait absolument que je partage avec vous.</p>
 <p>Il s’agit de <strong>Fontastic</strong>, une plateforme en ligne où il est possible de choisir ses <a title="Connaissez-vous ces 40 fabuleux packs d’icônes flat design ?" href="http://magazineduwebdesign.com/icones-flat-design">icônes</a> et de les transposer en icon font en quelques secondes.</p>
 <p>Faites votre choix parmi 1700 icônes ou importer vos propres <a title="SVG, le format d’image vectorielle des internets" href="http://magazineduwebdesign.com/format-svg-definition-outil-exemple">vectos</a>.</p>
-<p><img class="aligncenter size-full wp-image-5769" title="icone-vecto-gratuit-fontastic" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/icone-vecto-gratuit-fontastic.jpg" alt="icone-vecto-gratuit-fontastic" width="209" height="209"></p>
+<p><img class="aligncenter size-full wp-image-5769" title="icone-vecto-gratuit-fontastic" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/icone-vecto-gratuit-fontastic.jpg" alt="icone-vecto-gratuit-fontastic" width="209" height="209"></p>
 <p>Personnalisez ensuite votre icon font : choisissez quel caractère ou quelle classe CSS assigner à chaque icône.</p>
-<p><img class="aligncenter size-full wp-image-5770" title="icon-font-personnalisee-fontastic" src="https://s3-eu-west-1.amazonaws.com/mdw-img/large/icon-font-personnalisee-fontastic.jpg" alt="icon-font-personnalisee-fontastic" width="209" height="209"></p>
+<p><img class="aligncenter size-full wp-image-5770" title="icon-font-personnalisee-fontastic" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/icon-font-personnalisee-fontastic.jpg" alt="icon-font-personnalisee-fontastic" width="209" height="209"></p>
 <p>Puis téléchargez votre icon font dans divers formats :&nbsp;.ttf, .eot, .svg, .woff.</p>
 <h2>Pourquoi vous devriez utiliser une icon font</h2>
 <ul>

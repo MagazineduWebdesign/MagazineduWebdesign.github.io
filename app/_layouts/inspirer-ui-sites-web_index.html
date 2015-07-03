@@ -160,8 +160,8 @@ layout: default
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (medium)]" alt="{{ post.title }}" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" alt="{{ post.title }}" /></noscript>
+											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
+											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" alt="{{ post.title }}" /></noscript>
 	            			{% endif %}
 	                </div>
 		            </div>
@@ -207,8 +207,8 @@ layout: default
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/small/' }}, (medium)]" alt="{{ post.title }}" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/medium/' }}" alt="{{ post.title }}" /></noscript>
+											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
+											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" alt="{{ post.title }}" /></noscript>
 	            			{% endif %}
 	                </div>
 		            </div>

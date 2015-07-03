@@ -19,62 +19,62 @@ Ces frameworks se classent selon deux catégories : ceux dans le plus simple app
 
 ###xtreme theme
 
-<a href="http://xtreme-theme.com/" title="Voir la démo du thème" target="_blank">![1-Xtreme-Theme---Professional-WordPress-Themes](https://s3-eu-west-1.amazonaws.com/mdw-img/large/1-Xtreme-Theme-Professional-WordPress-Themes.jpg "1-Xtreme-Theme---Professional-WordPress-Themes")</a>
+<a href="http://xtreme-theme.com/" title="Voir la démo du thème" target="_blank">![1-Xtreme-Theme---Professional-WordPress-Themes](https://s3-eu-west-1.amazonaws.com/mdw-images/large/1-Xtreme-Theme-Professional-WordPress-Themes.jpg "1-Xtreme-Theme---Professional-WordPress-Themes")</a>
 
 ###Warp Framework
 
-<a href="http://www.yootheme.com/themes/warp-framework" title="Voir la démo du thème" target="_blank">![Warp Framework](https://s3-eu-west-1.amazonaws.com/mdw-img/large/2-Themes-Warp-Framework-YOOtheme.jpg "Warp Framework")</a>
+<a href="http://www.yootheme.com/themes/warp-framework" title="Voir la démo du thème" target="_blank">![Warp Framework](https://s3-eu-west-1.amazonaws.com/mdw-images/large/2-Themes-Warp-Framework-YOOtheme.jpg "Warp Framework")</a>
 
 ###Hybrid Core
 
-<a href="http://themehybrid.com/hybrid-core" title="Voir la démo du thème" target="_blank">![Hybrid Core](https://s3-eu-west-1.amazonaws.com/mdw-img/large/3-Hybrid-Core-WordPress-theme-development-framework.jpg "Hybrid Core")</a>
+<a href="http://themehybrid.com/hybrid-core" title="Voir la démo du thème" target="_blank">![Hybrid Core](https://s3-eu-west-1.amazonaws.com/mdw-images/large/3-Hybrid-Core-WordPress-theme-development-framework.jpg "Hybrid Core")</a>
 
 ###Thematic
 
-<a href="http://themeshaper.com/thematic/" title="Voir la démo du thème" target="_blank">![Thematic](https://s3-eu-west-1.amazonaws.com/mdw-img/large/5-The-Buffet-Framework.jpg "Thematic")</a>
+<a href="http://themeshaper.com/thematic/" title="Voir la démo du thème" target="_blank">![Thematic](https://s3-eu-west-1.amazonaws.com/mdw-images/large/5-The-Buffet-Framework.jpg "Thematic")</a>
 
 ###Buffet Framework
 
-<a href="http://www.zy.sg/the-buffet-framework/" title="Voir la démo du thème" target="_blank">![Buffet Framework](https://s3-eu-west-1.amazonaws.com/mdw-img/large/1-Xtreme-Theme-Professional-WordPress-Themes.jpg "Buffet Framework")</a>
+<a href="http://www.zy.sg/the-buffet-framework/" title="Voir la démo du thème" target="_blank">![Buffet Framework](https://s3-eu-west-1.amazonaws.com/mdw-images/large/1-Xtreme-Theme-Professional-WordPress-Themes.jpg "Buffet Framework")</a>
 
 ###Ashford
 
-<a href="http://ashford.turtleinteractive.com/" title="Voir la démo du thème" target="_blank">![Ashford](https://s3-eu-west-1.amazonaws.com/mdw-img/large/6-Free-WordPress-Theme-CMS-Framework-Ashford-WordPress-Theme.jpg "Ashford")</a>
+<a href="http://ashford.turtleinteractive.com/" title="Voir la démo du thème" target="_blank">![Ashford](https://s3-eu-west-1.amazonaws.com/mdw-images/large/6-Free-WordPress-Theme-CMS-Framework-Ashford-WordPress-Theme.jpg "Ashford")</a>
 
 ###Whiteboard Framework
 
-<a href="http://whiteboardframework.com/" title="Voir la démo du thème" target="_blank">![Whiteboard Framework](https://s3-eu-west-1.amazonaws.com/mdw-img/large/7-Whiteboard-Framework-for-WordPress.jpg "Whiteboard Framework")</a>
+<a href="http://whiteboardframework.com/" title="Voir la démo du thème" target="_blank">![Whiteboard Framework](https://s3-eu-west-1.amazonaws.com/mdw-images/large/7-Whiteboard-Framework-for-WordPress.jpg "Whiteboard Framework")</a>
 
 ###The Carrington framework
 
-<a href="http://carringtontheme.com/" title="Voir la démo du thème" target="_blank">![The Carrington framework](https://s3-eu-west-1.amazonaws.com/mdw-img/large/8-Carrington-The-CMS-Theme-Platform-for-WordPress.jpg "The Carrington framework")</a>
+<a href="http://carringtontheme.com/" title="Voir la démo du thème" target="_blank">![The Carrington framework](https://s3-eu-west-1.amazonaws.com/mdw-images/large/8-Carrington-The-CMS-Theme-Platform-for-WordPress.jpg "The Carrington framework")</a>
 
 ##Les thèmes WordPress vierges
 
 ###Theme Shaper
 
-<a href="http://themeshaper.com/2010/07/02/toolbox-html5-starter-theme/" title="Voir la démo du thème" target="_blank">![Theme Shaper](https://s3-eu-west-1.amazonaws.com/mdw-img/large/4-Thematic-A-WordPress-Theme-Framework-ThemeShaper.jpg "Theme Shaper")</a>
+<a href="http://themeshaper.com/2010/07/02/toolbox-html5-starter-theme/" title="Voir la démo du thème" target="_blank">![Theme Shaper](https://s3-eu-west-1.amazonaws.com/mdw-images/large/4-Thematic-A-WordPress-Theme-Framework-ThemeShaper.jpg "Theme Shaper")</a>
 
 ###Thème Hybrid
 
-<a href="http://themehybrid.com/themes/hybrid" title="Voir la démo du thème" target="_blank">![Thème Hybrid](https://s3-eu-west-1.amazonaws.com/mdw-img/large/10-Hybrid.jpg "Thème Hybrid")</a>
+<a href="http://themehybrid.com/themes/hybrid" title="Voir la démo du thème" target="_blank">![Thème Hybrid](https://s3-eu-west-1.amazonaws.com/mdw-images/large/10-Hybrid.jpg "Thème Hybrid")</a>
 
 ###The WordPress Starter Theme Project
 
-<a href="http://wpcandy.com/uncategorized/the-wordpress-starter-theme-project" title="Voir la démo du thème" target="_blank">![The WordPress Starter Theme Project](https://s3-eu-west-1.amazonaws.com/mdw-img/large/11-The-WordPress-Starter-Theme-Project-WPCandy.jpg "The WordPress Starter Theme Project")</a>
+<a href="http://wpcandy.com/uncategorized/the-wordpress-starter-theme-project" title="Voir la démo du thème" target="_blank">![The WordPress Starter Theme Project](https://s3-eu-west-1.amazonaws.com/mdw-images/large/11-The-WordPress-Starter-Theme-Project-WPCandy.jpg "The WordPress Starter Theme Project")</a>
 
 ###BLANK WordPress Theme
 
-<a href="http://digwp.com/2010/02/blank-wordpress-theme/" title="Voir la démo du thème" target="_blank">![BLANK WordPress Theme](https://s3-eu-west-1.amazonaws.com/mdw-img/large/12-BLANK-WordPress-Theme-Digging-into-WordPress.jpg "BLANK WordPress Theme")</a>
+<a href="http://digwp.com/2010/02/blank-wordpress-theme/" title="Voir la démo du thème" target="_blank">![BLANK WordPress Theme](https://s3-eu-west-1.amazonaws.com/mdw-images/large/12-BLANK-WordPress-Theme-Digging-into-WordPress.jpg "BLANK WordPress Theme")</a>
 
 ###Simon WP Framework
 
-<a href="http://simonwebdesign.com/simon-wp-framework/" title="Voir la démo du thème" target="_blank">![Simon WP Framework](https://s3-eu-west-1.amazonaws.com/mdw-img/large/13-Simon-WP-Framework-Simon-Web-Design-in-South-Florida.jpg "Simon WP Framework")</a>
+<a href="http://simonwebdesign.com/simon-wp-framework/" title="Voir la démo du thème" target="_blank">![Simon WP Framework](https://s3-eu-west-1.amazonaws.com/mdw-images/large/13-Simon-WP-Framework-Simon-Web-Design-in-South-Florida.jpg "Simon WP Framework")</a>
 
 ###Starkers
 
-<a href="http://viewportindustries.com/products/starkers/" title="Voir la démo du thème" target="_blank">![Starkers](https://s3-eu-west-1.amazonaws.com/mdw-img/large/14-Starkers-Viewport-Industries.jpg "Starkers")</a>
+<a href="http://viewportindustries.com/products/starkers/" title="Voir la démo du thème" target="_blank">![Starkers](https://s3-eu-west-1.amazonaws.com/mdw-images/large/14-Starkers-Viewport-Industries.jpg "Starkers")</a>
 
 ###Free blank WordPress theme
 
-<a href="http://www.schalkburger.za.net/free-blank-wordpress-theme" title="Voir la démo du thème" target="_blank">![Free blank WordPress theme](https://s3-eu-west-1.amazonaws.com/mdw-img/large/15Free-blank-Wordpress-theme.jpg "Free blank WordPress theme")</a>
+<a href="http://www.schalkburger.za.net/free-blank-wordpress-theme" title="Voir la démo du thème" target="_blank">![Free blank WordPress theme](https://s3-eu-west-1.amazonaws.com/mdw-images/large/15Free-blank-Wordpress-theme.jpg "Free blank WordPress theme")</a>

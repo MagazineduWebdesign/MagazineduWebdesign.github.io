@@ -8,7 +8,7 @@ layout: default
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
-          <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/xsmall/' }}, (small)]"></div>
+          <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 class="header-liste-headline" itemprop="headline"><span class="left job--entreprise">{{ page.title }}</span><span class="job--description">{{ page.event-date }} &bull; {{ page.event-lieu }}</span>
@@ -35,7 +35,7 @@ layout: default
         <div class="row collapse">
           <div class="small-12 columns">
             <figure class="figure-img">
-              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-img/large/' }}" alt="{{ page.image-legende }}">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}">
               {% if page.image-legende %}
               <div class="row collapse">
                 <div class="small-12 columns">
