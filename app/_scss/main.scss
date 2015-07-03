@@ -818,7 +818,7 @@ background-position: center}
 			padding:rem-calc(12) rem-calc(48) 0;
 		}
 	}
-.figure-img.mod-app-screenshot{border: 1px solid $secondary-color;}
+.figure-img.mod-app-screenshot img{border: 1px solid $secondary-color;}
 figcaption{
 	@include font-serif-paragraphe;
 	min-height:rem-calc(48);
