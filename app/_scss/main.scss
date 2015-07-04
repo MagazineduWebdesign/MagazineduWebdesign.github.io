@@ -349,6 +349,7 @@ sup {
 			background-color: white;
 		}
 		.grid-article-card-image.mod-web-app-screenshot{
+			padding-top: 0; // for item action in component grid articles
 			padding-bottom: 50%;
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image.mod-action{
