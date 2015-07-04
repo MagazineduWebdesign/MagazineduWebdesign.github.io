@@ -434,8 +434,8 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           src: [
-            '<%= yeoman.dist %>/assetsjs/**/*.js',
-            '<%= yeoman.dist %>/assetscss/**/*.css',
+            '<%= yeoman.dist %>/js/**/*.js',
+            '<%= yeoman.dist %>/css/**/*.css',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
@@ -492,12 +492,12 @@ module.exports = function (grunt) {
           detail: true,
           patterns: [
             {
-              match: '/assetscss/',
-              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-css/css/'
+              match: '/css/',
+              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-css/'
             },
             {
-              match: '/assetsjs/',
-              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-js/js/'
+              match: '/js/',
+              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-js/'
             }
           ]
         },
@@ -536,8 +536,8 @@ module.exports = function (grunt) {
           bucket: 'mdw-js'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>',
-          src: 'js/**/*'
+          cwd: '<%= yeoman.dist %>/js',
+          src: '**/*'
         }]
       },
       distCSS: {
@@ -546,8 +546,8 @@ module.exports = function (grunt) {
           bucket: 'mdw-css'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>',
-          src: 'css/**/*'
+          cwd: '<%= yeoman.dist %>/css',
+          src: '**/*'
         }]
       },
       //upload the sources/ folder and all its files to a different bucket – Glacier Storage Class
