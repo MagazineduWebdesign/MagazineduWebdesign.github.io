@@ -8,6 +8,7 @@
 //   images: img
 //   fonts: fonts
 
+// imagemin's dependencies
 var pngquant = require('imagemin-pngquant');
 var mozjpeg  = require('imagemin-mozjpeg');
 var gifsicle = require('imagemin-gifsicle');
@@ -233,17 +234,9 @@ module.exports = function (grunt) {
             ]
           ],
         },
-        blockReplacements: {
-          css: function (block) {
-              return '<link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/mdw-css' + block.dest + '">';
-          },
-          js: function (block) {
-              return '<script src="https://s3-eu-west-1.amazonaws.com/mdw-js' + block.dest + '"></script>';
-          },
-        },
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
-      js: ['<%= yeoman.dist %>/js/*.js'],
+      js: ['<%= yeoman.dist %>/js/**/*.js'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
     htmlmin: {
@@ -441,8 +434,8 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           src: [
-            '<%= yeoman.dist %>/js/**/*.js',
-            '<%= yeoman.dist %>/css/**/*.css',
+            '<%= yeoman.dist %>/assetsjs/**/*.js',
+            '<%= yeoman.dist %>/assetscss/**/*.css',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
@@ -491,6 +484,30 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+    replace: {
+      dist: {
+        options: {
+          usePrefix: false,
+          detail: true,
+          patterns: [
+            {
+              match: '/assetscss/',
+              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-css/css/'
+            },
+            {
+              match: '/assetsjs/',
+              replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-js/js/'
+            }
+          ]
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>',
+          src: '**/*.html',
+          dest: '<%= yeoman.dist %>'
+        }]
+      },
     },
     s3: {
       options: {
@@ -597,6 +614,7 @@ module.exports = function (grunt) {
     'svgmin',
     'filerev',
     'usemin',
+    'replace:dist', //replace static files with s3 path.
     'htmlmin'
     ]);
 
