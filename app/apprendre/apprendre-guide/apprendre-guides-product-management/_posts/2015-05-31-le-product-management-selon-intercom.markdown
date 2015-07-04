@@ -7,7 +7,7 @@ path2: guides
 path3: product-management
 category: guides
 tags: guides-product-management
-intro: Un guide que je conseille à tous les products manager. Un concentré d'outils et de conseils afin de savoir quelles fonctionnalités implémenter, ignorer ou améliorer & comment répondre de manière plus efficiente aux besoins de vos utilisateurs.
+intro: Un guide que je conseille à tous les product managers. Un concentré d'outils et de conseils afin de savoir quelles fonctionnalités implémenter, ignorer ou améliorer & comment répondre de manière plus efficiente aux besoins de vos utilisateurs.
 github: 
 siteweb: https://www.intercom.io/books/product-management
 description: Un concentré d'outils et de conseils afin de savoir quelles fonctionnalités implémenter, ignorer ou améliorer & comment répondre de manière plus efficiente aux besoins de vos utilisateurs.
