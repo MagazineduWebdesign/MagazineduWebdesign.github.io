@@ -234,10 +234,10 @@ module.exports = function (grunt) {
           ],
         },
         blockReplacements: {
-          js: function (block) {
+          css: function (block) {
               return '<link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/mdw-css' + block.dest + '">';
           },
-          css: function (block) {
+          js: function (block) {
               return '<script src="https://s3-eu-west-1.amazonaws.com/mdw-js' + block.dest + '"></script>';
           },
         },
@@ -519,8 +519,8 @@ module.exports = function (grunt) {
           bucket: 'mdw-js'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>/js',
-          src: '**/*'
+          cwd: '<%= yeoman.dist %>',
+          src: 'js/**/*'
         }]
       },
       distCSS: {
@@ -529,8 +529,8 @@ module.exports = function (grunt) {
           bucket: 'mdw-css'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>/css',
-          src: '**/*'
+          cwd: '<%= yeoman.dist %>',
+          src: 'css/**/*'
         }]
       },
       //upload the sources/ folder and all its files to a different bucket – Glacier Storage Class
