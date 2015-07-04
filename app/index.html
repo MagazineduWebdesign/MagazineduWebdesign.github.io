@@ -10,38 +10,35 @@ title: Magazine du Webdesign
 {% include custom/sections/brief.html %}
 <section>
 	<header class="row-liste-index">
-    <div class="small-12 columns section-brief-header"> 
-      <h1 class="section-brief-header-titre">Les derniers articles</h1>
+    <div class="small-12 columns"> 
+      <h1 class="section-carte-header-title-big text-center">Les collections du moment</h1>
     </div>
 	</header>
-	{% include custom/cartes/carte_cat.html param="design" %}
-	{% include custom/cartes/carte_cat.html param="developpement" %}
 	{% include custom/cartes/carte_items-thn_ui-inspiration_home.html param="ui-sites-web" %}
-	{% include custom/cartes/cartenl.html %}
-	{% include custom/cartes/carte_cat.html param="fun" %}
 	{% include custom/cartes/carte_items-thn_videos_home.html param="videos" %}
-	{% include custom/cartes/carte_cat.html param="graphisme" %}
-	{% include custom/cartes/cartetwtr.html %}
-	{% include custom/cartes/carte_items-no-thn_guides_home.html param="guides" %}
-	{% include custom/cartes/carte_cat.html param="mobile" %}
-	{% include custom/cartes/carte_cat.html param="ressources" %}
-	{% include custom/cartes/cartenl.html %}
-	{% include custom/cartes/carte_cat.html param="ux-design" %}
+  {% include custom/cartes/carte_items-no-thn_guides_home.html param="guides" %}
+  {% include custom/cartes/carte_twtr_index-large.html %}
+  {% include custom/cartes/carte_items-thn_ui-inspiration_home.html param="ui-sites-web" %}
+  {% include custom/cartes/carte_items-thn_videos_home.html param="videos" %}
+  {% include custom/cartes/carte_items-no-thn_guides_home.html param="guides" %}
+  {% include custom/cartes/carte_nl-index-large.html %}
 	{% include custom/cartes/carte_items-no-thn_plugin-wp_home.html param="plugins-wordpress" %}
-	{% include custom/cartes/carte_cat.html param="wordpress" %}
-	{% include custom/cartes/cartetwtr.html %}
+  {% include custom/cartes/carte_items-thn_videos_home.html param="videos" %}
+  {% include custom/cartes/carte_items-no-thn_guides_home.html param="guides" %}
+  {% include custom/cartes/carte_twtr_index-large.html %}
 </section>
 
 <!-- list all sections
 ================================================== -->
 <section>
-  <div class="row-liste-index">
-    <div class="small-12 columns section-carte-header-no-bg">
-      <h1 class="section-carte-header-title-big text-center">Explorez le meilleur des interfaces</h1>
+  <div class="row">
+    <div class="small-12 columns">
+      <h1 class="section-carte-header-title-big text-center">Explorez le meilleur du design interactif</h1>
+      <p class="header-liste-content text-center">8 sections. Des milliers des trucs cools à découvrir.</p>
     </div>
   </div>
 
-  <div class="row-liste-index">
+  <div class="row">
     <div class="small-12 columns">
       <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3" data-equalizer>
       
@@ -49,7 +46,7 @@ title: Magazine du Webdesign
         <li role="menuitem">
           <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
             <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
-              <div class="row collapse text-center">
+              <div class="row collapse">
                 <div class="grid-article-card-info mod-action small-12 columns">
                   <h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
                 </div>

@@ -239,11 +239,6 @@ sup {
 	line-height:rem-calc(48); 
 	font-size:rem-calc(14)
 }
-.section-carte-background{
-	background-color: $jet;
-  padding-bottom: rem-calc(48);
-  margin-bottom: rem-calc(24);
-}
 .section-carte-header{
 	margin-bottom:0;
 	border-top:1px solid $secondary-color;
@@ -419,8 +414,8 @@ sup {
 		@media #{$medium-up} {
 			.grid-article-card-info.mod-action{ 
 				padding: rem-calc(14);
-				min-height: 0;
-				max-height: none;
+				display: table;
+				table-layout: fixed;
 			}
 		}
 		@media #{$medium-up} {
@@ -455,8 +450,11 @@ sup {
 				//text-overflow: ellipsis;
 			}
 			.grid-article-card-title.mod-action{
+				display: table-cell;
+  			vertical-align: middle;
 				font-size: rem-calc(14);
 				color: $aluminum;
+				text-align: center;
 			}
 			.grid-article-card-meta{
 				margin-bottom: 0;
@@ -830,8 +828,7 @@ figcaption{
 }
 @media #{$medium-up} {
 	figcaption{
-		line-height:rem-calc(48);
-		padding:rem-calc(0) rem-calc(24) 0;
+		padding:rem-calc(12) rem-calc(24) 0;
 	}
 }
 @media #{$small-only} {

@@ -20,19 +20,19 @@ viatitle:
 <p>Certains vous diront que le <strong>flat design</strong> ne s’apparente pas à un style ou à une période mais plutôt aux bases fondamentales du design graphique. Une utilisation efficace de la couleur, de la typographie et de l’espace pour communiquer un message.</p>
 <p>Aucune 3d-ification, ni surcharge du design par des effets de textures, de profondeurs ou de dégradés. La simplicité prime avant tout.</p>
 <p>Le design se limite à l’emploi de couleurs souvent très vives et la typographie y occupe une place prédominante. Le flat design prône la clarté et la lisibilité.</p>
-<figure class="figure-img">
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/The-Experiential-Company-exemple-flat-design.jpg" alt="Flat design - The experiential" width="565" height="290">
+<figure>
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/The-Experiential-Company-exemple-flat-design.jpg" alt="Flat design - The experiential" width="565" height="290">
   <figcaption>Exemple flat design – <a title="Flat design - The experiential" href="http://theexperiential.com/" target="_blank">The Experiential Company</a></figcaption>
 </figure>
 <p>Cela passe par l’utilisation d’une police&nbsp;sans-serif&nbsp;de grande taille. Les textes sont concis, l’accent est mis de préférence sur le message. La forme sert l’information de manière simple via une mise en page proposant de grands espaces vides.</p>
 <p>C’est par sa quête de la simplicité et son affection pour la typographie que le flat design peut être apparenté au <strong>Swiss style</strong>, aussi connu sous la dénomination d’International typographic style.</p>
-<figure class="figure-img">
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Erscheinungsbild-Flughafen-Munchen.jpg" alt="Erscheinungsbild Flughafen Munchen" width="500" height="375">
+<figure>
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Erscheinungsbild-Flughafen-Munchen.jpg" alt="Erscheinungsbild Flughafen Munchen" width="500" height="375">
   <figcaption>Exemple flat design – <a title="Erscheinungsbild Flughafen Munchen" href="http://www.flickr.com/photos/9713498@N08/2183737564/in/photostream/" target="_blank">Erscheinungsbild Flughafen Munchen</a></figcaption>
 </figure>
 
-<figure class="figure-img">
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc.jpg" alt="Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc" width="555" height="417">
+<figure>
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc.jpg" alt="Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc" width="555" height="417">
   <figcaption>Exemple flat design – <a title="Karl-Gerstner-Review-of-5-10-Years-of-Graphic-Design-etc" href="http://www.flickr.com/photos/hectic_8/" target="_blank">Karl Gerstner: Review of 5 X 10 Years of Graphic Design — Andy Hills</a></figcaption>
 </figure>
 <p>Reprenant à son compte les principes du modernisme, le Swiss design a favorisé l’émergence d’un style graphique centré sur le travail de la typographie avec une mise en page parfois étriquée mais le plus souvent très structurée.</p>
@@ -58,7 +58,7 @@ viatitle:
 <p><a href="http://dribbble.com/shots/888592-Scavenger-Hunt" rel="attachment wp-att-3742" target="_blank"><img class="alignnone size-full wp-image-3742" title="Dribbble---dbreal.jpg-by-Ben-Garratt" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-dbreal.jpg-by-Ben-Garratt.jpg" alt="Dribbble---dbreal.jpg-by-Ben-Garratt" width="555" height="300"></a></p>
 <p><a href="http://dribbble.com/shots/875799-Designer-News" rel="attachment wp-att-3743" target="_blank"><img class="alignnone size-full wp-image-3743" title="Dribbble---Designer-News-by-Allan-Grinshtein" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-Designer-News-by-Allan-Grinshtein.jpg" alt="Dribbble---Designer-News-by-Allan-Grinshtein" width="555" height="296"></a></p>
 <p><a href="http://dribbble.com/shots/947782-Freebie-PSD-Flat-UI-Kit" rel="attachment wp-att-3744" target="_blank"><img class="alignnone size-full wp-image-3744" title="Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-Freebie-PSD-Flat-UI-Kit-by-Riki-Tanone1.jpg" alt="Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)" width="555" height="309"></a></p>
-<p><a href="http://dribbble.com/shots/896977-Google-Grid" rel="attachment wp-att-3745" target="_blank"><img class="alignnone size-full wp-image-3745" title="Dribbble---Google+-Grid-by-Haraldur-Thorleifsson" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-Google+-Grid-by-Haraldur-Thorleifsson.jpg" alt="Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)" width="555" height="315"></a></p>
+<p><a href="http://dribbble.com/shots/896977-Google-Grid" rel="attachment wp-att-3745" target="_blank"><img class="alignnone size-full wp-image-3745" title="Dribbble---Google-Grid-by-Haraldur-Thorleifsson" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-Google-Grid-by-Haraldur-Thorleifsson.jpg" alt="Dribbble---Freebie-PSD--Flat-UI-Kit-by-Riki-Tanone(1)" width="555" height="315"></a></p>
 <p><a href="http://dribbble.com/shots/917819-iPad-Calendar-Login" rel="attachment wp-att-3746" target="_blank"><img class="alignnone size-full wp-image-3746" title="Dribbble---iPad-Calendar-Login" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-iPad-Calendar-Login.jpg" alt="Dribbble---iPad-Calendar-Login" width="555" height="299"></a></p>
 <p><a href="http://dribbble.com/shots/567475-Afternoon-in-New-York" rel="attachment wp-att-3747" target="_blank"><img class="alignnone size-full wp-image-3747" title="Dribbble---iPad-Calendar-Login-by-Ari" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-iPad-Calendar-Login-by-Ari.jpg" alt="Dribbble---iPad-Calendar-Login-by-Ari" width="555" height="300"></a></p>
 <p><a href="http://dribbble.com/shots/937610-Student-Guide" rel="attachment wp-att-3748" target="_blank"><img class="alignnone size-full wp-image-3748" title="Dribbble---Scavenger-Hunt-by-Cosmin-Capitanu" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Dribbble-Scavenger-Hunt-by-Cosmin-Capitanu.jpg" alt="Dribbble---Scavenger-Hunt-by-Cosmin-Capitanu" width="555" height="300"></a></p>
