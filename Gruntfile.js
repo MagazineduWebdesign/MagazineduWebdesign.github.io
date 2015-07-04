@@ -496,13 +496,33 @@ module.exports = function (grunt) {
           StorageClass: 'REDUCED_REDUNDANCY'
         },
       },
-      dist: {
+      distIMG: {
         files: [{
           cwd: '<%= yeoman.dist %>/img',
           src: [
             '**/*',
             '!sources/**/*',
             ]
+        }]
+      },
+      distJS: {
+        //override options
+        options: {
+          bucket: 'mdw-js'
+        },
+        files: [{
+          cwd: '<%= yeoman.dist %>/js',
+          src: '**/*'
+        }]
+      },
+      distCSS: {
+        //override options
+        options: {
+          bucket: 'mdw-css'
+        },
+        files: [{
+          cwd: '<%= yeoman.dist %>/css',
+          src: '**/*'
         }]
       },
       //upload the sources/ folder and all its files to a different bucket – Glacier Storage Class
@@ -576,7 +596,9 @@ module.exports = function (grunt) {
     'check',
     'test',
     'build',
-    's3:dist',
+    's3:distIMG',
+    's3:distJS',
+    's3:distCSS',
     's3:glacier',
     'buildcontrol:dist'
     ]);
