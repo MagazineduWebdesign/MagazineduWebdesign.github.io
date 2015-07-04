@@ -233,6 +233,14 @@ module.exports = function (grunt) {
             ]
           ],
         },
+        blockReplacements: {
+          js: function (block) {
+              return '<link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/mdw-css/' + block.dest + '">';
+          },
+          css: function (block) {
+              return '<script src="https://s3-eu-west-1.amazonaws.com/mdw-js/' + block.dest + '"></script>';
+          },
+        },
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
       js: ['<%= yeoman.dist %>/js/*.js'],
