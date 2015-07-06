@@ -866,21 +866,22 @@ figcaption{
 	  -webkit-flex-direction: row;
 	  display: flex;
 	  display: -webkit-flex;
+	  display: flex;
 	  justify-content: center;
 	  align-items: flex-start;
 	}
 }
 @media #{$medium-up} {
 	[class*="block-grid-"].mod-grid-cross-nav > li{
-		width: 33.1%;
+		width: rem-calc(247);
 	}
 	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
-		width: 33.1%;
+		width: rem-calc(247);
 	}
 }
 @media #{$large-up} {
 	[class*="block-grid-"].mod-grid-cross-nav > li{
-		width: 24.85%;
+		width: rem-calc(227);
 	}
 }
 //form
