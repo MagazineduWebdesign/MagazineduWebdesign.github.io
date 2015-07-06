@@ -1,0 +1,34 @@
+<section>
+	<div class="row-liste-index">
+	  <div class="small-12 columns text-center">
+	    <h1 class="section-carte-header-title-big">Développez vos talents en explorant ces collections</h1>
+	    <!-- Number of item -->
+			{% for item in site.data.apprendre.apprendre-entries %}
+		    {% capture length %}{{ forloop.length }}{% endcapture %}
+		  {% endfor %}
+	    <p class="header-liste-content">{{ length }} sections à explorer. Des centaines de conseils &amp; d'astuces pour rendre le monde meilleur, maquette après maquette, balise après balise ;-).</p>
+	  </div>
+	</div>
+
+	<div class="row-liste-index">
+	  <div class="small-12 columns">
+	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav mod-liste-index" data-equalizer>
+	    
+	    {% for item in site.data.apprendre.apprendre-entries %}
+        <li role="menuitem">
+          <article class="grid-article-card" data-equalizer-watch>
+            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+              <div class="row collapse">
+                <div class="grid-article-card-info mod-action small-12 columns">
+                  <h2 class="grid-article-card-title mod-action">{{ item.name }}</h2>
+                </div>
+              </div>
+            </a>
+          </article>
+        </li>
+    	{% endfor %}
+
+	    </ul>
+	  </div>
+	</div>
+</section>

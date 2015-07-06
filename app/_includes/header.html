@@ -40,10 +40,10 @@
           <ul class="dropdown">
             <li><label>EXPLOREZ</label></li>
             {% for item in site.data.navigation.navigation-header %}
-              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
             {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -52,18 +52,18 @@
         source ==> http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
         ================================================== -->
         {% for item in site.data.navigation.navigation-header %}
-          <li class="hide-for-medium-only"><a href="{{ item.href }}">{{ item.title }}</a></li>
+          <li class="hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
         {% endfor %}
         <!-- mobile Left Nav Section - navigation-header-more-left -->
         {% for item in site.data.navigation.navigation-header-more-left %}
-          <li class="show-for-small-only"><a href="{{ item.href }}">{{ item.title }}</a></li>
+          <li class="show-for-small-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
         {% endfor %}
         <!-- Desktop Left Nav Section - navigation-header-more-left -->
         <li class="show-for-large-up has-dropdown">
           <a href="#">PLUS <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -117,7 +117,7 @@
           <a href="#"><span class="hide-for-medium-up">LE MAGAZINE..</span><svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more %}
-            <li class=""><a href="{{ site.baseurl }}/{{ item.href }}">{{ item.title | upcase }}</a></li>
+            <li class=""><a href="{{ site.baseurl }}/{{ item.permalink }}">{{ item.name | upcase }}</a></li>
             {% endfor %}
           </ul>
         </li>

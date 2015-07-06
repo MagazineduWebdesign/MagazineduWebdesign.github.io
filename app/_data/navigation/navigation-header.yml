@@ -1,17 +1,14 @@
-- title: LIRE
-  href: /lire/
+- name: LIRE
+  permalink: /lire/
 
-- title: VOIR
-  href: /videos/
+- name: VOIR
+  permalink: /videos/
 
-- title: S'INSPIRER
-  href: /inspiration/
+- name: S'INSPIRER
+  permalink: /inspiration/
 
-- title: D&Eacute;COUVRIR
-  href: /decouvrir/
+- name: D&Eacute;COUVRIR
+  permalink: /decouvrir/
 
-- title: APPRENDRE
-  href: /apprendre/
-
-- title: JOBS 
-  href: /emploi/
+- name: APPRENDRE
+  permalink: /apprendre/

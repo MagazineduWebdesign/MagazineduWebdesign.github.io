@@ -220,13 +220,13 @@ layout: default
 	================================================== -->
 	<div class="row"> 
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 {% if page.category == 'sites-web' %}current-page{% endif %}">
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav {% if page.category == 'sites-web' %}current-page{% endif %}">
 
 			<!-- Upload yours
 			================================================== -->
 			<li>
         <article class="grid-article-card mod-add-new js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-          <div class="row collapse hide-for-small grid-article-card-image mod-add-new mod-web-app-screenshot">
+          <div class="row collapse hide-for-small grid-article-card-image mod-add-new">
             <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             </div>
           </div>
@@ -251,7 +251,7 @@ layout: default
 	            
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            
-		            <div class="row collapse grid-article-card-image mod-web-app-screenshot">
+		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
@@ -301,7 +301,7 @@ layout: default
 	            
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		            
-		            <div class="row collapse grid-article-card-image mod-web-app-screenshot">
+		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
@@ -350,32 +350,4 @@ layout: default
 
 <!-- list all section's categories
 ================================================== -->
-<section>
-	<div class="row">
-	  <div class="small-12 columns section-carte-header-no-bg">
-	    <h1 class="section-carte-header-title-big text-center">Trouvez l'inspiration en explorant ces collections</h1>
-	  </div>
-	</div>
-
-	<div class="row">
-	  <div class="small-12 columns">
-	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
-	    
-	    {% for item in site.data.inspirer.inspirer-entries %}
-	      <li role="menuitem">
-          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
-	            <div class="row collapse text-center">
-	              <div class="grid-article-card-info mod-action small-12 columns">
-	              	<h2 class="grid-article-card-title mod-action" itemprop="headline">{{ item.name }}</h2>
-	              </div>
-	            </div>
-		        </a>
-          </article>
-				</li>
-    	{% endfor %}
-
-	    </ul>
-	  </div>
-	</div>
-</section>
+{% include custom/cartes/carte_cross-navigation-inspirer.html %}

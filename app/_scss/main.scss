@@ -189,13 +189,16 @@ sup {
 .header-liste.mod-no-bg-gradient{
 	@include header-liste;
 }
-	.header-liste-content{@include font-sans-serif-paragraphe; color: $aluminum;}
+	.header-liste-content{
+		@include font-sans-serif-paragraphe; 
+		color: $aluminum;
+	}
 	.header-liste-content.mod-bg-img{
 		margin-bottom: 0;
 		color: $white;
 	}
-	.header-liste-link a{@include header-liste-link}
-	.header-liste-link a:hover{color:$oil}
+	.header-liste-content-link {@include header-liste-link}
+	.header-liste-content-link:hover{color:$oil}
 
 @media #{$small-only} {
 	.header-liste.u-no-padding-bottom{padding-bottom: 0}
@@ -316,7 +319,7 @@ sup {
 			position: relative;
 			width: 100%;
 			height: 0;
-			padding-bottom: 56%;
+			padding-bottom: 50%;
 			overflow: hidden;
 			border-radius: rem-calc(2 2 0 0);
 			background: linear-gradient(-45deg, #FF5700 0%,#f33f58 100%);
@@ -331,8 +334,8 @@ sup {
 			background-color: transparent!important;
 		}
 		.grid-article-card-image.mod-action{
-			padding-top: 20%;
-		  padding-bottom: 36%;
+			padding-top: 16%;
+		  padding-bottom: 34%;
 		  padding-left: 16px;
 		  padding-right: 16px;
 		  background: white;
@@ -342,10 +345,6 @@ sup {
 			padding-top: 0;
 			padding-bottom: 124%;
 			background-color: white;
-		}
-		.grid-article-card-image.mod-web-app-screenshot{
-			padding-top: 0; // for item action in component grid articles
-			padding-bottom: 50%;
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image.mod-action{
 			background: none;
@@ -416,6 +415,7 @@ sup {
 				padding: rem-calc(14);
 				display: table;
 				table-layout: fixed;
+				height: 0;
 			}
 		}
 		@media #{$medium-up} {
@@ -455,6 +455,11 @@ sup {
 				font-size: rem-calc(14);
 				color: $aluminum;
 				text-align: center;
+			}
+			@media #{$small-only} {
+				.grid-article-card-title.mod-action{
+					display: block;
+				}
 			}
 			.grid-article-card-meta{
 				margin-bottom: 0;
@@ -850,7 +855,34 @@ figcaption{
 
 //navigation
 .navigation-sub-header{background-color:$secondary-color}
-
+@media #{$medium-up} {
+	.grid-cross-nav-wrap{
+		padding: 0;
+	}
+	[class*="block-grid-"].mod-grid-cross-nav{
+		flex-wrap: wrap;
+	  -webkit-flex-wrap: wrap;
+	  flex-direction: row;
+	  -webkit-flex-direction: row;
+	  display: flex;
+	  display: -webkit-flex;
+	  justify-content: center;
+	  align-items: flex-start;
+	}
+}
+@media #{$medium-up} {
+	[class*="block-grid-"].mod-grid-cross-nav > li{
+		width: 33.1%;
+	}
+	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
+		width: 33.1%;
+	}
+}
+@media #{$large-up} {
+	[class*="block-grid-"].mod-grid-cross-nav > li{
+		width: 24.85%;
+	}
+}
 //form
 .required.email{
 	background-color: transparent;

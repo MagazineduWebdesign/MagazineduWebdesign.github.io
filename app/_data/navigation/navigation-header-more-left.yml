@@ -1,5 +1,8 @@
-- title: EVENEMENTS
-  href: /evenements/
+- name: JOBS 
+  permalink: /emploi/
 
-- title: COLLECTIONS
-  href: /collections/
+- name: EVENEMENTS
+  permalink: /evenements/
+
+- name: COLLECTIONS
+  permalink: /collections/

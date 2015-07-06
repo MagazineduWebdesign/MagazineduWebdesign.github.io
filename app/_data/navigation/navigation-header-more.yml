@@ -1,24 +1,24 @@
-- title: A propos
-  href: a-propos
+- name: A propos
+  permalink: a-propos
 
-- title: Hello
-  href: hello
+- name: Hello
+  permalink: hello
 
-- title: Feedback
-  href: feedback
+- name: Feedback
+  permalink: feedback
 
-- title: facebook
-  href: http://facebook.com
+- name: facebook
+  permalink: http://facebook.com
 
-- title: google+
-  href: http://facebook.com
+- name: google+
+  permalink: http://facebook.com
 
-- title: github
-  href: http://github.com
+- name: github
+  permalink: http://github.com
 
-- title: LinkedIn
-  href: http://linkedin.com
+- name: LinkedIn
+  permalink: http://linkedin.com
 
-- title: rss
-  href: feed.xml
+- name: rss
+  permalink: feed.xml
 
