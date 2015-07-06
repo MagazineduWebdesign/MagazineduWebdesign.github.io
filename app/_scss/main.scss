@@ -876,6 +876,7 @@ figcaption{
 @media #{$medium-up} {
 	[class*="block-grid-"].mod-grid-cross-nav > li{
   width: 33%;
+	}
 	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
   width: 33%;
 	}
