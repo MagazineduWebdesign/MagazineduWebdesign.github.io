@@ -860,28 +860,45 @@ figcaption{
 		padding: 0;
 	}
 	[class*="block-grid-"].mod-grid-cross-nav{
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 		flex-wrap: wrap;
 	  -webkit-flex-wrap: wrap;
 	  flex-direction: row;
 	  -webkit-flex-direction: row;
-	  display: flex;
-	  display: -webkit-flex;
-	  display: flex;
 	  justify-content: center;
 	  align-items: flex-start;
 	}
 }
 @media #{$medium-up} {
 	[class*="block-grid-"].mod-grid-cross-nav > li{
-		width: rem-calc(247);
+		-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;         /* OLD - Firefox 19- */
+  width: 33%;               /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1;          /* Chrome */
+  -ms-flex: 1;              /* IE 10 */
+  flex: 1;
 	}
 	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
-		width: rem-calc(247);
+		-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;         /* OLD - Firefox 19- */
+  width: 33%;               /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1;          /* Chrome */
+  -ms-flex: 1;              /* IE 10 */
+  flex: 1;
 	}
 }
 @media #{$large-up} {
 	[class*="block-grid-"].mod-grid-cross-nav > li{
-		width: rem-calc(227);
+		-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;         /* OLD - Firefox 19- */
+  width: 24%;               /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1;          /* Chrome */
+  -ms-flex: 1;              /* IE 10 */
+  flex: 1;
 	}
 }
 //form
