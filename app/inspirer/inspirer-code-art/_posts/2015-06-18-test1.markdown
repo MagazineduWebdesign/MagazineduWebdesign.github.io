@@ -15,4 +15,4 @@ image-2: "code-art-2.jpg"
 intro: "Un code source, des données exotiques et de la dataviz. Le cocktail pour réaliser et vendre un poster."
 auteur: "MagazineDuWebdesign"
 description: "Un code source, des données exotiques et de la dataviz. Le cocktail pour réaliser et vendre un poster."
----
+--- 
