@@ -7,6 +7,18 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Dennis Markgraf – Interactive developer technologist</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 09 Jul 2015 17:24:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/portfolio-dennismarkgraf</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/portfolio-dennismarkgraf</guid>
+			</item>
+		
+			<item>
 				<title>App Apple Watch – exemple de composant UI Glances</title>
 				        
 				
@@ -37,7 +49,7 @@
 					<description>
 </description>
 				
-				<pubDate>Wed, 24 Jun 2015 19:24:57 +0200</pubDate>
+				<pubDate>Wed, 24 Jun 2015 17:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/site-web-galerie-art-yufuku</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-galerie-art-yufuku</guid>
 			</item>
@@ -139,6 +151,18 @@
 				<pubDate>Thu, 18 Jun 2015 19:22:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/photoshop-cc-astuce-grille-lignes-de-bases</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/photoshop-cc-astuce-grille-lignes-de-bases</guid>
+			</item>
+		
+			<item>
+				<title>test</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 18 Jun 2015 17:24:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/test1</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/test1</guid>
 			</item>
 		
 			<item>
@@ -431,102 +455,6 @@
 			</item>
 		
 			<item>
-				<title>Lucid Inc</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Sat, 28 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-6</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-6</guid>
-			</item>
-		
-			<item>
-				<title>Ignition Creative</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 19:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-5</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-5</guid>
-			</item>
-		
-			<item>
-				<title>VGroup</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:29:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-11</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-11</guid>
-			</item>
-		
-			<item>
-				<title>Purpose</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:28:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-10</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-10</guid>
-			</item>
-		
-			<item>
-				<title>Trib</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:27:02 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-4</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-4</guid>
-			</item>
-		
-			<item>
-				<title>Exemple dribble item relatif par Amine</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:24:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/ui-inspiration-sites-web-3</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/ui-inspiration-sites-web-3</guid>
-			</item>
-		
-			<item>
-				<title>Articles relatifs sur Behance</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:24:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/ui-inspiration-sites-web-2</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/ui-inspiration-sites-web-2</guid>
-			</item>
-		
-			<item>
-				<title>Exemple dribble item relatif par Ggggg</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:24:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/ui-inspiration-sites-web-1</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/ui-inspiration-sites-web-1</guid>
-			</item>
-		
-			<item>
 				<title>Recherche de contact</title>
 				        
 				
@@ -560,18 +488,6 @@
 				<pubDate>Wed, 25 Feb 2015 18:24:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/ui-inspiration-android-1</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/ui-inspiration-android-1</guid>
-			</item>
-		
-			<item>
-				<title>Magazine du Webdesign</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:24:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-1</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-1</guid>
 			</item>
 		
 			<item>
@@ -984,42 +900,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 			</item>
 		
 			<item>
-				<title>Doubleday et Cartwright</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:22:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-3</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-3</guid>
-			</item>
-		
-			<item>
-				<title>Stereo Creative</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:21:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-2</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-2</guid>
-			</item>
-		
-			<item>
-				<title>The Church of London</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Feb 2015 18:20:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-12</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-12</guid>
-			</item>
-		
-			<item>
 				<title>Google Places Autocomplete input</title>
 				        
 				
@@ -1031,18 +911,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Sun, 22 Feb 2015 18:23:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/decouvrir-plugin-wp-image2</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/decouvrir-plugin-wp-image2</guid>
-			</item>
-		
-			<item>
-				<title>HLK Agency</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Sat, 21 Feb 2015 18:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-7</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-7</guid>
 			</item>
 		
 			<item>
@@ -1232,30 +1100,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 				<pubDate>Tue, 17 Feb 2015 18:23:57 +0100</pubDate>
 				<link>http://magazineduwebdesign.com/citation-1</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/citation-1</guid>
-			</item>
-		
-			<item>
-				<title>Lucid Inc</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 25 Jan 2015 20:23:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-9</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-9</guid>
-			</item>
-		
-			<item>
-				<title>Neue</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 25 Jan 2015 18:24:57 +0100</pubDate>
-				<link>http://magazineduwebdesign.com/site-web-8</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/site-web-8</guid>
 			</item>
 		
 			<item>
