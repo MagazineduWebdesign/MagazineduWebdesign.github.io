@@ -1,8 +1,4 @@
-- name: SITES WEB
-  currentnav:
-  permalink: /inspiration/sites-web/
-
-- name: ELEMENTS UI SITES WEB
+- name: UI DESIGN SITES WEB
   currentnav:
   permalink: /inspiration/ui-design/sites-web/
 
@@ -10,7 +6,7 @@
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/
 
-- name: ELEMENTS UI ANDROID
+- name: UI DESIGN ANDROID
   currentnav:
   permalink: /inspiration/ui-design/android/
 

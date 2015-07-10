@@ -26,7 +26,14 @@ composant-ui-url-3:
 url-demo:
 image: "inspiration-apple-watch-composant-ui-glances-1.gif"
 image-2:
-intro: ""
+intro:
 auteur:
 description:
+reference-name: "Apple"
+reference-title: "Guide du design IHM"
+reference-url: "https://developer.apple.com/watch/human-interface-guidelines/"
+description:
+reference-02-name: "Apple"
+reference-02-title: "Guide du design IHM"
+reference-02-url: "https://developer.apple.com/watch/human-interface-guidelines/"
 ---

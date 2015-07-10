@@ -1,7 +1,11 @@
-- name: ARTICLES RELATIFS
-  currentnav:
-  permalink: /inspiration/ui-design/sites-web/articles-relatifs/
+- name: accordion
+  permalink: /inspiration/ui-design/sites-web/elements-ui/accordion/
 
-- name: RECHERCHE
-  currentnav:
-  permalink: /inspiration/ui-design/sites-web/recherche/
+- name: champ de recherche
+  permalink: /inspiration/ui-design/sites-web/elements-ui/champ-de-recherche/
+
+- name: navigation off canvas
+  permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-off-canvas/
+
+- name: navigation scroll horizontal
+  permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-scroll-horizontal/

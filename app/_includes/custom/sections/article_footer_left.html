@@ -1,7 +1,9 @@
-  	{% if page.keyword_title %}  
-			{% include custom/cartes/carte_lexique.html %}
-		{% endif %}
+{% if page.keyword_title %}
+	{% include custom/cartes/carte_lexique.html %}
+{% endif %}
 
-		{% include custom/cartes/cartenl.html %}
+{% include custom/cartes/carte_refs_article.html %}
 
-		{% include custom/cartes/carte_twtr_no-mail.html %}
+{% include custom/cartes/cartenl.html %}
+
+{% include custom/cartes/carte_twtr_no-mail.html %} 

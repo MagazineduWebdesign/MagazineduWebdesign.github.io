@@ -6,16 +6,32 @@
     </div>
   </div>
   <div class="row-liste-index">
-    <div class="small-12 columns section-carte-panel">
-      <div class="reference">
-        <div class="reference-name">{{ page.reference-name | upcase }}</div>
-        <a href="{{ page.reference-url }}">{{ page.reference-title }}</a>
-      </div>
+    <div class="small-12 columns carte-categorie">
+      <a href="{{ page.reference-url }}" title="{{ page.reference-title }}" target="_blank">
+        <article class="carte-article-secondaire">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <div class="reference">
+                <div class="reference-name">{{ page.reference-name | upcase }}</div>
+                <h1 class="carte-article-secondaire-post-title">{{ page.reference-title }}</h1>
+              </div>
+            </div>
+          </div>
+        </article>
+      </a>
       {% if page.reference-02-name %}
-        <div class="reference">
-          <div class="reference-name">{{ page.reference-02-name | upcase }}</div>
-          <a href="{{ page.reference-02-url }}">{{ page.reference-02-title }}</a>
-        </div>
+      <a href="{{ page.reference-02-url }}" title="{{ page.reference-02-title }}" target="_blank">
+        <article class="carte-article-secondaire">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <div class="reference">
+                <div class="reference-name">{{ page.reference-02-name | upcase }}</div>
+                <h1 class="carte-article-secondaire-post-title">{{ page.reference-02-title }}</h1>
+              </div>
+            </div>
+          </div>
+        </article>
+      </a>
       {% endif %}
     </div>
   </div>
