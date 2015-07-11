@@ -1,7 +1,15 @@
 - name: GLANCES
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/composants-ui/glances/
-  
-- name: NOTIFICATION
+
+- name: NOTIFICATIONS
   currentnav:
-  permalink: /inspiration/ui-design/apple-watch/composants-ui/notification/
+  permalink: /inspiration/ui-design/apple-watch/composants-ui/notifications/
+
+- name: navigation
+  currentnav:
+  permalink: /inspiration/ui-design/apple-watch/composants-ui/navigation/
+
+- name: watchkit apps
+  currentnav:
+  permalink: /inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/
