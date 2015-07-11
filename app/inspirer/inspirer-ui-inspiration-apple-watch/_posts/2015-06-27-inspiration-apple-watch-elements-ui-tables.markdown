@@ -11,20 +11,26 @@ tags:
 - ui-apple-watch-composants-ui-notification
 element-ui-1: "tables"
 element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/tables/"
-element-ui-2: "tables"
-element-ui-url-2: "/inspiration/ui-design/apple-watch/elements-ui/tables/"
-element-ui-3: "tables"
-element-ui-url-3: "/inspiration/ui-design/apple-watch/elements-ui/tables/"
-composant-ui-1: "notification"
-composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/notification/"
-composant-ui-2: "notification"
-composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/notification/"
-composant-ui-3: "notification"
-composant-ui-url-3: "/inspiration/ui-design/apple-watch/composants-ui/notification/"
+element-ui-2: "labels"
+element-ui-url-2: "/inspiration/ui-design/apple-watch/elements-ui/labels/"
+element-ui-3: "images"
+element-ui-url-3: "/inspiration/ui-design/apple-watch/elements-ui/images/"
+composant-ui-1: "WatchKit Apps"
+composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/"
+composant-ui-2:
+composant-ui-url-2:
+composant-ui-3:
+composant-ui-url-3:
 url-demo:
 image: "inspiration-apple-watch-elements-ui-tables.png"
 image-2:
-intro: "Two different experiences one during the night and the other during the day explaining the advantages of electric vehicles and charging station."
+intro:
 auteur:
 description:
+reference-name: "Apple"
+reference-title: "Guide du design d'interfaces par Apple"
+reference-url: "https://developer.apple.com/watch/human-interface-guidelines/"
+reference-02-name:
+reference-02-title:
+reference-02-url:
 ---
