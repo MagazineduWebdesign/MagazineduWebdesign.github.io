@@ -27,8 +27,8 @@ style-2:
 style-url-2:
 style-3:
 style-url-3:
-technologie-1:
-technologie-url-1:
+technologie-1: "webgl"
+technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
 technologie-2:
 technologie-url-2:
 element-ui-1: "navigation off canvas"
@@ -59,7 +59,7 @@ composant-ui-6:
 composant-ui-url-6:
 composant-ui-7:
 composant-ui-url-7:
-url-demo: "http://kurokawawondperland.jp/"
+url-demo: "http://kurokawawonderland.jp/"
 image: "kurokawawonderland.jpg"
 image-2: "inspiration-japon-kurokawa-wonderland.jpg"
 intro:

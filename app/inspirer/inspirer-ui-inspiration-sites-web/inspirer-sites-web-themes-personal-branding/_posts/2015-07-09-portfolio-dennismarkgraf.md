@@ -11,7 +11,6 @@ tags:
 - sites-web-formats-portfolio
 - sites-web-technologies-webgl
 - sites-web-elements-ui-accordion
-- sites-web-composants-ui-liste-images
 theme: "personal branding"
 theme-url: "/inspiration/ui-design/sites-web/themes/personal-branding/"
 format: "portfolio"
