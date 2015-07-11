@@ -8,7 +8,7 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-themes-art
-- sites-web-formats-portfolio
+- sites-web-formats-portfoliox
 - sites-web-styles-minimaliste
 - sites-web-technologies-threejs
 - sites-web-technologies-tweenmax
