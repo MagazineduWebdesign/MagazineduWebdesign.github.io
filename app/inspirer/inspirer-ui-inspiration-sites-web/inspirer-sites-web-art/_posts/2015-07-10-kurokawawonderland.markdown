@@ -29,8 +29,10 @@ style-3:
 style-url-3:
 technologie-1: "webgl"
 technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
-technologie-2:
-technologie-url-2:
+technologie-2: "threejs"
+technologie-url-2: "/inspiration/ui-design/sites-web/technologies/threejs/"
+technologie-3: "tweenmax"
+technologie-url-3: "/inspiration/ui-design/sites-web/technologies/tweenmax/"
 element-ui-1: "navigation off canvas"
 element-ui-url-1: "/inspiration/ui-design/sites-web/elements-ui/navigation-off-canvas/"
 element-ui-2: "navigation circulaire"
