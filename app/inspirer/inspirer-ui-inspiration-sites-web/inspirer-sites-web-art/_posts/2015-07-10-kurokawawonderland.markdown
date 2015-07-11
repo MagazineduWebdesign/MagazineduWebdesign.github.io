@@ -10,6 +10,8 @@ tags:
 - sites-web-themes-art
 - sites-web-formats-portfolio
 - sites-web-styles-minimaliste
+- sites-web-technologies-threejs
+- sites-web-technologies-tweenmax
 - sites-web-elements-ui-navigation-off-canvas
 - sites-web-elements-ui-carte-interactive
 - sites-web-elements-ui-player-video
