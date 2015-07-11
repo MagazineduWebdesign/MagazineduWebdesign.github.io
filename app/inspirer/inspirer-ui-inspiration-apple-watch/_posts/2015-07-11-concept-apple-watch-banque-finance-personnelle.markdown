@@ -1,29 +1,27 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "Concept App Twitter &ndash; Apple Watch"
+title: "Concept Apple Watch &ndash; App finance perso"
 date: "2015-07-11 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
 path3: "apple-watch"
 category: "ui-apple-watch"
 tags:
-- ui-apple-watch-elements-ui-images
+- ui-apple-watch-elements-ui-labels
 - ui-apple-watch-composants-ui-watchkit-apps
-- ui-apple-watch-composants-ui-notifications
-element-ui-1: "images"
-element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/images/"
+- ui-apple-watch-composants-ui-navigation
+element-ui-1: "labels"
+element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/labels/"
 element-ui-2:
 element-ui-url-2:
 element-ui-3:
 element-ui-url-3:
-composant-ui-1: "WatchKit Apps"
+composant-ui-1: "watchkit apps"
 composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/"
-composant-ui-2: "notifications"
-composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/notifications/"
-composant-ui-3:
-composant-ui-url-3:
+composant-ui-2: "navigation"
+composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/navigation/"
 url-demo:
-image: "concept-apple-watch-twitter.png"
+image: "concept-apple-watch-banque-finance-personnelle.jpg"
 image-2:
 intro:
 auteur:

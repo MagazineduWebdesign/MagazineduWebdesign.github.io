@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "Concept Apple Watch App Spotify"
+title: "Concept Apple Watch &ndash; App Spotify"
 date: "2015-07-11 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
@@ -11,7 +11,7 @@ tags:
 - ui-apple-watch-elements-ui-boutons
 - ui-apple-watch-elements-ui-labels
 - ui-apple-watch-composants-ui-watchkit-apps
-- ui-apple-watch-composants-ui-notifications
+- ui-apple-watch-composants-ui-glances
 - ui-apple-watch-composants-ui-modal-sheets
 element-ui-1: "images"
 element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/images/"
@@ -22,7 +22,7 @@ element-ui-url-3: "/inspiration/ui-design/apple-watch/elements-ui/labels/"
 composant-ui-1: "WatchKit Apps"
 composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/"
 composant-ui-2: "notifications"
-composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/notifications/"
+composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/glances/"
 composant-ui-3: "modal sheets"
 composant-ui-url-3: "/inspiration/ui-design/apple-watch/composants-ui/modal-sheets/"
 url-demo:

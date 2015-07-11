@@ -11,7 +11,7 @@ tags:
 - ui-apple-watch-elements-ui-boutons
 - ui-apple-watch-elements-ui-labels
 - ui-apple-watch-composants-ui-watchkit-apps
-- ui-apple-watch-composants-ui-notifications
+- ui-apple-watch-composants-ui-navigation
 - ui-apple-watch-composants-ui-modal-sheets
 element-ui-1: "menus"
 element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/menus/"
