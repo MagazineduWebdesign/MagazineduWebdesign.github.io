@@ -10,6 +10,7 @@ tags:
 - sites-web-themes-art
 - sites-web-formats-portfoliox
 - sites-web-styles-minimaliste
+- sites-web-technologies-webgl
 - sites-web-technologies-threejs
 - sites-web-technologies-tweenmax
 - sites-web-elements-ui-navigation-off-canvas
