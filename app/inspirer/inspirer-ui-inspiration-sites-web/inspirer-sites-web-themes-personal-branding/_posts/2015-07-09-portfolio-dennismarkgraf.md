@@ -39,8 +39,8 @@ composant-ui-url-2:
 composant-ui-3:
 composant-ui-url-3:
 url-demo: "http://dennismarkgraf.com/"
-image: "portfolio-dennismarkgraf-01.png"
-image-2: "portfolio-dennismarkgraf-02.png"
+image: "portfolio-dennismarkgraf-01.jpg"
+image-2: "portfolio-dennismarkgraf-02.jpg"
 intro: "Un portfolio sommaire qui révèle son intérêt par un subtile rideau de fumée glissant sûr et autour des éléments du design. C'est fluide. Pour plus d'infos sur le script utilisé, reportez-vous à la carte Références ci-dessous."
 description: "Un portfolio sommaire qui révèle son intérêt par un subtile rideau de fumée glissant sûr et autour des éléments du design"
 ---
