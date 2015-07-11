@@ -30,10 +30,9 @@ intro:
 auteur:
 description:
 reference-name: "Apple"
-reference-title: "Guide du design IHM"
+reference-title: "Guide du design d'interfaces par Apple"
 reference-url: "https://developer.apple.com/watch/human-interface-guidelines/"
-description:
-reference-02-name: "Apple"
-reference-02-title: "Guide du design IHM"
-reference-02-url: "https://developer.apple.com/watch/human-interface-guidelines/"
+reference-02-name:
+reference-02-title:
+reference-02-url:
 ---
