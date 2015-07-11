@@ -8,7 +8,9 @@ path3: "apple-watch"
 category: "ui-apple-watch"
 tags:
 - ui-apple-watch-elements-ui-tables
-- ui-apple-watch-composants-ui-notification
+- ui-apple-watch-elements-ui-labels
+- ui-apple-watch-elements-ui-images
+- ui-apple-watch-composants-ui-watchkit-apps
 element-ui-1: "tables"
 element-ui-url-1: "/inspiration/ui-design/apple-watch/elements-ui/tables/"
 element-ui-2: "labels"
