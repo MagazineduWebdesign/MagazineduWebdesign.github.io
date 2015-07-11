@@ -1,9 +1,21 @@
 - name: accordion
   permalink: /inspiration/ui-design/sites-web/elements-ui/accordion/
 
+- name: background video
+  permalink: /inspiration/ui-design/sites-web/elements-ui/background-video/
+
+- name: carte Interactive
+  permalink: /inspiration/ui-design/sites-web/elements-ui/carte-interactive/
+
 - name: champ de recherche
   permalink: /inspiration/ui-design/sites-web/elements-ui/champ-de-recherche/
 
+- name: player-video
+  permalink: /inspiration/ui-design/sites-web/elements-ui/player-video/
+
+- name: navigation circulaire
+  permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-circulaire/
+  
 - name: navigation off canvas
   permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-off-canvas/
 
