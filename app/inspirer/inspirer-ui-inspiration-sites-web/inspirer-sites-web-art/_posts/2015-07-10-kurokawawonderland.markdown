@@ -59,7 +59,7 @@ composant-ui-6:
 composant-ui-url-6:
 composant-ui-7:
 composant-ui-url-7:
-url-demo: "http://kurokawawonderland.jp/"
+url-demo: "http://kurokawawondperland.jp/"
 image: "kurokawawonderland.jpg"
 image-2: "inspiration-japon-kurokawa-wonderland.jpg"
 intro:
