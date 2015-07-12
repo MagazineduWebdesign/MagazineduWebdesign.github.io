@@ -1,6 +1,9 @@
 - name: accordion
   permalink: /inspiration/ui-design/sites-web/elements-ui/accordion/
 
+- name: audio
+  permalink: /inspiration/ui-design/sites-web/elements-ui/audio/
+
 - name: background video
   permalink: /inspiration/ui-design/sites-web/elements-ui/background-video/
 
@@ -15,7 +18,7 @@
 
 - name: navigation circulaire
   permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-circulaire/
-  
+
 - name: navigation off canvas
   permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-off-canvas/
 
