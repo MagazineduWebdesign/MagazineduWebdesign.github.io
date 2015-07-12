@@ -21,8 +21,8 @@ composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/watchkit-a
 composant-ui-2: "glances"
 composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/glances/"
 url-demo:
-image: "app-capitaine-train-apple-watch.jpg"
-image-2: "app-capitaine-train-apple-watch-vue2.jpg"
+image: "app-capitaine-train-apple-watch.jpeg"
+image-2: "app-capitaine-train-apple-watch-vue2.jpeg"
 intro:
 auteur:
 description:
