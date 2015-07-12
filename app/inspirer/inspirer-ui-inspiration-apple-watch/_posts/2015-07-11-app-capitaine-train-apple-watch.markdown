@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "Concept Apple Watch &ndash; animation"
+title: "App Capitaine Train cApple Watch"
 date: "2015-07-11 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
@@ -20,7 +20,7 @@ composant-ui-1: "WatchKit Apps"
 composant-ui-url-1: "/inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/"
 composant-ui-2: "glances"
 composant-ui-url-2: "/inspiration/ui-design/apple-watch/composants-ui/glances/"
-url-demo: "https://itunes.apple.com/fr/app/capitaine-train-achat-billets/id599502670"
+url-demo:
 image: "app-capitaine-train-apple-watch.jpg"
 image-2: "app-capitaine-train-apple-watch-vue2.jpg"
 intro:
