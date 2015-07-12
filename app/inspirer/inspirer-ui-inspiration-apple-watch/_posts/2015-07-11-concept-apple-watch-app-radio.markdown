@@ -29,7 +29,7 @@ intro:
 auteur:
 description:
 reference-name: "Apple"
-reference-title: "Guide du design d'interfaces par Apple"
+reference-title: "Guide du design d'interfaces Apple Watch"
 reference-url: "https://developer.apple.com/watch/human-interface-guidelines/"
 reference-02-name: "After Effect gratuit"
 reference-02-title: "Téléchargez le fichier de l'animation"
