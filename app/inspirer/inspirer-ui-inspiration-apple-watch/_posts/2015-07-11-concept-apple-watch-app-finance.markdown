@@ -1,7 +1,7 @@
 ---
 layout: "inspirer-sites-web-default"
 title: "Concept Apple Watch &ndash; App finance"
-date: "2015-07-12 17:24:57"
+date: "2015-07-11 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
 path3: "apple-watch"
