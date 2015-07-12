@@ -1,14 +1,20 @@
-- name: BOUTONS
+- name: boutons
   permalink: /inspiration/ui-design/apple-watch/elements-ui/boutons/
 
 - name: images
   permalink: /inspiration/ui-design/apple-watch/elements-ui/images/
 
-- name: LABELS
+- name: labels
   permalink: /inspiration/ui-design/apple-watch/elements-ui/labels/
 
 - name: menus
   permalink: /inspiration/ui-design/apple-watch/elements-ui/menus/
 
-- name: TABLES
+- name: modal box
+  permalink: /inspiration/ui-design/apple-watch/elements-ui/modal-box/
+
+- name: partage reseaux sociaux
+  permalink: /inspiration/ui-design/apple-watch/elements-ui/partage-reseaux-sociaux/
+
+- name: tables
   permalink: /inspiration/ui-design/apple-watch/elements-ui/tables/
