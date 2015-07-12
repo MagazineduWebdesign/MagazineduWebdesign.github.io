@@ -8,7 +8,7 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-formats-demo
-- sites-web-style-illustratif
+- sites-web-styles-illustratif
 - sites-web-styles-minimaliste
 - sites-web-technologies-webgl
 - sites-web-technologies-tweenmax
