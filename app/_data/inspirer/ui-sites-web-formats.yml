@@ -1,5 +1,8 @@
 - name: demo
   permalink: /inspiration/ui-design/sites-web/formats/demo/
 
-- name: PORTFOLIO
+- name: landing pages
+  permalink: /inspiration/ui-design/sites-web/formats/landing-pages/
+
+- name: portfolio
   permalink: /inspiration/ui-design/sites-web/formats/portfolio/
