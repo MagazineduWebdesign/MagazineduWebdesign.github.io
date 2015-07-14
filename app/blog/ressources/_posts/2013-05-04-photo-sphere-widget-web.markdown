@@ -4,7 +4,6 @@ date: 2013-05-04 17:22:56
 category: ressources
 tags:
 - ressources
-- android
 intro: Google vient de lancer le widget Photo Sphere que vous pouvez désormais intégrer dans n'importe quel site.
 image: Photo-sphere-La-galerie-Android-et-Google-plus-disponible-en-widget-Web-01.jpg
 image-legende:
