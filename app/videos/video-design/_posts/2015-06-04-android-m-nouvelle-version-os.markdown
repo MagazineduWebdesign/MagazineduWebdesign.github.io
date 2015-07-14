@@ -10,7 +10,7 @@ tags:
 - videos-android
 - videos-design
 - videos-material-design
-intro: "Découvrez en avant première le design d'interface de Android M, la prochaine version de l'OS."
+intro: "Découvrez en avant première le design de Android M, la prochaine version de l'OS."
 description: "Découvrez en avant première le design d'interface de Android M, la prochaine version de l'OS."
 id-youtube: vVkii3OAxJA
 viaurl: http://www.theverge.com/a/sundars-google/android-m-google-io-2015
