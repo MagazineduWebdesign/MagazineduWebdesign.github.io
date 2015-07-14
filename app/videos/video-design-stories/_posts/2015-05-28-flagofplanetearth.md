@@ -7,11 +7,11 @@ path2: design-stories
 path3:
 category: videos
 tags:
-- design
-- design-stories
+- videos-design
+- videos-design-stories
 intro: Vidéo relatant le process de création du drapeau international de la planète Terre. Un projet de fin d'études de Oskar Pernefeldt au College of Design Beckmans (Stockholm, Suède).
 description: Projet de fin d'études de Oskar Pernefeldt au College of Design Beckmans.
 id-youtube: yd1CYKFAUzA
 viaurl: http://www.flagofplanetearth.com
 viatitle: Flag of planet Earth
---- 
+---

@@ -7,7 +7,7 @@ path2: design-stories
 path3:
 category: videos
 tags:
-- design-stories
+- videos-design-stories
 intro: "Le projet Soli a pour objectif le développement d'un nouveau capteur d'interaction utilisant la technologie radar."
 description: "Le projet Soli a pour objectf le développement d'un nouveau capteur d'interaction utilisant la technologie radar."
 id-youtube: 0QNiZfSsPc0

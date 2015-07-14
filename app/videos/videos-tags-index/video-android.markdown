@@ -1,7 +1,7 @@
 ---
 layout: video_index
 title: "Design et développement Android"
-tags: "android"
+tags: "videos-android"
 permalink: "/videos/android/"
 intro: "Collection de vidéos abordant le design et le développement pour l'OS Android."
 bgimgheader: false

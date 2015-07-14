@@ -1,7 +1,7 @@
 ---
 layout: video_index
 title: "Design – Vidéos"
-tags: "design"
+tags: "videos-design"
 permalink: "/videos/design/"
 intro: "Collection de vidéos pour les product designers, les webdesigners... bref, un condensé du design d'interfaces & d'interactions."
 bgimgheader: false

@@ -7,8 +7,8 @@ path2: product-management
 path3:
 category: videos
 tags:
-- product-management
-- ux-design
+- videos-product-management
+- videos-ux-design
 intro: "Shawn Achor – psychologue – présente ses travaux de recherche sur le bonheur des étudiants à Harvard. Ses recherches indiquent que seulement 10% de notre bonheur proviendrait de facteurs externes; le reste serait du à la perception propre à chaque personne. Le bonheur et la statisfaction peuvent être des composantes majeurs du suivi des performances pour une startup."
 description: "Shawn Achor – psychologue – présente ses travaux de recherche sur le bonheur des étudiants à Harvard. Ses recherches indiquent que seulement 10% de notre bonheur proviendraient de facteurs externes; le reste serait du à la perception propre à chaque personne."
 id-youtube: jp9u2H_b71Y

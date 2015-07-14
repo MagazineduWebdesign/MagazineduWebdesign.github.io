@@ -7,9 +7,9 @@ path2: design-stories
 path3:
 category: videos
 tags:
-- design
-- design-stories
-- material-design
+- videos-design
+- videos-design-stories
+- videos-material-design
 intro: Quelques témoignages de la team design de Google à l'origine du framework Material Design.
 description: Quelques témoignages de la team design de Google à l'origine du framework Material Design.
 id-youtube: rrT6v5sOwJg

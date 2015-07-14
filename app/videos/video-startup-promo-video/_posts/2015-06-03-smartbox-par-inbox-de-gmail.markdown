@@ -7,7 +7,7 @@ path2: startup-promo
 path3:
 category: videos
 tags:
-- startup-promo
+- videos-startup-promo
 intro: "Un joli poisson d'avril pour une boîte aux lettres connectée."
 description: "Un joli poisson d'avril pour une boîte aux lettres connectée."
 id-youtube: hydLZJXG3Tk

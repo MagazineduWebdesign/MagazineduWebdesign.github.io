@@ -7,7 +7,7 @@ path2: motion-design
 path3:
 category: videos
 tags:
-- motion-design
+- videos-motion-design
 intro: ""
 description: ""
 id-youtube: VIaeABAkXpc

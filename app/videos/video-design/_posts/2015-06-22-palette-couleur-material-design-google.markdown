@@ -7,8 +7,8 @@ path2: design
 path3:
 category: videos
 tags:
-- design
-- material-design
+- videos-design
+- videos-material-design
 intro: "Vous avez tendance à confondre théorie de la couleur avec théorie des cordes ? L'équipe design de Google souhaite vous guider avec cette vidéo démontrant en moins de 2 minutes comment obtenir une palette de couleur parfaite pour vos prochaines interfaces."
 description: "Vous avez tendance à confondre théorie de la couleur avec théorie des cordes. L'équipe design de Google vous guide en vidéo."
 id-youtube: xYkz0Ueg0L4

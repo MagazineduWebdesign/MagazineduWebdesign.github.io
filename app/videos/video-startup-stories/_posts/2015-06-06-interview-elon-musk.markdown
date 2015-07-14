@@ -7,7 +7,7 @@ path2: startup-stories
 path3:
 category: videos
 tags:
-- startup-stories
+- videos-startup-stories
 intro: "Kevin Rose interview le fondateur de Tesla, SpaceX and PayPal. Il présente ses origines et son parcours qui l'ont conduit à la tête de deux sociétés parmis les plus influentes de la technosphère."
 description: "Kevin Rose interview le fondateur de Tesla, SpaceX and PayPal."
 id-youtube: L-s_3b5fRd8

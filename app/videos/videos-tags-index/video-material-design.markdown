@@ -1,7 +1,7 @@
 ---
 layout: video_index
 title: "Le material design en vidéo"
-tags: "material-design"
+tags: "videos-material-design"
 permalink: "/videos/material-design/"
 intro: "Collection de vidéos abordant le design et la conception dans le cadre du framework Material Design de Google."
 bgimgheader: false

@@ -1,39 +1,39 @@
-- slug: android
+- slug: videos-android
   name: Android
   permalink: /videos/android/
 
-- slug: design
+- slug: videos-design
   name: Design
   permalink: /videos/design/
 
-- slug: design-stories
+- slug: videos-design-stories
   name: Design stories
   permalink: /videos/design-stories/
 
-- slug: material-design
+- slug: videos-material-design
   name: Material design
   permalink: /videos/material-design/
 
-- slug: motion-design
+- slug: videos-motion-design
   name: Motion design
   permalink: /videos/motion-design/
 
-- slug: product-management
+- slug: videos-product-management
   name: Product management
   permalink: /videos/product-management/
 
-- slug: showreel
+- slug: videos-showreel
   name: Showreel
   permalink: /videos/showreel/
 
-- slug: startup-promo
+- slug: videos-startup-promo
   name: Startup promo
   permalink: /videos/startup-promo/
 
-- slug: startup-stories
+- slug: videos-startup-stories
   name: Startup stories
   permalink: /videos/startup-stories/
 
-- slug: ux-design
+- slug: videos-ux-design
   name: UX Design
   permalink: /videos/ux-design/

@@ -7,7 +7,7 @@ path2: design
 path3:
 category: videos
 tags:
-- design
+- videos-design
 intro: "Materiel nécessaire pour ce laser art : un fichier PDF de l'illustration importé directement dans l'app de contrôle du laser + un clavier avec une touche Enter"
 description: ""
 id-youtube: 0-Sf8ohG2aY

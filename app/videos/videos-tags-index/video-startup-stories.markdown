@@ -1,7 +1,7 @@
 ---
 layout: video_index
 title: "Startup stories"
-tags: "startup-stories"
+tags: "videos-startup-stories"
 permalink: "/videos/startup-stories/"
 intro: "Les histoires et les hommes derrière les plus prometteuses startup du moment."
 bgimgheader: false

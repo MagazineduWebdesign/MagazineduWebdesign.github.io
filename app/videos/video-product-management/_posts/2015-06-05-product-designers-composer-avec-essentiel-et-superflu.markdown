@@ -7,8 +7,8 @@ path2: product-management
 path3:
 category: videos
 tags:
-- product-management
-- design
+- videos-product-management
+- videos-design
 intro: De nombreux designers au sein des startups se concentrent sur le look & feel de leur produit. Néanmoins, cette approche devient rapidement obsolète si il n'y a pas d'apport de solutions à des problémes ou des besoins utilisateurs.
 description: De nombreux designers au sein des startups se concentre sur le look & feel de leur produit. Néanmoins, cette approche devient rapidement obsolète si il n'y a pas d'apport de solutions à des problémes ou des besoins utilisateurs.
 id-youtube: OpqybH1w4uI

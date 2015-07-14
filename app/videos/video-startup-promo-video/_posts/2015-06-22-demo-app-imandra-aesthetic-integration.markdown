@@ -7,7 +7,7 @@ path2: startup-promo
 path3:
 category: videos
 tags:
-- startup-promo
+- videos-startup-promo
 intro: "Une myriade de détails et des animations élégantes pour cette vidéo de démo d'une app pour les pros de Wall Street."
 description: "Hello, une nouvelle application construite par l'équipe Messenger."
 id-vimeo: 123746101

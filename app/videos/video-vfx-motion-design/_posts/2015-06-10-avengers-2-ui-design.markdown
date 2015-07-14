@@ -7,7 +7,7 @@ path2: motion-design
 path3:
 category: videos
 tags:
-- motion-design
+- videos-motion-design
 intro: "Direction créa — Territory pour Marvel"
 description: ""
 id-vimeo: 128166827
