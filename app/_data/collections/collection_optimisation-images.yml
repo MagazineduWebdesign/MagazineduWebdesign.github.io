@@ -43,7 +43,7 @@
   desc: "Optimiseur et compresseur d'images ultra-rapide. Réduisez votre consommation de bande passante et d'espace de stockage. Cela vous permettra de considérablement améliorer les temps de chargement de votre site."
   image: "kraken-logo.png"
 
-- title: "WP Smush it"
-  href: "https://wordpress.org/plugins/wp-smushit/"
-  desc: "Le plugin WordPress réduisant la taille des fichiers image afin d'améliorer les performances de votre app grâce à l'API Smush."
+- title: "LWIP"
+  href: "https://github.com/EyalAr/lwip"
+  desc: "Un module NodeJS fournissant des capacités de traitement et de manipulation d'images complètes &amp; rapides sans dépendances externes."
   image: 
