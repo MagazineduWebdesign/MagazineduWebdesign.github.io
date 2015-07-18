@@ -46,4 +46,9 @@
 - title: "LWIP"
   href: "https://github.com/EyalAr/lwip"
   desc: "Un module NodeJS fournissant des capacités de traitement et de manipulation d'images complètes &amp; rapides sans dépendances externes."
-  image: 
+  image:
+
+- title: "Sharp"
+  href: "https://github.com/lovell/sharp"
+  desc: "Un module NodeJS convertissant de grandes images en plus petites avec un format de sortie JPEG, PNG et WebP. Les images d'entrées peuvent être au format JPEG, PNG, WebP, TIFF, OpenSlide &amp; GIF."
+  image:
