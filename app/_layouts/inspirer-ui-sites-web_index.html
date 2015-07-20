@@ -78,24 +78,24 @@ layout: default
 	          </div>
 	        </div>
 
-					<!-- styles
+					<!-- animation
 	        ================================================== -->
-					<a href="" class="tabs-item" title="Filtrer les sites web par styles" data-reveal-id="sites-web-filtre-styles">STYLES</a>
-					<!-- desktop list filter styles modalbox -->
-	        <div id="sites-web-filtre-styles" class="reveal-modal" data-reveal>
+					<a href="" class="tabs-item" title="Filtrer les sites web par styles" data-reveal-id="sites-web-filtre-animation">ANIMATIONS</a>
+					<!-- desktop list filter animation modalbox -->
+	        <div id="sites-web-filtre-animation" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer par styles</p>
+							      <p class="titre-modal-box">Filtrer par animationS</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.ui-sites-web-styles %}
+									  	{% for item in site.data.inspirer.ui-sites-web-animation %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
 					          	{% endfor %}
 									 	</ul>
@@ -218,7 +218,7 @@ layout: default
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
 					          	{% endfor %}
 					          	<hr>
-					        		{% for item in site.data.inspirer.ui-sites-web-styles %}
+					        		{% for item in site.data.inspirer.ui-sites-web-animation %}
 												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
 					          	{% endfor %}
 					          	<hr>
