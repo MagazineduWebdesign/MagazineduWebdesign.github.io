@@ -1,7 +1,7 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "Démo du Samsung Galaxy S6"
-date: "2015-07-11 17:24:57"
+title: "Macaw Scarlet"
+date: "2015-07-20 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
 path3: "sites-web"
@@ -47,9 +47,9 @@ composant-ui-2:
 composant-ui-url-2:
 composant-ui-3:
 composant-ui-url-3:
-url-demo: "http://www.samsung.com/us/experience/try-on-a-six/"
-image: "samsung-galaxy-s6-demo-inspiration-webdesign.jpg"
-image-2: "samsung-galaxy-s6-demo-element-ui-modal-box.jpg"
+url-demo: "http://scarlet.macaw.co/"
+image: "Macaw-Scarlet-The-Live-Design-Environment-scarlet.jpg"
+image-2: "macaw-scarlet-2.jpg"
 intro: "Une belle démo sonore et visuelle pour le nouveau smartphone Galaxy S6 de Samsung."
 description: "Une belle démo sonore et visuelle pour le nouveau smartphone Galaxy S6 de Samsung."
 ---

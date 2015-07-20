@@ -8,8 +8,6 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-formats-demo
-- sites-web-styles-illustratif
-- sites-web-styles-minimaliste
 - sites-web-technologies-webgl
 - sites-web-technologies-tweenmax
 - sites-web-technologies-threejs
@@ -17,12 +15,12 @@ theme:
 theme-url:
 format: "demo"
 format-url: "/inspiration/ui-design/sites-web/formats/demo/"
-style-1: "illustratif"
-style-url-1: "/inspiration/ui-design/sites-web/styles/illustratif/"
-style-2: "minimaliste"
-style-url-2: "/inspiration/ui-design/sites-web/styles/minimaliste/"
-style-3:
-style-url-3:
+animation-1:
+animation-url-1:
+animation-2:
+animation-url-2:
+animation-3:
+animation-url-3:
 technologie-1: "webgl"
 technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
 technologie-2: "threejs"

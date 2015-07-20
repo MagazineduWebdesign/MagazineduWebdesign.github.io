@@ -15,12 +15,12 @@ theme: "personal branding"
 theme-url: "/inspiration/ui-design/sites-web/themes/personal-branding/"
 format: "portfolio"
 format-url: "/inspiration/ui-design/sites-web/formats/portfolio/"
-style-1:
-style-url-1:
-style-2:
-style-url-2:
-style-3:
-style-url-3:
+animation-1:
+animation-url-1:
+animation-2:
+animation-url-2:
+animation-3:
+animation-url-3:
 technologie-1: "webgl"
 technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
 technologie-2:
