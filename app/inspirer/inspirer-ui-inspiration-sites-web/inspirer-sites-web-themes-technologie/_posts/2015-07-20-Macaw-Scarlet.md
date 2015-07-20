@@ -30,22 +30,12 @@ animation-2: "transition navigation"
 animation-url-2: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
 animation-3: "animation scroll"
 animation-url-3: "/inspiration/ui-design/sites-web/animation/scroll/"
-technologie-1: "webgl"
-technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
-technologie-2: "threejs"
-technologie-url-2: "/inspiration/ui-design/sites-web/technologies/threejs/"
-element-ui-1: "background video"
-element-ui-url-1: "/inspiration/ui-design/sites-web/elements-ui/background-video/"
-element-ui-2: "audio"
-element-ui-url-2: "/inspiration/ui-design/sites-web/elements-ui/audio/"
-element-ui-3: "controle audio"
-element-ui-url-3: "/inspiration/ui-design/sites-web/elements-ui/controle-audio/"
-element-ui-4: "modal box"
-element-ui-url-4: "/inspiration/ui-design/sites-web/elements-ui/modal-box/"
-element-ui-5: "partage reseaux sociaux"
-element-ui-url-5: "/inspiration/ui-design/sites-web/elements-ui/partage-reseaux-sociaux/"
-composant-ui-1: "vue 360 degres"
-composant-ui-url-1: "/inspiration/ui-design/sites-web/composants-ui/vue-360-degres/"
+technologie-1:
+technologie-url-1:
+technologie-2:
+technologie-url-2:
+composant-ui-1:
+composant-ui-url-1:
 composant-ui-2:
 composant-ui-url-2:
 composant-ui-3:
@@ -53,6 +43,6 @@ composant-ui-url-3:
 url-demo: "http://scarlet.macaw.co/"
 image: "Macaw-Scarlet-The-Live-Design-Environment-scarlet.jpg"
 image-2: "macaw-scarlet-2.jpg"
-intro: "Une belle démo sonore et visuelle pour le nouveau smartphone Galaxy S6 de Samsung."
-description: "Une belle démo sonore et visuelle pour le nouveau smartphone Galaxy S6 de Samsung."
+intro:
+description:
 ---
