@@ -34,10 +34,10 @@ technologie-1:
 technologie-url-1:
 technologie-2:
 technologie-url-2:
-composant-ui-1:
-composant-ui-url-1:
-composant-ui-2:
-composant-ui-url-2:
+composant-ui-1: "footer fixe"
+composant-ui-url-1: "/inspiration/ui-design/sites-web/composants-ui/footer-fixe/"
+composant-ui-2: "faq"
+composant-ui-url-2: "/inspiration/ui-design/sites-web/composants-ui/faq/"
 composant-ui-3:
 composant-ui-url-3:
 url-demo: "http://scarlet.macaw.co/"

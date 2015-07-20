@@ -1,3 +1,9 @@
+- name: faq
+  permalink: /inspiration/ui-design/sites-web/composants-ui/faq/
+
+- name: footer fixe
+  permalink: /inspiration/ui-design/sites-web/composants-ui/footer-fixe/
+
 - name: galerie images
   permalink: /inspiration/ui-design/sites-web/composants-ui/galerie-images/
 
