@@ -9,6 +9,7 @@ category: "ui-sites-web"
 tags:
 - sites-web-themes-art
 - sites-web-formats-portfolio
+- sites-web-animation-background
 - sites-web-technologies-backbone-js
 - sites-web-elements-ui-champ-de-recherche
 - sites-web-elements-ui-navigation-scroll-horizontal
@@ -18,10 +19,10 @@ theme: "art"
 theme-url: "/inspiration/ui-design/sites-web/themes/art/"
 format: "portfolio"
 format-url: "/inspiration/ui-design/sites-web/formats/portfolio/"
-animation-1:
-animation-url-1:
-animation-2:
-animation-url-2:
+animation-1: "animation-background"
+animation-url-1: "/inspiration/ui-design/sites-web/animation/background/"
+animation-2: "transition-navigation"
+animation-url-2: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
 animation-3:
 animation-url-3:
 technologie-1: "backbone-js"
