@@ -9,14 +9,15 @@ category: "ui-sites-web"
 tags:
 - sites-web-themes-personal-branding
 - sites-web-formats-portfolio
+- sites-web-animation-background
 - sites-web-technologies-webgl
 - sites-web-elements-ui-accordion
 theme: "personal branding"
 theme-url: "/inspiration/ui-design/sites-web/themes/personal-branding/"
 format: "portfolio"
 format-url: "/inspiration/ui-design/sites-web/formats/portfolio/"
-animation-1:
-animation-url-1:
+animation-1: "animation background"
+animation-url-1: "/inspiration/ui-design/sites-web/animation/background/"
 animation-2:
 animation-url-2:
 animation-3:

@@ -9,6 +9,9 @@ category: "ui-sites-web"
 tags:
 - sites-web-themes-high-tech
 - sites-web-formats-landing-pages
+- sites-web-animation-background
+- sites-web-animation-transition-navigation
+- sites-web-animation-scroll
 - sites-web-technologies-webgl
 - sites-web-technologies-threejs
 - sites-web-elements-ui-audio
@@ -21,12 +24,12 @@ theme: "high-tech"
 theme-url: "/inspiration/ui-design/sites-web/themes/high-tech/"
 format: "landing-page"
 format-url: "/inspiration/ui-design/sites-web/formats/landing-pages/"
-animation-1:
-animation-url-1:
-animation-2:
-animation-url-2:
-animation-3:
-animation-url-3:
+animation-1: "animation background"
+animation-url-1: "/inspiration/ui-design/sites-web/animation/background/"
+animation-2: "transition navigation"
+animation-url-2: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
+animation-3: "animation scroll"
+animation-url-3: "/inspiration/ui-design/sites-web/animation/scroll/"
 technologie-1: "webgl"
 technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
 technologie-2: "threejs"
