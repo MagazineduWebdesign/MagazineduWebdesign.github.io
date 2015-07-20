@@ -24,8 +24,8 @@ format: "landing-page"
 format-url: "/inspiration/ui-design/sites-web/formats/landing-pages/"
 animation-1: "transition navigation"
 animation-url-1: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
-animation-2:
-animation-url-2:
+animation-2: "animation background"
+animation-url-2: "/inspiration/ui-design/sites-web/animation/background/"
 animation-3:
 animation-url-3:
 technologie-1: "webgl"
