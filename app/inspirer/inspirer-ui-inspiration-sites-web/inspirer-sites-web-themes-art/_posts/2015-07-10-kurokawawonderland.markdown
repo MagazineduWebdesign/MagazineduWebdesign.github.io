@@ -8,7 +8,8 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-themes-art
-- sites-web-formats-portfoliox
+- sites-web-formats-portfolio
+- sites-web-animation-transition-navigation
 - sites-web-technologies-webgl
 - sites-web-technologies-threejs
 - sites-web-technologies-tweenmax
@@ -23,8 +24,8 @@ theme: "art"
 theme-url: "/inspiration/ui-design/sites-web/themes/art/"
 format: "portfolio"
 format-url: "/inspiration/ui-design/sites-web/formats/portfolio/"
-animation-1:
-animation-url-1:
+animation-1: "transition-navigation"
+animation-url-1: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
 animation-2:
 animation-url-2:
 animation-3:
