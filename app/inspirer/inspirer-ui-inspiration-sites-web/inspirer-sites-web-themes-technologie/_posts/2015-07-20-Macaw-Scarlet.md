@@ -12,14 +12,8 @@ tags:
 - sites-web-animation-background
 - sites-web-animation-transition-navigation
 - sites-web-animation-scroll
-- sites-web-technologies-webgl
-- sites-web-technologies-threejs
-- sites-web-elements-ui-audio
-- sites-web-elements-ui-controle-son
-- sites-web-elements-ui-background-video
-- sites-web-elements-ui-modal-box
-- sites-web-elements-ui-partage-reseaux-sociaux
-- sites-web-composants-ui-vue-360-degres
+- sites-web-composants-ui-faq
+- sites-web-composants-ui-footer-fixe
 theme: "high-tech"
 theme-url: "/inspiration/ui-design/sites-web/themes/high-tech/"
 format: "landing-page"

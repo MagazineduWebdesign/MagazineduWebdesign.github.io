@@ -10,6 +10,7 @@ tags:
 - sites-web-themes-high-tech
 - sites-web-formats-landing-pages
 - sites-web-animation-transition-navigation
+- sites-web-animation-background
 - sites-web-technologies-webgl
 - sites-web-technologies-threejs
 - sites-web-elements-ui-audio
