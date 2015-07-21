@@ -8,7 +8,6 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-themes-sport
-- sites-web-formats-interactive-story
 - sites-web-animation-background
 - sites-web-animation-transition-navigation
 - sites-web-technologies-webgl
@@ -20,8 +19,8 @@ tags:
 - sites-web-composants-ui-galerie-images
 theme: "sport"
 theme-url: "/inspiration/ui-design/sites-web/themes/sport/"
-format: "Interactive story"
-format-url: "/inspiration/ui-design/sites-web/formats/interactive-story/"
+format:
+format-url:
 animation-1: "transition navigation"
 animation-url-1: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
 animation-2: "animation background"
