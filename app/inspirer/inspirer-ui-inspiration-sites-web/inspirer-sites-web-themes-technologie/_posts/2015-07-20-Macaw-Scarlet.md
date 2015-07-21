@@ -14,6 +14,7 @@ tags:
 - sites-web-animation-scroll
 - sites-web-composants-ui-faq
 - sites-web-composants-ui-footer-fixe
+- sites-web-composants-ui-ecran-lancement
 theme: "high-tech"
 theme-url: "/inspiration/ui-design/sites-web/themes/high-tech/"
 format: "landing-page"
@@ -32,8 +33,8 @@ composant-ui-1: "footer fixe"
 composant-ui-url-1: "/inspiration/ui-design/sites-web/composants-ui/footer-fixe/"
 composant-ui-2: "faq"
 composant-ui-url-2: "/inspiration/ui-design/sites-web/composants-ui/faq/"
-composant-ui-3:
-composant-ui-url-3:
+composant-ui-3: "ecran de lancement"
+composant-ui-url-3: "/inspiration/ui-design/sites-web/composants-ui/ecran-lancement/"
 url-demo: "http://scarlet.macaw.co/"
 image: "Macaw-Scarlet-The-Live-Design-Environment-scarlet.jpg"
 image-2: "macaw-scarlet-2.jpg"
