@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-ui-sites-web_index"
-title: "Exemples de sites Web utilisant la librairie Tween Max"
+title: "Exemples de sites Web utilisant la librairie TweenMax ou TweenLite"
 tags: "sites-web-technologies-threejs"
 permalink: "/inspiration/ui-design/sites-web/technologies/tweenmax/"
 intro:
