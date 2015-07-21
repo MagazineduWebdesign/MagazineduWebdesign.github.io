@@ -11,6 +11,7 @@ tags:
 - sites-web-animation-background
 - sites-web-animation-transition-navigation
 - sites-web-technologies-webgl
+- sites-web-elements-ui-sphere
 theme: "high-tech"
 theme-url: "/inspiration/ui-design/sites-web/themes/high-tech/"
 format:
@@ -25,7 +26,7 @@ technologie-1: "webgl"
 technologie-url-1: "/inspiration/ui-design/sites-web/technologies/webgl/"
 technologie-2:
 technologie-url-2:
-element-ui-1: "sphère"
+element-ui-1: "sphere"
 element-ui-url-1: "/inspiration/ui-design/sites-web/elements-ui/sphere/"
 composant-ui-1:
 composant-ui-url-1:
