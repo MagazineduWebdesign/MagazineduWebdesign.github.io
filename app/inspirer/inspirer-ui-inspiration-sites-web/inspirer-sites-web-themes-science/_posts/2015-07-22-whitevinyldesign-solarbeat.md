@@ -10,8 +10,9 @@ tags:
 - sites-web-themes-science
 - sites-web-formats-experience-interactive
 - sites-web-technologies-tweenmax
-- site-web-composantss-ui-ecran-lancement
+- site-web-composants-ui-ecran-lancement
 - sites-web-elements-ui-audio
+- sites-web-elements-ui-controle-son
 - sites-web-elements-ui-modal-box
 - sites-web-animation-transition-navigation
 theme: "science"
@@ -32,10 +33,10 @@ technologie-3:
 technologie-url-3:
 element-ui-1: "audio"
 element-ui-url-1: "/inspiration/ui-design/sites-web/elements-ui/audio/"
-element-ui-2: "modal box"
-element-ui-url-2: "/inspiration/ui-design/sites-web/elements-ui/modal-box/"
-element-ui-3:
-element-ui-url-3:
+element-ui-2: "controle son"
+element-ui-url-2: "/inspiration/ui-design/sites-web/elements-ui/controle-son/"
+element-ui-3:  "modal box"
+element-ui-url-3: "/inspiration/ui-design/sites-web/elements-ui/modal-box/"
 element-ui-4:
 element-ui-url-4:
 element-ui-5:
