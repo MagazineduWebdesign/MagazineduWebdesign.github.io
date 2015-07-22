@@ -13,8 +13,20 @@
 - name: champ de recherche
   permalink: /inspiration/ui-design/sites-web/elements-ui/champ-de-recherche/
 
+- name: contrôle du son
+  permalink: /inspiration/ui-design/sites-web/elements-ui/controle-son/
+
+- name: gif
+  permalink: /inspiration/ui-design/sites-web/elements-ui/gif/
+
+- name: partage reseaux sociaux
+  permalink: /inspiration/ui-design/sites-web/elements-ui/partage-reseaux-sociaux/
+
 - name: player-video
   permalink: /inspiration/ui-design/sites-web/elements-ui/player-video/
+
+- name: modal box
+  permalink: /inspiration/ui-design/sites-web/elements-ui/modal-box/
 
 - name: navigation circulaire
   permalink: /inspiration/ui-design/sites-web/elements-ui/navigation-circulaire/
