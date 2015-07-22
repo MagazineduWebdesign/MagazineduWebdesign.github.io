@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "connecter"
+title: "Connecter"
 date: "2015-07-22 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
