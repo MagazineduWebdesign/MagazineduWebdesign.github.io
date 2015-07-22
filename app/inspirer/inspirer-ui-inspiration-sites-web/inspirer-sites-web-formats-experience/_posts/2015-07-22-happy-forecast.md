@@ -10,7 +10,7 @@ tags:
 - sites-web-formats-experience-interactive
 - sites-web-technologies-webgl
 - sites-web-technologies-threejs
-- site-web-composantss-ui-ecran-lancement
+- site-web-composants-ui-ecran-lancement
 - sites-web-elements-ui-audio
 - sites-web-elements-ui-partage-reseaux-sociaux
 - sites-web-animation-transition-navigation
