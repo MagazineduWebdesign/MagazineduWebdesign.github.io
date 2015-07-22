@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-ui-sites-web_index"
-title: "Exemples de sites Web proposant des animations en arrière plan"
+title: "Exemples de sites Web avec une typographie animée"
 tags: "sites-web-animation-typographie"
 permalink: "/inspiration/ui-design/sites-web/animation/typographie/"
 intro:
