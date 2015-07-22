@@ -58,9 +58,9 @@ composant-ui-6:
 composant-ui-url-6:
 composant-ui-7:
 composant-ui-url-7:
-url-demo: "http://spacelamb.12wave.com/"
-image: "space-lamb-threejs.png"
-image-2:
+url-demo: "http://www.thehappyforecast.com/"
+image: "happy-forecast-1.jpg"
+image-2: "happy-forecast-2.jpg"
 intro:
 description:
 ---
