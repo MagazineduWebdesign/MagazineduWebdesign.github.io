@@ -3,9 +3,9 @@ layout: "inspirer-sites-web-default"
 title: "2015 is yours"
 date: "2015-07-22 17:24:57"
 path1: "inspiration"
-path2: "ui-design"
-path3: "sites-web"
-category: "ui-sites-web"
+path2: "code-art"
+path3:
+category: "code-art"
 tags:
 url-demo: "http://www.2015-is-yours.com/"
 image: "2015-is-yours.jpg"
