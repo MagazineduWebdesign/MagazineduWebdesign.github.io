@@ -58,7 +58,7 @@ composant-ui-url-6:
 composant-ui-7:
 composant-ui-url-7:
 url-demo: "http://ftrctzn.com/"
-image: "future-citizen.JPG"
+image: "future-citizen-1.jpg"
 image-2:
 intro:
 description:
