@@ -36,6 +36,13 @@ layout: default
             </a>
           </figure>
           {% endif %}
+          {% if page.image-3 %}
+          <figure class="gallery figure-img mod-app-screenshot">
+            <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}">
+            </a>
+          </figure>
+          {% endif %}
         </div>
 
       </div>
