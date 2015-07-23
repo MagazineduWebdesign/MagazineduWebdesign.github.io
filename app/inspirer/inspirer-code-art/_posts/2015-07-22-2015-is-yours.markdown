@@ -1,5 +1,5 @@
 ---
-layout: "inspirer-sites-web-default"
+layout: "inspirer-default"
 title: "2015 is yours"
 date: "2015-07-22 17:24:57"
 path1: "inspiration"
