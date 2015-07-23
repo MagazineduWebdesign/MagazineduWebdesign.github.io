@@ -40,7 +40,7 @@ composant-ui-url-2:
 composant-ui-3:
 composant-ui-url-3:
 url-demo: "http://www.connecter.co/"
-image: "connecter-.1jpg"
+image: "connecter-1.jpg"
 image-2: "connecter-2.jpg"
 intro:
 description:
