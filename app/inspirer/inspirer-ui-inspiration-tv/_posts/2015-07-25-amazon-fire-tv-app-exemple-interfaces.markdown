@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Amazon Fire TV App &ndash; Exemple lecteur vidéo"
+title: "Amazon Fire TV App &ndash; Exemple d'interfaces"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"
@@ -10,9 +10,9 @@ tags:
 - ui-tv-plateformes-amazon-fire-tv
 plateformes: "Amazon Fire TV"
 plateformes-url: "/inspiration/ui-design/tv/plateformes/amazon-fire-tv/"
-image: "amazon-fire-tv-app-exemple-lecteur-video.jpg"
-image-2:
-image-3:
+image: "amazon-fire-tv-app-exemple-liste.jpg"
+image-2: "amazon-fire-tv-app-exemple-lecteur-video.jpg"
+image-3: "amazon-fire-tv-app-exemple-menu-off-canvas.jpg"
 intro:
 description:
 url-demo: "http://amzn.github.io/web-app-starter-kit-for-fire-tv/simple-themes/"
