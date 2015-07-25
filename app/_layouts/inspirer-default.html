@@ -44,6 +44,100 @@ layout: default
           </figure>
           {% endif %}
         </div>
+        <!-- metadata
+        ================================================== -->
+        <div class="article-meta-data-right">
+          <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
+
+            {% if page.theme %}
+            <li class="article-meta-data-header-title">Thème</li>
+            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.format %}
+            <li class="article-meta-data-header-title">Format</li>
+            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.animation-1 %}
+            <li class="article-meta-data-header-title">Animation</li>
+            <li role="menuitem"><a href="{{ page.animation-url-1 }}" title="{{ page.animation-1 }}">{{ page.animation-1 | upcase }}</a></li>
+            {% endif %}
+            {% if page.animation-2 %}
+            <li role="menuitem"><a href="{{ page.animation-url-2 }}" title="{{ page.animation-2 }}">{{ page.animation-2 | upcase }}</a></li>
+            {% endif %}
+            {% if page.animation-3 %}
+            <li role="menuitem"><a href="{{ page.animation-url-3 }}" title="{{ page.animation-3 }}">{{ page.animation-3 | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.technologie-1 %}
+            <li class="article-meta-data-header-title">Technologies</li>
+            <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 | upcase }}</a></li>
+            {% endif %}
+            {% if page.technologie-2 %}
+            <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 | upcase }}</a></li>
+            {% endif %}
+            {% if page.technologie-3 %}
+            <li role="menuitem"><a href="{{ page.technologie-url-3 }}" title="{{ page.technologie-3 }}">{{ page.technologie-3 | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.by %}
+            <li class="article-meta-data-header-title">Crédit</li>
+            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.element-ui-1 %}
+              <li class="article-meta-data-header-title">Eléments UI</li>
+              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la collection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
+              {% if page.element-ui-2 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la collection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-3 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la collection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-4 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-4 }}" title="Explorer la collection {{ page.element-ui-4 }}">{{ page.element-ui-4 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-5 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-5 }}" title="Explorer la collection {{ page.element-ui-5 }}">{{ page.element-ui-5 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-6 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-6 }}" title="Explorer la collection {{ page.element-ui-6 }}">{{ page.element-ui-6 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-7 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-7 }}" title="Explorer la collection {{ page.element-ui-7 }}">{{ page.element-ui-7 | upcase }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            {% if page.composant-ui-1 %}
+              <li class="article-meta-data-header-title">Composants UI</li>
+              <li role="menuitem"><a href="{{ page.composant-ui-url-1 }}" title="Explorer la collection {{ page.composant-ui-1 }}">{{ page.composant-ui-1 | upcase }}</a></li>
+              {% if page.composant-ui-2 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-2 }}" title="Explorer la collection {{ page.composant-ui-2 }}">{{ page.composant-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-3 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-3 }}" title="Explorer la collection {{ page.composant-ui-3 }}">{{ page.composant-ui-3 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-4 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-4 }}" title="Explorer la collection {{ page.composant-ui-4 }}">{{ page.composant-ui-4 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-5 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-5 }}" title="Explorer la collection {{ page.composant-ui-5 }}">{{ page.composant-ui-5 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-6 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-6 }}" title="Explorer la collection {{ page.composant-ui-6 }}">{{ page.composant-ui-6 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-7 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-7 }}" title="Explorer la collection {{ page.composant-ui-7 }}">{{ page.composant-ui-7 | upcase }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            {% if page.plateformes %}
+              <li class="article-meta-data-header-title">PLATEFORMES</li>
+              <li role="menuitem"><a href="{{ page.plateformes-url }}" title="Explorer la collection {{ page.plateformes }}">{{ page.plateformes | upcase }}</a></li>
+            {% endif %}
+          </ul>
+        </div>
 
       </div>
 
