@@ -25,21 +25,35 @@ layout: default
           {% if page.image %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1">
             </a>
           </figure>
           {% endif %}
           {% if page.image-2 %}
           <figure class="gallery figure-img mod-app-screenshot">
             <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}">
+              <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2">
             </a>
           </figure>
           {% endif %}
           {% if page.image-3 %}
           <figure class="gallery figure-img mod-app-screenshot">
             <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}">
+              <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-4 %}
+          <figure class="gallery figure-img mod-app-screenshot">
+            <a href="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-4">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-5 %}
+          <figure class="gallery figure-img mod-app-screenshot">
+            <a href="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-5">
             </a>
           </figure>
           {% endif %}
