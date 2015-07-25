@@ -1,0 +1,8 @@
+---
+layout: "inspirer-ui-tv_index"
+title: "Collection d'interfaces Apple TV"
+tags: "ui-tv-plateformes-apple-tv"
+permalink: "/inspiration/ui-design/tv/plateformes/apple-tv/"
+intro:
+text-twtr: "En train d'explorer la collection d'interfaces Apple TV du @MagDuWebdesign"
+---
