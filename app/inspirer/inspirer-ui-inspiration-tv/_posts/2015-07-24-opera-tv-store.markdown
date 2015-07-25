@@ -10,7 +10,7 @@ tags:
 - ui-tv-plateformes-opera-tv
 plateformes: "opera TV"
 plateformes-url: "/inspiration/ui-design/tv/plateformes/opera-tv/"
-image: "opera-tv-store.png"
+image: "opera-tv-store.PNG"
 image-2:
 image-3:
 intro:
