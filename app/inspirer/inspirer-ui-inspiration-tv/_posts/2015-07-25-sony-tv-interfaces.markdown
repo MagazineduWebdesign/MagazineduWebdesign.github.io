@@ -10,8 +10,8 @@ tags:
 - ui-tv-plateformes-sony-tv
 plateformes: "Sony OS TV"
 plateformes-url: "/inspiration/ui-design/tv/plateformes/sony-tv/"
-image: "sony-os-tv-interfaces-1.png"
-image-2: "sony-os-tv-interfaces-2.png"
+image: "sony-os-tv-interfaces-1.jpg"
+image-2: "sony-os-tv-interfaces-2.jpg"
 image-3:
 by: "yama design lab"
 by-url: "http://yamadesignlab.com/works/sony/index.html"
