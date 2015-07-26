@@ -18,7 +18,7 @@ image: "connected-car-bosch-car-concept-myspinup-yamadesignlab-1.jpg"
 image-2: "connected-car-bosch-car-concept-myspinup-yamadesignlab-2.jpg"
 image-3: "connected-car-bosch-car-concept-myspinup-yamadesignlab-3.jpg"
 image-4: "connected-car-bosch-car-concept-myspinup-yamadesignlab-4.jpg"
-image-5: "connected-car-bosch-car-concept-myspinup-yamadesignlab-5.jpg"
+image-5:
 intro:
 description:
 ---
