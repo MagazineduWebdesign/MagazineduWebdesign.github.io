@@ -150,6 +150,11 @@ layout: default
               <li class="article-meta-data-header-title">PLATEFORMES</li>
               <li role="menuitem"><a href="{{ page.plateformes-url }}" title="Explorer la collection {{ page.plateformes }}">{{ page.plateformes | upcase }}</a></li>
             {% endif %}
+
+            {% if page.constructeurs %}
+              <li class="article-meta-data-header-title">CONSTRUCTEURS</li>
+              <li role="menuitem"><a href="{{ page.constructeurs-url }}" title="Explorer la collection {{ page.constructeurs }}">{{ page.constructeurs | upcase }}</a></li>
+            {% endif %}
           </ul>
         </div>
 
