@@ -8,6 +8,7 @@ path3: "connected-car"
 category: "ui-connected-car"
 tags:
 - ui-connected-car-constructeurs-volvo
+- ui-connected-car-plateformes-carplay
 url-demo:
 plateformes: "Apple CarPlay"
 plateformes-url: "/inspiration/ui-design/connected-car/plateformes/carplay/"
