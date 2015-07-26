@@ -20,7 +20,4 @@ image-4:
 image-5:
 intro:
 description:
-reference-name: "Android Auto"
-reference-title: "Guide du design d'interfaces Android Auto"
-reference-url: "https://www.google.com/design/spec-auto/designing-for-android-auto/designing-for-cars.html"
 ---
