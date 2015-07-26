@@ -1,0 +1,8 @@
+---
+layout: "inspirer-ui-connected-car_index"
+title: "Collection d'interfaces QNX Car"
+tags: "ui-connected-car-plateformes-qnx-car"
+permalink: "/inspiration/ui-design/connected-car/plateformes/qnx-car/"
+intro:
+text-twtr: "En train d'explorer la collection d'interfaces QNX Car du @MagDuWebdesign"
+---
