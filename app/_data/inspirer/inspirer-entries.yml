@@ -6,17 +6,25 @@
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/
 
-- name: UI DESIGN ANDROID
-  currentnav:
-  permalink: /inspiration/ui-design/android/
-
 - name: UI DESIGN ANDROID WEAR
   currentnav:
   permalink: /inspiration/ui-design/android-wear/
 
+- name: UI DESIGN ANDROID
+  currentnav:
+  permalink: /inspiration/ui-design/android/
+
 - name: UI DESIGN TV
   currentnav:
   permalink: /inspiration/ui-design/tv/
+
+- name: UI DESIGN CONNECTED CAR
+  currentnav:
+  permalink: /inspiration/ui-design/connected-car/
+
+- name: CODE & ART
+  currentnav:
+  permalink: /inspiration/code-art/
 
 - name: USER FLOW iOS
   currentnav:
@@ -25,7 +33,3 @@
 - name: USER FLOW ANDROID
   currentnav:
   permalink: /inspiration/parcours-apps/android/
-
-- name: CODE & ART
-  currentnav:
-  permalink: /inspiration/code-art/
