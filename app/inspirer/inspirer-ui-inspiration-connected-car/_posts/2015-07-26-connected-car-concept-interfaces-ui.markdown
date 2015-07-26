@@ -14,7 +14,7 @@ constructeurs:
 constructeurs-url:
 by: "matthaeus krenn"
 by-url: "http://matthaeuskrenn.com/new-car-ui/"
-image: "connected-car-concept-interfaces-interactions.png"
+image: "connected-car-concept-interfaces-interactions.jpg"
 image-2:
 image-3:
 image-4:
