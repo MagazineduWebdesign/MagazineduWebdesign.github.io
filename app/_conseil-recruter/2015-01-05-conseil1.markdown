@@ -1,7 +1,7 @@
 ---
 title: La collection d'outils du super recruteur
 date: 2015-01-05 00:00:00
-image: galaxie.jpg
+image: connected-car-android-auto-1.png
 intro: Sélection
 ---
 

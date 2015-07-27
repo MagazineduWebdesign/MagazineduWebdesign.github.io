@@ -9,7 +9,7 @@ category: evenements
 tags:
 - evenements-design
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-logo: galaxie.jpg
+logo: connected-car-android-auto-1.png
 event-date: 23 mai 2015
 event-lieu: Amsterdam
 image:
