@@ -1112,7 +1112,7 @@ figcaption{
 }
 .article-meta-auteur{
 	@include item-row;
-	border-bottom:1px dotted $secondary-color
+	border-bottom:1px dotted $gainsboro;
 }
 .article-meta-item-time{@include item-row}
 .article-bgimg-meta-by-time{@include header-liste-link; margin-bottom:rem-calc(24);}
