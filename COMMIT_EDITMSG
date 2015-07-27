@@ -1,0 +1,35 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch source
+# Your branch is up-to-date with 'origin/source'.
+# 
+# Changes to be committed:
+# 
+# 	modified:   app/index.html
+# 
+# Changes not staged for commit:
+# 
+# 
+# 	modified:   app/_collection/2014-12-12-bananes-internationales.markdown
+# 	modified:   app/_collection/2015-01-01-prez.markdown
+# 	modified:   app/_collection/2015-01-31-collection3.markdown
+# 	modified:   app/_collection/2015-06-02-outils-compression-optimisation-png-jpg.markdown
+# 	modified:   app/_collection/2015-12-13-collection5.markdown
+# 	modified:   app/_collection/2015-12-19-collection6.markdown
+# 	modified:   app/_conseil-candidater/2015-01-05-conseil1.markdown
+# 	modified:   app/_conseil-recruter/2015-01-05-conseil1.markdown
+# 	modified:   app/_data/collections/collection_banane.yml
+# 	modified:   app/_data/navigation/navigation-entries.yml
+# 	modified:   app/_data/navigation/navigation-header-more.yml
+# 	modified:   app/_includes/custom/cartes/carte_items-no-thn_guides_home.html
+# 	modified:   app/_includes/custom/cartes/carte_items-no-thn_plugin-wp_home.html
+# 	modified:   app/_includes/custom/cartes/carte_items-thn_ui-inspiration_home.html
+# 	modified:   app/_includes/custom/cartes/carte_items-thn_videos_home.html
+# 	modified:   app/_layouts/decouvrir-themes-wp_index.html
+# 	modified:   app/_layouts/note_index.html
+# 	modified:   app/_layouts/recruter.html
+# 	modified:   app/_scss/_settings.scss
+# 	modified:   app/_scss/readme.md
+# 	modified:   app/page/candidater.markdown
