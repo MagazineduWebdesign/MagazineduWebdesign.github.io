@@ -12,8 +12,8 @@ layout: default
       <div class="small-12 medium-12 large-9 columns columns small-text-center large-text-left">
         <h1 class="header-liste-headline" itemprop="headline"><span class="left job--entreprise">{{ page.entreprise }} {% if page.statut %}<span class="label--secondary">{{ page.statut }}{% endif %}</span></span><span class="job--description">recrute un {{ page.fonction }} en {{ page.type }} à {{ page.lieu }}</span></h1>
       </div>
-			<div class="small-12 medium-12 large-2 columns small-text-center large-text-right"> 
-        <a href="#" class="button radius">POSTULER</a>
+			<div class="small-12 medium-12 large-2 columns small-text-center large-text-right">
+        <a class="button radius" href="{{ page.candidater-url }}"title="Postuler à cette offre d'emploi" target="_blank">POSTULER</a>
 			</div>
 		</header>
 	</div>
@@ -23,11 +23,11 @@ layout: default
     </div>
   </div>
 	<div class="row-body-article job-offre--contenu">
-    <div class="article-meta-by-time show-for-large-up"> 
+    <div class="article-meta-by-time show-for-large-up">
       <aside>
         <p class="article-meta-item-by">Publiée par</p>
         <p class="article-meta-auteur">
-          <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>
+          <a href="https://twitter.com/{{ page.auteur }}" title="twitter @{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>
         </p>
         {% capture datearticle %}
           {% assign A = page.date | date: "%A" %}
@@ -61,12 +61,12 @@ layout: default
           <time>{{ datearticle }}</time>
         </p>
       </aside>
-      
+
       {% include custom/cartes/carte_post-a-job-in-article_left.html %}
-      
+
     </div>
     <main class="column-body-article">
-      
+
       {% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
       {{ content }}
       <a href="#" class="button radius">POSTULER</a>
