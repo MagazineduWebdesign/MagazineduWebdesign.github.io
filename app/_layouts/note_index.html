@@ -10,7 +10,7 @@ layout: default
       <div class="small-12 columns">
         <h1 class="header-liste-headline text-center">{{ page.title }}</h1>
         <p class="header-liste-content text-center">
-          {{ page.intro }} 
+          {{ page.intro }}
           <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -23,7 +23,7 @@ layout: default
               C436.339,160.061,450.668,145.174,462,128.223z" fill="#00ACED" />
             </svg>
           </a>
-        </p> 
+        </p>
 
         <div class="row text-center">
           <div class="small-12 columns">
@@ -45,14 +45,14 @@ layout: default
                   <div class="response" id="mce-error-response" style="display:none"></div>
                   <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>
-                
+
               </div>
 
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
 
               <div class="small-12 medium-4 columns">
-                <input type="submit" class="small button radius expand" value="DONNEZ-MOI LE BRIEF" name="subscribe" id="mc-embedded-subscribe">  
+                <input type="submit" class="small button radius expand" value="DONNEZ-MOI LE BRIEF" name="subscribe" id="mc-embedded-subscribe">
               </div>
             </div>
           </div>
@@ -105,21 +105,21 @@ layout: default
         </header>
         <div class="row-liste-index">
           <div class="small-12 columns section-brief-panel">
-      {% capture day %}{{currentday}}{% endcapture %} 
+      {% capture day %}{{currentday}}{% endcapture %}
     {% endif %}
 
     <article class="js-postcount note {% cycle 'note-first', '', '', '', '', '', '', '', '', '' %}">
       <div class="row collapse">
         <div class="small-12 columns">
-          
+
           <div class="note-source-id">
             <span class="note-source-name">{{ note.source-name | upcase }}</span>
           </div>
-          
+
           <a href="{{ note.source-url }}" title="{{ note.title }}" target="_blank">
             <h1>{{ note.title }}</h1>
           </a>
-          
+
           {% if note.content %}
             {{ note.content }}
           {% endif %}
@@ -204,15 +204,15 @@ layout: default
           {% include custom/sections/share-index-note-modal-box.html %}
         </div>
       </div>
-      
+
     </article>
-    
+
     {% if forloop.last %}</div></div></section>
-    
+
     <section class="index-note-carte-newsletter">
       {% include custom/cartes/cartenl.html %}
     </section>
-    
+
     {% endif %}
   {% endfor %}
   </div>

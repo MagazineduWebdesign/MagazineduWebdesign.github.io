@@ -1,23 +1,19 @@
 ---
-title: La collection d'outils du super recruteur 
+title: La collection d'outils du super recruteur
 date: 2015-01-05 00:00:00
 image: galaxie.jpg
 intro: Sélection
 ---
 
-Une collection organisée d'outils pour gérez vos ressources humaines. Partez plus tôt du bureau ce soir.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-* http://startupstash.com/hr/
-* https://emailhunter.co/
+##Titre lorem
 
 <div class="section-carte-index-panel">
 
-    
-      
-
         <a href="http://twitter.com/" title="Banane Italie" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            
+
             <div class="row collapse">
               <div class="small-9 columns">
                 <h1 class="carte-article-secondaire-post-title" itemprop="headline">Banane Italie</h1>
@@ -25,20 +21,20 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
               </div>
 
               <div class="small-3 columns">
-                
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Italie" width="140">
-                
+
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/connected-car-android-auto-1.png" alt="Banane Italie" width="140">
+
               </div>
             </div>
 
           </article>
         </a>
 
-      
+
 
         <a href="http://twitter.com/" title="Banane France" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            
+
             <div class="row collapse">
               <div class="small-9 columns">
                 <h1 class="carte-article-secondaire-post-title" itemprop="headline">Banane France</h1>
@@ -46,20 +42,20 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
               </div>
 
               <div class="small-3 columns">
-                
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane France" width="140">
-                
+
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/connected-car-android-auto-1.png" alt="Banane France" width="140">
+
               </div>
             </div>
 
           </article>
         </a>
 
-      
+
 
         <a href="http://twitter.com/" title="Banane Espagne" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            
+
             <div class="row collapse">
               <div class="small-9 columns">
                 <h1 class="carte-article-secondaire-post-title" itemprop="headline">Banane Espagne</h1>
@@ -67,20 +63,20 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
               </div>
 
               <div class="small-3 columns">
-                
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Espagne" width="140">
-                
+
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/connected-car-android-auto-1.png" alt="Banane Espagne" width="140">
+
               </div>
             </div>
 
           </article>
         </a>
 
-      
+
 
         <a href="http://twitter.com/" title="Banane Brésil" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-            
+
             <div class="row collapse">
               <div class="small-9 columns">
                 <h1 class="carte-article-secondaire-post-title" itemprop="headline">Banane Brésil</h1>
@@ -88,16 +84,16 @@ Une collection organisée d'outils pour gérez vos ressources humaines. Partez p
               </div>
 
               <div class="small-3 columns">
-                
-                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/list_view_banner_collection-hero-selfie-dog.jpg" alt="Banane Brésil" width="140">
-                
+
+                <img class="right" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/connected-car-android-auto-1.png" alt="Banane Brésil" width="140">
+
               </div>
             </div>
 
           </article>
         </a>
 
-      
 
-    
+
+
     </div>
