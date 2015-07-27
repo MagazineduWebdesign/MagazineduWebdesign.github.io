@@ -249,7 +249,6 @@ module.exports = function (grunt) {
           removeAttributeQuotes: true,
           removeRedundantAttributes: true,
           useShortDoctype: true,
-          removeScriptTypeAttributes: true,
           removeStyleLinkTypeAttributes: true,
           minifyJS: true
         },
