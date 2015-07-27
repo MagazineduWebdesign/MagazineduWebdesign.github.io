@@ -58,6 +58,8 @@ layout: default
           </figure>
           {% endif %}
         </div>
+
+        {% unless page.metadata == 'true' %}
         <!-- metadata
         ================================================== -->
         <div class="article-meta-data-right">
@@ -157,6 +159,7 @@ layout: default
             {% endif %}
           </ul>
         </div>
+        {% endunless %}
 
       </div>
 
