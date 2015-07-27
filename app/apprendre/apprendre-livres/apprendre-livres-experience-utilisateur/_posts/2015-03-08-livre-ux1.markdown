@@ -1,15 +1,15 @@
 ---
 layout: apprendre-default
-title: How Buildings Learn - What Happens After They're Built
+title: Work rules
 date: 2015-02-17 17:23:57
 path1: apprendre
 path2: livres
 path3: experience-utilisateur
 category: livres
-tags: 
+tags:
 - livres-experience-utilisateur
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-image: book1.jpg
+image: livre-work-rules-laszlo-bock.jpg
 price: €26,83
 url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla

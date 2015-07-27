@@ -8,7 +8,7 @@ path3: art-books
 category: livres
 tags: livres-art-books
 intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-image: livre1.jpg
+image: livre-work-rules-laszlo-bock.jpg
 price: €26,83
 url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
 description: blablabla
