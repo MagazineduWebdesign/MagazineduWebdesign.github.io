@@ -1,13 +1,13 @@
 ---
-title: Rain Forest recrute un UX Designer à San Francisco
-entreprise: Rain Forest
-fonction: UX Designer
+title: Twitter recrute un UX researcher à San Francisco
+entreprise: Twitter
+fonction: UX researcher
 lieu: San Francisco
 type: CDI
 statut:
 candidater-url: http://www.keyman.fr/postuler.php
-image: service_128.png
-date: 2015-01-05 00:00:01
+image: twitter-icon-app-ios.png
+date: 2015-07-05 00:00:00
 auteur: MagDuWebdesign
 ---
 We're looking for a full-stack developer with excellent Javascript skills in the browser and on the server to join our small and talented product team in London. As a core engineer in a small but growing team, you'll be working at all levels of the stack from optimising infrastructure and architecting server-side APIs to building the web app front-end.
