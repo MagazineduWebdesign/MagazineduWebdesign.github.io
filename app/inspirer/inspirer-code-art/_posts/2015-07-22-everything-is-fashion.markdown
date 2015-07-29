@@ -12,4 +12,5 @@ image: "everything-is-fashion.jpg"
 image-2:
 intro:
 description:
+metadata: "true"
 ---

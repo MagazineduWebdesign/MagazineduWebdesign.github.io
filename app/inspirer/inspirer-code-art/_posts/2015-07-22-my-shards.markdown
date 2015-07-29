@@ -12,4 +12,5 @@ image: "my-shards-1.jpg"
 image-2: "my-shards-2.jpg"
 intro:
 description:
+metadata: "true"
 ---

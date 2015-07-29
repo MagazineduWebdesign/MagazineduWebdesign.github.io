@@ -12,4 +12,5 @@ image: "neo-brush.jpg"
 image-2:
 intro:
 description:
+metadata: "true"
 ---

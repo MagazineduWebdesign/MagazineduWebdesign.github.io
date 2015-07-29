@@ -12,4 +12,5 @@ image: "magic-is-real-emoji.jpg"
 image-2:
 intro:
 description:
+metadata: "true"
 ---

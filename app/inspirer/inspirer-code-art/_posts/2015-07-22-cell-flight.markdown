@@ -12,4 +12,5 @@ image: "cell-flight.jpg"
 image-2:
 intro: "Cliquez sur le bouton orange Démo puis rendez-vous à l'adresse cell-flight.com avec votre portable. De surprenantes interactions vous attendent sur votre mobile et sur votre ordinateur."
 description:
+metadata: "true"
 ---

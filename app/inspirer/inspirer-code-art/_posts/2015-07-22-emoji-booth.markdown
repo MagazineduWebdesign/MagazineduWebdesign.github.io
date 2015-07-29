@@ -12,4 +12,5 @@ image: "emoji-booth.png"
 image-2:
 intro:
 description:
+metadata: "true"
 ---
