@@ -17,5 +17,5 @@ description:
 reference-name: "Android"
 reference-title: "Guide du design d'interfaces Android Wear | Android Developers"
 reference-url: "http://developer.android.com/design/wear/index.html"
-metadata: "true"
+metadata: "false"
 ---

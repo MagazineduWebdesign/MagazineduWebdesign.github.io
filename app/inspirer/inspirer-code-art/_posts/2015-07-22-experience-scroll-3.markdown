@@ -12,5 +12,5 @@ image: "experience-scroll-3.jpg"
 image-2:
 intro:
 description:
-metadata: "true"
+metadata: "false"
 ---

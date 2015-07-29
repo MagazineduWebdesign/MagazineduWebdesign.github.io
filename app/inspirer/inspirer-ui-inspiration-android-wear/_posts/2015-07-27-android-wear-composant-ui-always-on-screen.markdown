@@ -19,5 +19,5 @@ reference-url: "http://officialandroid.blogspot.fr/2015/04/android-wear-wear-wha
 reference-02-name: "Android"
 reference-02-title: "Guide du design d'interfaces Android Wear | Android Developers"
 reference-02-url: "http://developer.android.com/design/wear/index.html"
-metadata: "true"
+metadata: "false"
 ---

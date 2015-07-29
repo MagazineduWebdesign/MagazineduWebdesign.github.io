@@ -18,4 +18,5 @@ reference-url:
 reference-02-name:
 reference-02-title:
 reference-02-url:
+metadata: "false"
 ---

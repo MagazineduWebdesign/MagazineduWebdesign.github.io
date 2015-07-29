@@ -12,5 +12,5 @@ image: "kinecdysis-sougwen.jpg"
 image-2:
 intro:
 description:
-metadata: "true"
+metadata: "false"
 ---
