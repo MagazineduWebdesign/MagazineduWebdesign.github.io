@@ -1,7 +1,7 @@
 <section>
   <div class="row">
     <div class="small-12 columns">
-      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | capitalize }}</h1>
+      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | upcase }}</h1>
     </div>
   </div>
   <!-- list items
@@ -15,9 +15,9 @@
         {% for post in site.categories.[include.param] limit:3 %}
         <li>
           <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            
+
             <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-              
+
               <div class="row collapse grid-article-card-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if post.image %}
