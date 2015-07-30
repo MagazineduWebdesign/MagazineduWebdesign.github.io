@@ -4,7 +4,7 @@ title: "Drunken parrot &ndash; Kit UI"
 date: "2015-07-30 00:24:57"
 path1: "decouvrir"
 path2: "kits-ui"
-path3: ""
+path3:
 category: "decouvrir-kits-ui"
 tags:
 by: "hoarrd"
