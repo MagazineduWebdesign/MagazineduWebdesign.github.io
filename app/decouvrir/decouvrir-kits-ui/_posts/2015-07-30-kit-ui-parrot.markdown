@@ -10,7 +10,7 @@ tags:
 by: "hoarrd"
 by-url: "https://hoarrd.com/drunken-parrot-flat-ui-kit/"
 image: "kit-ui-drunken-parrot-1.png"
-image-2: "kit-ui-drunken-parrot-2.png"
+image-2: "kit-ui-drunken-parrot-2.jpg"
 intro:
 description:
 ---
