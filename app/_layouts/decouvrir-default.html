@@ -4,7 +4,7 @@ layout: default
 
 {% include custom/sections/article_header.html %}
 <article>
-  <div class="header-liste mod-no-bg-gradient {% if page.image %}u-no-padding-bottom{% endif %}">
+  <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
@@ -24,7 +24,7 @@ layout: default
           <h1 itemprop="headline">{{ page.title }}</h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
         </div>
-        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right"> 
+        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
           {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Repo GitHub</a>{% endif %}
           {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
           {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small secondary" target="_blank">DEMO</a>{% endif %}
@@ -33,24 +33,152 @@ layout: default
       </div>
       {% endif %}
 
-      {% if page.image %}
-        <div class="row collapse">
-          <div class="small-12 columns">
-            <figure class="gallery figure-img">
-              <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}">
-              </a>
-              {% if page.image-legende %}
-              <div class="row collapse">
-                <div class="small-12 columns">
-                  <figcaption class="note-figcaption">{{ page.image-legende }}</figcaption>
-                </div>
-              </div>
-              {% endif %}
-            </figure>
-          </div>
+      <div class="row-body-article">
+
+        <!-- screenshots
+        ================================================== -->
+        <div class="column-body-article mod-article-left-body">
+          {% if page.image %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-2 %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-3 %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-4 %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-4">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-5 %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-5">
+            </a>
+          </figure>
+          {% endif %}
         </div>
-        {% endif %}
+
+        {% unless page.metadata == 'false' %}
+        <!-- metadata
+        ================================================== -->
+        <div class="article-meta-data-right">
+          <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
+
+            {% if page.theme %}
+            <li class="article-meta-data-header-title">Thème</li>
+            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.format %}
+            <li class="article-meta-data-header-title">Format</li>
+            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.animation-1 %}
+            <li class="article-meta-data-header-title">Animation</li>
+            <li role="menuitem"><a href="{{ page.animation-url-1 }}" title="{{ page.animation-1 }}">{{ page.animation-1 | upcase }}</a></li>
+            {% endif %}
+            {% if page.animation-2 %}
+            <li role="menuitem"><a href="{{ page.animation-url-2 }}" title="{{ page.animation-2 }}">{{ page.animation-2 | upcase }}</a></li>
+            {% endif %}
+            {% if page.animation-3 %}
+            <li role="menuitem"><a href="{{ page.animation-url-3 }}" title="{{ page.animation-3 }}">{{ page.animation-3 | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.technologie-1 %}
+            <li class="article-meta-data-header-title">Technologies</li>
+            <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 | upcase }}</a></li>
+            {% endif %}
+            {% if page.technologie-2 %}
+            <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 | upcase }}</a></li>
+            {% endif %}
+            {% if page.technologie-3 %}
+            <li role="menuitem"><a href="{{ page.technologie-url-3 }}" title="{{ page.technologie-3 }}">{{ page.technologie-3 | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.by %}
+            <li class="article-meta-data-header-title">Crédit</li>
+            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.element-ui-1 %}
+              <li class="article-meta-data-header-title">Eléments UI</li>
+              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la collection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
+              {% if page.element-ui-2 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la collection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-3 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la collection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-4 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-4 }}" title="Explorer la collection {{ page.element-ui-4 }}">{{ page.element-ui-4 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-5 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-5 }}" title="Explorer la collection {{ page.element-ui-5 }}">{{ page.element-ui-5 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-6 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-6 }}" title="Explorer la collection {{ page.element-ui-6 }}">{{ page.element-ui-6 | upcase }}</a></li>
+              {% endif %}
+              {% if page.element-ui-7 %}
+                <li role="menuitem"><a href="{{ page.element-ui-url-7 }}" title="Explorer la collection {{ page.element-ui-7 }}">{{ page.element-ui-7 | upcase }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            {% if page.composant-ui-1 %}
+              <li class="article-meta-data-header-title">Composants UI</li>
+              <li role="menuitem"><a href="{{ page.composant-ui-url-1 }}" title="Explorer la collection {{ page.composant-ui-1 }}">{{ page.composant-ui-1 | upcase }}</a></li>
+              {% if page.composant-ui-2 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-2 }}" title="Explorer la collection {{ page.composant-ui-2 }}">{{ page.composant-ui-2 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-3 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-3 }}" title="Explorer la collection {{ page.composant-ui-3 }}">{{ page.composant-ui-3 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-4 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-4 }}" title="Explorer la collection {{ page.composant-ui-4 }}">{{ page.composant-ui-4 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-5 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-5 }}" title="Explorer la collection {{ page.composant-ui-5 }}">{{ page.composant-ui-5 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-6 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-6 }}" title="Explorer la collection {{ page.composant-ui-6 }}">{{ page.composant-ui-6 | upcase }}</a></li>
+              {% endif %}
+              {% if page.composant-ui-7 %}
+                <li role="menuitem"><a href="{{ page.composant-ui-url-7 }}" title="Explorer la collection {{ page.composant-ui-7 }}">{{ page.composant-ui-7 | upcase }}</a></li>
+              {% endif %}
+            {% endif %}
+
+            {% if page.plateformes %}
+              <li class="article-meta-data-header-title">Plate-formes</li>
+              <li role="menuitem"><a href="{{ page.plateformes-url }}" title="Explorer la collection {{ page.plateformes }}">{{ page.plateformes | upcase }}</a></li>
+            {% endif %}
+
+            {% if page.constructeurs %}
+              <li class="article-meta-data-header-title">Constructeurs</li>
+              <li role="menuitem"><a href="{{ page.constructeurs-url }}" title="Explorer la collection {{ page.constructeurs }}">{{ page.constructeurs | upcase }}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+        {% endunless %}
+
+      </div>
+
     </header>
   </div>
 

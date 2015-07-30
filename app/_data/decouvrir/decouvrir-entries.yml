@@ -1,56 +1,41 @@
 - name: TH&Egrave;MES WORDPRESS
-  currentnav:
   permalink: /decouvrir/themes-wordpress/
 
 - name: PLUGINS WORDPRESS
-  currentnav:
   permalink: /decouvrir/plugins-wordpress/
 
 - name: ICONES
-  currentnav: 
   permalink: /decouvrir/icones/
 
 - name: KITS UI
-  currentnav:
   permalink: /decouvrir/kits-ui/
 
 - name: FONTS
-  currentnav:
   permalink: /decouvrir/fonts/
 
 - name: FICHIERS VECTORIS&Eacute;S
-  currentnav:
   permalink: /decouvrir/fichiers-vectorises/
 
 - name: PLUGINS JAVASCRIPT
-  currentnav:
   permalink: /decouvrir/plugins-javascript/
 
 - name: TEMPLATES APP WEB
-  currentnav: 
   permalink: /decouvrir/templates-app-web/
 
 - name: TEMPLATES APP IOS
-  currentnav: 
   permalink: /decouvrir/templates-app-ios/
 
 - name: TEMPLATES APP ANDROID
-  currentnav: 
   permalink: /decouvrir/templates-app-android/
 
 - name: TEMPLATES EMAIL
-  currentnav: 
   permalink: /decouvrir/templates-email/
 
 - name: TEMPLATES WEARABLE UI
-  currentnav: 
   permalink: /decouvrir/templates-wearable-ui/
 
 - name: FRAMEWORKS FRONT END
-  currentnav:
   permalink: /decouvrir/frameworks-front-end/
 
 - name: FONDS D'&Eacute;CRAN
-  currentnav:
   permalink: /decouvrir/fonds-ecran/
-
