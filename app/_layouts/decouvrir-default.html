@@ -73,6 +73,13 @@ layout: default
             </a>
           </figure>
           {% endif %}
+          {% if page.image-6 %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-6">
+            </a>
+          </figure>
+          {% endif %}
         </div>
 
         {% unless page.metadata == 'false' %}
