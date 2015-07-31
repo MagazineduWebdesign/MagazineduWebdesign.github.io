@@ -18,6 +18,6 @@ image-3: "kit-ui-drunken-parrot-2.png"
 image-4: "kit-ui-drunken-parrot-3.png"
 image-5: "kit-ui-drunken-parrot-4.png"
 image-6: "kit-ui-drunken-parrot-5.png"
-intro: Kit d'interfaces en PSD &amp; HTML responsive basé sur le framework Boostrap. Compatible Retina. Livré avec un myriade de composants UI avec une font icon dédiée.
-description:
+intro: "Kit d'interfaces au format PSD &amp; HTML responsive basé sur le framework Boostrap. Compatible Retina. Livré avec un myriade de composants UI et une font icon dédiée."
+description: "Kit d'interfaces au format PSD &amp; HTML responsive basé sur le framework Boostrap."
 ---
