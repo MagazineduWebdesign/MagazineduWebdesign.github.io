@@ -25,10 +25,12 @@ layout: default
           {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
-          {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Repo GitHub</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
-          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small secondary" target="_blank">DEMO</a>{% endif %}
-          {% if page.url-buy %}<a href="{{ page.url-buy }}" class="button radius success" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
+          {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
+          {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
+          {% if page.url-demo %}<a class="button radius small secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank">DEMO</a>{% endif %}
+          {% if page.url-buy %}<a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
+          {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
+          {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
         </div>
       </div>
       {% endif %}
