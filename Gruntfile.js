@@ -282,6 +282,9 @@ module.exports = function (grunt) {
           aspectRatio:false,
           width: 140
         },{
+          name: 'msmall',
+          width: 220
+        },{
           name: 'small',
           width: 360
         },{
