@@ -55,21 +55,21 @@ layout: default
     </header>
     <div class="row-liste-index">
       <div class="small-12 columns section-brief-panel">
-    {% capture day %}{{currentday}}{% endcapture %} 
+    {% capture day %}{{currentday}}{% endcapture %}
   {% endif %}
-  
+
       <article class="note note-first">
         <div class="row collapse">
           <div class="small-12 columns">
-            
+
             <div class="note-source-id">
               <span class="note-source-name">{{ page.source-name | upcase }}</span>
             </div>
-            
+
             <a href="{{ page.source-url }}" title="{{ page.title }}" target="_blank">
               <h1>{{ page.title }}</h1>
             </a>
-            
+
             {% if page.content %}
               <main>{{ page.content }}</main>
             {% endif %}
@@ -112,7 +112,7 @@ layout: default
               {% endif %}
             </figure>
           </div>
-        </div> 
+        </div>
         {% endif %}
 
         {% if page.id-vimeo %}
@@ -153,7 +153,7 @@ layout: default
             {% include custom/sections/share-note-modal-box.html %}
           </div>
         </div>
-        
+
       </article>
 
     </div>

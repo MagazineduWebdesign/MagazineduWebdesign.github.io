@@ -13,14 +13,14 @@ layout: default
         <h1 class="headline-post" itemprop="headline">{{ page.title }}</h1>
         {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
       </div>
-      <div class="small-12 medium-12 large-3 columns small-text-center large-text-right"> 
+      <div class="small-12 medium-12 large-3 columns small-text-center large-text-right">
         {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Github</a>{% endif %}
         {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
       </div>
     </header>
   </div>
 
-  <div class="row-body-article item-contenu"> 
+  <div class="row-body-article item-contenu">
     <div class="article-meta-by-time show-for-large-up">
       <aside>
         <p class="article-meta-item-by">Publiée par</p>
@@ -59,14 +59,14 @@ layout: default
           <time>{{ datearticle }}</time>
         </p>
       </aside>
-      
+
       {% include custom/cartes/carte_post-a-job-in-article_left.html %}
-      
+
     </div>
-    
+
     <main class="column-body-article">
       {{ content }}
     </main>
-    
+
   </div>
 </article>

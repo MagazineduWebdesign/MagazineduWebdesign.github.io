@@ -9,7 +9,7 @@
   <div class="row-liste-index">
     <div class="small-12 columns videos-relatives-carte-article">
     {% for post in site.categories[page.category] limit: 5 %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
         <article class="carte-article-secondaire mod-videos-relatives" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
           <div class="row collapse">
@@ -24,7 +24,7 @@
 
             <div class="small-3 columns">
               {% if post.id-youtube %}
-              <img class="videos-relatives-carte-article-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" width="64" alt="{{ post.image-legende }}"/>
+              <img class="videos-relatives-carte-article-thumbnail right" src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" width="64" alt="{{ post.title }}"/>
               {% endif %}
             </div>
 
@@ -42,7 +42,7 @@
   </div>
   <div class="row-liste-index">
     <div class="small-12 columns section-carte-action mod-article-video-action-relative">
-      <a href="/{{ page.category }}/">TOUTES LES VIDEOS</a> 
+      <a href="/{{ page.category }}/">TOUTES LES VIDEOS</a>
     </div>
   </div>
 </aside>

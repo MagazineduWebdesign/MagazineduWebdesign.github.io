@@ -6,7 +6,7 @@ layout: default
 
 <section>
 
-	<!-- list header 
+	<!-- list header
 	================================================== -->
 	<div class="header-liste u-no-padding-bottom">
 	  <header class="row-liste-index">
@@ -18,7 +18,7 @@ layout: default
 		<div class="row text-center">
 		  <div class="small-12 columns">
 
-		  	<!-- desktop list filters 
+		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
 					<a href="/evenements/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Prochains événements"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>PROCHAINEMENT</a>
@@ -50,7 +50,7 @@ layout: default
 	        </div>
 
 				</div>
-				
+
 				<!-- mobile list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
@@ -60,7 +60,7 @@ layout: default
 	        ================================================== -->
 	        <div id="evenements-filtre-mobile" class="reveal-modal" data-reveal>
 	          <div class="row-liste-index">
-	            <div class="small-12 columns text-center"> 
+	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
@@ -128,14 +128,14 @@ layout: default
 					{% for post in site.categories.evenements limit: 6 %}
 						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 		          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-		            
+
 		            <div class="row collapse">
 		              <div class="small-2 medium-1 columns">
 		                {% if post.logo %}
 		                <div class="rounded-img-d40 left" alt="logo {{ post.title }}" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]"></div>
 		                {% endif %}
 		              </div>
-		              <div class="small-10 medium-11 columns"> 
+		              <div class="small-10 medium-11 columns">
 		              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
 		              </div>
 		            </div>
@@ -154,14 +154,14 @@ layout: default
 						{% for post in site.tags[page.tags] limit: 6 %}
 						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 			          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-			            
+
 			            <div class="row collapse">
 			              <div class="small-2 medium-1 columns">
 			                {% if post.logo %}
 			                <div class="rounded-img-d40 left" alt="logo {{ post.title }}" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]"></div>
 			                {% endif %}
 			              </div>
-			              <div class="small-10 medium-11 columns"> 
+			              <div class="small-10 medium-11 columns">
 			              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}<span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
 			              </div>
 			            </div>
@@ -173,7 +173,7 @@ layout: default
 						<p>Il n'y a pas d'item pour ce tag.</p>
 					{% endif %}
 				{% endif %}
-		
+
 		  </main>
 		</div>
 		{% include custom/cartes/cartenl.html %}

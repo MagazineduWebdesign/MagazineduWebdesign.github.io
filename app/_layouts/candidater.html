@@ -40,7 +40,7 @@ layout: default
   	</div>
   </div>
   {% endif %}
-	
+
 	{% else %}
 		{% if page.image %}
 		<div class="row-article-featured-image">
@@ -60,7 +60,7 @@ layout: default
 		{% endif %}
 	{% endif %}
 
-	<div class="row-body-article item-contenu"> 
+	<div class="row-body-article item-contenu">
 	  <div class="article-meta-by-time show-for-large-up">
 		  <aside>
         <p class="article-meta-item-by">Publiée par</p>
@@ -99,14 +99,14 @@ layout: default
           <time>{{ datearticle }}</time>
         </p>
       </aside>
-      
+
       {% include custom/cartes/carte_post-a-job-in-article_left.html %}
-      
+
     </div>
 	  <main class="column-body-article">
 	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
 	  	{{ content }}
-	  	
+
 			<!-- Partage social
 			================================================== -->
 			<div class="row collapse article-partage">

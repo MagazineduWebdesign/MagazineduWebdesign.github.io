@@ -5,23 +5,23 @@ layout: default
 {% include header.html %}
 
 <section>
-  
+
   {% include custom/sections/apprendre-entries.html %}
-  
+
   <div class="header-liste">
     <header class="row-liste-index">
       <div class="small-12 columns">
-        
+
         <div class="row">
           <div class="small-12 columns header-liste-link text-center">
             {% if page.category %}
               <a href="{{site.baseurl}}/{{site.collections.encyclo.label | downcase}}/">{{ site.collections.encyclo.label | upcase }}</a>
-            {% endif %} 
+            {% endif %}
           </div>
         </div>
         <h1 class="header-liste-headline text-center">{{ page.title }}</h1>
         <p class="header-liste-content text-center">
-          {{ page.intro }} 
+          {{ page.intro }}
           <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign" rel="nofollow" target="_blank">
             <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -39,7 +39,7 @@ layout: default
           <div class="small-12 columns header-liste-link text-center">
             {% if page.learnmore == true %}
               <a href="{{site.baseurl}}/{{site.collections.encyclo.label | downcase}}/{{ page.category | downcase | url_escape }}/">EN APPRENDRE PLUS SUR {{ page.title | upcase }}</a>
-            {% endif %} 
+            {% endif %}
           </div>
         </div>
       </div>
@@ -73,15 +73,16 @@ layout: default
 
           <a href="{{ encyclo.url | prepend: site.baseurl }}">
             <article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-              
+
               <div class="row collapse">
                 <div class="small-9 columns">
-                  <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ encyclo.title }}</h1> 
+                  <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ encyclo.title }}</h1>
                 </div>
 
                 <div class="small-3 columns">
                   {% if encyclo.image %}
-                  <img class="right" src="{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ encyclo.image-legende }}" />
+                  <img class="right" data-interchange="[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (retina)]" alt="{{ encyclo.image-legende }}" width="140" height="84" />
+                  <noscript><img class="right" src="{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ encyclo.image-legende }}" width="140" height="84" /></noscript>
                   {% endif %}
                 </div>
               </div>

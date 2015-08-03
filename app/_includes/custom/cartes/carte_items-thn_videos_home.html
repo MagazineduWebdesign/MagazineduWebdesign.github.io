@@ -22,10 +22,10 @@
               <div class="row collapse grid-article-card-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if post.id-youtube %}
-                    <img src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg"/>
+                    <img src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.title }}" width="219" height="106" />
                   {% endif %}
                   {% if post.id-vimeo %}
-                    <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" class="large" />
+                    <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" class="large" alt="{{ post.title }}" width="219" height="106" />
                   {% endif %}
                 </div>
 

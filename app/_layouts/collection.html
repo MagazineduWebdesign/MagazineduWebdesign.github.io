@@ -4,7 +4,7 @@ layout: default
 {% include custom/sections/article_header.html %}
 <section>
 {% if page.bgimgheader == true %}
-  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
+  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
 {% endif %}
 
   <div class="header-collection-shadow">
@@ -41,7 +41,7 @@ layout: default
 
         <a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
           <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-            
+
             <div class="row collapse">
               <div class="small-9 columns">
                 <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ item.title }}</h1>
@@ -50,7 +50,8 @@ layout: default
 
               <div class="small-3 columns">
                 {% if item.image %}
-                <img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ item.title }}" width="140"/>
+                <img class="right" data-interchange="[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (retina)]" alt="{{ item.title }}" width="140" height="84" />
+                <noscript><img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ item.title }}" width="140" height="84" /></noscript>
                 {% endif %}
               </div>
             </div>

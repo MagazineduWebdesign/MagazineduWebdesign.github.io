@@ -127,8 +127,8 @@ layout: default
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/msmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/msmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
+											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
 	            			{% endif %}
 	                </div>
 		            </div>
@@ -177,9 +177,9 @@ layout: default
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/msmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/msmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
-	            			{% endif %}
+											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
+											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+										{% endif %}
 	                </div>
 		            </div>
 

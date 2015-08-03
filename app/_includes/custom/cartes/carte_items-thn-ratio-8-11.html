@@ -15,14 +15,14 @@
         {% for post in site.categories.[include.param] limit:4 %}
         <li>
           <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            
+
             <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-              
+
               <div class="row collapse grid-article-card-image mod-book-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if post.image %}
-                    <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]" alt="{{ post.title }}" />
-                    <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}" alt="{{ post.title }}" /></noscript>
+                    <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
+                    <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
                   {% endif %}
                 </div>
               </div>
@@ -34,16 +34,16 @@
               </div>
 
             </a>
-            
+
           </article>
         </li>
         {% endfor %}
 
         <li>
           <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-            
+
             <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}{{ page.permalink }}{{ include.param }}/" title="Explorer la collection">
-              
+
               <div class="row collapse grid-article-card-image mod-book-image mod-action hide-for-small">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                 </div>
@@ -57,7 +57,7 @@
               </div>
 
             </a>
-            
+
           </article>
         </li>
 

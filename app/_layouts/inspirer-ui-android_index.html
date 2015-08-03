@@ -7,7 +7,7 @@ layout: default
 <section>
 	{% include custom/sections/inspirer-entries.html %}
 
-	<!-- list header 
+	<!-- list header
 	================================================== -->
 	<div class="header-liste">
 	  <header class="row-liste-index">
@@ -19,11 +19,11 @@ layout: default
 		<div class="row text-center large-text-left">
 		  <div class="medium-12 large-9 columns">
 
-		  	<!-- desktop list filters 
+		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
 					<a href="/inspiration/ui-design/android/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux éléments UI sur Android"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
-					
+
 					<!-- Eléments UI
 	        ================================================== -->
 					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les Apps Android par élements UI" data-reveal-id="ui-android-filtre-elements-ui">ELEMENTS UI</a>
@@ -57,7 +57,7 @@ layout: default
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
 					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="ui-android-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
-					
+
 					<!--  mobile list filters modalbox
 	        ================================================== -->
 	        <div id="ui-android-filtre-mobile" class="reveal-modal" data-reveal>
@@ -88,7 +88,7 @@ layout: default
 				</div>
 
 		  </div>
-		  <div class="large-3 columns text-right show-for-large-up section-header"> 
+		  <div class="large-3 columns text-right show-for-large-up section-header">
 		  	<!-- Number of item by index -->
 				{% if page.category == 'ui-android' %}
 					{% for post in site.categories.ui-android %}
@@ -104,7 +104,7 @@ layout: default
 		</div>
 
 	</div>
-	
+
 	<!-- list subheader
 	================================================== -->
 	<div class="row show-for-small-only">
@@ -122,10 +122,10 @@ layout: default
 	    <span class="section-header-titre">{{ length }} inspirations UI</span>
 	  </div>
 	</div>
-	
+
 	<!-- list items
 	================================================== -->
-	<div class="row"> 
+	<div class="row">
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav {% if page.category == 'ui-android' %}current-page{% endif %}">
 
@@ -155,15 +155,15 @@ layout: default
 
 					<li>
 	          <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-	            
+
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-		            
+
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" alt="{{ post.title }}" /></noscript>
-	            			{% endif %}
+										<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
+										<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+										{% endif %}
 	                </div>
 		            </div>
 
@@ -204,15 +204,15 @@ layout: default
 
 					<li>
 	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-	            
+
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-		            
+
 		            <div class="row collapse grid-article-card-image">
 	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 										{% if post.image %}
-											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (medium)]" alt="{{ post.title }}" />
-											<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" alt="{{ post.title }}" /></noscript>
-	            			{% endif %}
+										<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (retina)],[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)]" alt="{{ post.title }}" width="219" height="106" />
+										<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+										{% endif %}
 	                </div>
 		            </div>
 
@@ -249,7 +249,7 @@ layout: default
 
 	  </div>
 	</div>
-	
+
 	<div class="infinite-spinner"></div>
 
 </section>
