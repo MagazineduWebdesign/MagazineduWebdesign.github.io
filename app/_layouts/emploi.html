@@ -10,7 +10,7 @@ layout: default
 				<div class="rounded-img-d64" alt="logo {{ page.entreprise }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
 			</div>
       <div class="small-12 medium-12 large-9 columns columns small-text-center large-text-left">
-        <h1 class="header-liste-headline" itemprop="headline"><span class="left job--entreprise">{{ page.entreprise }} {% if page.statut %}<span class="label--secondary">{{ page.statut }}{% endif %}</span></span><span class="job--description">recrute un(e) {{ page.fonction }} en {{ page.type }} à {{ page.lieu }}</span></h1>
+        <h1 class="header-liste-headline"><span class="left job--entreprise">{{ page.entreprise }} {% if page.statut %}<span class="label--secondary">{{ page.statut }}{% endif %}</span></span><span class="job--description">recrute un(e) {{ page.fonction }} en {{ page.type }} à {{ page.lieu }}</span></h1>
       </div>
 			<div class="small-12 medium-12 large-2 columns small-text-center large-text-right">
         <a class="button radius" href="{{ page.candidater-url }}"title="Postuler à cette offre d'emploi" target="_blank">POSTULER</a>

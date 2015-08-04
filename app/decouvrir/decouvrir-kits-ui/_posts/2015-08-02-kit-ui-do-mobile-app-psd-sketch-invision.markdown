@@ -17,4 +17,5 @@ image-2:
 image-3:
 intro: "Au programme : 130 écrans, 10 thèmes et 250+ composants UI gratuits compatibles Adobe Photoshop CS6+ &amp; Sketch App. Une bonne base graphique pour votre prochaine application mobile. Le kit ne nécessite aucune optimisation de votre part, l'affichage Retina a été anticipé pour tous les éléments de design."
 description: "130 écrans, 10 thèmes et 250+ composants UI gratuits au format Adobe Photoshop CS6+ &amp; Sketch App. Les élements sont compatibles Retina"
+rating: 7
 ---

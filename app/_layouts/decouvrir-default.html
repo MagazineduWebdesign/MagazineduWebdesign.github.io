@@ -1,18 +1,67 @@
 ---
 layout: default
 ---
-
 {% include custom/sections/article_header.html %}
-<article>
+<article itemscope itemtype="http://schema.org/Product">
   <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
-          <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
+          <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
-          {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
+          <h1 itemprop="name">{{ page.title }}</h1>
+          <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+            <p class="article-bgimg-meta-by-time">
+              {% capture datearticle %}
+                {% assign A = page.date | date: "%A" %}
+                {% case A %}
+                  {% when 'Monday' %}Lundi
+                  {% when 'Tuesday' %}Mardi
+                  {% when 'Wednesday' %}Mercredi
+                  {% when 'Thursday' %}Jeudi
+                  {% when 'Friday' %}Vendredi
+                  {% when 'Saturday' %}Samedi
+                  {% when 'Sunday' %}Dimanche
+                {% endcase %}
+                {{ page.date | date: " %-d " }}
+                {% assign B = page.date | date: "%-m" %}
+                {% case B %}
+                  {% when '1' %}Janvier
+                  {% when '2' %}F&eacute;vrier
+                  {% when '3' %}Mars
+                  {% when '4' %}Avril
+                  {% when '5' %}Mai
+                  {% when '6' %}Juin
+                  {% when '7' %}Juillet
+                  {% when '8' %}Ao&ucirc;t
+                  {% when '9' %}Septembre
+                  {% when '10' %}Octobre
+                  {% when '11' %}Novembre
+                  {% when '12' %}D&eacute;cembre
+                {% endcase %}
+                {{ page.date | date: " %Y" }}
+              {% endcapture %}
+              <meta itemprop="datePublished" content="{{ page.date | date: "%F" }}"><time itemprop="datePublished" datetime="{{ page.date | date: "%F" }}">{{ datearticle }}</time>
+              &bull;
+              {% if page.rating %}
+                <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"> Noté
+                  <span itemprop="ratingValue">{{ page.rating }}</span>&frasl;<span itemprop="bestRating">10</span> par
+                  <meta itemprop="worstRating" content="1"/>
+                </span>
+              {% endif %}
+              {% if page.auteur %}
+                <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
+              {% endif %}
+            </p>
+
+            {% if page.intro %}
+              <p class="subheader" itemprop="reviewBody">
+                {{ page.intro }}
+              </p>
+            {% endif %}
+
+          </div>
         </div>
         <div class="small-12 medium-12 large-3 columns small-text-center large-text-left">
           {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Repo GitHub</a>{% endif %}
@@ -21,14 +70,68 @@ layout: default
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
-          {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
+          <h1 itemprop="name">{{ page.title }}</h1>
+          <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+            <p class="article-bgimg-meta-by-time">
+              {% capture datearticle %}
+                {% assign A = page.date | date: "%A" %}
+                {% case A %}
+                  {% when 'Monday' %}Lundi
+                  {% when 'Tuesday' %}Mardi
+                  {% when 'Wednesday' %}Mercredi
+                  {% when 'Thursday' %}Jeudi
+                  {% when 'Friday' %}Vendredi
+                  {% when 'Saturday' %}Samedi
+                  {% when 'Sunday' %}Dimanche
+                {% endcase %}
+                {{ page.date | date: " %-d " }}
+                {% assign B = page.date | date: "%-m" %}
+                {% case B %}
+                  {% when '1' %}Janvier
+                  {% when '2' %}F&eacute;vrier
+                  {% when '3' %}Mars
+                  {% when '4' %}Avril
+                  {% when '5' %}Mai
+                  {% when '6' %}Juin
+                  {% when '7' %}Juillet
+                  {% when '8' %}Ao&ucirc;t
+                  {% when '9' %}Septembre
+                  {% when '10' %}Octobre
+                  {% when '11' %}Novembre
+                  {% when '12' %}D&eacute;cembre
+                {% endcase %}
+                {{ page.date | date: " %Y" }}
+              {% endcapture %}
+              <meta itemprop="datePublished" content="{{ page.date | date: "%F" }}"><time itemprop="datePublished" datetime="{{ page.date | date: "%F" }}">{{ datearticle }}</time>
+              &bull;
+              {% if page.rating %}
+                <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"> Noté
+                  <span itemprop="ratingValue">{{ page.rating }}</span>&frasl;<span itemprop="bestRating">10</span> par
+                  <meta itemprop="worstRating" content="1"/>
+                </span>
+              {% endif %}
+              {% if page.auteur %}
+                <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
+              {% endif %}
+            </p>
+
+            {% if page.intro %}
+              <p class="subheader" itemprop="reviewBody">
+                {{ page.intro }}
+              </p>
+            {% endif %}
+
+          </div>
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
           {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
           {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
           {% if page.url-demo %}<a class="button radius small secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank">DEMO</a>{% endif %}
-          {% if page.url-buy %}<a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank">{{ page.price }} &mdash; ACHETER</a>{% endif %}
+          {% if page.url-buy %}
+            <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
+            </a>
+          {% endif %}
           {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
           {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
         </div>
@@ -43,42 +146,42 @@ layout: default
           {% if page.image %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
           {% if page.image-2 %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
           {% if page.image-3 %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
           {% if page.image-4 %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-4" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-4" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
           {% if page.image-5 %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-5" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image-5 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-5" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
           {% if page.image-6 %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-6" width="640" height="auto">
+              <img itemprop="image" src="{{ page.image-6 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-6" width="640" height="auto">
             </a>
           </figure>
           {% endif %}

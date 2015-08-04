@@ -4,7 +4,7 @@ layout: default
 
 {% include custom/sections/article_header.html %}
 
-<section>
+<section itemscope itemtype="http://schema.org/NewsArticle">
   {% capture currentday %}
     {% assign A = page.date | date: "%A" %}
     {% case A %}
@@ -38,7 +38,7 @@ layout: default
   {% endcapture %}
   {% if currentday != day %}
     <header class="row-liste-index">
-      <time class="small-12 columns section-brief-header" itemprop="datePublished" datetime="{{ page.date | date: "%d-%m-%Y" }}" data-cleaned="{{ page.date | date: "%d%m%Y" }}" data-week-day="
+      <meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/><time class="small-12 columns section-brief-header" itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}" data-cleaned="{{ page.date | date: "%d%m%Y" }}" data-week-day="
         {% assign A = page.date | date: "%A" %}
         {% case A %}
           {% when 'Monday' %}Lundi
@@ -67,11 +67,11 @@ layout: default
             </div>
 
             <a href="{{ page.source-url }}" title="{{ page.title }}" target="_blank">
-              <h1>{{ page.title }}</h1>
+              <h1 itemprop="headline">{{ page.title }}</h1>
             </a>
 
             {% if page.content %}
-              <main>{{ page.content }}</main>
+              <main itemprop="articleBody">{{ page.content }}</main>
             {% endif %}
 
           </div>
@@ -82,7 +82,7 @@ layout: default
           <div class="small-12 columns">
             <figure class="figure-img mod-note-img">
               <a href="{{ page.source-url }}" title="{{ page.title }}" target="_blank">
-                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}">
+                <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}" itemprop="image">
               </a>
               {% if page.image-legende %}
               <div class="row collapse">

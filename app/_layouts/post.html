@@ -18,7 +18,7 @@ layout: default
 		        <div class="column-header-article">
 		          <h1 class="headline-post" itemprop="headline">{{ page.title }}</h1>
 		          <aside class="hide-for-large-up">
-						  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}" title="Ecrit par @{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time>
+						  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}" title="Ecrit par @{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/><time itemprop="datePublished" datetime="{{ page.date | date: "%F" }}">{{ datearticle }}</time>
 					      </p>
 						  </aside>
 		        </div>
@@ -43,7 +43,7 @@ layout: default
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">
-		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}"></noscript>
+		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" alt="{{ page.image-legende }}" itemprop="image" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}" itemprop="image" /></noscript>
 		  </div>
 
 		  {% if page.image-legende %}
@@ -94,7 +94,7 @@ layout: default
 			  	{{ page.date | date: " %Y" }}
 		  	{% endcapture %}
 		  	<p class="article-meta-item-time">
-		  		<time>{{ datearticle }}</time>
+		  		<meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/><time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
 		  	</p>
 		  </aside>
 
@@ -103,8 +103,11 @@ layout: default
 	  </div>
 
 	  <main class="column-body-article">
-	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
-	  	{{ content }}
+	  	{% if page.intro %}<p class="article-intro" itemprop="description">{{ page.intro }}</p>{% endif %}
+	  	<div itemprop="articleBody">
+				{{ content }}
+			</div>
+
 			<!-- Tags on GitHub Pages without plugin
 			source @minddust ==> https://github.com/minddust/minddust.github.io/blob/master/_layouts/post.html
 			================================================== -->

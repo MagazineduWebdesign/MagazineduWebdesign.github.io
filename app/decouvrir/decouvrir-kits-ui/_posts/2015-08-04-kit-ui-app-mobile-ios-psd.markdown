@@ -18,4 +18,5 @@ image-3:
 image-4:
 intro: "Un petit kit UI propre et gratuit utile si vous avez un projet d'application iOS. PSD mde in Bucarest."
 description: "Un petit kit UI propre et gratuit utile si vous avez un projet d'application iOS"
+rating: 7
 ---

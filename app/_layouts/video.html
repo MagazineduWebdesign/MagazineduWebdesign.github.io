@@ -5,19 +5,21 @@ layout: default
 {% assign post = page %}
 
 {% include custom/sections/article_header.html %}
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
   <div class="header-liste mod-no-bg-gradient">
 	  <header class="row-body-article">
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
 	      <div class="small-12 large-8 columns">
 	      	<figure class="figure-video" data-is-video="http://img.youtube.com/vi/{{ page.id-youtube }}/mqdefault.jpg">
 		        <div class="note-flex-video widescreen">
-		          {% if post.id-youtube %}
+		          {% if page.id-youtube %}
 		          	<iframe src="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		          {% endif %}
-		        	{% if post.id-vimeo %}
+		            <link itemprop="embedUrl" href="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" />
+              {% endif %}
+		        	{% if page.id-vimeo %}
 		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		        	{% endif %}
+		        	  <link itemprop="embedUrl" href="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" />
+              {% endif %}
 		        </div>
 		      </figure>
 
@@ -25,10 +27,54 @@ layout: default
 
 	        <div class="row collapse">
 	          <div class="small-12 columns">
-	            <h1 class="header-liste-headline" itemprop="headline">{{ page.title }}</h1>
-	            {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
-						  <p class="article-bgimg-meta-by-time">{% if page.auteur %}<a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>{% endif %}{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
-	          </div>
+	            <h1 class="header-liste-headline" itemprop="name">{{ page.title }}</h1>
+	            {% if page.intro %}<p class="subheader" itemprop="description">{{ page.intro }}</p>{% endif %}
+						  <p class="article-bgimg-meta-by-time">
+                {% if page.auteur %}
+                  <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank">
+                    @{{ page.auteur }}
+                  </a>
+                {% endif %}
+                {% capture datearticle %}
+                  {% assign A = page.date | date: "%A" %}
+                  {% case A %}
+                    {% when 'Monday' %}Lundi
+                    {% when 'Tuesday' %}Mardi
+                    {% when 'Wednesday' %}Mercredi
+                    {% when 'Thursday' %}Jeudi
+                    {% when 'Friday' %}Vendredi
+                    {% when 'Saturday' %}Samedi
+                    {% when 'Sunday' %}Dimanche
+                  {% endcase %}
+                  {{ page.date | date: " %-d " }}
+                  {% assign B = page.date | date: "%-m" %}
+                  {% case B %}
+                    {% when '1' %}Janvier
+                    {% when '2' %}F&eacute;vrier
+                    {% when '3' %}Mars
+                    {% when '4' %}Avril
+                    {% when '5' %}Mai
+                    {% when '6' %}Juin
+                    {% when '7' %}Juillet
+                    {% when '8' %}Ao&ucirc;t
+                    {% when '9' %}Septembre
+                    {% when '10' %}Octobre
+                    {% when '11' %}Novembre
+                    {% when '12' %}D&eacute;cembre
+                  {% endcase %}
+                  {{ page.date | date: " %Y" }}
+                {% endcapture %}
+                &bull; <meta itemprop="uploadDate" content="{{ page.date | date: "%F %X" }}"/> <time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
+              </p>
+
+              {% if page.id-youtube %}
+                <img class="hide" itemprop="thumbnailUrl" src="http://img.youtube.com/vi/{{ page.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ page.title }}" width="219" height="106" />
+              {% endif %}
+              {% if page.id-vimeo %}
+                <img class="hide" itemprop="thumbnailUrl" src="" data-vimeo-id="{{ page.id-vimeo | remove: ' ' }}" class="large" alt="{{ page.title }}" width="219" height="106" />
+              {% endif %}
+
+            </div>
 	        </div>
 	      </div>
 	      <div class="large-4 columns show-for-large-up">
