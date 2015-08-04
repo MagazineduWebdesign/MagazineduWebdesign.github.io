@@ -11,7 +11,14 @@ layout: default
         <div class="row column-header-article mod-header-article-no-margin-top">
           <div class="small-6 small-centered medium-4 medium-uncentered large-4 columns ">
             <figure class="figure-img mod-article-couverture-livre">
-              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}">
+              <img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (default)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (small)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (mediumretina)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (large)],
+              [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ page.title }}" width="290" height="auto">
+              <noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ page.title }}" width="290" height="auto" /></noscript>
             </figure>
           </div>
           <div class="small-12 medium-8 large-8 columns small-text-center medium-text-left ">
@@ -24,7 +31,7 @@ layout: default
       {% else %}
         {% if page.logo %}
           <div class="small-12 medium-12 large-1 columns small-text-center">
-            <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}"alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
+            <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="logo {{ page.title }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]"></div>
           </div>
           <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
             <h1 itemprop="headline">{{ page.title }}</h1>

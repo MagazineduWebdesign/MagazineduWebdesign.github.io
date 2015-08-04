@@ -30,15 +30,21 @@ layout: default
 
 					<a href="{{ post.url | prepend: site.baseurl }}">
 	          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-	            
+
 	            <div class="row collapse">
 	              <div class="small-9 columns">
-	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title }}</h1> 
+	              	<h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ post.title }}</h1>
 	              </div>
 
 	              <div class="small-3 columns">
 	                {% if post.image %}
-	                <div class="carte-article-secondaire-thumbnail right" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"></div>
+	                <div class="carte-article-secondaire-thumbnail right" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (smallretina)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (medium)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (mediumretina)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (large)],
+									[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (largeretina)]" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"></div>
 	                {% endif %}
 	              </div>
 	            </div>

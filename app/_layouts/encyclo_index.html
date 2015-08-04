@@ -81,8 +81,14 @@ layout: default
 
                 <div class="small-3 columns">
                   {% if encyclo.image %}
-                  <img class="right" data-interchange="[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (retina)]" alt="{{ encyclo.image-legende }}" width="140" height="84" />
-                  <noscript><img class="right" src="{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ encyclo.image-legende }}" width="140" height="84" /></noscript>
+                  <img class="right" data-interchange="[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (smallretina)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (medium)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (mediumretina)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (large)],
+									[{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (largeretina)]" alt="{{ encyclo.image-legende }}" width="140" height="auto" />
+                  <noscript><img class="right" src="{{ encyclo.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ encyclo.image-legende }}" width="140" height="auto" /></noscript>
                   {% endif %}
                 </div>
               </div>
