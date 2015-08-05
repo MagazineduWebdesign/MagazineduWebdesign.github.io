@@ -30,7 +30,7 @@ Pensez à remercier au passage les Kids d'Icons8 pour leur travail acharné. Vou
 ##Cool
 * Télécharger :-),
 * Modifier,
-* Fork sur GitHub.
+* Réaliser un fork sur GitHub.
 
 ##Pas Cool
 * Tatouer une icône sur une personne ou un animal,
