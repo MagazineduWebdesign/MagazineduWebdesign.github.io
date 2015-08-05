@@ -1,6 +1,6 @@
 ---
 layout: "inspirer_index"
-title: "inspirations"
+title: "Inspirations"
 permalink: "/inspiration/"
 intro: "Collections d'interfaces & de parcours utilisateur d'apps mobile, web et d'objets plus ou moins connectés."
 header-liste-tag-title-1: "apple watch"
