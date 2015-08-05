@@ -17,7 +17,7 @@ layout: default
 		<!-- list filters
 		================================================== -->
 		<div class="row text-center large-text-left">
-		  <div class="medium-12 columns">
+		  <div class="medium-12 large-9 columns">
 
 		  	<!-- desktop list filters
 				================================================== -->
@@ -116,6 +116,19 @@ layout: default
 	          </div>
 	        </div>
 				</div>
+		  </div>
+			<div class="large-3 columns text-right show-for-large-up section-header">
+		  	<!-- Number of item by index -->
+				{% if page.category == 'ui-connected-car' %}
+					{% for post in site.categories.ui-connected-car %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% else %}
+					{% for post in site.tags[page.tags] %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% endif %}
+		    <span class="section-header-titre">{{ length }} inspirations UI</span>
 		  </div>
 		</div>
 	</div>
