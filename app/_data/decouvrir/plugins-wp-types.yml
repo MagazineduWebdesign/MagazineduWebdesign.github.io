@@ -11,11 +11,11 @@
   permalink: /decouvrir/plugins-wordpress/social-media/
 
 - name: CATEGORIES
-  currentnav: 
+  currentnav:
   permalink: /decouvrir/plugins-wordpress/categories/
 
 - name: EDITION
-  currentnav: 
+  currentnav:
   permalink: /decouvrir/plugins-wordpress/edition/
 
 - name: MAP / CARTE INTERACTIVE
@@ -29,4 +29,3 @@
 - name: COMMENTAIRES
   currentnav:
   permalink: /decouvrir/plugins-wordpress/commentaires
-

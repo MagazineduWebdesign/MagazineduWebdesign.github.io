@@ -1,17 +1,17 @@
+- name: FONTS
+  permalink: /decouvrir/fonts/
+
+- name: KITS UI
+  permalink: /decouvrir/kits-ui/
+
+- name: ICONES
+  permalink: /decouvrir/icones/
+
 - name: TH&Egrave;MES WORDPRESS
   permalink: /decouvrir/themes-wordpress/
 
 - name: PLUGINS WORDPRESS
   permalink: /decouvrir/plugins-wordpress/
-
-- name: ICONES
-  permalink: /decouvrir/icones/
-
-- name: KITS UI
-  permalink: /decouvrir/kits-ui/
-
-- name: FONTS
-  permalink: /decouvrir/fonts/
 
 - name: FICHIERS VECTORIS&Eacute;S
   permalink: /decouvrir/fichiers-vectorises/
