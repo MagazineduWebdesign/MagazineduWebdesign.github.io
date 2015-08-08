@@ -127,6 +127,7 @@ $facebook:#3B5998;
 $googleplus:#CC3732;
 $linkedin:#0077B5;
 $youtube:#E62117;
+$paypal:#003087;
 // color gradient (via the awesome tool http://uigradients.com/)
 .cherry{background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%);}
 .kashmir{background: linear-gradient(90deg, #614385 10%, #516395 90%);}
@@ -716,7 +717,12 @@ sup {
 		margin-top:rem-calc(16);
 	}
 }
-
+.button-paypal{
+	@include button ($radius:2px);
+  margin: rem-calc(0 0 12);
+  padding: rem-calc(12 12 10 12);
+  font-size: rem-calc(11);
+}
 // breadcrumb
 .breadcrumbs{margin-bottom:rem-calc(0)}
 
@@ -1377,7 +1383,7 @@ input.index-wide-newsletter-in-grid-submit{
 .job--notification-header a{display:block;line-height:rem-calc(48);background-color:$primary-color;color:$white}
 .job--notification-header a:hover{background-color: scale-color($primary-color, $lightness: -16%)}
 .job--valeurs-promesses {margin-bottom:rem-calc(24)}
-.job--valeurs-promesses h2{font-size:$h3-font-size;margin-bottom:0}
+.job--valeurs-promesses h2{font-size:$h3-font-size;margin-bottom:rem-calc(16)}
 .job--valeurs-promesses p{@include font-sans-serif-paragraphe; color:$aluminum}
 
 // offres d'emploi index

@@ -1,12 +1,10 @@
 ---
 layout: "page-1-column"
-title: "Centre d'aide &ndash; Chasseur de talents"
+title: "Trouvez les réponses à vos questions grâces au centre d'aide"
 description: "Trouvez les réponses à vos questions grâces au centre d'aide."
-intro: "Trouvez les réponses à vos questions grâces au centre d'aide."
+intro: "Le centre d'aide est en cours d'élaboration. Obtenez une réponse immédiate à toutes vos questions en écrivant à : "
 permalink: "/recruter/centre-aide/"
 ---
-
-<p class="text-center">Le centre d'aide est en cours d'élaboration. Obtenez une réponse immédiate à toutes vos questions en écrivant à : </p>
 <p class="text-center"><a href="mailto:talent@magazineduwebdesign.com">talent@magazineduwebdesign.com</a> &bull; <a href="https://twitter.com/MagDuWebdesign" title="Publier sur Twitter" target="_blank">@MagduWebdesign</a></p>
 
 <figure class="text-center">
