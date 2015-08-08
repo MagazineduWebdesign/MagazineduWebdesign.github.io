@@ -11,11 +11,11 @@ by: "WEBALYS"
 by-url: "http://www.webalys.com/"
 url-demo:
 url-version-gratuite: "http://www.streamlineicons.com/free-icons.html"
-url-telecharger: "https://www.dropbox.com/s/y5tltdskyusea3f/Web_development.zip?dl=0"
+url-telecharger:
 url-buy: "http://www.streamlineicons.com/index.html#download"
 pricecurrency : "$"
 price: "67"
-image: "set-icones-streamlineicons-1.jpg"
+image: "set-icones-streamlineicons-3.jpg"
 image-2: "set-icones-streamlineicons-2.jpg"
 image-3:
 image-4:
