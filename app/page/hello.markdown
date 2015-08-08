@@ -11,5 +11,5 @@ permalink: /hello/
 
 <figure class="text-center">
   <img class="rounded-img-d64 mod-avatar" src="{{ site.author.avatar | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Avatar" width="64" height="64">
-  <figcaption><a href="https://twitter.com/guillaumpalayer" title="Twitter @guillaumpalayer" target="_blank">@guillaumpalayer</a></figcaption>
+  <figcaption>Une belle journée <3, <a href="https://twitter.com/guillaumpalayer" title="Twitter @guillaumpalayer" target="_blank">@guillaumpalayer</a></figcaption>
 </figure>
