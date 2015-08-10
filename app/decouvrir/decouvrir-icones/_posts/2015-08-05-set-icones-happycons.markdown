@@ -20,7 +20,7 @@ image-2: "set-icones-gratuites-happycons-2.png"
 image-3:
 image-4:
 image-5:
-intro: "Un style unique pour ces 40 icônes gratuites au format AI, Sketch, PNG, SVG, EPS. Pour info, loffre est limitée dans le temps."
+intro: "Un style unique pour ces 40 icônes gratuites au format AI, Sketch, PNG, SVG, EPS. Pour info, l'offre est limitée dans le temps."
 description: "Un style unique pour ces 40 icônes gratuites au format AI, Sketch, PNG, SVG, EPS."
 rating: 7
 ---
