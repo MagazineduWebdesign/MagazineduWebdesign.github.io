@@ -10,8 +10,8 @@ tags:
 by: "Budi Tanrim"
 by-url: "https://dribbble.com/buditanrim"
 url-demo:
-url-version-gratuite:
-url-telecharger: "http://budicon.buditanrim.co/free"
+url-version-gratuite: "http://budicon.buditanrim.co/free"
+url-telecharger:
 url-buy: "http://budicon.buditanrim.co/preview"
 pricecurrency : "$"
 price: "39"
