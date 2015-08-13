@@ -1,14 +1,23 @@
 - name: FONTS
   permalink: /decouvrir/fonts/
 
-- name: KITS UI
-  permalink: /decouvrir/kits-ui/
-
 - name: ICONES
   permalink: /decouvrir/icones/
 
+- name: KITS UI
+  permalink: /decouvrir/kits-ui/
+
 - name: MOCKUPS
   permalink: /decouvrir/mockups/
+
+- name: THEMES DRUPAL
+  permalink: /decouvrir/themes-drupal/
+
+- name: THEMES JEKYLL
+  permalink: /decouvrir/themes-jekyll/
+
+- name: THEMES JOOMLA
+  permalink: /decouvrir/themes-joomla/
 
 - name: THEMES WORDPRESS
   permalink: /decouvrir/themes-wordpress/
