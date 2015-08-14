@@ -10,7 +10,7 @@
 
 - title: "Freeimage"
   href: "http://freeimage.sourceforge.net/"
-  desc: "Une librairie open source pour les développeurs souhaitant appliquer une multitude de traitements sur des images PNG, BMP, JPEG, TIFF, etc. Une alternatie sérieuse à GraphicsMagick et ImageMagick qui peine à traiter des volumes d'images importants (ex: 100K - 1M)"
+  desc: "Une librairie open source pour les développeurs souhaitant appliquer une multitude de traitements sur des images PNG, BMP, JPEG, TIFF, etc. Une alternatie sérieuse à GraphicsMagick et ImageMagick qui peinent à traiter des volumes d'images importants (ex: 100K - 1M)"
   image: "freeimage.jpg"
 
 - title: "TinyJPG"
