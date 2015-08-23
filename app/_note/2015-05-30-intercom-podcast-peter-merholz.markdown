@@ -7,4 +7,5 @@ image:
 id-youtube:
 id-soundcloud: 205353151
 video-legende:
+note-first: "true"
 ---

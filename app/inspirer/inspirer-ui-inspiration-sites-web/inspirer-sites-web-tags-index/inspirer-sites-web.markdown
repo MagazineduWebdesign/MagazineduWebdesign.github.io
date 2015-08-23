@@ -1,8 +1,9 @@
 ---
 layout: "inspirer-ui-sites-web_index"
-title: "La collection de sites Web"
+title: "Collection d'interfaces de sites Web"
 category: "ui-sites-web"
 permalink: "/inspiration/ui-design/sites-web/"
-intro: "Une vitrine de sites Web sélectionnés pour la qualité de leur design, la clarté de leurs contenus et leur simplicité d'utilisation."
-text-twtr: "En train d'explorer la collection de sites Web du @MagDuWebdesign."
+intro: "Liste de sites Web sélectionnés pour la qualité de l'expérience proposée, la clarté des contenus, la simplicité d'utilisation &amp; le design sympa. N'hésitez pas à partager vos découvertes et vos créations."
+description: "Explorez la liste des meilleurs designs d'interfaces de sites Web du Magazine du Webdesign."
+text-twtr: "En train d'explorer la collection de designs de sites Web du @MagDuWebdesign."
 ---

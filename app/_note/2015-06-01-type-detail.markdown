@@ -9,6 +9,7 @@ id-youtube:
 id-vimeo:
 id-soundcloud:
 video-legende:
+note-first: "true"
 ---
 
 La règle est d'annoter une police Web chaque jour, en soulignant les détails de la typographie trop souvent négligés.

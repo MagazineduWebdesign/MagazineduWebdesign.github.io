@@ -1,0 +1,10 @@
+---
+layout: "decouvrir-themes-drupal_index"
+title: "Collection de thèmes Drupal"
+category: "decouvrir-themes-drupal"
+permalink: "/decouvrir/themes-drupal/"
+intro: "Design sympa, fonctionnalités utiles & code propre sont les trois ingrédients de cette sélection de thèmes Drupal. En cours d'élaboration."
+description: "Explorez la liste des meilleurs thèmes et templates Drupal gratuits & premium"
+text-twtr: "Découvrez prochainement la collection de thèmes Drupal du @MagDuWebdesign"
+coming-soon: "true"
+---

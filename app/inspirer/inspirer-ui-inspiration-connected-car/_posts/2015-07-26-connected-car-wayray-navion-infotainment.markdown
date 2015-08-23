@@ -20,6 +20,6 @@ image-5:
 intro:
 description:
 reference-name: "WayRay Navion HUD"
-reference-title: "Sites officiel WayRay Navion"
+reference-title: "Site officiel WayRay Navion"
 reference-url: "https://wayray.com/navion"
 ---

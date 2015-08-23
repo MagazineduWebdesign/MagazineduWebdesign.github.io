@@ -1,17 +1,23 @@
 ---
-layout: apprendre-default
-title: Art books 1
-date: 2015-02-18 17:23:57
-path1: apprendre
-path2: livres
-path3: art-books
-category: livres
-tags: livres-art-books
-intro: Buildings have often been studies whole in space, but never before have they been studied whole in time.
-image: livre-work-rules-laszlo-bock.jpg
-price: €26,83
-url-buy: http://www.amazon.fr/How-Buildings-Learn-Happens-Theyre/dp/0140139966
-description: blablabla
+layout: "apprendre-default"
+title: "Art books 1"
+date: "2015-02-18 17:23:57"
+path1: "apprendre"
+path2: "livres"
+path3: "designer"
+category: "apprendre-livres"
+tags: "livres-designer"
+for-who: "designer"
+for-who-url: "/apprendre/livres/designer/"
+by: "Guillaume Palayer"
+by-url: "http://themify.me/"
+url-buy: "http://themeforest.net/item/colors-creative-portfolio-for-freelancers-agencies/11471702?ref=carcsn"
+pricecurrency: "€"
+price: "48"
+image: "livre-work-rules-laszlo-bock.jpg"
+intro: "Unique et coloré, Colors creative est un thème pour agence ou créatif en recherche d'un beau portfolio sans prise de tête. Il propose plusieurs options de mise en page et de design de composants afin de personnaliser la mise en scène de votre travail. Voyez par vous même avec les captures d'écrans ci-dessous et la démo."
+description: "Unique et coloré, Colors creative est un thème pour agence ou créatif en recherche d'un beau portfolio sans prise de tête."
+rating: "7"
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

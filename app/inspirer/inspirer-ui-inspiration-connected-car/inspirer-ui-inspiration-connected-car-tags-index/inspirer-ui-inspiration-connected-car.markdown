@@ -4,5 +4,6 @@ title: "Collection d'interfaces et de systèmes d'infotainment pour les voitures
 category: "ui-connected-car"
 permalink: "/inspiration/ui-design/connected-car/"
 intro: "Sélection des meilleurs designs permettant d'optimiser la conduite, de gérer le véhicule &amp; d'améliorer la sécurité tout en proposant une expérience au conducteur et aux passagers divertissante. N'hésitez pas à partager vos créations ou vos trouvailles."
+description: "Explorez la liste des meilleurs designs d'interfaces et de tableaux de bord automobiles du Magazine du Webdesign."
 text-twtr: "En train d'explorer la collection d'interfaces au sein des voitures connectées du @MagDuWebdesign"
 ---

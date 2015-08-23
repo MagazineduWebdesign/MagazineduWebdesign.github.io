@@ -17,45 +17,21 @@ layout: default
 		<!-- list filters
 		================================================== -->
 		<div class="row text-center large-text-left">
-		  <div class="medium-12 large-9 columns">
+		  <div class="small-12 columns">
 
 		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/apprendre/livres/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Nouveaux livres"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les livres par thèmes" data-reveal-id="livres-filtre-categories">THEMES</a>
-
-					<!-- desktop list filter modalbox
-	        ================================================== -->
-	        <div id="livres-filtre-categories" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
-	            <div class="small-12 columns text-center">
-	              <a class="close-reveal-modal">&#215;</a>
-	              <div class="row-liste-index">
-							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Filtrer les livres par thèmes</p>
-							      <hr>
-							    </div>
-							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.apprendre.livres-categories %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					          	{% endfor %}
-									 	</ul>
-					        </div>
-					      </div>
-	            </div>
-	          </div>
-	        </div>
-
+					<a class="tabs-item" href="/apprendre/livres/" title="Les nouveautés en livres"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
+					{% for item in site.data.apprendre.livres-categories %}
+						<a class="tabs-item" href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
+					{% endfor %}
 				</div>
 
 				<!-- mobile list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
-					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="livres-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
+					<a href="#" class="tabs-item" title="Filtrer les livres" data-reveal-id="livres-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
 
 					<!--  mobile list filters modalbox
 	        ================================================== -->
@@ -65,16 +41,17 @@ layout: default
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
-							      <p class="titre-modal-box">Vous cherchez un livre...</p>
+							      <p class="titre-modal-box">Filtrer par</p>
 							      <hr>
 							    </div>
 							  </div>
 	              <div class="row-liste-index note-partage">
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/apprendre/livres/" title="Nouveaux livres"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a></li>
+					        		<li role="menuitem"><a href="/apprendre/livres/" title="Les nouveautés en livres"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a></li>
+					        		<hr>
 					        		{% for item in site.data.apprendre.livres-categories %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
 					          	{% endfor %}
 					        	</ul>
 					        </div>
@@ -82,63 +59,29 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
-
 				</div>
-
-		  </div>
-		  <div class="large-3 columns text-right show-for-large-up section-header">
-		  	<!-- Number of item by index -->
-				{% if page.category == 'livres' %}
-					{% for post in site.categories.livres %}
-				    {% capture length %}{{ forloop.length }}{% endcapture %}
-				  {% endfor %}
-				{% else %}
-					{% for post in site.tags[page.tags] %}
-				    {% capture length %}{{ forloop.length }}{% endcapture %}
-				  {% endfor %}
-				{% endif %}
-		    <span class="section-header-titre">{{ length }} livres</span>
 		  </div>
 		</div>
-
-	</div>
-
-	<!-- list subheader
-	================================================== -->
-	<div class="row show-for-small-only">
-	  <div class="small-12 columns section-header">
-	    <!-- Number of item by index -->
-			{% if page.category == 'livres' %}
-				{% for post in site.categories.livres %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% else %}
-				{% for post in site.tags[page.tags] %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% endif %}
-	    <span class="section-header-titre">{{ length }} livres</span>
-	  </div>
 	</div>
 
 	<!-- list items
 	================================================== -->
 	<div class="row">
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-5 {% if page.category == 'livres' %}current-page{% endif %}">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-5">
 
 			<!-- Upload yours
 			================================================== -->
 			<li>
-        <article class="grid-article-card mod-add-new" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+        <article class="grid-article-card mod-add-new" data-equalizer-watch>
           <div class="row collapse hide-for-small grid-article-card-image mod-book-image mod-add-new">
-            <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="small-12 columns">
             </div>
           </div>
 
           <div class="row collapse">
-            <a class="typeform-share link grid-article-card-info mod-book mod-add-new small-12 columns"  href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
-            	<h1 class="grid-article-card-title mod-add-new" itemprop="headline"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
+            <a class="typeform-share link grid-article-card-info mod-book mod-add-new small-12 columns" href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
+            	<h1 class="grid-article-card-title mod-add-new"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
 		        </a>
 		        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
            </div>
@@ -147,16 +90,16 @@ layout: default
 
 			<!-- list all items
 			================================================== -->
-			{% if page.category == 'livres' %}
-				{% if site.categories.livres %}
-					{% for post in site.categories.livres limit: 6 %}
+			{% if page.category == 'apprendre-livres' %}
+				{% if site.categories.apprendre-livres %}
+					{% for post in site.categories.apprendre-livres %}
 					<li>
-	          <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	          <article class="grid-article-card" data-equalizer-watch>
 
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
 		            <div class="row collapse grid-article-card-image mod-book-image">
-	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	                <div class="small-12 columns">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
 											[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
@@ -172,7 +115,7 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info mod-book small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 44 }}</h1>
+		              	<h1 class="grid-article-card-title">{{ post.title | truncate: 44 }}</h1>
 		              </div>
 		            </div>
 
@@ -190,14 +133,14 @@ layout: default
 			================================================== -->
 			{% else %}
 				{% if site.tags[page.tags] %}
-					{% for post in site.tags[page.tags] limit: 6 %}
+					{% for post in site.tags[page.tags] %}
 					<li>
-	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	          <article class="grid-article-card" data-equalizer-watch>
 
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
 		            <div class="row collapse grid-article-card-image mod-book-image">
-	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	                <div class="small-12 columns">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
 											[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
@@ -213,7 +156,7 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info mod-book small-12 columns">
-		              	<h1 class="grid-article-card-title" itemprop="headline">{{ post.title | truncate: 44 }}</h1>
+		              	<h1 class="grid-article-card-title">{{ post.title | truncate: 44 }}</h1>
 		              </div>
 		            </div>
 
@@ -231,8 +174,6 @@ layout: default
 
 	  </div>
 	</div>
-
-	<div class="infinite-spinner"></div>
 
 </section>
 <!-- list all section's categories

@@ -7,8 +7,10 @@ path2: guides
 path3: ux-design
 category: guides
 tags: guides-ux-design
+by: "designdetails"
+by-url: "http://www.designdetails.fm/"
 intro: Rechercher, créer, implémenter et mesurer. L'agence DTelepathy expose sa philosophie basée sur des phases itératives de recherche, de stratégies et de design.
-github: 
+github:
 siteweb: http://www.dtelepathy.com/blog/philosophy/objective-based-design-creative-approach-to-solving-business-challenge
 description: Rechercher, créer, implémenter et mesurer. L'agence DTelepathy expose sa philosophie du travail basée sur des phases itératives de recherche, de stratégies et de design.
 ---

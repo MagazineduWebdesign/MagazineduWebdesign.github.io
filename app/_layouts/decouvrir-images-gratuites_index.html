@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<section>
+	{% include custom/sections/decouvrir-entries.html %}
+
+	<!-- list header
+	================================================== -->
+	<div class="header-liste">
+	  <header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+
+		{% if page.coming-soon == 'true' %}
+			{% include custom/sections/inscription-alerte-release-modal-box.html %}
+		{% else %}
+			<!-- list filters
+			================================================== -->
+			<div class="row text-center large-text-left">
+			  <div class="small-12 columns section-header">
+			  	<!-- Number of item by index -->
+					{% if page.category == 'decouvrir-images-gratuites' %}
+						{% for post in site.categories.decouvrir-images-gratuites %}
+					    {% capture length %}{{ forloop.length }}{% endcapture %}
+					  {% endfor %}
+					{% else %}
+						{% for post in site.tags[page.tags] %}
+					    {% capture length %}{{ forloop.length }}{% endcapture %}
+					  {% endfor %}
+					{% endif %}
+			    <span class="section-header-titre">{{ length }} stocks d'images gratuites</span>
+			  </div>
+			</div>
+		{% endif %}
+
+	</div>
+
+	{% if page.coming-soon == 'true' %}
+	{% else %}
+		<!-- list items
+		================================================== -->
+		<div class="row">
+		  <div class="small-12 columns">
+				<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
+
+				<!-- Upload yours
+				================================================== -->
+				<li>
+	        <article class="grid-article-card mod-add-new" data-equalizer-watch>
+	          <div class="row collapse hide-for-small grid-article-card-image mod-add-new">
+	            <div class="small-12 columns">
+	            </div>
+	          </div>
+
+	          <div class="row collapse">
+	            <a class="typeform-share link grid-article-card-info mod-add-new small-12 columns"  href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
+	            	<h1 class="grid-article-card-title mod-add-new"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
+			        </a>
+			        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+	           </div>
+	        </article>
+				</li>
+
+				<!-- list all items
+				================================================== -->
+				{% if page.category == 'decouvrir-images-gratuites' %}
+					{% if site.categories.decouvrir-images-gratuites %}
+						{% for post in site.categories.decouvrir-images-gratuites %}
+
+						<li>
+		          <article class="grid-article-card" data-equalizer-watch>
+
+		            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+
+			            <div class="row collapse grid-article-card-image">
+		                <div class="small-12 columns">
+											{% if post.image %}
+												<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
+												<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+											{% endif %}
+		                </div>
+			            </div>
+
+			            <div class="row collapse">
+			              <div class="grid-article-card-info small-12 columns">
+			              	<h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
+			              	{% if post.element-ui %}
+	                    	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
+	                  	{% endif %}
+			              </div>
+			            </div>
+
+				        </a>
+
+				        <div class="grid-article-card-ctrl">
+									{% if post.url-demo %}
+										<a class="grid-article-card-ctrl-preview" href="{{ post.url-demo }}" title="Aperçu – {{ post.title }}" target="_blank">
+	                    <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
+	                  </a>
+									{% endif %}
+				        </div>
+
+		          </article>
+						</li>
+
+						{% endfor %}
+						<li>{% include custom/cartes/carte_nl-in-thn-grid-index.html %}</li>
+					</ul>
+					{% else %}
+						<p>Il n'y a pas d'articles pour ce tag.</p>
+					{% endif %}
+
+				<!-- list items by tags
+				================================================== -->
+				{% else %}
+					{% if site.tags[page.tags] %}
+						{% for post in site.tags[page.tags] %}
+
+						<li>
+		          <article class="grid-article-card" data-equalizer-watch>
+
+		            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+
+			            <div class="row collapse grid-article-card-image">
+		                <div class="small-12 columns">
+											{% if post.image %}
+												<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
+												[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
+												<noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+											{% endif %}
+		                </div>
+			            </div>
+
+			            <div class="row collapse">
+			              <div class="grid-article-card-info small-12 columns">
+			              	<h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
+			              	{% if post.element-ui %}
+	                    	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
+	                  	{% endif %}
+			              </div>
+			            </div>
+
+				        </a>
+
+				        <div class="grid-article-card-ctrl">
+									{% if post.url-demo %}
+										<a class="grid-article-card-ctrl-preview" href="{{ post.url-demo }}" title="Aperçu – {{ post.title }}" target="_blank">
+	                    <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
+	                  </a>
+									{% endif %}
+				        </div>
+
+		          </article>
+						</li>
+
+						{% endfor %}
+						<li>{% include custom/cartes/carte_nl-in-thn-grid-index.html %}</li>
+					</ul>
+					{% else %}
+						<p>Il n'y a pas d'articles pour ce tag.</p>
+					{% endif %}
+
+				{% endif %}
+
+		  </div>
+		</div>
+	{% endif %}
+</section>
+
+<!-- list all section's categories
+================================================== -->
+{% include custom/cartes/carte_cross-navigation-decouvrir.html %}

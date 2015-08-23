@@ -7,7 +7,7 @@ layout: default
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
-          <div class="rounded-img-d64 is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
+          <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="name">{{ page.title }}</h1>
@@ -63,9 +63,36 @@ layout: default
 
           </div>
         </div>
-        <div class="small-12 medium-12 large-3 columns small-text-center large-text-left">
-          {% if page.github %}<a href="{{ page.github }}" class="button radius small secondary" target="_blank">Repo GitHub</a>{% endif %}
-          {% if page.siteweb %}<a href="{{ page.siteweb }}" class="button radius small primary" target="_blank">Site Web</a>{% endif %}
+        <div class="small-12 large-3 columns small-text-center large-text-left">
+          {% if page.github %}<  class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
+          {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
+          {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank">ECOUTER</a>{% endif %}
+          {% if page.url-buy %}
+            <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
+            </a>
+          {% endif %}
+          {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
+          {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
+
+          {% unless page.metadata == 'false' %}
+          <!-- metadata
+          ================================================== -->
+          <div class="article-meta-data">
+            <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata livres">
+
+              {% if page.for-who %}
+                <li class="article-meta-data-header-title">Pour qui ?</li>
+                <li role="menuitem"><a href="{{ page.for-who-url }}" title="{{ page.for-who }}">{{ page.for-who | upcase }}</a></li>
+              {% endif %}
+
+              {% if page.by %}
+              <li class="article-meta-data-header-title">Crédit</li>
+              <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+              {% endif %}
+            </ul>
+          </div>
+          {% endunless %}
         </div>
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
@@ -136,7 +163,6 @@ layout: default
           {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
         </div>
       </div>
-      {% endif %}
 
       <div class="row-body-article">
 
@@ -191,7 +217,7 @@ layout: default
         <!-- metadata
         ================================================== -->
         <div class="article-meta-data-right">
-          <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
+          <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata">
 
             {% if page.theme %}
             <li class="article-meta-data-header-title">Thème</li>
@@ -291,6 +317,7 @@ layout: default
 
       </div>
 
+      {% endif %}
     </header>
   </div>
 

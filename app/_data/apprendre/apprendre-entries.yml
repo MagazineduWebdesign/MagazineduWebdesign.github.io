@@ -1,31 +1,28 @@
-- name: LIVRES
-  currentnav:
-  permalink: /apprendre/livres/
-
+- name: CITATIONS
+  coming-soon: <sup>β</sup>
+  permalink: /apprendre/citations/
+  
 - name: EBOOKS
-  currentnav:
+  coming-soon: <sup>β</sup>
   permalink: /apprendre/ebooks/
 
-- name: PODCASTS
-  currentnav:
-  permalink: /apprendre/podcasts/
-
-- name: GUIDES
-  currentnav:
-  permalink: /apprendre/guides/
-
-- name: ETUDES
-  currentnav:
-  permalink: /apprendre/etudes/
-
-- name: STATISTIQUES
-  currentnav: 
-  permalink: /apprendre/statistiques/
-
 - name: ENCYCLO
-  currentnav:
+  coming-soon: <sup>β</sup>
   permalink: /apprendre/encyclo/
 
-- name: CITATIONS
-  currentnav:
-  permalink: /apprendre/citations/
+- name: ETUDES
+  coming-soon: <sup>β</sup>
+  permalink: /apprendre/etudes/
+
+- name: GUIDES
+  permalink: /apprendre/guides/
+
+- name: LIVRES
+  permalink: /apprendre/livres/
+
+- name: PODCASTS
+  permalink: /apprendre/podcasts/
+
+- name: STATISTIQUES
+  coming-soon: <sup>β</sup>
+  permalink: /apprendre/statistiques/

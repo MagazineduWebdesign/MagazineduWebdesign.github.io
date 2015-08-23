@@ -1,5 +1,6 @@
-- name: FONTS
-  permalink: /decouvrir/fonts/
+- name: ACCESSOIRES & FOURNITURES
+  permalink: /decouvrir/accessoires-fournitures/
+  coming-soon: <sup>β</sup>
 
 - name: ICONES
   permalink: /decouvrir/icones/
@@ -10,8 +11,17 @@
 - name: MOCKUPS
   permalink: /decouvrir/mockups/
 
+- name: OUTILS & SERVICES DESIGN & DEVOPS
+  permalink: /decouvrir/outils-services/
+  coming-soon: <sup>β</sup>
+
 - name: THEMES DRUPAL
   permalink: /decouvrir/themes-drupal/
+  coming-soon: <sup>β</sup>
+
+- name: THEMES GHOST
+  permalink: /decouvrir/themes-ghost/
+  coming-soon: <sup>β</sup>
 
 - name: THEMES JEKYLL
   permalink: /decouvrir/themes-jekyll/
@@ -21,33 +31,7 @@
 
 - name: THEMES WORDPRESS
   permalink: /decouvrir/themes-wordpress/
-
-- name: PLUGINS WORDPRESS
-  permalink: /decouvrir/plugins-wordpress/
-
-- name: FICHIERS VECTORIS&Eacute;S
-  permalink: /decouvrir/fichiers-vectorises/
-
-- name: PLUGINS JAVASCRIPT
-  permalink: /decouvrir/plugins-javascript/
-
-- name: TEMPLATES APP WEB
-  permalink: /decouvrir/templates-app-web/
-
-- name: TEMPLATES APP IOS
-  permalink: /decouvrir/templates-app-ios/
-
-- name: TEMPLATES APP ANDROID
-  permalink: /decouvrir/templates-app-android/
-
-- name: TEMPLATES EMAIL
-  permalink: /decouvrir/templates-email/
-
-- name: TEMPLATES WEARABLE UI
-  permalink: /decouvrir/templates-wearable-ui/
-
-- name: FRAMEWORKS FRONT END
-  permalink: /decouvrir/frameworks-front-end/
-
-- name: FONDS D'&Eacute;CRAN
-  permalink: /decouvrir/fonds-ecran/
+  
+- name: WEB FONTS
+  permalink: /decouvrir/web-fonts/
+  coming-soon: <sup>β</sup>

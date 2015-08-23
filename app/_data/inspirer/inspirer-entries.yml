@@ -1,35 +1,29 @@
-- name: UI DESIGN SITES WEB
-  currentnav:
-  permalink: /inspiration/ui-design/sites-web/
-
-- name: UI DESIGN APPLE WATCH
-  currentnav:
-  permalink: /inspiration/ui-design/apple-watch/
-
-- name: UI DESIGN ANDROID WEAR
-  currentnav:
-  permalink: /inspiration/ui-design/android-wear/
-
-- name: UI DESIGN ANDROID
-  currentnav:
-  permalink: /inspiration/ui-design/android/
-
-- name: UI DESIGN TV
-  currentnav:
-  permalink: /inspiration/ui-design/tv/
-
-- name: UI DESIGN CONNECTED CAR
-  currentnav:
-  permalink: /inspiration/ui-design/connected-car/
-
 - name: CODE & ART
-  currentnav:
   permalink: /inspiration/code-art/
 
+- name: UI DESIGN ANDROID WEAR
+  permalink: /inspiration/ui-design/android-wear/
+
+- name: UI DESIGN APPLE WATCH
+  permalink: /inspiration/ui-design/apple-watch/
+
+- name: UI DESIGN CONNECTED CAR
+  permalink: /inspiration/ui-design/connected-car/
+
+- name: UI DESIGN SITES WEB
+  permalink: /inspiration/ui-design/sites-web/
+
+- name: UI DESIGN TV
+  permalink: /inspiration/ui-design/tv/
+
+- name: UI MATERIAL DESIGN
+  permalink: /inspiration/ui-design/material-design/
+  coming-soon: <sup>β</sup>
+
 - name: USER FLOW iOS
-  currentnav:
   permalink: /inspiration/parcours-apps/ios/
+  coming-soon: <sup>β</sup>
 
 - name: USER FLOW ANDROID
-  currentnav:
   permalink: /inspiration/parcours-apps/android/
+  coming-soon: <sup>β</sup>

@@ -1,0 +1,8 @@
+- name: build test deploy
+  permalink: /decouvrir/outils-services/devops/build-test-deploy/
+
+- name: monitoring
+  permalink: /decouvrir/outils-services/devops/monitoring/
+
+- name: packages npm
+  permalink: /decouvrir/outils-services/devops/packages-npm/

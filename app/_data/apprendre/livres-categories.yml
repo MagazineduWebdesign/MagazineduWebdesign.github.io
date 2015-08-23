@@ -1,15 +1,14 @@
-- name: GUIDES UTILISABILITE
-  currentnav:
-  permalink: /apprendre/livre/utilisabilite/
+- name: ENTREPRENEUR
+  permalink: /apprendre/livres/entrepreneur/
 
-- name: GUIDES ATELIER DE DESIGN
-  currentnav:
-  permalink: /apprendre/guides/atelier-design/
+- name: DESIGNER
+  permalink: /apprendre/livres/designer/
 
-- name: GUIDES RECHERCHE UX
-  currentnav:
-  permalink: /apprendre/guides/recherche-ux/
+- name: DEVELOPPEUR
+  permalink: /apprendre/livres/developpeur/
 
-- name: GUIDES ANIMATION UI
-  currentnav:
-  permalink: /apprendre/guides/animation-ui/
+- name: PRODUCT MANAGER
+  permalink: /apprendre/livres/product-manager/
+
+- name: UX DESIGNER
+  permalink: /apprendre/livres/ux-designer/

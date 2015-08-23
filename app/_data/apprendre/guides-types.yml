@@ -1,15 +1,5 @@
-- name: GUIDES UTILISABILITE
-  currentnav:
-  permalink: /apprendre/guides/utilisabilite/
+- name: GUIDES PRODUCT MANAGEMENT
+  permalink: /apprendre/guides/product-management/
 
-- name: GUIDES ATELIER DE DESIGN
-  currentnav:
-  permalink: /apprendre/guides/atelier-design/
-
-- name: GUIDES RECHERCHE UX
-  currentnav:
-  permalink: /apprendre/guides/recherche-ux/
-
-- name: GUIDES ANIMATION UI
-  currentnav:
-  permalink: /apprendre/guides/animation-ui/
+- name: GUIDES UX DESIGN
+  permalink: /apprendre/guides/ux-design/

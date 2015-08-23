@@ -43,15 +43,15 @@ layout: default
 			<!-- Upload yours
 			================================================== -->
 			<li>
-        <article class="grid-article-card mod-add-new" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+        <article class="grid-article-card mod-add-new" data-equalizer-watch>
           <div class="row collapse hide-for-small grid-article-card-image mod-add-new">
-            <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="small-12 columns">
             </div>
           </div>
 
           <div class="row collapse">
-            <a class="typeform-share link grid-article-card-info mod-add-new small-12 columns"  href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
-            	<h1 class="grid-article-card-title mod-add-new" itemprop="headline"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
+            <a class="typeform-share link grid-article-card-info mod-add-new small-12 columns" href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
+            	<h1 class="grid-article-card-title mod-add-new"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Suggérer</h1>
 		        </a>
 		        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
            </div>
@@ -65,12 +65,12 @@ layout: default
 					{% for post in site.categories.decouvrir-kits-ui %}
 
 					<li>
-	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	          <article class="grid-article-card" data-equalizer-watch>
 
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
 		            <div class="row collapse grid-article-card-image">
-	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	                <div class="small-12 columns">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
 											[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
@@ -86,7 +86,7 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	<h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.element-ui %}
                     	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
                   	{% endif %}
@@ -120,12 +120,12 @@ layout: default
 					{% for post in site.tags[page.tags] %}
 
 					<li>
-	          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+	          <article class="grid-article-card" data-equalizer-watch>
 
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
 		            <div class="row collapse grid-article-card-image">
-	                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+	                <div class="small-12 columns">
 										{% if post.image %}
 											<img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
 											[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
@@ -141,7 +141,7 @@ layout: default
 
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
-		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+		              	<h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.element-ui %}
                     	<p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
                   	{% endif %}
