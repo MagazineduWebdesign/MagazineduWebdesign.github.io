@@ -20,7 +20,7 @@
 				        <div class="small-12 medium-6 medium-centered columns">
 				         	<ul class="side-nav" role="navigation" title="Link List">
 								  	{% for item in site.data.inspirer.inspirer-entries %}
-											<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}&#8239;{{ item.coming-soon }}</a></li>
+											<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</a></li>
 				          	{% endfor %}
 								 	</ul>
 				        </div>

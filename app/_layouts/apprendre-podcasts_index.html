@@ -22,7 +22,7 @@ layout: default
 		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/apprendre/podcasts/" class="tabs-item" title="Nouveaux podcasts"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
+					<a class="tabs-item" href="/apprendre/podcasts/" title="Nouveaux podcasts"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
 					<a class="tabs-item" href="/apprendre/podcasts/design/" title="Podcasts Design">DESIGNERS</a>
 					<a class="tabs-item" href="/apprendre/podcasts/developpement-web/" title="Podcasts Dev & Tech">DEVELOPPEURS</a>
 				</div>
@@ -102,7 +102,7 @@ layout: default
 
 			<!-- Upload yours
 			================================================== -->
-			<article itemscope="" itemtype="http://schema.org/Article">
+			<article>
         <div class="carte-article-secondaire mod-index-one-col-action row collapse">
           <div class="small-12 columns carte-article-secondaire-container-action">
           	<p class="carte-article-secondaire-action-texte text-center">
@@ -119,7 +119,7 @@ layout: default
 				{% if site.categories.podcasts %}
 					{% for post in site.categories.podcasts %}
 						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-		          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+		          <article class="carte-article-secondaire job--offre-item">
 
 		            <div class="row collapse">
 		              <div class="small-2 medium-1 columns">
@@ -128,7 +128,7 @@ layout: default
 		                {% endif %}
 		              </div>
 		              <div class="small-10 medium-11 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.by %}{{ post.by }}{% endif %}</span></h1>
+		              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.by %}{{ post.by }}{% endif %}</span></h1>
 		              </div>
 		            </div>
 
@@ -142,7 +142,7 @@ layout: default
 				{% if site.tags[page.tags] %}
 					{% for post in site.tags[page.tags] %}
 						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-		          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+		          <article class="carte-article-secondaire job--offre-item">
 
 		            <div class="row collapse">
 		              <div class="small-2 medium-1 columns">
@@ -151,7 +151,7 @@ layout: default
 		                {% endif %}
 		              </div>
 		              <div class="small-10 medium-11 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.by %}{{ post.by }}{% endif %}</span></h1>
+		              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.by %}{{ post.by }}{% endif %}</span></h1>
 		              </div>
 		            </div>
 

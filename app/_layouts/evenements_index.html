@@ -21,12 +21,12 @@ layout: default
 		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b hide-for-small-only">
-					<a href="/evenements/" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Prochains événements"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>PROCHAINEMENT</a>
-					<a href="" class="tabs-item {% if page.current_nav == '' %}is-active{% endif %}" title="Filtrer les événements par thèmes" data-reveal-id="evenements-filtre-themes">THEMES</a>
+					<a class="tabs-item" href="/evenements/" title="Prochains événements"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>PROCHAINEMENT</a>
+					<a class="tabs-item" href="" title="Filtrer les événements par thèmes" data-reveal-id="evenements-filtre-themes">THEMES</a>
 
 					<!-- desktop list filter modalbox
 	        ================================================== -->
-	        <div id="evenements-filtre-themes" class="reveal-modal" data-reveal>
+	        <div class="reveal-modal" id="evenements-filtre-themes" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
@@ -40,7 +40,7 @@ layout: default
 					        <div class="small-12 medium-6 medium-centered columns">
 					        	<ul class="side-nav" role="navigation" title="Link List">
 					        		{% for item in site.data.evenements-themes %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</a></li>
 					          	{% endfor %}
 					        	</ul>
 					        </div>
@@ -54,11 +54,11 @@ layout: default
 				<!-- mobile list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-small-only">
-					<a href="#" class="tabs-item" title="Filtrer par catégories" data-reveal-id="evenements-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
+					<a class="tabs-item" href="#" title="Filtrer par catégories" data-reveal-id="evenements-filtre-mobile"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zm-7-12v2h18v-2h-18zm3 7h12v-2h-12v2z" fill="#999999"/><path d="M0 0h24v24h-24z" fill="none"/></svg>FILTRER PAR..</a>
 
 					<!--  mobile list filters modalbox
 	        ================================================== -->
-	        <div id="evenements-filtre-mobile" class="reveal-modal" data-reveal>
+	        <div class="reveal-modal" id="evenements-filtre-mobile" data-reveal>
 	          <div class="row-liste-index">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
@@ -73,7 +73,7 @@ layout: default
 					        	<ul class="side-nav" role="navigation" title="Link List">
 						        	<li role="menuitem"><a href="/evenements/" title="Prochains événements"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>PROCHAINEMENT</a></li>
 					        		{% for item in site.data.evenements-themes %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</a></li>
 					          	{% endfor %}
 					        	</ul>
 					        </div>
@@ -81,36 +81,36 @@ layout: default
 	            </div>
 	          </div>
 	        </div>
-
 				</div>
+		  </div>
+		</div>
+	</div>
 
+	{% if page.coming-soon == 'true' %}
+	{% else %}
+		<!-- list subheader
+		================================================== -->
+		<div class="row-liste-index">
+		  <div class="small-12 columns section-header">
+		    <!-- Number of item by index -->
+				{% if page.category == 'evenements' %}
+					{% for post in site.categories.evenements %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% else %}
+					{% for post in site.tags[page.tags] %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
+				{% endif %}
+		    <span class="section-header-titre">{{ length }} événements</span>
 		  </div>
 		</div>
 
-	</div>
-	<!-- list subheader
-	================================================== -->
-	<div class="row-liste-index">
-	  <div class="small-12 columns section-header">
-	    <!-- Number of item by index -->
-			{% if page.category == 'evenements' %}
-				{% for post in site.categories.evenements %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% else %}
-				{% for post in site.tags[page.tags] %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% endif %}
-	    <span class="section-header-titre">{{ length }} événements</span>
-	  </div>
-	</div>
-	<!-- list items
-	================================================== -->
-	<div class="row-liste-index {% if page.category == 'evenements' %}current-page{% endif %}" {% if page.category == 'evenements' %} data-page="evenements"{% endif %}>
-		<main class="small-12 columns section-carte-index-panel">
-			<a href="">
-				<article itemscope="" itemtype="http://schema.org/Article">
+		<!-- list items
+		================================================== -->
+		<div class="row-liste-index">
+			<main class="small-12 columns section-carte-index-panel">
+				<article>
 			    <div class="carte-article-secondaire mod-index-one-col-action row collapse">
 			      <div class="small-12 columns carte-article-secondaire-container-action">
 			        	<p class="carte-article-secondaire-action-texte text-center">
@@ -120,40 +120,13 @@ layout: default
 			      </div>
 			    </div>
 			  </article>
-			</a>
-			<!-- list all items
-			================================================== -->
-			{% if page.category == 'evenements' %}
-				{% if site.categories.evenements %}
-					{% for post in site.categories.evenements limit: 6 %}
-						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-		          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-
-		            <div class="row collapse">
-		              <div class="small-2 medium-1 columns">
-		                {% if post.logo %}
-		                <div class="rounded-img-d40 left" alt="logo {{ post.title }}" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]"></div>
-		                {% endif %}
-		              </div>
-		              <div class="small-10 medium-11 columns">
-		              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
-		              </div>
-		            </div>
-
-		          </article>
-		        </a>
-					{% endfor %}
-				{% else %}
-					<p>Il n'y a pas d'item pour ce tag.</p>
-				{% endif %}
-
-				<!-- list items by tags
+				<!-- list all items
 				================================================== -->
-				{% else %}
-					{% if site.tags[page.tags] %}
-						{% for post in site.tags[page.tags] limit: 6 %}
-						<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-			          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+				{% if page.category == 'evenements' %}
+					{% if site.categories.evenements %}
+						{% for post in site.categories.evenements %}
+							<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+			          <article class="carte-article-secondaire job--offre-item">
 
 			            <div class="row collapse">
 			              <div class="small-2 medium-1 columns">
@@ -162,7 +135,33 @@ layout: default
 			                {% endif %}
 			              </div>
 			              <div class="small-10 medium-11 columns">
-			              	<h1 class="carte-article-secondaire-post-title mod-job-title" itemprop="headline"><span class="left job--entreprise">{{ post.title }}<span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
+			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
+			              </div>
+			            </div>
+
+			          </article>
+			        </a>
+						{% endfor %}
+					{% else %}
+						<p>Il n'y a pas d'item pour ce tag.</p>
+					{% endif %}
+
+				<!-- list items by tags
+				================================================== -->
+				{% else %}
+					{% if site.tags[page.tags] %}
+						{% for post in site.tags[page.tags] limit: 6 %}
+							<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+			          <article class="carte-article-secondaire job--offre-item">
+
+			            <div class="row collapse">
+			              <div class="small-2 medium-1 columns">
+			                {% if post.logo %}
+			                <div class="rounded-img-d40 left" alt="logo {{ post.title }}" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]"></div>
+			                {% endif %}
+			              </div>
+			              <div class="small-10 medium-11 columns">
+			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}<span class="job--description">{% if post.event-date %}{{ post.event-date }} &bull; {{ post.event-lieu }}{% endif %}</span></h1>
 			              </div>
 			            </div>
 
@@ -173,15 +172,12 @@ layout: default
 						<p>Il n'y a pas d'item pour ce tag.</p>
 					{% endif %}
 				{% endif %}
-
-		  </main>
+			</main>
 		</div>
 		{% include custom/cartes/cartenl.html %}
-  </div>
-
-	<div class="infinite-spinner"></div>
-
+	{% endif %}
 </section>
+
 <!-- list all sections
 ================================================== -->
 {% include custom/cartes/carte_cross-navigation-app_liste-index.html %}

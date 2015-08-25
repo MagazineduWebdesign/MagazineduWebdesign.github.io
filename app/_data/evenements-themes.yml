@@ -1,11 +1,8 @@
-- name: DESIGN
-  currentnav:
-  permalink: /evenements/design/
-  
-- name: DEV FRONT END
-  currentnav:
-  permalink: /evenements/front-end/
+- name: design interactif
+  permalink: /evenements/design-interactif/
 
-- name: UX DESIGN
-  currentnav:
+- name: developpement web & devops
+  permalink: /evenements/developpement-web-devops/
+
+- name: UX design
   permalink: /evenements/ux-design/

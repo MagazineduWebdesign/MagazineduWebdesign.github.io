@@ -1,10 +1,6 @@
 - name: CITATIONS
   coming-soon: <sup>β</sup>
   permalink: /apprendre/citations/
-  
-- name: EBOOKS
-  coming-soon: <sup>β</sup>
-  permalink: /apprendre/ebooks/
 
 - name: ENCYCLO
   coming-soon: <sup>β</sup>
@@ -23,6 +19,6 @@
 - name: PODCASTS
   permalink: /apprendre/podcasts/
 
-- name: STATISTIQUES
+- name: DATA
   coming-soon: <sup>β</sup>
-  permalink: /apprendre/statistiques/
+  permalink: /apprendre/data/

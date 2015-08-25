@@ -1,8 +1,9 @@
 ---
-layout: evenements_index
-title: Prochains événements en Web design
-category: evenements
-permalink: /evenements/
-intro: blabla
-text-twtr: En train d'explorer la sélection des prochains événements en Web design by @MagDuWebdesign
+layout: "evenements_index"
+title: "Prochains événements sur le design interactif & le développement Web"
+category: "evenements"
+permalink: "/evenements/"
+intro: "Collection d'événements en France et en Europe, abordant les problématiques et les thèmes les plus sensibles pour les designers et les développeurs Web. N'hésitez pas à suggérer des événements locaux ou nationaux si vous pensez qu'ils sont pertinents pour la communauté du MDW."
+description: "Collection d'événements en France et en Europe, abordant les problématiques et les thèmes les plus sensibles pour les designers et les développeurs Web."
+text-twtr: "En train d'explorer la collection d'événements de design & de DevOps du @MagDuWebdesign"
 ---
