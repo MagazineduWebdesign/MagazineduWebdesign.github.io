@@ -1,6 +1,6 @@
 ---
 layout: apprendre-default
-logo: "twitter-icon-app-ios.png"
+logo: "intercom.png"
 title: "Le design de produit selon Peter Merholz – Directeur design Jawbone"
 date: "2015-09-02 10:23:57"
 path1: "apprendre"
