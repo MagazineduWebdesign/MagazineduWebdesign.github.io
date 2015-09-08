@@ -1,6 +1,5 @@
 ---
-layout: apprendre-default
-logo: "intercom.png"
+layout: "apprendre-default"
 title: "Le design de produit selon Peter Merholz – Directeur design Jawbone"
 date: "2015-09-02 10:23:57"
 path1: "apprendre"
@@ -12,7 +11,8 @@ intro: "Le co-fondateur d'Intercom Des Traynor aborde l'évolution du rôle du d
 no-soundcloud:
 id-soundcloud: "205353151"
 by: "intercom"
-by-url: "https://intercom.io/"
+logo: "intercom.png"
+by-url: "https://blog.intercom.io/tag/podcast/"
 description: "Peter, co-fondateur de l'agence Adaptive Path et ancien VP Design de Groupon aborde avec le fondateur d'Intercom l'évolution du rôle du designer et de l'agence digitale."
 ---
 
