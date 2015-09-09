@@ -10,7 +10,7 @@ tags: "podcasts-design"
 intro: "Bryn Jackson & Brian Lovin explorent le destin de Robin & Roxane Clediere, un duo de product designers chez Facebook, fraîchement débarqués dans la Silicon Valley. Ils discutent du travail en couple, du recrutement par Facebook et de leur arrivée à San Francisco."
 no-soundcloud: "http://spec.fm/podcasts/design-details/16274"
 id-soundcloud:
-by: "design details"
+by: "Design Details"
 logo: "design-details-logo.jpeg"
 by-url: "http://spec.fm/podcasts/design-details/"
 description: "Explorez le destin de Robin & Roxane Clediere, un duo de product designers chez Facebook, fraîchement débarqués dans la Silicon Valley"
