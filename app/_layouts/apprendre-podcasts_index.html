@@ -99,26 +99,7 @@ layout: default
 				{% endif %}
 		    <span class="section-header-titre">{{ length }} podcasts</span>
 		  </div>
-		</div>
-
-	</div>
-
-	<!-- list subheader
-	================================================== -->
-	<div class="row-liste-index show-for-small-only">
-	  <div class="small-12 columns section-header">
-	    <!-- Number of item by index -->
-			{% if page.category == 'podcasts' %}
-				{% for post in site.categories.podcasts %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% else %}
-				{% for post in site.tags[page.tags] %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% endif %}
-	    <span class="section-header-titre">{{ length }} podcasts</span>
-	  </div>
+		</div> 
 	</div>
 
 	<!-- list items
