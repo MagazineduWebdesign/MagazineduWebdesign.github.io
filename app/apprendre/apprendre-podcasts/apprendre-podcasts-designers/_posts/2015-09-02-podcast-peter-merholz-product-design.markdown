@@ -10,7 +10,7 @@ tags: "podcasts-design"
 intro: "Le co-fondateur d'Intercom Des Traynor aborde l'évolution du rôle du designer et de l'agence digitale, en compagnie de Peter Merholz, directeur principal du design chez Jawbone, précédemment vice-président du Design chez Groupon et co-fondateur de l'agence de design Adaptive Path."
 no-soundcloud:
 id-soundcloud: "205353151"
-by: "intercom"
+by: "Intercom"
 logo: "intercom.png"
 by-url: "https://blog.intercom.io/tag/podcast/"
 description: "Peter, co-fondateur de l'agence Adaptive Path et ancien VP Design de Groupon aborde avec le fondateur d'Intercom l'évolution du rôle du designer et de l'agence digitale."
