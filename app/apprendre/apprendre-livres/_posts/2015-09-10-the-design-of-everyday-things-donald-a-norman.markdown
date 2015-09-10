@@ -15,7 +15,7 @@ url-buy: "http://www.amazon.fr/gp/product/0262525674/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "18"
 image: "the-design-of-everyday-things-donald-a-norman.jpg"
-intro: "Ce livre a ruiné ma vie. Je ne peux plus considérer un objet sans évaluer son utilisabilité ou son affordance. Même avec des objets aussi simples qu'un taille crayon, je pense constamment à la façon dont il peut être améliorer. Une excellente lecture pour toute personne ayant comme signature d'email DESIGNER."
+intro: "Ce livre a ruiné ma vie. Je ne peux plus considérer un objet sans évaluer son utilisabilité ou son affordance. Même avec des objets aussi simples qu'un taille crayon, je pense constamment à la façon dont il peut être améliorer. Une excellente lecture pour toute personne dont la signature d'email comporte le terme DESIGNER."
 description: "Ce livre a ruiné ma vie. Je ne peux plus considérer un objet sans évaluer son utilisabilité ou son affordance."
 rating: "8"
 ---
