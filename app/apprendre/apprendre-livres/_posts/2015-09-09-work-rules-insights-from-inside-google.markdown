@@ -1,6 +1,6 @@
 ---
 layout: "apprendre-default"
-title: "Work Rules! Insights from Inside Google"
+title: "Work rules! Insights from inside Google"
 date: "2015-009-09 17:23:57"
 path1: "apprendre"
 path2: "livres"
@@ -26,4 +26,4 @@ Néanmoins, son expérience et quelques rencontres d'une grande importance vont 
 
 Vous découvrirez notamment l'importance de suivre et de mesurer chaque action entreprise pour une amélioration constante des conditions de travail.
 
-Une lecture incontournable pour les entrepreneurs et les talents travaillant au sein de tous types d'entreprise : de la TPE à la multinationale.
+Une lecture incontournable pour les entrepreneurs et les talents travaillant au sein de tous types d'entreprises : de la TPE à la multinationale.
