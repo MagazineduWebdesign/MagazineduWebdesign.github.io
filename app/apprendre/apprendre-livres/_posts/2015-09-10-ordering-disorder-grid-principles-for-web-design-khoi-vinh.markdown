@@ -1,7 +1,7 @@
 ---
 layout: "apprendre-default"
 title: "Ordering disorder &ndash; grid principles for web design"
-date: "2015-009-10 17:23:57"
+date: "2015-09-10 17:23:57"
 path1: "apprendre"
 path2: "livres"
 path3: "designer"

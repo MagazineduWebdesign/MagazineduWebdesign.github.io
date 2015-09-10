@@ -1,7 +1,7 @@
 ---
 layout: "apprendre-default"
 title: "Work rules! Insights from inside Google"
-date: "2015-009-09 17:23:57"
+date: "2015-09-09 17:23:57"
 path1: "apprendre"
 path2: "livres"
 path3: "entrepreneur"

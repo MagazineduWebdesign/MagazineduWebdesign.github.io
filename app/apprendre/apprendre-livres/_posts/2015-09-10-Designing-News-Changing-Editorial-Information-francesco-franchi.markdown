@@ -1,7 +1,7 @@
 ---
 layout: "apprendre-default"
 title: "Designing news"
-date: "2015-009-10 17:23:57"
+date: "2015-09-10 17:23:57"
 path1: "apprendre"
 path2: "livres"
 path3: "designer"
