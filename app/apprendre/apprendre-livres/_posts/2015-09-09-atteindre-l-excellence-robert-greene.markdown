@@ -24,8 +24,8 @@ Le dernier bouquin de Robert Greene tente de donner un sens au mythe des plus im
 
 *Atteindre l'excellence* est une succession de biographies retraçant le destin de grands noms historiques et contemporains &ndash; Benjamin Franklin, Albert Einstein, Leonard de Vinci, Cesar Rodriguez, etc.
 
-Il tente de découvrir les ingrédients qui ont permis à quelques-uns de devenir des maîtres absolus dans leur domaine.
+Greene tente de découvrir les ingrédients qui ont permis à quelques-uns de devenir des maîtres absolus dans leur domaine.
 
 Brisant de nombreux mythes, Greene démontre que nous sommes tous capables d'atteindre l'excellence.
 
-Ce livre a changé radicalement ma vision sur mon travail, mes passions et la gestion de mon temps. Ma meilleure lecture de 2015.
+Ce livre a changé radicalement ma vision sur mon travail, mes passions et la gestion de mon temps. Un de mes livres favoris de 2015 et déjà dans ma "re-read" list.
