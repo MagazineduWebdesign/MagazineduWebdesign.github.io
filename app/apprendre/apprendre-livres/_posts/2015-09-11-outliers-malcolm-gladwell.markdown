@@ -15,9 +15,9 @@ url-buy: "http://www.amazon.fr/gp/product/0316056286/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "6"
 image: "outliers-malcolm-gladwell.jpg"
-intro: "Récit du succès"
+intro: "Récit du succès."
 description: "Récit du succès"
 rating: "8"
 ---
 
-Avec Outliers, Malcolm Gladwell explore la recette des personnes semblant avoir réussies dans la vie. Est-ce du à leur du labeur, à la chance, à leurs prédispositions naturelles ? Existe-il un modèle de réussite ? Un bouquin que l'on peut classer dans la catégorie des grands classiques au même rang que [*Atteindre l'excellence*](http://magazineduwebdesign.com/atteindre-l-excellence-robert-greene/) de Robert Greene.
+Avec Outliers, Malcolm Gladwell explore la recette des personnes semblant avoir réussies dans la vie. Est-ce du à leur dur labeur, à la chance, à leurs prédispositions naturelles ? Existe-il un modèle de réussite ? Un bouquin que l'on peut classer dans la catégorie des grands classiques au même rang que [*Atteindre l'excellence*](http://magazineduwebdesign.com/atteindre-l-excellence-robert-greene/) de Robert Greene.

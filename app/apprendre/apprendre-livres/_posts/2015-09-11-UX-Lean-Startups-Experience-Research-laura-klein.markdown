@@ -1,6 +1,6 @@
 ---
 layout: "apprendre-default"
-title: "How to Win Friends and Influence People"
+title: "UX for lean startups"
 date: "2015-09-11 17:23:57"
 path1: "apprendre"
 path2: "livres"
