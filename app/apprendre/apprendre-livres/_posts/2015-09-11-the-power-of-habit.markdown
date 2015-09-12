@@ -15,8 +15,8 @@ url-buy: "http://www.amazon.fr/gp/product/1847946240/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "12"
 image: "the-power-of-habit.jpg"
-intro: "Pourquoi avons-nous tant d'habitudes dans la vie et les affaires ?"
-description: "Pourquoi avons-nous toutes ces habitudes dans la vie et les affaires ?"
+intro: "Les habitudes contrôlent nos vies. En avoir conscience et comprendre leurs mécanismes est un moyen unique pour en tirer le maximum d'avantages."
+description: "Les habitudes contrôlent nos vies. En avoir conscience et comprendre leurs mécanismes est un moyen unique pour en tirer le maximum d'avantages"
 rating: "8.5"
 ---
 
