@@ -910,6 +910,9 @@ figcaption{
 	[class*="block-grid-"].mod-grid-cross-nav > li{
   width: rem-calc(227);
 	}
+	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index-book > li{
+  width: rem-calc(177);
+	}
 }
 //form
 .required.email{
