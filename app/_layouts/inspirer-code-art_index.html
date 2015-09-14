@@ -31,25 +31,6 @@ layout: default
 		    <span class="section-header-titre">{{ length }} projets</span>
 		  </div>
 		</div>
-
-	</div>
-
-	<!-- list subheader
-	================================================== -->
-	<div class="row show-for-small-only">
-	  <div class="small-12 columns section-header">
-	    <!-- Number of item by index -->
-			{% if page.category == 'code-art' %}
-				{% for post in site.categories.code-art %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% else %}
-				{% for post in site.tags[page.tags] %}
-			    {% capture length %}{{ forloop.length }}{% endcapture %}
-			  {% endfor %}
-			{% endif %}
-	    <span class="section-header-titre">{{ length }} projets</span>
-	  </div>
 	</div>
 
 	<!-- list items
