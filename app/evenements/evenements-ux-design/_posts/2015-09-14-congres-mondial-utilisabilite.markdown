@@ -8,7 +8,7 @@ path3:
 category: "evenements"
 tags: "evenements-ux-design"
 intro: "Conférences et lectures les plus intéressantes de l'année concernant l'utilisabilité, l'UX design et le management de l'expérience client."
-logo: "worldusabilitycongress.jpg"
+logo: "worldusabilitycongress.jpeg"
 event-date-begining: "07"
 event-date-ending: "08 oct. 2015"
 event-lieu: "Graz"
