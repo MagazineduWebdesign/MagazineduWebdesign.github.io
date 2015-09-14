@@ -124,7 +124,7 @@ layout: default
 				================================================== -->
 				{% if page.category == 'evenements' %}
 					{% if site.categories.evenements %}
-						{% assign sorted_post = (site.categories.evenements | sort: 'event-date-begining') %}
+						{% assign sorted_post = (site.categories.evenements | sort: 'event-start-date-iso') %}
 						{% for post in sorted_post %}
 							<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 			          <article class="carte-article-secondaire job--offre-item">
@@ -136,7 +136,7 @@ layout: default
 			                {% endif %}
 			              </div>
 			              <div class="small-10 medium-11 columns">
-			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.event-date-ending %}Du {% endif %}{{ post.event-date-begining }}{% if post.event-date-ending %} au {% endif %}{% if post.event-date-ending %}{{ post.event-date-ending }}{% endif %} &bull; {{ post.event-lieu }}</span></h1>
+			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}</span><span class="job--description">{% if post.event-ending-date %}Du {% endif %}{{ post.event-start-date }}{% if post.event-ending-date %} au {% endif %}{% if post.event-ending-date %}{{ post.event-ending-date }}{% endif %} &bull; {{ post.event-location }}</span></h1>
 			              </div>
 			            </div>
 
@@ -151,7 +151,7 @@ layout: default
 				================================================== -->
 				{% else %}
 					{% if site.tags[page.tags] %}
-						{% assign sorted_post = (site.tags[page.tags] | sort: 'event-date-begining') %}
+						{% assign sorted_post = (site.tags[page.tags] | sort: 'event-start-date-iso') %}
 						{% for post in sorted_post %}
 							<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 			          <article class="carte-article-secondaire job--offre-item">
@@ -163,7 +163,7 @@ layout: default
 			                {% endif %}
 			              </div>
 			              <div class="small-10 medium-11 columns">
-			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}<span class="job--description">{% if post.event-date-ending %}Du {% endif %}{{ post.event-date-begining }}{% if post.event-date-ending %} au {% endif %}{% if post.event-date-ending %}{{ post.event-date-ending }}{% endif %} &bull; {{ post.event-lieu }}</span></h1>
+			              	<h1 class="carte-article-secondaire-post-title mod-job-title"><span class="left job--entreprise">{{ post.title }}<span class="job--description">{% if post.event-ending-date %}Du {% endif %}{{ post.event-start-date }}{% if post.event-ending-date %} au {% endif %}{% if post.event-ending-date %}{{ post.event-ending-date }}{% endif %} &bull; {{ post.event-location }}</span></h1>
 			              </div>
 			            </div>
 
