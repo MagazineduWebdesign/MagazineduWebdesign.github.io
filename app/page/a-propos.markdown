@@ -9,7 +9,7 @@ permalink: "/a-propos/"
 <h2 class="text-center">Pourquoi tout ça ?</h2>
 En explorant quotidiennement les blogs, les tweets et les newsletters de la communauté, j'ai considérablement enrichi mes connaissances en design et en développement. Je souhaitais trouver une solution pour partager ce que j'ai appris d'une manière organisée et accessible au plus grand nombre.
 
-C'est ainsi que le [Magazine du Webdesign](http://magazineduwebdesign.com) est né : un lieu d'échange où les curieux peuvent découvrir chaque jour des nouveautés et où les passionnés peuvent acquérir une audience pour partager leurs créations.
+C'est ainsi que le [Magazine du Webdesign](http://magazineduwebdesign.com) est né : un lieu d'échange où les curieux peuvent découvrir chaque jour des nouveautés et où les passionnés peuvent acquérir l'audience qu'ils méritent pour partager leurs créations.
 
 J'espère que cela vous inspirera et vous poussera à partager votre talent.
 
