@@ -1,0 +1,18 @@
+---
+layout: "evenement"
+title: "Paris Web"
+date: "2015-09-14 17:23:57"
+path1: "evenements"
+path2: "developpement-web"
+path3:
+category: "evenements"
+tags: "evenements-developpement-web"
+intro: "Une série de conférences et d'ateliers de 3 jours dédiés principalement aux langages, aux outils & aux services pour développeurs. Certaines conférences sont plus centrées design et méthodologies. Pour résumé, un événement pour les gens qui font les internets avec une dimension technique."
+logo: "paris-web.jpg"
+event-date-begining: "01"
+event-date-ending: "03 oct. 2015"
+event-lieu: "Paris"
+siteweb: "https://www.paris-web.fr/"
+image:
+description: "Evénement de 3 jours dédié principalement aux langages, outils & services pour développeurs. Certaines conférences sont plus centrées design et méthodologies"
+---

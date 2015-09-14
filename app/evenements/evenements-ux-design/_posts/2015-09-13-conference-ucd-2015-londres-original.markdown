@@ -7,7 +7,7 @@ path2: "ux-design"
 path3:
 category: "evenements"
 tags: "evenements-ux-design"
-intro: "Conférences et ateliers de travail concernant la place de l'humanin dans le paysage numérique. Un condensé d'UX, d'EX (emotional experience) et de design."
+intro: "Conférences et ateliers de travail concernant la place de l'humain dans le paysage numérique. Un condensé d'UX, d'EX (emotional experience) et de design."
 logo: "ucd-uk.png"
 event-date-begining: "23"
 event-date-ending: "24 oct. 2015"
