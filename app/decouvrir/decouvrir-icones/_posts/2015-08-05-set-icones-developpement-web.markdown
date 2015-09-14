@@ -20,7 +20,7 @@ image-2:
 image-3:
 image-4:
 image-5:
-intro: "L'ensemble se compose de 100 icônes s'inspirant de la thématique du développement web. Vaste programme me direz vous. On en convient tous. Néanmoins, toutes les icônes sont disponibles gratuitement et en plusieurs formats: .PNG, .EPS, .SVG & .PDF."
+intro: "L'ensemble se compose de 100 icônes s'inspirant de la thématique du développement web. Vaste programme me direz vous. On en convient tous. Néanmoins, toutes les icônes sont disponibles gratuitement et en plusieurs formats : .PNG, .EPS, .SVG & .PDF."
 description: "Un style unique pour ces 40 icônes gratuites au format AI, Sketch, PNG, SVG, EPS."
 rating: 8
 ---

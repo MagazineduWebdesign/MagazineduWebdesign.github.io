@@ -20,7 +20,7 @@ image-2:
 image-3:
 image-4:
 image-5:
-intro: "850 icônes couvrant 19 thématiques du quotidien au format PSD, AI, EPS, PNG &amp; SVG. 5 tailles d'icônes sont proposées avec 2 modèles de graisse: style de ligne normal (dim. 16px, 32px et 64px) - Style de ligne fin (dim. 25px et 50px). Vous pouvez télécharger un échantillon gratuitement sur le site."
+intro: "850 icônes couvrant 19 thématiques du quotidien au format PSD, AI, EPS, PNG &amp; SVG. 5 tailles d'icônes sont proposées avec 2 modèles de graisse : style de ligne normal (dim. 16px, 32px et 64px) - Style de ligne fin (dim. 25px et 50px). Vous pouvez télécharger un échantillon gratuitement sur le site."
 description: "850 icônes couvrant 19 thématiques du quotidien au format PSD, AI, EPS, PNG &amp; SVG."
 rating: "8"
 ---
