@@ -1,0 +1,20 @@
+---
+layout: "evenement"
+title: "Conférence Dot Go"
+date: "2015-09-14 17:23:57"
+path1: "evenements"
+path2: "developpement-web"
+path3:
+category: "evenements"
+tags: "evenements-developpement-web"
+intro: "L'événement européen de référence pour les Gophers."
+logo: "dot-go-conference.png"
+event-start-date-iso: "2015-11-09"
+event-start-date: "09 nov. 2015"
+event-location: "Paris"
+siteweb: "http://www.dotgo.eu/"
+image:
+description: "L'événement européen de référence pour les Gophers"
+---
+
+Un condensé de retours d'expériences par les créateurs des projets Go les plus populaires, les membres de la team Go et tous ceux partageant une attirance de plus en plus grande pour ce langage open sourcé par Google.
