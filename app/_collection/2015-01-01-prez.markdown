@@ -1,8 +1,0 @@
----
-title: Make Beautiful Presentations
-desc: I hate video games. Here are my favorites from this past year. by Kyle Russell – Writer at TechCrunch
-titre_fichier_data: collection_banane
-date: 2015-01-01 00:00:00
-image: connected-car-android-auto-1.png
-bgimgheader: true
----
