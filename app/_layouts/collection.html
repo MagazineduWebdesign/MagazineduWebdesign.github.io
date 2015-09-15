@@ -3,7 +3,7 @@ layout: default
 ---
 {% include custom/sections/article_header.html %}
 <section>
-{% if page.bgimgheader == true %}
+{% if page.bgimgheader == 'true' %}
   <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
   [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
   [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
@@ -18,14 +18,14 @@ layout: default
       <header class="row-liste-index">
         <div class="small-12 columns">
           <h1 class="headline-collection text-center">{{ page.title }}</h1>
-          <p class="header-liste-content mod-bg-img text-center">{{ page.desc }}</p>
+          <p class="header-liste-content mod-bg-img text-center">{{ page.intro-header }}</p>
         </div>
       </header>
     </div>
   </div>
 </section>
 
-{% if page.bgimgheader == true %}
+{% if page.bgimgheader == 'true' %}
 </div>
 {% endif %}
 <div class="row-liste-index">
@@ -46,12 +46,12 @@ layout: default
       {% for item in site.data.collections.[page.titre_fichier_data] %}
 
         <a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
-          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="carte-article-secondaire">
 
             <div class="row collapse">
               <div class="small-9 columns">
-                <h1 class="carte-article-secondaire-post-title" itemprop="headline">{{ item.title }}</h1>
-                <p>{{ item.desc }}</p>
+                <h1 class="carte-article-secondaire-post-title">{{ item.title }}</h1>
+                {% if item.desc %}<p>{{ item.desc }}</p>{% endif %}
               </div>
 
               <div class="small-3 columns">

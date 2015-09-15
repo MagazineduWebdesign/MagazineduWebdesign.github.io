@@ -26,10 +26,10 @@ layout: default
 
       {% if site.collections.collection %}
         {% assign collections = site.collection | reverse %}
-        {% for collection in collections limit: 2 %}
+        {% for collection in collections %}
 
           <a href="{{ collection.url | prepend: site.baseurl }}" title="{{ collection.title }}">
-            <article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)],
+            <article class="collection-index-article js-postcount" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
@@ -38,8 +38,8 @@ layout: default
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
               <div class="shadow-img">
                 <div class="collection-index-article-content">
-                  <h1 class="collection-index-article-content-title text-center" itemprop="headline">{{ collection.title }}</h1>
-                  <p class="text-center">{{ collection.desc | truncate: 80 }}</p>
+                  <h1 class="collection-index-article-content-title text-center">{{ collection.title }}</h1>
+                  <p class="text-center">{{ collection.intro-header | truncate: 80 }}</p>
                 </div>
               </div>
             </article>
