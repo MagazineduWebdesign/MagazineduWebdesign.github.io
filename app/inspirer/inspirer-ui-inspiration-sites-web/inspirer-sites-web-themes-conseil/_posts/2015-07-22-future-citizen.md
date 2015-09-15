@@ -10,7 +10,6 @@ tags:
 - sites-web-themes-conseil
 - sites-web-formats-landing-pages
 - sites-web-animation-background
-- sites-web-formats-landing-pages
 - sites-web-technologies-webgl
 - sites-web-technologies-threejs
 theme: "conseil"
