@@ -14,6 +14,9 @@ layout: default
 			{% include custom/sections/index-header-intro.html %}
 		</header>
 
+		{% if page.coming-soon == 'true' %}
+			{% include custom/sections/inscription-alerte-release-modal-box.html %}
+		{% else %}
 		<!-- list filters
 		================================================== -->
 		<div class="row text-center">
@@ -90,6 +93,8 @@ layout: default
 
 	</div>
 
+	{% if page.coming-soon == 'true' %}
+	{% else %}
 	<!-- list items
 	================================================== -->
 	<div class="{% if page.category == 'citations' %}current-page{% endif %}" {% if page.category == 'citations' %}data-page="citations"{% endif %}>
@@ -162,9 +167,7 @@ layout: default
 		{% endif %}
 
   </div>
-
-	<div class="infinite-spinner"></div>
-
+	{% endif %}
 </section>
 
 <!-- list all section's categories
