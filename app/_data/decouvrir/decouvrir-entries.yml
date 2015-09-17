@@ -14,6 +14,10 @@
 - name: OUTILS & SERVICES DESIGN & DEVOPS
   permalink: /decouvrir/outils-services/
   coming-soon: <sup>β</sup>
+  permalink: /decouvrir/mockups/
+
+- name: STOCKS DE PHOTOS LIBRES DE DROITS
+  permalink: /decouvrir/collection-stocks-photo-image-gratuite-libre-de-droits/
 
 - name: THEMES DRUPAL
   permalink: /decouvrir/themes-drupal/
@@ -31,7 +35,7 @@
 
 - name: THEMES WORDPRESS
   permalink: /decouvrir/themes-wordpress/
-  
+
 - name: WEB FONTS
   permalink: /decouvrir/web-fonts/
   coming-soon: <sup>β</sup>

@@ -1,10 +1,10 @@
 ---
 layout: "decouvrir-images-gratuites_index"
-title: "Collection de stocks d'images gratuites"
+title: "Collection de stocks d'images & de photos libres de droits"
 category: "decouvrir-images-gratuites"
-permalink: "/decouvrir/images-gratuites/"
-intro: "Sélection des meilleures sources d'images libres de droits. Bientôt disponible."
-description: "Sélection des meilleures sources d'images libres de droits"
-text-twtr: "En train d'explorer la collection de stocks d'images gratuites du @MagDuWebdesign"
-coming-soon: "true"
+permalink: "/decouvrir/collection-stocks-photo-image-gratuite-libre-de-droits/"
+intro: "Sélection de superbes photos pour donner vie à vos créations. Chacun des stocks d'images permet de dénicher la bonne photo gratuite, libre de droits ou nécessitant une mention crédit pour un usage commercial ou personnel. Actualisée chaque jour. N'hésitez pas à partager vos découvertes et vos créations."
+description: "Collection de superbes photos pour donner vie à vos créations. Chacun des stocks d'images permet de dénicher la bonne photo gratuite, libre de droits"
+text-twtr: "En train d'explorer la collection de stocks d'images & de photos libres de droits du @MagDuWebdesign"
+coming-soon: "false"
 ---
