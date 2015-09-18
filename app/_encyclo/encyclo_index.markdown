@@ -1,8 +1,9 @@
 ---
-layout: encyclo_index
-title: Encyclo
-permalink: /apprendre/encyclo/
-bgimgheader: true
-intro: Adding sketching to the design process is a great way to amplify software and hardware tools. Sketching provides a unique space that can help you think differently, generate a variety of ideas quickly, explore alternatives with less risk, and encourage constructive discussions with colleagues and clients.
-text-twtr: blbabblgrg
+layout: "encyclo_index"
+title: "Encyclo"
+permalink: "/apprendre/encyclo/"
+intro: "Un glossaire destiné aux novices des théories, des outils &amp; des modèles de pensées relatifs à la terminologie du design et du développement Web. Chaque définition est une introduction du terme, accompagnée de liens vers des contenus écris par des designers & des développeurs talentueux. Bientôt disponible. Inspiré par UX compagnion."
+description: "Un glossaire destiné aux novices des théories, des outils &amp; des modèles de pensées relatifs à la terminologie du design et du développement Web"
+text-twtr: "En train d'explorer le glossaire du @MagDuWebdesign"
+coming-soon: "true"
 ---
