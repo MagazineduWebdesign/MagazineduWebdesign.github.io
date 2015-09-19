@@ -1,29 +1,33 @@
-- name: CODE & ART
-  permalink: /inspiration/code-art/
+- name: "CODE & ART"
+  permalink: "/inspiration/code-art/"
 
-- name: UI DESIGN ANDROID WEAR
-  permalink: /inspiration/ui-design/android-wear/
+- name: "UI DESIGN ANDROID WEAR"
+  permalink: "/inspiration/ui-design/android-wear/"
 
-- name: UI DESIGN APPLE WATCH
-  permalink: /inspiration/ui-design/apple-watch/
+- name: "UI DESIGN APPLE WATCH"
+  permalink: "/inspiration/ui-design/apple-watch/"
 
-- name: UI DESIGN CONNECTED CAR
-  permalink: /inspiration/ui-design/connected-car/
+- name: "UI DESIGN CONNECTED CAR"
+  permalink: "/inspiration/ui-design/connected-car/"
 
-- name: UI DESIGN SITES WEB
-  permalink: /inspiration/ui-design/sites-web/
+- name: "UI DESIGN SITES WEB"
+  permalink: "/inspiration/ui-design/sites-web/"
 
-- name: UI DESIGN TV
-  permalink: /inspiration/ui-design/tv/
+- name: "UI DESIGN TV"
+  permalink: "/inspiration/ui-design/tv/"
 
-- name: UI MATERIAL DESIGN
-  permalink: /inspiration/ui-design/material-design/
-  coming-soon: <sup>β</sup>
+- name: "UI MATERIAL DESIGN"
+  permalink: "/inspiration/ui-design/material-design/"
+  coming-soon: "<sup>β</sup>"
 
-- name: USER FLOW iOS
-  permalink: /inspiration/parcours-apps/ios/
-  coming-soon: <sup>β</sup>
+- name: "USER FLOW iOS"
+  permalink: "/inspiration/parcours-apps/ios/"
+  coming-soon: "<sup>β</sup>"
 
-- name: USER FLOW ANDROID
-  permalink: /inspiration/parcours-apps/android/
-  coming-soon: <sup>β</sup>
+- name: "USER FLOW ANDROID"
+  permalink: "/inspiration/parcours-apps/android/"
+  coming-soon: "<sup>β</sup>"
+
+- name: "WEB VR – REALITE VIRTUELLE"
+  permalink: "/inspiration/web-vr-realite-virtuelle/"
+  coming-soon: <"sup>β</sup>"
