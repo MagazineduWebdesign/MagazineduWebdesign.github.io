@@ -9,7 +9,7 @@ category: "themes-jekyll"
 tags:
 by: "inc"
 by-url: "https://sendtoinc.com/"
-url-demo: "blog.sendtoinc.com"
+url-demo: "http://blog.sendtoinc.com/"
 url-version-gratuite:
 url-github: "https://github.com/kippt/jekyll-incorporated/"
 url-buy:
