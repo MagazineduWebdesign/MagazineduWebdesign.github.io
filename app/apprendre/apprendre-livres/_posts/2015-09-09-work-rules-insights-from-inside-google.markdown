@@ -15,7 +15,7 @@ url-buy: "http://www.amazon.fr/gp/product/1444792369/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "15"
 image: "work-rules-laszlo-bock.jpg"
-intro: "Comment Google attire et retient les meilleurs talents de la planète ? Pourquoi payer de manière injuste ses collaborateurs ? Un must read pour ne plus faire de la GRH made in 80's."
+intro: "Comment Google attire et retient les meilleurs talents de la planète ? Pourquoi payer de manière inégale ses collaborateurs ? Un must read pour ne plus faire de la GRH made in 80's."
 description: "Comment Google attire et retient les meilleurs talents de la planète ? Un must read pour ne plus faire de la GRH made in 80's."
 rating: "7"
 ---
