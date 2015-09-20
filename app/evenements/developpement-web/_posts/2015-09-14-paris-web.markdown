@@ -3,7 +3,7 @@ layout: "evenement"
 title: "Paris Web"
 date: "2015-09-14 17:23:57"
 path1: "evenements"
-path2: "developpement-web"
+path2: "developpement-web-devops"
 path3:
 category: "evenements"
 tags: "evenements-developpement-web"
