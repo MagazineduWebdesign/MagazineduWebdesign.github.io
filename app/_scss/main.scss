@@ -570,6 +570,11 @@ sup {
 			@include transition($target: color);
 		}
 	}
+	a:visited {
+    .carte-article-secondaire-post-title, .grid-article-card-title{
+  		color: $aluminum;
+  	}
+  }
 	.carte-article-secondaire-thumbnail{
 		@include header-bgimg;
 		position: relative;
