@@ -12,6 +12,6 @@
 
 - name: APPRENDRE
   permalink: /apprendre/
-  
-- name: JOBS
-  permalink: /emploi/
+
+- name: "JOBS"
+  permalink: "/emploi/"

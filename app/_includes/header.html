@@ -40,7 +40,7 @@
           <ul class="dropdown">
             <li><label>EXPLOREZ</label></li>
             {% for item in site.data.navigation.navigation-header %}
-              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+              <li {% if item.name == 'JOBS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
             {% for item in site.data.navigation.navigation-header-more-left %}
               <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
@@ -52,11 +52,11 @@
         source ==> http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
         ================================================== -->
         {% for item in site.data.navigation.navigation-header %}
-          <li class="hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+          <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
         {% endfor %}
         <!-- mobile Left Nav Section - navigation-header-more-left -->
         {% for item in site.data.navigation.navigation-header-more-left %}
-          <li class="show-for-small-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+          <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} show-for-small-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
         {% endfor %}
         <!-- Desktop Left Nav Section - navigation-header-more-left -->
         <li class="show-for-large-up has-dropdown">

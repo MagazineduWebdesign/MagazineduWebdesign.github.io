@@ -958,6 +958,17 @@ figcaption{
 	padding:rem-calc(0 16);
 	line-height:rem-calc(48)!important
 }
+.top-bar-section ul li{
+  position: relative;
+}
+.top-bar-section-alerte-dotted:before {
+  content: "•";
+  font-size: rem-calc(24);
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  color: $primary-color;
+}
 @media #{$small-only} {
 	.top-bar {
 		height:rem-calc(56);
