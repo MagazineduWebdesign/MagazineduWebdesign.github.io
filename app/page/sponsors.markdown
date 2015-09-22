@@ -10,7 +10,7 @@ permalink: "/sponsors/"
 
 <div class="row">
   <div class="small-12 columns">
-    <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
+    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3 mod-grid-cross-nav" data-equalizer>
 
       <!-- Contact
       ================================================== -->
@@ -56,11 +56,11 @@ permalink: "/sponsors/"
 
 La mission du Magazine du Webdesign est d'aider les membres de la communauté à cultiver leurs talents en leur proposant les contenus les plus appropriés.
 
-Les designers et les développeurs du MDW sont très engagés avec les outils, les services et les ressources qui leur permettent d'améliorer leur productivité et d'étendre leurs connaissances. 
+Les designers et les développeurs du MDW sont très engagés avec les outils, les services et les ressources qui leur permettent d'améliorer leur productivité et d'étendre leurs connaissances.
 
 Si vous pensez qu'un de vos produits peut rendre le quotidien de la communauté plus facile, n'hésitez pas à prendre contact. Le MDW réunit 10 000+ utilisateurs par mois... et on grandit très vite !
 
-Proposer chaque jour le meilleur des interfaces serait une aventure difficile sans le soutient de ces sponsors. Un grand merci pour votre confiance et votre soutine.
+Proposer chaque jour le meilleur des interfaces serait une aventure difficile sans le soutient de ces sponsors. Un grand merci pour votre confiance.
 
 <figure class="text-center">
   <img class="rounded-img-d64 mod-avatar" src="{{ site.author.avatar | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Avatar" width="64" height="64">
