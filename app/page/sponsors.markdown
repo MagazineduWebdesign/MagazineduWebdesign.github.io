@@ -26,7 +26,7 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://www.wix.com/" title="wix.com">
+          <a class="grid-article-card-link-wrap" href="http://www.wix.com/" title="wix.com" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-wix.png" alt="icône app wix" width="64" height="64">
@@ -39,7 +39,7 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://fr.123rf.com/" title="123rf.com">
+          <a class="grid-article-card-link-wrap" href="http://fr.123rf.com/" title="123rf.com" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-123-rf.png" alt="icône app 123RF" width="64" height="64">
