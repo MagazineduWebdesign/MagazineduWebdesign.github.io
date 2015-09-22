@@ -1,0 +1,12 @@
+- name: "OFFRES D'EMPLOI"
+  permalink: "/emploi/"
+
+- name: "RECRUTER"
+  permalink: "/recruter/"
+
+- name: "DATA SALAIRE"
+  coming-soon: "<sup>β</sup>"
+  permalink: "/salaire-design-developpement-web/"
+
+- name: "CONSEILS CANDIDATS"
+  permalink: "/candidater/"

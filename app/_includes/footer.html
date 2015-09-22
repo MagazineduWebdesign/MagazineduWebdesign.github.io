@@ -1,8 +1,8 @@
 <footer>
   <div class="row">
-    <div class="small-12 medium-9 medium-centered columns">
+    <div class="small-12 medium-11 medium-centered columns">
       <p class="text-center">C'est la fin ! ¯\_(⊙︿⊙)_/¯</p>
-      <ul class="inline-list show-for-large-only">
+      <ul class="inline-list-app-footer text-center">
         {% for item in site.data.navigation.navigation-footer %}
           <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | Capitalize }}</a></li>
         {% endfor %}

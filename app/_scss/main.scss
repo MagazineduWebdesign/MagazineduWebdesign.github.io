@@ -829,6 +829,7 @@ background-position: center}
 .figure-img{margin: 0}
 .figure-img.mod-inspiration-article-gallery{margin: 0 0 rem-calc(24)}
 .figure-img.mod-article-couverture-livre{margin: 0 0 rem-calc(24)}
+.figure-img.mod-article-couverture-livre > img {border-radius: $global-radius;}
 .figure-img.mod-note-img{margin: 0 rem-calc(-48) 0}
 	@media #{$medium-up} {
 		.figure-img.mod-note-img figcaption{
@@ -1545,6 +1546,14 @@ footer a{
 footer a:hover{
 	color: $jet;
 }
+.inline-list-app-footer {
+  @include inline-list;
+}
+  .inline-list-app-footer > li{
+      display: inline-block!important;
+      float: none!important;
+      vertical-align: middle;
+  }
 
 // 00. 404 ERROR
 // - - - - - - - - - - - - - - - - - - - - - - - - -

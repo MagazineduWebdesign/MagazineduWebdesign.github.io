@@ -4,6 +4,9 @@
 - name: "Hello"
   permalink: "hello"
 
+- name: "Sponsors"
+  permalink: "sponsors"
+
 - name: "Feedback"
   permalink: "feedback"
 
