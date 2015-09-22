@@ -7,7 +7,7 @@ path2: "podcasts"
 path3: "developpement-web"
 category: "podcasts"
 tags: "podcasts-developpement-web"
-intro: "Brad Koch, co-fondateur et CTO de FarmLogs, nous raconte le chemin parcouru par son application tentant de révolutionner la plus vieille industrie qu'est connue l'homme &ndash; bien entendu, il s'agit de l'agriculture. "
+intro: "Brad Koch, co-fondateur et CTO de FarmLogs, nous raconte le chemin parcouru par son application tentant de révolutionner la plus vieille industrie que l'homme ait connue &ndash; bien entendu, il s'agit de l'agriculture."
 no-soundcloud:
 id-soundcloud: "192073322"
 by: "StackShare"
