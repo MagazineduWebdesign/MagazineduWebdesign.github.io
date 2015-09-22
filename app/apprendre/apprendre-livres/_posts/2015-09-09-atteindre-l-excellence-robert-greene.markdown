@@ -28,4 +28,4 @@ Greene tente de découvrir les ingrédients qui ont permis à quelques-uns de de
 
 Brisant de nombreux mythes, Greene démontre que nous sommes tous capables d'atteindre l'excellence.
 
-Ce livre a changé radicalement ma vision sur mon travail, mes passions et la gestion de mon temps. Un de mes livres favoris de 2015 et déjà dans ma "re-read" list.
+Ce livre a changé radicalement ma vision concernant mon travail, mes passions et la gestion de mon temps. Un de mes livres favoris de 2015 et déjà dans ma "re-read list".
