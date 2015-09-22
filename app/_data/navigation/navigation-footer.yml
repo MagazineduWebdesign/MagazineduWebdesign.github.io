@@ -7,11 +7,15 @@
 - name: "Feedback"
   permalink: "feedback"
 
-- name: "facebook"
-  permalink: "http://facebook.com"
+- name: "Twitter"
+  permalink: "http://twitter.com/@MagDuWebdesign"
   external-link: "true"
 
-- name: "github"
+- name: "Facebook"
+  permalink: "https://www.facebook.com/MagazineDuWebdesign/"
+  external-link: "true"
+
+- name: "GitHub"
   permalink: "https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io"
   external-link: "true"
 
@@ -19,5 +23,6 @@
   permalink: "https://medium.com/@magduwebdesign"
   external-link: "true"
 
-- name: "RSS"
-  permalink: "feed.xml"
+- name: "StackShare"
+  permalink: "http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign"
+  external-link: "true"

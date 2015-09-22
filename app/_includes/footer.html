@@ -1,8 +1,14 @@
 <footer>
   <div class="row">
-    <div class="small-12 medium-12 large-12 columns">
+    <div class="small-8 small-centered columns">
       <p class="text-center">C'est la fin ! ¯\_(⊙︿⊙)_/¯</p>
-      <p class="text-center"><a href="http://magazineduwebdesign.com" title="Magazine du Webdesign – Le meilleur des interfaces, chaque jour">magazineduwebdesign.com</a> – &#9787; + <a href="http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign" title="stackshare.io" target="_blank">Tech stack</a> + <a href="https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io" title="Hebergé sur GitHub" target="_blank">GitHub</a></p>
+      <ul class="inline-list text-center">
+        <li></li>
+        {% for item in site.data.navigation.navigation-footer %}
+          <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | Capitalize }}</a></li>
+        {% endfor %}
+      </ul>
+      <p class="text-center small">© 2015 <a href="http://magazineduwebdesign.com" title="Magazine du Webdesign – Le meilleur des interfaces, chaque jour">Magazine du Webdesign</a> – Tous droits réservés</p>
     </div>
   </div>
 </footer>

@@ -1,8 +1,8 @@
 ---
 layout: brief-emails_index
-title: Le Brief – le meilleur des interfaces, chaque jour par email.
-description: Devenez excellent dans ce que vous faîtes.
-intro: Devenez excellent dans ce que vous faites. Ne manquez rien des derniers conseils, outils, inspirations &amp; ressources pour les designers et développeurs.
-text-twtr : Le Brief – Le meilleur des interfaces, livré par email presque chaque jour.
-permalink: /le-brief-du-magazine-du-webdesign/
+title: "Un Web plus beau &amp; plus rapide commence avec la newsletter du MDW"
+permalink: "/le-brief-du-magazine-du-webdesign/"
+intro: "Devenez excellent dans ce que vous faites en vous inscrivant au Brief – le meilleur des interfaces, chaque semaine par email. Ne manquez rien des derniers conseils, outils, inspirations &amp; ressources exclusives créés par des designers et des développeurs talentueux."
+description: "Devenez excellent dans ce que vous faite en vous inscrivant au Brief – le meilleur des interfaces, chaque jour par email"
+text-twtr : "Un Web plus beau &amp; plus rapide commence avec la newsletter du @MagDuWebdesign"
 ---

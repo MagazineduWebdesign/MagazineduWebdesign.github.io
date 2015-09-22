@@ -43,7 +43,7 @@
               <li {% if item.name == 'JOBS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
             {% endfor %}
             {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+              <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -63,7 +63,7 @@
           <a href="#">PLUS <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+              <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -79,7 +79,8 @@
           <div class="row-liste-index text-center">
             <div class="small-12 columns">
               <a class="close-reveal-modal">&#215;</a>
-              <p class="text-center titre-modal-box">Accédez au <strong>meilleur des interfaces</strong> directement depuis votre boîte mail</p>
+              <p class="text-center titre-modal-box">Un <strong>Web plus beau &amp; plus rapide</strong> commence avec la newsletter du MDW</p>
+              <p class="text-center">Devenez excellent dans ce que vous faites en vous inscrivant au Brief – le meilleur des interfaces, chaque semaine par email. Ne manquez rien des derniers conseils, outils, inspirations & ressources exclusives créés par des designers et des développeurs talentueux.</p>
               <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
 
                 <div id="mc_embed_signup_scroll">
@@ -117,7 +118,7 @@
           <a href="#"><span class="hide-for-medium-up">LE MAGAZINE..</span><svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more %}
-            <li class=""><a href="{{ site.baseurl }}/{{ item.permalink }}">{{ item.name | upcase }}</a></li>
+            <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | upcase }}</a></li>
             {% endfor %}
           </ul>
         </li>

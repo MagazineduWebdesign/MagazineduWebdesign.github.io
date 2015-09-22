@@ -24,16 +24,16 @@ layout: default
             {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
-            {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
-            {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
-            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank">ECOUTER</a>{% endif %}
+            {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+            {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
             {% if page.url-buy %}
-              <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                 <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
               </a>
             {% endif %}
-            {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
-            {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
+            {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+            {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
 
             {% unless page.metadata == 'false' %}
             <!-- metadata
@@ -48,7 +48,7 @@ layout: default
 
                 {% if page.by %}
                 <li class="article-meta-data-header-title">Auteur</li>
-                <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+                <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                 {% endif %}
               </ul>
             </div>
@@ -102,7 +102,7 @@ layout: default
                   </span>
                 {% endif %}
                 {% if page.auteur %}
-                  <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
+                  <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                 {% endif %}
               </p>
               {% if page.intro %}
@@ -120,16 +120,16 @@ layout: default
             {% endif %}
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
-            {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
-            {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
-            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank">ECOUTER</a>{% endif %}
+            {% if page.github %}<a class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+            {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+            {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
             {% if page.url-buy %}
-              <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                 <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
               </a>
             {% endif %}
-            {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
-            {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
+            {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+            {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
 
             {% unless page.metadata == 'false' %}
             <!-- metadata
@@ -144,7 +144,7 @@ layout: default
 
                 {% if page.by %}
                 <li class="article-meta-data-header-title">Auteur</li>
-                <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+                <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                 {% endif %}
               </ul>
             </div>
@@ -194,7 +194,7 @@ layout: default
                     </span>
                   {% endif %}
                   {% if page.auteur %}
-                    <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
+                    <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                   {% endif %}
                 </p>
                 {% if page.intro %}
@@ -212,16 +212,16 @@ layout: default
               {% endif %}
             </div>
             <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
-              {% if page.github %}<  class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank">REPO GITHUB</a>{% endif %}
-              {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank">SITE WEB</a>{% endif %}
-              {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank">ECOUTER</a>{% endif %}
+              {% if page.github %}<  class="button radius small secondary" href="{{ page.github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+              {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+              {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
               {% if page.url-buy %}
-                <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}"  target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                   <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
                 </a>
               {% endif %}
-              {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank">VERSION GRATUITE</a>{% endif %}
-              {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank">TELECHARGER</a>{% endif %}
+              {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+              {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
 
               {% unless page.metadata == 'false' %}
               <!-- metadata
@@ -236,7 +236,7 @@ layout: default
 
                   {% if page.by %}
                   <li class="article-meta-data-header-title">Auteur</li>
-                  <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank">{{ page.by | upcase }}</a></li>
+                  <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                   {% endif %}
                 </ul>
               </div>
