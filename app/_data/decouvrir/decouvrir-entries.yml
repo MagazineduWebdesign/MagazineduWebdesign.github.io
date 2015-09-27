@@ -37,6 +37,14 @@
 - name: THEMES JOOMLA
   permalink: /decouvrir/themes-joomla/
 
+- name: THEMES SHOPIFY
+  permalink: /decouvrir/themes-shopify/
+  coming-soon: <sup>β</sup>
+
+- name: THEMES TUMBLR
+  permalink: /decouvrir/themes-tumblr/
+  coming-soon: <sup>β</sup>
+
 - name: THEMES WORDPRESS
   permalink: /decouvrir/themes-wordpress/
 

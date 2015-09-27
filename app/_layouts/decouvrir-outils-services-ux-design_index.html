@@ -25,8 +25,8 @@ layout: default
 		  	<!-- desktop list filters
 				================================================== -->
 		  	<div class="tabs u-no-margin-b show-for-large">
-					<a class="tabs-item" href="/decouvrir/outils-services/design/" title="Outils récemment ajoutés à la collection"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
-					{% for item in site.data.decouvrir.outils-services-design %}
+					<a class="tabs-item" href="/decouvrir/outils-services/ux-design/" title="Outils récemment ajoutés à la collection"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a>
+					{% for item in site.data.decouvrir.outils-services-ux-design %}
 						<a class="tabs-item" href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
 					{% endfor %}
 				</div>
@@ -39,7 +39,7 @@ layout: default
 					<!--  mobile list filters modalbox
 	        ================================================== -->
 	        <div id="outils-filtre-mobile" class="reveal-modal" data-reveal>
-	          <div class="row">
+						<div class="row">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
@@ -52,7 +52,7 @@ layout: default
 										<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
 											<li role="menuitem">
 												<div class="grid-article-card" data-equalizer-watch>
-													<a class="grid-article-card-link-wrap" href="/decouvrir/outils-services/design/" title="Outils récemment ajoutés à la collection">
+													<a class="grid-article-card-link-wrap" href="/decouvrir/outils-services/ux-design/" title="Outils récemment ajoutés à la collection">
 														<div class="row collapse">
 															<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
 																<span class="grid-article-card-title mod-action"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</span>
@@ -61,7 +61,7 @@ layout: default
 													</a>
 												</div>
 											</li>
-											{% for item in site.data.decouvrir.outils-services-design %}
+											{% for item in site.data.decouvrir.outils-services-ux-design %}
 												<li role="menuitem">
 													<div class="grid-article-card" data-equalizer-watch>
 														<a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
@@ -110,9 +110,9 @@ layout: default
 
 				<!-- list all items
 				================================================== -->
-				{% if page.category == 'decouvrir-outils-services-design' %}
-					{% if site.categories.decouvrir-outils-services-design %}
-						{% for post in site.categories.decouvrir-outils-services-design %}
+				{% if page.category == 'decouvrir-outils-services-ux-design' %}
+					{% if site.categories.decouvrir-outils-services-ux-design %}
+						{% for post in site.categories.decouvrir-outils-services-ux-design %}
 						<li>
 		          <article class="grid-article-card mod-app-icon" data-equalizer-watch>
 		            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">

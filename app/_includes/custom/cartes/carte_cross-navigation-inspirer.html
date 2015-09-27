@@ -12,19 +12,19 @@
 
 	<div class="row">
 	  <div class="small-12 columns">
-	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
+	    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
 
 	    {% for item in site.data.inspirer.inspirer-entries %}
         <li role="menuitem">
-          <article class="grid-article-card" data-equalizer-watch>
+          <div class="grid-article-card" data-equalizer-watch>
             <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
               <div class="row collapse">
                 <div class="grid-article-card-info mod-action small-12 columns">
-                  <h2 class="grid-article-card-title mod-action">{{ item.name }}&#8239;{{ item.coming-soon }}</h2>
+                  <span class="grid-article-card-title mod-action">{{ item.name }}&#8239;{{ item.coming-soon }}</span>
                 </div>
               </div>
             </a>
-          </article>
+          </div>
         </li>
     	{% endfor %}
 

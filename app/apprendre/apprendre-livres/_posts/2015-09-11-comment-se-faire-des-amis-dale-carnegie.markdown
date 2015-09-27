@@ -15,7 +15,7 @@ url-buy: "http://www.amazon.fr/gp/product/2253009105/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "5"
 image: "comment-se-faire-des-amis.jpg"
-intro: "Ignorez le titre ringard ou le fait qu'il soit vendu sous la rubrique développement personnel. Achetez et lisez ce best seller vendu à plus de 15 millions d'exemplaire :-)."
+intro: "Ignorez le titre ringard ou le fait qu'il soit vendu sous la rubrique développement personnel. Achetez et lisez ce best seller vendu à plus de 40 millions d'exemplaire :-)."
 description: "Ignorez le titre ringard ou le fait qu'il soit vendu sous la rubrique développement personnel. Achetez-le et lisez-le :-)"
 rating: "8"
 ---

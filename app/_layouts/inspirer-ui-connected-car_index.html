@@ -29,24 +29,35 @@ layout: default
 					<a href="" class="tabs-item" title="Filtrer par plate-formes d'infotainment" data-reveal-id="connected-car-filtre-plate-formes">PLATE-FORMES</a>
 					<!-- desktop list filter plate-formes modalbox -->
 	        <div id="connected-car-filtre-plate-formes" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
+	          <div class="row">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
 							      <p class="titre-modal-box">Filtrer par plate-formes d'infotainment</p>
-							      <hr>
 							    </div>
 							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.ui-connected-car-plateformes %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
-					          	{% endfor %}
-									 	</ul>
-					        </div>
-					      </div>
+								<div class="row">
+									<div class="small-12 columns">
+										<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
+
+										{% for item in site.data.inspirer.ui-connected-car-plateformes %}
+											<li role="menuitem">
+												<div class="grid-article-card" data-equalizer-watch>
+													<a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+														<div class="row collapse">
+															<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+																<span class="grid-article-card-title mod-action">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</span>
+															</div>
+														</div>
+													</a>
+												</div>
+											</li>
+										{% endfor %}
+
+										</ul>
+									</div>
+								</div>
 	            </div>
 	          </div>
 	        </div>
@@ -56,24 +67,35 @@ layout: default
 					<a href="" class="tabs-item" title="Filtrer par constructeurs automobiles" data-reveal-id="connected-car-filtre-constructeurs">CONSTRUCTEURS</a>
 					<!-- desktop list filter constructeurs modalbox -->
 	        <div id="connected-car-filtre-constructeurs" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
+	          <div class="row">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
 							      <p class="titre-modal-box">Filtrer par constructeurs automobiles</p>
-							      <hr>
 							    </div>
 							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					         	<ul class="side-nav" role="navigation" title="Link List">
-									  	{% for item in site.data.inspirer.ui-connected-car-constructeurs %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
-					          	{% endfor %}
-									 	</ul>
-					        </div>
-					      </div>
+								<div class="row">
+									<div class="small-12 columns">
+										<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
+
+										{% for item in site.data.inspirer.ui-connected-car-constructeurs %}
+											<li role="menuitem">
+												<div class="grid-article-card" data-equalizer-watch>
+													<a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+														<div class="row collapse">
+															<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+																<span class="grid-article-card-title mod-action">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</span>
+															</div>
+														</div>
+													</a>
+												</div>
+											</li>
+										{% endfor %}
+
+										</ul>
+									</div>
+								</div>
 	            </div>
 	          </div>
 	        </div>
@@ -88,30 +110,60 @@ layout: default
 					<!--  mobile list filters modalbox
 	        ================================================== -->
 	        <div id="connected-car-filtre-mobile" class="reveal-modal" data-reveal>
-	          <div class="row-liste-index">
+	          <div class="row">
 	            <div class="small-12 columns text-center">
 	              <a class="close-reveal-modal">&#215;</a>
 	              <div class="row-liste-index">
 							    <div class="small-12 medium-6 medium-centered columns">
 							      <p class="titre-modal-box">Filtrer les interfaces</p>
-							      <hr>
 							    </div>
 							  </div>
-	              <div class="row-liste-index note-partage">
-					        <div class="small-12 medium-6 medium-centered columns">
-					        	<ul class="side-nav" role="navigation" title="Link List">
-					        		<li role="menuitem"><a href="/inspiration/ui-design/connected-car/" title="Nouvelles interfaces et systèmes d'infotainment au sein des voitures connectées"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</a></li>
-					        		<hr>
-					        		{% for item in site.data.inspirer.ui-connected-car-plateformes %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
-					          	{% endfor %}
-					        		<hr>
-					        		{% for item in site.data.inspirer.ui-connected-car-constructeurs %}
-												<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}</a></li>
-					          	{% endfor %}
-					        	</ul>
-					        </div>
-					      </div>
+								<div class="row">
+									<div class="small-12 columns">
+										<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
+											<li role="menuitem">
+												<div class="grid-article-card" data-equalizer-watch>
+													<a class="grid-article-card-link-wrap" href="/inspiration/ui-design/connected-car/" title="Nouvelles interfaces et systèmes d'infotainment au sein des voitures connectées">
+														<div class="row collapse">
+															<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+																<span class="grid-article-card-title mod-action"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" fill="#FF5700"/></svg>NOUVEAUTES</span>
+															</div>
+														</div>
+													</a>
+												</div>
+											</li>
+											<hr>
+											{% for item in site.data.inspirer.ui-connected-car-plateformes %}
+												<li role="menuitem">
+													<div class="grid-article-card" data-equalizer-watch>
+														<a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+															<div class="row collapse">
+																<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+																	<span class="grid-article-card-title mod-action">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</span>
+																</div>
+															</div>
+														</a>
+													</div>
+												</li>
+											{% endfor %}
+											<hr>
+											{% for item in site.data.inspirer.ui-connected-car-constructeurs %}
+												<li role="menuitem">
+													<div class="grid-article-card" data-equalizer-watch>
+														<a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+															<div class="row collapse">
+																<div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+																	<span class="grid-article-card-title mod-action">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</span>
+																</div>
+															</div>
+														</a>
+													</div>
+												</li>
+											{% endfor %}
+
+										</ul>
+									</div>
+								</div>
 	            </div>
 	          </div>
 	        </div>

@@ -400,6 +400,9 @@ sup {
 				min-height: rem-calc(100);
 				max-height: rem-calc(100);
 		}
+		.grid-article-card-info.mod-pop-up-cross-nav{
+				background-color: $white-smoke;
+		}
 		@media #{$small-only}{
 			.grid-article-card-info.mod-add-new{
 				padding: rem-calc(13);

@@ -7,24 +7,35 @@
 				<!-- Modalbox decouvrir entries
         ================================================== -->
         <div id="decouvrir-entries" class="reveal-modal" data-reveal>
-          <div class="row-liste-index">
+          <div class="row">
             <div class="small-12 columns text-center">
               <a class="close-reveal-modal">&#215;</a>
               <div class="row-liste-index">
 						    <div class="small-12 medium-6 medium-centered columns">
 						      <p class="titre-modal-box">Explorer la section Découvrir</p>
-						      <hr>
 						    </div>
 						  </div>
-              <div class="row-liste-index note-partage">
-				        <div class="small-12 medium-6 medium-centered columns">
-				         	<ul class="side-nav" role="navigation" title="Link List">
-								  	{% for item in site.data.decouvrir.decouvrir-entries %}
-											<li role="menuitem"><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name | upcase }}&#8239;{{ item.coming-soon }}</a></li>
-				          	{% endfor %}
-								 	</ul>
-				        </div>
-				      </div>
+							<div class="row">
+							  <div class="small-12 columns">
+							    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer role="navigation" title="Liste de liens">
+
+							    {% for item in site.data.decouvrir.decouvrir-entries %}
+						        <li role="menuitem">
+						          <div class="grid-article-card" data-equalizer-watch>
+						            <a class="grid-article-card-link-wrap" href="{{ item.permalink }}" title="{{ item.name }}">
+						              <div class="row collapse">
+						                <div class="grid-article-card-info mod-pop-up-cross-nav mod-action small-12 columns">
+						                  <span class="grid-article-card-title mod-action">{{ item.name }}&#8239;{{ item.coming-soon }}</span>
+						                </div>
+						              </div>
+						            </a>
+						          </div>
+						        </li>
+						    	{% endfor %}
+
+							    </ul>
+							  </div>
+							</div>
             </div>
           </div>
         </div>
