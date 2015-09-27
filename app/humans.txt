@@ -1,11 +1,14 @@
-UI Design and development: Guillaume Palayer
+UX/UI Design and development: Guillaume Palayer
 Site: http://magazineduwebdesign.com
-Twitter: @MagDuWebdesign
+Twitter: https://twitter.com/MagDuWebdesign
 Location: Lille, France
 
 
 // App
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// Stack
+http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign
 
 // Source code
 https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io
@@ -31,8 +34,7 @@ Tests: CSS Lint
 // MISC
 Ruby
 Jekyllrb
-Version control: Git               
-Software: Sublime Text, Console2, Google Chrome, Adobe Illustrator CC, GitHub
-Colors: uigradients.com
+Version control: Git
+Software: Atom, Console2, Google Chrome, GitHub, Trello, Spotify
 Icons: Material design icons - Google
 Fonts: Roboto - Google Web fonts

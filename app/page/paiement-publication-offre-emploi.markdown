@@ -1,6 +1,6 @@
 ---
 layout: "offres-emploi_index"
-title: "Votre achat"
+title: "Encore 1 étape pour publier votre offre d'emploi"
 tab5: "true"
 description:
 permalink: "/recruter/paiement-publication-offre-emploi/"
