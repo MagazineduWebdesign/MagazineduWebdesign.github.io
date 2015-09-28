@@ -1,12 +1,12 @@
 ---
 layout: "page-1-column"
 title: "Le meilleur des interfaces, chaque jour sur le Magazine du Webdesign"
-description: "Découvrir et connecter le meilleur du design et du développement web avec une communauté de passionnés"
+description: "Une brève intro du MDW"
 intro: "Le Magazine du Webdesign est la plateforme de partage visant à animer les conversations & à promouvoir les idées, les outils, les services, les ressources, les événements & les créations qui font la qualité du design et du développement web francophone."
 permalink: "/a-propos/"
 ---
 
-<h2 class="text-center">Pourquoi tout ça ?</h2>
+##Pourquoi tout ça ?
 En explorant quotidiennement les blogs, les tweets et les newsletters de la communauté, j'ai considérablement enrichi mes connaissances en design et en développement. Je souhaitais trouver une solution pour partager ce que j'ai appris d'une manière organisée et accessible au plus grand nombre.
 
 C'est ainsi que le [Magazine du Webdesign](http://magazineduwebdesign.com) est né : un lieu d'échange où les curieux peuvent découvrir chaque jour des nouveautés et où les passionnés peuvent acquérir l'audience qu'ils méritent pour partager leurs créations.

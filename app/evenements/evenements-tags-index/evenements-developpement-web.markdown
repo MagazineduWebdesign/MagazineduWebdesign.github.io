@@ -1,6 +1,6 @@
 ---
 layout: "evenements_index"
-title: "Prochains événements sur le développement Web & le DevOps"
+title: "Trouver des événements inspirants sur le développement web & le DevOps près de chez vous"
 tags: "evenements-developpement-web"
 permalink: "/evenements/developpement-web-devops/"
 intro: "Collection d'événements en France et en Europe, abordant les problématiques et les défis techniques spécifiques aux développeurs et aux aficionados DevOps. N'hésitez pas à suggérer des événements locaux ou nationaux si vous pensez qu'ils sont pertinents pour la communauté du MDW."

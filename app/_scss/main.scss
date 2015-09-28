@@ -190,6 +190,9 @@ sup {
 .header-liste.mod-no-bg-gradient{
 	@include header-liste;
 }
+  .header-liste-headline{
+    font-family: "Playfair Display",serif;
+  }
 	.header-liste-content{
 		@include font-sans-serif-paragraphe;
 		color: $aluminum;
@@ -262,7 +265,7 @@ sup {
 	}
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
-		font-size: $h2-font-size;
+    font-family: "Playfair Display",serif;
 	}
 	.section-carte-action a, .section-carte-header a{
 		padding:0;
@@ -958,21 +961,47 @@ figcaption{
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
 .topbar-partage-twitter{background-color:$twitter !important; margin-bottom:0; color:$white!important}
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
-.top-bar-section .dropdown li a {
-	padding:rem-calc(0 16);
-	line-height:rem-calc(48)!important
+.top-bar .title-area.mod-main-navigation{
+  width: 16.66667%;
+  min-width: 222px;
 }
-.top-bar-section ul li{
-  position: relative;
+@media #{$small-only} {
+  .top-bar-section-main-navigation-container{
+    width: auto;
+    min-width: 0;
+  }
 }
-.top-bar-section-alerte-dotted:before {
-  content: "•";
-  font-size: rem-calc(24);
-  position: absolute;
-  top: 1px;
-  left: 5px;
-  color: $primary-color;
+.top-bar-section-main-navigation-container{
+  float: left;
+  display: inline-block;
+  width: 66.66667%;
 }
+@media #{$medium-only} {
+  .top-bar-section-main-navigation-container{
+    float: none;
+    display: inline;
+  }
+}
+  .top-bar-section-main-navigation{
+    display: block!important;
+    width: rem-calc(620)!important;
+    margin: 0 auto!important;
+  }
+    .top-bar-section .dropdown li a {
+    	padding:rem-calc(0 16);
+    	line-height:rem-calc(48)!important
+    }
+    .top-bar-section ul li{
+      position: relative;
+    }
+    .top-bar-section-alerte-dotted:before {
+      content: "•";
+      font-size: rem-calc(24);
+      position: absolute;
+      top: 1px;
+      left: 5px;
+      color: $primary-color;
+    }
 @media #{$small-only} {
 	.top-bar {
 		height:rem-calc(56);
@@ -1153,7 +1182,12 @@ figcaption{
 	  padding:0!important
   }
 }
-.column-header-article{padding-top:rem-calc(48)}
+.column-header-article{
+  padding-top:rem-calc(48);
+}
+  .column-header-article-title{
+    font-family: "Playfair Display",serif;
+  }
 .column-header-article.mod-header-article-no-margin-top{padding-top:rem-calc(0)}
 
 // body
@@ -1398,7 +1432,10 @@ input.index-wide-newsletter-in-grid-submit{
 }
 .header-collection-bgimg{@include header-bgimg}
 .header-collection-shadow{@include blend($padding:0)}
-.header-collection h1{@include header-liste-title}
+.header-collection h1{
+  font-family: "Playfair Display",serif;
+  @include header-liste-title;
+}
 .header-collection-link a{@include header-liste-link($color:$white)}
 
 // 00. SECTION JOBS
@@ -1416,7 +1453,13 @@ background-position: center}
 .job--entreprise-logo{width:rem-calc(40)!important;height:rem-calc(40)!important;margin:0 auto;border-radius:50%}
 .job--offre-item{min-height:rem-calc(72)}
 .job--entreprise{width:100%}
-.job--description{display:block;font-size:$rem-base;line-height:rem-calc(24);color:$aluminum}
+.job--description{
+  display:block;
+  font-family: $font-family-sans-serif;
+  font-size:$rem-base;
+  line-height:rem-calc(24);
+  color:$aluminum;
+}
 @media #{$large-up}{
 	.row-body-article.job-offre--contenu{padding-top:rem-calc(48)}
 	.job--valeurs-promesses p{margin-bottom:0}

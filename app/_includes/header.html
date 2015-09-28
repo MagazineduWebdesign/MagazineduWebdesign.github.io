@@ -2,7 +2,7 @@
   <h1 class="hide">Magazine Du Webdesign</h1>
   <nav class="top-bar" data-topbar role="navigation">
     <h1 class="hide">Navigation</h1>
-    <ul class="title-area">
+    <ul class="title-area mod-main-navigation">
       <li class="name">
         <a href="{{ site.baseurl }}/" title="Accueil | Magazine du Webdesign">
           <svg class="logo left" style="enable-background:new 0 0 40 40" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="40px" width="40px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
@@ -33,48 +33,50 @@
     </ul>
 
     <div class="top-bar-section">
+
       <!-- Left Nav Section -->
-      <ul class="left">
-        <li class="show-for-medium-only has-dropdown">
-          <a href="#">SECTIONS <svg class="ic_block-h64-no-text ic-arrow-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
-          <ul class="dropdown">
-            <li><label>EXPLOREZ</label></li>
-            {% for item in site.data.navigation.navigation-header %}
-              <li {% if item.name == 'JOBS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
-            {% endfor %}
-            {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
+      <div class="top-bar-section-main-navigation-container">
+        <ul class="top-bar-section-main-navigation">
+          <li class="show-for-medium-only has-dropdown">
+            <a href="#">SECTIONS <svg class="ic_block-h64-no-text ic-arrow-down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
+            <ul class="dropdown">
+              <li><label>EXPLOREZ</label></li>
+              {% for item in site.data.navigation.navigation-header %}
+                <li {% if item.name == 'JOBS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+              {% endfor %}
+              {% for item in site.data.navigation.navigation-header-more-left %}
+                <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
 
-        <!-- Data driven navigation in Jekyll
-        source ==> http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
-        ================================================== -->
-        {% for item in site.data.navigation.navigation-header %}
-          <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
-        {% endfor %}
-        <!-- mobile Left Nav Section - navigation-header-more-left -->
-        {% for item in site.data.navigation.navigation-header-more-left %}
-          <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} show-for-small-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
-        {% endfor %}
-        <!-- Desktop Left Nav Section - navigation-header-more-left -->
-        <li class="show-for-large-up has-dropdown">
-          <a href="#">PLUS <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
-          <ul class="dropdown">
-            {% for item in site.data.navigation.navigation-header-more-left %}
-              <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-      </ul>
-
+          <!-- Data driven navigation in Jekyll
+          source ==> http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
+          ================================================== -->
+          {% for item in site.data.navigation.navigation-header %}
+            <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+          {% endfor %}
+          <!-- mobile Left Nav Section - navigation-header-more-left -->
+          {% for item in site.data.navigation.navigation-header-more-left %}
+            <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} show-for-small-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+          {% endfor %}
+          <!-- Desktop Left Nav Section - navigation-header-more-left -->
+          <li class="show-for-large-up has-dropdown">
+            <a href="#">PLUS <svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="#999999"/></svg></a>
+            <ul class="dropdown">
+              {% for item in site.data.navigation.navigation-header-more-left %}
+                <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
       <!-- Right Nav Section -->
       <ul class="topbar-brief-twitter right">
         <li><a href="/le-brief-du-magazine-du-webdesign/" title="Le Brief du Magazine du Webdesign"><svg class="ic_block-h64-text-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#999999"/></svg></a></li>
 
         <!--Twitter -->
-        <li><a class="twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@<span class="hidden-for-large-up hidden-for-small-only">MDW</span><span class="hidden-for-medium-only">MDW</span></a></li>
+        <li><a class="show-for-large-up hide-for-large twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">@<span class="hidden-for-large-up hidden-for-small-only">MDW</span><span class="hidden-for-medium-only">MDW</span></a></li>
 
         <li class="has-dropdown">
           <a href="#"><span class="hide-for-medium-up">LE MAGAZINE..</span><svg class="ic_block-h64-no-text ic-hide-for-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
