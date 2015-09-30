@@ -553,6 +553,10 @@ sup {
 .carte-article-secondaire.mod-ads{
 	min-height:rem-calc(72);
 }
+.carte-article-secondaire.mod-ads-index-panel {
+	min-height:rem-calc(72);
+  border-bottom: 1px solid $white-smoke;
+}
 .carte-article-secondaire.mod-index-one-col-action{
 	position: relative;
 	min-height: rem-calc(48);
@@ -970,7 +974,7 @@ figcaption{
   .logo-release{
     position: absolute;
     top: rem-calc(37);
-    right: rem-calc(8);
+    left: rem-calc(204);
   }
   .logo-release a{
     font-size: rem-calc(14);

@@ -1,9 +1,8 @@
 ---
-layout: categories_index
-title: Lire
-permalink: /lire/
-svg:
-intro: Collection d'idées, d'outils, de ressources &amp; d'inspirations sur le design et le développement Web. La plupart des articles de cette section datent un peu. Je vais y remédier très prochainement – beta excuse.
-bgimgheader: true
-text-twtr: En train d'explorer les articles du @MagDuWebdesign
+layout: "categories_index"
+title: "Lire"
+permalink: "/lire/"
+intro: "Instant archéologie. La plupart des articles de cette section correspondent aux contenus publiés durant la première vie du Magazine du Webdesign entre 2012-2013. Je vous invite à explorer les nouveaux formats de contenus disponibles dans les sections Apprendre, Découvrir, Voir, etc."
+description: "Instant archéologie. La plupart des articles de cette section correspondent aux contenus publiés durant la première vie du Magazine du Webdesign entre 2012-2013."
+text-twtr: "En train d'explorer les articles du @MagDuWebdesign"
 ---

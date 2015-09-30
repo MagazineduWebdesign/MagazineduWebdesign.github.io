@@ -23,8 +23,12 @@ layout: default
 
 	<div class="row-liste-index">
 	  <div class="small-12 columns section-carte-index-panel current-page" data-page="{{page.category}}">
+
+			<!-- ads -->
+			{% include custom/cartes/carte_ad_liste-index-panel.html %}
+
 			{% if site.categories[page.category] %}
-				{% for post in site.categories[page.category] limit: 5 %}
+				{% for post in site.categories[page.category] limit: 8 %}
 					<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 	          <article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 

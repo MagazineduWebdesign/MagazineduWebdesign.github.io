@@ -8,11 +8,11 @@ $(function() {
       shouldFetchPosts = true,
       postsToLoad = $('body').find('.js-postcount').length,
       loadNewPostsThreshold = 200;
-  
+
   // Load the JSON file containing all URLs
     var urlJson;
       switch($('body').find('.current-page').attr('data-page')) {
-        
+
         // categories
         case 'design':
           urlJson = '/articles-cat_design.json';
@@ -70,11 +70,11 @@ $(function() {
       if (postURLs.length <= postsToLoad)
         disableFetching();
     });
-  
+
   // If there's no spinner, it's not a page where posts should be fetched
   if ($('.infinite-spinner').length < 1)
     shouldFetchPosts = false;
-  
+
   // Are we close to the end of the page? If we are, load more posts
   $(window).scroll(function(e){
     if (!shouldFetchPosts || isFetchingPosts) return;
@@ -82,14 +82,14 @@ $(function() {
         windowScrollPosition = $(window).scrollTop(),
         bottomScrollPosition = windowHeight + windowScrollPosition,
         documentHeight = $(document).height();
-    
+
     // If we've scrolled past the loadNewPostsThreshold, fetch posts
     if ((documentHeight - loadNewPostsThreshold) < bottomScrollPosition) {
         fetchPosts();
     }
   });
 
- 
+
   // Fetch a chunk of posts
   function fetchPosts() {
     // Exit if postURLs haven't been loaded
@@ -105,7 +105,7 @@ $(function() {
         callback = function() {
           loadedPosts++;
           var postIndex = postCount + loadedPosts;
-          
+
           if (postIndex > postURLs.length-1) {
             disableFetching();
             $('.infinite-spinner').css('display', 'none');
@@ -119,84 +119,84 @@ $(function() {
             $('.infinite-spinner').css('display', 'none');
           }
         };
-    
+
     fetchPostWithIndex(postCount + loadedPosts, callback);
   }
   var dateClean = '';
   function fetchPostWithIndex(index, callback) {
-    
+
     var postURL = postURLs[index];
     $.get(postURL, function(data) {
       var poststructure;
       var strHeader = '';
       var str = '';
       switch($('body').find('.current-page').attr('data-page')) {
-        
+
         // categories
         case 'design':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'developpement':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'fun':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'graphisme':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'mobile':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'ressources':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'ux-design':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'wordpress':
-          str+='<a href="'+postURL+'" title="'+$(data).find('.headline-post').html()+'">';
-          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<a href="'+postURL+'" title="'+$(data).find('.column-header-article-title').html()+'">';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
-          
+
         // divers
         case 'encyclos':
           str+='<a href="'+postURL+'" title="'+$(data).find('.encyclo-title-def').html()+'">';
-          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.headline-post').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.column-header-article-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><img class="right" src="'+$(data).find('.is-img').attr('data-is-img')+'" title="'+$(data).find('.encyclo-title-def').html()+'"/></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
-          
+
         case 'collections':
           str+='<a href="'+postURL+'" title="'+$(data).find('.headline-collection').html()+'">';
           str+='<article class="collection-index-article js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"><div class="shadow-img"><div class="collection-index-article-content">';
@@ -226,20 +226,20 @@ $(function() {
           $('.date-'+$(data).find('.section-brief-header').attr('data-cleaned')).append(str);
 
           dateClean = $(data).find('.section-brief-header').attr('data-cleaned');
-          
+
           break;
 
-        default: $('.section-carte-index-panel').append('<h1>'+$(data).find('.headline-post').html()+'</h1>');
+        default: $('.section-carte-index-panel').append('<h1>'+$(data).find('.column-header-article-title').html()+'</h1>');
       }
       $(poststructure);
       callback();
     });
   }
-  
+
   function disableFetching() {
     shouldFetchPosts = false;
     isFetchingPosts = false;
     $('.infinite-spinner').fadeOut();
   }
-  
+
 });
