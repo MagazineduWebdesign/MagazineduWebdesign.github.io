@@ -144,10 +144,11 @@ $paypal:#003087;
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.titre-modal-box{font-family:$font-family-serif;font-size:$h3-font-size}
+.titre-modal-box{font-family:$font-family-serif;font-size:$h2-font-size;line-height: 1.1;}
 .twitter{color:$twitter!important}
 .label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
+.label--new.mod-ads-sidebar{top:rem-calc(-2)}
 .highlight {
 	background:$jet;
 	overflow:auto;
@@ -435,6 +436,7 @@ sup {
 				width: rem-calc(64)!important;
 				height: rem-calc(64);
 				margin: rem-calc(-34) auto rem-calc(16);
+        border: 1px solid $white-smoke;
 				border-radius: rem-calc(4);
 			}
 			.grid-article-card-title{
@@ -548,7 +550,9 @@ sup {
 .carte-article-secondaire.mod-videos-relatives{
 	min-height:rem-calc(72);
 }
-
+.carte-article-secondaire.mod-ads{
+	min-height:rem-calc(72);
+}
 .carte-article-secondaire.mod-index-one-col-action{
 	position: relative;
 	min-height: rem-calc(48);
@@ -761,6 +765,11 @@ background-position: center}
 .rounded-img-d64.mod-avatar{
 	margin: 0;
 }
+.rounded-img-d64.mod-ads{
+	margin: 0 auto;
+  border-radius: $global-radius;
+  border: 1px solid $white-smoke;
+}
 .rounded-img-d40{width:rem-calc(40)!important;height:rem-calc(40)!important;margin:0 auto;border-radius:50%;background-size: cover;
 background-position: center}
 .app-icon-64{
@@ -949,13 +958,29 @@ figcaption{
 	color:$aluminum;
  	font-size:rem-calc(20)
 }
-.logo{margin:rem-calc(12 16 12 0)}
+.logo{
+  margin:rem-calc(12 16 12 0)
+}
 	.logo-title{
 		float: left;
 		margin-right: rem-calc(8);
 	}
 	.logo-orange{display:block; line-height:rem-calc(20)!important; margin-top: rem-calc(12)!important; color:$primary-color;}
 	.logo-grey{display:block; line-height:rem-calc(20)!important; color:$aluminum;}
+  .logo-release{
+    position: absolute;
+    top: rem-calc(37);
+    right: rem-calc(8);
+  }
+  .logo-release a{
+    font-size: rem-calc(14);
+  }
+  @media #{$small-only} {
+    .logo-release{
+      top: rem-calc(28);
+      left: rem-calc(64);
+    }
+  }
 .topbar-partage-item{padding-left:0!important}
 .topbar-partage-facebook{background-color:$facebook !important; margin-bottom:0; color:$white!important}
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
@@ -966,7 +991,7 @@ figcaption{
   min-width: 222px;
 }
 @media #{$small-only} {
-  .top-bar-section-main-navigation-container{
+  .top-bar .title-area.mod-main-navigation{
     width: auto;
     min-width: 0;
   }

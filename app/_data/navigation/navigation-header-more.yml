@@ -10,6 +10,10 @@
 - name: "Feedback"
   permalink: "feedback"
 
+- name: "Twitter"
+  permalink: "http://twitter.com/@MagDuWebdesign"
+  external-link: "true"
+  
 - name: "facebook"
   permalink: "http://facebook.com"
   external-link: "true"

@@ -4,5 +4,6 @@ title: "Collection d'interfaces et de systèmes d'infotainment au sein des voitu
 tags: "ui-connected-car-constructeurs-jaguar"
 permalink: "/inspiration/ui-design/connected-car/constructeurs/jaguar/"
 intro:
+description: "Explorez la liste des meilleurs designs d'interfaces et concepts de tableaux de bord automobiles de Jaguar"
 text-twtr: "En train d'explorer la collection d'interfaces au sein des voitures connectées Jaguar du @MagDuWebdesign"
 ---
