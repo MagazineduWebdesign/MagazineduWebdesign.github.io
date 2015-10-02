@@ -20,7 +20,7 @@ layout: default
 		    {% else %}{% endif %}
 		      <header class="row-body-article">
 		        <div class="column-header-article">
-		          <h1 class="column-header-article-title" itemprop="headline">{{ page.title }}</h1>
+		          <h1 itemprop="headline">{{ page.title }}</h1>
 		          <aside class="article-meta-by-time hide-for-large-up">
 						  	<p class="article-bgimg-meta-by-time">Ecrit par <a href="https://twitter.com/{{ page.auteur }}">@{{ page.auteur }}</a>{% capture datearticle %}{% assign A = page.date | date: "%A" %}{% case A %}{% when 'Monday' %}Lundi{% when 'Tuesday' %}Mardi{% when 'Wednesday' %}Mercredi{% when 'Thursday' %}Jeudi{% when 'Friday' %}Vendredi{% when 'Saturday' %}Samedi{% when 'Sunday' %}Dimanche{% endcase %}{{ page.date | date: " %-d " }}{% assign B = page.date | date: "%-m" %}{% case B %}{% when '1' %}Janvier{% when '2' %}F&eacute;vrier{% when '3' %}Mars{% when '4' %}Avril{% when '5' %}Mai{% when '6' %}Juin{% when '7' %}Juillet{% when '8' %}Ao&ucirc;t{% when '9' %}Septembre{% when '10' %}Octobre{% when '11' %}Novembre{% when '12' %}D&eacute;cembre{% endcase %}{{ page.date | date: " %Y" }}{% endcapture %} &bull; <time itemprop="datePublished" datetime="{{ page.date | date: "%-d-%-m-%Y" }}">{{ datearticle }}</time></p>
 						  </aside>

@@ -10,7 +10,7 @@ layout: default
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 class="column-header-article-title" itemprop="name">{{ page.title }}</h1>
+          <h1 itemprop="name">{{ page.title }}</h1>
           <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <p class="article-bgimg-meta-by-time">
               {% capture datearticle %}
@@ -97,7 +97,7 @@ layout: default
       {% else %}
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 class="column-header-article-title" itemprop="name">{{ page.title }}</h1>
+          <h1 itemprop="name">{{ page.title }}</h1>
           <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <p class="article-bgimg-meta-by-time">
               {% capture datearticle %}

@@ -2,9 +2,9 @@
   name: Android
   permalink: /videos/android/
 
-- slug: videos-design
-  name: Design
-  permalink: /videos/design/
+- slug: videos-ui-design
+  name: UI design
+  permalink: /videos/ui-design/
 
 - slug: videos-design-stories
   name: Design stories

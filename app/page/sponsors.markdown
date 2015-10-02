@@ -1,8 +1,8 @@
 ---
 layout: "page-1-column"
 title: "Sponsors"
-description: "Acccédez à une communauté francophone de 10 000+ designers & développeurs s'affairant chaque jour à rendre le web plus beau et plus rapide."
-intro: "Acccédez à une communauté francophone de 10 000+ designers & développeurs s'affairant chaque jour à rendre le web plus beau et plus rapide."
+description: "Prenez part au développement d'une communauté de passionnés s'affairant chaque jour à rendre le web plus beau et plus rapide."
+intro: "Prenez part au développement d'une communauté de passionnés s'affairant chaque jour à rendre le web plus beau et plus rapide."
 permalink: "/sponsors/"
 ---
 <p class="text-center">
@@ -57,9 +57,9 @@ permalink: "/sponsors/"
 
 La mission du MDW est d'aider les membres de la communauté à cultiver leurs talents en leur proposant les contenus les plus appropriés.
 
-Les designers et les développeurs du MDW sont très engagés avec les outils, les services et les ressources qui leur permettent d'améliorer leur productivité et d'étendre leurs connaissances.
+Les designers et les développeurs sont le plus souvent très engagés avec les outils, les services et les ressources qui leur permettent d'améliorer leur productivité et d'étendre leurs connaissances.
 
-Le MDW peut vous accompagner dans votre développement via une gamme de produits publicitaires visant à tisser des liens avec cette communauté de passionnés. Les solutions de promotion proposées sont toujours respectueuse de l'expérience des lecteurs et de l'intégrité éditoriale du MDW. Elles se composent de forfaits de publicité classique (CPM, CPC) et également d'offres sur mesure.
+Le Magazine du Webdesign peut vous accompagner dans votre développement via une gamme de produits publicitaires visant à tisser des liens avec cette communauté de passionnés. Les solutions de promotion proposées sont toujours respectueuse de l'expérience des lecteurs et de l'intégrité éditoriale du MDW. Elles se composent de forfaits de publicité classique (CPM, CPC) et également d'offres sur mesure.
 
 <h2>Le logo de votre entreprise ou de votre produit, un lien et une description au sein d'un emplacement natif & premium</h2>
 

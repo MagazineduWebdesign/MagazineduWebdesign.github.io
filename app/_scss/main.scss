@@ -144,7 +144,7 @@ $paypal:#003087;
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.titre-modal-box{font-family:$font-family-serif;font-size:$h2-font-size;line-height: 1.1;}
+.titre-modal-box{font-family:$font-family-sans-serif;font-size:$h1-font-size;line-height: 1.1;}
 .twitter{color:$twitter!important}
 .label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
@@ -191,9 +191,6 @@ sup {
 .header-liste.mod-no-bg-gradient{
 	@include header-liste;
 }
-  .header-liste-headline{
-    font-family: "Playfair Display",serif;
-  }
 	.header-liste-content{
 		@include font-sans-serif-paragraphe;
 		color: $aluminum;
@@ -266,7 +263,6 @@ sup {
 	}
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
-    font-family: "Playfair Display",serif;
 	}
 	.section-carte-action a, .section-carte-header a{
 		padding:0;
@@ -1090,8 +1086,14 @@ figcaption{
 	.section-brief-panel{@include panel($padding:$rem-base);margin-bottom:0}
 	.section-brief-header{padding:0 rem-calc(16)}
 }
-.note{padding:rem-calc(24) 0 0;border-top:1px solid $secondary-color}
-.note-first{padding:0;border-top:0}
+.section-brief-panel .note:first-of-type{
+  padding: 0;
+  border-top:0;
+}
+.section-brief-panel .note:not(first-of-type){
+  padding:rem-calc(48) 0 0;
+  border-top:1px solid $secondary-color
+}
 .note-source-id{margin-bottom:($rem-base / 2)}
 .note-source-name{
 	font-size:rem-calc(14);
@@ -1462,7 +1464,6 @@ input.index-wide-newsletter-in-grid-submit{
 .header-collection-bgimg{@include header-bgimg}
 .header-collection-shadow{@include blend($padding:0)}
 .header-collection h1{
-  font-family: "Playfair Display",serif;
   @include header-liste-title;
 }
 .header-collection-link a{@include header-liste-link($color:$white)}

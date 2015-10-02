@@ -1,8 +1,8 @@
 ---
 layout: "page-1-column"
 title: "Le meilleur des interfaces, chaque jour sur le Magazine du Webdesign"
-description: "Une brève intro du MDW"
-intro: "Le Magazine du Webdesign est la plateforme de partage visant à animer les conversations & à promouvoir les idées, les outils, les services, les ressources, les événements & les créations qui font la qualité du design et du développement web francophone."
+intro: "Des produits innovants qui suppriment les frictions, en passant par les délicieuses micro-interactions des applications mobiles et la mise en page sensée d’un site web, le design a son importance. L’objectif du Magazine du Webdesign est simple : vous apportez l’inspiration et l’accompagnement nécessaire pour impacter positivement le quotidien de tous grâce au design."
+description: "Vous apportez l’inspiration et l’accompagnement nécessaire pour impacter positivement le quotidien de tous grâce au design"
 permalink: "/a-propos/"
 ---
 
@@ -14,6 +14,10 @@ C'est ainsi que le [Magazine du Webdesign](http://magazineduwebdesign.com) est n
 J'espère que cela vous inspirera et vous poussera à partager votre talent.
 
 N'hésitez pas à créer votre propre version du MDW, le code source est disponible sur <a href="https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io" title="Twitter @guillaumpalayer" target="_blank">GitHub</a>. Explorez <a href="http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign" title="stackshare.io" target="_blank">stackshare.io</a> pour découvrir les applications et les services que j'utilise.
+
+##C'est qui ?
+
+C'est moi, Guillaume &ndash; UX designer la journée, développeur le soir et éditeur la nuit.
 
 <figure class="text-center">
   <img class="rounded-img-d64 mod-avatar" src="{{ site.author.avatar | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Avatar" width="64" height="64">

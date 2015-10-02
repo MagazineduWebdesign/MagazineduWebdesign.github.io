@@ -18,12 +18,16 @@
   permalink: "https://www.facebook.com/MagazineDuWebdesign/"
   external-link: "true"
 
-- name: "GitHub"
-  permalink: "https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io"
+- name: "Pinterest"
+  permalink: "https://www.pinterest.com/MagDuWebdesign/"
   external-link: "true"
 
 - name: "Medium"
   permalink: "https://medium.com/@magduwebdesign"
+  external-link: "true"
+
+- name: "GitHub"
+  permalink: "https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io"
   external-link: "true"
 
 - name: "StackShare"

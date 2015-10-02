@@ -13,17 +13,25 @@
 - name: "Twitter"
   permalink: "http://twitter.com/@MagDuWebdesign"
   external-link: "true"
-  
+
 - name: "facebook"
   permalink: "http://facebook.com"
   external-link: "true"
 
-- name: "github"
-  permalink: "https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io"
+- name: "Pinterest"
+  permalink: "https://www.pinterest.com/MagDuWebdesign/"
+  external-link: "true"
+
+- name: "Tumblr"
+  permalink: "http://magazineduwebdesign.tumblr.com/"
   external-link: "true"
 
 - name: "Medium"
   permalink: "https://medium.com/@magduwebdesign"
+  external-link: "true"
+
+- name: "github"
+  permalink: "https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io"
   external-link: "true"
 
 - name: "RSS"
