@@ -1,7 +1,7 @@
 ---
 title: Quelques conseils pour vos animations
 date: 2015-05-31 00:00:00
-source-name: 
+source-name:
 source-url: http://blog.percolatestudio.com/design/animation-timing-guidelines/
 image:
 image-legende:

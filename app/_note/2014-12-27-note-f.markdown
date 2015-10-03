@@ -1,9 +1,0 @@
----
-title: note f
-source-name: frontendfront 
-source-url: http://frontendfront.com/recent/
-source-favicon: http://frontendfront.com/favicon.ico
-image: 
-date: 2014-12-27 00:00:00
----
-Of course, there’s one big question left unanswered: If Catster is supposed to capture the energy of online cat content … then why should anybody bother buying it in print? That’s where I-5’s problems stop being cat-specific. That’s where it has to be like any other magazine publisher: It’s trying to make a visually sumptuous publication that readers will want to hold, not just click.

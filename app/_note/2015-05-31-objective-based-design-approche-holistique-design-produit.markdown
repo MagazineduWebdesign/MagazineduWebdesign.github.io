@@ -9,7 +9,6 @@ id-youtube:
 id-vimeo:
 id-soundcloud:
 video-legende:
-note-first: "true"
 ---
 
 Rechercher, créer, implémenter et mesurer : l'agence DTelepathy expose sa philosophie basée sur des phases itératives de recherche, de stratégies et de design. Elle permet de réduire au maximum les frictions des utitisateurs en gardant en ligne de mire les objectifs du projet & du business. Un modèle de design s'inspirant largement d'autres modèles de pensée tels que le Build, Measure, Learn du courant <a href="http://theleanstartup.com/principles" target="_blank">Lean Startup</a> & <a href="http://www.gv.com/sprint/" target="_blank">le Design Sprint</a> de Google Ventures.

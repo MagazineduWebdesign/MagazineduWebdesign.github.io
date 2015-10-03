@@ -1,7 +1,7 @@
 ---
 title: Made by sidecar
 date: 2015-05-31 00:00:00
-source-name: 
+source-name:
 source-url: https://madebysidecar.com/
 image:
 image-legende:
