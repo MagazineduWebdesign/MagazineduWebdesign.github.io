@@ -39,8 +39,8 @@ composant-ui-url-2:
 composant-ui-3:
 composant-ui-url-3:
 url-demo: "http://www.isabelandhelen.com/"
-image: "portfolio-isabelandhelen-1.png"
-image-2: "portfolio-isabelandhelen-2.png"
+image: "portfolio-isabelandhelen-1.PNG"
+image-2: "portfolio-isabelandhelen-2.PNG"
 intro: "Un joli portfolio avec des transitions de navigation originales"
 description: "Un joli portfolio avec des transitions de navigation originales"
 ---

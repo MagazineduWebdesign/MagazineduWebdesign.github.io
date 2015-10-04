@@ -1,6 +1,6 @@
 ---
 layout: "video"
-title: "intérieure et UI design de la capsule Crew Dragon &ndash; SpaceX"
+title: "Intérieure et UI design de la capsule Crew Dragon &ndash; SpaceX"
 date: "2015-10-04 00:22:57"
 path1: "videos"
 path2: "startup-promo"
