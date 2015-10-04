@@ -1,6 +1,6 @@
 ---
 title: Objective-Based Design – Une approche holistique du design de produit
-date: 2015-05-31 00:00:00
+date: 2015-05-31 00:00:01
 source-name: dtelepathy  
 source-url: http://www.dtelepathy.com/blog/philosophy/objective-based-design-creative-approach-to-solving-business-challenge
 image:

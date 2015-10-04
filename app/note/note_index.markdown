@@ -1,8 +1,7 @@
 ---
-layout: note_index
-title: Le Brief du Webdesign
-permalink: /notes/
-intro: Collection organisée d'articles, de conseils et de ressources liés au design d'interfaces pour les webdesigners et les developpeurs.
-bgimgheader: true
-text-twtr: En train d'explorez le Brief du Webdesign – Collection organisée d'articles, de conseils et de ressources —@MagDuWebdesign
+layout: "note_index"
+title: "Un Web plus beau et plus rapide commence avec le Brief du Magazine du Webdesign"
+permalink: "/notes/"
+intro: "Devenez excellent dans ce que vous faites en explorant le Brief – le meilleur des interfaces. Une collection organisée des meilleurs conseils, outils, inspirations & ressources exclusives créés par de talentueux designers et développeurs."
+text-twtr : "Un Web plus beau &amp; plus rapide commence avec le Brief du @MagDuWebdesign"
 ---
