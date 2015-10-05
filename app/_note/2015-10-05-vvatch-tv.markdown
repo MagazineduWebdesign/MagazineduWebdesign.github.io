@@ -1,0 +1,13 @@
+---
+title: "vvatch.tv"
+date: 2015-10-05 00:00:00
+source-name:
+source-url: "http://vvatch.tv/"
+image: "vvatch-tv.PNG"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Un nouveau projet de Future Corp, avec quelques éléments d'UI intéressants et un beau logo animé. La promesse de l'appli : explorer les meilleures vidéos des Internets.

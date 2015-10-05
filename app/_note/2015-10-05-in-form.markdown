@@ -1,0 +1,13 @@
+---
+title: "inForm &ndash; sculpter en 3D l'expérience d'un utilisateur"
+date: "2015-10-05 00:00:10"
+source-name:
+source-url: "http://in-form.io/"
+image: "in-form.png"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Une expérience 3D ayant pour ambition de capter physiquement la signature numérique d'un utilisateur via ses données mobiles (localisations, déplacements et photos). Contempler les sculptures revient à contempler leurs expériences.

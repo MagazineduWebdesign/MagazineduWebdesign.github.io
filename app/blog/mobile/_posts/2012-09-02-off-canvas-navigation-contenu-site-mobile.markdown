@@ -27,13 +27,20 @@ viatitle:
 <p>L’espace non alloué à la navigation sur l’écran peut ainsi être affecté à des sections plus importantes pour l’expérience utilisateur. Rien de superflu n’est donc proposé tant qu’aucune action n’est effectuée. Tout reste disponible en seul clic pour les petites résolutions d’écran.</p>
 <p>Lorsque la résolution est plus large, la section cachée est visible et accessible sans qu’aucun clic ne soit requis.</p>
 <p>Testez par vous même le off-canvas sur un le nouveau site Web responsive The Next Web.</p>
-<div id="attachment_2296" class="wp-caption alignnone" style="width: 356px"><img class="size-full wp-image-2296 " title="TNW version mobile responsive" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg" alt="TheNextWeb - version mobile responsive" width="346" height="250"><p class="wp-caption-text"><a title="thenextweb.com" href="http://thenextweb.com" target="_blank">thenextweb.com</a> – Off-canvas disponible sur les résolutions mobile.</p></div>
+<figure>
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg" alt="TheNextWeb - version mobile responsive" title="TNW version mobile responsive" width="356"><br />
+  <figcaption><a title="thenextweb.com" href="http://thenextweb.com" target="_blank">thenextweb.com</a> – Off-canvas disponible sur les résolutions mobile.</figcaption>
+</figure>
 <p>Ok ! c’est bien cool tout ça, mais comment intégrer une architecture off-canvas sur un site responsive sans y passer des heures ?</p>
 <h2>Création d’un off-canvas sur un site mobile responsive</h2>
 <p>Voici quelques outils qui vous permettront de faire le job correctement sans suer du front.</p>
 <h3>Off-canvas avec Foundation</h3>
 <p>Les créateurs du fameux framework responsive nous offrent <a title="Mise en page off-canvas avec Foundation" href="http://www.zurb.com/playground/off-canvas-layouts" target="_blank">4 variantes de mises en page off-canvas</a> pour les résolutions mobiles.</p>
-<div id="attachment_2306" class="wp-caption alignnone" style="width: 560px"><img class="size-full wp-image-2306" title="Off-canvas Foundation" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-foundation.jpg" alt="Off-canvas Foundation" width="550" height="365"><p class="wp-caption-text">4 templates responsive avec une mise en page off-canvas par Foundation.</p></div>
+
+<figure>
+  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-foundation.jpg" alt="Off-canvas Foundation" width="550"><br />
+  <figcaption>4 templates responsive avec une mise en page off-canvas par Foundation.</figcaption>
+</figure>
 <p>Avec ces templates responsive, l’adaptation progressive aux écrans mobiles peut se faire de diverses manières. Le template 1 transfère la navigation en footer et cache la sidebar dans un volet hors-écran. Le template 2 conserve la navigation en header sur mobile et dissimule la sidebar hors-écran. Les sections <em>navigation</em> et <em>sidebar</em>&nbsp;des templates 1 et 2 sont accessibles via deux boutons en header.&nbsp;Le template 3 adapte la navigation en une suite de tabs dont chacun des contenus est accessible par sliding.</p>
 <p>Le dernier template se rapproche le plus de ce qui est présenté dans cet article, à savoir l’insertion de la <strong>navigation en off-canvas</strong> pour la version mobile du template. Le volet est accessible en un clic via un bouton en header.</p>
 <div id="attachment_2326" class="wp-caption alignnone" style="width: 565px"><img class="size-full wp-image-2326" title="Foundation template responsive off-canvas" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/foundation-template-responsive-off-canvas.jpg" alt="Foundation template responsive off-canvas" width="555" height="366"><p class="wp-caption-text">Foundation – template responsive off-canvas.</p></div>

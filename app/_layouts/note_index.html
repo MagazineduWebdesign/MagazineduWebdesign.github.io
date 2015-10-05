@@ -64,7 +64,7 @@ layout: default
   <div class="note-index current-page" data-page="briefs">
   <!-- source group list items by date http://stackoverflow.com/a/20777475/4376200 -->
   {% assign notes = site.note | reverse %}
-  {% for note in notes limit: 5 %}
+  {% for note in notes limit: 10 %}
     {% capture currentday %}
       {% assign A = note.date | date: "%A" %}
       {% case A %}
