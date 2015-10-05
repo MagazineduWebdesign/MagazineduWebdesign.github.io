@@ -7,6 +7,30 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Yume &amp;ndash; Helios</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 05 Oct 2015 17:24:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/yume-par-helios</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/yume-par-helios</guid>
+			</item>
+		
+			<item>
+				<title>inForm</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Sun, 04 Oct 2015 17:24:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/inform-sculpter-son-experience</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/inform-sculpter-son-experience</guid>
+			</item>
+		
+			<item>
 				<title>Trailer Design Disruptors &amp;ndash; Documentaire par InVision</title>
 				        
 				
@@ -2024,6 +2048,18 @@
 				<pubDate>Sat, 11 Jul 2015 17:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/samsung-galaxy-s6-demo</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/samsung-galaxy-s6-demo</guid>
+			</item>
+		
+			<item>
+				<title>Ginventory</title>
+				        
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 11 Jul 2015 17:24:57 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/ginventory</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/ginventory</guid>
 			</item>
 		
 			<item>
@@ -8754,27 +8790,15 @@ Pour en savoir plus sur l’accessibilité Web, consultez le site de l’&lt;a h
 &lt;p&gt;L’espace non alloué à la navigation sur l’écran peut ainsi être affecté à des sections plus importantes pour l’expérience utilisateur. Rien de superflu n’est donc proposé tant qu’aucune action n’est effectuée. Tout reste disponible en seul clic pour les petites résolutions d’écran.&lt;/p&gt;
 &lt;p&gt;Lorsque la résolution est plus large, la section cachée est visible et accessible sans qu’aucun clic ne soit requis.&lt;/p&gt;
 &lt;p&gt;Testez par vous même le off-canvas sur un le nouveau site Web responsive The Next Web.&lt;/p&gt;
-&lt;div id=&quot;attachment_2296&quot; class=&quot;wp-caption alignnone&quot; style=&quot;width: 356px&quot;&gt;&lt;img class=&quot;size-full wp-image-2296 &quot; title=&quot;TNW version mobile responsive&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg&quot; alt=&quot;TheNextWeb - version mobile responsive&quot; width=&quot;346&quot; height=&quot;250&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;&lt;a title=&quot;thenextweb.com&quot; href=&quot;http://thenextweb.com&quot; target=&quot;_blank&quot;&gt;thenextweb.com&lt;/a&gt; – Off-canvas disponible sur les résolutions mobile.&lt;/p&gt;&lt;/div&gt;
+&lt;figure&gt;
+  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg&quot; alt=&quot;TheNextWeb - version mobile responsive&quot; title=&quot;TNW version mobile responsive&quot; width=&quot;356&quot; /&gt;&lt;br /&gt;
+  &lt;figcaption&gt;&lt;a title=&quot;thenextweb.com&quot; href=&quot;http://thenextweb.com&quot; target=&quot;_blank&quot;&gt;thenextweb.com&lt;/a&gt; – Off-canvas disponible sur les résolutions mobile.&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Ok ! c’est bien cool tout ça, mais comment intégrer une architecture off-canvas sur un site responsive sans y passer des heures ?&lt;/p&gt;
 &lt;h2&gt;Création d’un off-canvas sur un site mobile responsive&lt;/h2&gt;
 &lt;p&gt;Voici quelques outils qui vous permettront de faire le job correctement sans suer du front.&lt;/p&gt;
 &lt;h3&gt;Off-canvas avec Foundation&lt;/h3&gt;
 &lt;p&gt;Les créateurs du fameux framework responsive nous offrent &lt;a title=&quot;Mise en page off-canvas avec Foundation&quot; href=&quot;http://www.zurb.com/playground/off-canvas-layouts&quot; target=&quot;_blank&quot;&gt;4 variantes de mises en page off-canvas&lt;/a&gt; pour les résolutions mobiles.&lt;/p&gt;
-&lt;div id=&quot;attachment_2306&quot; class=&quot;wp-caption alignnone&quot; style=&quot;width: 560px&quot;&gt;&lt;img class=&quot;size-full wp-image-2306&quot; title=&quot;Off-canvas Foundation&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-foundation.jpg&quot; alt=&quot;Off-canvas Foundation&quot; width=&quot;550&quot; height=&quot;365&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;4 templates responsive avec une mise en page off-canvas par Foundation.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Avec ces templates responsive, l’adaptation progressive aux écrans mobiles peut se faire de diverses manières. Le template 1 transfère la navigation en footer et cache la sidebar dans un volet hors-écran. Le template 2 conserve la navigation en header sur mobile et dissimule la sidebar hors-écran. Les sections &lt;em&gt;navigation&lt;/em&gt; et &lt;em&gt;sidebar&lt;/em&gt;&amp;nbsp;des templates 1 et 2 sont accessibles via deux boutons en header.&amp;nbsp;Le template 3 adapte la navigation en une suite de tabs dont chacun des contenus est accessible par sliding.&lt;/p&gt;
-&lt;p&gt;Le dernier template se rapproche le plus de ce qui est présenté dans cet article, à savoir l’insertion de la &lt;strong&gt;navigation en off-canvas&lt;/strong&gt; pour la version mobile du template. Le volet est accessible en un clic via un bouton en header.&lt;/p&gt;
-&lt;div id=&quot;attachment_2326&quot; class=&quot;wp-caption alignnone&quot; style=&quot;width: 565px&quot;&gt;&lt;img class=&quot;size-full wp-image-2326&quot; title=&quot;Foundation template responsive off-canvas&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/foundation-template-responsive-off-canvas.jpg&quot; alt=&quot;Foundation template responsive off-canvas&quot; width=&quot;555&quot; height=&quot;366&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Foundation – template responsive off-canvas.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;L’adaptation à vos besoins des templates est facilement réalisable à condition d’opérer dans l’environnement du framework Foundation.&lt;/p&gt;
-&lt;h3&gt;Off-canvas par&amp;nbsp;Jason Weaver&lt;/h3&gt;
-&lt;p&gt;Jason Weaver a conçu une approche responsive off-canvas en 3 volets. Dans &lt;a title=&quot;Jason Weaver off canvas&quot; href=&quot;http://jasonweaver.name/lab/offcanvas/&quot; target=&quot;_blank&quot;&gt;sa démo&lt;/a&gt;, il indique les étapes à suivre afin d’afficher et cacher une navigation et une section de contenu sur différentes résolutions via l’utilisation du &lt;strong&gt;JavaScript&lt;/strong&gt;, des &lt;strong&gt;media queries&lt;/strong&gt; et des &lt;strong&gt;CSS3 transitions&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-2307&quot; title=&quot;Off-canvas Jason Weaver&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-jasonweaver.jpg&quot; alt=&quot;Off-canvas Jason Weaver&quot; width=&quot;550&quot; height=&quot;365&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Sur les résolutions les plus étroites, une seul volet apparaît. Sur des résolutions supérieures, deux volets apparaissent pour finalement dévoiler les trois volets sur des résolutions «&amp;nbsp;desktop&amp;nbsp;».&lt;/p&gt;
-&lt;h3&gt;Off-canvas avec&amp;nbsp;jPanelMenu&lt;/h3&gt;
-&lt;p&gt;Les loisirs d’Anthony Colangelo n’ont rien en commun avec ceux de la plupart d’entre nous. En tant que développeur, il aime travailler sur de nouveaux projets jQuery et les partager avec le plus grand nombre sur son profil&amp;nbsp;Github. Son dernier bébé se nomme &lt;a title=&quot;jpanelmenu.com&quot; href=&quot;http://jpanelmenu.com/&quot; target=&quot;_blank&quot;&gt;jPanelMenu&lt;/a&gt;. Il s’agit d’un plugin jQuery créé pour imiter le comportement de nombreuses applications iOS et Android en matière de navigation : un panel contenant la navigation accessible via les trois barres symbolisant l’accès au menu.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-2308&quot; title=&quot;Off-canvas jPanelMenu&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-jPanelMenu.jpg&quot; alt=&quot;Off-canvas jPanelMenu&quot; width=&quot;550&quot; height=&quot;329&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Cette navigation off-canvas est particulièrement bien adaptée pour les approches responsive. Colangelo recommande l’utilisation du plugin jQuery&amp;nbsp;jRespond afin de contrôler l’activation du off-canvas en fonction des points de rupture.&lt;/p&gt;
-&lt;h2&gt;Quelques mots pour conclure&lt;/h2&gt;
-&lt;p&gt;Je pense que la mise en page off-canvas est une approche pertinente pour la réalisation d’un site mobile. Elle permet de lutter efficacement contre la verticalité des pages sur mobile en relayant hors-écran les sections secondaires au contenu tel qu’un menu de navigation ou une sidebar. Inséré au sein d’une approche responsive, le off-canvas permet de bénéficier d’un ajustement progressif. Sur les résolutions les plus grandes, le contenu hors-écran devient visible pour l’utilisateur et accessible sans qu’aucune action ne soit requise.&lt;/p&gt;
 
 </description>
 				
