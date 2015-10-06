@@ -11,4 +11,4 @@ I will soon provide a clear and concise foundational setup for this theme.
 * Usage
 * Options with example templates, pages, posts, and styles.
 
-Meanwhile, you could download the source branch and make it your own.
+Meanwhile, you could copy the source branch and make it your own.
