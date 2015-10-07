@@ -6490,7 +6490,7 @@ Pour en savoir plus sur l’accessibilité Web, consultez le site de l’&lt;a h
 &lt;h2&gt;&lt;span style=&quot;color: #888888;&quot;&gt;2.&lt;/span&gt; Pensez utilisateur avant device&lt;/h2&gt;
 &lt;p&gt;Etudier son audience est la base d’un projet réussi. La mise en place d’une phase de recherche vous permettra de comparer les attentes utilisateurs aux&amp;nbsp;vôtres&amp;nbsp;et ainsi ajuster le périmètre de votre projet. Ce n’est qu’après cette étape que vous connaîtrez le bon chemin à emprunter.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-mobile-contexte-usage.jpg&quot; alt=&quot;Web mobile - contexte et usage&quot; width=&quot;500&quot; height=&quot;333&quot; /&gt;
+  &lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-mobile-contexte-usage.jpg&quot; alt=&quot;Web mobile - contexte et usage&quot; width=&quot;500&quot; height=&quot;333&quot; /&gt;
   &lt;figcaption&gt;(Image – &lt;a title=&quot;Denis Dervisevic&quot; href=&quot;http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream&quot; target=&quot;_blank&quot;&gt;Denis Dervisevic&lt;/a&gt;)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;De nombreux facteurs dans un projet peuvent être un obstacle durant cette phase de recherche. &lt;strong&gt;Ne visez pas la perfection, essayez, échouez et recommencez !&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
@@ -6509,7 +6509,7 @@ Pour en savoir plus sur l’accessibilité Web, consultez le site de l’&lt;a h
 &lt;h2&gt;&lt;span style=&quot;color: #888888;&quot;&gt;6.&lt;/span&gt; Optez pour l’ajustement progressif&lt;/h2&gt;
 &lt;p&gt;Il est pratiquement impossible d’optimiser une expérience mobile pour tous les terminaux de la planète. Il est néanmoins facile d’assurer un seuil d’&lt;a title=&quot;40 points à checker pour atteindre le nirvāṇa de l’accessibilité Web&quot; href=&quot;http://magazineduwebdesign.com/accessibilite-web-ckecklist&quot;&gt;accessibilité&lt;/a&gt; minimum pour une grande majorité de devices en recourant à l’&lt;strong&gt;ajustement progressif&lt;/strong&gt;. Une version dégradée mais néanmoins accessible sur un Nokia X2-01 offrira un accès à vos contenus à des millions de personnes à travers le monde. Pour vous en convaincre, lisez cet article&amp;nbsp;&lt;a title=&quot;See your site like the rest of the world does. On the Nokia X2-01 &quot; href=&quot;http://generatedcontent.org/post/31441135779/mobileweb-row&quot; target=&quot;_blank&quot;&gt;See your site like the rest of the world does. On the Nokia X2-01&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/tumblr_ma9mnfEKBF1qmllqg.jpg&quot; alt=&quot;Ajustement progressif mobile&quot; width=&quot;434&quot; height=&quot;406&quot; /&gt;
+  &lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/tumblr_ma9mnfEKBF1qmllqg.jpg&quot; alt=&quot;Ajustement progressif mobile&quot; width=&quot;434&quot; height=&quot;406&quot; /&gt;
   &lt;figcaption&gt;(Image – &lt;a title=&quot;Denis Dervisevic&quot; href=&quot;http://www.flickr.com/photos/denisdervisevic/4568726847/in/photostream&quot; target=&quot;_blank&quot;&gt;Denis Dervisevic&lt;/a&gt;)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Offrez une expérience fonctionnelle à la plupart des personnes qui n’ont pas le dernier smartphone à la mode en Occident et présentez une expérience utilisateur plus qualitative pour les terminaux mobiles de votre coeur de cible.&lt;/p&gt;
@@ -8791,7 +8791,7 @@ Pour en savoir plus sur l’accessibilité Web, consultez le site de l’&lt;a h
 &lt;p&gt;Lorsque la résolution est plus large, la section cachée est visible et accessible sans qu’aucun clic ne soit requis.&lt;/p&gt;
 &lt;p&gt;Testez par vous même le off-canvas sur un le nouveau site Web responsive The Next Web.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img class=&quot;left&quot; src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg&quot; alt=&quot;TheNextWeb - version mobile responsive&quot; title=&quot;TNW version mobile responsive&quot; width=&quot;356&quot; /&gt;&lt;br /&gt;
+  &lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg&quot; alt=&quot;TheNextWeb - version mobile responsive&quot; title=&quot;TNW version mobile responsive&quot; width=&quot;356&quot; /&gt;&lt;br /&gt;
   &lt;figcaption&gt;&lt;a title=&quot;thenextweb.com&quot; href=&quot;http://thenextweb.com&quot; target=&quot;_blank&quot;&gt;thenextweb.com&lt;/a&gt; – Off-canvas disponible sur les résolutions mobile.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Ok ! c’est bien cool tout ça, mais comment intégrer une architecture off-canvas sur un site responsive sans y passer des heures ?&lt;/p&gt;
