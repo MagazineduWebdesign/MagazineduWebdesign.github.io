@@ -28,7 +28,7 @@ viatitle:
 <p>Lorsque la résolution est plus large, la section cachée est visible et accessible sans qu’aucun clic ne soit requis.</p>
 <p>Testez par vous même le off-canvas sur un le nouveau site Web responsive The Next Web.</p>
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg" alt="TheNextWeb - version mobile responsive" title="TNW version mobile responsive" width="356"><br />
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/thenextweb-version-mobile-responsive.jpg" alt="TheNextWeb - version mobile responsive" title="TNW version mobile responsive" width="356"><br />
   <figcaption><a title="thenextweb.com" href="http://thenextweb.com" target="_blank">thenextweb.com</a> – Off-canvas disponible sur les résolutions mobile.</figcaption>
 </figure>
 <p>Ok ! c’est bien cool tout ça, mais comment intégrer une architecture off-canvas sur un site responsive sans y passer des heures ?</p>
@@ -38,7 +38,7 @@ viatitle:
 <p>Les créateurs du fameux framework responsive nous offrent <a title="Mise en page off-canvas avec Foundation" href="http://www.zurb.com/playground/off-canvas-layouts" target="_blank">4 variantes de mises en page off-canvas</a> pour les résolutions mobiles.</p>
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-foundation.jpg" alt="Off-canvas Foundation" width="550"><br />
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/offcanvas-foundation.jpg" alt="Off-canvas Foundation" width="550"><br />
   <figcaption>4 templates responsive avec une mise en page off-canvas par Foundation.</figcaption>
 </figure>
 <p>Avec ces templates responsive, l’adaptation progressive aux écrans mobiles peut se faire de diverses manières. Le template 1 transfère la navigation en footer et cache la sidebar dans un volet hors-écran. Le template 2 conserve la navigation en header sur mobile et dissimule la sidebar hors-écran. Les sections <em>navigation</em> et <em>sidebar</em>&nbsp;des templates 1 et 2 sont accessibles via deux boutons en header.&nbsp;Le template 3 adapte la navigation en une suite de tabs dont chacun des contenus est accessible par sliding.</p>

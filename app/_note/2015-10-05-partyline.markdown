@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Un outil qui permet aux équipes de créer, supprimer et gérer un projet GitHub sans quitter le chat de Slack.
+Un outil qui permet aux équipes de gérer un projet GitHub sans quitter le chat de Slack.
