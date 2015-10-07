@@ -22,6 +22,6 @@ rating: "8"
 
 Je devrais également le relire. Le sujet paraît plutôt simple de prime abord : apprendre à être gentil et à traiter les autres comme nous souhaiterions être traités. Dans la réalité, cela n'est pas si simple. L'intelligence émotionnelle n'est pas innée. A l'instar des arts et des sciences, cela s'apprend et se cultive au fil du temps.
 
-Une excellente lecture si vous êtes amenés à collaborer quotidiennement avec des êtres humains. Votre vie n'en sera que plus positive :-).
+Une excellente lecture si vous êtes amené à collaborer quotidiennement avec des êtres humains. Votre vie n'en sera que plus positive :-).
 
 Pour les anglophiles, je vous conseille la [version originale](http://www.amazon.fr/gp/product/1439199191/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=1439199191&linkCode=as2&tag=mdw-21) récemment mise à jour.

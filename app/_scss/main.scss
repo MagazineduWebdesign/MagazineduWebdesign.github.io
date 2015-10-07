@@ -144,7 +144,7 @@ $paypal:#003087;
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.titre-modal-box{font-family:$font-family-sans-serif;font-size:$h1-font-size;line-height: 1.1;}
+.titre-modal-box{font-family:$font-family-sans-serif;font-size:$h2-font-size;line-height: 1.1;}
 .twitter{color:$twitter!important}
 .label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
