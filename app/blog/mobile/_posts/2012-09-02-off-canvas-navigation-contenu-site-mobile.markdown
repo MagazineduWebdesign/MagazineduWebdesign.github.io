@@ -43,7 +43,10 @@ viatitle:
 </figure>
 <p>Avec ces templates responsive, l’adaptation progressive aux écrans mobiles peut se faire de diverses manières. Le template 1 transfère la navigation en footer et cache la sidebar dans un volet hors-écran. Le template 2 conserve la navigation en header sur mobile et dissimule la sidebar hors-écran. Les sections <em>navigation</em> et <em>sidebar</em>&nbsp;des templates 1 et 2 sont accessibles via deux boutons en header.&nbsp;Le template 3 adapte la navigation en une suite de tabs dont chacun des contenus est accessible par sliding.</p>
 <p>Le dernier template se rapproche le plus de ce qui est présenté dans cet article, à savoir l’insertion de la <strong>navigation en off-canvas</strong> pour la version mobile du template. Le volet est accessible en un clic via un bouton en header.</p>
-<div id="attachment_2326" class="wp-caption alignnone" style="width: 565px"><img class="size-full wp-image-2326" title="Foundation template responsive off-canvas" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/foundation-template-responsive-off-canvas.jpg" alt="Foundation template responsive off-canvas" width="555" height="366"><p class="wp-caption-text">Foundation – template responsive off-canvas.</p></div>
+<figure>
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/foundation-template-responsive-off-canvas.jpg" alt="Foundation template responsive off-canvas" title="Foundation template responsive off-canvas" width="555"><br />
+  <figcaption>Foundation – template responsive off-canvas.</figcaption>
+</figure> 
 <p>L’adaptation à vos besoins des templates est facilement réalisable à condition d’opérer dans l’environnement du framework Foundation.</p>
 <h3>Off-canvas par&nbsp;Jason Weaver</h3>
 <p>Jason Weaver a conçu une approche responsive off-canvas en 3 volets. Dans <a title="Jason Weaver off canvas" href="http://jasonweaver.name/lab/offcanvas/" target="_blank">sa démo</a>, il indique les étapes à suivre afin d’afficher et cacher une navigation et une section de contenu sur différentes résolutions via l’utilisation du <strong>JavaScript</strong>, des <strong>media queries</strong> et des <strong>CSS3 transitions</strong>.</p>

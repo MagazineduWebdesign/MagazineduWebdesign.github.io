@@ -58,7 +58,7 @@ layout: default
 		</header>
 	</div>
 
-	<div class="row-liste-index">
+	<div class="row-liste-index hide">
 	  <div class="small-12 columns section-header">
 	    <!-- Number of item in brief emails archive -->
 		  {% for brief in site.data.brief-emails-index %}
@@ -68,7 +68,7 @@ layout: default
 	  </div>
 	</div>
 
-	<div class="row-liste-index">
+	<div class="row-liste-index hide">
 		  <main class="small-12 columns section-carte-index-panel">
 				{% for brief in site.data.brief-emails-index  %}
 					<a href="{{ brief.url }}" title="{{ brief.objet }}" target="_blank">

@@ -1,0 +1,23 @@
+- name: DESIGN
+  permalink: /design/
+
+- name: DEVELOPPEMENT
+  permalink: /developpement/
+
+- name: FUN
+  permalink: /fun/
+
+- name: GRAPHISME
+  permalink: /graphisme/
+
+- name: MOBILE
+  permalink: /mobile/
+
+- name: RESSOURCES
+  permalink: /ressources/
+
+- name: UX DESIGN
+  permalink: /ux-design/
+
+- name: WORDPRESS
+  permalink: /wordpress/
