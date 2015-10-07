@@ -1,7 +1,7 @@
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign)
 
 #Magazine du Webdesign
-This repo contains the [Jekyll](http://jekyllrb.com/) source for the publishing platform Magazine du Webdesign. Visit [the live version](http://magazineduwebdesign.com) to see the theme in action.
+This repo contains the [Jekyll](http://jekyllrb.com/) source for the publishing platform Magazine du Webdesign. Visit [the live version](http://magazineduwebdesign.github.io) to see the theme in action.
 
 It's designed and developed by [@guillaumpalayer](https://twitter.com/guillaumpalayer) to build and deploy this side project.
 
