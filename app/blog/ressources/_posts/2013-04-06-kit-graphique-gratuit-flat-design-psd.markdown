@@ -18,7 +18,6 @@ viatitle:
 
 <p>Les <strong>templates d’interface graphique</strong> sont également un bon moyen d’obtenir un design sympa pour un site Web ou une application si vos compétences en webdesign ne sont pas aussi développées que celles en développement front.</p>
 <p>Aujourd’hui, j’ai sélectionné pour vous&nbsp;50 kits graphiques élaborés dans un style Flat. C’est-à-dire designés dans un style&nbsp;faisant <em>abstraction des éléments purement décoratifs. Les dégradés, les reliefs, les volumes, les formes réalistes sont gommés..</em>.</p>
-<p style="text-align: center;"><a onclick="_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad 468x60 top article', 7]);" href="http://designmodo.com/flat?u=356" rel="attachment wp-att-5728" target="_blank"><img class="aligncenter size-full wp-image-5728" title="flatui_kit-psd-html-small" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/flatui_kit-psd-html-small.jpg" alt="flatui_kit-psd-html" width="468" height="60"></a></p>
 <p><strong>Cela pourrait également vous intéresser :</strong><br>
 <a href="http://magazineduwebdesign.com/flat-design-galerie-inspiration">@fltdsgn – une galerie d’inspiration flat design</a><br>
 <a href="http://magazineduwebdesign.com/theme-wordpress-flat-design">Flat design et Thèmes WordPress – 15 exemples à suivre</a><br>
@@ -133,4 +132,3 @@ viatitle:
 <p><a href="http://dribbble.com/shots/1001119-Flat-Display-Tablet" target="_blank">Flat Display &amp; Tablet</a></p>
 <p><img class="alignnone size-full wp-image-4437" title="52-displays" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/52-displays.jpg" alt="52-displays" width="555" height="416"></p>
 <p>Ne perdez pas votre temps à réinventer la roue, utilisez <a onclick="_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad anchor bottom article', 7]);" href="http://designmodo.com/flat?u=356" target="_blank"><strong>Flat UI Pro</strong></a>, le kit PSD &amp; HTML compatible avec Twitter Bootstrap.</p>
-<p><a title="Kit Flat UI Pro" onclick="_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad 336x280 bottom article', 7]);" href="http://designmodo.com/flat?u=356" rel="attachment wp-att-5724" target="_blank"><img class="aligncenter size-full wp-image-5724" title="flatui_336_280" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/flatui_336_280.jpg" alt="Kit Flat UI Pro" width="336" height="280"></a></p>

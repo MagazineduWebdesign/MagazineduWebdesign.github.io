@@ -1,18 +1,18 @@
-- name: GLANCES
+- name: Glances
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/composants-ui/glances/
 
 - name: Modal sheets
   permalink: /inspiration/ui-design/apple-watch/composants-ui/modal-sheets/
 
-- name: navigation
+- name: Navigation
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/composants-ui/navigation/
 
-- name: NOTIFICATIONS
+- name: Notifications
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/composants-ui/notifications/
 
-- name: watchkit apps
+- name: Watchkit Apps
   currentnav:
   permalink: /inspiration/ui-design/apple-watch/composants-ui/watchkit-apps/

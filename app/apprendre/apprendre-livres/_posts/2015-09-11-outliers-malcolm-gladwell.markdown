@@ -20,4 +20,4 @@ description: "Récit du succès"
 rating: "8"
 ---
 
-Avec Outliers, Malcolm Gladwell explore la recette des personnes semblant avoir réussies dans la vie. Est-ce du à leur dur labeur, à la chance, à leurs prédispositions naturelles ? Existe-il un modèle de réussite ? Un bouquin que l'on peut classer dans la catégorie des grands classiques au même rang que [*Atteindre l'excellence*](http://magazineduwebdesign.com/atteindre-l-excellence-robert-greene/) de Robert Greene.
+Avec Outliers, Malcolm Gladwell explore la recette des personnes semblant avoir réussi dans la vie. Est-ce dû à leur dur labeur, à la chance, à leurs prédispositions naturelles ? Existe-il un modèle de réussite ? Un bouquin que l'on peut classer dans la catégorie des grands classiques au même rang que [*Atteindre l'excellence*](http://magazineduwebdesign.com/atteindre-l-excellence-robert-greene/) de Robert Greene.

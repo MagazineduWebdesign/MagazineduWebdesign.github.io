@@ -9,9 +9,9 @@ category: "videos"
 tags:
 - videos-product-management
 - videos-design
-intro: "Comment le design est devenu le nouveau langage des affaires ?"
-description: "Comment le design est devenu le nouveau langage des affaires ?"
+intro: "Découvrez comment le design est devenu le nouveau langage des affaires"
+description: "Découvrez comment le design est devenu le nouveau langage des affaires"
 id-vimeo: "140875675"
 viaurl: "http://www.designdisruptors.com/"
-viatitle: "designdisruptors"
+viatitle: "design disruptors"
 ---

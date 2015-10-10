@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Opera TV &ndash; Store"
+title: "Opera TV – Store"
 date: "2015-07-24 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

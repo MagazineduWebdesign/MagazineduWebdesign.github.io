@@ -10,7 +10,7 @@ layout: default
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline">{{ page.title }}</h1>
-          {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank" rel="nofollow">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
+          {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
         </div>
         <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
           {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">DEMO</a>{% endif %}
@@ -149,12 +149,12 @@ layout: default
             {% endif %}
 
             {% if page.plateformes %}
-              <li class="article-meta-data-header-title">Plate-formes</li>
+              <li class="article-meta-data-header-title">Plate-forme</li>
               <li role="menuitem"><a href="{{ page.plateformes-url }}" title="Explorer la collection {{ page.plateformes }}">{{ page.plateformes | upcase }}</a></li>
             {% endif %}
 
             {% if page.constructeurs %}
-              <li class="article-meta-data-header-title">Constructeurs</li>
+              <li class="article-meta-data-header-title">Constructeur</li>
               <li role="menuitem"><a href="{{ page.constructeurs-url }}" title="Explorer la collection {{ page.constructeurs }}">{{ page.constructeurs | upcase }}</a></li>
             {% endif %}
           </ul>

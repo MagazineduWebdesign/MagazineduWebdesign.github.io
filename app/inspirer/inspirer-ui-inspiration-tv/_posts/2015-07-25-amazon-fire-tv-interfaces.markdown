@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Amazon Fire TV &ndash; Interfaces"
+title: "Amazon Fire TV – Interfaces"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

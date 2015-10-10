@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Concept App TV &ndash; NetFlix"
+title: "Concept App TV – NetFlix"
 date: "2015-07-23 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

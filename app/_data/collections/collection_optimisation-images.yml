@@ -10,12 +10,12 @@
 
 - title: "Freeimage"
   href: "http://freeimage.sourceforge.net/"
-  desc: "Une librairie open source pour les développeurs souhaitant appliquer une multitude de traitements sur des images PNG, BMP, JPEG, TIFF, etc. Une alternatie sérieuse à GraphicsMagick et ImageMagick qui peinent à traiter des volumes d'images importants (ex: 100K - 1M)"
+  desc: "Une librairie open source pour les développeurs souhaitant appliquer une multitude de traitements sur des images PNG, BMP, JPEG, TIFF, etc. Une alternative sérieuse à GraphicsMagick et ImageMagick qui peinent à traiter des volumes d'images importants (ex: 100K - 1M)"
   image: "freeimage.jpg"
 
 - title: "TinyJPG"
   href: "https://tinyjpg.com/"
-  desc: "Compresser des images JPG."
+  desc: "Plateforme de compression des images JPG et PNG. Une API est disponible pour automatiser votre workflow."
   image: "tinypng.png"
 
 - title: "ImageOptim"
@@ -40,7 +40,7 @@
 
 - title: "Kraken"
   href: "https://kraken.io/web-interface"
-  desc: "Optimiseur et compresseur d'images ultra-rapide. Réduisez votre consommation de bande passante et d'espace de stockage. Cela vous permettra de considérablement améliorer les temps de chargement de votre site."
+  desc: "Optimiseur et compresseur d'images ultra-rapide. Réduisez votre consommation de bande passante et d'espace de stockage. Cela vous permettra de considérablement améliorer les temps de chargement de vos applications."
   image: "kraken-logo.png"
 
 - title: "LWIP"

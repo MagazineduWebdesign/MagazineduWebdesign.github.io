@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Amazon Fire TV App &ndash; Vimeo"
+title: "Amazon Fire TV App – Vimeo"
 date: "2015-07-25 00:25:57"
 path1: "inspiration"
 path2: "ui-design"

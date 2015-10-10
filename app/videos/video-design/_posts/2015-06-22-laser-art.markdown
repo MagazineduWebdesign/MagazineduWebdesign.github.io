@@ -1,16 +1,16 @@
 ---
-layout: video
-title:  "Oubliez la peinture, achetez un laser"
-date:   2015-06-22 20:22:57
-path1: videos
-path2: ui-design
+layout: "video"
+title: "Oubliez la peinture, achetez un laser"
+date: "2015-06-22 20:22:57"
+path1: "videos"
+path2: "ui-design"
 path3:
-category: videos
+category: "videos"
 tags:
 - videos-ui-design
-intro: "Materiel nécessaire pour ce laser art : un fichier PDF de l'illustration importé directement dans l'app de contrôle du laser + un clavier avec une touche Enter"
-description: ""
-id-youtube: 0-Sf8ohG2aY
+intro: "Matériel nécessaire pour ce laser art : un PDF de l'illustration importé directement dans l'application contrôlant le laser + un clavier avec une touche <em>Enter</em>."
+description: "Matériel nécessaire pour ce laser art : un PDF de l'illustration importé directement dans l'application contrôlant le laser + un clavier avec une touche Enter"
+id-youtube: "0-Sf8ohG2aY"
 viaurl:
 viatitle:
 ---

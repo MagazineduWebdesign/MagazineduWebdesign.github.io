@@ -2,7 +2,7 @@
 layout: page-1-column
 title: Bienvenu(e), c'est un plaisir de vous compter parmi nous
 description: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences."
-intro: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
+intro: "Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
 permalink: "/salut/"
 ---
 <p class="text-center">Promis, il y aura plus de fun dans les prochains emails !</p>

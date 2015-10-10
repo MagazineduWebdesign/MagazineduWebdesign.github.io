@@ -20,7 +20,7 @@ image-2: "theme-wordpress-magnet-magazine-cnet-clone-2.jpg"
 image-3:
 image-4:
 image-5:
-intro: "Ce thème WordPress offre une structure idéale pour un site d'actualités. Basé sur la structure du géant des news techno cNet.com, Magnet permet à votre site d'adopter le design des news d'un grand nom sans le coût de développement associé. Si vous avez du contenu dormant sur un compte Evernote ou Trello, l'installation en cinq minutes de ce thème peut s'avérer rentable pour monétiser votre plume. Tester la démo pour vous avoir un aperçu."
-description: "Ce thème WordPress offre une structure idéale pour un site d'actualités."
+intro: "Ce thème WordPress offre une structure idéale pour un site d'actualités. Il est basé sur la mise en page du géant des news techno cNet.com. Si vous avez du contenu dormant sur un compte Evernote ou Trello, l'installation en cinq minutes de ce thème peut s'avérer rentable pour monétiser votre plume. Testez la démo pour avoir un aperçu."
+description: "Ce thème WordPress offre une structure idéale pour un site d'actualités. Il est basé sur la mise en page du géant des news techno cNet.com."
 rating: "6.5"
 ---

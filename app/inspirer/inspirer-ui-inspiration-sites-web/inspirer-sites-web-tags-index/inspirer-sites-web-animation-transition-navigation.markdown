@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-ui-sites-web_index"
-title: "Exemples de sites Web proposant des transitions de navigation"
+title: "Exemples de sites Web proposant des transitions de navigation sympas"
 tags: "sites-web-animation-transition-navigation"
 permalink: "/inspiration/ui-design/sites-web/animation/transition-navigation/"
 intro: "Collection d'animations lors de la transition entre deux vues au sein d'une application."

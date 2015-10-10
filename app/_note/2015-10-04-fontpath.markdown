@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-35 000 fonts accessibles dans une belle interface.
+35 000 fonts accessibles via une belle interface.

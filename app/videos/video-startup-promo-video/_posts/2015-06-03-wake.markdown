@@ -1,16 +1,16 @@
 ---
-layout: video
-title:  Wake - Collaborer entre designers
-date:   2015-06-03 17:22:57
-path1: videos
-path2: startup-promo
+layout: "video"
+title: "Wake - Collaborer entre designers"
+date: "2015-06-03 17:22:57"
+path1: "videos"
+path2: "startup-promo"
 path3:
-category: videos
+category: "videos"
 tags:
 - videos-startup-promo
 intro: "Un espace privé pour partager et discuter UI Design avec votre équipe."
 description: "Un espace privé pour partager et discuter UI Design avec votre équipe."
-id-youtube: GIalL5fkhPM
-viaurl: http://wake.io/
-viatitle: wake
+id-youtube: "GIalL5fkhPM"
+viaurl: "http://wake.io/"
+viatitle: "wake"
 ---

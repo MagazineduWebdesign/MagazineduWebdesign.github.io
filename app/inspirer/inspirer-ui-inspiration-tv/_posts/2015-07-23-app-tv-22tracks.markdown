@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Concept App TV &ndash; 22tracks"
+title: "Concept App TV – 22tracks"
 date: "2015-07-23 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

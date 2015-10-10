@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: "video"
 title:  "Design in Tech – John Maeda & la culture design dans la Silicon Valley"
 date:   "2015-06-22 22:22:57"
 path1: "videos"

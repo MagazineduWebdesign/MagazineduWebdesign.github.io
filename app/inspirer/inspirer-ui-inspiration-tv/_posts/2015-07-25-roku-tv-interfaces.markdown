@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Roku TV &ndash; Interfaces"
+title: "Roku TV – Interfaces"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

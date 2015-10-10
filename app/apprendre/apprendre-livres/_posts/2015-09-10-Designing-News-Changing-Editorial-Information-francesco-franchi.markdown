@@ -15,11 +15,11 @@ url-buy: "http://www.amazon.fr/gp/product/389955468X/ref=as_li_tl?ie=UTF8&camp=1
 pricecurrency: "€"
 price: "44"
 image: "Designing-News-Changing-Editorial-Information-francesco-franchi.gif"
-intro: "Francesco partage sa vision de l'histoire féconde, du présent difficile, et de l'avenir numérique des maisons de presse et d'édition traditionnelles."
-description: "Une vision de l'histoire féconde, du présent difficile, et de l'avenir numérique des maisons de presse et d'édition traditionnelles."
+intro: "Francesco partage sa vision de l'histoire féconde, du présent difficile, et de l'avenir numérique de la presse et des maisons d'édition traditionnelles."
+description: "Une vision de l'histoire féconde, du présent difficile, et de l'avenir numérique de la presse et des maisons d'édition traditionnelles."
 rating: "7"
 ---
 
 Le livre décrit les défis auxquels sont confrontés les maisons d'éditions, les journalistes et les designers de news. Avec son lot de boulversements, la transition numérique a également offert de formidables opportunités à cette industrie.
 
-*Designing News* explore les stratégies gagnantes adoptées par les médias qui ont su se transformer en plateformes de contenus multi-canal. Il s'agit d'un de mes derniers achats avec lequel j'ai pris plaisir à découvrir de nouvelles formes de contenus conçus via une approche du design renouvellée.
+*Designing News* explore les stratégies gagnantes adoptées par les médias qui ont su se transformer en plateformes de contenus multi-canal. Il s'agit d'un de mes derniers achats avec lequel j'ai pris plaisir à découvrir de nouvelles formes de contenus conçus avec une approche du design renouvellée.

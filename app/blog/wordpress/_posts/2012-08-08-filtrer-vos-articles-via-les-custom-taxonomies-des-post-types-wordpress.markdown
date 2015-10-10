@@ -2,7 +2,7 @@
 title: Filtrer vos articles via les custom taxonomies des post types WordPress
 date: 2012-08-08 17:22:56
 category: wordpress
-tags: 
+tags:
 - techniques
 - tutoriels
 intro: Parcourir un portfolio, une bibliothèque d’objets, une liste d'items n'est pas toujours aisé lorsque une grande quantité d'informations y est présentée. Avec l'avènement des custom post types WordPress, il est possible de créer facilement des listes d'items accompagnées d'un système de filtres.
@@ -15,9 +15,6 @@ keyword_desc:
 ---
 
 Via cette solution de tri, l’utilisabilité de votre site Web s’en trouvera fortement améliorée, en simplifiant la navigation et en réduisant le temps de recherche. Dans ce tutoriel, vous trouverez les codes sources, les instructions et nos conseils pour parvenir à filtrer vos custom posts via les taxonomies des custom post types WordPress.
-
-[Télécharger la démo](https://www.google.com "Google's Homepage")
-
 
 ##Quelles fonctions WordPress utiliser ?
 WordPress est votre ami. Vous avez besoin de quelques unes de ses fonctions :
@@ -112,7 +109,7 @@ function custom_taxonomie_filtre_genres_livres() { ?>
 	<div id="filtres"><a id="tous" class="current" href="#"> Tous </a>
 	<?php if ( is_array($tous_termes) && count($tous_termes) --> 0 ): ?>
 	<?php $terme_arr = array_unique($tous_termes);
-	 	foreach( $terme_arr as $terme ): 
+	 	foreach( $terme_arr as $terme ):
 	 		$sort = get_term_by('name', $terme, 'type');?-->
 	 	<?php endforeach; ?>
 	<?php endif; ?></div>

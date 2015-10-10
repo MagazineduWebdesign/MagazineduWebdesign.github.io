@@ -22,4 +22,4 @@ rating: "8"
 
 Il s'agit d'un de mes premiers livres sur le sujet. Avec Laura Klein, j'ai pu en toute simplicité reproduire ses méthodologies de recherche et de design d'UX.
 
-Laissez de côté les blouses blanches, les accélérateurs de particules, les parcours utilisateurs de 2 kilomètres, les personas descriptifs que tout le monde pense prédictifs. Rien tout ça n'apparaît dans *UX for lean startups*, juste de la simplicité et du bon sens pour proposer les solutions les plus adéquates à vos utilisateurs et à votre startup. En lisant ce livre, vous découvrirez pourquoi, quand et surtout comment "faire de l'UX".
+Laissez de côté les blouses blanches, les accélérateurs de particules, les parcours utilisateurs de 2 kilomètres, les personas descriptifs que tout le monde pense prédictifs. Rien de tout ça n'apparaît dans *UX for lean startups*, juste de la simplicité et du bon sens pour proposer les solutions les plus adéquates à vos utilisateurs et à votre startup. En lisant ce livre, vous découvrirez pourquoi, quand et surtout comment "faire de l'UX".

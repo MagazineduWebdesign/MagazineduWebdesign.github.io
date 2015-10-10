@@ -20,10 +20,10 @@ image-2: "theme-wordpress-apollo-documentation-centre-aide-2.jpg"
 image-3: "theme-wordpress-apollo-documentation-centre-aide-3.jpg"
 image-4:
 image-5:
-intro: "Si vous cherchez à construite une plateforme de documentation pour un projet ou bien un centre d'aide pour un site Web, le thème Apollo répondra merveilleusement bien à vos besoins. Plus de détails à la suite des images."
-description: "Si vous cherchez à construite une plateforme de documentation pour un projet ou bien un centre d'aide pour un site Web, le thème Apollo répondra merveilleusement bien à vos besoins."
+intro: "Si vous cherchez à construire une plateforme de documentation pour un projet ou bien un centre d'aide en ligne, le thème Apollo répondra merveilleusement bien à vos besoins. Plus de détails à la suite des images."
+description: "Si vous cherchez à construire une plateforme de documentation pour un projet ou bien un centre d'aide en ligne, le thème Apollo répondra merveilleusement bien à vos besoins."
 rating: "7"
 ---
 Doté d'une landing page offrant un moteur de recherche central et des cartes réprésentant les points d'entrée vers vos contenus, Apollo sera orienter à la perfection vos utilisateurs.
 
-Le design est propre et l'ensemble est super rapide à configurer. Le petit plus : la vidéo en background apportant une dynamique aux contenus plutôt froid d'une doc en ligne. Dommage pour la performance en front.
+Le design est propre et l'ensemble est super rapide à configurer. Le petit plus : la vidéo en background apportant une dynamique aux contenus plutôt froid d'une doc en ligne.

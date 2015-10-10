@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Concept Android TV &ndash; HBO Go"
+title: "Concept Android TV – HBO Go"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

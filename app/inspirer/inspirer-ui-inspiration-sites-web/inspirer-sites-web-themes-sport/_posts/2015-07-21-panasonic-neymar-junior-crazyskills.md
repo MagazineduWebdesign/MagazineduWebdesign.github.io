@@ -50,6 +50,6 @@ composant-ui-url-3:
 url-demo: "https://crazyskills.panasonic.com/"
 image: "panasonic-neymar-junior-crazyskills.jpg"
 image-2:
-intro: "Joue-la comme Neymar. Le contrôle de la caméra sur le terrain est splendide."
-description:
+intro: "Le contrôle de la caméra sur le terrain est splendide."
+description: "Le contrôle de la caméra sur le terrain est splendide."
 ---

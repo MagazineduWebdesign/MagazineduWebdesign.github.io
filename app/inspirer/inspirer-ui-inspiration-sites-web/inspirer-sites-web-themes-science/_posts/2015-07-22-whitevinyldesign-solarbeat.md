@@ -62,6 +62,6 @@ composant-ui-url-7:
 url-demo: "http://www.whitevinyldesign.com/solarbeat/"
 image: "whitevinyldesign-solarbeat.png"
 image-2: "whitevinyldesign-solarbeat-2.jpg"
-intro: "Combien de temps faut-il à Pluton pour compléter son orbite ? Découvrez-le via le potentiel de l'API WebAudio."
-description:
+intro: "Combien de temps faut-il à Pluton pour compléter son orbite ? Découvrez la réponse en explorant le potentiel de l'API WebAudio."
+description: "Combien de temps faut-il à Pluton pour compléter son orbite ? Découvrez la réponse en explorant le potentiel de l'API WebAudio"
 ---

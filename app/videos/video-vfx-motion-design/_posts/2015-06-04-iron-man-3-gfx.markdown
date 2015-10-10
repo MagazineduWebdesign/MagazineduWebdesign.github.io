@@ -1,16 +1,16 @@
 ---
-layout: video
-title:  "Iron Man 3 – VFX"
-date:   2015-06-04 17:22:57
-path1: videos
-path2: motion-design
+layout: "video"
+title: "Iron Man 3 – VFX"
+date: "2015-06-04 17:22:57"
+path1: "videos"
+path2: "motion-design"
 path3:
-category: videos
+category: "videos"
 tags:
 - videos-motion-design
-intro: ""
-description: ""
-id-youtube: VIaeABAkXpc
+intro:
+description:
+id-youtube: "VIaeABAkXpc"
 viaurl:
 viatitle:
 ---

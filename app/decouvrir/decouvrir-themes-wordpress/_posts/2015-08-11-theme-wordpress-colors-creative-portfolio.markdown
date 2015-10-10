@@ -20,7 +20,7 @@ image-2: "theme-wordpress-color-creative-portfolio-2.png"
 image-3: "theme-wordpress-color-creative-portfolio-3.png"
 image-4:
 image-5:
-intro: "Unique et coloré, Colors creative est un thème pour agence ou créatif en recherche d'un beau portfolio sans prise de tête. Il propose plusieurs options de mise en page et de design de composants afin de personnaliser la mise en scène de votre travail. Voyez par vous même avec les captures d'écrans ci-dessous et la démo."
-description: "Unique et coloré, Colors creative est un thème pour agence ou créatif en recherche d'un beau portfolio sans prise de tête."
+intro: "Unique et bariolé, Colors creative est un thème destiné à une agence ou un créatif ne souhaitant pas se prendre la tête. Il propose plusieurs options de mise en page et de design de composants afin de personnaliser la mise en scène de votre travail."
+description: "Unique et bariolé, Colors creative est un thème destiné à une agence ou un créatif ne souhaitant pas se prendre la tête"
 rating: "7.5"
 ---

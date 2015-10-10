@@ -1,6 +1,6 @@
 ---
 layout: video_index
-title: "Design stories"
+title: "Vidéos &ndash; Design stories"
 tags: "videos-design-stories"
 permalink: "/videos/design-stories/"
 intro: "Récits d'expériences & interviews de créateurs, de designers, de développeurs qui tentent chaque jour d'améliorer le quotidien de milliards de personnes."

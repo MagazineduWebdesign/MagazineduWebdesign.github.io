@@ -11,4 +11,4 @@ id-soundcloud:
 video-legende:
 ---
 
-Faire coexister efficacement Photoshop et Retina est possible sans pourtant mettre à terre votre CPU, votre RAM et vos disques.
+Faire coexister efficacement Photoshop et Retina est possible sans pour autant mettre à terre votre CPU, votre RAM et vos disques.

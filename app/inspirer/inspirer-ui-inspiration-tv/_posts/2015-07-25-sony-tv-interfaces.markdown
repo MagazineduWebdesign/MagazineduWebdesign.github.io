@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Sony OS TV &ndash; Interface"
+title: "Sony OS TV – Interface"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

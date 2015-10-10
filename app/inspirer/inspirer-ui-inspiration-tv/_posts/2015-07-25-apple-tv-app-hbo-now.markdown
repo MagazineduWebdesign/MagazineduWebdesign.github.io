@@ -16,7 +16,7 @@ image-3:
 intro:
 description:
 reference-name: "Apple"
-reference-title: "Apple TV &ndash; AirPlay"
+reference-title: "Apple TV – AirPlay"
 reference-url: "https://www.apple.com/fr/appletv/"
 reference-02-name:
 reference-02-title:

@@ -20,9 +20,9 @@ image-2:
 image-3:
 image-4:
 image-5:
-intro: "L'ensemble se compose de 100 icônes s'inspirant de la thématique du développement web. Vaste programme me direz vous. On en convient tous. Néanmoins, toutes les icônes sont disponibles gratuitement et en plusieurs formats : .PNG, .EPS, .SVG & .PDF."
+intro: "L'ensemble se compose de 100 icônes s'inspirant de la thématique du développement web. Toutes les icônes sont disponibles gratuitement et en plusieurs formats : .PNG, .EPS, .SVG & .PDF."
 description: "Un style unique pour ces 40 icônes gratuites au format AI, Sketch, PNG, SVG, EPS."
-rating: 8
+rating: "8"
 ---
 
 Pensez à remercier au passage les Kids d'Icons8 pour leur travail acharné. Vous pouvez utiliser les icônes à des fins personnelles et commerciales en échange d'un backlink. Distribué sous la licence Creative Commons Attribution-NoDerivs 3.0 version Icon8, à savoir :

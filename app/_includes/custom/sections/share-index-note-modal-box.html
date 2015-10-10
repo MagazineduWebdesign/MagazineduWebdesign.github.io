@@ -1,6 +1,6 @@
 <!-- Modalbox partage note
 ================================================== -->
-<div id="{{ note.title | replace: ' ', '-' | remove_first: '.' }}" class="reveal-modal" data-reveal>
+<div id="{{ note.title | slugify }}" class="reveal-modal" data-reveal>
   <div class="row-liste-index">
     <div class="small-12 columns">
       <a class="close-reveal-modal">&#215;</a>

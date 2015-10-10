@@ -20,7 +20,7 @@ image-2:
 image-3:
 image-4:
 image-5:
-intro: "Carctéristiques : Flexible, Ajax, Géométrique. Le thème gratuit parfait pour construire un portfolio rapidement."
-description: "Carctéristiques : Flexible, Ajax, Géométrique. Le thème gratuit parfait pour construire un portfolio rapidement."
+intro: "Carctéristiques : flexible, Ajax, Géométrique. Le thème gratuit parfait pour construire un portfolio rapidement."
+description: "Carctéristiques : flexible, Ajax, Géométrique. Le thème gratuit parfait pour construire un portfolio rapidement."
 rating: "6.5"
 ---

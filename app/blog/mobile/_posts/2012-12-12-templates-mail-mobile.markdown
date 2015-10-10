@@ -48,7 +48,7 @@ viatitle:
 <li>Taille de l’image en footer diminuée,</li>
 <li>Largeur des blocs ajustée.</li>
 </ul>
-<p><img class="alignnone size-full wp-image-2538" title="Template mail mobile Google+ Event" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/templates-email-responsive-google+-event.jpg" alt="Template mail mobile Google+ Event" width="555" height="378"></p>
+<p><img class="alignnone size-full wp-image-2538" title="Template mail mobile Google+ Event" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/templates-email-responsive-google%2B-event.jpg" alt="Template mail mobile Google+ Event" width="555" height="378"></p>
 <h2>Longreads</h2>
 <p><em>Astuces pour gérer la transition entre la version desktop et la version mobile :&nbsp;</em></p>
 <ul>

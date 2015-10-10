@@ -2,7 +2,7 @@
 title: Place à la pratique, les outils de wireframing HTML – 3
 date: 2012-08-15 17:29:56
 category: ux-design
-tags: 
+tags:
 - wireframing
 intro: Après avoir vu en détails quels étaient les objectifs du wireframing, et ses différentes définitions, voici une sélection d'outils de wireframing HTML à découvrir, et à tester (sans attendre).
 description:
@@ -55,7 +55,7 @@ En le couplant par exemple à un <strong>environnement WordPress</strong>, cet o
 <p>Maintenant, votre choix de <strong>framework</strong>&nbsp;pour vos prochains <a title="Wireframe Windows 8 – Templates gratuits PowerPoint" href="http://magazineduwebdesign.com/windows-8-wireframe"><strong>wireframes</strong></a> est sûrement fait.&nbsp;La structure de vos pages est établie. Manque une seule chose : le <strong>contenu</strong>. Voici donc une sélection de <strong>générateurs de contenus</strong>, allant de la simple image par défaut à des contenus plus complexes, tels qu’une carte Google Maps.</p>
 <p><strong>Les générateurs d’images</strong></p>
 <p>Le premier : <a title="Place Hold It" href="http://placehold.it/" target="_blank">Place Hold It</a>. Pour l’utiliser, insérez simplement les <strong>dimensions désirées de l’image</strong> dans l’url&nbsp;: <strong>http://placehold.it/300×150</strong>.</p>
-<p style="text-align: center;"><img class="aligncenter" src="http://91.68.209.8/bmi/placehold.it/300x150&amp;text=Magazine du Webdesign" alt="Magazine du Webdesign" width="300" height="150"></p>
+<p style="text-align: center;"><img class="aligncenter" src="https://placehold.it/300x150&amp;text=Magazine du Webdesign" alt="Magazine du Webdesign" width="300" height="150"></p>
 <p>Il y en a d’autres qui reprennent ce même concept, avec différents <strong>niveaux de customisation</strong> : image en couleurs, noir et blanc, blocs grisés, ajout de textes à l’image… place à la créativité.</p>
 <ul>
 <li><a title="placekitten.com" href="http://placekitten.com/" target="_blank">placekitten.com</a> (le <strong>code-source</strong> est très sympa)</li>

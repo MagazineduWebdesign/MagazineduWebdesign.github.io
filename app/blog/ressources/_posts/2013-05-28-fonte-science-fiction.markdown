@@ -26,7 +26,7 @@ viatitle:
 <p><a href="http://www.urbanfonts.com/fonts/Astra.htm" target="_blank"><strong>Astra</strong></a></p>
 <p><img title="font-Astra" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/font-Astra.jpg" alt="font-Astra" width="512" height="108"></p>
 <p><a href="http://www.urbanfonts.com/fonts/Arbeka.htm" target="_blank"><strong>Arbeka</strong></a></p>
-<p><img title="font-Arbeka" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large//font-Arbeka.jpg" alt="font-Arbeka" width="526" height="131"></p>
+<p><img title="font-Arbeka" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/font-Arbeka.jpg" alt="font-Arbeka" width="526" height="131"></p>
 <p><strong><a title="Font gratuite Niewe" href="http://www.behance.net/gallery/NIEWE-free-font/7014233" target="_blank">Niewe</a></strong></p>
 <p><img title="font-niewe" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/font-niewe.jpg" alt="font-niewe" width="555" height="493"></p>
 <p><strong><a title="Technik Mono" href="http://www.myfonts.com/fonts/carnoky/technik-mono/" target="_blank">Technik Mono</a></strong></p>

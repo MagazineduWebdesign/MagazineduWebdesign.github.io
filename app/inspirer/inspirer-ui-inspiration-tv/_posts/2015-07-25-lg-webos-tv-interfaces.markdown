@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "LG WebOS TV &ndash; Interface"
+title: "LG WebOS TV – Interface"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

@@ -1,6 +1,6 @@
 ---
 layout: "evenements_index"
-title: "Trouver des événements inspirants sur l'UX design près de chez vous"
+title: "Trouvez des événements inspirants sur l'UX design près de chez vous"
 tags: "evenements-ux-design"
 permalink: "/evenements/ux-design/"
 intro: "UX designer, product manager, explorez la collection d'événements en France et en Europe, abordant les problématiques et les thèmes spécifiques au design de l'expérience utilisateur. N'hésitez pas à suggérer des événements locaux ou nationaux si vous pensez qu'ils sont pertinents pour la communauté du MDW."

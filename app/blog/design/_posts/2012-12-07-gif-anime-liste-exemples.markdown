@@ -61,5 +61,3 @@ viatitle:
 <h2>Paper Rad</h2>
 <p><a title="Paper Rad" href="http://www.paperrad.org/newindex.html" rel="attachment wp-att-2414" target="_blank"><img class="alignnone size-full wp-image-2414" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Paper-Rad.jpg" alt="Paper Rad" width="555" height="290"></a></p>
 <p>Si vous n’avez pas eu votre dose de GIFs animés, je vous conseille de faire un détour par notre article sur le <a title="40+ exemples de Net.art" href="http://magazineduwebdesign.com/40-exemples-de-net-art">Net Art</a>.</p>
-<h2>Une histoire courte du GIF</h2>
-<p><iframe width="569" height="320" src="http://www.youtube.com/embed/AlOmdtJo_r8?feature=oembed" frameborder="0" allowfullscreen=""></iframe></p>

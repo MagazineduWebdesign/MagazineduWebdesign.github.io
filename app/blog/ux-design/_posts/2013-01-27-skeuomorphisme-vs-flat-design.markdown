@@ -2,7 +2,7 @@
 title: Avez-vous commis l’erreur du Skeuomorphisme vs. Flat design
 date: 2013-01-27 17:22:56
 category: ux-design
-tags: 
+tags:
 - ux
 - ui
 intro: On voit éclore de plus en plus de discussions concernant le skeuomorphisme vs. flat design. Je trouve ce débat complètement stérile, il m'en rappelle d'autres – MAC vs PC, Impressionnisme vs Réalisme, Ketchup vs Mayo , etc.
@@ -30,7 +30,6 @@ viatitle:
 <div id="attachment_2995" class="wp-caption alignnone" style="width: 565px"><img class="size-full wp-image-2995" title="Flat-design-Microsoft-Surface" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Flat-design-Microsoft-Surface.jpg" alt="Flat design Microsoft Surface" width="555" height="345"><p class="wp-caption-text">Exemple de flat design. Une interface utilisateur minimaliste.</p></div>
 <p>Le débat actuel se concentre donc sur le skeuomorphisme vs. flat design. La traduction pourrait être la suivante : «&nbsp;design réaliste&nbsp;» vs «&nbsp;design minimaliste&nbsp;».</p>
 <p>Coupons court à cette discussion !</p>
-<p style="text-align: center;"><a onclick="_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad 468x60 top article', 7]);" href="http://designmodo.com/flat?u=356" rel="attachment wp-att-5728" target="_blank"><img class="aligncenter size-full wp-image-5728" title="flatui_kit-psd-html-small" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/flatui_kit-psd-html-small.jpg" alt="flatui_kit-psd-html" width="468" height="60"></a></p>
 <h2>Le design visuel n’a aucune importance</h2>
 <p>WTF ! Un blog sur le Webdesign tenant de tels propos ! Laissez-moi clarifier la situation. Le design visuel d’un produit est important. Cela guide la majorité de nos choix lors d’un achat. Il est la marque distinctive surclassant certains produits par rapport à la concurrence. La téléphonie l’illustre parfaitement.</p>
 <p>Mais l’apparence ne résout aucun problème. Détachée du reste des attributs d’un produit, elle n’a aucune valeur. Le design visuel doit être une étape finale dans le procès de conception d’un produit. Il ne doit pas être l’étape 1.</p>
@@ -48,4 +47,3 @@ viatitle:
 <li><a title="The Flat Design Era" href="http://layervault.tumblr.com/post/32267022219/flat-interface-design" target="_blank">Flat Design Era</a></li>
 </ul>
 <p>(illustration : <a title="Mike Henry" href="http://zatransis.deviantart.com/gallery/?q=ketchup#/d2lrqzk" target="_blank">Mike Henry</a>)</p>
-<p>Ne perdez pas votre temps à réinventer la roue, utilisez <a onclick="_gaq.push(['_trackEvent', 'FlatUIPro', 'Clic', 'Ad anchor bottom article', 7]);" href="http://designmodo.com/flat?u=356" target="_blank"><strong>Flat UI Pro</strong></a>, le kit PSD &amp; HTML compatible avec Twitter Bootstrap.</p>

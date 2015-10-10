@@ -24,4 +24,4 @@ intro: "Writer est un thème Joomla original de part la structure de ses templat
 description: "Quatre types de structure pour la page d'accueil permettant de mettre en scène vos contenus en fonction de vos besoins : blog ou portfolio."
 rating: "7"
 ---
-Exemples de mise en page : une image en pleine largeur pour introduire votre dernier article ou une grille de portfolio afin de mettre en avant vos créations. Le design est agréable, les éléments UI et les transitions de navigation sont travaillés dans les moindres détails.
+Exemples de mise en page : une image en pleine largeur pour introduire votre dernier article ou une grille de portfolio afin de mettre en avant vos créations. Les éléments UI et les transitions de navigation sont travaillés dans les moindres détails.

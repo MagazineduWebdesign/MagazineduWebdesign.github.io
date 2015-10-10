@@ -24,4 +24,4 @@ Toutes les actions que nous entreprenons au quotidien sont entrainées par des h
 
 Etudier et comprendre ces accoutumances est une excellente approche non seulement pour vendre des produits, mais aussi pour transformer des personnes ou des sociétés entières. Pour ce faire, Duhigg explore comment les habitudes fonctionnent et affectent nos vies.
 
-Une excellente lecture pour les designers d'interfaces tentant d'influencer le comportement de leur utilisateurs dans l'optique de combler le désir de ces derniers.
+Une excellente lecture pour les designers d'interfaces tentant d'influencer le comportement de leur utilisateurs dans l'optique de combler les désirs de ces derniers.

@@ -1,7 +1,7 @@
 ---
 layout: "video"
 title: "Material Design Awards &ndash; App New York Times"
-date:   "2015-07-13 11:23:57"
+date: "2015-07-13 11:23:57"
 path1: "videos"
 path2: "showreel"
 path3:

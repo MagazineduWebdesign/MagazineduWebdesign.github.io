@@ -60,6 +60,6 @@ composant-ui-url-7:
 url-demo: "http://in-form.io/"
 image: "in-form.png"
 image-2:
-intro: "Une expérience ayant pour ambition de sculpter en 3D l'expérience d'un utilisateur. A partir de données captées via un smartphone, une sculpture webGL met en scène la signature numérique d'un utilisateur sur la base de sa localisation, ses déplacement et ses photos. Contempler sa sculpture revient à contempler son expérience."
-description: "Une expérience ayant pour ambition de sculpter en 3D l'expérience d'un utilisateur."
+intro: "Un projet ayant pour ambition de sculpter en 3D l'expérience d'un utilisateur. A partir de données captées via un smartphone, une sculpture webGL met en scène la signature numérique d'un utilisateur sur la base de sa localisation, ses déplacement et ses photos. Contempler cette sculpture revient à contempler une expérience."
+description: "Un projet ayant pour ambition de sculpter en 3D l'expérience d'un utilisateur."
 ---

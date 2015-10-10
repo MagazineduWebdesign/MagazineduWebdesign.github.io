@@ -18,7 +18,7 @@ description:
 reference-name: "Material Design"
 reference-title: "Guide du design d'interfaces Android TV"
 reference-url: "https://www.google.com/design/spec-tv/android-tv/introduction.html"
-reference-02-name: "GitHub &ndash; Android TV"
+reference-02-name: "GitHub – Android TV"
 reference-02-title: "live TV Input Framework (a.k.a Live Channels)"
 reference-02-url: "https://github.com/googlesamples/androidtv-sample-inputs"
 ---

@@ -20,7 +20,7 @@ image-2: "theme-wordpress-dw-brickstore-2.png"
 image-3:
 image-4:
 image-5:
-intro: "Un des meilleurs thèmes ecommerce du marché qui vous permettra d'apprécier les fonctionnalités étendues du plugin WooCommerce. Son design minimaliste offre de large possiblité d'optimisation grâce notamment au visual composer SiteOrigin et au plugin Revolution Slider. En quelques clics, faites de votre boutique en ligne le reflet parfait de votre identité de marque, tout en proposant une expérience d'achat fluide à vos visiteurs."
+intro: "Un des meilleurs thèmes ecommerce du marché qui vous permettra d'apprécier les fonctionnalités étendues du plugin WooCommerce. Son design minimaliste offre de nombreuses possiblités d'optimisation grâce notamment au visual composer SiteOrigin et au plugin Revolution Slider. En quelques clics, faites de votre boutique en ligne le reflet parfait de votre identité de marque avec une expérience d'achat fluide pour vos visiteurs."
 description: "Une quantité d'options incroyables qui vous laissera maître du moindre aspect de votre site Web Ecommerce, hôtel, portfolio, blog."
 rating: "8"
 ---

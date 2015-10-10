@@ -42,6 +42,6 @@ composant-ui-url-3:
 url-demo: "http://dennismarkgraf.com/"
 image: "dennis-portfolio.jpg"
 image-2:
-intro: "Un portfolio sommaire qui révèle son intérêt par un subtile rideau de fumée glissant sûr et autour des éléments du design. C'est fluide. Pour plus d'infos sur le script utilisé, reportez-vous à la carte Références ci-dessous."
+intro: "Un portfolio sommaire qui révèle son intérêt par un subtile rideau de fumée glissant sûr et autour des éléments du design. C'est fluide."
 description: "Un portfolio sommaire qui révèle son intérêt par un subtile rideau de fumée glissant sûr et autour des éléments du design"
 ---

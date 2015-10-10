@@ -24,4 +24,4 @@ intro: "Il s'agit du thème utilisé par magazineduwebdesign.com. Intrinséqueme
 description: "Le thème open source idéal pour une plateforme de contenu blog ou magazine hébergée sur GitHub."
 rating: "10"
 ---
-Le code nécessite quelques optimisations vu que le projet répond avant tous à des besoins fonctionnels particuliers au contexte du MDW. Je proposerai dans une prochaine release une version allégée ne contenant que le corps de l'app, sans les contenus ni les dépendances spécifiques au projet.
+Le code nécessite quelques optimisations vu que le projet répond avant tous à des besoins fonctionnels particuliers au MDW. Je proposerai dans une prochaine release une version standard ne contenant que le corps de l'app, sans les contenus ni les dépendances spécifiques au projet.

@@ -21,7 +21,7 @@ description: "Le kit UI Grade offre un grand nombre d'éléments UI permettant d
 rating: 7
 ---
 
-Le kit est compatible avec Sketch 3.3+ & Adobe Photoshop CS6+. Bien entendu, l'ensemble peut être édité dans sa totalité, les objets sont vectorisés, donc pas de problème avec l'affichage Retina & les 100+ icônes livrées. Toutes les polices du kit UI sont disponibles au sein de la libraire [Google Font](https://www.google.com/fonts
+Le kit est compatible avec Sketch 3.3+ & Adobe Photoshop CS6+. Bien entendu, l'ensemble peut être édité dans sa totalité. Les objets sont vectorisés, donc pas de problème avec l'affichage Retina & les 100+ icônes livrées. Toutes les polices du kit UI sont disponibles au sein de la libraire [Google Font](https://www.google.com/fonts
 ). Profitez de la [version gratuite](http://bit.ly/1BzoSz8) pour vous forger une opinion.
 
 <em>PS : il faut être amateur de couleurs en dégradées.</em>

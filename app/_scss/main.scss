@@ -201,7 +201,10 @@ sup {
 	}
 	.header-liste-content-link {@include header-liste-link}
 	.header-liste-content-link:hover{color:$oil}
-
+  .header-liste-panel-info{
+    margin-bottom: 0!important;
+    @include panel($bg: $callout-panel-bg);
+  }
 @media #{$small-only} {
 	.header-liste.u-no-padding-bottom{padding-bottom: 0}
 }
@@ -263,6 +266,7 @@ sup {
 	}
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
+    font-size: $h2-font-size;
 	}
 	.section-carte-action a, .section-carte-header a{
 		padding:0;
@@ -1216,9 +1220,6 @@ figcaption{
 .column-header-article{
   padding-top:rem-calc(48);
 }
-  .column-header-article-title{
-    font-family: "Playfair Display",serif;
-  }
 .column-header-article.mod-header-article-no-margin-top{padding-top:rem-calc(0)}
 
 // body

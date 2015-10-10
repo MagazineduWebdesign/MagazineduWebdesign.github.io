@@ -29,8 +29,6 @@ viatitle:
 <p><img class="alignnone size-full wp-image-4650" title="jquery-mobile-flat-ui" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/jquery-mobile-flat-ui.jpg" alt="jquery-mobile-flat-ui" width="555" height="290"></p>
 <p><strong><a href="http://gumbyframework.com/" target="_blank">Gumby – Framework CSS responsive</a></strong></p>
 <p><img class="alignnone size-full wp-image-4648" title="Gumby-Responsive-CSS-Framework" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Gumby-Responsive-CSS-Framework.jpg" alt="Gumby-Responsive-CSS-Framework" width="555" height="290"></p>
-<p><strong>La question</strong></p>
-<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-tweet twitter-tweet-rendered" allowfullscreen="" style="border: none; max-width: 100%; min-width: 220px; margin: 10px 0px; padding: 0px; display: block; position: static; visibility: visible; width: 500px;" title="Fil d'Actualité Twitter" height="752"></iframe>
 <p><strong><a href="http://thestudio.studio-output.com/" target="_blank">Typographie illustrative Sony Playstation</a></strong></p>
 <p><img class="alignnone size-full wp-image-4655" title="typographie-illustrative-sony-play-station" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/typographie-illustrative-sony-play-station.jpg" alt="typographie-illustrative-sony-play-station" width="555" height="347"></p>
 <p><strong><a href="http://www.netmagazine.com/opinions/advice-my-unborn-daughter" target="_blank">«&nbsp;Les non-programmeurs seront hors jeu à l’instar des personnes n’utilisant pas Internet aujourd’hui&nbsp;».</a></strong></p>

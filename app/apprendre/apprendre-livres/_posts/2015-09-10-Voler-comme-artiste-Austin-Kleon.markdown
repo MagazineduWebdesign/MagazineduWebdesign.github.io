@@ -22,4 +22,4 @@ rating: "8"
 
 Une lecture simple et rapide abordant les processus d'inspiration et de génération d'idées. Etre créatif est accessible à tous, pas seulement aux génies. Pour cela, quelques réglages s'imposent.
 
-Austin Kleon nous donne les clés pour accéder à la créativité sans s'essouffler. Ne cherchez pas nécessairement l'originalité; affûtez votre regard, changez d'angle de vue, unissez et transformer des idées existantes est la recette de l'innovation créative.
+Austin Kleon nous donne les clés pour accéder à la créativité sans s'essouffler. Ne cherchez pas nécessairement l'originalité; affûter votre regard, changer d'angle de vue, unir et transformer des idées existantes est la recette de l'innovation créative.

@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Android TV &ndash; Ecran d'accueil"
+title: "Android TV – Ecran d'accueil"
 date: "2015-07-23 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

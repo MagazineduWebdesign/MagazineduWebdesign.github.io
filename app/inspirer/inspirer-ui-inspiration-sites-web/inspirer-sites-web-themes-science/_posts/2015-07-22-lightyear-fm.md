@@ -63,6 +63,6 @@ composant-ui-url-7:
 url-demo: "http://lightyear.fm/"
 image: "lightyear-fm.jpg"
 image-2:
-intro: "Exploration de 100 années lumières de musique plus ou moins bonne. Il y en a pour tous les goûts."
-description:
+intro: "Exploration de 100 années lumières de musique. Il y en a pour tous les goûts."
+description: "Exploration de 100 années lumières de musique. Il y en a pour tous les goûts."
 ---

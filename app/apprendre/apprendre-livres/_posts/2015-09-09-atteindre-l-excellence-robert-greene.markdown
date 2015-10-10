@@ -20,9 +20,9 @@ description: "Le talent n'est pas inné ou gravé dans l'ADN, il se cultive avec
 rating: "8.5"
 ---
 
-Le dernier bouquin de Robert Greene tente de donner un sens au mythe des plus importants maîtres des arts et des sciences.
+Le dernier bouquin de Robert Greene tente de donner un sens aux mythes entourant les plus importants maîtres des arts et des sciences.
 
-*Atteindre l'excellence* est une succession de biographies retraçant le destin de grands noms historiques et contemporains &ndash; Benjamin Franklin, Albert Einstein, Leonard de Vinci, Cesar Rodriguez, etc.
+*Atteindre l'excellence* est une succession de biographies retraçant le destin de grands noms historiques et contemporains &ndash; Paul Graham, Benjamin Franklin, Albert Einstein, Leonard de Vinci, Cesar Rodriguez, etc.
 
 Greene tente de découvrir les ingrédients qui ont permis à quelques-uns de devenir des maîtres absolus dans leur domaine.
 

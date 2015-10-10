@@ -22,7 +22,7 @@ rating: "7"
 
 Le destin de Laszlo Bock était pratiquement tout tracé : une carrière sur les douces moquettes des grands cabinets de conseils en gestion des ressources humaines, agrémentée du golden retriever planté dans le jardin.
 
-Néanmoins, son expérience et quelques rencontres d'une grande importance vont le propulser à la tête de 60 000 talents. Le SVP of People Operations de Google décrit avec de nombreux exemples la politique de recrutement qu'il a développé depuis 2004 pour attirer les meilleurs talents et comment réussir à les retenir.
+Néanmoins, son expérience et quelques rencontres d'une grande importance vont le propulser à la tête de 60 000 talents. Le SVP of People Operations de Google décrit avec de nombreux exemples la politique de recrutement qu'il a développée depuis 2004 pour attirer les meilleurs talents et comment réussir à les retenir.
 
 Vous découvrirez notamment l'importance de suivre et de mesurer chaque action entreprise pour une amélioration constante des conditions de travail.
 

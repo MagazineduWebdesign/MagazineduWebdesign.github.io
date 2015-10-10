@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Samsung Serif TV &ndash; Concept"
+title: "Samsung Serif TV – Concept"
 date: "2015-10-04 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

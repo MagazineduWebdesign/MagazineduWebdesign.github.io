@@ -20,7 +20,7 @@ image-2: "set-icones-gratuites-ego-icons-2.jpg"
 image-3:
 image-4:
 image-5:
-intro: "Énergiques et innovantes, ces icônes gratuites se mettent en scène via des formes géométriques primaires : zig-zag, vagues, hexagones, triangles. Cela crée une dynamique apportant une touche de fraîcheur futuriste au design d'une application. 100 icônes sont en téléchargement gratuit au format AI, SKETCH &amp; SVG. Le créateur Vincent Le Moign devrait annoncer prochainement la release d'un set de 1 500 icônes. Hâte de voir le résultat."
+intro: "Énergiques et innovantes, ces icônes gratuites se mettent en scène via des formes primaires : zig-zag, vagues, hexagones, triangles. Cela crée une dynamique apportant une touche de fraîcheur futuriste au design d'une application. 100 icônes sont en téléchargement gratuit au format AI, SKETCH &amp; SVG. Le créateur Vincent Le Moign devrait annoncer prochainement la release d'un set de 1 500 icônes. Hâte de voir le résultat."
 description: "Énergique et innovante, ces icônes gratuites se mettent en scène via des formes géométriques primaires."
 rating: "7"
 ---

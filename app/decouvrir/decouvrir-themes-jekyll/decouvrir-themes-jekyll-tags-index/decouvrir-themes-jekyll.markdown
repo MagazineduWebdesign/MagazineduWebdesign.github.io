@@ -1,9 +1,9 @@
 ---
 layout: "decouvrir-themes-jekyll_index"
-title: "Collection de thèmes Jekyll"
+title: "Obtenez un thème Jekyll & oubliez les bases de données"
 category: "decouvrir-themes-jekyll"
 permalink: "/decouvrir/themes-jekyll/"
-intro: "Découvrez ci-dessous une sélection de thèmes Jekyll. Le générateur open source de fichiers statiques par excellence. Jekyll permet de générer des sites web hébergés directement sur votre répertoire GitHub. Edit+push et vos modifications sont deployées. Le Magazine du Webdesign est un bel exemple de site web généré via Jekyll et hébergé sur GitHub Pages. N'hésitez pas à suggérer vos découvertes et vos créations."
-description: "Hébergez gratuitement sur votre répertoire GitHub votre site web avec cette liste des meilleurs thèmes Jekyll"
+intro: "Sélection de thèmes Jekyll, le générateur open source de sites web statiques. Avec Jekyll, vos fichier Markdown peuvent être générés et hébergés gratuitement sur un répertoire GitHub sans devoir configurer de base de données. Edit+push et vos modifications sont deployées. Pensez à une chose : votre contenu et rien d'autre. Participez à un web plus simple, plus rapide et plus vert avec Jekyll. Le Magazine du Webdesign est une plateforme entièrement statique. N'hésitez pas à suggérer vos découvertes et vos créations."
+description: "Sélection de thèmes Jekyll, le générateur open source de sites web statiques"
 text-twtr: "En train d'explorer la collection de thèmes Jekyll du @MagDuWebdesign"
 ---

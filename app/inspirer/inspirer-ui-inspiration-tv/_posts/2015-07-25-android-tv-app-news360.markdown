@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-default"
-title: "Concept Android TV &ndash; News 360"
+title: "Concept Android TV – News 360"
 date: "2015-07-25 00:24:57"
 path1: "inspiration"
 path2: "ui-design"

@@ -17,7 +17,7 @@ viatitle:
 <p>Le Magazine du Webdesign vous a concocté une&nbsp;<strong>liste d’inspiration</strong> de pages <em>Equipe</em> et <em>A propos</em>. Leurs spécificités ? Une <a title="30 Kits UI gratuits – sources HTML/PSD incluses" href="http://magazineduwebdesign.com/kit-ui-psd-html-css-jquery">interface graphique</a> allant à l’encontre des codes de nombreux web designs, un sens aiguisé du détail et des interactions sublimes.</p>
 <p>C’est la petite dose de <strong>créativité</strong> qui vous sortira la tête du guidon.</p>
 <h2>Buffalo Web Design</h2>
-<p><a title="Buffalo Web Design" href="http://builtbybuffalo.com/about" rel="attachment wp-att-2625" target="_blank"><img class="alignnone size-full wp-image-2625" title="Build by Buffalo Web Design" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/About-Us-Built-by+Buffalo-Web-Design-Brighton-UK.jpg" alt="Build by Buffalo Web Design" width="555" height="290"></a></p>
+<p><a title="Buffalo Web Design" href="http://builtbybuffalo.com/about" rel="attachment wp-att-2625" target="_blank"><img class="alignnone size-full wp-image-2625" title="Build by Buffalo Web Design" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/About-Us-Built-by%2BBuffalo-Web-Design-Brighton-UK.jpg" alt="Build by Buffalo Web Design" width="555" height="290"></a></p>
 <h2>Mostly Serious</h2>
 <p><a title="Mostly Serious" href="http://mostlyserious.io/about-us/" rel="attachment wp-att-2626" target="_blank"><img class="alignnone size-full wp-image-2626" title="Mostly Serious" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Interactive-Solutions-and-Interactive-Apps-Mostly-Serious.jpg" alt="Mostly Serious" width="555" height="290"></a></p>
 <h2>Nest</h2>

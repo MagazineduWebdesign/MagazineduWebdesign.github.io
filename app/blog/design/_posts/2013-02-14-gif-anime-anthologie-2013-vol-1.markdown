@@ -6,7 +6,7 @@ tags:
 - inspiration
 - net-art
 intro:
-image: gif-anthologie-2013-vol1.jpg
+image: gif-anthologie-2013-vol1.JPG
 image-legende:
 auteur: MagDuWebdesign
 keyword_title:
@@ -22,7 +22,6 @@ viatitle:
 <p style="text-align: center;"><img class="size-full wp-image-3360 aligncenter" title="Web comic Lycéennes gif animé extrait 01 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/acevee_case1_2.gif" alt="Web comic Lycéennes gif animé extrait 01 - Stephen Vuillemin" width="550" height="300"></p>
 <p><img class="aligncenter size-full wp-image-3361" style="width: 555px; max-width: 100%;" title="Web comic Lycéennes gif animé extrait 02 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee_case.gif" alt="Web comic Lycéennes gif animé extrait 02 - Stephen Vuillemin" width="550" height="300"></p>
 <p style="text-align: center;"><img class="aligncenter  wp-image-3362" style="max-width: 100%;" title="Web comic Lycéennes gif animé extrait 03 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee_case13.gif" alt="Web comic Lycéennes gif animé extrait 03 - Stephen Vuillemin" width="550" height="700"></p>
-<p><img class="aligncenter size-full wp-image-3363" style="width: 555px; max-width: 100%;" title="Web comic Lycéennes gif animé extrait 04 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee151.gif" alt="Web comic Lycéennes gif animé extrait 04 - Stephen Vuillemin" width="550" height="550"></p>
 <p><img class="aligncenter size-full wp-image-3364" style="width: 555px; max-width: 100%;" title="Web comic Lycéennes gif animé extrait 05 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee153.gif" alt="Web comic Lycéennes gif animé extrait 05 - Stephen Vuillemin" width="550" height="300"></p>
 <p><img class="aligncenter size-full wp-image-3365" style="width: 555px; max-width: 100%;" title="Web comic Lycéennes gif animé extrait 06 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-acevee154.gif" alt="Web comic Lycéennes gif animé extrait 06 - Stephen Vuillemin" width="550" height="550"></p>
 <p><img class="aligncenter size-full wp-image-3366" style="width: 555px; max-width: 100%;" title="Web comic Lycéennes gif animé extrait 07 - Stephen Vuillemin" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-anime-Stephen-Vuillemin-case07BIS.gif" alt="Web comic Lycéennes gif animé extrait 07 - Stephen Vuillemin" width="550" height="400"></p>

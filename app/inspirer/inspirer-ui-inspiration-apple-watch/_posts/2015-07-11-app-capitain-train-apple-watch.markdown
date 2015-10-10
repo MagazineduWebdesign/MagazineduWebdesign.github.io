@@ -1,6 +1,6 @@
 ---
 layout: "inspirer-sites-web-default"
-title: "App Capitaine Train cApple Watch"
+title: "App Capitain Train cApple Watch"
 date: "2015-07-11 17:24:57"
 path1: "inspiration"
 path2: "ui-design"
