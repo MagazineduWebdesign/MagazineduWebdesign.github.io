@@ -2,11 +2,11 @@
 title: "Faites une Power Pose avant votre entretien d'embauche"
 date: "2015-10-11 00:00:00"
 image: "amy-cuddy-faites-une-power-pose.jpg"
-intro: "Lors de son TED talk, Amy Cuddy démontre les conséquences positives que peut avoir une pause de 2 minutes sur notre comportements. La Power Pose peut être une puissante alliée pour votre prochain entretien d'embauche."
+intro: "Lors de son TED talk, Amy Cuddy démontre les conséquences positives que peut avoir une pause de 2 minutes sur notre comportement. La Power Pose peut être une puissante alliée pour votre prochain entretien d'embauche."
 description: "Lors de son TED talk, Amy Cuddy démontre les conséquences positives que peut avoir une pause de 2 minutes sur notre comportements"
 auteur: "MagDuWebdesign"
 ---
-Le langage du corps affecte la façon dont les autres nous voient, mais cela peut aussi influencer nos propres comportement. La psychologue Amy Cuddy nous explique comment les Power Poses &ndash; se tenir dans des postures inspirant la confiance en soi : buste en avant, poings sur les hanches &ndash; peuvent changer les niveaux de testostérone et de cortisol dans le cerveau.
+Le langage du corps affecte la façon dont les autres nous voient, mais cela peut aussi influencer nos propres comportements. La psychologue Amy Cuddy nous explique comment les Power Poses &ndash; se tenir dans des postures inspirant la confiance en soi : buste en avant, poings sur les hanches &ndash; peuvent changer les niveaux de testostérone et de cortisol dans le cerveau.
 
 Le résultat : un impact significatif sur nos chances de succès. Regardez la vidéo sous-titrée en français en cliquant sur la carte ci-dessous.
 
