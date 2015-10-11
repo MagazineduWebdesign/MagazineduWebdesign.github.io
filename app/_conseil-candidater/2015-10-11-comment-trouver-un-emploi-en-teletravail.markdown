@@ -1,13 +1,14 @@
 ---
 title: "Trouvez l'emploi de vos rêves grâce au télétravail"
 date: "2015-10-11 00:00:00"
-image: "phare-unsplash.jpg"
-bgimgheader: "true"
+image: "outils-trouver-offre-emploi-teletravail.jpg"
 intro: "Sélection d'outils pour trouver un emploi là où vous vous sentez le mieux pour travailler."
 description: "Sélection d'outils pour trouver un emploi là où vous vous sentez le mieux pour travailler"
 auteur: "MagDuWebdesign"
 ---
-Des entreprises telles que Buffer, Yelp et GitHub sont de ferventes adeptes du télétravail. Leurs job boards regorgent d'offres d'emploi à distance. Une tendance de recrutement en plein développement permettant d'aller chercher des talents aux quatre coins du monde et de faire quelques économies sur les espaces de travail. Si cette philosophie du travail vous correspond, explorez cette collection d'outils pour excercer votre passion là où bon vous semble.
+Des entreprises telles que Buffer, Yelp et GitHub sont de ferventes adeptes du télétravail. Leurs job boards regorgent d'offres d'emploi à distance. Une tendance de recrutement en plein développement permettant d'aller chercher des talents aux quatre coins du monde et de faire quelques économies sur les espaces de travail.
+
+Si cette philosophie du travail vous correspond, explorez cette collection d'outils pour excercer votre passion là où bon vous semble.
 
 <div class="section-carte-index-panel">
   <a href="https://remoteok.io/?ref=magazineduwebdesign" title="Remote | OK" target="_blank" rel="nofollow">

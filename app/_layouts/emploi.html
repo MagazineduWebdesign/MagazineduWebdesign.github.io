@@ -69,7 +69,7 @@ layout: default
 
       {% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
       {{ content }}
-      <a href="#" class="button radius">POSTULER</a>
+      <a  class="button radius" href="{{ page.candidater-url }}" title="{{ page.title }}" target="_blank" rel="nofollow">POSTULER</a>
       <div class="row collapse article-partage">
         <span class="article-meta-footer">Vous connaissez quelqu'un qui semble parfait(e) pour ce poste? Partagez cette page</span>
         {% include custom/sections/share-article-footer.html %}

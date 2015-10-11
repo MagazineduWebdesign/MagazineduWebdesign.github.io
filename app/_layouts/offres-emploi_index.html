@@ -239,28 +239,28 @@ layout: default
 		    {% for offre in site.offre-emploi %}
 		      {% capture length %}{{ forloop.length }}{% endcapture %}
 		    {% endfor %}
-		    <span class="section-header-titre">{{ length | append: ' talents recherchés'}}</span>
+		    <span class="section-header-titre">{{ length | append: ' talents recherchés' }}</span>
 	    {% endif %}
 			<!-- nb conseils recruter -->
 	  	{% if page.tab2 == true %}
 		    {% for conseil in site.conseil-recruter %}
 		      {% capture length %}{{ forloop.length }}{% endcapture %}
 		    {% endfor %}
-		    <span class="section-header-titre">{{ length | append: ' conseils pour réussir votre recrutement'}}</span>
+		    <span class="section-header-titre">{{ length | append: ' conseil pour trouver la perle rare' }}</span>
 	    {% endif %}
 			<!-- If confirmation paiement publication offre d'emploi -->
 	  	{% if page.tab6 == true %}
 		    {% for conseil in site.conseil-recruter %}
 		      {% capture length %}{{ forloop.length }}{% endcapture %}
 		    {% endfor %}
-		    <span class="section-header-titre">{{ length | append: ' conseils pour réussir votre recrutement'}}</span>
+		    <span class="section-header-titre">{{ length | append: ' conseil pour trouver la perle rare' }}</span>
 	    {% endif %}
 			<!-- nb conseils candidater -->
 	  	{% if page.tab4 == true %}
 		    {% for conseil in site.conseil-candidater %}
 		      {% capture length %}{{ forloop.length }}{% endcapture %}
 		    {% endfor %}
-		    <span class="section-header-titre">{{ length | append: ' conseils pour réussir votre candidature'}}</span>
+		    <span class="section-header-titre">{{ length | append: ' conseils pour trouver le job de vos rêves }}</span>
 	    {% endif %}
 	  </div>
 	</div>

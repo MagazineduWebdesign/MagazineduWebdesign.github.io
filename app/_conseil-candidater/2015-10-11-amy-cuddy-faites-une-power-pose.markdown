@@ -6,7 +6,9 @@ intro: "Lors de son TED talk, Amy Cuddy démontre les conséquences positives qu
 description: "Lors de son TED talk, Amy Cuddy démontre les conséquences positives que peut avoir une pause de 2 minutes sur notre comportements"
 auteur: "MagDuWebdesign"
 ---
-Le langage du corps affecte la façon dont les autres nous voient, mais cela peut aussi influencer nos propres comportements. La psychologue sociale Amy Cuddy montre comment "Les Power Poses" &ndash; se tenir dans des postures inspirant la confiance en soi : buste en avant, poings sur les hanches &ndash; peuvent changer les niveaux de testostérone et de cortisol dans le cerveau. Le résultat : un impact significatif sur nos chances de succès. Je ne vous en dit pas plus, regarder la vidéo sous-titrée en français en cliquant sur la carte ci-dessous.
+Le langage du corps affecte la façon dont les autres nous voient, mais cela peut aussi influencer nos propres comportement. La psychologue Amy Cuddy nous explique comment les Power Poses &ndash; se tenir dans des postures inspirant la confiance en soi : buste en avant, poings sur les hanches &ndash; peuvent changer les niveaux de testostérone et de cortisol dans le cerveau.
+
+Le résultat : un impact significatif sur nos chances de succès. Regardez la vidéo sous-titrée en français en cliquant sur la carte ci-dessous.
 
 <div class="section-carte-index-panel">
   <a href="https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=fr" title="Amy Cuddy &ndash; votre langage corporel forge qui vous êtes" target="_blank" rel="nofollow">
@@ -14,7 +16,6 @@ Le langage du corps affecte la façon dont les autres nous voient, mais cela peu
       <div class="row collapse">
         <div class="small-9 columns">
           <h1 class="carte-article-secondaire-post-title">Amy Cuddy &ndash; votre langage corporel forge qui vous êtes</h1>
-          <p>Agrégateur d'offres d'emploi à distance.</p>
         </div>
         <div class="small-3 columns">
           <img class="right" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/amy-cuddy-faites-une-power-pose.jpg, (default)],

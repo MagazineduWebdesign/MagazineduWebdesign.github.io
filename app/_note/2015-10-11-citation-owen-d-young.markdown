@@ -10,7 +10,7 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Une citation qui prend tout son sens lorsqu'on l'applique au design.
+Elle peut prendre tout son sens une fois appliquée au design.
 
 <blockquote>
   Les personnes qui peuvent se mettre à la place des autres, qui peuvent comprendre les rouages de leur esprit, ne devront jamais se soucier de ce que l'avenir leur réserve.
