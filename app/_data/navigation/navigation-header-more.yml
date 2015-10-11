@@ -1,14 +1,14 @@
 - name: "A propos"
-  permalink: "a-propos"
+  permalink: "/a-propos/"
 
 - name: "Hello"
-  permalink: "hello"
+  permalink: "/hello/"
 
 - name: "Sponsors"
-  permalink: "sponsors"
+  permalink: "/sponsors/"
 
 - name: "Feedback"
-  permalink: "feedback"
+  permalink: "/feedback/"
 
 - name: "Twitter"
   permalink: "http://twitter.com/@MagDuWebdesign"
@@ -35,4 +35,4 @@
   external-link: "true"
 
 - name: "RSS"
-  permalink: "feed.xml"
+  permalink: "/feed.xml/"

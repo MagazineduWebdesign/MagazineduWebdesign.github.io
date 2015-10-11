@@ -146,7 +146,15 @@ $paypal:#003087;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .titre-modal-box{font-family:$font-family-sans-serif;font-size:$h2-font-size;line-height: 1.1;}
 .twitter{color:$twitter!important}
-.label--secondary{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-16)}
+.label--secondary{
+  @include label($bg:$secondary-color,$radius:$global-radius);
+  top:rem-calc(-16);
+}
+@media #{$small-only} {
+	.label--secondary{
+    top:rem-calc(-8);
+  }
+}
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
 .label--new.mod-ads-sidebar{top:rem-calc(-2)}
 .highlight {
@@ -1000,17 +1008,34 @@ figcaption{
     min-width: 0;
   }
 }
-.top-bar-section-main-navigation-container{
-  float: left;
-  display: inline-block;
-  width: 66.66667%;
-}
-@media #{$medium-only} {
-  .top-bar-section-main-navigation-container{
-    float: none;
-    display: inline;
+  .top-bar-mobile-main-navigation-toggle{
+    position: absolute;
+    margin-top: -16px;
+    top: 50%;
+    right: 0;
   }
-}
+  .top-bar-mobile-main-navigation-toggle a{
+    height: 34px;
+    line-height: 33px;
+    padding: 0 1.5rem 0 1rem;
+    position: relative;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $aluminum;
+  }
+  .top-bar-section-main-navigation-container{
+    float: left;
+    display: inline-block;
+    width: 66.66667%;
+  }
+  @media #{$medium-only} {
+    .top-bar-section-main-navigation-container{
+      float: none;
+      display: inline;
+    }
+  }
   .top-bar-section-main-navigation{
     display: block!important;
     width: rem-calc(620)!important;
@@ -1041,7 +1066,6 @@ figcaption{
 	.top-bar .name span, .name{line-height:rem-calc(56)}
 	.logo{margin:rem-calc(8 8 8 0)}
 	.fixed.expanded:not(.top-bar) .top-bar-section {margin-top:rem-calc(56)}
-	.ic-hide-for-small{display:none}
 }
 @media #{$medium-only} {
 	.topbar-partage{
@@ -1087,7 +1111,7 @@ figcaption{
 	margin-bottom:0
 }
 @media #{$small-only} {
-	.section-brief-panel{@include panel($padding:$rem-base);margin-bottom:0}
+	.section-brief-panel{@include panel($padding:rem-calc(36 16 24));margin-bottom:0}
 	.section-brief-header{padding:0 rem-calc(16)}
 }
 .section-brief-panel .note:first-of-type{
