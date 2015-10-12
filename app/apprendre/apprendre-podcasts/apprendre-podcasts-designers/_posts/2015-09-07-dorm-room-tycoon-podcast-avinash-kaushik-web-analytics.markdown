@@ -15,4 +15,4 @@ logo: "drt-logo.png"
 by-url: "http://drt.fm/"
 description: "Avec ce podcast, Avinash Kaushik m'a fait prendre conscience de la puissance des analytics"
 ---
-Prenez le temps de découvrir cet interview, il vous enseignera les astuces pour eviter les pièges du reporting bête et méchant. Vous serez alors paré pour extraire les enseignements afin de proposer les solutions d'interfaces les plus optimales à vos utilisateurs. Une leçon de bon sens pour informer votre design et piloter votre business.
+Prenez le temps de découvrir cette interview, il vous enseignera les astuces pour éviter les pièges du reporting bête et méchant. Vous serez alors paré pour extraire les enseignements afin de proposer les solutions d'interfaces les plus optimales à vos utilisateurs. Une leçon de bon sens pour informer votre design et piloter votre business.
