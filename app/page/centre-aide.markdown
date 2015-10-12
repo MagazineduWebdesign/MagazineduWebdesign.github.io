@@ -1,7 +1,7 @@
 ---
 layout: "page-1-column"
 title: "Trouvez les réponses à vos questions grâces au centre d'aide"
-description: "Trouvez les réponses à vos questions grâces au centre d'aide."
+description: "Trouvez les réponses à vos questions grâce au centre d'aide."
 intro: "Le centre d'aide est en cours d'élaboration. Obtenez une réponse immédiate à toutes vos questions en écrivant à : "
 permalink: "/recruter/centre-aide/"
 ---

@@ -64,7 +64,9 @@ layout: default
                   {% endcase %}
                   {{ page.date | date: " %Y" }}
                 {% endcapture %}
-                &bull; <meta itemprop="uploadDate" content="{{ page.date | date: "%F %X" }}"/> <time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}"> {{ datearticle }}</time>
+                &bull;
+                <meta itemprop="uploadDate" content="{{ page.date | date: "%F %X" }}"/>
+                <time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
               </p>
 
               {% if page.id-youtube %}
