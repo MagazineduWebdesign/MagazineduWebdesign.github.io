@@ -999,8 +999,8 @@ figcaption{
 .topbar-partage-twitter{background-color:$twitter !important; margin-bottom:0; color:$white!important}
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
 .top-bar .title-area.mod-main-navigation{
-  width: 16.66667%;
-  min-width: 222px;
+  width: 16.7%;
+  min-width: rem-calc(256);
 }
 @media #{$small-only} {
   .top-bar .title-area.mod-main-navigation{
@@ -1010,7 +1010,7 @@ figcaption{
 }
   .top-bar-mobile-main-navigation-toggle{
     position: absolute;
-    margin-top: -16px;
+    margin-top: rem-calc(-16);
     top: 50%;
     right: 0;
   }
@@ -1038,8 +1038,14 @@ figcaption{
   }
   .top-bar-section-main-navigation{
     display: block!important;
-    width: rem-calc(628)!important;
     margin: 0 auto!important;
+    text-align: center;
+  }
+  @media #{$large-up} {
+    .top-bar-section-main-navigation li.hide-for-medium-only{
+      float: none;
+      display: inline-block!important;
+    }
   }
     .top-bar-section .dropdown li a {
     	padding:rem-calc(0 16);
