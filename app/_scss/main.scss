@@ -265,6 +265,7 @@ sup {
 }
 	.section-carte-header-title{
 		@include item-row;
+    margin-top: rem-calc(24);
 		color: $jumbo;
 	}
 	.section-carte-header-title.mod-videos-relatives{
@@ -1000,7 +1001,7 @@ figcaption{
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
 .top-bar .title-area.mod-main-navigation{
   width: 16.7%;
-  min-width: rem-calc(256);
+  min-width: rem-calc(240);
 }
 @media #{$small-only} {
   .top-bar .title-area.mod-main-navigation{
@@ -1029,6 +1030,7 @@ figcaption{
     float: left;
     display: inline-block;
     width: 66%;
+    min-width: rem-calc(704);
   }
   @media #{$medium-only} {
     .top-bar-section-main-navigation-container{
@@ -1125,7 +1127,7 @@ figcaption{
   border-top:0;
 }
 .section-brief-panel .note:not(first-of-type){
-  padding:rem-calc(48) 0 0;
+  padding:rem-calc(56) 0 0;
   border-top:1px solid $secondary-color
 }
 .note-source-id{margin-bottom:($rem-base / 2)}
@@ -1136,9 +1138,9 @@ figcaption{
 .note-content{cursor: pointer}
 .note h1{
 	margin-bottom: rem-calc(24);
-	font-size:$h3-font-size;
+	font-size:$h2-font-size;
 	font-weight:$font-weight-bold;
-	line-height: rem-calc(24);
+	line-height: 1.1;
 	@include transition($target: color);
 }
 .note h1:hover{
@@ -1167,7 +1169,7 @@ figcaption{
 	border-radius: $global-radius;
 }
 .index-wide-carte-twitter{
-	margin-top: rem-calc(24);
+	margin-top: rem-calc(48);
 }
 	.carte-twtr-text{
 		font-family:$font-family-sans-serif!important;
@@ -1408,7 +1410,7 @@ main.column-body-article h2, main.column-body-article h3,{
 	margin-top: rem-calc(48);
 }
 .index-wide-carte-newsletter{
-	margin-top: rem-calc(24);
+	margin-top: rem-calc(48);
 }
 input.index-wide-newsletter-in-grid-field{
 	border-bottom-width: 0;
