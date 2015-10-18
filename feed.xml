@@ -321,7 +321,7 @@
 				<title>Comment se faire des amis</title>
 				        
 				
-					<description>&lt;p&gt;Je devrais également le relire. Le sujet paraît plutôt simple de prime abord : apprendre à être gentil et à traiter les autres comme nous souhaiterions être traités. Dans la réalité, cela n’est pas si simple. L’intelligence émotionnelle n’est pas innée. A l’instar des arts et des sciences, cela s’apprend et se cultive au fil du temps.&lt;/p&gt;
+					<description>&lt;p&gt;Je devrais également le relire. Le sujet paraît plutôt simple de prime abord : conseils à être gentil et à traiter les autres comme nous souhaiterions être traités. Dans la réalité, cela n’est pas si simple. L’intelligence émotionnelle n’est pas innée. A l’instar des arts et des sciences, cela s’apprend et se cultive au fil du temps.&lt;/p&gt;
 
 </description>
 				
@@ -1114,18 +1114,6 @@
 			</item>
 		
 			<item>
-				<title>Tesla &amp;ndash; Concept d'infotainment Bosch Auto</title>
-				        
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 26 Jul 2015 00:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/connected-car-tesla-bosch-concept-infotainment</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/connected-car-tesla-bosch-concept-infotainment</guid>
-			</item>
-		
-			<item>
 				<title>Qoros &amp;ndash; Concept d'infotainment</title>
 				        
 				
@@ -1315,6 +1303,43 @@
 				<pubDate>Sun, 26 Jul 2015 00:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/connected-car-android-auto-infotainment</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/connected-car-android-auto-infotainment</guid>
+			</item>
+		
+			<item>
+				<title>Connected Car Tesla Bosch Concept Infotainment</title>
+				        
+				
+					<description>&lt;hr /&gt;
+&lt;p&gt;layout: &amp;#8220;inspirations-default&amp;#8221;
+title: &amp;#8220;Tesla &amp;ndash; Concept d&amp;#8217;infotainment Bosch Auto&amp;#8221;
+date: &amp;#8220;2015-07-26 00:24:57&amp;#8221;
+path1: &amp;#8220;inspirations&amp;#8221;
+path2: &amp;#8220;ui-design&amp;#8221;
+path3: &amp;#8220;connected-car&amp;#8221;
+category: &amp;#8220;ui-connected-car&amp;#8221;
+tags:
+- ui-connected-car-constructeurs-tesla
+- ui-connected-car-plateformes-bosch-auto
+url-demo: &amp;#8220;https://youtu.be/2i-t0C7RQWM&amp;#8221;
+plateformes: &amp;#8220;Bosch Auto&amp;#8221;
+plateformes-url: &amp;#8220;/inspirations/ui-design/connected-car/plateformes/bosch-auto/&amp;#8221;
+constructeurs: &amp;#8220;tesla&amp;#8221;
+constructeurs-url: &amp;#8220;/inspirations/ui-design/connected-car/constructeurs/tesla/&amp;#8221;
+by:
+by-url:
+image: &amp;#8220;connected-car-tesla-bosch-concept-infotainment-1.PNG&amp;#8221;
+image-2: &amp;#8220;connected-car-tesla-bosch-concept-infotainment-2.PNG&amp;#8221;
+image-3: &amp;#8220;connected-car-tesla-bosch-concept-infotainment-3.PNG&amp;#8221;
+image-4:
+intro:
+description:
+&amp;#8212;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+				<link>http://magazineduwebdesign.com/connected-car-tesla-bosch-concept-infotainment</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/connected-car-tesla-bosch-concept-infotainment</guid>
 			</item>
 		
 			<item>
@@ -1889,8 +1914,8 @@
 </description>
 				
 				<pubDate>Tue, 21 Jul 2015 17:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/void-elements</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/void-elements</guid>
+				<link>http://magazineduwebdesign.com/void-elements.md</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/void-elements.md</guid>
 			</item>
 		
 			<item>
@@ -2245,7 +2270,8 @@
 				<title>Galerie Yufuku</title>
 				        
 				
-					<description>
+					<description>&lt;p&gt;inspirations&lt;/p&gt;
+
 </description>
 				
 				<pubDate>Wed, 24 Jun 2015 17:24:57 +0200</pubDate>
