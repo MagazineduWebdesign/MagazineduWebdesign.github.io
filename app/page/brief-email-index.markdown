@@ -2,7 +2,7 @@
 layout: brief-emails_index
 title: "Un Web plus beau &amp; plus rapide commence avec la newsletter du MDW"
 permalink: "/le-brief-par-email/"
-intro: "Cultivez votre talent en vous inscrivant au Brief – le meilleur des interfaces, chaque semaine par email. Ne manquez rien des derniers conseils, outils, inspirations &amp; ressources créés par de talentueux designers et développeurs."
-description: "Cultivez votre talent en vous inscrivant au Brief – le meilleur des interfaces, chaque semaine par email"
+intro: "Cultivez votre talent en vous inscrivant au Brief – la newsletter du Magazine condensant le meilleur des interfaces, chaque semaine par email. Ne manquez rien des derniers conseils, outils, inspirations &amp; ressources créés par de talentueux designers et développeurs."
+description: "Cultivez votre talent en vous inscrivant au Brief – la newsletter du Magazine condensant le meilleur des interfaces, chaque semaine par email"
 text-twtr : "Un Web plus beau &amp; plus rapide commence avec la newsletter du @MagDuWebdesign"
 ---
