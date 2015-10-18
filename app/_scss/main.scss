@@ -479,6 +479,18 @@ sup {
 					display: block;
 				}
 			}
+      .grid-article-card-title-action-ascii{
+        display: block;
+        position: absolute;
+        top: rem-calc(16);
+        width: 85%;
+        font-size: rem-calc(18);
+      }
+			@media #{$small-only} {
+        .grid-article-card-title-action-ascii{
+          display: none;
+        }
+			}
 			.grid-article-card-meta{
 				margin-bottom: 0;
 				font-size: rem-calc(14);
