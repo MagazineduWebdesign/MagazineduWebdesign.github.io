@@ -1,8 +1,8 @@
 ---
 layout: "note_index"
-title: "Un Web plus beau et plus rapide commence avec le Brief du Magazine du Webdesign"
+title: "Les nouvelles les plus importantes et intéressantes en design et développement web"
 permalink: "/notes/"
-intro: "Cultivez votre talent en explorant le Brief – le meilleur des interfaces, chaque jour. Ne manquez rien des derniers conseils, outils, inspirations & ressources créés par de talentueux designers et développeurs."
-text-twtr : "Un Web plus beau et plus rapide commence avec le Brief du @MagDuWebdesign"
-description: "Cultivez votre talent en explorant le Brief – le meilleur des interfaces, chaque jour"
+intro: "Cultivez vos talents en explorant cette sélection du meilleur des interfaces. Ne manquez rien des derniers conseils, outils, inspirations & ressources créés par de talentueux designers et développeurs."
+text-twtr : "Sélection des nouvelles les plus importantes et intéressantes en design et développement web"
+description: "Cultivez vos talents en explorant cette sélection du meilleur des interfaces"
 ---
