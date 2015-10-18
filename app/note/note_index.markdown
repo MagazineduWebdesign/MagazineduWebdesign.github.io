@@ -1,8 +1,8 @@
 ---
 layout: "note_index"
-title: "Les nouvelles les plus importantes et intéressantes en design et développement web"
+title: "Les nouvelles les plus importantes et intéressantes du web pour les designers et développeurs"
 permalink: "/notes/"
-intro: "Cultivez vos talents en explorant cette sélection du meilleur des interfaces. Ne manquez rien des derniers conseils, outils, inspirations & ressources créés par de talentueux designers et développeurs."
+intro: "Cultivez vos talents en explorant Le meilleur des interfaces. L'essentiel de l'actu en un seul endroit, sélectionné à partir de centaines de blogs, tweets & newsletters. Ne manquez rien des derniers conseils, outils, inspirations & ressources créés par de talentueux designers et développeurs."
 text-twtr : "Sélection des nouvelles les plus importantes et intéressantes en design et développement web"
 description: "Cultivez vos talents en explorant cette sélection du meilleur des interfaces"
 ---
