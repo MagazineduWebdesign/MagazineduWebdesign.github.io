@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include header.html %}
+<section>
+	{% include custom/sections/inspirations-entries.html %}
+
+	<div class="header-liste">
+	  <header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+	</div>
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-sites-web" %}
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-apple-watch" %}
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-tv" %}
+	{% include custom/cartes/carte_nl-index-large.html %}
+	<article class="row index-wide-carte-twitter">
+		<div class="small-12 columns">
+			<a href="/collection/threejs-en-action/" title="ThreeJs en action">
+				<div class="collection-index-article mod-collection-in-index-wide" data-interchange="[{{ 'v-o-i-d-elements.jpg' | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ 'v-o-i-d-elements.jpg' | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ 'v-o-i-d-elements.jpg' | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
+					<div class="shadow-img">
+						<div class="collection-index-article-content">
+							<h1 class="collection-index-article-content-title mod-collection-title-in-index-wide text-center">ThreeJs en action</h1>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</article>
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-connected-car" %}
+	{% include custom/cartes/carte_items-thn_ui-inspiration.html param="ui-android-wear" %}
+	{% include custom/cartes/carte_items-thn.html param="code-art" %}
+	{% include custom/cartes/carte_twtr_index-large.html %}
+
+	<!-- list all section's categories
+	================================================== -->
+	{% include custom/cartes/carte_cross-navigation-inspirations.html %}
+
+</section>

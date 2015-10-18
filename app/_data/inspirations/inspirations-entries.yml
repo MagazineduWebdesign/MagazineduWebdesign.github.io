@@ -1,0 +1,33 @@
+- name: "CODE & ART"
+  permalink: "/inspirations/code-art/"
+
+- name: "ANDROID WEAR"
+  permalink: "/inspirations/ui-design/android-wear/"
+
+- name: "APPLE WATCH"
+  permalink: "/inspirations/ui-design/apple-watch/"
+
+- name: "CONNECTED CAR"
+  permalink: "/inspirations/ui-design/connected-car/"
+
+- name: "SITES WEB"
+  permalink: "/inspirations/ui-design/sites-web/"
+
+- name: "TV"
+  permalink: "/inspirations/ui-design/tv/"
+
+- name: "MATERIAL DESIGN"
+  permalink: "/inspirations/ui-design/material-design/"
+  coming-soon: "<sup>β</sup>"
+
+- name: "USER FLOW iOS"
+  permalink: "/inspirations/parcours-apps/ios/"
+  coming-soon: "<sup>β</sup>"
+
+- name: "USER FLOW ANDROID"
+  permalink: "/inspirations/parcours-apps/android/"
+  coming-soon: "<sup>β</sup>"
+
+- name: "WEB VR – REALITE VIRTUELLE"
+  permalink: "/inspirations/web-vr-realite-virtuelle/"
+  coming-soon: "<sup>β</sup>"

@@ -1,7 +1,7 @@
 <section>
   <div class="row">
     <div class="small-12 columns">
-      <h1 class="section-carte-header-title">{{ include.param | remove:'apprendre-' | replace: '-', ' ' | capitalize }}</h1>
+      <h1 class="section-carte-header-title">{{ include.param | remove:'conseils-' | replace: '-', ' ' | capitalize }}</h1>
     </div>
   </div>
   <!-- list items
@@ -48,7 +48,7 @@
         <li>
           <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 
-            <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}{{ page.permalink }}{{ include.param | remove:'apprendre-' }}/" title="Explorer la collection">
+            <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}{{ page.permalink }}{{ include.param | remove:'conseils-' }}/" title="Explorer la collection">
 
               <div class="row collapse grid-article-card-image mod-book-image mod-action hide-for-small">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">

@@ -1,17 +1,14 @@
-- name: "APPRENDRE"
-  permalink: "/apprendre/"
+- name: CONSEILS
+  permalink: /conseils/
 
-- name: "DECOUVRIR"
-  permalink: "/decouvrir/"
+- name: RESSSOURCES
+  permalink: /ressources/
 
-- name: "LIRE"
-  permalink: "/lire/"
+- name: VIDEOS
+  permalink: /videos/
 
-- name: "VOIR"
-  permalink: "/videos/"
-
-- name: "S'INSPIRER"
-  permalink: "/inspiration/"
+- name: INSPIRATIONS
+  permalink: /inspirations/
 
 - name: "JOBS"
   permalink: "/emploi/"
@@ -21,3 +18,6 @@
 
 - name: "COLLECTIONS"
   permalink: "/collections/"
+
+- name: "ARTCILES"
+  permalink: "/articles/"

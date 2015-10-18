@@ -156,7 +156,12 @@
 
         <!-- Main navigation for large & medium devices - right nav section dropdown -->
         <li class="has-dropdown">
-          <a href="#"><svg class="ic_block-h64-no-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
+          <a href="#">
+            <svg class="ic_block-h64-no-text" fill="#999999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+            </svg>
+          </a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more %}
             <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | upcase }}</a></li>

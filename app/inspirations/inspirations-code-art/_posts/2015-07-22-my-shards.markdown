@@ -1,0 +1,16 @@
+---
+layout: "inspirations-default"
+title: "My shards"
+date: "2015-07-22 18:25:57"
+path1: "inspirations"
+path2: "code-art"
+path3:
+category: "code-art"
+tags:
+url-demo: "http://myshards.com/"
+image: "my-shards-1.jpg"
+image-2: "my-shards-2.jpg"
+intro:
+description:
+metadata: "false"
+---
