@@ -166,7 +166,7 @@
           </a>
           <ul class="dropdown">
             {% for item in site.data.navigation.navigation-header-more %}
-            <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | upcase }}</a></li>
+            <li><a href="{{ item.permalink }}" title="{{ item.name }}" target="_blank">{{ item.name | upcase }}</a></li>
             {% endfor %}
           </ul>
         </li>

@@ -6,3 +6,15 @@
 
 - name: ARTICLES
   permalink: /articles/
+
+- name: "A PROPOS"
+  permalink: /a-propos/
+
+- name: "HELLO"
+  permalink: /hello/
+
+- name: "SPONSORS"
+  permalink: /sponsors/
+
+- name: "FEEDBACK"
+  permalink: /feedback/

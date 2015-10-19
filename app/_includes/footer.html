@@ -4,7 +4,7 @@
       <p class="text-center">C'est la fin ! ¯\_(⊙︿⊙)_/¯</p>
       <ul class="inline-list-app-footer text-center">
         {% for item in site.data.navigation.navigation-footer %}
-          <li><a href="{% if item.external-link == 'true' %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.permalink }}" title="{{ item.name }}" {% if item.external-link == 'true' %}target="_blank"{% endif %}>{{ item.name | Capitalize }}</a></li>
+          <li><a href="{{ item.permalink }}" title="{{ item.name }}" target="_blank">{{ item.name | Capitalize }}</a></li>
         {% endfor %}
       </ul>
       <p class="text-center small">© 2015 <a href="http://magazineduwebdesign.com" title="Magazine du Webdesign – Le meilleur des interfaces, chaque jour">Magazine du Webdesign</a> – Tous droits réservés</p>
