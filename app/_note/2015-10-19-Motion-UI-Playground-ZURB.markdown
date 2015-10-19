@@ -2,11 +2,11 @@
 title: "Motion UI | ZURB"
 date: 2015-10-19 00:00:00
 source-name:
-source-url:
+source-url: "http://zurb.com/playground/motion-ui/?ref=MagazineDuWebdesign"
 image:
 image-legende:
 id-youtube:
-id-vimeo: "142143279"
+id-vimeo:
 id-soundcloud:
 video-legende:
 ---

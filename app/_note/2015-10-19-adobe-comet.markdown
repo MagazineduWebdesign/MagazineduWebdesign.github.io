@@ -1,8 +1,8 @@
 ---
 title: "Adobe Comet &ndash; designer avec de vraies données"
 date: 2015-10-19 00:00:00
-source-name:
-source-url:
+source-name: "ADOBE"
+source-url: "http://landing.adobe.com/en/na/products/creative-cloud/comet/229818-notifyme.html?ref=MagazineDuWebdesign"
 image:
 image-legende:
 id-youtube: "e8ebPSJR3U0"
