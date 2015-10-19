@@ -210,7 +210,7 @@ sup {
 }
 @media #{$small-only} {
   .header-liste-section-hero{
-    padding-bottom: 0;
+    padding-bottom: rem-calc(48);
     background-image: none;
   }
 }
