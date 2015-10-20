@@ -104,10 +104,11 @@
 	font-size:rem-calc($fontsize);
 }
 // Utilisé pour contrôler le style des paragraphes serif
-@mixin font-serif-paragraphe($fontsize: 18,$lineh: 27) {
+@mixin font-serif-paragraphe($fontsize: 20,$lineh: 32) {
 	font-family:$font-family-serif;
 	font-size:rem-calc($fontsize);
-	line-height:rem-calc($lineh)
+	line-height:rem-calc($lineh);
+  font-weight: 300;
 }
 @mixin font-sans-serif-paragraphe($fontsize: 16,$lineh: 24) {
 	font-family:$font-family-sans-serif;
