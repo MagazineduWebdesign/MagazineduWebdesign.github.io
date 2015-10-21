@@ -1,0 +1,13 @@
+---
+title: "La roadmap 666"
+date: 2015-10-21 00:00:00
+source-name:
+source-url: "https://medium.com/@padday/the-666-roadmap-36c55edb5fd1"
+image:
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Paul Adams de Intercom expose sa théorie sur la planification d'une feuille de route pour le développement d'un produit : 6 semaines, 6 mois et 6 ans.
