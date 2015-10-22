@@ -195,26 +195,6 @@ sup {
 	padding:rem-calc(48 0 24);
 	background: linear-gradient(to bottom,$white 0,$white-smoke 100%);
 }
-.header-liste-section-hero{
-  @include header-liste;
-  padding-bottom: rem-calc(224);
-  background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-img-integration/magazineduwebdesign-home-section-hero-illustration-3.png);
-  background-size: rem-calc(1400) auto;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-}
-@media #{$medium-only} {
-  .header-liste-section-hero{
-    padding-bottom: rem-calc(208);
-    background-size: rem-calc(1180) auto;
-  }
-}
-@media #{$small-only} {
-  .header-liste-section-hero{
-    padding-bottom: rem-calc(48);
-    background-image: none;
-  }
-}
 .header-liste.u-no-padding-bottom{padding-bottom: 0;}
 .header-liste.u-no-padding-top{padding-top: 0;}
 .header-liste.mod-no-bg-gradient{
