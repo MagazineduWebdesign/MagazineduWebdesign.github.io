@@ -2,7 +2,7 @@
 layout: "page-1-column"
 title: "Génial, votre inscription est confirmée."
 description: "Votre inscription est confirmée"
-intro: "Rendez-vous dans quelques jours pour votre premier brief. En attendant, faites une pause créative en explorant le compte Twitter et Facebook du MDW."
+intro: "Rendez-vous dans quelques jours pour votre première newsletter. En attendant, faites une pause créative en explorant le compte Twitter et Facebook du MDW."
 permalink: "/genial-inscription-confirmee/"
 ---
 

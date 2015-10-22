@@ -421,6 +421,10 @@ sup {
 				min-height: rem-calc(128);
 				max-height: rem-calc(128);
 			}
+			.grid-article-card-info.mod-section-home{
+				min-height: rem-calc(80);
+				max-height: rem-calc(80);
+			}
 		}
 		.grid-article-card-info.mod-add-new{
 			background: none;
@@ -503,7 +507,7 @@ sup {
       .grid-article-card-title-action-ascii{
         display: block;
         position: absolute;
-        top: rem-calc(16);
+        bottom: rem-calc(128);
         width: 85%;
         font-size: rem-calc(18);
       }

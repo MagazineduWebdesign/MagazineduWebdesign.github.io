@@ -201,9 +201,6 @@ layout: default
 		            <div class="row collapse">
 		              <div class="grid-article-card-info small-12 columns">
 		              	<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 64 }}</h1>
-		              	{% if post.path2 %}
-                    	<p class="grid-article-card-meta">{{ post.path2 | capitalize | replace: '-', ' ' | truncate: 24 }}</p>
-                  	{% endif %}
 		              </div>
 		            </div>
 
