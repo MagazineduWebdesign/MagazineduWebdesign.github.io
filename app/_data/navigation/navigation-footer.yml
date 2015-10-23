@@ -10,6 +10,10 @@
   permalink: "https://www.pinterest.com/MagDuWebdesign/"
   external-link: "true"
 
+- name: "Tumblr"
+  permalink: "http://magazineduwebdesign.tumblr.com/"
+  external-link: "true"
+
 - name: "Medium"
   permalink: "https://medium.com/@magduwebdesign"
   external-link: "true"
@@ -21,3 +25,6 @@
 - name: "StackShare"
   permalink: "http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign"
   external-link: "true"
+
+- name: "RSS"
+  permalink: "feed.xml"

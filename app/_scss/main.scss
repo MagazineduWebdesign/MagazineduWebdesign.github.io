@@ -1016,6 +1016,9 @@ figcaption{
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
 .topbar-partage-twitter{background-color:$twitter !important; margin-bottom:0; color:$white!important}
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
+.topbar-button-add-new{
+  padding-right: rem-calc(24)!important; 
+}
 .top-bar .title-area.mod-main-navigation{
   width: 16.7%;
   min-width: rem-calc(240);

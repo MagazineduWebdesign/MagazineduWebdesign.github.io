@@ -150,25 +150,11 @@
 
         <!-- Suggest something -->
         <li>
-          <a class="typeform-share link" href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
-            <svg class="ic_block-h64-no-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>
+          <a class="typeform-share link topbar-button-add-new" href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank" title="Suggérer votre découverte/création">
+            <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>
+            SUGGERER
           </a>
           <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-        </li>
-
-        <!-- Main navigation for large & medium devices - right nav section dropdown -->
-        <li class="has-dropdown">
-          <a href="#">
-            <svg class="ic_block-h64-no-text" fill="#999999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-            </svg>
-          </a>
-          <ul class="dropdown">
-            {% for item in site.data.navigation.navigation-header-more %}
-            <li><a href="{{ item.permalink }}" title="{{ item.name }}" target="_blank">{{ item.name | upcase }}</a></li>
-            {% endfor %}
-          </ul>
         </li>
 
       </ul>
