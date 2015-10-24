@@ -1,11 +1,23 @@
 ---
-layout: page-1-column
-title: Bienvenu(e), c'est un plaisir de vous compter parmi nous
+layout: "page-1-column"
+title: "Bienvenue dans la communauté du Magazine du Webdesign"
+intro: "C'est un plaisir de vous compter parmi nous. Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
 description: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences."
-intro: "Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
 permalink: "/salut/"
 ---
-<p class="text-center">Promis, il y aura plus de fun dans les prochains emails !</p>
+<p class="text-center">En attendant, faites une pause créative en explorant le compte Twitter et Facebook du MDW.</p>
+<div class="row">
+  <div class="small-12 columns">
+    <ul class="buttons-inline-list text-center">
+      <li>
+        <a class="article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
+      </li>
+      <li>
+        <a class="article-partage-facebook" href="https://www.facebook.com/MagazineDuWebdesign/" title="Explorez le MDW sur Facebook" rel="nofollow" target="_blank">FACEBOOK</a>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <figure class="text-center">
   <img class="rounded-img-d64 mod-avatar" src="{{ site.author.avatar | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Avatar" width="64" height="64">

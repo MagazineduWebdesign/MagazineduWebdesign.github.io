@@ -772,6 +772,24 @@ sup {
   padding: rem-calc(12 12 10 12);
   font-size: rem-calc(11);
 }
+// buttons list
+.buttons-inline-list {
+  @include inline-list;
+}
+  .buttons-inline-list > li{
+      display: inline-block!important;
+      float: none!important;
+      vertical-align: middle;
+  }
+  @media #{$small-only} {
+  	.buttons-inline-list > li {
+      margin-left: 0;
+    }
+  }
+  .buttons-inline-list > li:first-of-type{
+      margin-left: 0;
+  }
+
 // breadcrumb
 .breadcrumbs{margin-bottom:rem-calc(0)}
 
@@ -1686,6 +1704,9 @@ footer a:hover{
       display: inline-block!important;
       float: none!important;
       vertical-align: middle;
+  }
+  .inline-list-app-footer > li:first-of-type{
+      margin-left: 0;
   }
 
 // 00. 404 ERROR

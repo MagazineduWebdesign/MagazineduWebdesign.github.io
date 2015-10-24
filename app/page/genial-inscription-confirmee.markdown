@@ -6,9 +6,9 @@ intro: "Rendez-vous dans quelques jours pour votre première newsletter. En atte
 permalink: "/genial-inscription-confirmee/"
 ---
 
-<div class="row article-partage">
-  <div class="small-12 medium-6 medium-centered medium-offset-4 columns">
-    <ul class="link-partage-article-footer">
+<div class="row">
+  <div class="small-12 columns">
+    <ul class="buttons-inline-list text-center">
       <li>
         <a class="article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
       </li>
