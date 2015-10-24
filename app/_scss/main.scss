@@ -271,6 +271,7 @@ sup {
 	}
 	.section-carte-header-title.mod-videos-relatives{
 		@include item-row;
+    margin-top: 0;
 		color:$jumbo;
 		border-bottom: 1px solid $secondary-color
 	}
@@ -385,6 +386,9 @@ sup {
 			opacity: 1;
 			@include transition($target: opacity);
 			border-radius: rem-calc(2 2 0 0);
+      border-width: 1px 1px 0;
+      border-style: solid;
+      border-color: $secondary-color;
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image img{
 			opacity: .25;
@@ -1017,7 +1021,7 @@ figcaption{
 .topbar-partage-twitter{background-color:$twitter !important; margin-bottom:0; color:$white!important}
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
 .topbar-button-add-new{
-  padding-right: rem-calc(24)!important; 
+  padding-right: rem-calc(24)!important;
 }
 .top-bar .title-area.mod-main-navigation{
   width: 16.7%;
