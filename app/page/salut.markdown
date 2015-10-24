@@ -5,7 +5,7 @@ intro: "C'est un plaisir de vous compter parmi nous. Voilà, vous recevrez déso
 description: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences."
 permalink: "/salut/"
 ---
-<p class="text-center">En attendant, faites une pause créative en explorant le compte Twitter et Facebook du MDW.</p>
+<p class="text-center">En attendant, faites une pause créative en explorant les collections soigneusement organisées de <a href="/notes/" title="Les dernières actus en design et développement web">nouvelles</a>, de <a href="/ressources/" title="Gagnez du temps avec ces merveilleuses ressources">ressources</a> et d'<a href="/inspirations/" title="Cultivez votre créativité">inspirations</a> ou aventurez-vous sur le compte Twitter et Facebook du MDW.</p>
 <div class="row">
   <div class="small-12 columns">
     <ul class="buttons-inline-list text-center">
