@@ -43,7 +43,7 @@ layout: default
 		{% if page.image %}
 		<div class="row-article-featured-image">
 		  <div class="column-article-featured-image">
-		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" alt="{{ page.image-legende }}" itemprop="image" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}" itemprop="image" /></noscript>
+		  	<img class="is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" width="940" height="auto"alt="{{ page.image-legende }}" itemprop="image"/><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}" itemprop="image" /></noscript>
 		  </div>
 
 		  {% if page.image-legende %}
