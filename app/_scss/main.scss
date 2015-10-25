@@ -267,13 +267,13 @@ sup {
 	.section-carte-header-title{
 		@include item-row;
     margin-top: rem-calc(24);
-		color: $jumbo;
+		font-weight: 600;
 	}
 	.section-carte-header-title.mod-videos-relatives{
 		@include item-row;
     margin-top: 0;
-		color:$jumbo;
-		border-bottom: 1px solid $secondary-color
+		border-bottom: 1px solid $secondary-color;
+    font-weight: 600;
 	}
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
