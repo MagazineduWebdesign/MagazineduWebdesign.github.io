@@ -5,7 +5,7 @@ entreprise: "Viadeo"
 fonction: "UI Designer"
 lieu: "Paris"
 type: "CDI"
-statut:
+statut: "nouveau"
 candidater-url: "http://fr.viadeo.com/fr/jobs/senior-visual-designer-h-f-0021gcxi3f59bwlx?ref=magazineduwebdesign"
 image: "viadeo.png"
 auteur: "MagDuWebdesign"

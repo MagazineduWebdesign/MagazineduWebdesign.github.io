@@ -5,7 +5,7 @@ entreprise: "BlaBlaCar"
 fonction: "Développeur Frontend"
 lieu: "Paris"
 type: "CDI"
-statut: "nouveau"
+statut:
 candidater-url: "https://www.smartrecruiters.com/BlaBlaCar/85034769-frontend-developer-webdesigner?ref=magazineduwebdesign"
 image: "blablacar.png"
 auteur: "MagDuWebdesign"
