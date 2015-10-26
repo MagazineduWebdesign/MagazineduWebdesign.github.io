@@ -212,7 +212,7 @@ sup {
 	line-height:rem-calc(48);
 }
 .section-header.mod-section-header-list-index{
-	padding:0;
+	padding: rem-calc(0 12 0 12);
 }
 .section-header-titre{
 	margin-bottom:0;
@@ -542,7 +542,7 @@ sup {
 			.grid-article-card-ctrl-preview{
 				position: absolute;
 				left: 50%;
-				top: 24%;
+				top: 28%;
 				width: rem-calc(24);
 				height: rem-calc(24);
 				margin: rem-calc(-12 0 0 -12);
