@@ -13,6 +13,7 @@ keyword_title:
 keyword_desc:
 viaurl: http://codevisually.com/gridism-simple-responsive-css-grid/
 viatitle: Code Visually
+bgimgheader: "true"
 ---
 
 <p>Sur les écrans ayant une résolution inférieure à 568px de largeur, les cellules de la grille sont empilées, tandis que sur des écrans plus larges, elles peuvent avoir une largeur maximale de 978px ou 1140px.&nbsp;</p>
