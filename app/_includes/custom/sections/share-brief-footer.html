@@ -52,7 +52,7 @@
               <input type="text" value="{{ site.url }}/notes/">
             </li>
             <li class="menuitem show-for-small-only">
-              <a href="mailto:?subject=Le%20brief%20du%20Magazine%20du%20Webdesign&amp;body=Cela%20pourrait%20t'int%C3%A9resser%20%3A%20{{ site.url | cgi_escape }}%2Fnotes%2F" rel="nofollow"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#999999"/></svg>PARTAGER VIA EMAIL</a>
+              <a href="mailto:?subject={{ page.title | uri_escape }}&amp;body=Cela%20pourrait%20t'int%C3%A9resser%20%3A%20{{ site.url | cgi_escape }}%2Fnotes%2F" rel="nofollow"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#999999"/></svg>PARTAGER VIA EMAIL</a>
             </li>
           </ul>
         </div>

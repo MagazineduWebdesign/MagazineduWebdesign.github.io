@@ -120,7 +120,7 @@
           <a href="#"><svg class="ic_block-h64-no-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="#999999"/></svg></path></a>
           <ul class="dropdown">
             <li><label>PARTAGER VIA..</label></li>
-            <li><a href="mailto:?subject={{ page.title | uri_escape }}&amp;body={{ 'Cela pourrait te plaire ' | uri_escape }}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}{{ '?utm_source=email&utm_medium=email_share' | uri_escape }}" rel="nofollow">EMAIL</a></li>
+            <li><a href="mailto:?subject={{ page.title | uri_escape }}&amp;body={{ 'Cela pourrait te plaire ' | uri_escape }}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}?utm_source%3Demail%26utm_medium%3Demail_share" rel="nofollow" target="_blank">EMAIL</a></li>
             <li><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank">GOOGLE+</a></li>
             <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" rel="nofollow" target="_blank">LINKEDIN</a></li>
 
