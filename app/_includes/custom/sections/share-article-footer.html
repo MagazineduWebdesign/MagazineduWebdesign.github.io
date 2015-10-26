@@ -1,10 +1,11 @@
-<div class="small-12 columns">
-  <ul class="link-partage-article-footer">
-    <li>
-      <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;via=MagDuWebdesign&amp;text={{ page.title }}" class="article-partage-twitter" rel="nofollow" target="_blank">TWEETER</a>
-    </li>
-    <li>
-      <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | cgi_escape }}&amp;t={{ page.title }}" class="article-partage-facebook" rel="nofollow" target="_blank">PARTAGER</a>
-    </li>
-  </ul>
+<div class="row show-for-medium-up">
+  <div class="small-4 columns">
+    <a class="button expand radius small article-partage-twitter" href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;via=MagDuWebdesign&amp;text={{ page.title }}" rel="nofollow" target="_blank">TWEETER</a>
+  </div>
+  <div class="small-4 columns">
+    <a class="button expand radius small article-partage-facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | cgi_escape }}&amp;t={{ page.title }}" rel="nofollow" target="_blank">PARTAGER SUR FACEBOOK</a>
+  </div>
+  <div class="small-4 columns">
+    <a class="button expand radius small article-partage-email" href="mailto:?subject={{ page.title | uri_escape }}&amp;body={{ 'Cela pourrait te plaire ' | uri_escape }}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}?utm_source=email&utm_medium=email_share" rel="nofollow" target="_blank">ENVOYER A UN AMI</a>
+  </div>
 </div>

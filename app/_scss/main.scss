@@ -127,20 +127,8 @@ $facebook:#3B5998;
 $googleplus:#CC3732;
 $linkedin:#0077B5;
 $youtube:#E62117;
+$pinterest:#bd081c;
 $paypal:#003087;
-// color gradient (via the awesome tool http://uigradients.com/)
-.cherry{background: linear-gradient(90deg, #EB3349 10%, #F45C43 90%);}
-.kashmir{background: linear-gradient(90deg, #614385 10%, #516395 90%);}
-.midnight-city{background: linear-gradient(90deg, #232526 10%, #414345 90%);}
-.pinot-noir{background: linear-gradient(90deg, #4b6cb7 10%, #182848 90%);}
-.amethyste{background: linear-gradient(90deg, #9D50BB 10%, #6E48AA 90%);}
-.electric-violet{background: linear-gradient(90deg, #4776E6 10%, #8E54E9 90%);}
-.messenger{background: linear-gradient(90deg, #00c6ff 10%, #0072ff 90%);}
-.shrimpy{background: linear-gradient(90deg, #e43a15 10%, #e65245 90%);}
-.vine{background: linear-gradient(90deg, #00bf8f 10%, #001510 90%);}
-.instagram{background: linear-gradient(90deg, #517fa4 10%, #243949 90%);}
-.wine{background: linear-gradient(90deg, #870000 10%, #190A05 90%);}
-
 
 // b. TYPOGRAPHIE
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -738,9 +726,8 @@ sup {
 	transition: all .25s ease-in-out;
 }
 //partage
-.partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
-.partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
-
+.partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:$global-radius); margin-bottom:0; color:$white!important}
+.partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:$global-radius); margin-bottom:0; color:$white!important}
 .link-partage {@include item-row}
 .link-partage.mod-partage-index-quote a {color:$white}
 .link-partage.mod-partage-index-quote a:hover {color:$gainsboro}
@@ -1045,6 +1032,8 @@ figcaption{
 .topbar-partage-facebook:hover{background-color: scale-color($facebook, $lightness: -16%)!important}
 .topbar-partage-twitter{background-color:$twitter !important; margin-bottom:0; color:$white!important}
 .topbar-partage-twitter:hover{background-color: scale-color($twitter, $lightness: -16%)!important}
+.topbar-partage-pinterest{background-color:$pinterest !important; margin-bottom:0; color:$white!important}
+.topbar-partage-pinterest:hover{background-color: scale-color($pinterest, $lightness: -16%)!important}
 .topbar-button-add-new{
   padding-right: rem-calc(24)!important;
 }
@@ -1339,8 +1328,9 @@ main.column-body-article h2, main.column-body-article h3,{
 	border-bottom:0
 }
 .article-partage{margin-bottom:rem-calc(24)}
-.article-partage-facebook{@include button($bg:$facebook,$radius:2px); margin-bottom:0; color:$white!important}
-.article-partage-twitter{@include button($bg:$twitter,$radius:2px); margin-bottom:0; color:$white!important}
+.article-partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
+.article-partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
+.article-partage-email{@include button($bg:$jet,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 @media #{$small-only} {
 	.row-body-article {
 		.column-body-article{
