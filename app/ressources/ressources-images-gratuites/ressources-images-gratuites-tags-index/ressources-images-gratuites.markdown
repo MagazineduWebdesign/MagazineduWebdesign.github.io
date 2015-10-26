@@ -7,4 +7,6 @@ intro: "Sélection de superbes photos pour donner vie à vos créations. Chacun 
 description: "Collection de superbes photos pour donner vie à vos créations. Chacun des stocks d'images permet de dénicher la bonne photo gratuite, libre de droits"
 text-twtr: "En train d'explorer la collection de stocks d'images & de photos libres de droits du @MagDuWebdesign"
 coming-soon: "false"
+bgimgheader: "true"
+image: "stocks-photos-libres-de-droits.jpg"
 ---

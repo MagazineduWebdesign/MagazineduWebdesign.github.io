@@ -76,7 +76,6 @@
 @mixin header-liste($bg: $white) {
 	padding:rem-calc(48) 0;
 	background:$bg;
-	border-bottom:1px solid $secondary-color;
 }
 // Utilisé pour contrôler le style des titres d'header d'index
 @mixin header-liste-title($margin:rem-calc(24),$color: $white) {
@@ -205,7 +204,6 @@ sup {
 		color: $aluminum;
 	}
 	.header-liste-content.mod-bg-img{
-		margin-bottom: 0;
 		color: $white;
 	}
 	.header-liste-content-link {@include header-liste-link}
@@ -224,6 +222,9 @@ sup {
 .section-header{
 	padding:0 rem-calc(20);
 	line-height:rem-calc(48);
+}
+.section-header.mod-section-header-list-index{
+	padding:0;
 }
 .section-header-titre{
 	margin-bottom:0;
@@ -268,6 +269,9 @@ sup {
 		@include item-row;
     margin-top: rem-calc(24);
 		font-weight: 600;
+	}
+	.section-carte-header-title:first-of-type{
+    margin-top: 0;
 	}
 	.section-carte-header-title.mod-videos-relatives{
 		@include item-row;
@@ -1534,10 +1538,16 @@ input.index-wide-newsletter-in-grid-submit{
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-collection{
 	min-height:($topbar-height * 4);
-	@include header-liste($bg:transparent)
+	@include header-liste($bg:transparent);
+  padding-bottom: rem-calc(96);
+  margin-bottom: rem-calc(-96);
 }
 .header-collection-bgimg{@include header-bgimg}
-.header-collection-shadow{@include blend($padding:0)}
+.header-collection-shadow{
+  background: linear-gradient(180deg,rgba(0,0,0,.3),rgba(245,245,245,1) 100%);
+  min-height: 48vh;
+  height: auto;
+}
 .header-collection h1{
   @include header-liste-title;
 }
