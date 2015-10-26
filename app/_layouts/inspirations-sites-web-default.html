@@ -12,8 +12,8 @@ layout: default
           <h1 itemprop="headline">{{ page.title }}</h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
         </div>
-        <div class="small-12 medium-12 large-4 columns small-text-center large-text-right">
-          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small primary" target="_blank">VISITER LE SITE WEB</a>{% endif %}
+        <div class="small-12 columns hide-for-large-up small-text-center">
+          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}
         </div>
       </div>
 
@@ -43,6 +43,9 @@ layout: default
         <div class="article-meta-data-right">
           <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
 
+            {% if page.url-demo %}
+            <li class="show-for-large-up" role="menuitem"><a href="{{ page.url-demo }}" class="button expand radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
+            {% endif %}
             {% if page.theme %}
             <li class="article-meta-data-header-title">Thème</li>
             <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme | upcase }}</a></li>

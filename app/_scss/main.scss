@@ -685,6 +685,9 @@ sup {
 		padding: rem-calc(0 0 24 20);
 		margin-bottom: rem-calc(24);
 	}
+	.article-meta-data-right a.button{
+		margin-bottom: rem-calc(8);
+	}
 }
 
 // side-nav
@@ -751,16 +754,16 @@ sup {
   	margin: 0 rem-calc(24) 0 0;
 	}
 // button
-.button-without-border{@include button($bg:false, $radius:2px); margin-bottom:0;}
-.button-without-bg{@include button($bg:false, $radius:2px);border:1px solid $primary-color}
+.button-without-border{@include button($bg:false, $radius: $global-radius); margin-bottom:0;}
+.button-without-bg{@include button($bg:false, $radius: $global-radius); border: 1px solid $primary-color}
 .button-subscribe-youtube{
-	@include button($bg:$youtube, $radius:2px);
+	@include button($bg:$youtube, $radius: $global-radius);
 	margin: rem-calc(0 0 0 8);
 	padding: rem-calc(5 12 3 8);
 	font-size: rem-calc(11);
 }
 .button-subscribe-twitter{
-	@include button($bg:$white, $radius:2px);
+	@include button($bg:$white, $radius: $global-radius);
 	margin: rem-calc(0 0 0 8);
 	padding: rem-calc(5 12 3 12);
 	font-size: rem-calc(11);
@@ -771,7 +774,7 @@ sup {
 	}
 }
 .button-paypal{
-	@include button ($radius:2px);
+	@include button ($radius: $global-radius);
   margin: rem-calc(0 0 12);
   padding: rem-calc(12 12 10 12);
   font-size: rem-calc(11);
