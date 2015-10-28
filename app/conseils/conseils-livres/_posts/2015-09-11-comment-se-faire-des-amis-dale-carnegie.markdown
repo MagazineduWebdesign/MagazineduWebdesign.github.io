@@ -20,7 +20,7 @@ description: "Ignorez le titre ringard ou le fait qu'il soit vendu sous la rubri
 rating: "8"
 ---
 
-Je devrais également le relire. Le sujet paraît plutôt simple de prime abord : conseils à être gentil et à traiter les autres comme nous souhaiterions être traités. Dans la réalité, cela n'est pas si simple. L'intelligence émotionnelle n'est pas innée. A l'instar des arts et des sciences, cela s'apprend et se cultive au fil du temps.
+Je devrais également le relire. Le sujet paraît plutôt simple de prime abord : être gentil, traiter les autres comme nous souhaiterions être traité et leur donner un sentiment d'importance. Dans la réalité, cela n'est pas si simple. L'intelligence émotionnelle n'est pas innée. A l'instar des arts et des sciences, cela s'apprend et se cultive au fil du temps.
 
 Une excellente lecture si vous êtes amené à collaborer quotidiennement avec des êtres humains. Votre vie n'en sera que plus positive :-).
 
