@@ -9,10 +9,10 @@ category: "themes-joomla"
 tags:
 by: "gavick"
 by-url: "https://www.gavick.com"
-url-demo: "https://demo.gavick.com/joomla/university/"
+url-demo: "https://demo.gavick.com/joomla25/university/"
 url-version-gratuite:
 url-telecharger:
-url-buy: "https://demo.gavick.com/joomla/university/"
+url-buy: "https://www.gavick.com/joomla-templates/university"
 pricecurrency: "$"
 price: "39"
 image: "theme-joomla-university-1.jpg"
