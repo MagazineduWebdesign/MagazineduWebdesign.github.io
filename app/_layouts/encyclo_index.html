@@ -5,18 +5,8 @@ layout: default
 {% include header.html %}
 
 <section>
-
   {% include custom/sections/conseils-entries.html %}
-
-  <div class="header-liste">
-    <header class="row-liste-index">
-			{% include custom/sections/index-header-intro.html %}
-		</header>
-    {% if page.coming-soon == 'true' %}
-      {% include custom/sections/inscription-alerte-release-modal-box.html %}
-    {% endif %}
-  </div>
-
+	{% include custom/sections/index-header-bg-img.html %}
   {% if page.coming-soon == 'true' %}
   {% else %}
   <div class="row-liste-index">

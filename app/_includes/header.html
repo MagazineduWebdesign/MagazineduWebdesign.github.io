@@ -129,7 +129,15 @@
 
           <!-- Main navigation for large devices - left nav section -->
           {% for item in site.data.navigation.navigation-header %}
-            <li class="{% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only"><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+            <li class="top-bar-section-main-navigation-item {% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only">
+              <a href="{{ item.permalink }}">
+                <span>{{ item.name }}</span>
+                <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+              </a>
+            </li>
           {% endfor %}
 
           <!-- Main navigation for large devices - left nav section dropdown -->

@@ -11,4 +11,6 @@ header-liste-tag-url-2: "/inspirations/ui-design/material-design/"
 header-liste-tag-title-3: "webgl"
 header-liste-tag-url-3: "/inspirations/ui-design/sites-web/technologies/webgl/"
 text-twtr: "En train d'explorer les collections d'interfaces & de parcours utilisateur du @MagDuWebdesign 🔍😮🆒👌💫✨"
+bgimgheader: "true"
+image: "hypno-funghi.gif"
 ---

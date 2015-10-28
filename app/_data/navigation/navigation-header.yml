@@ -1,6 +1,3 @@
-- name: ACTUS
-  permalink: /notes/
-
 - name: INSPIRATIONS
   permalink: /inspirations/
 
@@ -12,6 +9,9 @@
 
 - name: VIDEOS
   permalink: /videos/
+
+- name: ACTUS
+  permalink: /notes/
 
 - name: "JOBS"
   permalink: "/emploi/"

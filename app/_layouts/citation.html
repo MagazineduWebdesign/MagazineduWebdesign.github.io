@@ -3,16 +3,29 @@ layout: default
 ---
 
 {% include custom/sections/article_header.html %}
-<article>
-  <div class="{{ page.bg-color }}">
-    <div class="row-liste-index">
-      <main class="small-12 columns">
-        <blockquote class="index-quote text-center">
-          {{ content }}
-          <cite class="index-quote-author">
-            <a class="index-quote-author-link" href="{{ page.source-url }}">{{ page.auteur }}</a>
-          </cite>
-        </blockquote>
+<section>
+  {% if page.bgimgheader == 'true' %}
+  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
+  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
+  {% endif %}
+
+  	<div class="header-collection-shadow">
+  		<div class="header-collection">
+  			<header class="row-liste-index">
+  				<div class="small-12 columns text-center">
+            <blockquote class="index-quote text-center">
+              {{ content }}
+              <cite class="index-quote-author">
+                <a class="index-quote-author-link" href="{{ page.source-url }}">{{ page.auteur }}</a>
+              </cite>
+            </blockquote>
+  				</div>
+  			</header>
         <div class="row collapse">
           <div class="small-12 columns">
             <div class="link-partage mod-partage-index-quote text-center">
@@ -22,18 +35,22 @@ layout: default
             </div>
           </div>
         </div>
+  		</div>
+  	</div>
+  {% if page.bgimgheader == 'true' %}
+  </div>
+  {% endif %}
+
+  <article>
+    <div class="row-body-article item-contenu">
+      <main class="column-body-article mod-article-left-body">
+        {{ content }}
       </main>
+      <div class="article-meta-data-right mod-article-contenu-meta-data">
+        {% include custom/cartes/carte_post-a-job-in-article_right.html %}
+      </div>
     </div>
-  </div>
+  </article>
 
-  <div class="row-body-article item-contenu">
-    <main class="column-body-article mod-article-left-body">
-      {{ content }}
-    </main>
-    <div class="article-meta-data-right mod-article-contenu-meta-data">
-      {% include custom/cartes/carte_post-a-job-in-article_right.html %}
-    </div>
-  </div>
-
-</article>
-{% include custom/sections/article_footer_left.html %}
+  {% include custom/sections/article_footer_left.html %}
+</section>

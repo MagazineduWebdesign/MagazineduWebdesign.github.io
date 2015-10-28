@@ -67,20 +67,20 @@
 // az. @MIXINS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 // Utilisé pour contrôler le style des liens en header d'index
-@mixin header-liste-link($font-size: rem-calc(14), $color: $aluminum) {
+@mixin header-liste-link($font-size: rem-calc(14), $color: $white) {
  	font-size:$font-size;
 	padding:0;
 	color:$color
 }
 // Utilisé pour contrôler le style des header d'index
 @mixin header-liste($bg: $white) {
-	padding:rem-calc(48) 0;
+	padding:rem-calc(64) 0;
 	background:$bg;
 }
 // Utilisé pour contrôler le style des titres d'header d'index
 @mixin header-liste-title($margin:rem-calc(24),$color: $white) {
 	margin-bottom:$margin;
-	color:$color
+	color:$color;
 }
 // Utilisé pour contrôler le style des blends image
 @mixin blend($padding: $rem-base,$color: $black, $opacity:.4) {
@@ -195,7 +195,7 @@ sup {
 		color: $white;
 	}
 	.header-liste-content-link {@include header-liste-link}
-	.header-liste-content-link:hover{color:$oil}
+	.header-liste-content-link:hover{color:$tuatara}
   .header-liste-panel-info{
     margin-bottom: 0!important;
     @include panel($bg: $callout-panel-bg);
@@ -542,7 +542,7 @@ sup {
 			.grid-article-card-ctrl-preview{
 				position: absolute;
 				left: 50%;
-				top: 28%;
+				top: 24%;
 				width: rem-calc(24);
 				height: rem-calc(24);
 				margin: rem-calc(-12 0 0 -12);
@@ -878,7 +878,8 @@ background-position: center}
 		display:inline-block;
 		@include header-liste-link;
 		line-height:rem-calc(48);
-		padding:rem-calc(0 16)
+		padding:rem-calc(0 16);
+    color: $jumbo;
 	}
 	.tabs-item:hover{color:$oil}
 	.tabs-item.is-active{border-bottom:2px solid $primary-color}
@@ -1085,7 +1086,34 @@ figcaption{
     .top-bar-section-main-navigation li.hide-for-medium-only{
       float: none;
       display: inline-block!important;
+      vertical-align: top;
     }
+    .top-bar-section-main-navigation-item{
+      transition: all 0.2s linear;
+    }
+    .top-bar-section-main-navigation-item:hover{
+      background: rgba(255,255,255,0.1);
+    }
+      .top-bar-section-main-navigation-item span{
+        transition: all 0.2s cubic-bezier(0.89,0.04,0.21,0.93);
+      }
+      .top-bar-section-main-navigation-item:hover span{
+        transform: translate3d(0,50px,0);
+        opacity: 0;
+      }
+      .top-bar-section-main-navigation-item-icon{
+        transition: all 0.2s cubic-bezier(0.89,0.04,0.21,0.93);
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        left: 50%;
+        margin-left: -8px;
+        opacity: 0;
+      }
+      .top-bar-section-main-navigation-item:hover .top-bar-section-main-navigation-item-icon{
+        transform: translate3d(0,0,0);
+        opacity: 1
+      }
   }
     .top-bar-section .dropdown li a {
     	padding:rem-calc(0 16);
@@ -1093,6 +1121,9 @@ figcaption{
     }
     .top-bar-section ul li{
       position: relative;
+    }
+    .top-bar-section ul li > a{
+      overflow: hidden;
     }
     .top-bar-section-alerte-dotted:before {
       content: "•";
@@ -1537,7 +1568,7 @@ input.index-wide-newsletter-in-grid-submit{
 }
 .header-collection-bgimg{@include header-bgimg}
 .header-collection-shadow{
-  background: linear-gradient(180deg,rgba(0,0,0,.3),rgba(245,245,245,1) 100%);
+  background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(245,245,245,1) 100%);
   min-height: 48vh;
   height: auto;
 }
