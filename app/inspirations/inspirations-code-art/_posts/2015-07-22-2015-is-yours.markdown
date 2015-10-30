@@ -12,5 +12,4 @@ image: "2015-is-yours.jpg"
 image-2:
 intro:
 description:
-metadata: "false"
 ---

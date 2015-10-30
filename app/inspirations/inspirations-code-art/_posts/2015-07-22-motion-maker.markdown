@@ -12,5 +12,4 @@ image: "kitasenjudesign-motion-maker-1.jpg"
 image-2: "kitasenjudesign-motion-maker-2.jpg"
 intro:
 description:
-metadata: "false"
 ---

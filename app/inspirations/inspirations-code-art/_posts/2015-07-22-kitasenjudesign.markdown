@@ -12,5 +12,4 @@ image: "kitasenjudesign-1.jpg"
 image-2: "kitasenjudesign-2.jpg"
 intro:
 description:
-metadata: "false"
 ---

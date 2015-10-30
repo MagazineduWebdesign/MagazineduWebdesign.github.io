@@ -12,5 +12,4 @@ image: "star-trails.png"
 image-2:
 intro:
 description:
-metadata: "false"
 ---

@@ -128,17 +128,61 @@
           </li>
 
           <!-- Main navigation for large devices - left nav section -->
-          {% for item in site.data.navigation.navigation-header %}
-            <li class="top-bar-section-main-navigation-item {% if item.name == 'JOBS' %}top-bar-section-alerte-dotted{% endif %} hide-for-medium-only">
-              <a href="{{ item.permalink }}">
-                <span>{{ item.name }}</span>
-                <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                </svg>
-              </a>
-            </li>
-          {% endfor %}
+
+          <li class="top-bar-section-main-navigation-item hide-for-medium-only">
+            <a href="/inspirations/">
+              <span>INSPIRATIONS</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 6.54v10.91c-2.6-.77-5.28-1.16-8-1.16-2.72 0-5.4.39-8 1.16V6.54c2.6.77 5.28 1.16 8 1.16 2.72.01 5.4-.38 8-1.16M21.43 4c-.1 0-.2.02-.31.06C18.18 5.16 15.09 5.7 12 5.7c-3.09 0-6.18-.55-9.12-1.64-.11-.04-.22-.06-.31-.06-.34 0-.57.23-.57.63v14.75c0 .39.23.62.57.62.1 0 .2-.02.31-.06 2.94-1.1 6.03-1.64 9.12-1.64 3.09 0 6.18.55 9.12 1.64.11.04.21.06.31.06.33 0 .57-.23.57-.63V4.63c0-.4-.24-.63-.57-.63z"></path>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="top-bar-section-main-navigation-item hide-for-medium-only">
+            <a href="/ressources/">
+              <span>RESSOURCES</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="top-bar-section-main-navigation-item hide-for-medium-only">
+            <a href="/conseils/">
+              <span>CONSEILS</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 4H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H6V6h12v12z"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="top-bar-section-main-navigation-item hide-for-medium-only">
+            <a href="/videos/">
+              <span>VIDEOS</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 7.77L18.39 18H5.61L12 7.77M12 4L2 20h20L12 4z"/>
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+              </svg>
+            </a>
+          </li>
+          <li class="top-bar-section-main-navigation-item hide-for-medium-only">
+            <a href="/notes/">
+              <span>ACTUS</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 6.83V20H6.83L20 6.83M22 2L2 22h20V2z"></path>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="top-bar-section-main-navigation-item top-bar-section-alerte-dotted hide-for-medium-only">
+            <a href="/emploi/">
+              <span>JOBS</span>
+              <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 4l9 16 9-16H3zm3.38 2h11.25L12 16 6.38 6z"></path>
+              </svg>
+            </a>
+          </li>
 
           <!-- Main navigation for large devices - left nav section dropdown -->
           <li class="hide-for-medium-only has-dropdown">

@@ -7,5 +7,5 @@ intro: "Boostez votre productivité en explorant cette collection d'icônes pour
 description: "Boostez votre productivité en explorant cette sélection d'icônes au format .AI, .SKETCH, .EPS, .PDF, .PNG & .SVG"
 text-twtr: "Boostez votre productivité en explorant la collection d'icônes du MagDuWebdesign"
 bgimgheader: "true"
-image: "johos-at-cafe-bresil-1.jpg"
+image: "set-icones-gratuites-ego-icons-2.jpg"
 ---

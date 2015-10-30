@@ -7,6 +7,4 @@ intro: "Augmentez vos ventes avec cette sélection de thèmes mobile-friendly qu
 text-twtr: "En train d'explorer la collection de thèmes Shopify du @MagDuWebdesign"
 description: "Augmenter vos ventes avec cette sélection de thèmes mobile-friendly que vos clients vont adorer."
 coming-soon: "true"
-bgimgheader: "true"
-image: "theme-wordpress-color-creative-portfolio-2.png"
 ---

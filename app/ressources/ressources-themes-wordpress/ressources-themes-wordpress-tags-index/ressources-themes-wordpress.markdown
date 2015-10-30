@@ -7,5 +7,5 @@ intro: "Explorez cette liste de thèmes responsives et personnalisables pour cr�
 description: "Obtenez un thème WordPress gratuit ou premium qui fonctionne pour créer votre blog, votre portfolio ou le site web d'un ami"
 text-twtr: "En train d'explorer la collection de thèmes WordPress du @MagDuWebdesign"
 bgimgheader: "true"
-image: "theme-wordpress-music.jpg"
+image: "theme-wordpress-dw-brickstore-1.jpg"
 ---

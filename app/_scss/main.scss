@@ -101,6 +101,7 @@
 	margin-bottom:$mbottom;
 	line-height:rem-calc($lineh);
 	font-size:rem-calc($fontsize);
+  color: $aluminum;
 }
 // Utilisé pour contrôler le style des paragraphes serif
 @mixin font-serif-paragraphe($fontsize: 20,$lineh: 32) {
@@ -192,10 +193,10 @@ sup {
 		color: $aluminum;
 	}
 	.header-liste-content.mod-bg-img{
-		color: $white;
+		color: $gainsboro;
 	}
-	.header-liste-content-link {@include header-liste-link}
-	.header-liste-content-link:hover{color:$tuatara}
+	.header-liste-content-link {@include header-liste-link;}
+	.header-liste-content-link:hover{color: scale-color($white, $lightness: -48%);}
   .header-liste-panel-info{
     margin-bottom: 0!important;
     @include panel($bg: $callout-panel-bg);
@@ -257,6 +258,7 @@ sup {
 		@include item-row;
     margin-top: rem-calc(24);
 		font-weight: 600;
+    letter-spacing: rem-calc(1);
 	}
 	.section-carte-header-title:first-of-type{
     margin-top: 0;
@@ -301,7 +303,7 @@ sup {
 	@include transition($target: box-shadow);
 }
 .grid-article-card.mod-add-new{
-	border: 2px dotted $gainsboro;
+	border: 2px dotted $aluminum;
 	box-shadow: none;
 	border-radius: rem-calc(2);
 	@include transition($target: border);
@@ -741,7 +743,10 @@ sup {
   	margin: 0 rem-calc(24) 0 0;
 	}
 // button
-.button-without-border{@include button($bg:false, $radius: $global-radius); margin-bottom:0;}
+.button-without-border{@include button($bg:false, $radius: $global-radius); margin-bottom:0; color: $white;}
+.button-without-border:hover{color: scale-color($white, $lightness: -48%);}
+.button-without-border.mod-header-no-bg-img{color: $primary-color;}
+.button-without-border:hover.mod-header-no-bg-img{color: scale-color($primary-color, $lightness: -16%);}
 .button-without-bg{@include button($bg:false, $radius: $global-radius); border: 1px solid $primary-color}
 .button-subscribe-youtube{
 	@include button($bg:$youtube, $radius: $global-radius);
@@ -757,7 +762,8 @@ sup {
 }
 @media #{$small-only} {
 	.button-subscribe-twitter{
-		margin-top:rem-calc(16);
+    display: table;
+    margin: rem-calc(16) auto rem-calc(8);
 	}
 }
 .button-paypal{
@@ -833,7 +839,9 @@ background-position: center}
 	max-height: rem-calc(24);
 	border-radius: $global-radius;
 }
-
+#twitter-icon:hover{
+  fill: scale-color($twitter, $lightness: -16%);
+}
 // loader
 .infinite-spinner {
   display: block;
@@ -1566,10 +1574,15 @@ input.index-wide-newsletter-in-grid-submit{
   padding-bottom: rem-calc(96);
   margin-bottom: rem-calc(-96);
 }
-.header-collection-bgimg{@include header-bgimg}
+.header-collection-bgimg{
+  @include header-bgimg
+}
+.header-collection-bgimg-repeated-pattern{
+  @include header-bgimg($bgsize: contain)
+}
 .header-collection-shadow{
   background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(245,245,245,1) 100%);
-  min-height: 48vh;
+  /*min-height: 48vh;*/
   height: auto;
 }
 .header-collection h1{

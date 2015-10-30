@@ -12,5 +12,6 @@ header-liste-tag-title-3: "Web fonts"
 header-liste-tag-url-3: "/ressources/web-fonts/"
 text-twtr: "En train d'allégez mon planning grâce au @MagDuWebdesign"
 bgimgheader: "true"
-image: "kit-ui-livo-animation.gif"
+bgimgheader_repeated-pattern: "true"
+image: "S5bKt4s.jpg"
 ---

@@ -5,4 +5,6 @@ tags: "ui-tv-plateformes-sony-tv"
 permalink: "/inspirations/ui-design/tv/plateformes/sony-tv/"
 intro:
 text-twtr: "En train d'explorer la collection d'interfaces TV Sony du @MagDuWebdesign"
+bgimgheader: "true"
+image: "sony-os-tv-interfaces-1.jpg"
 ---
