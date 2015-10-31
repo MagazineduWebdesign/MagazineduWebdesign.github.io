@@ -6,4 +6,6 @@ permalink: "/inspirations/ui-design/connected-car/plateformes/wayray-navion/"
 intro:
 description: "Explorez la liste des meilleurs designs d'interfaces et concepts de tableaux de bord automobiles de WayRay Navion"
 text-twtr: "En train d'explorer la collection d'interfaces WayRay Navion du @MagDuWebdesign"
+bgimgheader: "true"
+image: "navion_interface_3.jpg"
 ---

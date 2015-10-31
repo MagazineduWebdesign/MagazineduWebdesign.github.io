@@ -7,4 +7,6 @@ intro: "Sélection de composants et d'éléments UI material design d'applicatio
 description: "Sélection de composants et d'éléments UI material design d'applications Android."
 text-twtr: "En train d'explorer la collection d'interfaces material design du @MagDuWebdesign"
 coming-soon: "true"
+bgimgheader: "true"
+image: "wallpaper-kleiner-google-blue.jpg"
 ---

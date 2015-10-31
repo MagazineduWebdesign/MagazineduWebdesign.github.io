@@ -6,4 +6,6 @@ permalink: "/conseils/livres/designer/"
 intro: "Devenir un designer talentueux est une longue aventure. Accélerez le processus en explorant cette sélection de livres. N'hésitez pas à partager vos découvertes."
 description: "Devenir un designer talentueux est une longue aventure. Accélerez le processus en explorant cette sélection de livres."
 text-twtr: "En train d'explorer la sélection de livres pour designer du @MagDuWebdesign"
+bgimgheader: "true"
+image: "photo-1431608660976-4fe5bcc2112c.jpg"
 ---

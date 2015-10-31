@@ -6,4 +6,6 @@ permalink: "/inspirations/ui-design/connected-car/"
 intro: "Sélection des meilleurs designs d'interfaces permettant d'optimiser la conduite, de gérer le véhicule et d'améliorer la sécurité. Sans oublier l’expérience des passagers qui doit être divertissante."
 description: "Sélection des meilleurs designs d'interfaces et concepts de tableaux de bord automobiles"
 text-twtr: "En train d'explorer la collection d'interfaces de voitures connectées du @MagDuWebdesign"
+bgimgheader: "true"
+image: "connected-car-qoros-1.jpg"
 ---

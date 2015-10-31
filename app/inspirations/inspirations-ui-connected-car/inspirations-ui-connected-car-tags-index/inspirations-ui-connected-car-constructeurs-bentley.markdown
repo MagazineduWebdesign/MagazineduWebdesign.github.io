@@ -6,4 +6,6 @@ permalink: "/inspirations/ui-design/connected-car/constructeurs/bentley-motors/"
 intro:
 description: "Explorez la liste des meilleurs designs d'interfaces et concepts de tableaux de bord automobiles de Bentley Motors"
 text-twtr: "En train d'explorer la collection d'interfaces au sein des voitures connectées Bentley Motors du @MagDuWebdesign"
+bgimgheader: "true"
+image: "connected-car-bentley-exp-10-speed-6-concept-infotainment.jpg"
 ---

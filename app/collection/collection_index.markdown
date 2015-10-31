@@ -6,5 +6,5 @@ intro: "Vous pouvez trouver chaque jours des dizaines de nouveautés sur le Maga
 description: "Collections d'inspirations, d'outils & de ressources classés par thématiques"
 text-twtr : "(Ͼ˳Ͽ)..!!! En train d'explorer les collections du @MagduWebdesign."
 bgimgheader: "true"
-image: "photo-1431608660976-4fe5bcc2112c.jpg"
+image: "photo-1417013886928-11bd3d45406b.jpg"
 ---

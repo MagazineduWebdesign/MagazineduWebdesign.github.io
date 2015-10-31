@@ -196,7 +196,7 @@ sup {
 		color: $gainsboro;
 	}
 	.header-liste-content-link {@include header-liste-link;}
-	.header-liste-content-link:hover{color: scale-color($white, $lightness: -48%);}
+	.header-liste-content-link:hover{color: $aluminum;}
   .header-liste-panel-info{
     margin-bottom: 0!important;
     @include panel($bg: $callout-panel-bg);
@@ -1318,7 +1318,12 @@ figcaption{
 	border-bottom:1px dotted $gainsboro;
 }
 .article-meta-item-time{@include item-row}
-.article-bgimg-meta-by-time{@include header-liste-link; margin-bottom:rem-calc(24);}
+.article-bgimg-meta-by-time{
+  margin-bottom:rem-calc(24);
+  padding: 0;
+  font-size: rem-calc(14);
+  color: $aluminum;
+}
 .row-article-featured-image {
   @include grid-row;
   .column-article-featured-image{
@@ -1572,13 +1577,65 @@ input.index-wide-newsletter-in-grid-submit{
 	min-height:($topbar-height * 4);
 	@include header-liste($bg:transparent);
   padding-bottom: rem-calc(96);
-  margin-bottom: rem-calc(-96);
+  margin-bottom: rem-calc(-72);
 }
+.header-collection.mod-home-hero{
+  padding-bottom: rem-calc(192);
+  margin-bottom: rem-calc(-128);
+}
+
 .header-collection-bgimg{
-  @include header-bgimg
+  @include header-bgimg($bgsize: 110%);
+    transition-property : background-size;
+    -webkit-transition-property : background-size;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
+    animation-delay: 300ms;
+    -webkit-animation-delay: 300ms;
+    animation: kenburns 5s;
+    -webkit-animation: kenburns 5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
 }
-.header-collection-bgimg-repeated-pattern{
-  @include header-bgimg($bgsize: contain)
+@keyframes kenburns {
+  0% {
+    background-size: 110%;
+  }
+  50% {
+    background-size: 105%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+@-webkit-keyframes kenburns {
+  0% {
+    background-size: 110%;
+  }
+  50% {
+    background-size: 105%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+@media #{$small-only}{
+  .header-collection-bgimg{
+    animation: none;
+    -webkit-animation: none;
+    background-size: cover;
+  }
+}
+.header-collection-bgimg .tabs-item{
+  color: $white;
+}
+.header-collection-bgimg .tabs-item:hover{
+  color: $aluminum;
+}
+.header-collection-bgimg .section-header-titre{
+  color: $white; 
 }
 .header-collection-shadow{
   background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(245,245,245,1) 100%);

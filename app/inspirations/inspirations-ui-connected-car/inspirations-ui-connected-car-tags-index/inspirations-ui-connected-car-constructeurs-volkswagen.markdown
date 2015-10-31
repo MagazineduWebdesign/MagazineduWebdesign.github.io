@@ -6,4 +6,6 @@ permalink: "/inspirations/ui-design/connected-car/constructeurs/volkswagen/"
 intro:
 description: "Explorez la liste des meilleurs designs d'interfaces et concepts de tableaux de bord automobiles de Volkswagen"
 text-twtr: "En train d'explorer la collection d'interfaces au sein des voitures connectées Volkswagen du @MagDuWebdesign"
+bgimgheader: "true"
+image: "connected-car-volkswagen-sport-coupe-concept-gte-infotainment-1.jpg"
 ---

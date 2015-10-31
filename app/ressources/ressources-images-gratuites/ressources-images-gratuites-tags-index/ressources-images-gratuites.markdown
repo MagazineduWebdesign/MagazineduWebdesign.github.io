@@ -8,5 +8,5 @@ description: "Collection de superbes photos pour donner vie à vos créations. C
 text-twtr: "En train d'explorer la collection de stocks d'images & de photos libres de droits du @MagDuWebdesign"
 coming-soon: "false"
 bgimgheader: "true"
-image: "stocks-photos-libres-de-droits.jpg"
+image: "949839c56d7a02aabcdafdf5b445f4bc.jpg"
 ---

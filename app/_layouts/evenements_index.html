@@ -25,8 +25,8 @@ layout: default
 				{% else %}
 				<!-- list filters
 				================================================== -->
-				<div class="row text-center">
-					<div class="small-12 columns">
+				<div class="row-liste-index text-center large-text-left">
+				  <div class="medium-12 large-9 columns">
 
 						<!-- desktop list filters
 						================================================== -->
@@ -123,6 +123,19 @@ layout: default
 								</div>
 							</div>
 						</div>
+				  </div>
+					<div class="large-3 columns text-right show-for-large-up section-header">
+						<!-- Number of item by index -->
+						{% if page.category == 'evenements' %}
+							{% for post in site.categories.evenements %}
+								{% capture length %}{{ forloop.length }}{% endcapture %}
+							{% endfor %}
+						{% else %}
+							{% for post in site.tags[page.tags] %}
+								{% capture length %}{{ forloop.length }}{% endcapture %}
+							{% endfor %}
+						{% endif %}
+						<span class="section-header-titre">{{ length }} événements</span>
 					</div>
 				</div>
 				{% endif %}
@@ -134,23 +147,6 @@ layout: default
 
 	{% if page.coming-soon == 'true' %}
 	{% else %}
-		<!-- list subheader
-		================================================== -->
-		<div class="row-liste-index">
-		  <div class="small-12 columns section-header">
-		    <!-- Number of item by index -->
-				{% if page.category == 'evenements' %}
-					{% for post in site.categories.evenements %}
-				    {% capture length %}{{ forloop.length }}{% endcapture %}
-				  {% endfor %}
-				{% else %}
-					{% for post in site.tags[page.tags] %}
-				    {% capture length %}{{ forloop.length }}{% endcapture %}
-				  {% endfor %}
-				{% endif %}
-		    <span class="section-header-titre">{{ length }} événements</span>
-		  </div>
-		</div>
 
 		<!-- list items
 		================================================== -->

@@ -1,7 +1,7 @@
 ---
 layout: "page-1-column"
-title: "Génial, votre inscription est confirmée."
-intro: "Rendez-vous dans quelques jours pour votre première newsletter."
+title: "C'es tout bon"
+intro: "Votre inscription est confirmée. Rendez-vous dans quelques jours pour votre première newsletter."
 description: "Votre inscription est confirmée"
 permalink: "/genial-inscription-confirmee/"
 ---
@@ -10,10 +10,10 @@ permalink: "/genial-inscription-confirmee/"
   <div class="small-12 columns">
     <ul class="buttons-inline-list text-center">
       <li>
-        <a class="article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
+        <a class="button radius small article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
       </li>
       <li>
-        <a class="article-partage-facebook" href="https://www.facebook.com/MagazineDuWebdesign/" title="Explorez le MDW sur Facebook" rel="nofollow" target="_blank">FACEBOOK</a>
+        <a class="button radius small article-partage-facebook" href="https://www.facebook.com/MagazineDuWebdesign/" title="Explorez le MDW sur Facebook" rel="nofollow" target="_blank">FACEBOOK</a>
       </li>
     </ul>
   </div>
