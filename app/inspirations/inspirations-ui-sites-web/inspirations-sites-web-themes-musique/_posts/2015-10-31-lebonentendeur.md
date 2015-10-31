@@ -43,7 +43,7 @@ composant-ui-2: "liste d'images"
 composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/liste-images/"
 composant-ui-3:
 composant-ui-url-3:
-url-demo: "http://bonentendeur.com/#loptimisme"
+url-demo: "http://bonentendeur.com/#loptimisme/?ref=MagazineDuWebdesign"
 image: "bonentendeur.PNG"
 image-2: "lebonentendeur-1-mobile-app-ios.jpeg"
 image-3: "lebonentendeur-2-mobile-app-ios.jpeg"

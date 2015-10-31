@@ -2,7 +2,7 @@
 title: "Régal visuel et auditif"
 date: 2015-10-31 00:00:00
 source-name:
-source-url: "http://bonentendeur.com/#loptimisme"
+source-url: "http://bonentendeur.com/#loptimisme?ref=MagazineDuWebdesign"
 image: "bonentendeur.PNG"
 image-legende: "L’OPTIMISME, PPDA"
 id-youtube:
