@@ -8,7 +8,7 @@ permalink: /hello/
 
 Décrivez en quelques mots ce qui vous amène sur cette page. Ne soyez pas timide, allez droit au but :-). Choisissez l'option qui vous convient le mieux pour m'écrire :
 
-* <a href="mailto:hey@magazineduwebdesign.com?subject=J'ai un super projet&body=Bonjour Guillaume," target="_blank">hey@magazineduwebdesign.com</a>
+* <a href="mailto:guillaume@magazineduwebdesign.com?subject=J'ai un super projet&body=Bonjour Guillaume," target="_blank">guillaume@magazineduwebdesign.com</a>
 * Tél/SMS (+33) 06 29 964 221
 * <a href="https://twitter.com/MagDuWebdesign" title="Contactez-moi sur Twitter" target="_blank">@MagduWebdesign</a>
 

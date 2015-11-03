@@ -87,7 +87,7 @@ Si vous pensez qu'un de vos produits peut rendre le quotidien de la communauté 
 
 Si vous n'aimez pas les formulaires, voici d'autres options :
 
-* <a href="mailto:hey@magazineduwebdesign.com?subject=Un super partenariat&body=Bonjour Guillaume," target="_blank">hey@magazineduwebdesign.com</a>
+* <a href="mailto:guillaume@magazineduwebdesign.com?subject=Un super partenariat&body=Bonjour Guillaume," target="_blank">guillaume@magazineduwebdesign.com</a>
 * Tél/SMS (+33) 06 29 964 221
 * <a href="https://twitter.com/MagDuWebdesign" title="Contactez-moi sur Twitter" target="_blank">@MagduWebdesign</a>
 
