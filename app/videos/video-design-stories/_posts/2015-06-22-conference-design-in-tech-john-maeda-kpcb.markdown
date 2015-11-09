@@ -13,6 +13,7 @@ description: "Vidéo de la conférence Design in Tech abordant l'évolution de l
 id-youtube: "UwrTAg6lguI"
 viaurl: "http://www.kpcb.com/blog/how-designers-are-building-careers-in-silicon-valley"
 viatitle: "KPCB – Kleiner Perkins Caufield & Byers"
+lunametrics-youtube-tracking: "true"
 ---
 
 Vous n'avez pas une heure à dépenser pour visionner ces passionnantes conversations sur la culture design de la Silicon Valley ? Faîtes-vous ce cadeau, visonnez au moins une minute de [Design in Tech](https://www.youtube.com/watch?v=VydEWfYPSzY).

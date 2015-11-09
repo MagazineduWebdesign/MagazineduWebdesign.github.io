@@ -13,4 +13,5 @@ description: "Matériel nécessaire pour ce laser art : un PDF de l'illustration
 id-youtube: "0-Sf8ohG2aY"
 viaurl:
 viatitle:
+lunametrics-youtube-tracking: "true"
 ---

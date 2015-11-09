@@ -14,4 +14,5 @@ description: "Projet de fin d'études de Oskar Pernefeldt au College of Design B
 id-youtube: "yd1CYKFAUzA"
 viaurl: "http://www.flagofplanetearth.com"
 viatitle: "Flag of planet Earth"
+lunametrics-youtube-tracking: "true"
 ---

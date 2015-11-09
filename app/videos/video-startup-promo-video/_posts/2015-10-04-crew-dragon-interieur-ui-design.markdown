@@ -13,4 +13,5 @@ description: "Explorez l'intérieur de Crew Dragon, la prochaine génération de
 id-youtube: "xjSb_b4TtxI"
 viaurl: "http://www.spacex.com/crew-dragon"
 viatitle: "spacex.com"
+lunametrics-youtube-tracking: "true"
 ---

@@ -13,4 +13,5 @@ description: "Kevin Rose interview le fondateur de Tesla, SpaceX and PayPal."
 id-youtube: "L-s_3b5fRd8"
 viaurl: "http://foundation.bz/20/"
 viatitle: "foundation"
+lunametrics-youtube-tracking: "true"
 ---

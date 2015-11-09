@@ -13,4 +13,5 @@ description: "Ryan Hoover dévoile les débuts de la désormais célèbre platef
 id-youtube: "CZeWkmDwvP4"
 viaurl: "http://www.gv.com/lib/meet-product-hunt"
 viatitle: "Google Ventures"
+lunametrics-youtube-tracking: "true"
 ---

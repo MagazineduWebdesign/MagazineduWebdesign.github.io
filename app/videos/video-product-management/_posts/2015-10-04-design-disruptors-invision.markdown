@@ -14,4 +14,5 @@ description: "Découvrez comment le design est devenu le nouveau langage des aff
 id-vimeo: "140875675"
 viaurl: "http://www.designdisruptors.com/"
 viatitle: "design disruptors"
+lunametrics-youtube-tracking: "true"
 ---

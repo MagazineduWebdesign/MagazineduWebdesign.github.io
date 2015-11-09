@@ -13,4 +13,5 @@ description: "Awair est le premier dispositif complet qui vous permettra de gard
 id-youtube: "MONy1hgQ4SQ"
 viaurl: "https://getawair.com"
 viatitle: "getawair.com"
+lunametrics-youtube-tracking: "true"
 ---

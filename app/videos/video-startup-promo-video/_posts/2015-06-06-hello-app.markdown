@@ -13,4 +13,5 @@ description: "Hello, une nouvelle application construite par l'équipe Messenger
 id-vimeo: "125628290"
 viaurl: "http://newsroom.fb.com/news/2015/04/introducing-hello/"
 viatitle: "facebook newsroom"
+lunametrics-youtube-tracking: "true"
 ---

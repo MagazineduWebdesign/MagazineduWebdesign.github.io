@@ -14,4 +14,5 @@ description: "Une nouvelle approche de la photographie avec Google Photos."
 id-youtube: "ydBjsZnHrwM"
 viaurl: "https://photos.google.com/"
 viatitle: "Google Photos"
+lunametrics-youtube-tracking: "true"
 ---

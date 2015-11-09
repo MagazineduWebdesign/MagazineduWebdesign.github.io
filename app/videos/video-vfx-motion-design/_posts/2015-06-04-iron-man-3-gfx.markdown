@@ -13,4 +13,5 @@ description:
 id-youtube: "VIaeABAkXpc"
 viaurl:
 viatitle:
+lunametrics-youtube-tracking: "true"
 ---

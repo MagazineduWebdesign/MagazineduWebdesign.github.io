@@ -13,4 +13,5 @@ description: "Une réalisation du collectif Universal Everything mettant en scè
 id-youtube: "hl-gZVOCo8M"
 viaurl: "http://vividlive.sydneyoperahouse.com/lighting-the-sails/"
 viatitle: "vividlive.sydneyoperahouse.com"
+lunametrics-youtube-tracking: "true"
 ---
