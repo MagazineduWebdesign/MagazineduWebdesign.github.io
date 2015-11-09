@@ -257,8 +257,7 @@ sup {
 	.section-carte-header-title{
 		@include item-row;
     margin-top: rem-calc(24);
-		font-weight: 600;
-    letter-spacing: rem-calc(1);
+		font-weight: 500;
 	}
 	.section-carte-header-title:first-of-type{
     margin-top: 0;
@@ -1632,10 +1631,10 @@ input.index-wide-newsletter-in-grid-submit{
   color: $white;
 }
 .header-collection-bgimg .tabs-item:hover{
-  color: $aluminum;
+  color: $tuatara;
 }
 .header-collection-bgimg .section-header-titre{
-  color: $white; 
+  color: $white;
 }
 .header-collection-shadow{
   background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(245,245,245,1) 100%);
