@@ -26,12 +26,12 @@
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
 
             <div class="small-12 medium-4 columns">
-              <input type="submit" class="small button radius expand" value="PREVENEZ-MOI" name="subscribe" id="mc-embedded-subscribe">
+              <input onclick="ga('send', 'social', 'Twitter', 'tweet', '{{ site.url }}{{ page.url | cgi_escape }}');" type="submit" class="small button radius expand" value="PREVENEZ-MOI" name="subscribe" id="mc-embedded-subscribe">
             </div>
           </div>
         </div>
       </form>
-      <span class="section-header-titre">Vous n'aimez pas les mails ? Suivez Magazine du Webdesign sur <a class="brief-partage" href="https://twitter.com/MagDuWebdesign" title="Magazine du Webdesign sur Twitter" target="_blank">Twitter</a> et sur <a class="brief-partage" href="https://www.facebook.com/MagazineDuWebdesign" title="Magazine du Webdesign sur Facebook" target="_blank">Facebook</a>. Les plus geeks peuvent se brancher sur le <a class="brief-partage" href="/feed.xml" title="Flux RSS du Magazine du Webdesign" target="_blank">flux RSS</a>.</span>
+      <span class="section-header-titre">Vous n'aimez pas les mails ? Suivez Magazine du Webdesign sur <a onclick="ga('send', 'social', 'Twitter', 'follow', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="https://twitter.com/MagDuWebdesign" title="Magazine du Webdesign sur Twitter" target="_blank">Twitter</a> et sur <a onclick="ga('send', 'social', 'Facebook', 'like', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="https://www.facebook.com/MagazineDuWebdesign" title="Magazine du Webdesign sur Facebook" target="_blank">Facebook</a>. Les plus geeks peuvent se brancher sur le <a onclick="ga('send', 'social', 'RSS', 'follow', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="/feed.xml" title="Flux RSS du Magazine du Webdesign" target="_blank">flux RSS</a>.</span>
     </div>
   </div>
 </div>
