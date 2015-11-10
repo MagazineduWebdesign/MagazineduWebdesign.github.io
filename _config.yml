@@ -82,7 +82,6 @@ defaults:
     values:
       layout: "emploi" # overrides previous default layout
       bgimgheader: "false"
-
   -
     scope:
       path: "conseil-candidater"
@@ -90,7 +89,6 @@ defaults:
     values:
       layout: "candidater" # overrides previous default layout
       bgimgheader: "false"
-
   -
     scope:
       path: "conseil-recruter"
@@ -98,6 +96,208 @@ defaults:
     values:
       layout: "recruter" # overrides previous default layout
       bgimgheader: "false"
+
+  # videos - overrides default permlink
+  -
+    scope:
+      path: "videos"
+      type: "posts"
+    values:
+      permalink: "/videos/:title/"
+
+  # ressources - overrides default permlink
+  -
+    scope:
+      path: "ressources/ressources-accessoires-fournitures"
+      type: "posts"
+    values:
+      permalink: "/ressources/accessoires-fournitures/:title/"
+  -
+    scope:
+      path: "ressources/ressources-fonts"
+      type: "posts"
+    values:
+      permalink: "/ressources/fonts/:title/"
+  -
+    scope:
+      path: "ressources/ressources-icones"
+      type: "posts"
+    values:
+      permalink: "/ressources/icones/:title/"
+  -
+    scope:
+      path: "ressources/ressources-kits-ui"
+      type: "posts"
+    values:
+      permalink: "/ressources/kits-ui/:title/"
+  -
+    scope:
+      path: "ressources/ressources-mockups"
+      type: "posts"
+    values:
+      permalink: "/ressources/mockups/:title/"
+  -
+    scope:
+      path: "ressources/ressources-outils-services"
+      type: "posts"
+    values:
+      permalink: "/ressources/outils-services/:title/"
+  -
+    scope:
+      path: "ressources/ressources-sketch"
+      type: "posts"
+    values:
+      permalink: "/ressources/application-sketch/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-drupal"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-drupal/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-ghost"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-ghost/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-jekyll"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-jekyll/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-joomla"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-joomla/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-shopify"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-shopify/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-tumblr"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-tumblr/:title/"
+  -
+    scope:
+      path: "ressources/ressources-themes-wordpress"
+      type: "posts"
+    values:
+      permalink: "/ressources/themes-wordpress/:title/"
+
+  # inspirations - overrides default permlink
+  -
+    scope:
+      path: "inspirations/inspirations-code-art"
+      type: "posts"
+    values:
+      permalink: "/inspirations/code-art/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-parcours-apps-android"
+      type: "posts"
+    values:
+      permalink: "/inspirations/parcours-apps-android/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-parcours-apps-ios"
+      type: "posts"
+    values:
+      permalink: "/inspirations/parcours-apps-ios/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-android-wear"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/android-wear/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-apple-watch"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/apple-watch/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-connected-car"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/connected-car/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-material-design"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/material-design/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-sites-web"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/sites-web/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-tv"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/tv/:title/"
+  -
+    scope:
+      path: "inspirations/inspirations-ui-web-vr"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/web-vr/:title/"
+
+  # evenements - overrides default permlink
+  -
+    scope:
+      path: "evenements/developpement-web"
+      type: "posts"
+    values:
+      permalink: "/evenements/developpement-web-devops/:title/"
+  -
+    scope:
+      path: "evenements/evenements-design"
+      type: "posts"
+    values:
+      permalink: "/evenements/web-design/:title/"
+  -
+    scope:
+      path: "evenements/evenements-ux-design"
+      type: "posts"
+    values:
+      permalink: "/evenements/ux-design/:title/"
+
+  # conseils - overrides default permlink
+  -
+    scope:
+      path: "conseils/conseils-citations"
+      type: "posts"
+    values:
+      permalink: "/conseils/citations/:title/"
+  -
+    scope:
+      path: "conseils/conseils-guide"
+      type: "posts"
+    values:
+      permalink: "/conseils/guides/:title/"
+  -
+    scope:
+      path: "conseils/conseils-livres"
+      type: "posts"
+    values:
+      permalink: "/conseils/livres/:title/"
+  -
+    scope:
+      path: "conseils/conseils-podcasts"
+      type: "posts"
+    values:
+      permalink: "/conseils/podcasts/:title/"
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
