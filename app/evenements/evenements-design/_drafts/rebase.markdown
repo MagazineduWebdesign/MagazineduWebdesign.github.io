@@ -3,7 +3,7 @@ layout: "evenement"
 title: "Rebase"
 date: "2015-09-14 17:23:57"
 path1: "evenements"
-path2: "design-interactif"
+path2: "web-design"
 path3:
 category: "evenements"
 tags: "evenements-design-interactif"

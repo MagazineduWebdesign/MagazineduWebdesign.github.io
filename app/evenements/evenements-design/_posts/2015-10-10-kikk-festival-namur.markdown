@@ -3,7 +3,7 @@ layout: "evenement"
 title: "Kikk festival"
 date: "2015-10-10 10:23:57"
 path1: "evenements"
-path2: "design-interactif"
+path2: "web-design"
 path3:
 category: "evenements"
 tags: "evenements-design-interactif"
