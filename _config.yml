@@ -27,7 +27,7 @@ include: ['.nojekyll']
 collections:
   encyclo:
     output: true
-    permalink: /apprendre/:collection/:title/
+    permalink: /:collection/:title/
   note:
     output: true
     permalink: /:collection/:title/

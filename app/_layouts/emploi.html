@@ -13,7 +13,7 @@ layout: default
         <h1><span class="left job--entreprise">{{ page.entreprise }} {% if page.statut %}<span class="label--secondary">{{ page.statut }}{% endif %}</span></span><span class="job--description">recrute un(e) {{ page.fonction }} en {{ page.type }} à {{ page.lieu }}</span></h1>
       </div>
 			<div class="small-12 medium-12 large-2 columns small-text-center large-text-right">
-        <a class="button radius" href="{{ page.candidater-url }}"title="Postuler à cette offre d'emploi" target="_blank" rel="nofollow">POSTULER</a>
+        <a onclick="ga('send', 'event', 'offres emploi', 'postuler', '{{ page.title }}');"class="button radius" href="{{ page.candidater-url }}"title="Postuler à cette offre d'emploi" target="_blank" rel="nofollow">POSTULER</a>
 			</div>
 		</header>
 	</div>
@@ -69,7 +69,7 @@ layout: default
 
       {% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
       {{ content }}
-      <a  class="button radius" href="{{ page.candidater-url }}" title="{{ page.title }}" target="_blank" rel="nofollow">POSTULER</a>
+      <a onclick="ga('send', 'event', 'offres emploi', 'postuler', '{{ page.title }}');" class="button radius" href="{{ page.candidater-url }}" title="{{ page.title }}" target="_blank" rel="nofollow">POSTULER</a>
       <div class="row collapse article-partage">
         <span class="article-meta-footer">Vous connaissez quelqu'un qui semble parfait(e) pour ce poste? Partagez cette page</span>
         {% include custom/sections/share-article-footer.html %}

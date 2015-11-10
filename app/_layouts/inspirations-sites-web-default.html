@@ -13,7 +13,7 @@ layout: default
           {% if page.intro %}<p class="subheader">{{ page.intro }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
-          {% if page.url-demo %}<a href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}
+          {% if page.url-demo %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}
         </div>
       </div>
 
@@ -51,7 +51,7 @@ layout: default
           <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata site Web">
 
             {% if page.url-demo %}
-            <li class="show-for-large-up" role="menuitem"><a href="{{ page.url-demo }}" class="button expand radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
+            <li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo }}" class="button expand radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
             {% endif %}
             {% if page.theme %}
             <li class="article-meta-data-header-title">Thème</li>

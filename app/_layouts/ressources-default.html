@@ -64,33 +64,33 @@ layout: default
           </div>
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">
-          {% if page.url-github %}<a class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
-          {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
-          {% if page.no-soundcloud %}<a class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
+          {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+          {% if page.siteweb %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+          {% if page.no-soundcloud %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
           {% if page.url-buy %}
-            <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
               <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
             </a>
           {% endif %}
-          {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
-          {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
+          {% if page.url-version-gratuite %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+          {% if page.url-telecharger %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
 
           {% unless page.metadata == 'false' %}
           <!-- metadata
           ================================================== -->
           <div class="article-meta-data">
             <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata livres">
-              {% if page.url-github %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a></li>{% endif %}
-              {% if page.siteweb %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a></li>{% endif %}
-              {% if page.no-soundcloud %}<li class="show-for-large-up" role="menuitem"><a class="button expand small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
-              {% if page.url-demo %}<li class="show-for-large-up" role="menuitem"><a class="button expand small radius secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a><li>{% endif %}
+              {% if page.url-github %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button expand radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a></li>{% endif %}
+              {% if page.siteweb %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button expand radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a></li>{% endif %}
+              {% if page.no-soundcloud %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
+              {% if page.url-demo %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="button expand small radius secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a><li>{% endif %}
               {% if page.url-buy %}
-                <li class="show-for-large-up" role="menuitem"><a class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                   <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
                 </a></li>
               {% endif %}
-              {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
-              {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
+              {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
+              {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
 
               {% if page.for-who %}
                 <li class="article-meta-data-header-title">Pour qui ?</li>
@@ -162,16 +162,16 @@ layout: default
           </div>
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">
-          {% if page.url-github %}<a class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
-          {% if page.siteweb %}<a class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
-          {% if page.url-demo %}<a class="button radius small secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a>{% endif %}
+          {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+          {% if page.siteweb %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+          {% if page.url-demo %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a>{% endif %}
           {% if page.url-buy %}
-            <a class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
               <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
             </a>
           {% endif %}
-          {% if page.url-version-gratuite %}<a class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
-          {% if page.url-telecharger %}<a class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
+          {% if page.url-version-gratuite %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+          {% if page.url-telecharger %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
         </div>
       </div>
 
@@ -229,17 +229,17 @@ layout: default
         ================================================== -->
         <div class="article-meta-data-right">
           <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata">
-            {% if page.url-github %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a></li>{% endif %}
-            {% if page.siteweb %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a></li>{% endif %}
-            {% if page.no-soundcloud %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
-            {% if page.url-demo %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius small secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a></li>{% endif %}
+            {% if page.url-github %}<li onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="show-for-large-up" role="menuitem"><a class="button expand radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a></li>{% endif %}
+            {% if page.siteweb %}<li onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="show-for-large-up" role="menuitem"><a class="button expand radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a></li>{% endif %}
+            {% if page.no-soundcloud %}<li onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="show-for-large-up" role="menuitem"><a class="button expand small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
+            {% if page.url-demo %}<li onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="show-for-large-up" role="menuitem"><a class="button expand small radius secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a><li>{% endif %}
             {% if page.url-buy %}
-              <li class="show-for-large-up" role="menuitem"><a class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                 <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
               </a></li>
             {% endif %}
-            {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
-            {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
+            {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
+            {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
 
             {% if page.theme %}
             <li class="article-meta-data-header-title">Thème</li>

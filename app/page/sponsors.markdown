@@ -6,7 +6,7 @@ intro: "Prenez part au développement d'une communauté de passionnés s'affaira
 permalink: "/sponsors/"
 ---
 <p class="text-center">
-  <a class="typeform-share link button radius" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">SPONSORISER LE MDW</a>
+  <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'btn header page sponsors');" class="typeform-share link button radius" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">SPONSORISER LE MDW</a>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 </p>
 
@@ -18,7 +18,7 @@ permalink: "/sponsors/"
       <li>
         <article class="grid-article-card mod-app-icon mod-add-new" data-equalizer-watch>
           <div class="row collapse">
-            <a class="typeform-share link grid-article-card-info mod-add-new mod-app-icon small-12 columns" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">
+            <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'btn native in top text');" class="typeform-share link grid-article-card-info mod-add-new mod-app-icon small-12 columns" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">
               <h1 class="grid-article-card-title mod-add-new"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>Sponsoriser le MDW</h1>
             </a>
             <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
@@ -81,15 +81,15 @@ Les articles sponsorisés sont publiés de manière permanente avec l'ensemble d
 Si vous pensez qu'un de vos produits peut rendre le quotidien de la communauté plus facile, n'hésitez pas à prendre contact afin de connaître les coûts et obtenir plus d'informations concernant les offres de contenus sponsorisés.
 
 <p class="text-center">
-  <a class="typeform-share link button radius" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">SPONSORISER LE MDW</a>
+  <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'btn native in bottom text');" class="typeform-share link button radius" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">SPONSORISER LE MDW</a>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 </p>
 
 Si vous n'aimez pas les formulaires, voici d'autres options :
 
-* <a href="mailto:guillaume@magazineduwebdesign.com?subject=Un super partenariat&body=Bonjour Guillaume," target="_blank">guillaume@magazineduwebdesign.com</a>
+* <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'contact via email');" href="mailto:guillaume@magazineduwebdesign.com?subject=Un super partenariat&body=Bonjour Guillaume," target="_blank">guillaume@magazineduwebdesign.com</a>
 * Tél/SMS (+33) 06 29 964 221
-* <a href="https://twitter.com/MagDuWebdesign" title="Contactez-moi sur Twitter" target="_blank">@MagduWebdesign</a>
+* <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'contact via twitter');" href="https://twitter.com/MagDuWebdesign" title="Contactez-moi sur Twitter" target="_blank">@MagduWebdesign</a>
 
 Proposer chaque jour le meilleur des interfaces serait une aventure difficile sans le soutien de sponsors. Un grand merci pour votre confiance.
 

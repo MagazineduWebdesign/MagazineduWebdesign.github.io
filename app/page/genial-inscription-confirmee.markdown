@@ -10,10 +10,10 @@ permalink: "/genial-inscription-confirmee/"
   <div class="small-12 columns">
     <ul class="buttons-inline-list text-center">
       <li>
-        <a class="button radius small article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
+        <a onclick="ga('send', 'social', 'Twitter', 'follow', '{{ site.url }}{{ page.url | cgi_escape }}');" class="button radius small article-partage-twitter" href="https://twitter.com/@MagDuWebdesign" title="Explorez le MDW sur Twitter" rel="nofollow" target="_blank">TWITTER</a>
       </li>
       <li>
-        <a class="button radius small article-partage-facebook" href="https://www.facebook.com/MagazineDuWebdesign/" title="Explorez le MDW sur Facebook" rel="nofollow" target="_blank">FACEBOOK</a>
+        <a onclick="ga('send', 'social', 'Facebook', 'like', '{{ site.url }}{{ page.url | cgi_escape }}');" class="button radius small article-partage-facebook" href="https://www.facebook.com/MagazineDuWebdesign/" title="Explorez le MDW sur Facebook" rel="nofollow" target="_blank">FACEBOOK</a>
       </li>
     </ul>
   </div>

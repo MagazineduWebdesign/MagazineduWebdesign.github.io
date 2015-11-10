@@ -75,7 +75,7 @@ layout: default
 						</svg>
 					{% endif %}
 					{% if page.text-twtr %}
-					<a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags=emploi" rel="nofollow" target="_blank">
+					<a onclick="ga('send', 'social', 'Twitter', 'tweet', '{{ site.url }}{{ page.url | cgi_escape }}');" href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.text-twtr | cgi_escape }}&amp;related=MagDuWebdesign&amp;hashtags=emploi" rel="nofollow" target="_blank">
 	          <svg class="ic-block-h24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	          width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
@@ -96,9 +96,9 @@ layout: default
 				================================================== -->
 				<div id="alerte--data-salaire" class="reveal-modal" data-reveal>
 				  <div class="row-liste-index">
-				    <div class="small-12 columns">
+				    <div class="small-12 columns text-center">
 				      <a class="close-reveal-modal">&#215;</a>
-				      <p class="text-center titre-modal-box">Abonnez-vous au Brief pour savoir quand Data Salaire sera prêt</p>
+				      <p class="titre-modal-box">Abonnez-vous à la newsletter du MDW afin d'être prévenu(e) par email</p>
 
 				      <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
@@ -120,12 +120,12 @@ layout: default
 				            <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
 
 				            <div class="small-12 medium-6 columns">
-				              <input type="submit" class="small button radius expand" value="PREVENEZ-MOI" name="subscribe" id="mc-embedded-subscribe">
+				              <input onclick="ga('send', 'event', 'Newsletter', 'submit email address', 'Inscription alerte release');" type="submit" class="small button radius expand" value="PREVENEZ-MOI" name="subscribe" id="mc-embedded-subscribe">
 				            </div>
 				          </div>
 				        </div>
 				      </form>
-				      <p class="text-center">Vous n'aimez pas les mails ? Suivez Magazine du Webdesign sur <a href="#" class="brief-partage">Twitter</a> &bull; <a href="#" class="brief-partage">Facebook</a> afin d'être prévenu(e) de la sortie.</p>
+							<span class="section-header-titre">Vous n'aimez pas les mails ? Suivez Magazine du Webdesign sur <a onclick="ga('send', 'social', 'Twitter', 'follow', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="https://twitter.com/MagDuWebdesign" title="Magazine du Webdesign sur Twitter" target="_blank">Twitter</a> et sur <a onclick="ga('send', 'social', 'Facebook', 'like', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="https://www.facebook.com/MagazineDuWebdesign" title="Magazine du Webdesign sur Facebook" target="_blank">Facebook</a>. Les plus geeks peuvent se brancher sur le <a onclick="ga('send', 'social', 'RSS', 'follow', '{{ site.url }}{{ page.url | cgi_escape }}');" class="brief-partage" href="/feed.xml" title="Flux RSS du Magazine du Webdesign" target="_blank">flux RSS</a>.</span>
 				    </div>
 				  </div>
 				</div>
@@ -211,12 +211,12 @@ layout: default
 			  <div class="small-12 medium-4 columns"><h2>Prochaine étape</h2><p>Votre annonce sera mise en ligne sous 48h sur la page <a href="/emploi/" title="Offres d'emploi">Offres d'emploi</a>.</p></div>
 			  <div class="small-12 medium-4 columns"><h2>Nos conseils</h2><p>En attendant la publication, lisez les conseils ci-dessous pour recruter les meilleurs talents</a>.</p></div>
 			  <div class="small-12 medium-4 columns"><h2>Besoin de plus de talents ?</h2>
-			  <p>Donnez de la visibilité à votre stratégie de recrutement <a class="typeform-share link" href="https://magazineduwebdesign.typeform.com/to/gahNuN" data-mode="2">en publiant une nouvelle offre d'emploi</a>
+			  <p>Donnez de la visibilité à votre stratégie de recrutement <a onclick="ga('send', 'event', 'offres emploi', 'publier', 'publier une 2eme offre d'emploi - 99€');" class="typeform-share link" href="https://magazineduwebdesign.typeform.com/to/gahNuN" data-mode="2">en publiant une nouvelle offre d'emploi</a>
 				<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script></p></div>
 			</div>
 			<div class="row text-center">
 				<div class="small-12 columns">
-					<span class="section-header-titre">Besoin d'aide ? Une question ? écrivez à <a href="mailto:talent@magazineduwebdesign.com">talent@magazineduwebdesign.com</a></span>
+					<span class="section-header-titre">Besoin d'aide ? Une question ? écrivez à <a href="mailto:guillaume@magazineduwebdesign.com">guillaume@magazineduwebdesign.com</a></span>
 				</div>
 			</div>
 		{% endif %}
@@ -260,7 +260,7 @@ layout: default
 		  <main class="small-12 columns section-carte-index-panel">
 				<article itemscope="" itemtype="http://schema.org/Article">
           <div class="carte-article-secondaire mod-index-one-col-action row collapse">
-						<a class="carte-article-secondaire-action-link" href="/recruter/" title="recruter">
+						<a onclick="ga('send', 'event', 'offres emploi', 'click', 'List index - Vous cherchez des talents ?');" class="carte-article-secondaire-action-link" href="/recruter/" title="recruter">
 							<div class="small-12 columns carte-article-secondaire-container-action">
 			          	<p class="carte-article-secondaire-action-texte text-center">
 			          		<svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>A LA RECHERCHE DE TALENTS ?
