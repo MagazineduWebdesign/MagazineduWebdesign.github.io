@@ -1,7 +1,7 @@
 ---
 layout: "page-1-column"
 title: "Bienvenue dans la communauté du Magazine du Webdesign"
-intro: "C'est un plaisir de vous compter parmi nous. Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
+intro: "C'est un plaisir de vous compter parmi nous. Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences pour cultiver vos talents. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
 description: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences."
 permalink: "/salut/"
 ---
