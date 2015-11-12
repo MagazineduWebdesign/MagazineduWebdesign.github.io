@@ -2,15 +2,15 @@
   "posts" : [
     
 		
-    "/apprendre/encyclo/dendrologie/",
+    "/encyclo/dendrologie/",
     
     "/conseils/encyclo/",
     
-    "/apprendre/encyclo/heuristic/",
+    "/encyclo/heuristic/",
     
-    "/apprendre/encyclo/jekyll/",
+    "/encyclo/jekyll/",
     
-    "/apprendre/encyclo/ruby-on-rails/"
+    "/encyclo/ruby-on-rails/"
     
   ]
 }
