@@ -1,3 +1,4 @@
+/*global YT:false */
 ;(function( document, window, config ) {
 
   'use strict';
