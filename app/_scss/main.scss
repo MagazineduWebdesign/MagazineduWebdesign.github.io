@@ -196,7 +196,7 @@ sup {
 		color: $gainsboro;
 	}
 	.header-liste-content-link {@include header-liste-link;}
-	.header-liste-content-link:hover{color: $aluminum;}
+	.header-liste-content-link:hover{color: scale-color($primary-color, $lightness: -16%);}
   .header-liste-panel-info{
     margin-bottom: 0!important;
     @include panel($bg: $callout-panel-bg);
