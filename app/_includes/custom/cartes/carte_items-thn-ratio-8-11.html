@@ -1,6 +1,6 @@
 <section>
-  <div class="row">
-    <div class="small-12 columns">
+  <div class="row text-center large-text-left">
+    <div class="small-12 columns section-header">
       <h1 class="section-carte-header-title">{{ include.param | remove:'conseils-' | replace: '-', ' ' | upcase }}</h1>
     </div>
   </div>
@@ -8,11 +8,11 @@
   ================================================== -->
   <div class="row">
     <div class="small-12 columns">
-      <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5" data-equalizer>
+      <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
 
         <!-- list all items
         ================================================== -->
-        {% for post in site.categories.[include.param] limit:4 %}
+        {% for post in site.categories.[include.param] limit:3 %}
         <li>
           <article class="grid-article-card" data-equalizer-watch>
 
@@ -50,7 +50,7 @@
 
             <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}{{ page.permalink }}{{ include.param | remove:'conseils-' }}/" title="Explorer la collection">
 
-              <div class="row collapse grid-article-card-image mod-book-image mod-action hide-for-small">
+              <div class="row collapse grid-article-card-image mod-book-image mod-action show-for-large-up">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                 </div>
               </div>

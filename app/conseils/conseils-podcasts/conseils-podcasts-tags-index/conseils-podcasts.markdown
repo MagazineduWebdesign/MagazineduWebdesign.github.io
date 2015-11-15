@@ -1,6 +1,6 @@
 ---
 layout: "conseils-podcasts_index"
-title: "Les meilleurs podcasts pour designers &amp; développeurs"
+title: "🎧 Les meilleurs podcasts pour designers &amp; développeurs"
 category: "podcasts"
 permalink: "/conseils/podcasts/"
 intro: "Collection de podcasts abordant les thèmes du design & du développement de produits. Une mine d'infos sur le quotidien des personnes qui conçoivent et maintiennent les applications que vous utilisez au quotidien."

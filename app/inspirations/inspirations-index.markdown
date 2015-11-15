@@ -1,6 +1,6 @@
 ---
 layout: "inspirations_index"
-title: "Inspirations pour cultiver votre créativité"
+title: "💉 Inspirations pour cultiver votre créativité"
 permalink: "/inspirations/"
 intro: "L'inspiration est partout, mais surtout ici. Puisez à la source en explorant ces collections d'interfaces & d'expériences issues d'applis, de sites web et d'objets plus ou moins connectés."
 description: "L'inspiration est partout, mais surtout ici. Puisez à la source en explorant ces collections d'interfaces & d'expériences"

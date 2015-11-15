@@ -8,11 +8,11 @@ path3:
 category: "themes-wordpress"
 tags:
 by: "themify"
-by-url: "http://themify.me/"
-url-demo: "http://themify.me/themes/music"
+by-url: "https://themify.me/member/aff/go/magduwebdesign"
+url-demo: "https://themify.me/member/aff/go/magduwebdesign/?cr=aHR0cDovL3RoZW1pZnkubWUvdGhlbWVzL211c2lj"
 url-version-gratuite:
 url-telecharger:
-url-buy: "http://themify.me/themes/music"
+url-buy: "https://themify.me/member/aff/go/magduwebdesign/?cr=aHR0cDovL3RoZW1pZnkubWUvdGhlbWVzL211c2lj"
 pricecurrency: "$"
 price: "49"
 image: "theme-wordpress-music.jpg"

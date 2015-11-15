@@ -1,19 +1,18 @@
 <section>
-  <div class="row">
-    <div class="small-12 columns">
-      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | upcase }}</h1>
+  <div class="row text-center large-text-left">
+    <div class="small-12 columns section-header">
+      <h1 class="section-carte-header-title mod-mini-description">VIDEOS – Tout ce que vous avez besoin de voir</h1>
     </div>
   </div>
   <!-- list items
   ================================================== -->
   <div class="row">
     <div class="small-12 columns">
-      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-equalizer>
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
 
         <!-- list all items
         ================================================== -->
         {% for post in site.categories.[include.param] limit:3 %}
-
         <li>
           <article class="grid-article-card" data-equalizer-watch>
 
@@ -38,7 +37,7 @@
               </div>
 
               <div class="row collapse">
-                <div class="grid-article-card-info mod-section-home small-12 columns">
+                <div class="grid-article-card-info small-12 columns">
                   <h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 ---
 layout: "video_index"
-title: "Videos"
+title: "🎥 Videos"
 category: "videos"
 permalink: "/videos/"
 intro: "Collection de vidéo mettant à l'honneur les designers & les développeurs qui conçoivent nos produits & services préférés."

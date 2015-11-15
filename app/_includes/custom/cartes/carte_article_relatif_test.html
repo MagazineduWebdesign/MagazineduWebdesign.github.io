@@ -1,0 +1,36 @@
+
+<section>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-header">
+      <h1 class="section-carte-header-title">Articles sur le même sujet</h1>
+    </div>
+  </div>
+  <div class="row-liste-index">
+    <div class="small-12 columns carte-categorie">
+      {% for post in site.categories[page.category] limit: 5 %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="row collapse">
+              <div class="small-9 columns">
+                <h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">
+                  {{ post.title }}
+                    {% if post.series %}
+                      (Series: {{ post.series }})
+                    {% endif %}
+                </h1>
+              </div>
+
+              <div class="small-3 columns">
+                {% if post.image %}
+                <img class="right" src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" alt="{{ post.image-legende }}" />
+                {% endif %}
+              </div>
+
+            </div>
+          </article>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

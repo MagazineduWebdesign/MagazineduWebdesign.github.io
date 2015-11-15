@@ -221,6 +221,10 @@ sup {
 	font-size:rem-calc(14);
 	color:$jumbo;
 }
+.section-index-wide-carte{
+  max-width: rem-calc(924);
+	margin-top: rem-calc(48);
+}
 .section-carte-panel {
   @include panel;
   margin-bottom:0;
@@ -256,8 +260,11 @@ sup {
 }
 	.section-carte-header-title{
 		@include item-row;
+    color: $tuatara;
     margin-top: rem-calc(24);
-		font-weight: 500;
+		font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
 	}
 	.section-carte-header-title:first-of-type{
     margin-top: 0;
@@ -267,6 +274,10 @@ sup {
     margin-top: 0;
 		border-bottom: 1px solid $secondary-color;
     font-weight: 600;
+	}
+	.section-carte-header-title.mod-mini-description{
+    @include item-row($lineh: 1.1);
+		min-height: rem-calc(48);
 	}
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
@@ -381,7 +392,9 @@ sup {
 			border-radius: rem-calc(2 2 0 0);
       border-width: 1px 1px 0;
       border-style: solid;
-      border-color: $secondary-color;
+      border-color: $gainsboro;
+      filter: sepia(0.15) saturate(1.5) contrast(0.9);
+      -webkit-filter: sepia(0.15) saturate(1.5) contrast(0.9);
 		}
 		.grid-article-card:hover > .grid-article-card-link-wrap > .grid-article-card-image img{
 			opacity: .25;
@@ -395,10 +408,6 @@ sup {
 		}
 		@media #{$medium-up} {
 			.grid-article-card-info{
-				min-height: rem-calc(128);
-				max-height: rem-calc(128);
-			}
-			.grid-article-card-info.mod-section-home{
 				min-height: rem-calc(80);
 				max-height: rem-calc(80);
 			}
@@ -543,7 +552,7 @@ sup {
 			.grid-article-card-ctrl-preview{
 				position: absolute;
 				left: 50%;
-				top: 24%;
+				top: 26.5%;
 				width: rem-calc(24);
 				height: rem-calc(24);
 				margin: rem-calc(-12 0 0 -12);
@@ -611,6 +620,27 @@ sup {
     .carte-article-secondaire-post-title, .grid-article-card-title{
   		color: $aluminum;
   	}
+  }
+	a h1.carte-article-secondaire-post-title::after, a h1.grid-article-card-title::after{
+    content: "•";
+    font-size: rem-calc(24);
+    line-height: 0;
+    position: absolute;
+    bottom: rem-calc(16);
+    right: rem-calc(16);
+    color: $secondary-color;
+  }
+  	a h1.carte-article-secondaire-post-title.mod-ads-index-panel-title::after,
+    a h1.grid-article-card-title.mod-ads-index-panel-title::after,
+    a h1.grid-article-card-title.mod-add-new::after{
+      content: "";
+    }
+  	a h1.carte-article-secondaire-post-title.mod-videos-relatives-post-title::after, a h1.carte-article-secondaire-post-title.mod-article-two-columns-post-title::after{
+      position: inherit;
+      margin-left: rem-calc(8);
+    }
+	a:visited h1.carte-article-secondaire-post-title::after, a:visited h1.grid-article-card-title::after{
+    color: $success-color;
   }
 	.carte-article-secondaire-thumbnail{
 		@include header-bgimg;
@@ -743,7 +773,7 @@ sup {
 	}
 // button
 .button-without-border{@include button($bg:false, $radius: $global-radius); margin-bottom:0; color: $white;}
-.button-without-border:hover{color: scale-color($white, $lightness: -48%);}
+.button-without-border:hover{color: scale-color($primary-color, $lightness: -16%);}
 .button-without-border.mod-header-no-bg-img{color: $primary-color;}
 .button-without-border:hover.mod-header-no-bg-img{color: scale-color($primary-color, $lightness: -16%);}
 .button-without-bg{@include button($bg:false, $radius: $global-radius); border: 1px solid $primary-color}
@@ -1244,9 +1274,6 @@ figcaption{
 	border: 0;
 	border-radius: $global-radius;
 }
-.index-wide-carte-twitter{
-	margin-top: rem-calc(48);
-}
 	.carte-twtr-text{
 		font-family:$font-family-sans-serif!important;
 		font-size:rem-calc(16)!important;
@@ -1491,16 +1518,17 @@ main.column-body-article h2, main.column-body-article h3,{
 .index-note-carte-newsletter{
 	margin-top: rem-calc(48);
 }
-.index-wide-carte-newsletter{
-	margin-top: rem-calc(48);
-}
 input.index-wide-newsletter-in-grid-field{
-	border-bottom-width: 0;
+  height: rem-calc(36);
+	border-right-width: 0;
 	margin: 0;
 	text-align: center;
 }
 input.index-wide-newsletter-in-grid-submit{
-	border-radius: rem-calc(0 0 2 2);
+  @include button($padding: $button-sml,$radius: true);
+  margin: 0;
+  height: rem-calc(36);
+  border-radius: rem-calc(0 2 2 0);
 }
 @media #{$small-only}{
 	.section-carte-newsletter input{

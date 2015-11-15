@@ -1,9 +1,9 @@
 ---
 layout: "page-1-column"
-title: "Bienvenue dans la communauté des curieux & talentueux"
+title: "😻 Bienvenue dans la communauté des curieux & talentueux"
 intro: "C'est un plaisir de vous compter parmi nous. Voilà, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences pour cultiver vos talents. Nota bene : vous devez cliquer sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
 description: "Voila, vous recevrez désormais une newsletter hebdomadaire à la hauteur de vos exigences."
-permalink: "/salut/"
+permalink: "/salut❤/"
 ---
 <p class="text-center">En attendant, faites une pause créative en explorant les collections soigneusement organisées de <a href="/notes/" title="Les dernières actus en design et développement web">nouvelles</a>, de <a href="/ressources/" title="Gagnez du temps avec ces merveilleuses ressources">ressources</a> et d'<a href="/inspirations/" title="Cultivez votre créativité">inspirations</a> ou aventurez-vous sur le compte Twitter et Facebook du MDW.</p>
 <div class="row">

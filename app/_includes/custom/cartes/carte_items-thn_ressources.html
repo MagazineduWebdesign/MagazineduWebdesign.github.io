@@ -1,6 +1,6 @@
 <section>
-  <div class="row">
-    <div class="small-12 columns">
+  <div class="row text-center large-text-left">
+    <div class="small-12 columns section-header">
       <h1 class="section-carte-header-title">{{ include.param | remove:'ressources-' | replace: '-', ' ' | upcase }}</h1>
     </div>
   </div>
@@ -8,37 +8,34 @@
   ================================================== -->
   <div class="row">
     <div class="small-12 columns">
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4" data-equalizer>
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
 
         <!-- list all items
         ================================================== -->
         {% for post in site.categories.[include.param] limit:3 %}
         <li>
-          <article class="grid-article-card js-postcount" data-equalizer-watch>
+          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 
             <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
               <div class="row collapse grid-article-card-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if post.image %}
-                  <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
-                  <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
+                    <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
+                    [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
+                    <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
                   {% endif %}
                 </div>
               </div>
 
               <div class="row collapse">
-                <div class="grid-article-card-info mod-section-home small-12 columns">
-                  <h1 class="grid-article-card-title mod-card-w-tag">{{ post.title | truncate: 48 }}</h1>
-                  {% if post.element-ui %}
-                    <p class="grid-article-card-meta">{{ post.element-ui  | truncate: 24 }}</p>
-                  {% endif %}
+                <div class="grid-article-card-info small-12 columns">
+                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
                 </div>
               </div>
 

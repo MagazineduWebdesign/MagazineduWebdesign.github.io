@@ -1,6 +1,6 @@
 ---
 layout: "note_index"
-title: "L'essentiel de l'actu pour les designers et développeurs"
+title: "📰 L'essentiel de l'actu pour les designers et développeurs"
 permalink: "/notes/"
 intro: "Cultivez vos talents en explorant les derniers conseils, outils, inspirations et ressources,
 sélectionnés à partir de centaines de blogs, de tweets & de newsletters."

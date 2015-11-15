@@ -1,6 +1,6 @@
 ---
 layout: "collection_index"
-title: "Collections"
+title: "📚 Collections"
 permalink: "/collections/"
 intro: "Collections de charmantes inpsirations et ressources, actualisées chaque jour."
 description: "Collections d'inspirations, d'outils & de ressources classés par thématiques"

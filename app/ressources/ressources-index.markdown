@@ -1,6 +1,6 @@
 ---
 layout: "ressources_index"
-title: "Optimisez votre temps avec ces ressources & outils"
+title: "🔧 Optimisez votre temps avec ces ressources & outils"
 permalink: "/ressources/"
 intro: "Allégez votre planning en adoptant les meilleurs outils et pratiques pour rationaliser votre flux de travail. Optimiser votre précieux temps signifie plus d'espace pour la créativité et les pauses café. Oubliez le vieil adage <em>Il faut travailler 16 heures par jour pour avoir un résultat</em>, optez pour la smart way; ne partez pas de zéro, collaborez et demandez de l'aide. N'hésitez pas à partager vos découvertes et vos créations."
 description: "Allégez votre planning en adoptant les meilleurs outils et pratiques pour rationaliser votre flux de travail"

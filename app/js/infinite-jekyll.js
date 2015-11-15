@@ -135,56 +135,56 @@ $(function() {
         // categories
         case 'design':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'developpement':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'fun':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'graphisme':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'mobile':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'ressources':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'ux-design':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'"><article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse">';
-          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<div class="small-9 columns"><h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
 
         case 'wordpress':
           str+='<a href="'+postURL+'" title="'+$(data).find('.is-title').html()+'">';
-          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
+          str+='<article class="carte-article-secondaire js-postcount" itemprop="blogPosts mod-article-two-columns-post-title" itemscope itemtype="http://schema.org/BlogPosting"><div class="row collapse"><div class="small-9 columns"><h1 class="carte-article-secondaire-post-title" itemprop="headline">'+$(data).find('.is-title').html()+'</h1></div>';
           str+='<div class="small-3 columns"><div class="carte-article-secondaire-thumbnail right" style="background-image: url('+$(data).find('.is-img').attr('data-is-img')+');"</div></div></div></article></a>';
           $('.section-carte-index-panel').append(str);
           break;
