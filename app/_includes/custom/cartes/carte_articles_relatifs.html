@@ -1,0 +1,44 @@
+
+<section>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-header">
+      <h1 class="section-carte-header-title">Pixels à explorer</h1>
+    </div>
+  </div>
+  <div class="row-liste-index">
+    <div class="small-12 columns carte-categorie">
+      {% for post in site.categories[page.category] limit: 5 %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <article class="carte-article-secondaire" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="row collapse">
+              <div class="small-9 columns">
+                <h1 class="carte-article-secondaire-post-title mod-article-two-columns-post-title" itemprop="headline">
+                  {{ post.title }}
+                </h1>
+              </div>
+
+              <div class="small-3 columns">
+                {% if post.image %}
+                <div class="carte-article-secondaire-thumbnail right" data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (default)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (smallretina)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (medium)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (mediumretina)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (large)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (largeretina)]"></div>
+                {% endif %}
+              </div>
+
+            </div>
+          </article>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-carte-action">
+      <a href="{{ site.baseurl }}/{% if page.path1 %}{{ page.path1 }}/{% if page.path2 %}{{ page.path2 }}/{% endif %}{% if page.path3 %}{{ page.path3 }}/{% endif %}{% else %}{{ page.category }}{% endif %}">PLUS DE PIXELS</a>
+    </div>
+  </div>
+</section>

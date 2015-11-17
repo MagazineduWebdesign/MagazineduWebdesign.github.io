@@ -118,7 +118,13 @@ layout: default
 			<!-- Tags
 			================================================== -->
 			<span class="article-meta-footer"><svg class="ic-block-h48" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16zM16 17H5V7h11l3.55 5L16 17z" fill="#999999"/></svg>{{ tags_content }}</span>
-			{% include custom/sections/article_footer_left.html %}
+      {% if page.keyword_title %}
+      	{% include custom/cartes/carte_lexique.html %}
+      {% endif %}
+
+      {% include custom/cartes/cartenl.html %}
+
+      {% include custom/cartes/carte_twtr_no-mail.html %} 
 	  </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
       {% include custom/cartes/carte_post-a-job-in-article_right.html %}

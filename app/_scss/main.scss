@@ -255,7 +255,7 @@ sup {
 	border-top:1px solid $secondary-color;
 	border-bottom:0
 }
-.section-carte-action.mod-article-video-action-relative, .section-carte-header.mod-article-video-header-relative{
+.section-carte-action.mod-article-video-action-relative{
 	border:0
 }
 	.section-carte-header-title{
@@ -269,16 +269,13 @@ sup {
 	.section-carte-header-title:first-of-type{
     margin-top: 0;
 	}
-	.section-carte-header-title.mod-videos-relatives{
-		@include item-row;
-    margin-top: 0;
-		border-bottom: 1px solid $secondary-color;
-    font-weight: 600;
-	}
-	.section-carte-header-title.mod-mini-description{
-    @include item-row($lineh: 1.1);
-		min-height: rem-calc(48);
-	}
+  @media #{$small-only}{
+    .section-carte-header-title.mod-mini-description{
+      @include item-row($lineh: 1.1);
+      color: $tuatara;
+  		min-height: rem-calc(48);
+  	}
+  }
 	.section-carte-header-title-big{
 		margin: rem-calc(48 0 24);
     font-size: $h2-font-size;
@@ -419,6 +416,10 @@ sup {
 		.grid-article-card-info.mod-app-icon{
 				min-height: rem-calc(100);
 				max-height: rem-calc(100);
+		}
+		.grid-article-card-info.mod-large-height{
+				min-height: rem-calc(128);
+				max-height: rem-calc(128);
 		}
 		.grid-article-card-info.mod-book{
 				min-height: rem-calc(100);

@@ -8,11 +8,11 @@ path3:
 category: "themes-joomla"
 tags:
 by: "Gavick"
-by-url: "https://www.gavick.com/"
-url-demo: "https://demo.gavick.com/joomla25/writer/"
+by-url: "https://www.gavick.com/affiliate/idevaffiliate.php?id=1286&url=1887"
+url-demo: "https://www.gavick.com/affiliate/idevaffiliate.php?id=1286&url=1888"
 url-version-gratuite:
 url-telecharger:
-url-buy: "https://www.gavick.com/joomla-templates/writer"
+url-buy: "https://www.gavick.com/affiliate/idevaffiliate.php?id=1286&url=1889"
 pricecurrency: "$"
 price: "39"
 image: "theme-joomla-writer-blog-1.jpg"

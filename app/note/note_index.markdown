@@ -3,7 +3,7 @@ layout: "note_index"
 title: "📰 L'essentiel de l'actu pour les designers et développeurs"
 permalink: "/notes/"
 intro: "Cultivez vos talents en explorant les derniers conseils, outils, inspirations et ressources,
-sélectionnés à partir de centaines de blogs, de tweets & de newsletters."
+sélectionnés à partir de centaines de blogs, de tweets & de newsletters. En cours de mise à jour."
 text-twtr : "L'essentiel de l'actu pour les designers et développeurs par @MagDuWebdesign"
 description: "Cultivez vos talents en explorant les derniers conseils, outils, inspirations et ressources,
 sélectionnés à partir de centaines de blogs, de tweets & de newsletters."
