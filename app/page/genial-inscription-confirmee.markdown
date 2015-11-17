@@ -1,7 +1,7 @@
 ---
 layout: "page-1-column"
-title: "C'es tout bon"
-intro: "Votre inscription est confirmée 👌. Rendez-vous dans quelques jours pour votre première newsletter."
+title: "C'es tout bon 👌"
+intro: "Votre inscription est confirmée. Rendez-vous dans quelques jours pour votre première newsletter."
 description: "Votre inscription est confirmée"
 permalink: "/genial-inscription-confirmee/"
 ---
