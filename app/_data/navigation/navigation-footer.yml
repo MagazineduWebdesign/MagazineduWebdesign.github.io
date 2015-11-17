@@ -27,4 +27,4 @@
   external-link: "true"
 
 - name: "RSS"
-  permalink: "feed.xml"
+  permalink: "http://magazineduwebdesign.com/feed.xml"
