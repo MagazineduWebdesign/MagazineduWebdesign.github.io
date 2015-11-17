@@ -1,0 +1,18 @@
+---
+layout: "evenement"
+title: "Conférence Dot CSS"
+date: "2015-11-17 00:23:57"
+path1: "evenements"
+path2: "frontend"
+path3:
+category: "evenements"
+tags: "evenements-frontend"
+intro: "L'événement européen de référence. On y parlera Sass, PostCSS et outils."
+logo: "dot-css-conference.png"
+event-start-date-iso: "2015-12-04"
+event-start-date: "4 déc. 2015"
+event-location: "Paris"
+siteweb: "http://www.dotcss.io/?ref=MagazineDuWebdesign"
+image:
+description: "L'événement européen de référence en Frontend."
+---
