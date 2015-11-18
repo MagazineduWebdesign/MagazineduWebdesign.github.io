@@ -1,0 +1,35 @@
+---
+layout: "ressources-default"
+title: "Be &ndash;Thème WordPress"
+date: "2015-11-18 00:24:57"
+path1: "ressources"
+path2: "themes-wordpress"
+path3:
+category: "themes-wordpress"
+tags:
+by: "muffingroup"
+by-url: "http://themeforest.net/user/muffingroup/portfolio/?ref=carcsn"
+url-demo: "http://themes.muffingroup.com/be/splash/?ref=carcsn"
+url-version-gratuite:
+url-telecharger:
+url-buy: "http://themeforest.net/item/betheme-responsive-multipurpose-wordpress-theme/7758048/?ref=carcsn"
+pricecurrency: "$"
+price: "59"
+image: "betheme-theme-wordpress.png"
+image-2: "BeTheme-wordpress.jpg"
+image-3:
+image-4:
+image-5:
+intro: "Le thème WordPress BE offre de multiples options de personnalisation. Dupliquez et créez de nouvelles sections en quelques secondes afin d'obtenir de merveilleux templates. Si vous n'êtes pas encore inspiré, le thème vous propose 150 layouts déjà conçus. Un gain de temps pour vos projets à sortir en quelques jours. BE a été développé pour les designers, les créateurs, les commerçants & les bloggers. Ce thème bénéfice de la note 4.78/5 au sein de la communauté ThemeForest."
+description: "Le thème WordPress BE offre de multiples options de personnalisation. Dupliquez et créez de nouvelles sections en quelques secondes afin d'obtenir de merveilleux templates."
+rating: "8.5"
+---
+
+**Points forts du thème**
+
+* 150 layouts pré-conçus : Business, divertissement, blog, portfolio, one page, ecommerce, etc.
+* Visual composer. Tous les éléments du design sont déclinables en de multiples variantes.
+* Mise à jour automatique du thème à vie.
+* Compatible avec les plugins les plus populaires de WordPress (ecommerce, devops, etc.).
+* Support client rapide et gentil.
+* Compatible avec l'arabe et toutes les autres langues dont l'écriture se pratique de la droite vers la gauche.
