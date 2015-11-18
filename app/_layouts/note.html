@@ -66,7 +66,7 @@ layout: default
               <span class="note-source-name">{{ page.source-name | upcase }}</span>
             </div>
 
-            <a href="{{ page.source-url }}" title="{{ page.title }}" target="_blank" rel="nofollow">
+            <a onclick="ga('send', 'event', 'notes', 'Visit to read', '{{ note.title }}');" href="{{ page.source-url }}" title="{{ page.title }}" target="_blank" rel="nofollow">
               <h1 itemprop="headline">{{ page.title }}</h1>
             </a>
 
@@ -81,7 +81,7 @@ layout: default
         <div class="row collapse">
           <div class="small-12 columns">
             <figure class="figure-img mod-note-img">
-              <a href="{{ page.source-url }}" title="{{ page.title }}" target="_blank">
+              <a onclick="ga('send', 'event', 'notes', 'Visit to read', '{{ note.title }}');" href="{{ page.source-url }}" title="{{ page.title }}" target="_blank">
                 <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}" itemprop="image">
               </a>
               {% if page.image-legende %}

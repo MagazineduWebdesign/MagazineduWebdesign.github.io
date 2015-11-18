@@ -119,7 +119,7 @@ layout: default
             </div>
           {% endif %}
 
-          <a href="{{ note.source-url }}" title="{{ note.title }}" target="_blank" rel="nofollow">
+          <a onclick="ga('send', 'event', 'notes', 'Visit to read', '{{ note.title }}');" href="{{ note.source-url }}" title="{{ note.title }}" target="_blank" rel="nofollow">
             <h1>{{ note.title }}</h1>
           </a>
 
@@ -134,7 +134,7 @@ layout: default
       <div class="row collapse">
         <div class="small-12 columns">
           <figure class="figure-img mod-note-img">
-            <a href="{{ note.source-url }}" title="{{ note.title }}" target="_blank">
+            <a onclick="ga('send', 'event', 'notes', 'Visit to read', '{{ note.title }}');" href="{{ note.source-url }}" title="{{ note.title }}" target="_blank">
             <img data-interchange="[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" class="note-container-img" />
             <noscript><img src="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ note.image-legende }}"></noscript>
             </a>

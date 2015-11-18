@@ -69,7 +69,7 @@ layout: default
 				{% for item in site.data.collections.collection_photos-libres-de-droits %}
 				<li>
 					<article class="grid-article-card" data-equalizer-watch>
-						<a class="grid-article-card-link-wrap" href="{{ item.href }}" title="{{ item.title }}" target="_blank" rel="nofollow">
+						<a onclick="ga('send', 'event', 'collection_photos-libres-de-droits', 'Visit', '{{ item.title }}');" class="grid-article-card-link-wrap" href="{{ item.href }}" title="{{ item.title }}" target="_blank" rel="nofollow">
 							<div class="row collapse">
 								<div class="grid-article-card-info mod-no-thumbnail small-12 columns">
 									<h1 class="grid-article-card-title">{{ item.title | truncate: 48 }}</h1>
