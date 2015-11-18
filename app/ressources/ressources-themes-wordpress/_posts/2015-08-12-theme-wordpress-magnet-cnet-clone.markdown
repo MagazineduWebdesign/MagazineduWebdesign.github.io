@@ -8,11 +8,11 @@ path3:
 category: "themes-wordpress"
 tags:
 by: "99theme"
-by-url: "http://99theme.com/"
-url-demo: "http://99theme.com/cnet-wordpress-clone/"
+by-url: "http://99theme.com/members/aff/go/magazineduwebdesign"
+url-demo: "http://99theme.com/members/aff/go/magazineduwebdesign/?cr=aHR0cDovLzk5dGhlbWUuY29tL2NuZXQtd29yZHByZXNzLWNsb25lLw=="
 url-version-gratuite:
 url-telecharger:
-url-buy: "http://99theme.com/members/signup/magnet"
+url-buy: "http://99theme.com/members/aff/go/magazineduwebdesign/?cr=aHR0cDovLzk5dGhlbWUuY29tL21lbWJlcnMvc2lnbnVwL21hZ25ldA=="
 pricecurrency: "$"
 price: "29"
 image: "theme-wordpress-magnet-magazine-cnet-clone-1.jpg"
