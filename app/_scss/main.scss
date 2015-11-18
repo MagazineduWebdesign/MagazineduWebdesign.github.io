@@ -271,7 +271,7 @@ sup {
 	}
   @media #{$small-only}{
     .section-carte-header-title.mod-mini-description{
-      @include item-row($lineh: 1.1);
+      @include item-row($lineh: 18);
       color: $tuatara;
   		min-height: rem-calc(48);
   	}
@@ -826,11 +826,14 @@ sup {
 // icons
 .ic_block-h64-ic-left{
 	display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin:rem-calc(20 16 20 0);
 }
 @media #{$small-only} {
-	.ic_block-h64-ic-left{margin:rem-calc(16 16 16 0);}
+	.ic_block-h64-ic-left{
+    margin:rem-calc(0 16 0 0);
+    height: 56px;
+  }
 }
 .ic_block-h64-text-left{display:inline-block;vertical-align:middle;margin:0;}
 .ic_block-h64-no-text{display:inline-block;vertical-align:middle;margin:rem-calc(0)}
