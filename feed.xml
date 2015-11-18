@@ -7,6 +7,18 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Conférence Dot CSS</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 17 Nov 2015 00:23:57 +0100</pubDate>
+				<link>http://magazineduwebdesign.com/dot-css</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/dot-css</guid>
+			</item>
+		
+			<item>
 				<title>Quark &amp;ndash; Thème Joomla ecommerce &amp; restauration</title>
 				
 				
@@ -283,19 +295,6 @@
 				<pubDate>Sat, 19 Sep 2015 00:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-lanyon/</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-lanyon/</guid>
-			</item>
-		
-			<item>
-				<title>Incorporated &amp;ndash; Thème Jekyll</title>
-				
-				
-					<description>&lt;p&gt;&lt;strong&gt;Caractéristiques&lt;/strong&gt;&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 19 Sep 2015 00:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-incorporated/</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-incorporated/</guid>
 			</item>
 		
 	</channel>
