@@ -7,6 +7,18 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Azone Market &amp;ndash; Guggenheim</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 18 Nov 2015 10:24:57 +0100</pubDate>
+				<link>http://magazineduwebdesign.com/inspirations/ui-design/sites-web/azone-guggenheim/</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/inspirations/ui-design/sites-web/azone-guggenheim/</guid>
+			</item>
+		
+			<item>
 				<title>Conférence Dot CSS</title>
 				
 				
@@ -282,19 +294,6 @@
 				<pubDate>Sat, 19 Sep 2015 00:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-poole/</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-poole/</guid>
-			</item>
-		
-			<item>
-				<title>Lanyon &amp;ndash; Thème Jekyll</title>
-				
-				
-					<description>&lt;p&gt;&lt;strong&gt;Caractéristiques&lt;/strong&gt;&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 19 Sep 2015 00:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-lanyon/</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-lanyon/</guid>
 			</item>
 		
 	</channel>
