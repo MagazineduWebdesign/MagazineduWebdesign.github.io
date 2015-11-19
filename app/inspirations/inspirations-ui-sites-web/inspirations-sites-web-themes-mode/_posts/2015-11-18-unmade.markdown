@@ -23,6 +23,6 @@ composant-ui-url-3:
 url-demo: "https://preview.unmade.com/?ref=MagazineDuWebdesign"
 image: "unmade.jpg"
 image-2: "unmade-inspiration-fiche-produit-ecommerce.jpg"
-intro: "Un concept innovant de personnalisation de produit pour un site ecommerce. Via une interaction de drag directement sur le visuel produit, vous pouvez choisir les motifs de votre pull ou de votre écharppe. Classe et ça fonctionne bien."
+intro: "Un concept innovant de personnalisation de produit pour un site ecommerce. Via une interaction de drag directement sur le visuel produit, vous pouvez choisir les motifs de votre pull ou de votre écharpe. Classe et ça fonctionne bien."
 description: "Un concept innovant de personnalisation de produit pour un site ecommerce"
 ---
