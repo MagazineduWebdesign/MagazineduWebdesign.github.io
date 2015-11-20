@@ -37,9 +37,16 @@ layout: default
           </figure>
           {% endif %}
           {% if page.image-3 %}
-          <figure class="gallery figure-img mod-app-screenshot">
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
             <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
               <img src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture 3 - {{ page.title }}" width="640" height="auto">
+            </a>
+          </figure>
+          {% endif %}
+          {% if page.image-4 %}
+          <figure class="gallery figure-img mod-app-screenshot">
+            <a href="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-4 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture 4 - {{ page.title }}" width="640" height="auto">
             </a>
           </figure>
           {% endif %}
