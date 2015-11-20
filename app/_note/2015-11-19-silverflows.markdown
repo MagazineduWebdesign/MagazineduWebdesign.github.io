@@ -1,5 +1,5 @@
 ---
-title: "Prototype directement dans Sketch &ndash; Nouvel outil prometteur : Silver flows"
+title: "Prototyper directement dans Sketch &ndash; Nouvel outil prometteur : Silver flows"
 date: 2015-11-19 00:00:00
 source-name:
 source-url: "http://silverflows.com/?ref=MagazineDuWebdesign"
@@ -11,4 +11,4 @@ id-soundcloud:
 video-legende:
 ---
 
-Pour plus de news sur Sketch 3, inscrivez-vous à la [collecton bêta du MDW](http://magazineduwebdesign.com/ressources/sketch/).
+Pour plus de news sur Sketch 3, inscrivez-vous à la [collection bêta du MDW](http://magazineduwebdesign.com/ressources/sketch/).

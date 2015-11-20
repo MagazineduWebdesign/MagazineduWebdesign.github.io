@@ -11,4 +11,4 @@ id-soundcloud:
 video-legende: "Temps de chargement Avant / Après redesign"
 ---
 
-Je suis fan de leur philosophie 6^5 à propos du premier chargement de page ne devant pas excéder 60k de HTML, 60k de JavaScript, 60k de CSS, avec des animations 60fps et un temps de chargement moyen de 0,6s. La nouvelle version du Magazine du Webdesign est entièrement construite autour de cette règle des 6^5.
+Je suis fan de leur philosophie 6^5 à propos du premier chargement de page ne devant pas excéder 60k de HTML, 60k de JavaScript, 60k de CSS, avec des animations 60fps et un temps de chargement moyen de 0,6s. C'est fun à appliquer à un projet perso tel que celui que vous êtes en train d'explorer. Faîtes le test de cette règle des 6^5 sur une page du MDW en ouvrant votre inspecteur.
