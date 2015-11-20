@@ -9,10 +9,10 @@ category: "ressources-kits-ui"
 tags:
 by: "AgenceMe"
 by-url: "https://dribbble.com/AGENCEME"
-url-demo: "http://www.market-me.fr/Livo/"
-url-buy: "https://plasso.co/s/1v7XDObUg5"
+url-demo: "https://ui8.net/products/livo-ui-kit?rel=webmag"
+url-buy: "https://ui8.net/products/livo-ui-kit?rel=webmag"
 pricecurrency : "$"
-price: "48"
+price: "58"
 url-version-gratuite:
 image: "kit-ui-livo-animation.gif"
 image-2: "kit-ui-livo.jpg"

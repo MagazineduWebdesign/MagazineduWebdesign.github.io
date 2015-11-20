@@ -9,8 +9,8 @@ category: "ressources-kits-ui"
 tags:
 by: "Komol Kuchkarov"
 by-url: "https://dribbble.com/kuchkarov"
-url-demo: "https://www.behance.net/gallery/28041483/Weeny-iOS-UI-Kit"
-url-buy: "https://creativemarket.com/Kuchkarov/323388-Weeny-iOS-UI-Kit"
+url-demo: "https://ui8.net/products/weeny-ui-kit?rel=webmag"
+url-buy: "https://ui8.net/products/weeny-ui-kit?rel=webmag"
 pricecurrency : "$"
 price: "28"
 url-version-gratuite:

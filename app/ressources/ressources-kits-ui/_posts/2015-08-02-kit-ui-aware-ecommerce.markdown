@@ -9,8 +9,8 @@ category: "ressources-kits-ui"
 tags:
 by: "Komol Kuchkarov"
 by-url: "https://dribbble.com/kuchkarov"
-url-demo:
-url-buy: "https://creativemarket.com/Kuchkarov/234963-Aware-UI-Kit"
+url-demo: "https://ui8.net/products/aware-ui-kit?rel=webmag"
+url-buy: "https://ui8.net/products/aware-ui-kit?rel=webmag"
 pricecurrency : "$"
 price: "19"
 url-version-gratuite: "https://www.dropbox.com/s/qr02qk1w23h0lvg/Aware_Free_Samples_2.zip"

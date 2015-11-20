@@ -9,8 +9,8 @@ category: "ressources-kits-ui"
 tags:
 by: "Sergey Azovskiy"
 by-url: "http://uichest.com/"
-url-demo:
-url-buy: "https://creativemarket.com/flexrs/234376-Grade-UI-Kit"
+url-demo: "https://ui8.net/products/grade-ui-kit?rel=webmag"
+url-buy: "https://ui8.net/products/grade-ui-kit?rel=webmag"
 pricecurrency : "$"
 price: "59"
 url-version-gratuite: "http://bit.ly/1BzoSz8"

@@ -9,10 +9,10 @@ category: "ressources-kits-ui"
 tags:
 by: "Komol Kuchkarov"
 by-url: "https://dribbble.com/kuchkarov"
-url-demo: "https://www.behance.net/gallery/23903245/Snug-UI-Kit"
-url-buy: "https://creativemarket.com/Kuchkarov/200304-Snug.-UI-Kit"
+url-demo: "https://ui8.net/products/snug-ui-kit?rel=webmag"
+url-buy: "https://ui8.net/products/snug-ui-kit?rel=webmag"
 pricecurrency : "$"
-price: "19"
+price: "28"
 url-version-gratuite:
 image: "kit-ui-snug-blog-magazine.jpg"
 image-2: "kit-ui-snug-blog-magazine-1.png"
