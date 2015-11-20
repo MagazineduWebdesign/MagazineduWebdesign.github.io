@@ -1,5 +1,5 @@
 ---
-title: "🚀 sciencefictioninterfaces.tumblr.com"
+title: "🚀 Tumblr &ndash; Science fiction interfaces"
 date: 2015-11-18 00:00:00
 source-name:
 source-url: "http://sciencefictioninterfaces.tumblr.com/?ref=MagazineDuWebdesign"
