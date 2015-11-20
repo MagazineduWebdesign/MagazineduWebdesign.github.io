@@ -1,0 +1,14 @@
+---
+title: "Uideo &ndash; Plateforme de vidéos sur le design & le dev"
+date: 2015-11-20 00:00:00
+source-name: "inpixelitrust"
+source-url: "https://uideo.net/?ref=MagazineDuWebdesign"
+image: "uideo-plateforme-videos-conference-design-dev.jpg"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+
+Cultivez également vos talents avec la [collection de vidéos](http://magazineduwebdesign.com/videos/) du MDW.
