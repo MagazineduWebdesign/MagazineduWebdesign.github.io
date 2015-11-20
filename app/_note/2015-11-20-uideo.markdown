@@ -1,7 +1,7 @@
 ---
 title: "Uideo &ndash; Plateforme de vidéos sur le design & le dev"
 date: 2015-11-20 00:00:00
-source-name: "inpixelitrust"
+source-name: "HeyDesigner"
 source-url: "https://uideo.net/?ref=MagazineDuWebdesign"
 image: "uideo-plateforme-videos-conference-design-dev.jpg"
 image-legende:
