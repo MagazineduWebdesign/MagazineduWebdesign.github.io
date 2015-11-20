@@ -1,6 +1,6 @@
 ---
 layout: "ressources-outils-services_index"
-title: "Collection d'outils et de services de design & DevOps"
+title: "Collection d'outils et de services de design & frontend"
 category: "ressources-outils-services"
 permalink: "/ressources/outils-services/"
 intro: "Répertoire organisé de merveilleux outils et services pour optimiser votre productivité. Nul besoin de réinventer la roue. N'hésitez pas à partager vos découvertes et vos créations. Bientôt disponible."
