@@ -7,5 +7,5 @@ intro: "Liste de sites Web sélectionnés pour la qualité de l'expérience prop
 description: "Explorez la liste des meilleurs designs d'interfaces de sites Web du Magazine du Webdesign."
 text-twtr: "En train d'explorer la collection de designs de sites Web du @MagDuWebdesign."
 bgimgheader: "true"
-image: "future-citizen.JPG"
+image: "future-citizen-1.jpg"
 ---
