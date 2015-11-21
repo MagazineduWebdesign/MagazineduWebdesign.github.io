@@ -1,6 +1,6 @@
 ---
 layout: "video"
-title: "Microsoft HoloLens &amp; Volvo &ndash; L'expérience d'achat en 2016"
+title: "Microsoft HoloLens & Volvo &ndash; L'expérience d'achat en 2016"
 date: "2015-11-20 00:22:57"
 path1: "videos"
 path2: "startup-promo"

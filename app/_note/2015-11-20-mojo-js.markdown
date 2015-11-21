@@ -1,0 +1,16 @@
+---
+title: "mo.js par @legomushroom a des super niceee démos !"
+date: 2015-11-20 00:00:00
+source-name:
+source-url: "http://codepen.io/sol0mka/full/yNOage/"
+image: "mojs-demo-legomushroom.png"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+
+* [Démo ·● MOTION for the web ●·](http://codepen.io/sol0mka/full/ogOYJj/)
+* [Démo Mole :: property curves example](http://codepen.io/sol0mka/full/OyzBXR)
+* [Démo ·•● Bubble • Layout ●•·](http://codepen.io/sol0mka/full/yNOage/)
