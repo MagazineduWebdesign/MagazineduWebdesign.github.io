@@ -11,4 +11,4 @@ id-soundcloud:
 video-legende:
 ---
 
-Templates mobile facilement personnalisables avec SASS et prêt pour PhoneGap.
+Templates mobile facilement personnalisables avec Sass et prêts pour PhoneGap.
