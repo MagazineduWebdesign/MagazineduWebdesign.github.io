@@ -6,7 +6,6 @@
   <title>{% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
   <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
   <meta name="robots" content="noodp,noydir"/>
-  <meta name="msvalidate.01" content="CFAB83D0CF56D3BD8B3CDEFF1EF231E6" />
   <!-- Usemin CSS
   ================================================== -->
   <!-- build:css({app,.tmp}) /css/application.css -->
@@ -56,10 +55,15 @@
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
   Twitter: https://dev.twitter.com/docs/cards/types/summary-card
   ============================== -->
-  <meta property="og:url" content="{{ page.url }}" />
+
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}" />
+  {% if page.image %}
+  <meta property="og:image:secure_url" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
+  <meta property="og:image:width" content="1024" />
+  {% endif %}
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="article:modified_time" content="{{ page.date }}" />
   <meta property="article:author" content="https://www.facebook.com/guillaume.palayer" />
@@ -67,10 +71,6 @@
   <meta property="og:site_name" content="Magazine du Webdesign" />
   <meta property="fb:app_id" content="417313274987698" />
   <meta property="og:locale:alternate" content="fr_FR" />
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  <meta property="og:image:width" content="1024" />
-  {% endif %}
   <meta property="og:locale:alternate" content="fr_FR" />
   {% if page.id-youtube %}
   <meta property="og:video" content="https://www.youtube.com/watch?v={{ page.id-youtube }}" />
