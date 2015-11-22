@@ -502,8 +502,8 @@ module.exports = function (grunt) {
             {
               match: '/js/',
               replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-js/'
-            }
             },
+            // Disallowed /js/ folder replacement of the pattern above for pinterest script
             {
               match: '//assets.pinterest.com/js/pinit.js',
               replacement: '//assets.pinterest.com/js/pinit.js'
