@@ -2,9 +2,9 @@
 'use strict';
 
 // Directory reference:
-//   css: css
+//   css: mdw-css
 //   sass: _scss
-//   javascript: js
+//   javascript: mdw-js
 //   images: img
 //   fonts: fonts
 
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
         tasks: ['sass:server', 'autoprefixer:server']
       },
       autoprefixer: {
-        files: ['<%= yeoman.app %>/css/**/*.css'],
+        files: ['<%= yeoman.app %>/mdw-css/**/*.css'],
         tasks: ['copy:stageCss', 'autoprefixer:server']
       },
       jekyll: {
@@ -53,7 +53,7 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '.tmp/css/**/*.css',
+          '.tmp/mdw-css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ]
@@ -124,7 +124,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/_scss',
           src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
+          dest: '.tmp/mdw-css',
           ext: '.css'
         }]
       },
@@ -137,7 +137,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/_scss',
           src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
+          dest: '.tmp/mdw-css',
           ext: '.css'
         }]
       }
@@ -157,9 +157,9 @@ module.exports = function (grunt) {
       server: {
         files: [{
           expand: true,
-          cwd: '.tmp/css',
+          cwd: '.tmp/mdw-css',
           src: '**/*.css',
-          dest: '.tmp/css'
+          dest: '.tmp/mdw-css'
         }]
       }
     },
@@ -236,8 +236,8 @@ module.exports = function (grunt) {
         },
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
-      js: ['<%= yeoman.dist %>/js/**/*.js'],
-      css: ['<%= yeoman.dist %>/css/**/*.css']
+      js: ['<%= yeoman.dist %>/mdw-js/**/*.js'],
+      css: ['<%= yeoman.dist %>/mdw-css/**/*.css']
     },
     htmlmin: {
       dist: {
@@ -423,9 +423,9 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           dot: true,
-          cwd: '<%= yeoman.app %>/css',
+          cwd: '<%= yeoman.app %>/mdw-css',
           src: '**/*.css',
-          dest: '.tmp/css'
+          dest: '.tmp/mdw-css'
         }]
       }
     },
@@ -438,8 +438,8 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           src: [
-            '<%= yeoman.dist %>/js/**/*.js',
-            '<%= yeoman.dist %>/css/**/*.css',
+            '<%= yeoman.dist %>/mdw-js/**/*.js',
+            '<%= yeoman.dist %>/mdw-css/**/*.css',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
@@ -463,7 +463,7 @@ module.exports = function (grunt) {
       },
       all: [
         'Gruntfile.js',
-        '<%= yeoman.app %>/js/**/*.js',
+        '<%= yeoman.app %>/mdw-js/**/*.js',
         'test/spec/**/*.js'
       ]
     },
@@ -473,7 +473,7 @@ module.exports = function (grunt) {
       },
       check: {
         src: [
-          '<%= yeoman.app %>/css/**/*.css'
+          '<%= yeoman.app %>/mdw-css/**/*.css'
         ]
       }
     },
@@ -496,17 +496,12 @@ module.exports = function (grunt) {
           detail: true,
           patterns: [
             {
-              match: '/css/',
+              match: '/mdw-css/',
               replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-css/'
             },
             {
-              match: '/js/',
+              match: '/mdw-js/',
               replacement: 'https://s3-eu-west-1.amazonaws.com/mdw-js/'
-            },
-            // Disallowed /js/ folder replacement of the pattern above for pinterest script
-            {
-              match: '//assets.pinterest.comhttps://s3-eu-west-1.amazonaws.com/mdw-js/pinit.js',
-              replacement: '//assets.pinterest.com/js/pinit.js'
             }
           ]
         },
@@ -545,7 +540,7 @@ module.exports = function (grunt) {
           bucket: 'mdw-js'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>/js',
+          cwd: '<%= yeoman.dist %>/mdw-js',
           src: '**/*'
         }]
       },
@@ -555,7 +550,7 @@ module.exports = function (grunt) {
           bucket: 'mdw-css'
         },
         files: [{
-          cwd: '<%= yeoman.dist %>/css',
+          cwd: '<%= yeoman.dist %>/mdw-css',
           src: '**/*'
         }]
       },
