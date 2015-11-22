@@ -1,6 +1,6 @@
 ---
 title: "framework7 – 5 templates gratuits"
-date: 2015-11-21 00:00:00
+date: 2015-11-22 00:00:00
 source-name: "@guillaumemick"
 source-url: "http://mickaelguillaume.esy.es/Mobile-Template/index.html?ref=MagazineDuWebdesign"
 image: "template-mobile-gratuit-framework7-phonegap.jpg"
