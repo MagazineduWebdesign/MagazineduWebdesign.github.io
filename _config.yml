@@ -16,7 +16,7 @@ github_username: jekyll
 source: app
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title
-url: "http://magazineduwebdesign.com" # the base hostname & protocol for your site
+url: "http://www.magazineduwebdesign.com" # the base hostname & protocol for your site
 highlighter: rouge
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
