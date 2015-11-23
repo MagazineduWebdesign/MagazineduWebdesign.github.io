@@ -1,11 +1,14 @@
 - name: BACKBONE JS
   permalink: /inspirations/ui-design/sites-web/technologies/backbone-js/
 
-- name: WEBGL
-  permalink: /inspirations/ui-design/sites-web/technologies/webgl/
+- name: d3.js
+  permalink: /inspirations/ui-design/sites-web/technologies/d3js/
 
 - name: threejs
   permalink: /inspirations/ui-design/sites-web/technologies/threejs/
 
 - name: tweenmax
   permalink: /inspirations/ui-design/sites-web/technologies/tweenmax/
+
+- name: WEBGL
+  permalink: /inspirations/ui-design/sites-web/technologies/webgl/

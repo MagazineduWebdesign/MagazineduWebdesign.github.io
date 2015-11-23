@@ -1,0 +1,18 @@
+---
+layout: "evenement"
+title: "Conférence Dot JS"
+date: "2015-11-17 00:23:57"
+path1: "evenements"
+path2: "frontend"
+path3:
+category: "evenements"
+tags: "evenements-frontend"
+intro: "L'événement JavaScript de référence en France. Des conférences et des personnes passionnées autour d'un sujet commun, le JS."
+logo: "dot-js-conference.png"
+event-start-date-iso: "2015-12-07"
+event-start-date: "7 déc. 2015"
+event-location: "Paris"
+siteweb: "http://www.dotjs.io/?ref=MagazineDuWebdesign"
+image:
+description: "L'événement JavaScript de référence en France. Des conférences et des personnes passionnées autour d'un sujet commun, le JS."
+---
