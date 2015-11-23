@@ -7,6 +7,30 @@
 		<atom:link href="http://magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Data visualisation des sources d'énergie pour l'électricité produite en Espagne</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 23 Nov 2015 00:24:57 +0100</pubDate>
+				<link>http://magazineduwebdesign.com/inspirations/ui-design/sites-web/data-visualisation-sources-energie-production-electricite-espagne/</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/inspirations/ui-design/sites-web/data-visualisation-sources-energie-production-electricite-espagne/</guid>
+			</item>
+		
+			<item>
+				<title>SmashingConf Oxford 2016</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 23 Nov 2015 00:23:57 +0100</pubDate>
+				<link>http://magazineduwebdesign.com/evenements/web-design/smashing-conference-oxford-2016/</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/evenements/web-design/smashing-conference-oxford-2016/</guid>
+			</item>
+		
+			<item>
 				<title>Comment wireframer un site web | Speed ​​Design Sketch 3</title>
 				
 				
@@ -190,6 +214,18 @@
 			</item>
 		
 			<item>
+				<title>Conférence Dot JS</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 17 Nov 2015 00:23:57 +0100</pubDate>
+				<link>http://magazineduwebdesign.com/dot-js</link>
+				<guid isPermaLink="true">http://magazineduwebdesign.com/dot-js</guid>
+			</item>
+		
+			<item>
 				<title>Conférence Dot CSS</title>
 				
 				
@@ -259,42 +295,6 @@
 				<pubDate>Wed, 21 Oct 2015 10:24:57 +0200</pubDate>
 				<link>http://magazineduwebdesign.com/inspirations/ui-design/sites-web/nod-app/</link>
 				<guid isPermaLink="true">http://magazineduwebdesign.com/inspirations/ui-design/sites-web/nod-app/</guid>
-			</item>
-		
-			<item>
-				<title>Tesla &amp;ndash; Redesign de la console centrale</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 21 Oct 2015 00:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/inspirations/ui-design/connected-car/connected-car-tesla-concept-dashboard-ui/</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/inspirations/ui-design/connected-car/connected-car-tesla-concept-dashboard-ui/</guid>
-			</item>
-		
-			<item>
-				<title>Adobe Comet &amp;ndash; designer sans lorem ipsum</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 19 Oct 2015 22:22:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/videos/adobe-projet-comet/</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/videos/adobe-projet-comet/</guid>
-			</item>
-		
-			<item>
-				<title>This is Arc</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 19 Oct 2015 17:24:57 +0200</pubDate>
-				<link>http://magazineduwebdesign.com/inspirations/ui-design/sites-web/thisisarc/</link>
-				<guid isPermaLink="true">http://magazineduwebdesign.com/inspirations/ui-design/sites-web/thisisarc/</guid>
 			</item>
 		
 	</channel>
