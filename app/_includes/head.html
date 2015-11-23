@@ -59,7 +59,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}" />
+  <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}" />
   {% if page.image %}
   <meta property="og:image:url" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
   <meta property="og:image:secure_url" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
@@ -85,7 +85,7 @@
   <meta name="twitter:site" content="@MagDuWebdesign" />
   <meta name="twitter:creator" content="@MagDuWebdesign">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ site.description }} {% endif %}">
+  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}">
   {% if page.image %}
   <meta name="twitter:image:src" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
   {% endif %}
