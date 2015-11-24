@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>NJ(L.A)</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 24 Nov 2015 17:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nj-la/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nj-la/</guid>
+			</item>
+		
+			<item>
 				<title>Data visualisation des sources d'énergie pour l'électricité produite en Espagne</title>
 				
 				
@@ -283,18 +295,6 @@
 				<pubDate>Sat, 31 Oct 2015 10:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/lebonentendeur/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/lebonentendeur/</guid>
-			</item>
-		
-			<item>
-				<title>App Periscope &amp;ndash; Apple TV</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Sat, 31 Oct 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/tv/periscope-app-apple-tv/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/tv/periscope-app-apple-tv/</guid>
 			</item>
 		
 	</channel>
