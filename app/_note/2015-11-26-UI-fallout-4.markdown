@@ -1,0 +1,13 @@
+---
+title: "UI Fallout 4 – Oh Man"
+date: 2015-11-26 00:00:00
+source-name: "kotaku"
+source-url: "http://kotaku.com/fallout-4s-user-interface-is-truly-terrible-1743826375?ref=MagazineDuWebdesign"
+image: "1532171740889945232.gif"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Un univers sans fin où vous combattrez des mutants de toutes sortes. Vous passerez également beaucoup de temps à combattre une interface aussi horrible que les bestioles contaminées.
