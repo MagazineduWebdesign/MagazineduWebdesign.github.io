@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
 title: "kumagaimototsugu"
-date: "2015-10-27 00:27:57"
+date: "2015-11-27 00:27:57"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
