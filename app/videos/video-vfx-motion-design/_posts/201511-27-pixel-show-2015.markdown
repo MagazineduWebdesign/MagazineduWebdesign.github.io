@@ -1,0 +1,17 @@
+---
+layout: "video"
+title: "Pixel Show 2015"
+date: "2015-11-27 00:22:57"
+path1: "videos"
+path2: "motion-design"
+path3:
+category: "videos"
+tags:
+- videos-motion-design
+intro: "Titre d'ouverture pour Pixel Show 2015, la plus grande fête de la créativité et des arts visuels en Amérique latine. Ce festival fait partie d'un circuit de conférences qui rassemble chaque année les créatifs du monde entier à São Paulo, Brésil."
+description: "Titre d'ouverture pour Pixel Show 2015, la plus grande fête de la créativité et des arts visuels en Amérique latine."
+id-vimeo: "142904077"
+viaurl: "https://autoplay.co/?ref=MagazineDuWebdesign"
+viatitle: "autoplay"
+lunametrics-youtube-tracking: "true"
+---

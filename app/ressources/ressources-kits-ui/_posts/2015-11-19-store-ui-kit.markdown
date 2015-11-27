@@ -29,5 +29,5 @@ Accédez à de nombreux éléments de design tels que des fiches produits, des f
 * 3 variations : Kiddy, Stylo et Techno;
 * Google font ;
 * Calques catégorisés et ordonnés ;
-* Compatible Adobe CC+ et Sketch 3.3+.
-* 232.8 MB
+* Compatible Adobe CC+ et Sketch 3.3+ ;
+* 232.8 MB.

@@ -29,5 +29,5 @@ rating: "7"
 * 7 catégories d'applications ;
 * Google font ;
 * Trouvez rapidement ce que vous cherchez grâce une organisation par catégories d'éléments UI ;
-* Compatible Adobe Photoshop, AI CS6+ et Sketch.
-* 20.0 MB
+* Compatible Adobe Photoshop, AI CS6+ et Sketch ;
+* 20.0 MB.

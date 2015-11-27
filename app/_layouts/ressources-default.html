@@ -85,9 +85,11 @@ layout: default
               {% if page.no-soundcloud %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
               {% if page.url-demo %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="button expand small radius secondary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a><li>{% endif %}
               {% if page.url-buy %}
-                <li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <li class="show-for-large-up" role="menuitem">
+                  <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                   <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
-                </a></li>
+                  </a>
+                </li>
               {% endif %}
               {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
               {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
