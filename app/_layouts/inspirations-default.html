@@ -160,6 +160,7 @@ layout: default
               <li role="menuitem"><a href="{{ page.constructeurs-url }}" title="Explorer la collection {{ page.constructeurs }}">{{ page.constructeurs | upcase }}</a></li>
             {% endif %}
           </ul>
+          {% include custom/cartes/carte_ad_in-article-sidebar-affiliate.html %}
         </div>
         {% endunless %}
 
@@ -174,6 +175,7 @@ layout: default
       {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
+      {% include custom/cartes/carte_ad_in-article-sidebar-affiliate-bottom.html %}
       {% include custom/cartes/carte_post-a-job-in-article_right.html %}
     </div>
   </div>
