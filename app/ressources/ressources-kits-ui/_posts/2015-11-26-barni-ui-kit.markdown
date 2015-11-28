@@ -16,7 +16,7 @@ price: "38"
 url-version-gratuite:
 image: "barni-kit-ui-media.jpg"
 image-2: "barni-kit-ui-media-1.jpg"
-image-3: "barni-kit-ui-media-2.jpg"
+image-3: "barni-kit-ui-media-3.jpg"
 intro: "Barni pour les médias est la première partie d'une série de kits UI. Il est composé d'un vaste choix d'éléments spécialement conçus pour mettre en scène des contenus journalistiques."
 description: "Il est composé d'un vaste choix d'éléments spécialement conçus pour mettre en scène des contenus journalistiques."
 rating: "7"
