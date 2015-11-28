@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Adobe Remix project</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 28 Nov 2015 01:22:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/videos/adobe-remix/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/adobe-remix/</guid>
+			</item>
+		
+			<item>
 				<title>Déjà vu</title>
 				
 				
@@ -16,6 +28,18 @@
 				<pubDate>Sat, 28 Nov 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kamra-invisi-dir/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kamra-invisi-dir/</guid>
+			</item>
+		
+			<item>
+				<title>Livyatanim &amp;ndash; Myth</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 27 Nov 2015 12:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/film-livyatanim/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/film-livyatanim/</guid>
 			</item>
 		
 			<item>
@@ -40,18 +64,6 @@
 				<pubDate>Fri, 27 Nov 2015 00:27:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kumagaimototsugu/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kumagaimototsugu/</guid>
-			</item>
-		
-			<item>
-				<title>Livyatanim &amp;ndash; Myth</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Fri, 27 Nov 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/film-livyatanim/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/film-livyatanim/</guid>
 			</item>
 		
 			<item>
@@ -285,18 +297,6 @@
 				<pubDate>Thu, 19 Nov 2015 00:00:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/kits-ui/store-ui-kit/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/kits-ui/store-ui-kit/</guid>
-			</item>
-		
-			<item>
-				<title>SkyP</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 18 Nov 2015 17:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/skyq/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/skyq/</guid>
 			</item>
 		
 	</channel>
