@@ -11,6 +11,7 @@ tags:
 - sites-web-formats-experience-interactive
 - sites-web-animation-transition-navigation
 - sites-web-animation-background
+- sites-web-technologies-webgl
 - sites-web-elements-ui-audio
 theme: "musique"
 theme-url: "/inspirations/ui-design/sites-web/themes/musique/"
