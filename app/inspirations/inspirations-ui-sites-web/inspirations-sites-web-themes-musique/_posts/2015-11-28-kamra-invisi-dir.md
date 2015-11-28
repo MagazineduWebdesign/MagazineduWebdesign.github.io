@@ -36,7 +36,7 @@ composant-ui-3:
 composant-ui-url-3:
 url-demo: "https://kamra.invisi-dir.com/?ref=MagazineDuWebdesign"
 image: "deja-vu-anime.gif"
-image-2: "deja-vu-1.jpg"
+image-2: "deja-vu-1.png"
 image-3: "deja-vu-2.jpg"
 intro:  "Une expérience musicale au sein d'une vidéo surréaliste où vous pouvez intégrer votre visage via une webcam ou une image. Cette expérience WebGL fait la promo de l'album du groupe nippon KAMRA. Beau, étonnant et pas si déja vu ^^."
 description: "Cette expérience WebGL fait la promo de l'album du groupe nippon KAMRA. Beau, étonnant et pas si déja vu ^^."
