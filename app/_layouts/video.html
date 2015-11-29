@@ -17,7 +17,7 @@ layout: default
 		            <link itemprop="embedUrl" href="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" />
               {% endif %}
 		        	{% if page.id-vimeo %}
-		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}api=1&player_id=vimeo-player-1" id=”vimeo-player-1″ frameborder="0" data-progress="true" data-seek="true" data-bounce="true" data-title="{{ page.title }}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}?api=1&player_id=vimeo-player-1" id=”vimeo-player-1″ frameborder="0" data-progress="true" data-seek="true" data-bounce="true" data-title="{{ page.title }}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		        	  <link itemprop="embedUrl" href="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" />
               {% endif %}
 		        </div>
