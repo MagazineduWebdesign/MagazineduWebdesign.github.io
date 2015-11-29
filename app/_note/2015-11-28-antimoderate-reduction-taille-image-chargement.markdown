@@ -1,5 +1,5 @@
 ---
-title: "AntiModerate &ndash Le graal du frontend pour passer la barre des 1000ms"
+title: "AntiModerate &ndash; Le graal du frontend pour passer la barre des 1000ms"
 date: 2015-11-28 12:00:00
 source-name: "Codrops Collective"
 source-url: "https://github.com/whackashoe/antimoderate?ref=MagazineDuWebdesign"
