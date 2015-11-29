@@ -52,6 +52,11 @@
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ff5700">
 
+  <!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="{% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}">
+	<meta itemprop="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
+	<meta itemprop="image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}">
+  <link rel="author" href="{{ site.url }}humans.txt">
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
   Twitter: https://dev.twitter.com/docs/cards/types/summary-card
   ============================== -->
