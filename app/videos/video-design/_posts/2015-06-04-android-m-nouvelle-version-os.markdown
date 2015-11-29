@@ -16,4 +16,5 @@ id-youtube: "vVkii3OAxJA"
 viaurl: "http://www.theverge.com/a/sundars-google/android-m-google-io-2015"
 viatitle: "theverge"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

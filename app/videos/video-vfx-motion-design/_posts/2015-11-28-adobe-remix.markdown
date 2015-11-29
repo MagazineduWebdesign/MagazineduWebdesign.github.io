@@ -13,5 +13,6 @@ description: "Une mise en scène psychédélique traduisant les connections cré
 id-vimeo: "138571008"
 viaurl: "http://ashthorp.com/adobe-remix-the-incept"
 viatitle: "ashthorp"
-lunametrics-youtube-tracking: "true"
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
 ---

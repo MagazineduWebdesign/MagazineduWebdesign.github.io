@@ -15,4 +15,5 @@ id-youtube: "yd1CYKFAUzA"
 viaurl: "http://www.flagofplanetearth.com"
 viatitle: "Flag of planet Earth"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

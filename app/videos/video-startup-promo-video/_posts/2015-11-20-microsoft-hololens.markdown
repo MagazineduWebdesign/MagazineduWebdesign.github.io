@@ -14,4 +14,5 @@ id-youtube: "DilzwF90vec"
 viaurl: "http://www.theverge.com/2015/11/20/9767886/microsoft-volvo-hololens-mixed-reality-car-showroom/?ref=MagazineDuWebdesign"
 viatitle: "the verge"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

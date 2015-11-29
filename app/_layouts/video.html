@@ -17,7 +17,7 @@ layout: default
 		            <link itemprop="embedUrl" href="https://www.youtube.com/embed/{{ page.id-youtube }}?showinfo=0&modestbranding=1&controls=2" />
               {% endif %}
 		        	{% if page.id-vimeo %}
-		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		        		<iframe src="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" frameborder="0" data-progress="true" data-seek="true" data-bounce="true" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		        	  <link itemprop="embedUrl" href="//player.vimeo.com/video/{{ page.id-vimeo | remove: ' ' }}" />
               {% endif %}
 		        </div>
@@ -124,7 +124,7 @@ layout: default
 
       {% include custom/cartes/cartenl.html %}
 
-      {% include custom/cartes/carte_twtr_no-mail.html %} 
+      {% include custom/cartes/carte_twtr_no-mail.html %}
 	  </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
       {% include custom/cartes/carte_post-a-job-in-article_right.html %}

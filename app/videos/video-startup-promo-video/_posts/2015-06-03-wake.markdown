@@ -14,4 +14,5 @@ id-youtube: "GIalL5fkhPM"
 viaurl: "http://wake.io/"
 viatitle: "wake"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

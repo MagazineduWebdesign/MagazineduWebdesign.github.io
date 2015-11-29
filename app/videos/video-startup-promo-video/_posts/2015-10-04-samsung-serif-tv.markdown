@@ -14,4 +14,5 @@ id-youtube: "0QYF5TF_sdQ"
 viaurl: "http://www.samsung.com/global/seriftv/fr/index.html"
 viatitle: "samsung.com"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

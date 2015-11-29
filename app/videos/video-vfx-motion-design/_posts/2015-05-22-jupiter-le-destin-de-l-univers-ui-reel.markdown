@@ -14,4 +14,5 @@ id-youtube: "sDJrsOKh6-8"
 viaurl: "http://odd-ny.com/"
 viatitle: "odd-ny.com – Office of Development & Design"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

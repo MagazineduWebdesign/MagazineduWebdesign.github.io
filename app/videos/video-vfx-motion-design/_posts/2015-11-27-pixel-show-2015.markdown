@@ -13,5 +13,6 @@ description: "Titre d'ouverture pour Pixel Show 2015, la plus grande fête de la
 id-vimeo: "142904077"
 viaurl: "https://autoplay.co/?ref=MagazineDuWebdesign"
 viatitle: "autoplay"
-lunametrics-youtube-tracking: "true"
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
 ---

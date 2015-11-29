@@ -1,0 +1,18 @@
+---
+layout: "video"
+title: "Blend &ndash; Opening Titles"
+date: "2015-11-29 17:00:57"
+path1: "videos"
+path2: "motion-design"
+path3:
+category: "videos"
+tags:
+- videos-motion-design
+intro: "BUCK Sydney lance avec un humour décalé la cérémonie d'ouverture du Blend Festival de Vancouver."
+description: "BUCK Sydney lance avec un humour décalé la cérémonie d'ouverture du Blend Festival de Vancouver."
+id-vimeo: "143033726"
+viaurl:
+viatitle:
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
+---

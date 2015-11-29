@@ -14,4 +14,5 @@ id-youtube: "L-s_3b5fRd8"
 viaurl: "http://foundation.bz/20/"
 viatitle: "foundation"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

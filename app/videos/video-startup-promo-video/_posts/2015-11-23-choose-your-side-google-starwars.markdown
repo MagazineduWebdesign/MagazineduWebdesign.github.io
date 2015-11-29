@@ -14,4 +14,5 @@ id-youtube: "HWNY57CAY5U"
 viaurl: "https://www.google.com/starwars/"
 viatitle: "google.com/starwars/"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

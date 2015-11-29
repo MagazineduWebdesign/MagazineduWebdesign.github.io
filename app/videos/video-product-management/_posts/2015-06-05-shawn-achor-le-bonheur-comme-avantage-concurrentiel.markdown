@@ -15,6 +15,7 @@ id-youtube: "jp9u2H_b71Y"
 viaurl: "http://www.google.com/events/rework/"
 viatitle: "re:Work"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---
 
 Shawn partage ses découvertes sur les mécaniques engendrant les sentiments de satisfaction. Un indicateur qui peut être aussi utile que les métriques d'acquisition ou de récence pour piloter le succès & les revenus d'un produit ou d'un service. Pensez-y pour votre prochaine release.

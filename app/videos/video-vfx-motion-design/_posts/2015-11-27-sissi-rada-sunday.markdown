@@ -13,5 +13,6 @@ description: "Tourné entièrement avec le Microsoft Kinect 2, édition et progr
 id-vimeo: "145836531"
 viaurl: "https://autoplay.co/?ref=MagazineDuWebdesign"
 viatitle: "autoplay"
-lunametrics-youtube-tracking: "true"
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
 ---

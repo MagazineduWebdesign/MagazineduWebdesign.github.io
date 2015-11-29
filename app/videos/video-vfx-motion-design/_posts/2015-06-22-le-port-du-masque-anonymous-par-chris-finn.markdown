@@ -13,5 +13,6 @@ description: "Projet de fin d'étude en Motion Media Design par Chris Finn duran
 id-vimeo: "128797601"
 viaurl: "http://www.chrisfinn.tv/"
 viatitle: "chris finn"
-lunametrics-youtube-tracking: "true"
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
 ---

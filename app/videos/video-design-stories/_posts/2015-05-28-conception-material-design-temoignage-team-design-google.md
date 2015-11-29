@@ -16,4 +16,5 @@ id-youtube: "rrT6v5sOwJg"
 viaurl: "https://www.google.com/design/"
 viatitle: "Google Design"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

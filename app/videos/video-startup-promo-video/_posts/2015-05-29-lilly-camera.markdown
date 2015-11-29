@@ -12,4 +12,5 @@ intro: "Une belle vidéo de présentation pour ce drone caméra throw-and-shoot.
 description: "Une belle vidéo de présentation pour ce drone caméra throw-and-shoot."
 id-youtube: "ObDvc1saMr4"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

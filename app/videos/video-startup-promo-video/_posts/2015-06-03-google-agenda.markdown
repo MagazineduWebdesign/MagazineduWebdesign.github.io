@@ -15,4 +15,5 @@ id-youtube: "t4vkQAByALc"
 viaurl: "http://www.google.com/calendar/about/"
 viatitle: "Google Agenda"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

@@ -14,4 +14,5 @@ id-youtube: "VIaeABAkXpc"
 viaurl:
 viatitle:
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

@@ -16,4 +16,5 @@ id-youtube: "sCmg2ND1bZc"
 viaurl: "https://www.google.com/design/articles/material-design-awards/"
 viatitle: "Google material design awards"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

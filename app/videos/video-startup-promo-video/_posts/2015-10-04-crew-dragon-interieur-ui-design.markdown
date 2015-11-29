@@ -14,4 +14,5 @@ id-youtube: "xjSb_b4TtxI"
 viaurl: "http://www.spacex.com/crew-dragon"
 viatitle: "spacex.com"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

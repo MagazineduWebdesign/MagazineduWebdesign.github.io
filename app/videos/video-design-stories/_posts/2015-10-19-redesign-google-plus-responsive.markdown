@@ -14,4 +14,5 @@ id-youtube: "MaQcCQQTs6E"
 viaurl: "https://developers.google.com/web/showcase/case-study/googleplus/?ref=MagazineDuWebdesign"
 viatitle: "developers.google.com"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

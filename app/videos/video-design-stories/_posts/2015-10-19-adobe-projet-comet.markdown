@@ -14,4 +14,5 @@ id-youtube: "e8ebPSJR3U0"
 viaurl: "http://landing.adobe.com/en/na/products/creative-cloud/comet/229818-notifyme.html?ref=MagazineDuWebdesign"
 viatitle: "Adobe creative Cloud"
 lunametrics-youtube-tracking: "true"
+vimeo-tracking: "false"
 ---

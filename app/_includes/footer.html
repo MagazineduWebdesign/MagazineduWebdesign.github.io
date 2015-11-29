@@ -30,13 +30,21 @@
 <script src="/_bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
 <script src="/_bower_components/fluidbox/jquery.fluidbox.min.js"></script>
 <script src="/_bower_components/jquery-vimeothumb/jquery-vimeothumb.min.js"></script>
-{% if page.lunametrics-youtube-tracking == 'true' %}
-  <script src="/mdw-js/lunametrics-youtube.gtm.js"></script>
-{% else %}
-{% endif %}
 <script src="/mdw-js/main.js"></script>
 <!-- endbuild -->
-
+{% if page.lunametrics-youtube-tracking == 'true' %}
+<!-- Google analytics - tracked YouTube events videos
+================================================== -->
+<script src="/mdw-js/lunametrics-youtube.gtm.js"></script>
+{% else %}
+{% endif %}
+<!-- endbuild -->
+{% if page.vimeo-tracking == 'true' %}
+<!-- Google analytics - tracked vimeo events videos
+================================================== -->
+<script src="/mdw-js/vimeo.ga.min.js"></script>
+{% else %}
+{% endif %}
 <!-- pinterest JS
 ================================================== -->
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>

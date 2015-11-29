@@ -13,5 +13,6 @@ description: "Hello, une nouvelle application construite par l'équipe Messenger
 id-vimeo: "123746101"
 viaurl: "http://www.aestheticintegration.com/"
 viatitle: "Aesthetic Integration"
-lunametrics-youtube-tracking: "true"
+lunametrics-youtube-tracking: "false"
+vimeo-tracking: "true"
 ---
