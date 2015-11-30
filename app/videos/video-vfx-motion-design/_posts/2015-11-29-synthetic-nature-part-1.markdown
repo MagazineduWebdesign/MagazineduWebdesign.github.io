@@ -14,5 +14,4 @@ id-vimeo: "145916065"
 viaurl:
 viatitle:
 lunametrics-youtube-tracking: "false"
-vimeo-tracking: "true"
 ---

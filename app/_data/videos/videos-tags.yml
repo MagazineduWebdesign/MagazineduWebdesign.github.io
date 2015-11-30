@@ -2,13 +2,13 @@
   name: Android
   permalink: /videos/android/
 
-- slug: videos-ui-design
-  name: UI design
-  permalink: /videos/ui-design/
-
 - slug: videos-design-stories
   name: Design stories
   permalink: /videos/design-stories/
+
+- slug: videos-front-end
+  name: Developpement front end
+  permalink: /videos/developpement-front-end/
 
 - slug: videos-material-design
   name: Material design
@@ -33,6 +33,10 @@
 - slug: videos-startup-stories
   name: Startup stories
   permalink: /videos/startup-stories/
+
+- slug: videos-ui-design
+  name: UI design
+  permalink: /videos/ui-design/
 
 - slug: videos-ux-design
   name: UX Design
