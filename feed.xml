@@ -7,6 +7,67 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Build Process</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 30 Nov 2015 13:22:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/videos/meilleurs-process-environnement-developpement-front-end/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/meilleurs-process-environnement-developpement-front-end/</guid>
+			</item>
+		
+			<item>
+				<title>Bartaile</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 30 Nov 2015 10:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bartaile/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bartaile/</guid>
+			</item>
+		
+			<item>
+				<title>Responsive design &amp; évangélisation &amp;ndash; U.S digital service</title>
+				
+				
+					<description>&lt;p&gt;Pour aller plus loin et étendre vos connaissances sur les actions entreprises par le gouvernement U.S en terme de numérisation des administrations, je vous conseille la lecture de &lt;a href=&quot;http://www.magazineduwebdesign.com/note/guide-de-style-pour-les-sites-web-du-gouvernement-us/&quot;&gt;cette note&lt;/a&gt; abordant les actions du 18f.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 30 Nov 2015 10:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/podcasts/us-digital-service-responsive-design/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/podcasts/us-digital-service-responsive-design/</guid>
+			</item>
+		
+			<item>
+				<title>Sons of Gallipoli</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 30 Nov 2015 01:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sons-of-gallipoli/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sons-of-gallipoli/</guid>
+			</item>
+		
+			<item>
+				<title>Design d'un menu &amp;ndash; 15 bonnes pratiques pour aider vos utilisateurs</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 30 Nov 2015 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/design-menu/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/design-menu/</guid>
+			</item>
+		
+			<item>
 				<title>Blend &amp;ndash; Opening Titles</title>
 				
 				
@@ -226,75 +287,15 @@
 			</item>
 		
 			<item>
-				<title>NJ(L.A)</title>
+				<title>This also</title>
 				
 				
 					<description>
 </description>
 				
-				<pubDate>Tue, 24 Nov 2015 17:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nj-la/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nj-la/</guid>
-			</item>
-		
-			<item>
-				<title>Data visualisation des sources d'énergie pour l'électricité produite en Espagne</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 23 Nov 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/data-visualisation-sources-energie-production-electricite-espagne/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/data-visualisation-sources-energie-production-electricite-espagne/</guid>
-			</item>
-		
-			<item>
-				<title>SmashingConf Oxford 2016</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 23 Nov 2015 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/evenements/web-design/smashing-conference-oxford-2016/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/smashing-conference-oxford-2016/</guid>
-			</item>
-		
-			<item>
-				<title>Starwars : Quelle voie suivrez-vous ? &amp;ndash; #ChooseYourSide</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 23 Nov 2015 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/choose-your-side-google-starwars/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/choose-your-side-google-starwars/</guid>
-			</item>
-		
-			<item>
-				<title>Comment wireframer un site web | Speed ​​Design Sketch 3</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 22 Nov 2015 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/wireframes-site-web-avec-sketch/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/wireframes-site-web-avec-sketch/</guid>
-			</item>
-		
-			<item>
-				<title>Candy</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Fri, 20 Nov 2015 17:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/candy-inspiration-webdesign/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/candy-inspiration-webdesign/</guid>
+				<pubDate>Wed, 25 Nov 2015 16:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thisalso/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thisalso/</guid>
 			</item>
 		
 	</channel>
