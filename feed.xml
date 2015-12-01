@@ -7,6 +7,30 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Les saisons</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 01 Dec 2015 17:26:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/timelapse-saisons-terre/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/timelapse-saisons-terre/</guid>
+			</item>
+		
+			<item>
+				<title>Smashing mega scene</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 01 Dec 2015 17:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/smashing-mega-scene-webgl/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/smashing-mega-scene-webgl/</guid>
+			</item>
+		
+			<item>
 				<title>Build Process</title>
 				
 				
@@ -271,31 +295,6 @@
 				<pubDate>Thu, 26 Nov 2015 00:00:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/kits-ui/silk-ui-kit/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/kits-ui/silk-ui-kit/</guid>
-			</item>
-		
-			<item>
-				<title>Barni &amp;ndash; Kit UI media</title>
-				
-				
-					<description>&lt;p&gt;Il est livré avec des composants exclusifs tels qu’un portfolio, un blog et un newsfeed. Vous y trouverez également des composants de design plus communs tels que des sliders, des éléments de mise en avant de contenus et différentes typologies de navigation. Au total, vous accéderez à plus de 105+ composants différents et 8 landing pages.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 26 Nov 2015 00:00:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/kits-ui/barni-ui-kit/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/kits-ui/barni-ui-kit/</guid>
-			</item>
-		
-			<item>
-				<title>This also</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Wed, 25 Nov 2015 16:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thisalso/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thisalso/</guid>
 			</item>
 		
 	</channel>
