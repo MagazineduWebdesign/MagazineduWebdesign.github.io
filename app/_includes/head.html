@@ -87,7 +87,7 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}">
   {% if page.image %}
-  <meta name="twitter:image:src" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
+  <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
   {% endif %}
 
   <!-- GoogleAnalyticsObject
