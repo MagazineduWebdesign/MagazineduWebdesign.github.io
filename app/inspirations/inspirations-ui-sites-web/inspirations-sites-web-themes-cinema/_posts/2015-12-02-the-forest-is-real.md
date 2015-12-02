@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
 title: "You Are DOPE"
-date: "2015-07-21 17:24:57"
+date: "2015-12-02 17:39:57"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
