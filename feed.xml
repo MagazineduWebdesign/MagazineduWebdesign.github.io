@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>You Are DOPE</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Wed, 02 Dec 2015 17:39:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-forest-is-real/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-forest-is-real/</guid>
+			</item>
+		
+			<item>
 				<title>Noise field ribbons</title>
 				
 				
@@ -281,18 +293,6 @@
 				<pubDate>Fri, 27 Nov 2015 00:22:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/videos/pixel-show-2015/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/pixel-show-2015/</guid>
-			</item>
-		
-			<item>
-				<title>Conférence Awwwards Amsterdam 2016</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Thu, 26 Nov 2015 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/evenements/web-design/conference-awwwards-amsterdam-2016/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/conference-awwwards-amsterdam-2016/</guid>
 			</item>
 		
 	</channel>
