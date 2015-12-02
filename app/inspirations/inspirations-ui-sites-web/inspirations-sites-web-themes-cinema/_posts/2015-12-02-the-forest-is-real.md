@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-sites-web-default"
-title: "You Are DOPE"
+title: "The forest is real"
 date: "2015-12-02 17:39:57"
 path1: "inspirations"
 path2: "ui-design"
