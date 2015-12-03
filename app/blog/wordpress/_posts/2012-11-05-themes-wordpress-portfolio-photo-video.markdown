@@ -2,8 +2,8 @@
 title: 20+ Thèmes WordPress portfolio pour les blogueurs photographes
 date: 2012-11-05 17:22:56
 category: wordpress
-tags: 
-- themes 
+tags:
+- themes
 intro: Internet est une excellente vitrine pour les photographes et les designers souhaitant exposer leurs meilleures créations. L’audience pour ce type de créations est énorme. Couplez le tout à une astucieuse stratégie de social media, le cocktail peut être détonnant pour vos photos.
 description: Découvrez une sélection de 20 thèmes WordPress dédiés à la photographie avec un support fullscreen des photos et vidéos.
 image: 21-Squared-Minimalist-Creative-Wordpress-Theme-Preview-ThemeForest.jpg
@@ -12,7 +12,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes portfolio plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Découvrez une sélection de <strong>20 thèmes WordPress</strong> dédiés à la <strong>photographie</strong> avec un support <strong>fullscreen</strong> des photos et vidéos.</p>
 <p>De belles photos contribuent à créer un site Web de qualité. Mais par où commencer si nous ne sommes pas Web designer ou développeur ? Comment manifester sa créativité sur le World Wide Web lorsque le budget ne suit pas ou que vos compétences en SEO nécessaires à la visibilité de votre travail ne sont pas à la hauteur de vos attentes ?</p>
 <p>Heureusement, les génies de San Francisco ont offert aux Internets <a title="wordpress.org" href="http://fr.wordpress.org/" target="_blank">WordPress</a>. Une brillante invention.</p>

@@ -2,7 +2,7 @@
 title: Thèmes WordPress gratuits responsive design – Sélection février 2013
 date: 2013-02-21 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - responsive
 intro: Voici une micro-sélection de 4 thèmes WordPress gratuits et responsives.
@@ -13,7 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress gratuits et premium</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Les <strong>thèmes WordPress</strong> à télécharger <strong>gratuitement</strong> et de bonne facture se font rares. Pour vous éviter la peine de les rechercher, je vous ai déniché les 4 perles des <strong><a title="14 Thèmes WordPress gratuits de grande qualité" href="http://magazineduwebdesign.com/themes-wordpress-gratuits-de-grande-qualite">templates WordPress gratuits</a></strong> du mois de février.</p>
 <p>Cette sélection fait la part belle aux thèmes responsives et aux mises en page façon <strong>Pinterest</strong>.</p>
 <h2>Gallery</h2>

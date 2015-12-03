@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Ce n’est pas le choix qui manque. Tous les jours de magnifiques fonts sont créées. Mais le temps que vous passerez à les chercher ne sera pas investi sur vos projets. Je l’ai donc fait pour vous et j’en ai trouvé des très belles. Voici le résultat de mes recherches.<span id="more-3966"></span></p>
 <p>Dans cette sélection de <a title="22 icon Fonts gratuites – La grosse liste" href="http://magazineduwebdesign.com/icon-font-gratuite">fonts gratuites</a>, je vous présenterez&nbsp;Foro Rounded, Supergrass,&nbsp;Prism, Salt &amp; Foam et bien d’autres <strong>fonts de qualité</strong>. La plupart de ces fonts&nbsp;peuvent être utilisées à titre personnel et quelques unes à&nbsp;des fins commerciales. Prenez garde à leurs conditions d’utilisations afin de ne pas enfreindre les termes de licence.</p>
 <h2><a title="Astroman Typeface" href="http://www.behance.net/gallery/Astroman-Typeface/7530581" target="_blank">Astroman Typeface</a></h2>

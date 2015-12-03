@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des mockups plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/mockups/">collection de mockups</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Il s’agit d’un moyen idéal pour présenter vos concepts d’UI d’une manière originale à vos clients et à vos collègues.</p>
 <p>Perspective mockups se compose de trois formats de devices : iPhone 4, iPhone 5 et iPad contenant chacun différentes perspectives et orientations.</p>
 <p><strong>Consultez également : <a title="10 astuces pour embellir son portfolio en un temps record" href="http://magazineduwebdesign.com/mockup-mobile-desktop-psd-gratuits">10 astuces pour embellir son portfolio en un temps record</a></strong></p>

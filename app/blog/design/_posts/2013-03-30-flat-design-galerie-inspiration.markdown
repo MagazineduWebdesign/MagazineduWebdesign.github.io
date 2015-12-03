@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>La galerie d’inspiration&nbsp;<strong>FlatDesign&nbsp;</strong>est à nouveau en ligne depuis quelques heures. Durant une semaine, ce showcase recensant les <strong><a title="Flat design et Thèmes WordPress – 15 exemples à suivre" href="http://magazineduwebdesign.com/theme-wordpress-flat-design">meilleurs web designs flat</a></strong> était inaccessible.&nbsp;</p>
 <p>Le design et l’architecture du site ont été&nbsp;légèrement&nbsp;modifiés par rapport à la version précédente, afin d’offrir davantage d’espace aux visuels.</p>
 <p>L’ensemble est réussi et mérite bien un petit billet car je trouve l’initiative pertinente et surtout intéressante pour peu que l’on soit adepte de la tendance flat.</p>

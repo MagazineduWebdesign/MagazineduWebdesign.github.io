@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Elles couvrent une majorité des besoins en icônes, elles sont esthétiques, avantageuses face à l’utilisation d’images mais bien trop souvent cachées au fin fond du tréfonds des Internets. C’est pourquoi je vous propose cette liste afin de les regrouper sur une unique adresse que je ne manquerai pas d’actualiser dans les semaines à venir. &nbsp;A bookmarker, evernoter et tweeter.</p>
 <h2>Qu’est-ce qu’une icon font ?</h2>
 <p>A la différence des <strong><a title="14 fonts gratuites de grande qualité" href="http://magazineduwebdesign.com/14-fonts-gratuites">polices de caractères alphanumériques</a></strong>, les <strong>icon fonts</strong> sont des fichiers composés d’<strong>icônes</strong>, de symboles et de glyphes.</p>

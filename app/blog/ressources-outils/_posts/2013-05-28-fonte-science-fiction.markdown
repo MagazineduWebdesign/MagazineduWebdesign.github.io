@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Les fans de&nbsp;Danny Boyle,&nbsp;Stanley Kubrick et cie seront ravis de découvrir Xephyr, Figa, Geogram,&nbsp;Arbeka, etc. Rangez votre <a href="http://scotch.io/demos/pure-css3-star-wars-lightsaber-checkboxes" target="_blank">sabre laser</a> et archivez ces <a title="Fonte Helvetica, 11 alternatives méconnues" href="http://magazineduwebdesign.com/fonte-helvetica-alternative-typographique">sublimes fontes</a> dans votre Evernote.</p>
 <p><em> La plupart de ces&nbsp;<strong>fontes&nbsp;</strong>peuvent être utilisées à titre personnel et quelques unes à&nbsp;des fins commerciales.&nbsp;Prenez garde à leurs conditions d’utilisations afin de ne pas enfreindre les termes de licence.</em></p>
 <p><a href="http://www.urbanfonts.com/fonts/Xephyr.htm" target="_blank"><strong>Xephyr</strong></a></p>

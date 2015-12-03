@@ -14,6 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Le <strong>flat design</strong> est un style graphique ayant pour objectif d’écarter tout élément graphique n’apportant aucune valeur significative à la structuration d’un template. Ce type de design visuel fait donc abstraction des éléments purement «&nbsp;décoratifs&nbsp;». Les dégradés, les reliefs, les volumes, les formes réalistes sont gommés pour laisser la place à de simples aplats. Il s’agit d’une approche visuelle minimaliste où le design est lissé. En voici quelques exemples réussis.</p>
 <p><em>Les <a title="Flat design – Swiss design inspiration ?" href="http://magazineduwebdesign.com/flat-design"><strong>exemples de flat design</strong></a> présentés ci-dessous font suite à l’article concernant le débat&nbsp;<strong><a title="Avez-vous commis l’erreur du Skeuomorphisme vs. Flat design ?" href="http://magazineduwebdesign.com/skeuomorphisme-vs-flat-design">Skeuomorphisme vs. Flat design</a></strong>. Je vous invite à le lire avant de découvrir cette liste.</em></p>
 <h2>Imavex</h2>

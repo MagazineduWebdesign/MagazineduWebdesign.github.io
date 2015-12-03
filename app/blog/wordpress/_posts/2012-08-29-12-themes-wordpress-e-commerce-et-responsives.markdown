@@ -2,7 +2,7 @@
 title: 12 Thèmes WordPress e-commerce et responsives
 date: 2012-08-29 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - e-commerce
 intro: CMS réservé auparavant aux blogueurs, WordPress est aujourd'hui une plateforme d'édition de contenus complète. Via une sélection de 12 thèmes WordPress e-commerce et responsives, j'ai souhaité axer cet article sur les capacités de WordPress à répondre aux exigences techniques et fonctionnelles des e-commerçants.
@@ -13,7 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes ecommerce plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 Les fonctionnalités et la qualité des templates WordPress sont sans cesse renouvelées grâce à la formidable communauté gravitant autour de ce CMS. La majorité des thèmes premium proposent une myriade de shortcodes et des interfaces de gestions personnalisées autorisant une customisation poussée des templates : portfolio, blog, [filtres de contenus](http://magazineduwebdesign.com/filtrer-vos-articles-via-les-custom-taxonomies-des-post-types-wordpress), etc.
 
 Couplez ces avantages à un support utilisateurs performant et à une documentation exhaustive, vous obtenez un cocktail détonnant.

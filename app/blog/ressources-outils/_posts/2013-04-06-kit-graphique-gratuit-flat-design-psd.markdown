@@ -15,7 +15,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des ressources plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/kits-ui/">collection de kits UI</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Les <strong>templates d’interface graphique</strong> sont également un bon moyen d’obtenir un design sympa pour un site Web ou une application si vos compétences en webdesign ne sont pas aussi développées que celles en développement front.</p>
 <p>Aujourd’hui, j’ai sélectionné pour vous&nbsp;50 kits graphiques élaborés dans un style Flat. C’est-à-dire designés dans un style&nbsp;faisant <em>abstraction des éléments purement décoratifs. Les dégradés, les reliefs, les volumes, les formes réalistes sont gommés..</em>.</p>
 <p><strong>Cela pourrait également vous intéresser :</strong><br>

@@ -2,7 +2,7 @@
 title: 6 Thèmes WordPress gratuits en responsive
 date: 2012-09-19 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - responsive  
 intro: Découvrez notre sélection de 6 thèmes WordPress responsives à télécharger gratuitement.
@@ -13,7 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress gratuits et premium</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Si vous souhaitez que votre site Web ou blog s’adapte parfaitement aux supports mobiles, tablettes et desktop, ces <strong>thèmes WordPress gratuits</strong> sont faits pour vous.</p>
 <h2>Business-lite</h2>
 <p><strong>Business-lite</strong> est dédié aux personnes désireuses d’obtenir rapidement une visibilité efficace sur tous les devices connectés au Web. Pourvu d’un design moderne, le <strong>slideshow</strong> présent en homepage vous permettra de mettre en avant vos produits ou créations de manière simple puisqu’une bonne partie de l’administration des contenus peut se faire via des <a title="Utilisabilité du Drag and Drop, astuces pour une meilleure expérience utilisateur" href="http://magazineduwebdesign.com/drag-and-drop-astuces-experience-utilisateur">raccourcis drag and drop</a>. Ce thème bénéficie d’un excellent <strong>support technique</strong>. Toujours bon à savoir lors d’une recherche de templates WordPress.</p>

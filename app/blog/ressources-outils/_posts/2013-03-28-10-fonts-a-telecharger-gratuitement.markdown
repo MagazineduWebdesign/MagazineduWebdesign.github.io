@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Dans cet article, je vous présenterez Niewe, Boffin,&nbsp;Doux, Vincent et bien d’autres&nbsp;<strong>fonts de qualité</strong>.<span id="more-3868"></span></p>
 <p>Les 10&nbsp;<strong>fonts</strong>&nbsp;ci-dessous seront parfaitement adaptées à la majorité de vos besoins. Elles sont <strong>gratuites</strong>, prenez garde néanmoins à leurs conditions d’utilisations afin de ne pas enfreindre les termes de licence. La plupart de ces <strong><a title="14 fonts gratuites de grande qualité" href="http://magazineduwebdesign.com/14-fonts-gratuites">fonts</a>&nbsp;</strong>peuvent être utilisées à titre personnel et quelques unes à&nbsp;des fins commerciales.</p>
 <h2>Les fonts gratuites de la semaine</h2>

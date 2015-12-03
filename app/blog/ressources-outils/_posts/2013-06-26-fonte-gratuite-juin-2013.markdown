@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Dans cet article, je vous présenterez Angels, Sequi, Otsu, Pebble&nbsp;et bien d’autres&nbsp;<a title="La collection de fontes Sci-Fi" href="http://magazineduwebdesign.com/fonte-science-fiction"><strong>fontes gratuites de qualité</strong></a>.</p>
 <p>Les 10&nbsp;<strong>fontes</strong>&nbsp;ci-dessous s’adapteront à la majorité de vos besoins. Elles sont&nbsp;<strong>gratuites</strong>, prenez garde néanmoins à leurs conditions d’utilisations afin de ne pas enfreindre les termes de licence. La plupart de ces&nbsp;<strong>fontes&nbsp;</strong>peuvent être utilisées à titre personnel et quelques unes à&nbsp;des fins commerciales.</p>
 <h2>Les fontes gratuites juin 2013</h2>

@@ -2,7 +2,7 @@
 title: Sélection de frameworks WordPress et thèmes WordPress vierges
 date: 2012-08-24 17:22:56
 category: wordpress
-tags: 
+tags:
 - ressources
 intro: Lorsque vous développez un thème WordPress, une grande quantité de fonctions, de filtres et de fichiers est commune à chacun de vos projets. En les regroupant dans un unique thème de base, votre productivité pourrait être grandement améliorée. Réunir les fichiers et les styles CSS par défaut dans un unique thème peut prendre un certain temps. Fort heureusement, de nombreux frameworks WordPress sont disponibles. Pourquoi s'en priver..
 description: Galerie des meilleurs frameworks WordPress et thèmes WordPress vierges.
@@ -12,7 +12,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 Ces frameworks se classent selon deux catégories : ceux dans le plus simple appareil, vierges de toutes surcouches et ceux proposant une customisation avancée. Dans cette article, je vous présenterai quelles sont les meilleures options offertes aux créateurs de [thèmes WordPress](http://magazineduwebdesign.com/12-themes-wordpress-e-commerce-et-responsives "Exemples d'utilisation de l'API Twitter").
 
 ##Les Frameworks de thèmes WordPress

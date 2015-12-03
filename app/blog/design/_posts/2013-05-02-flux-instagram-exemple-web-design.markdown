@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Les contenus générés sur cette plateforme peuvent être repris sous forme de flux dans d’autres supports tels qu’un site Web pour communiquer et connecter davantage les visiteurs à l’univers de la marque.</p>
 <p>Mercedes-Benz, Nike ou Onitsuka sont quelques-unes des marques ayant opté pour la stratégie du contenu généré par l’utilisateur d’Instagram.</p>
 <p>En utilisant ses flux d’images, les marques sont capables de créer une expérience digitale unique en mettant en avant les «&nbsp;vrais&nbsp;» utilisateurs. Cela est bien plus engageant qu’un simple push produit. L’univers de la marque paraît ainsi beaucoup plus proche de la réalité lorsque le produit est porté et partagé par des amis.</p>

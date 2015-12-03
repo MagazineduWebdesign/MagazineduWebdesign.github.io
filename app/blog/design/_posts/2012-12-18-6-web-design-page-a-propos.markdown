@@ -14,6 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Le Magazine du Webdesign vous a concocté une&nbsp;<strong>liste d’inspiration</strong> de pages <em>Equipe</em> et <em>A propos</em>. Leurs spécificités ? Une <a title="30 Kits UI gratuits – sources HTML/PSD incluses" href="http://magazineduwebdesign.com/kit-ui-psd-html-css-jquery">interface graphique</a> allant à l’encontre des codes de nombreux web designs, un sens aiguisé du détail et des interactions sublimes.</p>
 <p>C’est la petite dose de <strong>créativité</strong> qui vous sortira la tête du guidon.</p>
 <h2>Buffalo Web Design</h2>

@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Ces fonts arborent un style moderne parfait pour les designers surfant sur la pointe de la vague. Le futur est à votre porte, alors embrassez-le avec cette liste de fonts avant-gardistes.</p>
 <p>Si elles ne vous conviennent, découvrez des dizaines d’autres <strong>fonts gratuites</strong> sur <a href="http://www.urbanfonts.com/" target="_blank">UrbanFonts</a>.</p>
 <p>Jetez un coup d’oeil à cet article et prenez celles qui vous plaisent le plus :</p>

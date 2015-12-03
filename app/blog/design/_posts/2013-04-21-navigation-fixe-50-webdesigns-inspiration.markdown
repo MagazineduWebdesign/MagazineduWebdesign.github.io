@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Pour vous donner un peu d’inspiration afin d’améliorer vos systèmes de navigation, j’ai sélectionné quelques exemples designés de manière créative et intelligente. Les sites Web présentés ci-dessous ont comme point commun une navigation fixe.</p>
 <p>Ce type de navigation reste toujours visible à l’écran quelle que soit la hauteur de page scrollée par l’utilisateur. La tendance des sites one page en a démocratisé l’usage bien que d’autres typologies de sites l’ai également adopté en masse.</p>
 <p>J’espère que vous trouverez cette collection utile pour votre prochain projet Web.</p>

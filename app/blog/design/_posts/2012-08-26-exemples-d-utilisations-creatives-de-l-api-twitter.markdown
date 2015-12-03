@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Retrouvez ci-dessous une liste d’applications Web utilisant de manière surprenante et&nbsp;innovante l’<a title="Insérer les tags WordPress des posts dans vos boutons Twitter" href="http://magazineduwebdesign.com/inserer-les-tags-wordpress-des-posts-dans-vos-boutons-twitter">API Twitter</a>. Prenez garde, certaines sont extrêmement chronophages !</p>
 <p><span id="more-811"></span></p>
 <h2>Tweets for honor</h2>

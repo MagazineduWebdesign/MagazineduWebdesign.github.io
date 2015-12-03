@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/landing-pages/">collection de landing pages</a> du Magazine du Webdesign.</p>
 <p>Vous pouvez avoir une utilisabilité à toutes épreuves, respecter à la lettre les bonnes pratiques et avoir un trafic énorme, pour autant votre <strong>landing page</strong> ne sera pas plus engageante qu’un code promo de l’épicerie du quartier. L’ingrédient manquant ? Une histoire et de préférence celle de votre produit.</p>
 <p>Avant de modifier entièrement votre rédac’, il vous faudra analyser les besoins de vos utilisateurs. Fréquentent-ils votre site pour ces prix attractifs ? Son offre innovante ? Comment vos concurrents communiquent-ils ? Comment votre site se positionne-il par rapport à ces derniers ?</p>
 <p>L’utilisateur se sent seul devant son écran et il s’ennuie vite. Il faut donc engager le dialogue le plus tôt possible dans son parcours de navigation. Présentez lui votre offre, guidez le et conseillez le. Votre landing page doit être engageante si vous espérez convertir vos visiteurs en potentiels clients.</p>

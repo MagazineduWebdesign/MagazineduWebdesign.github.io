@@ -2,8 +2,8 @@
 title: Comment optimiser la page WordPress erreur 404 en vue de l’apocalypse
 date: 2012-11-11 17:22:56
 category: wordpress
-tags: 
-- techniques 
+tags:
+- techniques
 - tutoriels
 intro: Le 21 décembre 2012 risque bien d'être le jour où le nombre de pages Erreur 404 soit le plus élevé de toute l'histoire de l'humanité.
 description: Optimisez votre page Erreur 404 WordPress. Mise en place de solutions de sorties pour l'utilisateur et notification par email à l'admin.
@@ -15,7 +15,7 @@ keyword_desc:
 viaurl: http://codex.wordpress.org/Creating_an_Error_404_Page
 viatitle: Codex WordPress
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web et d'UI design</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 En effet, beaucoup de webmasters risquent de manquer à l’appel. Alors à vos claviers pour optimiser votre page 404 WordPress afin d’être prêt pour le grand jour.
 
 ##L’objectif : améliorer cette page

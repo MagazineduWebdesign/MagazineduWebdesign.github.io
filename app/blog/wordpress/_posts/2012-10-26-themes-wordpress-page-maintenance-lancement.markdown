@@ -2,8 +2,8 @@
 title: 20 Thèmes WordPress pour vos pages de maintenance et de lancement
 date: 2012-10-26 17:22:56
 category: wordpress
-tags: 
-- themes 
+tags:
+- themes
 intro: Si vous avez un nouveau projet dans les starting blocks, ces thèmes sont faits pour vous.
 description: Sélection de thèmes WordPress pour vos pages de maintenance et de lancement. Ne cherchez plus, les voici dans cet article.
 image: Our-Website-is-Under-Construction.jpg
@@ -12,7 +12,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>La mise en place d’une <strong>page de maintenance</strong> annonçant la <strong>date de lancement</strong> de votre site Web est la bonne approche à avoir. De plus, un formulaire permettant de collecter les <strong>adresses email</strong> des personnes intéressées par votre aventure vous offrira un moyen idéal de créer votre première source de trafic qualifié le jour J.</p>
 <p>Comme toujours, les <strong>thèmes WordPress</strong> vous apportent une solution simple à mettre en place pour vos pages de maintenance et de lancement.</p>
 <p>Une grande gamme de <strong>thèmes premium et gratuits</strong> sont à votre disposition. Inutile de perdre votre temps à les rechercher, les voici regroupés dans cet article.</p>

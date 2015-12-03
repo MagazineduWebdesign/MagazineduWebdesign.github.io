@@ -2,7 +2,7 @@
 title: 14 Thèmes WordPress gratuits de grande qualité
 date: 2012-11-25 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 intro: Je vous ai sélectionné 14 thèmes WordPress à télécharger gratuitement.
 description: Une sélection de thèmes WordPress gratuits respectant des critères de qualité et un design original. Voici le fruit de mes recherches.
@@ -12,7 +12,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress gratuits et premium</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>J’essaie de vous proposer régulièrement des<strong> thèmes WordPress gratuits</strong>&nbsp;de qualité avec un design original. Voici le fruit de mes recherches pour le mois de novembre : une dizaine de templates <strong>magazine</strong>, <strong>blog</strong>, <strong>business</strong> et <strong>portfolio</strong>.</p>
 <p>Certains thèmes de cette sélection sont dignes de figurer dans une catégorie <strong>premium</strong>. Leurs auteurs en ont décidé autrement et je les en remercie.</p>
 <h2>Post</h2>

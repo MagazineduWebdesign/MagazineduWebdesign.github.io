@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des ensembles d'icônes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/icones/">collection d'icônes</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Vous trouverez dans cette liste une grande variété d’icônes couvrant un large spectre de sujets, incluant des zombies, des instruments de musique et l’astrologie.</p>
 <p>Vous pourrez utiliser la plupart des&nbsp;<strong>packs d’icônes</strong>&nbsp;listés ci-dessous dans tous vos projets. Certains ensembles sont soumis à quelques restrictions. Cependant, vous pourrez les insérer dans tous vos projets à titre personnel. Si le pack est uniquement destiné à un usage personnel, cela est clairement indiqué à côté du titre des icônes.<img title="Lire la suite…" src="http://91.68.209.11/bmi/magazineduwebdesign.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif" alt=""></p>
 <p>Toutes les icônes sont disponibles en fichier <a title="50 kits graphiques gratuits Flat au format PSD" href="http://magazineduwebdesign.com/kit-graphique-gratuit-flat-design-psd">Photoshop</a>, certaines sont également téléchargeables au format&nbsp;<strong>SVG</strong>,<strong> PNG</strong>, <strong>AI</strong> ou en version<strong> icon font</strong>.</p>

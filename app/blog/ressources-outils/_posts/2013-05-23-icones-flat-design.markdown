@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des ensembles d'icônes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/icones/">collection d'icônes</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Dans cet article, j’ai rassemblé une importante <a href="http://magazineduwebdesign.com/tag/icones/">collection d’icônes</a> flat pour la conception de vos futures interfaces graphiques. Cette liste offre de merveilleuses combinaisons d’icônes flat designées pouvant être utilisées dans une grande diversité de projets. Ces packs conviendront parfaitement aux personnes en recherche d’icônes dans les thématiques Communication, bureautique, développement, e-commerce, social media, navigation, affichage… la liste est longue.</p>
 <p>De plus en plus d’applications Web adoptent ce concept. Pour un designer abordant le <a title="L’approche flat design en 26 inspirations" href="http://magazineduwebdesign.com/flat-design-inspiration">style flat</a>, la principale difficulté rencontrée est de produire une interface se démarquant réellement de la concurrence. En effet, bien que le flat design ait des&nbsp;caractéristiques&nbsp;marquées, ces dernières n’offrent pas un éventail de choix très large en matière de création.</p>
 <p>L’emploi d’icônes originales,&nbsp;les variations de couleurs, l’utilisation harmonieuse de photographies et de fontes sont les seuls moyens à notre disposition pour sortir du lot. Les icônes peuvent offrir une forte identité à une interface graphique. En plus de leur utilité pour structurer le contenu et orienter l’utilisateur, les icônes permettent de concevoir dans bien des cas l’âme d’une maquette graphique.</p>

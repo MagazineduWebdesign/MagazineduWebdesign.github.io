@@ -13,7 +13,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Pour ceux et celles qui ne connaissent pas encore l’existence des icon fonts, je vous conseille la lecture de cet article résumant les <a title="22 icon Fonts gratuites – La grosse liste" href="http://magazineduwebdesign.com/icon-font-gratuite">caractéristiques d’une icon font</a> avec en bonus les <a title="Fonte Helvetica, 11 alternatives méconnues" href="http://magazineduwebdesign.com/fonte-helvetica-alternative-typographique">fontes tendances</a> pour 2013.</p>
 <p>J’ai découvert récemment un service d’icon fonts tout frais et fort utile qu’il fallait absolument que je partage avec vous.</p>
 <p>Il s’agit de <strong>Fontastic</strong>, une plateforme en ligne où il est possible de choisir ses <a title="Connaissez-vous ces 40 fabuleux packs d’icônes flat design ?" href="http://magazineduwebdesign.com/icones-flat-design">icônes</a> et de les transposer en icon font en quelques secondes.</p>

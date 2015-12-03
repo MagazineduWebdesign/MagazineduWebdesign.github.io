@@ -15,7 +15,6 @@ viaurl: http://designtaxi.com/news/358265/Designer-Draws-An-Illustration-Every-D
 viatitle: designtaxi.com
 ---
 
-
 <p>Au début de l’année 2012, elle décide de dessiner une illustration par jour pendant les 12 prochains mois.</p>
 <p>Elle vient de publier <a href="http://www.turntopage84.com/" target="_blank">le résultat</a>&nbsp;de ce formidable challenge. On y découvre de <a href="http://magazineduwebdesign.com/the-illustration-room">splendides illustrations</a> : des visages, des animaux, des costumes, etc.</p>
 <p>Quelle est l’utilité de ce type de projet perso ? La réponse est simple : acquérir de nouvelles compétences, se remettre en question, briser la routine.&nbsp;<strong><a href="https://medium.com/thoughts-on-creativity/723d7e73b9bd" target="_blank">Create something every day</a></strong>.<br>

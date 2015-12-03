@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Une nouvelle semaine implique une nouvelle sélection de <strong>fontes gratuites</strong>. Téléchargez gratuitement les fontes Figa, Dekar, Flenja, Geogram, etc.</p>
 <p>Consultez également l’autre <a title="10 nouvelles polices à télécharger gratuitement" href="http://magazineduwebdesign.com/10-nouvelles-polices-gratuites">sélection de fontes gratuites</a> du mois de mai.</p>
 <p>La plupart de ces&nbsp;<strong>fontes&nbsp;</strong>peuvent être utilisées à titre personnel et quelques unes à&nbsp;des fins commerciales.&nbsp;Prenez garde à leurs conditions d’utilisations afin de ne pas enfreindre les termes de licence.</p>

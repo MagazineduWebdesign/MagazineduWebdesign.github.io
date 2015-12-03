@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des ressources plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/icones/">collection d'icônes</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Disponibles en icon font, PSD, PNG, AI et même en SVG, ces splendides <strong>packs d’icônes</strong> ont été réalisés pour la plupart en 2013.</p>
 <p>Avec leur style épuré, proche du mouvement <a title="Comment aborder le flat design en 2013 ? 23 exemples à suivre" href="http://magazineduwebdesign.com/flat-design-23-exemples">Flat design</a>, popularisé par le lancement récent de Windows 8, ces icônes s’adapteront parfaitement à la plupart des sites Web. Alors essayez-les, donnez leurs une chance.</p>
 <h2>Simple Icons</h2>

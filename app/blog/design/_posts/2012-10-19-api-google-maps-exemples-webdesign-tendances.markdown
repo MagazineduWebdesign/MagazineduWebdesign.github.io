@@ -13,7 +13,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>L’habitat d’une <strong>carte interactive</strong> ne se cantonne pas à la page de contact d’un site Web. Un design sur-mesure allié à une utilisabilité sans failles permettent d’innover et d’offrir de fabuleux services.<span id="more-1435"></span></p>
 <p>Pour votre week-end, voici une sélection de 30 sites Web intégrant d’une manière ingénieuse des cartes interactives. L’<strong>API&nbsp;Google Maps</strong> a comme toujours un franc succès auprès des intégrateurs. Quelques exceptions sont à découvrir.</p>
 <p>Enjoy!</p>

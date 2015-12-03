@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations de Net arts plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/code-art/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Le <strong>Net.art</strong>,&nbsp;ce sont des <strong>œuvres artistiques</strong> réalisées <strong>sur Internet</strong>. En même temps, avec un nom pareil ce ne pouvait être que ça.<span id="more-443"></span></p>
 <p>Pour la petite histoire&nbsp;: le terme, et la pratique, ont été inventés par <strong>Pitz Schultz&nbsp;en 1995</strong>. Et comme toutes les réalisations artistiques créatives, originales, innovantes… le concept a été repris par un <strong>petit groupe d’artistes</strong> qui avaient un fort penchant pour <strong>l’Art</strong> (et Internet accessoirement).</p>
 <p>Résultat&nbsp;? Les créations ne s’arrêtent plus. Des plus surprenantes aux plus esthétiques, j’ai fait une petite sélection (plus de&nbsp;<strong>40 exemples</strong> quand même) <strong>d’oeuvres&nbsp;numériques à découvrir,&nbsp;</strong>ou redécouvrir si vous êtes déjà fans.</p>

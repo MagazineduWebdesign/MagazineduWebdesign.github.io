@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>Il y a bien longtemps que je ne vous ai pas proposé une sélection de <strong>polices gratuites</strong>. Pour me faire pardonner, j’ai pris le temps d’en rechercher quelques-unes qui pourraient convenir à vos exigences de bon goût, de lisibilité et de gratuité.</p>
 <p>Faites donc connaissance avec Acorn, Abraham Lincoln, Myra, etc. Bref, que du beau monde.</p>
 <p>Consultez également – <a title="14 fonts gratuites avant-gardistes" href="http://magazineduwebdesign.com/font-gratuite-moderne">Les&nbsp;polices gratuites du mois d’avril</a>.</p>

@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez à des ensembles d'icônes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/icones/">collection d'icônes</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Vous pourrez utiliser la plupart des <strong>icônes gratuites</strong> listées ci-dessous dans tous types de projets, d’autres sont soumises à quelques restrictions. Cependant, vous pourrez les insérer dans tous vos projets à titre personnel. Si le pack est uniquement destiné à un usage personnel, cela est clairement indiqué à côté du titre des icônes.</p>
 <p>Toutes les icônes sont téléchargeables au <a title="50 kits graphiques gratuits Flat au format PSD" href="http://magazineduwebdesign.com/kit-graphique-gratuit-flat-design-psd">format <strong>PSD</strong></a>, certaines sont disponibles également au format <strong><a title="SVG, le format d’image vectorielle des internets" href="http://magazineduwebdesign.com/format-svg-definition-outil-exemple">SVG</a>, PNG, AI et <a title="22 icon Fonts gratuites – La grosse liste" href="http://magazineduwebdesign.com/icon-font-gratuite">Icon font</a></strong>.</p>
 <p>Ces <strong><a title="Articles pour Icônes gratuites - Magazine du Webdesign" href="http://magazineduwebdesign.com/tag/icones/">ensembles d’icônes sont gratuits</a></strong>, prenez garde néanmoins à leurs conditions d’utilisation afin de ne pas enfreindre les termes de licence.</p>

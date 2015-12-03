@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p>Vous avez été nombreux à apprécier l’article <a title="Comment aborder le flat design en 2013 ? 23 exemples à suivre" href="http://magazineduwebdesign.com/flat-design-23-exemples">Comment aborder le flat design en 2013 ? 23 exemples à suivre</a>, j’en déduis donc qu’une grande partie d’entre vous apprécie cette tendance ou à minima guette son évolution.</p>
 <p>Afin de nourrir votre soif d’<strong>inspirations flat design</strong>, je vous propose une nouvelle sélection très fraîche qu’il faudra absolument partager avec vos collègues et vos copains des Internets.</p>
 <p><a href="https://www.dropbox.com/dbx" rel="attachment wp-att-5244" target="_blank"><img class="alignnone size-full wp-image-5244" title="Flat design inspiration" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/flat-inspiration-01.jpg" alt="Flat design inspiration" width="555" height="261"></a></p>

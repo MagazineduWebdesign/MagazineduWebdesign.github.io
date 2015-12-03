@@ -2,7 +2,7 @@
 title: 12 thèmes WordPress gratuits pour 2013
 date: 2013-01-07 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - responsive
 intro: Comme chaque mois, je vous présente la sélection des ressources WordPress gratuites réalisée pour le Magazine du Webdesign.
@@ -13,6 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress gratuits et premium</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>Pour le lancement de cette nouvelle année, je vous propose un tour d’horizon des meilleurs <strong>thèmes WordPress gratuits</strong> sortis depuis <a title="4 thèmes WordPress gratuits responsive" href="http://magazineduwebdesign.com/themes-wordpress-responsives-gratuit">notre dernière présentation du mois de novembre</a>. Pour ce mois-ci, la sélection&nbsp;se concentre sur un mélange de <strong>templates WordPress </strong>destinés à du blogging, du corporate / business et à du portfolio. Tous les templates présentés au sein de cette liste sont des <strong>thèmes responsive compatibles tablettes et mobiles</strong>. Vous pouvez consulter toutes nos anciennes publications concernant les <a title="Thèmes WordPress gratuits" href="http://magazineduwebdesign.com/tag/themes/">thèmes WordPress gratuits</a> via ce tag.</p>
 <h2>Thoughts</h2>
 <p>Thoughts est un <strong>template WordPress responsive</strong> simple dont l’objectif premier est la mise en valeur du texte. Pas de zones widgétisées, ni sidebar et ni footer. Ce thème ne propose que l’essentiel pour la publication d’articles et de photos. Thoughts supporte différents types de formats pour les posts (galerie, image, vidéo, citation, audio et lien). Ce <strong>template responsive</strong> s’adapte progressivement aux <strong>supports mobiles</strong> et en plus il est <strong>gratuit</strong>.</p>

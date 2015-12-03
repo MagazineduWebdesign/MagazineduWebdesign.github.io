@@ -14,6 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
+<p class="panel radius">Pour des inspirations plus récentes, consultez la <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/">collection de sites web</a> du Magazine du Webdesign.</p>
 <p><code>&lt;<strong>canvas</strong>&gt;</code> est une merveilleuse balise permettant l’affichage d’une surface de dessin au sein d’une page Web. Elle peut être utilisée pour générer des graphiques, des caractères, des éléments d’interface, etc. La balise&nbsp;<code>&lt;<strong>canvas</strong>&gt;</code> autorise la création de formes géométriques simples mais également des formes plus complexes.&nbsp;Découvrez son potentiel en consultant cette sélection de 12 exemples&nbsp;avec effet&nbsp;<em>Wow!</em>&nbsp;garanti.</p>
 <h2><a title="Form Follows Function - Canvas HTML" href="http://fff.cmiscm.com" target="_blank">Form Follows Function – Canvas HTML</a></h2>
 <p><img class="alignnone size-full wp-image-3144" title="HTML canvas Form Follows Function" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/html-canvas-Form-Follows-Function.jpg" alt="HTML canvas Form Follows Function" width="555" height="288"></p>

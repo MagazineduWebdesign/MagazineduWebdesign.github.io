@@ -2,7 +2,7 @@
 title: 4 thèmes WordPress gratuits responsive
 date: 2012-11-27 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - responsive
 intro: Découvrez une nouvelle sélection fraîcheur de 4 thèmes WordPress gratuits en responsive.
@@ -13,7 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress gratuits et premium</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>La migration vers un <strong>template responsive</strong> implique une multitude de facteurs à prendre en compte pour déterminer son choix. Quels contenus diffuser sur quels supports ?, Quelles sont les performances souhaitées ?, etc. Posez-vous les bonnes questions avant de vous lancer dans l’aventure responsive. En attendant votre introspective, vous pouvez consulter la sélection de <strong>thèmes responsive gratuits</strong> du mois de novembre.</p>
 <h2>Thème Pilot Fish</h2>
 <p><strong>Pilot fish</strong> est un élégant<strong> thème WordPress responsive</strong> proposé dans un design minimaliste. Il dispose d’un post type dédié à l’affichage de vos créations en homepage.</p>

@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Accédez prochainement à des polices plus récentes en consultant la <a href="http://www.magazineduwebdesign.com/ressources/web-fonts/">collection de fonts</a> du Magazine du Webdesign.</p>
 <p>La légèreté de son tracé lui&nbsp;confère&nbsp;une lisibilité optimale et sa grande&nbsp;variété&nbsp;de graisses lui permet de se prêter à tous les usages. C’est ainsi que ce symbole de la typographie suisse occupe une place de choix dans l’univers du design graphique.</p>
 <p>La première version de cette fonte portait le doux nom de&nbsp;Neue Haas Grotesk. Baptisée ainsi par son créateur Max Miedinger&nbsp;en 1957 pour le compte de&nbsp;la fonderie suisse Haas Type. C’est seulement en 1960 que le nom fût changé en Helvetica, une adaptation de «&nbsp;Helvetia&nbsp;», le nom latin pour Suisse.</p>
 <p>Les années passèrent et la fonte Helvetica devint une grande famille composée de nombreuses graisses. Cette évolution provoqua des problèmes de coordination que&nbsp;D. Stempel AG et Linotype corrigèrent en 1983. C’est également à cette période que l’on voit apparaître la première version numérique de la Helvetica&nbsp;Neue.</p>

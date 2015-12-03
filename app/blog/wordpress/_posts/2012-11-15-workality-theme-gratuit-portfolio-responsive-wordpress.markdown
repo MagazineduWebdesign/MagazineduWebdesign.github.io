@@ -2,7 +2,7 @@
 title: Workality – Thème gratuit portfolio et responsive pour WordPress
 date: 2012-11-15 17:22:56
 category: wordpress
-tags: 
+tags:
 - themes
 - responsive
 intro: Un portfolio en ligne est le minimum à avoir lorsque nous souhaitons obtenir une certaine visibilité et une reconnaissance de ses pairs. A l'instar d'une carte de visite, un webdesigner ou un photographe se doit d'avoir un portfolio Web facilement consultable et pratique à maintenir.
@@ -13,7 +13,7 @@ auteur: MagDuWebdesign
 keyword_title:
 keyword_desc:
 ---
-
+<p class="panel radius">Accédez à des thèmes plus récents en consultant la <a href="http://www.magazineduwebdesign.com/ressources/themes-wordpress/">collection de thèmes WordPress</a> du Magazine du Webdesign, actualisée chaque jour.</p>
 <p>De nos jours, l’accès au Web se fait principalement par le <strong>mobile</strong>. Il est donc vital qu’un portfolio soit accessible sur tous les supports connectés.&nbsp;Avec <strong>WordPress et un thème responsive</strong>, un portfolio peut parfaitement s’adapter aux plus petites tailles d’écrans connectés. Même le budget n’est plus un frein de nos jours pour obtenir des solutions pérennes et efficaces.</p>
 <p>Pour les budgets serrés, le nouveau thème WordPress à avoir en cette fin d’année se nomme <strong>Workality</strong>. Gratuit et doté d’un template s’adaptant parfaitement aux desktops, tablettes et mobiles, il conviendra pleinement aux créatifs comme aux agences souhaitant exposer leurs références.</p>
 <h2>Les caractéristiques de Workality</h2>
