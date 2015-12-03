@@ -14,7 +14,7 @@ keyword_desc:
 viaurl:
 viatitle:
 ---
-
+<p class="panel radius">Pour des inspirations plus récentes, consultez le <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/">showcase de sites web ecommerce</a>.</p>
 <p>Et comme chacun d’entre vous le sait, l’e-commerce n’est pas un domaine du Webdesign avare&nbsp;en matière de contraintes, qu’elles soient techniques, business ou liées à l’utilisabilité.</p>
 <p>Je souhaite vous présenter aujourd’hui une <strong>sélection de sites Web e-commerce</strong> ayant opté pour une approche technique innovante et un style graphique élégant ou original. Cette <a title="Articles pour Inspiration - Magazine du Webdesign" href="http://magazineduwebdesign.com/tag/inspiration/">galerie d’inspirations</a> vous sera peut-être utile si vous êtes amené à travailler sur ce type de projet.</p>
 <h2>Des sites e-commerce élégants et innovants pour votre inspiration</h2>
