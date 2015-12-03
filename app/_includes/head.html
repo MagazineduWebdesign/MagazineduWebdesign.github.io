@@ -6,6 +6,42 @@
   <title>{% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
   <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ post.excerpt | strip_html }} {% endif %}">
   <meta name="robots" content="noodp,noydir"/>
+
+  <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+  Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+  ============================== -->
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
+  <meta property="og:image:width" content="640" />
+  <meta property="og:image:height" content="360" />
+  {% endif %}
+  <meta property="article:published_time" content="{{ page.date }}" />
+  <meta property="article:modified_time" content="{{ page.date }}" />
+  <meta property="article:author" content="https://www.facebook.com/guillaume.palayer" />
+  <meta property="article:publisher" content="https://www.facebook.com/MagazineDuWebdesign" />
+  <meta property="og:site_name" content="Magazine du Webdesign" />
+  <meta property="fb:app_id" content="417313274987698" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  {% if page.id-youtube %}
+  <meta property="og:video" content="https://www.youtube.com/watch?v={{ page.id-youtube }}" />
+  {% endif %}
+  {% if page.id-vimeo %}
+  <meta property="og:video" content="https://vimeo.com/{{ page.id-vimeo }}" />
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@MagDuWebdesign" />
+  <meta name="twitter:creator" content="@MagDuWebdesign">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}">
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
+  {% endif %}
+
   <!-- Usemin CSS
   ================================================== -->
   <!-- build:css({app,.tmp}) /mdw-css/application.css -->
@@ -51,44 +87,6 @@
 	<meta itemprop="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
 	<meta itemprop="image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}">
   <link rel="author" href="{{ site.url }}humans.txt">
-  <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
-  Twitter: https://dev.twitter.com/docs/cards/types/summary-card
-  ============================== -->
-
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}" />
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  <meta property="og:image:url" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  <meta property="og:image:secure_url" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  <meta property="og:image:width" content="640" />
-  <meta property="og:image:height" content="360" />
-  {% endif %}
-  <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="article:modified_time" content="{{ page.date }}" />
-  <meta property="article:author" content="https://www.facebook.com/guillaume.palayer" />
-  <meta property="article:publisher" content="https://www.facebook.com/MagazineDuWebdesign" />
-  <meta property="og:site_name" content="Magazine du Webdesign" />
-  <meta property="fb:app_id" content="417313274987698" />
-  <meta property="og:locale:alternate" content="fr_FR" />
-  <meta property="og:locale:alternate" content="fr_FR" />
-  {% if page.id-youtube %}
-  <meta property="og:video" content="https://www.youtube.com/watch?v={{ page.id-youtube }}" />
-  {% endif %}
-  {% if page.id-vimeo %}
-  <meta property="og:video" content="https://vimeo.com/{{ page.id-vimeo }}" />
-  {% endif %}
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@MagDuWebdesign" />
-  <meta name="twitter:creator" content="@MagDuWebdesign">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}">
-  {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  {% endif %}
 
   <!-- GoogleAnalyticsObject
   ================================================== -->
