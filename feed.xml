@@ -7,6 +7,19 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Les 20 premières heures</title>
+				
+				
+					<description>&lt;p&gt;&lt;em&gt;Les 20 premières heures&lt;/em&gt; détaille une méthode universelle d’acquisition rapide de compétences. Elle a été conçue pour aider les lecteurs à acquérir de nouvelles connaissances en un temps record via des mécanismes très simples évitant les frustrations des premières heures d’apprentissage.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 03 Dec 2015 17:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/livres/the-first-20-hours-how-to-learn-anything-fast/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/livres/the-first-20-hours-how-to-learn-anything-fast/</guid>
+			</item>
+		
+			<item>
 				<title>SPAN NYC 2015 &amp;ndash; Les ingrédients d'un bon design de produit</title>
 				
 				
@@ -281,18 +294,6 @@
 				<pubDate>Fri, 27 Nov 2015 00:27:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kumagaimototsugu/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kumagaimototsugu/</guid>
-			</item>
-		
-			<item>
-				<title>David Navarro</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Fri, 27 Nov 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-navarro/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-navarro/</guid>
 			</item>
 		
 	</channel>
