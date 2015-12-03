@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SPAN NYC 2015 &amp;ndash; Les ingrédients d'un bon design de produit</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Thu, 03 Dec 2015 00:22:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/videos/podcast-product-design/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/podcast-product-design/</guid>
+			</item>
+		
+			<item>
 				<title>The forest is real</title>
 				
 				
@@ -281,18 +293,6 @@
 				<pubDate>Fri, 27 Nov 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-navarro/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-navarro/</guid>
-			</item>
-		
-			<item>
-				<title>Pixel Show 2015</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Fri, 27 Nov 2015 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/pixel-show-2015/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/pixel-show-2015/</guid>
 			</item>
 		
 	</channel>
