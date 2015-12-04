@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Une petite bibliothèque JavaScript pour dessiner des formes géométriques que l'on trouve couramment dans les visualisations de données. Avec d3-shape, il est désormais facile de mettre en scène des formes arrondies ou des paddings entre section au format SVG et Canvas.
+Une petite bibliothèque JavaScript pour dessiner des formes géométriques que l'on trouve couramment dans les visualisations de données. Avec d3-shape, il est désormais facile de mettre en scène des formes arrondies ou des paddings entre deux sections au format SVG et Canvas.
