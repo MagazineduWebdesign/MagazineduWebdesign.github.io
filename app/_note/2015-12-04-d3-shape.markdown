@@ -1,0 +1,13 @@
+---
+title: "d3-shape"
+date: 2015-12-04 01:00:00
+source-name:
+source-url: "https://github.com/d3/d3-shape?ref=magazineduwebdesign"
+image: "d3-shape.png"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Une petite bibliothèque JavaScript pour dessiner des formes géométriques que l'on trouve couramment dans les visualisations de données. Avec d3-shape, il est désormais facile de mettre en scène des formes arrondies ou des paddings entre section au format SVG et Canvas.
