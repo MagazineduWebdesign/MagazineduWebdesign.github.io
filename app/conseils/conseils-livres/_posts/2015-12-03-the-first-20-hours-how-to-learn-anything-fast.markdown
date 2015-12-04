@@ -4,7 +4,7 @@ title: "Les 20 premières heures"
 date: "2015-12-03 17:23:57"
 path1: "conseils"
 path2: "livres"
-path3: "ux-designer"
+path3:
 category: "conseils-livres"
 by: "Josh Kaufman"
 by-url: "http://first20hours.com/?ref=magazineduwebdesign"
