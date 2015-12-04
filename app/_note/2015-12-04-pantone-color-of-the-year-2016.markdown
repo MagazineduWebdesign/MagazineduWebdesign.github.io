@@ -1,5 +1,5 @@
 ---
-title: "Rose Quartz and Serenity"
+title: "Rose Quartz & Serenity"
 date: 2015-12-04 01:00:00
 source-name:
 source-url: "http://www.pantone.com/color-of-the-year-2016?ref=magazineduwebdesign"
@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Des couleurs très douces pour 2016. C'est la promesse de Pantone qui pour la première fois propose l'union de deux teintes en tant que couleur de l'année.
+Des couleurs très douces pour 2016. C'est la promesse de Pantone qui pour la première fois propose l'union de deux teintes en tant que couleurs de l'année.
