@@ -8,7 +8,7 @@ path3:
 category: "conseils-livres"
 by: "Josh Kaufman"
 by-url: "http://first20hours.com/?ref=magazineduwebdesign"
-url-buy: "http://www.amazon.fr/gp/product/1449334911/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=1449334911&linkCode=as2&tag=mdw-21"
+url-buy: "http://www.amazon.fr/gp/product/1591846943/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=1591846943&linkCode=as2&tag=mdw-21"
 pricecurrency: "€"
 price: "15"
 image: "the-first-20-hours-how-to-learn-anything-fast-1.jpg"
