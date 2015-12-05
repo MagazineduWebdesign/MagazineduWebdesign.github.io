@@ -61,7 +61,7 @@ composant-ui-url-7:
 url-demo: "https://robertsspaceindustries.com/starmap/?ref=MagazineDuWebdesign"
 image: "robertspaceindustrie-starsmap-2.png"
 image-2: "robertspaceindustrie-starsmap-1.jpg"
-intro: "robertspaceindustrie-starsmap-3.jpg"
+image-3: "robertspaceindustrie-starsmap-3.jpg"
 intro: "Holy S***. Une expérience interactive... une vraie ^^."
 description: "Holy S***. Une expérience interactive... une vraie ^^."
 ---
