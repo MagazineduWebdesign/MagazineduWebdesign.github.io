@@ -10,7 +10,6 @@ tags:
 - sites-web-formats-jeu
 - sites-web-composants-ui-vue-360-degres
 - sites-web-composants-ui-liste-images
-- sites-web-elements-ui-audio
 - sites-web-animation-transition-navigation
 theme:
 theme-url:
@@ -18,8 +17,6 @@ format: "jeu"
 format-url: "/inspirations/ui-design/sites-web/formats/jeu/"
 animation-1: "Transition de navigation"
 animation-url-1: "/inspirations/ui-design/sites-web/animation/transition-navigation/"
-element-ui-1: "audio"
-element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/audio/"
 composant-ui-1: "vue 360°"
 composant-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/vue-360-degres/"
 composant-ui-2: "Liste images"

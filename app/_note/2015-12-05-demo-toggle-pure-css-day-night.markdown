@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Un toggle au design réussi accompagné du subtiles animations.
+Un toggle au design réussi accompagné de subtiles animations.
