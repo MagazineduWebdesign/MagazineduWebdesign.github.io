@@ -23,4 +23,4 @@ Si vous souhaitez apprendre les rudiments de la programmation, de la lecture rap
 
 *Les 20 premières heures* est un best-seller international et la [présentation TEDx](https://www.youtube.com/watch?v=5MgBikgcWnY) de Josh Kaufman a été visionnée plus de 4,5 millions de fois.
 
-Un livre à compléter avec [Atteindre l'excellence](http://www.magazineduwebdesign.com/conseils/livres/atteindre-l-excellence-robert-greene/) de Robert Greene et [The power of habits](http://www.magazineduwebdesign.com/conseils/livres/the-power-of-habit/) de Charles Duhigg. Deux excellents ouvrages permettant de supprimer la barrière émotionnelle qui bien souvent nous empêche d'évoluer dans le bon sens.
+Un livre à compléter avec [Atteindre l'excellence](http://www.magazineduwebdesign.com/conseils/livres/atteindre-l-excellence-robert-greene/) de Robert Greene et [The power of habits](http://www.magazineduwebdesign.com/conseils/livres/the-power-of-habit/) de Charles Duhigg. Deux excellents ouvrages permettant de supprimer la barrière émotionnelle qui bien souvent nous empêcher d'évoluer dans le bon sens.

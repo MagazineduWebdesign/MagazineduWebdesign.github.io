@@ -11,8 +11,7 @@ intro: "Comment diffuser les bonnes pratiques du design responsive auprès de mi
 no-soundcloud: "http://responsivewebdesign.com/podcast/usds.html?ref=magazineduwebdesign"
 id-soundcloud:
 by: "responsive web design"
-image: "us-digital-service-logo.png"
-image: "us-digital-service-logo.png"
+logo: "us-digital-service-logo.png"
 by-url: "http://responsivewebdesign.com/podcast/"
 description: "Comment diffuser les bonnes pratiques du design responsive auprès de milliers d'agences gouvernementales et de fonctionnaires ? La réponse dans le podcast ^^."
 ---
