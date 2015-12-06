@@ -439,6 +439,18 @@ sup {
 				max-height: rem-calc(192);
 			}
 		}
+		@media #{$medium} {
+			.grid-article-card-info.mod-mix-th-no-th{
+				min-height: rem-calc(195);
+				max-height: rem-calc(195);
+			}
+		}
+		@media #{$large-up} {
+			.grid-article-card-info.mod-mix-th-no-th{
+				min-height: rem-calc(185);
+				max-height: rem-calc(185);
+			}
+		}
 		@media #{$medium-up} {
 			.grid-article-card-info.mod-action{
 				padding: rem-calc(14);

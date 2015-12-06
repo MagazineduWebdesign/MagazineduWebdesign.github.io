@@ -41,9 +41,6 @@
 	  <div class="small-12 columns">
 			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav">
 
-			<!-- list one item by category
-			================================================== -->
-
       <!-- item -->
       {% for post in site.posts limit: 7 %}
       <li>
@@ -51,41 +48,52 @@
 
           <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 
+            {% unless post.image or post.id-youtube or post.id-vimeo %}
+              <!-- if no thumbnail -->
+              <div class="row collapse">
+                <div class="grid-article-card-info mod-mix-th-no-th small-12 columns">
+                  <h1 class="grid-article-card-title">{{ post.title | truncate: 48 }}</h1>
+                  {% if post.intro %}
+                    <p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endunless %}
+
+
+            <!-- if thumbnail image -->
+            {% if post.image %}
             <div class="row collapse grid-article-card-image">
               <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                {% if post.image %}
-                  <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
-                  <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
-                {% endif %}
-                {% if post.id-youtube %}
-                  <img src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.title }}" width="219" height="106" />
-                {% endif %}
-                {% if post.id-vimeo %}
-                  <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" class="large" alt="{{ post.title }}" width="219" height="106" />
-                {% endif %}
+                <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
+                [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
+                <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
               </div>
-              {% if post.id-youtube %}
-                <div class="grid-article-card-ctrl">
-                  <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 5v14l11-7z"/>
-                    <path d="M0 0h24v24H0z" fill="none"/>
-                  </svg>
-                </div>
-              {% endif %}
-              {% if post.id-vimeo %}
-                <div class="grid-article-card-ctrl">
-                  <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 5v14l11-7z"/>
-                    <path d="M0 0h24v24H0z" fill="none"/>
-                  </svg>
-                </div>
-              {% endif %}
+            </div>
+            <div class="row collapse">
+              <div class="grid-article-card-info small-12 columns">
+                <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+              </div>
+            </div>
+            {% endif %}
+
+            <!-- if thumbnail youtube -->
+            {% if post.id-youtube %}
+            <div class="row collapse grid-article-card-image">
+              <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                <img src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.title }}" width="219" height="106" />
+              </div>
+              <div class="grid-article-card-ctrl">
+                <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5v14l11-7z"/>
+                  <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+              </div>
             </div>
 
             <div class="row collapse">
@@ -93,7 +101,27 @@
                 <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
               </div>
             </div>
+            {% endif %}
 
+            <!-- if thumbnail vimeo -->
+            {% if post.id-vimeo %}
+            <div class="row collapse grid-article-card-image">
+              <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" class="large" alt="{{ post.title }}" width="219" height="106" />
+              </div>
+              <div class="grid-article-card-ctrl">
+                <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5v14l11-7z"/>
+                  <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+              </div>
+            </div>
+            <div class="row collapse">
+              <div class="grid-article-card-info small-12 columns">
+                <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
+              </div>
+            </div>
+            {% endif %}
           </a>
 
           {% if post.url-demo %}
