@@ -1,7 +1,7 @@
 ---
 layout: "video"
 title:  "L'UX design et les organisations"
-date:   "2015-12-12 00:22:57"
+date:   "2015-12-09 00:22:57"
 path1: "videos"
 path2: "design-stories"
 path3:
