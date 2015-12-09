@@ -8,7 +8,6 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-formats-jeu
-- sites-web-composants-ui-vue-360-degres
 - sites-web-composants-ui-liste-images
 - sites-web-composants-ui-ecran-lancement
 - sites-web-composants-ui-timeline
@@ -27,8 +26,6 @@ animation-2: "Animation background"
 animation-url-2: "/inspirations/ui-design/sites-web/animation/background/"
 animation-3: "Animation typographie"
 animation-url-3: "/inspirations/ui-design/sites-web/animation/typographie/"
-composant-ui-1: "vue 360°"
-composant-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/vue-360-degres/"
 composant-ui-2: "Liste images"
 composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/liste-images/"
 composant-ui-3: "ecran lancement"
