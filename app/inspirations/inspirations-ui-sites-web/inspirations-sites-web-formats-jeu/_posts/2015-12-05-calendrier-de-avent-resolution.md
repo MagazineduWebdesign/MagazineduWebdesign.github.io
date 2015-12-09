@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-sites-web-default"
-title: "Calendrier de l'avent &ndash; Résolutions"
+title: "Calendrier de l'Avent &ndash; Résolutions"
 date: "2015-12-05 00:24:57"
 path1: "inspirations"
 path2: "ui-design"

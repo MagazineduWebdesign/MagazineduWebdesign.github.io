@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-sites-web-default"
-title: "Calendrier de l'avent &ndash; 25daysof"
+title: "Calendrier de l'Avent &ndash; 25daysof"
 date: "2015-12-09 00:24:57"
 path1: "inspirations"
 path2: "ui-design"
