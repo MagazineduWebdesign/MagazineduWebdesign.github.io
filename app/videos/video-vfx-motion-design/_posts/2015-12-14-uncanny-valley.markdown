@@ -10,8 +10,8 @@ tags:
 - videos-motion-design
 intro: "Dans un avenir pas si lointain, des accros de réalité virtuelle satisfont leurs pulsions violentes via le divertissement en ligne. Un joueur expert découvre que la frontière entre jeu et réalité commence à disparaître. Ce dernier court-métrage de 3DAR explore le potentiel effrayant de notre prochaine révolution technologique."
 description: "Dans un avenir pas si lointain, des accros de réalité virtuelle satisfont leurs pulsions violentes via le divertissement en ligne. Un joueur expert découvre que la frontière entre jeu et réalité commence à disparaître. Ce dernier court-métrage de 3DAR explore le potentiel effrayant de notre prochaine révolution technologique."
-id-vimeo: "147365861"
-viaurl: "https://vimeo.com/channels/staffpicks/147365861"
-viatitle: "vimeo Staff pick"
-lunametrics-youtube-tracking: "false"
+id-youtube: "UXX0TRtg5Vk"
+viaurl:
+viatitle:
+lunametrics-youtube-tracking: "true"
 ---
