@@ -1,6 +1,6 @@
 ---
 layout: "conseils-default"
-title: "Guide illustrée d'une réunion efficace"
+title: "Guide illustré d'une réunion efficace"
 date: "2015-12-15 08:23:57"
 path1: "conseils"
 path2: "guides"
