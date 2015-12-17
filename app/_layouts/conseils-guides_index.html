@@ -172,7 +172,7 @@ layout: default
 			================================================== -->
 			{% if page.category == 'guides' %}
 				{% if site.categories.guides %}
-					{% for post in site.categories.guides limit: 6 %}
+					{% for post in site.categories.guides %}
 					<li>
 	          <article class="grid-article-card" data-equalizer-watch>
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
@@ -198,7 +198,7 @@ layout: default
 			================================================== -->
 			{% else %}
 				{% if site.tags[page.tags] %}
-					{% for post in site.tags[page.tags] limit: 6 %}
+					{% for post in site.tags[page.tags] %}
 					<li>
 	          <article class="grid-article-card" data-equalizer-watch>
 	            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
