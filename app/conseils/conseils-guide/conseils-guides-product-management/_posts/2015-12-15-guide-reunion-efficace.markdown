@@ -11,7 +11,7 @@ by:
 by-url:
 intro: "Ne perdez pas votre temps en réunion. Adoptez progressivement ces quelques habitudes pour être efficace."
 github:
-siteweb: "https://medium.com/swlh/a-behavioral-approach-to-product-design-166d22628970#.khsavlo3c?ref=magazineduwebdesign"
+siteweb: "https://medium.com/startup-lesson-learned/an-illustrated-guide-to-better-meetings-acc1aa66c3ca#.gpame51ut"
 image: "guide-reunion-efficace.jpeg"
 description: "https://medium.com/startup-lesson-learned/an-illustrated-guide-to-better-meetings-acc1aa66c3ca#.7tyms9ifa"
 ---
