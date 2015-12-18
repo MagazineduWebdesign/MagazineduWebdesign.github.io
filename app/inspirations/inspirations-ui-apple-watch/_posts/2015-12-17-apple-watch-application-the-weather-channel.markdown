@@ -21,7 +21,7 @@ composant-ui-url-2:
 url-demo:
 by: "Fantasy"
 by-url: "http://www.fantasy.co/?ref=mag"
-image: "concept-apple-watch-meteo.gif"
+image: "apple-watch-application-the-weather-channel.gif"
 image-2:
 intro:
 auteur:
