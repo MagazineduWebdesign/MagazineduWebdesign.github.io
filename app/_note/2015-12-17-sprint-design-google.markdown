@@ -3,7 +3,7 @@ title: "Prévente du livre Sprint de la team Google Venture"
 date: 2015-12-17 02:00:00
 source-name:
 source-url: "http://www.amazon.fr/gp/product/150112174X/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=150112174X&linkCode=as2&tag=mdw-21"
-image: "sprint-google-venture.png"
+image: "sprint-google-venture.jpg"
 image-legende:
 id-youtube:
 id-vimeo:
