@@ -7,6 +7,30 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Stellar</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 19 Dec 2015 12:01:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/stellar/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/stellar/</guid>
+			</item>
+		
+			<item>
+				<title>OT-24</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Sat, 19 Dec 2015 12:00:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ot-24/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ot-24/</guid>
+			</item>
+		
+			<item>
 				<title>Fornasetti &amp;ndash; La page secrète</title>
 				
 				
@@ -269,30 +293,6 @@
 				<pubDate>Sun, 06 Dec 2015 17:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/conseils/guides/guide-sketch-3/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/guide-sketch-3/</guid>
-			</item>
-		
-			<item>
-				<title>U.S pour UI States</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 06 Dec 2015 17:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/designer-etats-ui/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/designer-etats-ui/</guid>
-			</item>
-		
-			<item>
-				<title>Designer des jolies icônes en 6 étapes</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Sun, 06 Dec 2015 17:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/designer-des-jolies-icones-en-6-etapes/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/designer-des-jolies-icones-en-6-etapes/</guid>
 			</item>
 		
 	</channel>
