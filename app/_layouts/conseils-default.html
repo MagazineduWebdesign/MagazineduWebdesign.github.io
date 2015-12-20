@@ -5,6 +5,7 @@ layout: default
 <article itemscope itemtype="http://schema.org/Product">
   <div class="header-liste mod-no-bg-gradient">
     <header class="row-body-article medium-uncollapse large-collapse">
+      <!-- if conseil is a book -->
       {% if page.image %}
         <div class="row column-header-article mod-header-article-no-margin-top">
           <div class="small-6 small-centered medium-4 large-uncentered large-3 columns">
@@ -235,6 +236,14 @@ layout: default
                     <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                   </div>
                 </figure>
+              {% endif %}
+              <!-- if conseil is a guide without a nice cover -->
+              {% if page.image-no-cover-book %}
+              <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+                <a href="{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+                  <img src="{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
+                </a>
+              </figure>
               {% endif %}
             </div>
             <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
