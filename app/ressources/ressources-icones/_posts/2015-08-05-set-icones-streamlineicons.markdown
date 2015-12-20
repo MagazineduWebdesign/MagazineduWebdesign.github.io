@@ -10,9 +10,9 @@ tags:
 by: "WEBALYS"
 by-url: "http://www.webalys.com/"
 url-demo:
-url-version-gratuite: "http://www.streamlineicons.com/free-icons.html"
-url-telecharger:
-url-buy: "http://www.streamlineicons.com/index.html#download"
+url-version-gratuite: "http://www.streamlineicons.com/free-icons.html&ref=magazineduwebdesign"
+url-telecharger: 
+url-buy: "https://getdpd.com/cart/hoplink/12244?referrer=6o31s2nlph4w0c8sgo8"
 pricecurrency : "$"
 price: "67"
 image: "set-icones-streamlineicons-3.jpg"
