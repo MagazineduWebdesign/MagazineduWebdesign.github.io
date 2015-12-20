@@ -1,6 +1,9 @@
 - name: GUIDES DESIGN
   permalink: /conseils/guides/design/
 
+- name: GUIDES FRONT-END
+  permalink: /conseils/guides/front-end/
+
 - name: GUIDES PRODUCT MANAGEMENT
   permalink: /conseils/guides/product-management/
 
