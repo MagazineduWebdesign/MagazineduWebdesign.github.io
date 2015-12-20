@@ -12,5 +12,5 @@ by-url: "http://jonibologna.com/flexbox-cheatsheet/?ref=magazineduwebdesign"
 intro: "La magie de flexbox peut être parfois source de doute quant à la bonne implémentation des propriétés. Ce guide est un excellent référentiel pour les amateurs de flexbox."
 url-telecharger: "http://jonibologna.com/content/images/flexboxsheet.pdf"
 image-no-cover-book: "flexboxsheet.png"
-description: "La magie de flexbox peut être parfois source de doute quant à la bonne implémentation des propriétés. "
+description: "La magie de flexbox peut être parfois source de doute quant à la bonne implémentation des propriétés."
 ---
