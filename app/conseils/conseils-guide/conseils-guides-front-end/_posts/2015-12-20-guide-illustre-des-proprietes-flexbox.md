@@ -1,0 +1,16 @@
+---
+layout: "conseils-default"
+title: "flexbox sheet &ndash; guide illustré des propriétés"
+date: "2015-12-20 00:23:57"
+path1: "conseils"
+path2: "guides"
+path3: "design"
+category: "guides"
+tags: "guides-design"
+by: "joni bologna"
+by-url: "http://jonibologna.com/flexbox-cheatsheet/?ref=magazineduwebdesign"
+intro: "La magie de flexbox peut être parfois source de doute quant à la bonne implémentation des propriétés. Ce guide est un excellent référentiel pour les amateurs de flexbox."
+url-telecharger: "http://jonibologna.com/content/images/flexboxsheet.pdf"
+image-no-cover-book: "flexboxsheet.png"
+description: "La magie de flexbox peut être parfois source de doute quant à la bonne implémentation des propriétés. "
+---

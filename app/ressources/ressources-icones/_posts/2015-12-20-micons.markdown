@@ -1,0 +1,26 @@
+---
+layout: "ressources-default"
+title: "Micons &ndash; 231 Icônes gratuites"
+date: "2015-12-20 00:25:57"
+path1: "ressources"
+path2: "icones"
+path3:
+category: "ressources-icones"
+tags:
+by: "Cosmin Negoita"
+by-url: "http://dribbble.com/cosminn"
+url-demo:
+url-version-gratuite:
+url-telecharger: "http://geticonjar.com/wp-content/uploads/Micons.zip"
+url-buy:
+pricecurrency :
+price:
+image: "micons-icones-gratuites.jpg"
+image-2:
+image-3:
+image-4:
+image-5:
+intro: "Un ensemble d'icônes gratuites avec un style ludique et consistant pour les 231 éléments fournis. Un grand merci au designer Cosmin et à l'application Iconjar pour offrir une collection d'icônes d'aussi bonne qualité."
+description: "Un ensemble d'icônes gratuites avec un style ludique et consistant pour les 231 éléments fournis."
+rating: "7.5"
+---
