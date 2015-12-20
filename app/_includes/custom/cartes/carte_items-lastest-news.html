@@ -136,21 +136,23 @@
       </li>
 			{% endfor %}
 
-      <!-- more news -->
+      <!-- Promoted content -->
       <li>
-        <article class="grid-article-card" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}notes/" title="Explorer l'essentiel de l'actualité du jour">
-            <div class="row collapse grid-article-card-image mod-action hide-for-small">
+        <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+
+          <a onclick="ga('send', 'event', 'Publicite', 'click', 'ui8 - Aow kit ui')" class="grid-article-card-link-wrap" href="https://ui8.net/products/aow-ui-kit?rel=webmag" title="Découvrez le kit UI Aow">
+            <div class="row collapse grid-article-card-image">
               <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/kit-ui-aow-ui8.jpg" alt="Kit UI Aow" width="219" height="auto" />
               </div>
             </div>
-
-            <div class="row collapse text-center">
-              <div class="grid-article-card-info mod-section-home mod-action small-12 columns">
-                <h2 class="grid-article-card-title mod-action"><span class="grid-article-card-title-action-ascii">(∩｀-´)⊃━☆ﾟ.*･｡ﾟ</span>PLUS D'ESSENTIEL <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#999999"/></svg></h2>
+            <div class="row collapse">
+              <div class="grid-article-card-info small-12 columns">
+                <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">Kit UI Aow <span class="label--new mod-ads-sidebar">Sponsor</span></h1>
               </div>
             </div>
           </a>
+
         </article>
       </li>
 			</ul>
