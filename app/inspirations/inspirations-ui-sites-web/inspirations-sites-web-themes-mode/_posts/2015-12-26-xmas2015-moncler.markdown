@@ -1,0 +1,50 @@
+---
+layout: "inspirations-sites-web-default"
+title: "Xmas2015 &ndash; Moncler"
+date: "2015-12-26 02:24:57"
+path1: "inspirations"
+path2: "ui-design"
+path3: "sites-web"
+category: "ui-sites-web"
+tags:
+- sites-web-themes-mode
+- sites-web-formats-experience-interactive
+- sites-web-composants-ui-fiche-produit
+- sites-web-composants-ui-ecran-lancement
+- sites-web-animation-transition-navigation
+- sites-web-animation-background
+- sites-web-elements-ui-partage-reseaux-sociaux
+- sites-web-elements-ui-controle-son
+- sites-web-technologies-webgl
+- sites-web-technologies-tweenmax
+- sites-web-technologies-threejs
+theme: "mode"
+theme-url: "/inspirations/ui-design/sites-web/themes/mode/"
+format: "experience interactive"
+format-url: "/inspirations/ui-design/sites-web/formats/experience-interactive/"
+animation-1: "transition navigation"
+animation-url-1: "/inspirations/ui-design/sites-web/animation/transition-navigation/"
+animation-3: "animation background"
+animation-url-3: "/inspirations/ui-design/sites-web/animation/background/"
+element-ui-1: "controle son"
+element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/controle-son/"
+element-ui-2: "partage reseaux sociaux"
+element-ui-url-2: "/inspirations/ui-design/sites-web/elements-ui/partage-reseaux-sociaux/"
+composant-ui-1: "ecran lancement"
+composant-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/ecran-lancement/"
+composant-ui-2: "fiche produit"
+composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/fiche-produit/"
+composant-ui-3: "Liste images"
+composant-ui-url-3: "/inspirations/ui-design/sites-web/composants-ui/liste-images/"
+technologie-1: "webgl"
+technologie-url-1: "/inspirations/ui-design/sites-web/technologies/webgl/"
+technologie-1: "tweenmax"
+technologie-url-1: "/inspirations/ui-design/sites-web/technologies/tweenmax/"
+technologie-1: "threejs"
+technologie-url-1: "/inspirations/ui-design/sites-web/technologies/threejs/"
+url-demo: "http://xmas2015.moncler.com/?ref=MagazineDuWebdesign"
+image: "inspiration-ui-design-site-web-merry-christmas-from-moncler-1.jpg"
+image-2: "inspiration-ui-design-site-web-merry-christmas-from-moncler-2.jpg"
+intro: "Une super expérience de marque mettant en scène les vêtements techniques et l'univers de la montagne via un système de messagerie. Le chargement est un peu lourd mais l'attente en vaut la peine."
+description: "Une super expérience de marque mettant en scène les vêtements techniques et l'univers de la montagne via un système de messagerie."
+---
