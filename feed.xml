@@ -2,16 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Magazine du Webdesign</title>
-		<description></description>
+		<description>✨ Juste le meilleur des interfaces, chaque jour. Si vous aimez la vitesse, connectez vous à @MagDuWebdesign sur Twitter, Facebook et LinkedIn.</description>
 		<link>http://www.magazineduwebdesign.com</link>
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Atieva</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 12:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/atieva/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/atieva/</guid>
+			</item>
+		
+			<item>
+				<title>Xmas2015 &amp;ndash; Moncler</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 02:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/xmas2015-moncler/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/xmas2015-moncler/</guid>
+			</item>
+		
+			<item>
+				<title>Coca Cola &amp;ndash; Partage tes souvenirs</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 02:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/coca-cola-partage-tes-souvenirs/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/coca-cola-partage-tes-souvenirs/</guid>
+			</item>
+		
+			<item>
+				<title>Bière 34</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 02:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/biere-34/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/biere-34/</guid>
+			</item>
+		
+			<item>
+				<title>Anita &amp;ndash; Il gelato</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 02:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anita-gelato/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anita-gelato/</guid>
+			</item>
+		
+			<item>
+				<title>Yule Log 2.015</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sat, 26 Dec 2015 00:20:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/yule-log-2015/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/yule-log-2015/</guid>
+			</item>
 		
 			<item>
 				<title>Christmas experiments n°19</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Tue, 22 Dec 2015 01:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/christmas-experiments-19/</link>
@@ -22,8 +87,7 @@
 				<title>Le dernier gaulois</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Tue, 22 Dec 2015 00:20:00 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/le-dernier-gaulois/</link>
@@ -34,8 +98,7 @@
 				<title>Tom Sanso</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 09:27:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tom-sanso/</link>
@@ -46,8 +109,7 @@
 				<title>Danish Crown &amp;ndash; Rapport annuel 2015</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 02:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/danishcrown-rapport-annuel-2015/</link>
@@ -58,8 +120,7 @@
 				<title>Micons &amp;ndash; 231 Icônes gratuites</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 00:25:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/icones/micons/</link>
@@ -70,8 +131,7 @@
 				<title>Nova &amp;ndash; Icônes material design</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/icones/nova-icons-material-design/</link>
@@ -82,9 +142,7 @@
 				<title>Les bases de l'accessibilité</title>
 				
 				
-					<description>&lt;p&gt;Une lecture à compléter avec &lt;a href=&quot;http://www.magazineduwebdesign.com/accessibilite-web-ckecklist/&quot;&gt;40 points à checker pour atteindre le nirvāṇa de l’accessibilité Web&lt;/a&gt;.&lt;/p&gt;
-
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/conseils/guides/les-bases-de-l-accessibilite/</link>
@@ -95,8 +153,7 @@
 				<title>flexbox sheet &amp;ndash; guide illustré des propriétés</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sun, 20 Dec 2015 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/conseils/guides/guide-illustre-des-proprietes-flexbox/</link>
@@ -107,8 +164,7 @@
 				<title>Stellar</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sat, 19 Dec 2015 12:01:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/stellar/</link>
@@ -119,8 +175,7 @@
 				<title>WWW</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sat, 19 Dec 2015 12:01:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projet-world-wide-web/</link>
@@ -131,8 +186,7 @@
 				<title>OT-24</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Sat, 19 Dec 2015 12:00:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ot-24/</link>
@@ -143,8 +197,7 @@
 				<title>Fornasetti &amp;ndash; La page secrète</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Fri, 18 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/fornasetti-secret-page/</link>
@@ -155,8 +208,7 @@
 				<title>Reality Editor &amp;ndash; L'éditeur de réalité du MIT</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Fri, 18 Dec 2015 00:22:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/videos/editeur-de-realite-open-hybrid/</link>
@@ -167,8 +219,7 @@
 				<title>Star Wars &amp;ndash; lightsaber escape</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/star-wars-lightsaber-escape-chrome-experience/</link>
@@ -179,8 +230,7 @@
 				<title>Tesla &amp;ndash; Redesign de la console centrale par UNITiD</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/connected-car/connected-car-tesla-concept-dashboard-ui-decembre-2015/</link>
@@ -191,8 +241,7 @@
 				<title>Concept Apple Watch &amp;ndash; Appli bancaire</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/concept-apple-watch-application-bancaire/</link>
@@ -203,8 +252,7 @@
 				<title>The weather channel &amp;ndash; Apple Watch</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/apple-watch-application-the-weather-channel/</link>
@@ -215,85 +263,11 @@
 				<title>In Particle We Trust</title>
 				
 				
-					<description>
-</description>
+					<description></description>
 				
 				<pubDate>Wed, 16 Dec 2015 07:26:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/WebLab-In-Particle-We-Trust/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/WebLab-In-Particle-We-Trust/</guid>
-			</item>
-		
-			<item>
-				<title>Persona</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Tue, 15 Dec 2015 09:27:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/persona/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/persona/</guid>
-			</item>
-		
-			<item>
-				<title>Guide illustré d'une réunion efficace</title>
-				
-				
-					<description>&lt;p&gt;Nous parlions habitudes juste au-dessus. Le best seller &lt;a href=&quot;http://www.amazon.fr/gp/product/1847946240/ref=as_li_tl?ie=UTF8&amp;amp;camp=1642&amp;amp;creative=6746&amp;amp;creativeASIN=1847946240&amp;amp;linkCode=as2&amp;amp;tag=mdw-21&quot;&gt;The power of habits de Charles Duhigg&lt;/a&gt; est une excellente lecture si vous souhaitez identifier, comprendre et influencer des habitudes à une échelle personnelle et communautaire.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 15 Dec 2015 08:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/guide-reunion-efficace/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/guide-reunion-efficace/</guid>
-			</item>
-		
-			<item>
-				<title>War of 1996 &amp;ndash; Independence day resurgence</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 12:20:00 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/war-of-1996-independence-day-resurgence/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/war-of-1996-independence-day-resurgence/</guid>
-			</item>
-		
-			<item>
-				<title>Nebula artefact</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 07:26:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nebula_artefact/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nebula_artefact/</guid>
-			</item>
-		
-			<item>
-				<title>Star Wars &amp;ndash; Icônes gratuites</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/icones/icones-gratuites-star-wars/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/icones/icones-gratuites-star-wars/</guid>
-			</item>
-		
-			<item>
-				<title>Uncanny Valley</title>
-				
-				
-					<description>
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 00:00:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/uncanny-valley/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/uncanny-valley/</guid>
 			</item>
 		
 	</channel>
