@@ -7,6 +7,28 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Studio Adriaan Mellegers</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Tue, 29 Dec 2015 01:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/studio-adriaan-mellegers/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/studio-adriaan-mellegers/</guid>
+			</item>
+		
+			<item>
+				<title>Tennent Brown Architects</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Tue, 29 Dec 2015 00:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tennent-brown-architects/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tennent-brown-architects/</guid>
+			</item>
+		
+			<item>
 				<title>Atieva</title>
 				
 				
@@ -246,28 +268,6 @@
 				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/concept-apple-watch-application-bancaire/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/concept-apple-watch-application-bancaire/</guid>
-			</item>
-		
-			<item>
-				<title>The weather channel &amp;ndash; Apple Watch</title>
-				
-				
-					<description></description>
-				
-				<pubDate>Thu, 17 Dec 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/apple-watch-application-the-weather-channel/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/apple-watch-application-the-weather-channel/</guid>
-			</item>
-		
-			<item>
-				<title>In Particle We Trust</title>
-				
-				
-					<description></description>
-				
-				<pubDate>Wed, 16 Dec 2015 07:26:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/WebLab-In-Particle-We-Trust/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/WebLab-In-Particle-We-Trust/</guid>
 			</item>
 		
 	</channel>
