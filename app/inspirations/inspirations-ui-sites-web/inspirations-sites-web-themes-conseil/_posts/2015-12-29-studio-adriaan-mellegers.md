@@ -24,6 +24,6 @@ element-ui-1: "navigation scroll horizontal"
 element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/navigation-scroll-horizontal/"
 url-demo: "http://www.adriaanmellegers.com/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-studio-adriaan-mellegers-1.jpg"
-intro: "La navigation sur deux axes est intéressantes."
-description: "La navigation sur deux axes est intéressantes."
+intro: "La navigation sur deux axes est intéressante."
+description: "La navigation sur deux axes est intéressante."
 ---
