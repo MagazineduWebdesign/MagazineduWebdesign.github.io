@@ -14,7 +14,7 @@ tags:
 - sites-web-elements-ui-audio
 theme: "agro-alimentaire"
 theme-url: "/inspirations/ui-design/sites-web/themes/agro-alimentaire/"
-format: "landing-page"
+format: "landing page"
 format-url: "/inspirations/ui-design/sites-web/formats/landing-pages/"
 animation-1: "transition de navigation"
 animation-url-1: "/inspirations/ui-design/sites-web/animation/transition-navigation/"
