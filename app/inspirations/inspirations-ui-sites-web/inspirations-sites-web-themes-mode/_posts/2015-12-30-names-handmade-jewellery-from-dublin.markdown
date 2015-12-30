@@ -29,7 +29,7 @@ composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/fiche-produ
 composant-ui-3: "Liste images"
 composant-ui-url-3: "/inspirations/ui-design/sites-web/composants-ui/liste-images/"
 url-demo: "http://namesdublin.com/?ref=MagazineDuWebdesign"
-auteur:"wrkgrp"
+auteur: "wrkgrp"
 image: "inspiration-ui-design-site-web-names-handmade-jewellery-from-dublin-1.jpg"
 image-2: "inspiration-ui-design-site-web-names-handmade-jewellery-from-dublin-2.jpg"
 intro: "Joli ce bleu. L'essentiel est là pour ce ecommerce. Les allemands capture ce principe en trois mois : Weniger aber besser. En anglais : less is better."
