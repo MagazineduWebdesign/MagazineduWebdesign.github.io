@@ -8,6 +8,7 @@ path3: "sites-web"
 category: "ui-sites-web"
 tags:
 - sites-web-themes-art
+- sites-web-formats-experience-interactive
 - sites-web-composants-ui-vue-360-degres
 - sites-web-elements-ui-player-video
 - sites-web-elements-ui-modal-box
