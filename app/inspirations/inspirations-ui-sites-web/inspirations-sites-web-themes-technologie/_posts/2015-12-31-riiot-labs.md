@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
 title: "Riiot labs"
-date: "2015-12-26 12:24:57"
+date: "2015-12-31 12:24:57"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
