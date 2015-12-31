@@ -18,4 +18,4 @@ siteweb: "http://interaction16.ixda.org/?ref=MagazineDuWebdesign"
 image:
 description: "Interaction 16 est organisé par l'Interaction Design Association IxDA.org. La conférence réunira près de 1000 professionnels du design d'interface, des dirigeants, des étudiants."
 ---
-Le thème principal de cette conférence 2016 explore les prochaines évolutions du design interactif &ndash; intelligence artificielle, [WebVR](http://www.magazineduwebdesign.com/inspirations/web-vr-realite-virtuelle/), [design conversationnel](http://www.magazineduwebdesign.com/note/le-design-conversationnel-pisode-2/)) &ndash; rattachés au contexte des métiers et de la pratique du design dans son ensemble.
+Le thème principal de cette conférence 2016 explore les prochaines évolutions du design interactif &ndash; intelligence artificielle, [WebVR](http://www.magazineduwebdesign.com/inspirations/web-vr-realite-virtuelle/), [design conversationnel](http://www.magazineduwebdesign.com/note/le-design-conversationnel-pisode-2/)) &ndash; rattachées au contexte des métiers et de la pratique du design dans son ensemble.
