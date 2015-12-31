@@ -7,6 +7,28 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Riiot labs</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Thu, 31 Dec 2015 12:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/riiot-labs/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/riiot-labs/</guid>
+			</item>
+		
+			<item>
+				<title>interaction16 &amp;ndash; IxDA</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Thu, 31 Dec 2015 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/evenements/web-design/conference-interaction-16/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/conference-interaction-16/</guid>
+			</item>
+		
+			<item>
 				<title>Names</title>
 				
 				
@@ -246,28 +268,6 @@
 				<pubDate>Sat, 19 Dec 2015 12:00:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ot-24/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ot-24/</guid>
-			</item>
-		
-			<item>
-				<title>Fornasetti &amp;ndash; La page secrète</title>
-				
-				
-					<description></description>
-				
-				<pubDate>Fri, 18 Dec 2015 00:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/fornasetti-secret-page/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/fornasetti-secret-page/</guid>
-			</item>
-		
-			<item>
-				<title>Reality Editor &amp;ndash; L'éditeur de réalité du MIT</title>
-				
-				
-					<description></description>
-				
-				<pubDate>Fri, 18 Dec 2015 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/editeur-de-realite-open-hybrid/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/editeur-de-realite-open-hybrid/</guid>
 			</item>
 		
 	</channel>
