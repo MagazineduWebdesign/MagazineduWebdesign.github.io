@@ -1,0 +1,13 @@
+---
+title: "Codrops &ndash; la rétrospective 2015"
+date: "2016-01-01 02:00:00"
+source-name:
+source-url: "http://tympanus.net/codrops2015/?ref=magazineduwebdesign"
+image: "inspiration-ui-design-site-web-2015-codrops-ressources.jpg"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+L'année 2015 aura été marquée par la sortie d'un nombre impressionnant de ressources et de tutoriels en webdesign. Codrops fait le bilan de son année. Congrats à la team 😍.
