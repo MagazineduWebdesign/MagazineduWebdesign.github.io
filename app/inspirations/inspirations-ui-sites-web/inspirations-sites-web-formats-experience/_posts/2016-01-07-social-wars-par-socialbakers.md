@@ -7,6 +7,7 @@ path2: "ui-design"
 path3: "sites-web"
 category: "ui-sites-web"
 tags:
+- sites-web-themes-cinema
 - sites-web-formats-rapport-interactif
 - sites-web-animation-transition-navigation
 - sites-web-animation-typographie
