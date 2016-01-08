@@ -1,0 +1,17 @@
+---
+layout: "video"
+title: "Motion de l'Annual Awards 2015-2016"
+date: "2016-01-08 00:00:57"
+path1: "videos"
+path2: "motion-design"
+path3:
+category: "videos"
+tags:
+- videos-motion-design
+intro: "2015 est derrière nous et le moment est donc venu de choisir les gagnants Awwwards de l'année. Une reconnaissance mettant à l'honneur l'effort, le talent et l'innovation des talentueux professionnels créant des sites uniques, innovants et beaux. Ces designers et développeurs permettent à l'Internet de continuer à être l'ether de possibilités infinies pour l'art, la connaissance et la communication."
+description: "2015 est derrière nous et le moment est donc venu de choisir les gagnants Awwwards de l'année. Une reconnaissance mettant à l'honneur l'effort, le talent et l'innovation des talentueux professionnels créant des sites uniques, innovants et beaux. Ces designers et développeurs permettent à l'Internet de continuer à être l'ether de possibilités infinies pour l'art, la connaissance et la communication."
+id-vimeo: "151014317"
+viaurl: "http://www.awwwards.com/annual-awards-2015/?ref=magazineduwebdesign"
+viatitle: "awwwards"
+lunametrics-youtube-tracking: "false"
+---
