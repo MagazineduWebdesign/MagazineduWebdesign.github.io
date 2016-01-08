@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Une série de leçons hebdomadaires directement dans votre boîte mail envoyées par la charmante team design de Invision. Vous apprendrez à maîtriser votre design workflow avec Sketch pour le wireframing, la typographie, les symboles, etc. Tout ça est bien entendu gratuit. L'objectif est que ces connaissances puissent vous accompagner ensuite sur vos projets.
+Une série de leçons hebdomadaires directement dans votre boîte mail envoyées par la charmante team design de Invision. Vous apprendrez à maîtriser votre design workflow avec Sketch pour le wireframing, la typographie, les symboles, etc. Tout ça est bien entendu gratuit. L'objectif de ces connaissances est de vous accompagner au quotidien sur vos projets.

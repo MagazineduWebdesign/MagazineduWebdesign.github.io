@@ -10,4 +10,4 @@ id-vimeo:
 id-soundcloud:
 video-legende:
 ---
-Trouvez, téléchargez et tester des fonts payantes via Google. L'objectif n'est pas de voler les fonts, mais bien de les tester puis de les acheter.
+Trouvez, téléchargez et testez des fonts payantes via Google. L'objectif n'est pas de voler les fonts, mais bien de les tester puis de les acheter.
