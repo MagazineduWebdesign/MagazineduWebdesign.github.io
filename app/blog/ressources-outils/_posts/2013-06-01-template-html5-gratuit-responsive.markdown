@@ -20,4 +20,4 @@ viatitle:
 <p>Différents types de templates HTML sont proposés : portfolio, curriculum vitae, blog, corporate.</p>
 <p>Ils sont distribués sous licence Creative Commons.</p>
 <p><strong>Consultez nos autres ressources gratuites :</strong></p>
-<p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/magie-des-internets/" target="_blank">Ressources Webdesign</a></p>
+<p style="text-align: center;"><a class="button primary radius" href="http://www.magazineduwebdesign.com/ressources/">Ressources Webdesign</a></p>
