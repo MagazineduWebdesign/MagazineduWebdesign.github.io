@@ -3,7 +3,7 @@ title: "Créez un porfolio gratuit avec Adobe"
 date: "2016-01-09 04:00:00"
 source-name:
 source-url: "https://www.myportfolio.com/"
-image: "adobe-portfolio-share.jpg"
+image: "adobe-portfolio-share.png"
 image-legende: "myportfolio.com"
 id-youtube:
 id-vimeo:
