@@ -20,8 +20,8 @@ image-2: "mockup-sketch-devices-smartphone-tv-tablette-montre-connectee-facebook
 image-3:
 image-4:
 image-5:
-intro: "Une liste de mockups iPhones, Android et notamment Nokia au format sketch et bitmap offèrent par la team design de Facebook. Cette dernière promet d'actualiser prochainement la liste avec des mockups d'autres devices telles que des TVs, des montres connectées, etc."
-description: "Une liste de mockups iPhones, Android et notamment Nokia au format sketch et bitmap offèrent par la team design de Facebook."
+intro: "Une liste de mockups iPhones, Android et notamment Nokia au format sketch et bitmap conçus par la team design de Facebook. Cette dernière promet d'actualiser prochainement la liste avec des mockups d'autres devices telles que des TVs, des montres connectées, etc."
+description: "Une liste de mockups iPhones, Android et notamment Nokia au format sketch et bitmap conçus par la team design de Facebook."
 rating: "9"
 ---
 
