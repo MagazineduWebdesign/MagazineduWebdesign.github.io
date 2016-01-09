@@ -12,7 +12,7 @@ video-legende:
 ---
 Vous vous êtes toujours demandé(e) comment les léopards 🐯 obtiennent leurs tâches ou pourquoi les coquillages 🐚 ont telle ou telle forme ?
 
-Si oui, explorez [cette démonstration de morphogenèse](http://ncase.me/emoji-prototype/?remote=-K71iWhftjtOIfx6b2Fo) : un énoncé de règles simples – par exemple celles contenuent dans l'ADN – qui déterminent la forme, la structure des tissus, des organes et des organismes.
+Si oui, explorez [cette démonstration de morphogenèse](http://ncase.me/emoji-prototype/?remote=-K71iWhftjtOIfx6b2Fo) : un énoncé de règles simples – par exemple celles contenues dans l'ADN – qui déterminent la forme, la structure des tissus, des organes et des organismes.
 Dans la démo, trois règles sont activées avec des variables propres à chacune d'entre elles. Après quelques cycles de génération, des spirales de points se forment. Modifiez un paramètre à la fois et vous observerez un tout autre "pelage", ou vous déclencherez le chaos. Magique ✨.
 
 On peut se prendre à rêver d'outils permettant de créer par l'intermédiaire de quelques règles simples la couleur, la forme, la typographie et l’image de systèmes d'interfaces complexes. Certains le promettent, à l'instar de [thegrid](https://twitter.com/thegrid?lang=fr), actuellement en bêta privée.
