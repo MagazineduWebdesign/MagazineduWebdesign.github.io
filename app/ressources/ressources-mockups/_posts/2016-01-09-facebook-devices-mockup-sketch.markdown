@@ -16,7 +16,7 @@ url-buy:
 pricecurrency:
 price:
 image: "facebook-design-resource-devices.jpg"
-image-2: "mockup-sketch-devices-iphone-android-nokia-tv-tablette-montre-connectee-facebook-design.jpg"
+image-2: "mockup-sketch-devices-smartphone-tv-tablette-montre-connectee-facebook-design.jpg"
 image-3:
 image-4:
 image-5:
