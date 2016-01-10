@@ -270,5 +270,329 @@
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/xmas2015-moncler/</guid>
 			</item>
 		
+		
+		
+			<item>
+				<title>Internet Explorer 8, 9 et 10 — Microsoft met fin à leur support</title>
+				
+				
+					<description>&lt;p&gt;Ce mardi 12 janvier 2016, Microsoft stoppera les mises à jour de sécurité et le support de son navigateur. Seul IE11 continuera a être officiellement mis à jour sur les versions d’OS compatibles.&lt;/p&gt;
+
+&lt;p&gt;Microsoft avait annoncé depuis plusieurs mois son intention de ne plus apporter de mises à jour à ses anciens navigateurs. Son objectif étant de se concentrer sur la dernière version d’Internet Explorer et sur son nouveau navigateur Edge.&lt;/p&gt;
+
+&lt;p&gt;Pas d’inquiétudes à avoir pour les entreprises utilisant des applications sur les anciennes versions du navigateur : IE11 pourra émuler les anciennes versions 8, 9 et 10.&lt;/p&gt;
+
+&lt;p&gt;C’est une excellente nouvelle, qui fera gagner beaucoup de temps à tous les dév frontend et à tous ceux qui ouvrent accidentellement IE #freeeeeze.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 10 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/internet-explorer-8-9-et-10-microsoft-met-fin-leur-support/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/internet-explorer-8-9-et-10-microsoft-met-fin-leur-support/</guid>
+			</item>
+		
+			<item>
+				<title>Tendances 2016 du Web design – Passé, présent, futur</title>
+				
+				
+					<description>&lt;p&gt;Un Slideshare sur les grandes tendances qui marqueront le Web design en 2016, proposé par le directeur artistique Philippe Rondepierre. Un panorama assez exhaustif du design interactif où on parcourt en quelques slides les dernières approches en matière de responsive design, d’internet des objets et d’environnements de développement. Pour tout savoir, explorez la présentation slidershare ci-dessous.&lt;/p&gt;
+
+&lt;iframe src=&quot;//fr.slideshare.net/slideshow/embed_code/key/sBFhmlsRRNVYND&quot; width=&quot;540&quot; height=&quot;430&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/tendances-2016-du-web-design-pass-pr-sent-futur/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/tendances-2016-du-web-design-pass-pr-sent-futur/</guid>
+			</item>
+		
+			<item>
+				<title>Facebook offre des mockups de devices au format Sketch</title>
+				
+				
+					<description>&lt;p&gt;Chaque mockup de device est livré avec une image bitmap (avec et sans ombres) et le fichier sketch original.
+Facebook promet de mettre à jour prochainement cette liste de mockups avec d’autres devices tels que des &lt;a href=&quot;http://www.magazineduwebdesign.com/inspirations/ui-design/tv/&quot;&gt;designs de TVs&lt;/a&gt;, de tablettes et de &lt;a href=&quot;http://www.magazineduwebdesign.com/ressources/mockups/mockup-apple-watch-iphone-6/&quot;&gt;montres connectées&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si vous avez de très bons exemples de ressources, n’hésitez pas à les ajouter à cette &lt;a href=&quot;http://www.magazineduwebdesign.com/ressources/mockups/&quot;&gt;liste de mockups&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/facebook-offre-des-mockups-de-devices-au-format-sketch/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/facebook-offre-des-mockups-de-devices-au-format-sketch/</guid>
+			</item>
+		
+			<item>
+				<title>Morphogenèse, Design génératif et léopard</title>
+				
+				
+					<description>&lt;p&gt;Vous vous êtes toujours demandé(e) comment les léopards 🐯 obtiennent leurs tâches ou pourquoi les coquillages 🐚 ont telle ou telle forme ?&lt;/p&gt;
+
+&lt;p&gt;Si oui, explorez &lt;a href=&quot;http://ncase.me/emoji-prototype/?remote=-K71iWhftjtOIfx6b2Fo&quot;&gt;cette démonstration de morphogenèse&lt;/a&gt; : un énoncé de règles simples – par exemple celles contenues dans l’ADN – qui déterminent la forme, la structure des tissus, des organes et des organismes.
+Dans la démo, trois règles sont activées avec des variables propres à chacune d’entre elles. Après quelques cycles de génération, des spirales de points se forment. Modifiez un paramètre à la fois et vous observerez un tout autre “pelage”, ou vous déclencherez le chaos. Magique ✨.&lt;/p&gt;
+
+&lt;p&gt;On peut se prendre à rêver d’outils permettant de créer par l’intermédiaire de quelques règles simples la couleur, la forme, la typographie et l’image de systèmes d’interfaces complexes. Certains le promettent, à l’instar de &lt;a href=&quot;https://twitter.com/thegrid?lang=fr&quot;&gt;thegrid&lt;/a&gt;, actuellement en bêta privée.&lt;/p&gt;
+
+&lt;p&gt;D’autres démos sont disponibles où vous pouvez &lt;a href=&quot;http://ncase.me/simulating/&quot;&gt;jouer aux pompiers&lt;/a&gt; ou créer &lt;a href=&quot;http://ncase.me/simulating/model/&quot;&gt;votre propre système&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez en savoir plus sur les théories du chaos, la morphogenèse et par extension sur le design génératif, je vous invite à explorer l’excellent livre de l’astrophysicien John Gribbin : &lt;a href=&quot;http://www.amazon.fr/gp/product/140006256X/ref=as_li_tl?ie=UTF8&amp;amp;camp=1642&amp;amp;creative=6746&amp;amp;creativeASIN=140006256X&amp;amp;linkCode=as2&amp;amp;tag=mdw-21&quot;&gt;Deep Simplicity: Bringing Order to Chaos and Complexity&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/morphogen-se-design-g-n-ratif-et-l-opard/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/morphogen-se-design-g-n-ratif-et-l-opard/</guid>
+			</item>
+		
+			<item>
+				<title>Créez un porfolio gratuit avec Adobe</title>
+				
+				
+					<description>&lt;p&gt;Avec Adobe porfolio, vous obtiendrez rapidement et simplement un site Web personnalisé afin de présenter votre travail de création. Désormais inclus gratuitement avec tout abonnement Creative Cloud..&lt;/p&gt;
+
+&lt;p&gt;Des options qui donnent envie :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;La synchronisation des publications entre votre portfolio Adobe et votre compte Behance ;&lt;/li&gt;
+  &lt;li&gt;L’accès illimité à la libraire Typekit de fonts ;&lt;/li&gt;
+  &lt;li&gt;la possiblité d’utiliser un nom de domaine personnalisé.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Le service est pour l’instant en bêta privée. Demandez votre invite sur le site web &lt;a href=&quot;https://www.myportfolio.com/&quot;&gt;myportfolio.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 04:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/cr-ez-un-porfolio-gratuit-avec-adobe/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/cr-ez-un-porfolio-gratuit-avec-adobe/</guid>
+			</item>
+		
+			<item>
+				<title>Font'n &amp;ndash; Le test de fonts en mode pirate</title>
+				
+				
+					<description>&lt;p&gt;Trouvez, téléchargez et testez des fonts payantes via Google. L’objectif n’est pas de voler les fonts, mais bien de les tester puis de les acheter.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 08 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/font-n-ndash-le-test-de-fonts-en-mode-pirate/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/font-n-ndash-le-test-de-fonts-en-mode-pirate/</guid>
+			</item>
+		
+			<item>
+				<title>Design workflow avec Sketch</title>
+				
+				
+					<description>&lt;p&gt;Une série de leçons hebdomadaires directement dans votre boîte mail envoyées par la charmante team design de Invision. Vous apprendrez à maîtriser votre design workflow avec Sketch pour le wireframing, la typographie, les symboles, etc. Tout ça est bien entendu gratuit. L’objectif de ces connaissances est de vous accompagner au quotidien sur vos projets.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 08 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/design-workflow-avec-sketch/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/design-workflow-avec-sketch/</guid>
+			</item>
+		
+			<item>
+				<title>Codrops &amp;ndash; la rétrospective 2015</title>
+				
+				
+					<description>&lt;p&gt;L’année 2015 aura été marquée par la sortie d’un nombre impressionnant de ressources et de tutoriels en webdesign. Codrops fait le bilan de son année. Congrats à la team 😍.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 01 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/codrops-ndash-la-r-trospective-2015/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/codrops-ndash-la-r-trospective-2015/</guid>
+			</item>
+		
+			<item>
+				<title>Theme Cloud</title>
+				
+				
+					<description>&lt;p&gt;Theme Cloud est un service d’hébergement WordPress de nouvelle génération qui permet de déployer en un clic plus de &lt;a href=&quot;https://www.themecloud.io/marketplace/#_l_29&quot;&gt;50 thèmes WordPress&lt;/a&gt; créés par des boutiques de renom. La plateforme vous donne la possibilité de tester un thème comme si vous l’aviez déjà installé – même le panel admin. Une belle promesse pour cette plateforme réalisé par une équipe française. Le support client est français. Congrats 😻. A tester.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 30 Dec 2015 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/theme-cloud/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/theme-cloud/</guid>
+			</item>
+		
+			<item>
+				<title>CSS box shadow particules</title>
+				
+				
+					<description>&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;eJNxmy&quot; data-default-tab=&quot;result&quot; data-user=&quot;giana&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/giana/pen/eJNxmy/&quot;&gt;CSS box shadow particles v3&lt;/a&gt; by Giana (&lt;a href=&quot;http://codepen.io/giana&quot;&gt;@giana&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+				
+				<pubDate>Sun, 20 Dec 2015 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/css-box-shadow-particules/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/css-box-shadow-particules/</guid>
+			</item>
+		
+			<item>
+				<title>Adobe Comet &amp;ndash; La mauvaise nouvelle</title>
+				
+				
+					<description>&lt;p&gt;La team annonce que la fonctionnalité permettant d’intégrer des données dynamiques ne sera pas publiée avec la première release 😥.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 18 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/adobe-comet-ndash-la-mauvaise-nouvelle/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/adobe-comet-ndash-la-mauvaise-nouvelle/</guid>
+			</item>
+		
+			<item>
+				<title>Tesla &amp;ndash; améliorer l'UI de la console centrale</title>
+				
+				
+					<description>&lt;p&gt;Le studio de design UNITiD imagine une possible approche design pour la prochaine release de l’UI des véhicules Tesla. Avis mitigés. Vous en pensez quoi ?&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 17 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/tesla-ndash-am-liorer-l-ui-de-la-console-centrale/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/tesla-ndash-am-liorer-l-ui-de-la-console-centrale/</guid>
+			</item>
+		
+			<item>
+				<title>Prévente du livre Sprint de la team Google Venture</title>
+				
+				
+					<description>&lt;p&gt;Cet ouvrage détaille une approche du design créée par 3 designers de Google. Elle consiste à résoudre une problématique existante ou à créer de nouvelles idées en 5 jours. Le livre fourmille de détails concernant les manières de mettre cette approche en place au sein d’une équipe. Vous y trouverez également de multiples activités de travail inhérentes à chaque jour pour atteindre la solution de design la plus optimale.&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez vous mettre de suite au travail, consultez ce &lt;a href=&quot;https://trello.com/b/lMmuSlkP&quot;&gt;tableau Trello&lt;/a&gt; détaillant le sprint design.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 17 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/pr-vente-du-livre-sprint-de-la-team-google-venture/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/pr-vente-du-livre-sprint-de-la-team-google-venture/</guid>
+			</item>
+		
+			<item>
+				<title>Revue de l'année 2015 par Behance</title>
+				
+				
+					<description>&lt;p&gt;En 2015, des choses incroyables se sont produites après que vous ayez partagé votre travail ^^.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 16 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/revue-de-l-ann-e-2015-par-behance/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/revue-de-l-ann-e-2015-par-behance/</guid>
+			</item>
+		
+			<item>
+				<title>Animation du Twitter Heart en Full CSS</title>
+				
+				
+					<description>&lt;p&gt;C’est beau et léger. Parfait pour votre prochain social wall.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 14 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/animation-du-twitter-heart-en-full-css/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/animation-du-twitter-heart-en-full-css/</guid>
+			</item>
+		
+			<item>
+				<title>Vous connaissez des entrepreneurs qui recrutent ?</title>
+				
+				
+					<description>&lt;p&gt;Dites-leur que le Magazine du Webdesign est un bon endroit pour trouver des talents comme vous 👊. &lt;a href=&quot;https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.magazineduwebdesign.com%2Frecruter%2F&amp;amp;text=Vous%20cherchez%20des%20talents%20?%20Publiez%20votre%20annonce%20sur%20le%20job%20board%20du%20Magazine%20du%20Webdesign.&amp;amp;original_referer=http%3A%2F%2Fwww.magazineduwebdesign.com%2Frecruter%2F&amp;amp;related=MagDuWebdesign&amp;amp;hashtags=emploi&quot;&gt;TWEETER&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 14 Dec 2015 05:00:01 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</guid>
+			</item>
+		
+			<item>
+				<title>Il faut bien commencer quelque part</title>
+				
+				
+					<description>&lt;p&gt;Un excellent rappel de ce cher Tobias van Schneider. Les personnes qui réussissent ont toutes commencé quelque part et commis un grand nombre d’erreurs avant de remporter leurs premières victoires.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 14 Dec 2015 08:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/il-faut-bien-commencer-quelque-part/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/il-faut-bien-commencer-quelque-part/</guid>
+			</item>
+		
+			<item>
+				<title>Le design de l'appli Auxy bouscule la création musicale sur mobile</title>
+				
+				
+					<description>&lt;p&gt;Une brève présentation du potentiel de l’interface de cette sympathique appli iOS.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 14 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/le-design-de-l-appli-auxy-bouscule-la-cr-ation-musicale-sur-mobile/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/le-design-de-l-appli-auxy-bouscule-la-cr-ation-musicale-sur-mobile/</guid>
+			</item>
+		
+			<item>
+				<title>Vertical align</title>
+				
+				
+					<description>&lt;p&gt;Tout savoir sur cette propriété CSS.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 13 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/vertical-align/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/vertical-align/</guid>
+			</item>
+		
+			<item>
+				<title>L'histoire de Google Deep Dream débuta à Zurich</title>
+				
+				
+					<description>&lt;p&gt;Et l’avenir du design d’interfaces sera peut être à chercher derrière ces créations psychédéliques.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 13 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/l-histoire-de-google-deep-dream-d-buta-zurich/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/l-histoire-de-google-deep-dream-d-buta-zurich/</guid>
+			</item>
+		
+			<item>
+				<title>Je vous présente Ally</title>
+				
+				
+					<description>&lt;p&gt;Une bibliothèque JavaScript simplifiant l’implémentation de certaines fonctions et comportements d’accessibilité.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 13 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/je-vous-pr-sente-ally/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/je-vous-pr-sente-ally/</guid>
+			</item>
+		
+			<item>
+				<title>Le product design en 2015</title>
+				
+				
+					<description>&lt;p&gt;Impressionnante collection d’articles, d’essais et d’études concernant le product design en 2015. Un superbe travail réalisé par la team Atomic.io.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 12 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/le-product-design-en-2015/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/le-product-design-en-2015/</guid>
+			</item>
+		
+			<item>
+				<title>Comment faire économiser des milliards de secondes à l'humanité ?</title>
+				
+				
+					<description>&lt;p&gt;Potentiellement avec Google Smart Lock. Une nouvelle approche pour authentifier les utilisateurs d’une application.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 12 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/comment-faire-conomiser-des-milliards-de-secondes-l-humanit/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/comment-faire-conomiser-des-milliards-de-secondes-l-humanit/</guid>
+			</item>
+		
+			<item>
+				<title>Nouvelle release pour Quartz</title>
+				
+				
+					<description>&lt;p&gt;Le site de news a abandonné sa charismatique homepage. Les liens vers des articles de la concurrence ont disparu au profit de contenus produits par l’équipe Quartz.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 10 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/nouvelle-release-pour-quartz/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/nouvelle-release-pour-quartz/</guid>
+			</item>
+		
 	</channel>
 </rss>
