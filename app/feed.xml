@@ -24,5 +24,20 @@ layout: null
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
+		{% assign notes = site.note | reverse %}
+		{% for note in notes limit: 24 %}
+			<item>
+				<title>{{ note.title | xml_escape }}</title>
+				{% if note.author.name %}
+					<dc:creator>{{ note.author.name | xml_escape }}</dc:creator>
+				{% endif %}
+				{% if note.content %}
+					<description>{{ note.content | xml_escape }}</description>
+				{% endif %}
+				<pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.url }}{{ note.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ note.url }}</guid>
+			</item>
+		{% endfor %}
 	</channel>
 </rss>
