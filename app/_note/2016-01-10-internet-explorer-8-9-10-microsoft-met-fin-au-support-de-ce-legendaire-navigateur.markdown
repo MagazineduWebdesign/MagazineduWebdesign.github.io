@@ -3,7 +3,7 @@ title: "Internet Explorer 8, 9 et 10 — Microsoft met fin à leur support"
 date: "2016-01-10 05:00:00"
 source-name: "Microsoft"
 source-url: "https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support"
-image:
+image: "internet-explorer-8-9-10-microsoft-arrete-leur-support.jpg"
 image-legende:
 id-youtube:
 id-vimeo:
