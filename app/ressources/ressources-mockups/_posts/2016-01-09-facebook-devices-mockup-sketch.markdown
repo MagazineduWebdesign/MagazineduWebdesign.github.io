@@ -1,6 +1,6 @@
 ---
 layout: "ressources-default"
-title: "Mockups iPhones & Android au format Sktech &ndash; Facebook Design"
+title: "Mockups iPhones & Android au format Sketch &ndash; Facebook Design"
 date: "2016-01-09 09:24:57"
 path1: "ressources"
 path2: "mockups"
