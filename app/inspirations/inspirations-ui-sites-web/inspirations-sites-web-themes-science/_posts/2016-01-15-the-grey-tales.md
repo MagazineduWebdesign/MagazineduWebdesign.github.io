@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
 title: "The grey tales &ndash; Des histoires d'élephants"
-date: "2016-01-15 10:24:57"
+date: "2016-01-15 08:24:57"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
