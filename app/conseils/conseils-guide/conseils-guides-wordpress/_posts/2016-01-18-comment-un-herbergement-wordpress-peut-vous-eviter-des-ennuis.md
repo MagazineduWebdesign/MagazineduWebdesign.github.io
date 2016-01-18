@@ -116,7 +116,7 @@ Avec Themecloud, vous obtenez l'assurance que chaque correctif mineur d'un thèm
 Lorsqu'une importante mise à jour est publiée, elle est rigoureusement testée avant toute recommandation d'upgrade afin de ne pas mettre en péril vos sites WordPress.
 
 ## Un support utilisateur français
-L'équipe de Laurent – fondateur et dirigeant de Themecloud – se fera un plaisir de vous accompagner dans la mise en place de votre environnement de développement WordPress. Contactez-les 24h/24 et 7j/7, ses experts WordPress vous apporterons toute l'aide dont vous avez besoin dans la langue de Molière.
+L'équipe de Laurent – fondateur et dirigeant de Themecloud – se fera un plaisir de vous accompagner dans la mise en place de votre environnement de développement WordPress. Contactez-les 24h/24 et 7j/7, ces experts WordPress vous apporterons toute l'aide dont vous avez besoin dans la langue de Molière.
 
 ## Ce n'est qu'un début
 
