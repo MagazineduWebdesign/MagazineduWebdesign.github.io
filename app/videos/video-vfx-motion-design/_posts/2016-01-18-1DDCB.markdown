@@ -1,0 +1,17 @@
+---
+layout: "video"
+title: "1DDCB – Chaos Géométrique"
+date: "2016-01-18 01:00:57"
+path1: "videos"
+path2: "motion-design"
+path3:
+category: "videos"
+tags:
+- videos-motion-design
+intro: "1DDCB se compose de plusieurs plans composés de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï. Welcome Chaos."
+description: "1DDCB se compose de plusieurs plans composés de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï."
+id-vimeo: "150841540"
+viaurl:
+viatitle:
+lunametrics-youtube-tracking: "false"
+---

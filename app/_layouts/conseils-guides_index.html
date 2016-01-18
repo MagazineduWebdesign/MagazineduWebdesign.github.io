@@ -180,7 +180,7 @@ layout: default
 		              <div class="grid-article-card-info mod-no-thumbnail small-12 columns">
 		              	<h1 class="grid-article-card-title">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.intro %}
-                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+                    	<p class="grid-article-card-meta">{{ post.intro | markdownify | strip_html | truncate: 72 }}</p>
                   	{% endif %}
 		              </div>
 		            </div>
@@ -206,7 +206,7 @@ layout: default
 		              <div class="grid-article-card-info mod-no-thumbnail small-12 columns">
 		              	<h1 class="grid-article-card-title">{{ post.title | truncate: 48 }}</h1>
 		              	{% if post.intro %}
-                    	<p class="grid-article-card-meta">{{ post.intro | truncate: 72 }}</p>
+                    	<p class="grid-article-card-meta">{{ post.intro | markdownify | strip_html | truncate: 72 }}</p>
                   	{% endif %}
 		              </div>
 		            </div>

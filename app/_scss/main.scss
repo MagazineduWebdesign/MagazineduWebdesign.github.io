@@ -421,6 +421,10 @@ sup {
 				min-height: rem-calc(128);
 				max-height: rem-calc(128);
 		}
+		.grid-article-card-info.mod-large-auto{
+      min-height: auto;
+      max-height: 100%;
+		}
 		.grid-article-card-info.mod-book{
 				min-height: rem-calc(100);
 				max-height: rem-calc(100);
@@ -1401,6 +1405,12 @@ main.column-body-article p, main.column-body-article ul, main.column-body-articl
 main.column-body-article h2, main.column-body-article h3,{
 	margin-top: rem-calc(48);
 	font-weight: $font-weight-bold;
+}
+main.column-body-article h4{
+  margin-top: rem-calc(48);
+	font-weight: $font-weight-bold;
+  font-size: rem-calc(20);
+  color: $aluminum;
 }
 .article-meta-footer, .article-via{
 	@include item-row;
