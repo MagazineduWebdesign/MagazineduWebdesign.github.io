@@ -8,8 +8,8 @@ path3:
 category: "videos"
 tags:
 - videos-motion-design
-intro: "1DDCB se compose de plusieurs plans composés de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï. Welcome Chaos."
-description: "1DDCB se compose de plusieurs plans composés de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï."
+intro: "1DDCB se compose de plusieurs plans de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï. Welcome Chaos."
+description: "1DDCB se compose de plusieurs plans de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï."
 id-vimeo: "150841540"
 viaurl:
 viatitle:
