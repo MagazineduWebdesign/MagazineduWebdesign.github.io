@@ -26,6 +26,6 @@ url-demo: "http://defi-ingenieurs.sncf.com/?ref=magazineduwebdesign#intro"
 image: "inspiration-ui-design-site-web-def-ingenieurs-sncf-1.jpg"
 image-2: "inspiration-ui-design-site-web-def-ingenieurs-sncf-2.jpg"
 image-3: "inspiration-ui-design-site-web-def-ingenieurs-sncf-3.jpg"
-intro: "Un jeu de rôle made SNCF. C'est clean et le scénario est bien fait."
-description: "Un jeu de rôle made SNCF. C'est clean et le scénario est bien fait."
+intro: "Un jeu de rôles made in SNCF. C'est clean et le scénario est bien fait."
+description: "Un jeu de rôles made in SNCF. C'est clean et le scénario est bien fait."
 ---
