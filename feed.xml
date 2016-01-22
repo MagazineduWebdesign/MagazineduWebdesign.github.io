@@ -7,6 +7,17 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Deadpool Speed Drawing</title>
+				
+				
+					<description>Clean, ça donne envie de dessiner tous les super héros.</description>
+				
+				<pubDate>Thu, 21 Jan 2016 06:22:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/videos/deadpool-speed-drawing/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/deadpool-speed-drawing/</guid>
+			</item>
+		
+			<item>
 				<title>Make me pulse &amp;ndash; Voeux 2016</title>
 				
 				
@@ -259,18 +270,19 @@
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/greenpeace-la-flotte-a-la-barre-de-toutes-les-campagnes/</guid>
 			</item>
 		
+		
+		
 			<item>
-				<title>Social Wars &amp;ndash; Que le social data soit avec toi</title>
+				<title>A quoi pourra ressembler facebook dans 3 ans ?</title>
 				
 				
-					<description>Découvrez l'empreinte social media de Star Wars : Episode VII - Le Réveil de la Force. Un grand merci à Socialbakers, auteur de ce rapport interactif.</description>
+					<description>&lt;p&gt;Un début de réponse avec Canvas. Un outil de story telling destiné aux marques souhaitant mettre en scène leurs contenus sur Facebook avec un design augmenté.&lt;/p&gt;
+</description>
 				
-				<pubDate>Thu, 07 Jan 2016 02:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/social-wars-par-socialbakers/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/social-wars-par-socialbakers/</guid>
+				<pubDate>Fri, 22 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/a-quoi-pourra-ressembler-facebook-dans-3-ans/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/a-quoi-pourra-ressembler-facebook-dans-3-ans/</guid>
 			</item>
-		
-		
 		
 			<item>
 				<title>Framework CSS Milligram</title>
@@ -580,18 +592,6 @@ Dans la démo, trois règles sont activées avec des variables propres à chacun
 				<pubDate>Sun, 13 Dec 2015 03:00:00 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/note/je-vous-pr-sente-ally/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/je-vous-pr-sente-ally/</guid>
-			</item>
-		
-			<item>
-				<title>Le product design en 2015</title>
-				
-				
-					<description>&lt;p&gt;Impressionnante collection d’articles, d’essais et d’études concernant le product design en 2015. Un superbe travail réalisé par la team Atomic.io.&lt;/p&gt;
-</description>
-				
-				<pubDate>Sat, 12 Dec 2015 03:00:00 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/note/le-product-design-en-2015/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/le-product-design-en-2015/</guid>
 			</item>
 		
 	</channel>
