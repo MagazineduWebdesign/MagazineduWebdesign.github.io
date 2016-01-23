@@ -1,7 +1,7 @@
 ---
 layout: video_index
 title: "Vidéos &ndash; UI Design"
-tags: "videos-design"
+tags: "videos-ui-design"
 permalink: "/videos/ui-design/"
 intro: "Collection d'astuces en web design et démos d'interfaces."
 description: "Collection d'astuces en web design et démos d'interfaces"

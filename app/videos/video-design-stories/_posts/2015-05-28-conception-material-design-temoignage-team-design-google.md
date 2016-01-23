@@ -7,7 +7,7 @@ path2: "design-stories"
 path3:
 category: "videos"
 tags:
-- videos-design
+- videos-ui-design
 - videos-design-stories
 - videos-material-design
 intro: "Quelques témoignages de la team design de Google à l'origine du framework Material Design."

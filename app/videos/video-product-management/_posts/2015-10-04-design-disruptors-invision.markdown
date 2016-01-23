@@ -8,7 +8,7 @@ path3:
 category: "videos"
 tags:
 - videos-product-management
-- videos-design
+- videos-ui-design
 intro: "Découvrez comment le design est devenu le nouveau langage des affaires"
 description: "Découvrez comment le design est devenu le nouveau langage des affaires"
 id-vimeo: "140875675"
