@@ -10,7 +10,7 @@ layout: default
       <div class="column-header-article mod-header-article-no-margin-top row collapse">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline">{{ page.title }}</h1>
-          {% if page.intro %}<p class="subheader">{{ page.intro | markdownify }} {% if page.auteur %}(Via <a href="https://twitter.com/{{ page.auteur }}" title="@{{ page.auteur }}" target="_blank">@{{ page.auteur }}</a>){% endif %}</p>{% endif %}
+          {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
           {% if page.url-demo %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}

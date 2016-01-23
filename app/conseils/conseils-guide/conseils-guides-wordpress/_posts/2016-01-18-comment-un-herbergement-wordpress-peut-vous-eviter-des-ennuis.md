@@ -13,8 +13,7 @@ logo: "themecloud-logo.png"
 intro: "En tant que créateur de sites [WordPress](https://fr.wordpress.org/), vous avez sans doute une mission à remplir avec une date de mise en ligne précise. Il faut que vous soyez rapide, efficace et surtout rentable. Ce qui peut être une source de stress si on ne s'entoure pas des bons outils et d'une méthodologie adaptée.
 <br />
 <br />
-Le Magazine du Webdesign est fier de s'associer à la solution d'[hébergement WordPress Themecloud](https://www.themecloud.io/why-themecloud/#_l_29) afin d'explorer les process, les outils et les optimisations les plus adaptés pour créer efficacement et rapidement un site WordPress.
-"
+Le Magazine du Webdesign est fier de s'associer à la solution d'[hébergement WordPress Themecloud](https://www.themecloud.io/why-themecloud/#_l_29) afin d'explorer les process, les outils et les optimisations les plus adaptés pour créer efficacement et rapidement un site WordPress."
 image-no-cover-book: "themecloud-creation-hebergement-site-wordpress.jpg"
 description: "Exploration des process, des outils et des optimisations les plus adaptés pour créer efficacement et rapidement un site WordPress"
 ---

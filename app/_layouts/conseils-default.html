@@ -22,7 +22,7 @@ layout: default
           </div>
           <div class="small-12 large-5 columns small-text-center large-text-left">
             <h1 itemprop="headline">{{ page.title }}</h1>
-            {% if page.intro %}<p class="subheader">{{ page.intro | markdownify }}</p>{% endif %}
+            {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
             <div class="hide-for-large-up">
@@ -122,9 +122,7 @@ layout: default
                 {% endif %}
               </p>
               {% if page.intro %}
-                <p class="subheader" itemprop="reviewBody">
-                  {{ page.intro | markdownify }}
-                </p>
+                {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
               {% endif %}
             </div>
             {% if page.id-soundcloud %}
@@ -229,9 +227,7 @@ layout: default
                   {% endif %}
                 </p>
                 {% if page.intro %}
-                  <p class="subheader" itemprop="reviewBody">
-                    {{ page.intro | markdownify }}
-                  </p>
+                  {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
                 {% endif %}
               </div>
               {% if page.id-soundcloud %}
