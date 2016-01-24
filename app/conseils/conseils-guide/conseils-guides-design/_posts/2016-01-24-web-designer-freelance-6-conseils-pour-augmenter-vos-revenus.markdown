@@ -20,14 +20,14 @@ description: "Découvrez comment créer une source de revenus passifs en vous co
 Toute personne qui a déjà poussé une voiture en panne vous dira que les premiers mètres sont les plus difficiles. L'inertie s'applique aussi au monde des freelances : les revenus les plus difficiles à obtenir sont généralement les premiers. Tout devient plus facile après.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chien-1.gif" alt="Au début, ça pique toujours un peu." width="352" height="290">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chien-1.gif" alt="Au début, ça pique toujours un peu." width="352" height="290">
   <figcaption>Au début, ça pique toujours un peu.</figcaption>
 </figure>
 
 Voici un petit guide sur la façon de surmonter l'inertie des débuts. Il est fondé sur mes quelques aventures de freelance et sur ce que j'ai appris au cours de mes 5 années passées à côtoyer des créateurs et des responsables de projets web.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-raton-laveur-1.gif" alt="C'est cadeau" width="388" height="260">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-raton-laveur-1.gif" alt="C'est cadeau" width="388" height="260">
   <figcaption>C'est cadeau.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Cette expression peut également être utilisée pour décrire une piste "négat
 Dans son livre [Antifragile](http://www.amazon.fr/gp/product/2251444769/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=2251444769&linkCode=as2&tag=mdw-21), Nassim Taleb soutient que la meilleure façon pour une personne ou une organisation de devenir antifragile (tirer profit des échecs et des situations de chaos plutôt que de seulement y survivre) est d'abord de diminuer les inconvénients.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chat-2.gif" alt="F*** this ... & ..." width="350" height="310">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chat-2.gif" alt="F*** this ... & ..." width="350" height="310">
   <figcaption>F*** this ... & ...</figcaption>
 </figure>
 
@@ -111,11 +111,11 @@ Globalement, Wix ecommerce est adapté aux utilisateurs qui prendront le temps n
 
 #### L'éditeur de site
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-editeur-wix.jpg" alt="Editeur Wix" width="640" height="auto">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-editeur-wix.jpg" alt="Editeur Wix" width="640" height="auto">
   <figcaption>L'éditeur Wix en action</figcaption>
 </figure>
 
-Wix est un éditeur de site fonctionnant sur le mode canvas. Ce qui signifie que vous pouvez faire glisser un élément à n'importe quel endroit sur le site — à l'instar d'une présentation PowerPoint :
+Wix est un éditeur de site fonctionnant sur le mode canvas. Ce qui signifie que vous pouvez faire glisser un élément à n'importe quel endroit sur le site — à l'instar d'une présentation PowerPoint.
 
 Vous souhaitez insérer un bloc de texte en haut de page ? Pas de problème, Wix vous donne la possibilité de positionner n'importe quel élément là où bon vous semble via un simple glissé-déposé.
 
@@ -156,12 +156,12 @@ Toutes ces fonctionnalités à notre disposition est une excellente chose. Néan
 Voici deux exemples de templates Wix :
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-magasin-opticien.jpg" alt="template wix magasin opticien" width="640" height="auto">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-magasin-opticien.jpg" alt="template wix magasin opticien" width="640" height="auto">
   <figcaption>Template Wix magasin opticien</figcaption>
 </figure>
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-make-up.jpg" alt="template wix make up" width="640" height="auto">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-make-up.jpg" alt="template wix make up" width="640" height="auto">
   <figcaption>Template Wix portfolio make up</figcaption>
 </figure>
 
@@ -204,7 +204,7 @@ La création de site ecommerce sur Wix est destinée à ceux qui prendront le te
 Si vous pensez le contraire, demandez à vos camarades développeurs à combien s’élèverait la facture pour créer un site web ecommerce.
 
 <figure>
-  <img class="left" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chat-1.gif" alt="Leurs réponses pourraient vous déplaire" width="400" height="250">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chat-1.gif" alt="Leurs réponses pourraient vous déplaire" width="400" height="250">
   <figcaption>Leurs réponses pourraient vous déplaire.</figcaption>
 </figure>
 
