@@ -70,7 +70,7 @@ Peut être que je m'y suis pris mal, néanmoins, le business avec la famille et 
 ### Ne pas pratiquer le ❄ cold calling 📱
 
 On peut le définir comme des appels téléphoniques vers des personnes qui ne vous connaissent pas et qui n'ont jamais sollicité un appel de votre part.   
-C'est non seulement l'approche la plus pénible pour vous, mais également la plus ennuyeuse pour la personne recevant l'appel. Ce n'est vraiment pas efficace pour vendre des sites Web, sauf si vous avez beaucoup de temps à y consacrer. Vous pourrez peut être obtenir un client ou deux, mais au prix d'après-midi assis, le téléphone à la main, en regardant par la fenêtre. Ce n'est pas l'image que l'on se fait du quotidien en tant que freelance.
+C'est non seulement l'approche la plus pénible pour vous, mais également la plus ennuyeuse pour la personne recevant l'appel. Ce n'est vraiment pas efficace pour vendre des sites Web, sauf si vous avez beaucoup de temps à y consacrer. Vous pourrez peut être obtenir un client ou deux, mais au prix d'après-midis assis, le téléphone à la main, en regardant par la fenêtre. Ce n'est pas l'image que l'on se fait du quotidien en tant que freelance.
 
 ### Refuser les invitations aux meetups et autres événements de networking
 
