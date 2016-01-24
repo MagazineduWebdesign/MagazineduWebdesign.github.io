@@ -112,7 +112,7 @@ Globalement, Wix ecommerce est adapté aux utilisateurs qui prendront le temps n
 #### L'éditeur de site
 <figure>
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-editeur-wix.jpg" alt="Editeur Wix" width="640" height="auto">
-  <figcaption>L'éditeur Wix en action</figcaption>
+  <figcaption>L'éditeur Wix en action.</figcaption>
 </figure>
 
 Wix est un éditeur de site fonctionnant sur le mode canvas. Ce qui signifie que vous pouvez faire glisser un élément à n'importe quel endroit sur le site — à l'instar d'une présentation PowerPoint.
@@ -162,7 +162,7 @@ Voici deux exemples de templates Wix :
 
 <figure>
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-make-up.jpg" alt="template wix make up" width="640" height="auto">
-  <figcaption>Template Wix portfolio make up</figcaption>
+  <figcaption>Template Wix portfolio make up.</figcaption>
 </figure>
 
 Alors que la plupart des éditeurs de boutique en ligne vous permettent de modifier le choix de votre template, Wix ne le permet pas. Une fois que vous choisissez un template, vous devez faire avec. C'est une contrainte forte pour les indécis comme moi. Pour contrer ce problème, vous pouvez créer un deuxième projet et migrer les contenus de l'ancien vers le nouveau projet.
