@@ -14,7 +14,6 @@ intro: "En tant que créateur de sites [WordPress](https://fr.wordpress.org/), v
 <br />
 <br />
 Le Magazine du Webdesign est fier de s'associer à la solution d'[hébergement WordPress Themecloud](https://www.themecloud.io/why-themecloud/#_l_29) afin d'explorer les process, les outils et les optimisations les plus adaptés pour créer efficacement et rapidement un site WordPress."
-image-no-cover-book: "themecloud-creation-hebergement-site-wordpress.jpg"
 description: "Exploration des process, des outils et des optimisations les plus adaptés pour créer efficacement et rapidement un site WordPress"
 ---
 Notre priorité pour cet article a été d'identifier les workflows les plus populaires et les sources d'erreurs durant une phase de développement.
