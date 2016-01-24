@@ -147,7 +147,7 @@ Votre expérience sera différente en fonction des applications sélectionnées.
 
 Wix comprend également une fonctionnalité intéressante pour gagner du temps. Il s'agit de List Builder. Vous créez une base de données pour un type de répétition de contenu – par exemple : des événements, des vidéos, des recettes, des témoignages – et Wix créera automatiquement un back office pour vous permettre de les administrer.
 
-Wix propose de nombreuses options pour les galeries phots. Une excellente nouvelle si vous souhaitez mettre en vente des éléments de design.
+Wix propose de nombreuses options pour les galeries photos. Une excellente nouvelle si vous souhaitez mettre en vente des éléments de design.
 
 Toutes ces fonctionnalités à notre disposition est une excellente chose. Néanmoins, il est parfois frustrant de devoir explorer un grand nombre d'options avant de trouver la bonne.
 
@@ -157,7 +157,7 @@ Voici deux exemples de templates Wix :
 
 <figure>
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-template-wix-magasin-opticien.jpg" alt="template wix magasin opticien" width="640" height="auto">
-  <figcaption>Template Wix magasin opticien</figcaption>
+  <figcaption>Template Wix magasin opticien.</figcaption>
 </figure>
 
 <figure>
