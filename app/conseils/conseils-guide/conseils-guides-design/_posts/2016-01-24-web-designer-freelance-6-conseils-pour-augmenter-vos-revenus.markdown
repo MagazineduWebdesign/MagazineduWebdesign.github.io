@@ -31,7 +31,7 @@ Voici un petit guide sur la façon de surmonter l'inertie des débuts. Il est fo
   <figcaption>C'est cadeau.</figcaption>
 </figure>
 
-Nous verrons notamment comment une solution de création de [site e-commerce](http://fr.wix.com/ecommerce/site-vente-en-ligne) peut être une excellente source de revenus pour démarrer une activité en freelance. Découvrez pourquoi dans quelques paragraphes.
+Nous verrons notamment comment une solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank">site ecommerce</a> peut être une excellente source de revenus pour démarrer une activité en freelance. Découvrez pourquoi dans quelques paragraphes.
 
 ##Via negativa – augmenter votre bien être par la soustraction
 
@@ -40,7 +40,7 @@ Via negativa est une expression latine utilisée dans la théologie chrétienne 
 Cette expression peut également être utilisée pour décrire une piste "négative" d'amélioration du quotidien ; au lieu de se concentrer sur ce que vous faites, l'attention se tourne vers ce que vous ne faites pas. Ce chemin a deux axes principaux : supprimer les mauvaises habitudes et les situations stériles du quotidien, et apprendre à les éviter en premier lieu.
 
 ### Exploiter le chaos et ses échecs personnels
-Dans son livre [Antifragile](http://www.amazon.fr/gp/product/2251444769/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=2251444769&linkCode=as2&tag=mdw-21), Nassim Taleb soutient que la meilleure façon pour une personne ou une organisation de devenir antifragile (tirer profit des échecs et des situations de chaos plutôt que de seulement y survivre) est d'abord de diminuer les inconvénients.
+Dans son livre <a href="http://www.amazon.fr/gp/product/2251444769/ref=as_li_tl?ie=UTF8&amp;camp=1642&amp;creative=6746&amp;creativeASIN=2251444769&amp;linkCode=as2&amp;tag=mdw-21" target="_blank">Antifragile</a>, Nassim Taleb soutient que la meilleure façon pour une personne ou une organisation de devenir antifragile (tirer profit des échecs et des situations de chaos plutôt que de seulement y survivre) est d'abord de diminuer les inconvénients.
 
 <figure>
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-chat-2.gif" alt="F*** this ... & ..." width="350" height="310">
@@ -88,7 +88,7 @@ Pour de nombreux designers, gagner du temps se traduit par le fait d'acheter des
 
 A moins d'avoir les compétences techniques nécessaires pour mettre en place une plateforme ecommerce, tirer profit de ce marché en tant que freelance débutant s'avère difficile. La seule solution est de vendre ses propres créations via des marketplaces qui se prennent de généreuses commissions sur votre dos.
 
-C'est là que la solution de création de [site e-commerce](http://fr.wix.com/ecommerce/site-vente-en-ligne) Wix peut être utile. Vous avez des ressources à vendre (icônes, templates, fonts, etc.), mais pas forcément les compétences techniques pour mettre en place une boutique en ligne et pas l'envie de laisser 30% de vos revenus à une marketplace.
+C'est là que la solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank">site ecommerce</a> Wix peut être utile. Vous avez des ressources à vendre (icônes, templates, fonts, etc.), mais pas forcément les compétences techniques pour mettre en place une boutique en ligne et pas l'envie de laisser 30% de vos revenus à une marketplace.
 
 ### Une solution d'hébergement et de création de site ecommerce clés en main
 
