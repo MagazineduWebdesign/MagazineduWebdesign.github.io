@@ -10,7 +10,7 @@ tags: "guides-design"
 by: "MDW + WIX"
 by-url: "http://fr.wix.com/ecommerce/site-vente-en-ligne"
 logo: "logo-wix.png"
-intro: "Nous avons tous entendu dans notre entourage des histoires de personnes quittant leur CDI pour se lancer dans l'aventure du design freelance. En général, ce type d'aventure m'évoque un designer plein d'ambition souhaitant construire un empire à partir de pas grand chose. J'admire ce type de personnes.
+intro: "Nous avons tous entendu dans notre entourage des histoires de personnes quittant leur CDI pour se lancer dans l'aventure du design en tant que freelance. En général, ce type d'aventure m'évoque un designer plein d'ambition souhaitant construire un empire à partir de pas grand chose. J'admire ce type de personnes.
 <br />
 <br />
 Ceux qui choisissent cette voie possèdent une ambition exemplaire. Néanmoins, cela nécessite également un mélange unique de stratégie et de ténacité. Ce n'est pas simple de faire évoluer un business constitué d'une personne en une entreprise gérant des dizaines d'employés et clients."
@@ -58,13 +58,17 @@ Un autre point à noter concernant ces inconvénients est qu'ils sont consommate
 
 Lorsque j'ai commencé à designer et développer des sites Web en tant que freelance, je suis allé au plus simple, en prospectant directement auprès de mon entourage. Dans les premiers temps, j'étais très satisfait de ces premiers clients, mais il s'est avéré qu'ils étaient également de véritable boulets pour ma productivité. Le genre de projet qui ne finit jamais car vous ne savez pas comment dire non à un proche.
 
-<blockquote>
-  Ok, je vais le faire, je vais le faire !
-  <cite>Studio Bagel</cite>
-</blockquote>
+<figure class="figure-video mod-note-video">
+  <div class="note-flex-video widescreen">
+    <iframe src="https://www.youtube.com/embed/8HEt2FhpgdI?showinfo=0&modestbranding=1&controls=2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+  <div class="row collapse">
+    <div class="small-12 columns">
+      <figcaption>Ok, je vais le faire, je vais le faire !</figcaption>
+    </div>
+  </div>
+</figure>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/8HEt2FhpgdI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-<br />
 Peut être que je m'y suis pris mal, néanmoins, le business avec la famille et les proches est une approche que je ne vous recommande pas.
 
 ### Ne pas pratiquer le ❄ cold calling 📱
