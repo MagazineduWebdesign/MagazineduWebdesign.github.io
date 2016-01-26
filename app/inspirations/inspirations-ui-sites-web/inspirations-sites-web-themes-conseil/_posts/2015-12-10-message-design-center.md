@@ -33,5 +33,5 @@ image: "inspiration-ui-design-site-web-message-design-center-1.jpg"
 image-2: "inspiration-ui-design-site-web-message-design-center-2.jpg"
 image-3: "inspiration-ui-design-site-web-message-design-center-3.jpg"
 intro: "Très cool l'effet de survol et de transition texte/image."
-description: "Très cool l'effet de survol et de transition texte/image."
+description: "Inspiration web design – Très cool l'effet de survol et de transition texte/image."
 ---

@@ -22,5 +22,5 @@ url-demo: "http://c1.goote.ch/7e117c486ba34ac99eb4b6a67ed69e3e.scene/?ref=Magazi
 image: "inspiration-ui-design-site-web-weirdo-animal-1.jpg"
 image-2: "inspiration-ui-design-site-web-weirdo-animal-2.jpg"
 intro: "Une démo WebGL étonnante où il est possible de piloter un ours."
-description: "Une démo ThreeJS étonnante où il est possible de piloter un ours."
+description: "Inspiration web design – Une démo ThreeJS étonnante où il est possible de piloter un ours."
 ---

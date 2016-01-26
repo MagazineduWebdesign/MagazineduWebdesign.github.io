@@ -43,5 +43,5 @@ image: "inspiration-ui-design-site-web-make-me-pulse-voeux-2016-1.jpg"
 image-2: "inspiration-ui-design-site-web-make-me-pulse-voeux-2016-2.jpg"
 image-3: "inspiration-ui-design-site-web-make-me-pulse-voeux-2016-3.jpg"
 intro: "Bien cool les voeux 2016 de Make Me Pulse."
-description: "Bien cool les voeux 2016 de Make Me Pulse."
+description: "Inspiration web design – Bien cool les voeux 2016 de Make Me Pulse."
 ---

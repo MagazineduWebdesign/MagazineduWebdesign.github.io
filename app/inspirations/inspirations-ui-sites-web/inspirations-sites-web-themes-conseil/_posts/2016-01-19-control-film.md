@@ -33,5 +33,5 @@ image: "inspiration-ui-design-site-web-control-films-production-video-commercial
 image-2: "inspiration-ui-design-site-web-control-films-production-video-commerciale-paris-2.jpg"
 image-3: "inspiration-ui-design-site-web-control-films-production-video-commerciale-paris-3.jpg"
 intro: "Une belle animation typographique et des transitions de navigation tout en douceur pour ce portfolio d'agence de production vidéo parisienne."
-description: "Une belle animation typographique et des transitions de navigation tout en douceur pour ce portfolio d'agence de production vidéo parisienne."
+description: "Inspiration web design – Une belle animation typographique et des transitions de navigation tout en douceur pour ce portfolio d'agence de production vidéo parisienne."
 ---

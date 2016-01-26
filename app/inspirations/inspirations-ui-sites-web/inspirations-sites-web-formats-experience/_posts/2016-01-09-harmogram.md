@@ -35,5 +35,5 @@ url-demo: "http://www.harmogram.com/?ref=magazineduwebdesign"
 image: "inspiration-ui-design-site-web-harmogram-1.jpg"
 image-2: "inspiration-ui-design-site-web-harmogram-2.jpg"
 intro: "Une sympathique expérience audiovisuelle propulsée par l'API HTML5 audio et Paper.js."
-description: "Une sympathique expérience audiovisuelle propulsée par l'API HTML5 audio et Paper.js."
+description: "Inspiration web design – Une sympathique expérience audiovisuelle propulsée par l'API HTML5 audio et Paper.js."
 ---

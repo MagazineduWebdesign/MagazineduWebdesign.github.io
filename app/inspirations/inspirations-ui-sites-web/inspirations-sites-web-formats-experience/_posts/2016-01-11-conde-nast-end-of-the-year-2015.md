@@ -39,5 +39,5 @@ image-2: "inspiration-ui-design-site-web-conde-nast-end-of-the-year-2015-2.jpg"
 image-3: "inspiration-ui-design-site-web-conde-nast-end-of-the-year-2015-3.jpg"
 image-4: "inspiration-ui-design-site-web-conde-nast-end-of-the-year-2015-4.jpg"
 intro: "En plus de s'offrir 23 étages dans le World Trade Center, Condé Nast se fait plaisir avec un rapport interactif 2015 plein de charme. La navigation en scroll horziontal est un peu déroutante mais certains contenus valent quelques tours de molettes 🐀. Et le layout ne fait pas PowerPoint 👊."
-description: "En plus de s'offrir 23 étages dans le World Trade Center, Condé Nast se fait plaisir avec un rapport interactif 2015 plein de charme."
+description: "Inspiration web design – En plus de s'offrir 23 étages dans le World Trade Center, Condé Nast se fait plaisir avec un rapport interactif 2015 plein de charme."
 ---

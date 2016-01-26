@@ -36,5 +36,5 @@ image: "inspiration-ui-design-site-web-social-wars-1.jpg"
 image-2: "inspiration-ui-design-site-web-social-wars-2.jpg"
 image-3: "inspiration-ui-design-site-web-social-wars-3.jpg"
 intro: "Découvrez l'empreinte social media de Star Wars : Episode VII - Le Réveil de la Force. Un grand merci à Socialbakers, auteur de ce rapport interactif."
-description: "Découvrez l'empreinte social media de Star Wars : Episode VII - Le Réveil de la Force. Un grand merci à Socialbakers, auteur de ce rapport interactif."
+description: "Inspiration web design – Découvrez l'empreinte social media de Star Wars : Episode VII - Le Réveil de la Force. Un grand merci à Socialbakers, auteur de ce rapport interactif."
 ---

@@ -43,5 +43,5 @@ url-demo: "http://thisisarc.com/?ref=MagazineDuWebdesign"
 image: "thisisarc.jpg"
 image-2:
 intro: "Sublimes transitions de navigation lors du scroll."
-description: "Sublimes transitions de navigation lors du scroll"
+description: "Inspiration web design – Sublimes transitions de navigation lors du scroll"
 ---

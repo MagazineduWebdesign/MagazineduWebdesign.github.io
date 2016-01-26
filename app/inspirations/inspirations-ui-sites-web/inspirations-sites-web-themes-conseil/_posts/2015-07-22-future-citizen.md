@@ -60,5 +60,5 @@ url-demo: "http://ftrctzn.com/"
 image: "future-citizen-1.jpg"
 image-2:
 intro:
-description:
+description: "Inspiration web design – portfolio made in webgl."
 ---

@@ -32,5 +32,5 @@ url-demo: "http://tennentbrown.co.nz/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-tennent-brown-architects-1.jpg"
 image-2: "inspiration-ui-design-site-web-tennent-brown-architects-2.jpg"
 intro: "La typographie crée une belle perspective dans la page. Une mise en page à la fois destructurée et équilibrée."
-description: "La typographie crée une belle perspective dans la page. Une mise en page à la fois destructurée et équilibrée."
+description: "Inspiration web design – La typographie crée une belle perspective dans la page. Une mise en page à la fois destructurée et équilibrée."
 ---

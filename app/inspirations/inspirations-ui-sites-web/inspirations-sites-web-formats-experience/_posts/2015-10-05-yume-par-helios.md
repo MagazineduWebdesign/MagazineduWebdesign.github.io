@@ -63,5 +63,5 @@ url-demo: "http://unseen-music.com/yume/"
 image: "unseen-music-yume.jpg"
 image-2:
 intro: "Expérience interactive pour explorer les dernières créations musicales du studio Unseen Music."
-description: "Expérience interactive pour explorer les dernières créations musicales du studio Unseen Music."
+description: "Inspiration web design – Expérience interactive pour explorer les dernières créations musicales du studio Unseen Music."
 ---

@@ -35,5 +35,5 @@ image: "inspiration-ui-design-site-web-because-recollection.jpg"
 image-2: "inspiration-ui-design-site-web-because-recollection-2.jpg"
 image-2: "inspiration-ui-design-site-web-because-recollection-3.jpg"
 intro: "❤ Crazyyy."
-description: "❤ Crazyyy."
+description: "Inspiration web design – ❤ Crazyyy."
 ---

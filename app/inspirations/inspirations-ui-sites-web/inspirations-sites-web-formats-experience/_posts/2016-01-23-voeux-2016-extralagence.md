@@ -26,5 +26,5 @@ image: "inspiration-ui-design-site-web-voeux-2016-extralagence-1.jpg"
 image-2: "inspiration-ui-design-site-web-voeux-2016-extralagence-2.jpg"
 image-3: "inspiration-ui-design-site-web-voeux-2016-extralagence-3.jpg"
 intro: "Extra vous souhaite une année presque parfaite, sans sueurs froides, sans psychose inutile."
-description: "Extra vous souhaite une année presque parfaite, sans sueurs froides, sans psychose inutile."
+description: "Inspiration web design – Extra vous souhaite une année presque parfaite, sans sueurs froides, sans psychose inutile."
 ---

@@ -40,5 +40,5 @@ url-demo: "http://christmasexperiments.com/xps/19/deerxmas/?ref=magazineduwebdes
 image: "inspiration-ui-design-site-web-christmas-experiments-1.jpg"
 image-2: "inspiration-ui-design-site-web-christmas-experiments-2.jpg"
 intro: "Un calendrier de l'avent fait par des devartistes. Un jour, une expérience. ❤ Le bon son."
-description: "Un calendrier de l'avent fait par des devartistes. Un jour, une expérience. ❤ Le bon son."
+description: "Inspiration web design – Un calendrier de l'avent fait par des devartistes. Un jour, une expérience. ❤ Le bon son."
 ---

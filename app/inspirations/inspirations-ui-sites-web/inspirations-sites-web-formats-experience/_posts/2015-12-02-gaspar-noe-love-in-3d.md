@@ -34,5 +34,5 @@ url-demo: "http://sonsofgallipoli.com/?ref=magazineduwebdesign"
 image: "inspiration-ui-design-site-web-let-s-make-love-1.jpg"
 image-2: "inspiration-ui-design-site-web-let-s-make-love-2.jpg"
 intro: "❤ interaction & drag and drop."
-description: "❤ interaction & drag and drop."
+description: "Inspiration web design – ❤ interaction & drag and drop."
 ---

@@ -29,5 +29,5 @@ image: "inspiration-ui-design-site-web-voeux-2016-sweet-punk-1.jpg"
 image-2: "inspiration-ui-design-site-web-voeux-2016-sweet-punk-2.jpg"
 image-3: "inspiration-ui-design-site-web-voeux-2016-sweet-punk-3.jpg"
 intro: "Une carte de voeux WebGL pour atteindre le Nirvana grâce à [ThreeJS](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/technologies/threejs/). Sympa la détection du visage avec la Webcam."
-description: "Une carte de voeux WebGL pour atteindre le Nirvana grâce à ThreeJS. Sympa la détection du visage avec la Webcam."
+description: "Inspiration web design – Une carte de voeux WebGL pour atteindre le Nirvana grâce à ThreeJS. Sympa la détection du visage avec la Webcam."
 ---

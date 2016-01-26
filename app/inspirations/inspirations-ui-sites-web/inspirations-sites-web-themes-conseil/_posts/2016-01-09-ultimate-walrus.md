@@ -40,5 +40,5 @@ image-2: "inspiration-ui-design-site-web-ultimate-walrus-2.jpg"
 image-3: "inspiration-ui-design-site-web-ultimate-walrus-3.jpg"
 image-4: "inspiration-ui-design-site-web-ultimate-walrus-4.jpg"
 intro: "Oui, c'est un site web. Etrange merveille. Il y a de quoi s'amuser dans cette interface dont les teintes et la luminosité s'adaptent en fonction de l'heure."
-description: "Oui, c'est un site web. Etrange merveille. Il y a de quoi s'amuser dans cette interface dont les teintes et la luminosité s'adaptent en fonction de l'heure."
+description: "Inspiration web design – Oui, c'est un site web. Etrange merveille. Il y a de quoi s'amuser dans cette interface dont les teintes et la luminosité s'adaptent en fonction de l'heure."
 ---

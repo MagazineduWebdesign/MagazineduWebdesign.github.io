@@ -43,5 +43,5 @@ url-demo: "http://www.connecter.co/"
 image: "connecter-1.jpg"
 image-2: "connecter-2.jpg"
 intro:
-description:
+description: "Inspiration web design – Des animations et des transitions de pages originales qui donnent envie d'explorer le contenu du site web."
 ---

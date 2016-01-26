@@ -37,5 +37,5 @@ image-2: "inspiration-ui-design-site-web-fifty-years-martinagency-2.jpg"
 image-3: "inspiration-ui-design-site-web-fifty-years-martinagency-3.jpg"
 image-4: "inspiration-ui-design-site-web-fifty-years-martinagency-4.jpg"
 intro: "Exemple de frise chronologique représentant les 50 années de travail de l'agence Martin."
-description: "Exemple de frise chronologique (timeline) représentant les 50 années de travail de l'agence Martin."
+description: "Inspiration web design – Exemple de frise chronologique (timeline) représentant les 50 années de travail de l'agence Martin."
 ---

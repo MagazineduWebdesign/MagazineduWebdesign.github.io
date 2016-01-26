@@ -43,5 +43,5 @@ url-demo: "http://yamadesignlab.com/index.html"
 image: "yamadesignlab.jpg"
 image-2:
 intro:
-description:
+description: "Inspiration web design – Sympathique portfolio du studio de design chinois Yama design lab"
 ---

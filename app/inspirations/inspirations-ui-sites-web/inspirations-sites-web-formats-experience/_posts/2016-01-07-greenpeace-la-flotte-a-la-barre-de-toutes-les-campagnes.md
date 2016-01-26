@@ -54,5 +54,5 @@ image-4: "inspiration-ui-design-site-web-greenpeace-la-flotte-a-la-barre-de-tout
 image-5: "inspiration-ui-design-site-web-greenpeace-la-flotte-a-la-barre-de-toutes-les-campagnes-4.jpg"
 image-6: "inspiration-ui-design-site-web-greenpeace-la-flotte-a-la-barre-de-toutes-les-campagnes-6.jpg"
 intro: "Un design soigné pour mettre en scène l'épopée de la flotte Greenpeace depuis 40 ans. Embarquez sur leurs bateaux. Bottes et cirés conseillés."
-description: "Un design soigné pour mettre en scène l'épopée de la flotte Greenpeace depuis 40 ans. Embarquez sur leurs bateaux. Bottes et cirés conseillés."
+description: "Inspiration web design – Un design soigné pour mettre en scène l'épopée de la flotte Greenpeace depuis 40 ans. Embarquez sur leurs bateaux. Bottes et cirés conseillés."
 ---

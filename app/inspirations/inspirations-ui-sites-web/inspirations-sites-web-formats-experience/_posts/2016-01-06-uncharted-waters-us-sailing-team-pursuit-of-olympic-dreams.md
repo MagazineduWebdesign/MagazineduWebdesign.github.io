@@ -38,5 +38,5 @@ image-3: "inspiration-ui-design-site-web-uncharted-waters-us-sailing-team-pursui
 image-4: "inspiration-ui-design-site-web-uncharted-waters-us-sailing-team-pursuit-of-olympic-dreams-4.jpg"
 image-5: "inspiration-ui-design-site-web-uncharted-waters-us-sailing-team-pursuit-of-olympic-dreams-5.jpg"
 intro: "Suivez l'aventure d'athlètes et de para-athlètes de l'équipe Sperry dans leur quête des épreuves olympiques de voile."
-description: "Suivez l'aventure d'athlètes et de para-athlètes de l'équipe Sperry dans leur quête des épreuves olympiques de voile."
+description: "Inspiration web design – Suivez l'aventure d'athlètes et de para-athlètes de l'équipe Sperry dans leur quête des épreuves olympiques de voile."
 ---

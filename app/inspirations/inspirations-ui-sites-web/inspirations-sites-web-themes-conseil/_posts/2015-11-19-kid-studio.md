@@ -36,5 +36,5 @@ image: "Kid-Studio-Reel-2015-inspiration-webdesign-1.jpg"
 image-2: "Kid-Studio-Reel-2015-inspiration-webdesign-2.jpg"
 image-3: "Kid-Studio-Reel-2015-inspiration-webdesign-3.jpg"
 intro: "Des belles persepctives interactives pour ce portfolio."
-description: "Des belles persepctives interactives pour ce portfolio."
+description: "Inspiration web design – Des belles persepctives interactives pour ce portfolio."
 ---

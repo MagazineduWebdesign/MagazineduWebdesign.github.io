@@ -61,6 +61,6 @@ composant-ui-url-7:
 url-demo: "http://www.thehappyforecast.com/"
 image: "happy-forecast-1.jpg"
 image-2: "happy-forecast-2.jpg"
-intro:
-description:
+intro: "L'humeur par quartier à Londres. Une belle expérience interactive."
+description: "Inspiration web design – L'humeur par quartier à Londres. Une belle expérience interactive."
 ---

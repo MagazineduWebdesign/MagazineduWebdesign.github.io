@@ -25,5 +25,5 @@ element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/navigation-scro
 url-demo: "http://www.adriaanmellegers.com/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-studio-adriaan-mellegers-1.jpg"
 intro: "La navigation sur deux axes est intéressante."
-description: "La navigation sur deux axes est intéressante."
+description: "Inspiration web design – La navigation sur deux axes est intéressante."
 ---

@@ -39,5 +39,5 @@ image-2: "inspiration-ui-design-site-web-sons-of-gallipoli-2.jpg"
 image-3: "inspiration-ui-design-site-web-sons-of-gallipoli-3.jpg"
 image-4: "inspiration-ui-design-site-web-sons-of-gallipoli-4.jpg"
 intro: "L'histoire tragique de la bataille de Gallipoli racontée par deux mères. Un film historique très joliment mise en interactivité par la team Jam3. ❤ pour la navigation circulaire."
-description: "L'histoire tragique de la bataille de Gallipoli racontée par deux mères. Un film historique très joliment mise en interactivité par la team Jam3."
+description: "Inspiration web design – L'histoire tragique de la bataille de Gallipoli racontée par deux mères. Un film historique très joliment mise en interactivité par la team Jam3."
 ---

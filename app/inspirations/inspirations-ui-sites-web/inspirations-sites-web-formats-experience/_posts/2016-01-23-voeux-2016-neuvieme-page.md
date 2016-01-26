@@ -27,5 +27,5 @@ technologie-url-2: "/inspirations/ui-design/sites-web/technologies/webgl/"
 url-demo: "https://2016.neuviemepage.com/?ref=magazineduwebdesign"
 image: "inspiration-ui-design-site-web-voeux-2016-neuvieme-page-1.jpg"
 intro: "Délire total avec cette expérience WebGL où votre tête fait office de curseur."
-description: "Délire total avec cette expérience WebGL où votre tête fait office de curseur."
+description: "Inspiration web design – Délire total avec cette expérience WebGL où votre tête fait office de curseur."
 ---

@@ -22,5 +22,5 @@ composant-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/fiche-proje
 url-demo: "http://www.gidmotion.com/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-gid-motion-1.jpg"
 intro: "Sympa l'effet de fluide."
-description: "Sympa l'effet de fluide."
+description: "Inspiration web design – Sympa l'effet de fluide."
 ---

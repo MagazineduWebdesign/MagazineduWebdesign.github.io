@@ -35,5 +35,5 @@ image: "inspiration-ui-design-site-web-lario-living-1.jpg"
 image-2: "inspiration-ui-design-site-web-lario-living-2.jpg"
 image-3: "inspiration-ui-design-site-web-lario-living-3.jpg"
 intro: "Clean & italien."
-description: "Clean & italien."
+description: "Inspiration web design – Clean & italien."
 ---

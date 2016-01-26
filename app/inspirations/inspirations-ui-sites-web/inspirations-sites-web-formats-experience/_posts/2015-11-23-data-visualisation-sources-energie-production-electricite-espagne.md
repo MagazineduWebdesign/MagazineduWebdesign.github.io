@@ -22,5 +22,5 @@ url-demo: "http://energia.ningunaparte.net/en/?ref=MagazineduWebdesign"
 image: "inspiration-ui-design-data-visualisation-sources-generation-electrique-espagne.jpg"
 image-2:
 intro: "Mise en scène des sources d'énergie permettant la production d'électricité en Espagne durant les 24 dernières heures."
-description: "Mise en scène des sources d'énergie permettant la production d'électricité en Espagne durant les 24 dernières heures."
+description: "Inspiration web design – Mise en scène des sources d'énergie permettant la production d'électricité en Espagne durant les 24 dernières heures."
 ---
