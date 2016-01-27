@@ -11,7 +11,7 @@ intro: "Dans cet excellent podcast, Thierry Pigot explore les [habitudes et les 
 no-soundcloud: "http://veryfrenchtrip.com/podcast/podcast-17-freelance-wordpress-2/?ref=Magazineduwebdesign"
 id-soundcloud:
 by: "very french trip"
-logo: "logo-very-french-trip-wordpress-podcast.jpg"
+logo: "logo-very-french-trip-wordpress-podcast.jpeg"
 by-url: "http://veryfrenchtrip.com/?ref=Magazineduwebdesign"
 description: "Dans cet excellent podcast, Thierry Pigot explore les habitudes et les problématiques du quotidien de deux freelances français développant des sites Web WordPress."
 ---
