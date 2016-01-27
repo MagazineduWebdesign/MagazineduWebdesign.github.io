@@ -29,4 +29,4 @@ description: "Dans cet excellent podcast, Thierry Pigot explore les habitudes et
 * Client ;
 * Changer de statut.
 
-Si ce n'est pas déjà fait, n'oubliez l'excellent article rédigé en partenariat avec Wix concernant les [conseils pour augmenter ses revenus en tant que web designer freelance](http://www.magazineduwebdesign.com/conseils/guides/web-designer-freelance-6-conseils-pour-augmenter-vos-revenus/).
+Si ce n'est pas déjà fait, n'oubliez pas l'excellent article rédigé en partenariat avec Wix concernant les [conseils pour augmenter ses revenus en tant que web designer freelance](http://www.magazineduwebdesign.com/conseils/guides/web-designer-freelance-6-conseils-pour-augmenter-vos-revenus/).
