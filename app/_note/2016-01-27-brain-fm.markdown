@@ -1,0 +1,13 @@
+---
+title: "Brain.fm App &ndash; AI music"
+date: "2016-01-27 05:00:00"
+source-name:
+source-url: "https://www.brain.fm/?ref=magazineduwebdesign"
+image: "inspiration-ui-design-site-web-brain-fm.jpg"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+Musique générée artificiellement pour améliorer la concentration, la relaxation et le sommeil #useful.
