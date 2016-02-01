@@ -7,6 +7,28 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Details</title>
+				
+				
+					<description>Des animations typographiques et en background qui donnent à ce portfolio d'agence digital suisse une identité à part entière. Le bleu habille subtilement le reste de l'interface.</description>
+				
+				<pubDate>Mon, 01 Feb 2016 05:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/details/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/details/</guid>
+			</item>
+		
+			<item>
+				<title>Area 17</title>
+				
+				
+					<description>Un design minimaliste pour ce portfolio de l'agence digital Area 17.</description>
+				
+				<pubDate>Mon, 01 Feb 2016 04:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/area-17/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/area-17/</guid>
+			</item>
+		
+			<item>
 				<title>Freelance WordPress &amp;ndash; Quel quotidien ?</title>
 				
 				
@@ -246,28 +268,6 @@
 				<pubDate>Mon, 18 Jan 2016 07:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/videos/i-am-clim-reel-2015/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/i-am-clim-reel-2015/</guid>
-			</item>
-		
-			<item>
-				<title>1DDCB – Chaos Géométrique</title>
-				
-				
-					<description>1DDCB se compose de plusieurs plans de structures quadri-feuilles, qui se subdivisent de façon récursive en motifs aléatoires. Les sommets de chaque cellule d'un quadri-feuille sont utilisés comme source pour générer des diagrammes de Voronoï. Welcome Chaos.</description>
-				
-				<pubDate>Mon, 18 Jan 2016 01:00:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/1DDCB/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/1DDCB/</guid>
-			</item>
-		
-			<item>
-				<title>UX designer, vous ne pouvez pas designer l'expérience ! Designer pour l'expérience.</title>
-				
-				
-					<description>Daniel Makoski &amp;ndash; design pirate chez Google &amp;ndash; co-crée des produits à la pointe de l'innovation en combinant son expérience dans la conception d'interaction et la collaboration constructive entre les entreprises et les personnes qui les inspirent à innover.</description>
-				
-				<pubDate>Mon, 18 Jan 2016 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/ux-design-designer-pour-l-experience/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/ux-design-designer-pour-l-experience/</guid>
 			</item>
 		
 		
