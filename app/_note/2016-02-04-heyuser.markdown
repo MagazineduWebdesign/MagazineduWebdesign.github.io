@@ -1,0 +1,14 @@
+---
+title: "Hey user &ndash Showcase vidéo d'appli mobiles"
+date: "2016-02-04 05:00:00"
+source-name:
+source-url: "http://heyuser.com/?ref=MagazineDuWebdesign"
+image: "inspiration-ui-design-site-web-hey-user-galerie-video-onboarding-app-mobile.png"
+image-legende:
+id-youtube:
+id-vimeo:
+id-soundcloud:
+video-legende:
+---
+
+Une galerie vidéo mettant en scène des parcours d'onboarding d'applications mobiles. Parfait pour être inspirer.
