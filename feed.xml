@@ -7,6 +7,39 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Jonathan Sobota</title>
+				
+				
+					<description>Portfolio du web designer français Jonathan Sobota. Sympa le reflet sur les cartes.</description>
+				
+				<pubDate>Thu, 04 Feb 2016 06:27:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sobota-webdesigner/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sobota-webdesigner/</guid>
+			</item>
+		
+			<item>
+				<title>Canada is cool &amp;ndash; Again</title>
+				
+				
+					<description>Un hommage à tous les talents canadiens.</description>
+				
+				<pubDate>Thu, 04 Feb 2016 06:20:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/canada-is-cool/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/canada-is-cool/</guid>
+			</item>
+		
+			<item>
+				<title>Hybrid Studio</title>
+				
+				
+					<description>Portfolio de Hybrid studio avec des effets 3D bien sympathiques.</description>
+				
+				<pubDate>Thu, 04 Feb 2016 05:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hybrid-studio/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hybrid-studio/</guid>
+			</item>
+		
+			<item>
 				<title>Hotchkiss</title>
 				
 				
@@ -237,40 +270,19 @@
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mirage-festival/</guid>
 			</item>
 		
-			<item>
-				<title>V O I D &amp;ndash; Chapitre II</title>
-				
-				
-					<description>La suite de l'expérience WebGL [V O I D chapitre 1](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/void-elements/).</description>
-				
-				<pubDate>Fri, 22 Jan 2016 10:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/void-ii/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/void-ii/</guid>
-			</item>
+		
 		
 			<item>
-				<title>Deadpool Speed Drawing</title>
+				<title>Hey user &amp;ndash Showcase vidéo d'appli mobiles</title>
 				
 				
-					<description>Clean, ça donne envie de dessiner tous les super héros.</description>
+					<description>&lt;p&gt;Une galerie vidéo mettant en scène des parcours d’onboarding d’applications mobiles. Parfait pour être inspirer.&lt;/p&gt;
+</description>
 				
-				<pubDate>Thu, 21 Jan 2016 06:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/deadpool-speed-drawing/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/deadpool-speed-drawing/</guid>
+				<pubDate>Thu, 04 Feb 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/hey-user-ndash-showcase-vid-o-d-appli-mobiles/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/hey-user-ndash-showcase-vid-o-d-appli-mobiles/</guid>
 			</item>
-		
-			<item>
-				<title>Make me pulse &amp;ndash; Voeux 2016</title>
-				
-				
-					<description>Bien cool les voeux 2016 de Make Me Pulse.</description>
-				
-				<pubDate>Thu, 21 Jan 2016 04:55:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/make-me-pulse-voeux-2016/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/make-me-pulse-voeux-2016/</guid>
-			</item>
-		
-		
 		
 			<item>
 				<title>The dancer &amp;ndash; Hypnotique</title>
@@ -582,18 +594,6 @@ Dans la démo, trois règles sont activées avec des variables propres à chacun
 				<pubDate>Mon, 14 Dec 2015 05:00:01 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</guid>
-			</item>
-		
-			<item>
-				<title>Il faut bien commencer quelque part</title>
-				
-				
-					<description>&lt;p&gt;Un excellent rappel de ce cher Tobias van Schneider. Les personnes qui réussissent ont toutes commencé quelque part et commis un grand nombre d’erreurs avant de remporter leurs premières victoires.&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 08:00:00 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/note/il-faut-bien-commencer-quelque-part/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/il-faut-bien-commencer-quelque-part/</guid>
 			</item>
 		
 	</channel>
