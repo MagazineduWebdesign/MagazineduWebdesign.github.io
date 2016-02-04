@@ -1,5 +1,5 @@
 ---
-title: "Hey user &ndash Showcase vidéo d'appli mobiles"
+title: "Hey user &ndash; Showcase vidéo d'appli mobiles"
 date: "2016-02-04 05:00:00"
 source-name:
 source-url: "http://heyuser.com/?ref=MagazineDuWebdesign"
