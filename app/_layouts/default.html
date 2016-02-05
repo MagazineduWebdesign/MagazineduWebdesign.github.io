@@ -50,7 +50,18 @@ http://magazineduwebdesign.com/emploi/
     {{ content }}
 
     {% include footer.html %}
-    
+
+    <!-- Spoutable popin
+    ================================================== -->
+    <script type='text/javascript'>
+    (function(){
+      var spoutjs=document.createElement('script'),firstjs=document.getElementsByTagName('script')[0];
+      spoutjs.async=1;
+      spoutjs.src='//cdn.spoutable.com/5d483301-4bf9-4855-9e83-25cb8e1a83a7/spoutable.js';
+      firstjs.parentNode.insertBefore(spoutjs,firstjs)
+    })();
+    </script>
+
   </body>
 
 </html>
