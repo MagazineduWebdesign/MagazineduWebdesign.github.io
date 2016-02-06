@@ -51,15 +51,19 @@ http://magazineduwebdesign.com/emploi/
 
     {% include footer.html %}
 
-    <!-- Spoutable popin
+    <!-- Ptengine test
     ================================================== -->
-    <script type='text/javascript'>
-    (function(){
-      var spoutjs=document.createElement('script'),firstjs=document.getElementsByTagName('script')[0];
-      spoutjs.async=1;
-      spoutjs.src='//cdn.spoutable.com/5d483301-4bf9-4855-9e83-25cb8e1a83a7/spoutable.js';
-      firstjs.parentNode.insertBefore(spoutjs,firstjs)
-    })();
+    <script type="text/javascript">
+        window._pt_lt = new Date().getTime();
+        window._pt_sp_2 = [];
+        _pt_sp_2.push('setAccount,372a645b');
+        var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        (function() {
+            var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+            atag.src = _protocol + 'cjs.ptengine.com/pta_en.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(atag, s);
+        })();
     </script>
 
   </body>
