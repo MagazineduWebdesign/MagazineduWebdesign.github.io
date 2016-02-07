@@ -19,7 +19,13 @@ Afin d’expliquer en partie les comportements utilisateurs, j’explore génér
 
 L'analyse des données me donne une image claire de ce qui se passe, mais je peux uniquement émettre des hypothèses quant au Pourquoi.
 
-Échanger avec des utilisateurs et mener des tests d’utilisabilité sont des excellents moyens pour affiner ces hypothèses. Néanmoins les conditions d’échanges influencent grandement la qualité des résultats. J’ai souvent l’impression que les **feedbacks récoltés ne sont pas authentiques** car les participants se comportent différemment quand ils se sentent épiés.
+Échanger avec des utilisateurs et mener des tests d’utilisabilité sont des excellents moyens pour affiner ces hypothèses. Néanmoins les conditions d’échanges influencent grandement la qualité des résultats.
+
+<figure class="figure-img mod-note-img">
+<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/interview-test-utilisateur.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg" alt="Les reportings heat maps de Ptengine"></noscript>
+</figure>
+
+J’ai souvent l’impression que les **feedbacks récoltés ne sont pas authentiques** car les participants se comportent différemment quand ils se sentent épiés.
 
 >Les utilisateurs se comportent différemment quand ils se sentent épiés. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/ux-design-apporter-de-l-authenticite-aux-feedbacks-utilisateur-avec-ptengine-heat-maps-analytics/&text={{ 'Les utilisateurs se comportent différemment quand ils se sentent épiés.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
@@ -45,7 +51,7 @@ Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.pten
         <div class="small-9 medium-10 columns">
           <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
             <span class="left job--entreprise">Ptengine <span class="label--new">Sponsor</span></span>
-            <span class="job--description">le deux-en-un – heatmaps & analytics.</span>
+            <span class="job--description">Le deux-en-un – heatmaps & analytics.</span>
           </h1>
         </div>
       </div>
@@ -55,17 +61,21 @@ Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.pten
 
 ## Trouvez le centre de gravité de vos interfaces avec les heat maps colorés de Ptengine
 
+<figure class="figure-img mod-note-img">
+<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/ptengine-heat-maps-analytics.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png" alt="Les reportings heat maps de Ptengine"></noscript>
+</figure>
+
 Cette application couple une solution complète d’analyses de données avec des <a href="https://fr.wikipedia.org/wiki/Heat_map" target="_blank">heat maps</a> : ces cartes de chaleurs pleines de couleurs apportant un peu de gaieté à vos reportings analytics.
 
-Une application telle que Ptengine peut être un puissant allié pour les personnes en charge d’optimiser les performances d’un site ecommerce ou d’une plate-forme SaaS (<a href="https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service" target="_blank">Software as a service</a>).
+Une application telle que Ptengine peut être une puissante alliée pour les personnes en charge d’optimiser les performances d’un [site ecommerce](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/) ou d’une plate-forme SaaS (<a href="https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service" target="_blank">Software as a service</a>).
 
 >Les heat maps sont un excellent moyen pour trouver le centre de gravité d'une interface. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/ux-design-apporter-de-l-authenticite-aux-feedbacks-utilisateur-avec-ptengine-heat-maps-analytics/&text={{ 'Les heat maps sont un excellent moyen pour trouver le centre de gravité de vos interfaces.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
 ### Ptengine en 6 points
-* Analyses des tunnels et des taux de conversions via la mise en place d'objectifs ;
+* Analyse des tunnels et des taux de conversions via la mise en place d'objectifs ;
 * Heat maps pour les clics, les profondeurs de scroll et les hubs d’attention par page ;
-* Comparaison de heat maps en fonction de filtre multicritères. Par exemple : type de devices (PC / mobile / tablette), nouveaux visiteurs vs visiteurs connus, etc ;
-* Analyses en temps réel du trafic ;
+* Comparaison de heat maps en fonction de filtres multicritères. Par exemple : type de devices (PC / mobile / tablette), nouveaux visiteurs vs visiteurs connus, etc ;
+* Analyse en temps réel du trafic ;
 * Suivi de campagnes ;
 * <a href="https://fr.wordpress.org/plugins/ptengine-real-time-web-analytics-and-heatmap/" target="_blank">Plugin WordPress gratuit</a>.
 
@@ -106,7 +116,7 @@ On observe que les utilisateurs ont passé plus de temps sur une section se situ
 **Hypothèse de design à tester** : insérer la section dans la partie supérieure de l’interface afin de mesurer l’impact que cela peut avoir sur le taux de conversion de la page.
 
 ## Ce qu’il faut retenir
-Suite à quelques jours d’utilisation, j’ai observé que les bénéfices de Ptengine peuvent s’exprimer parfaitement lorsqu’il s'intègre à un workflow de la manière suivante :
+Suite à quelques jours d’utilisation, j’ai observé que les bénéfices de Ptengine peuvent s’exprimer parfaitement lorsqu’ils s'intègrent à un workflow de la manière suivante :
 
 * Après avoir analyser les indicateurs de succès au sein de Google Analytics, utiliser Ptengine pour déterminer comment améliorer les choses.
 * Après chaque déploiement, utiliser Ptengine pour observer les sessions de navigation sur les nouvelles interfaces et estimer les performance de la release. Cela permet d'obtenir la validation d’hypothèses de design sans attendre une masse critique de trafic pour que les analyses soient pertinentes.
@@ -125,7 +135,7 @@ Si vous souhaitez obtenir des feedbacks utilisateurs authentiques quelques minut
         <div class="small-9 medium-10 columns">
           <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
             <span class="left job--entreprise">Ptengine <span class="label--new">Sponsor</span></span>
-            <span class="job--description">le deux-en-un – heatmaps & analytics.</span>
+            <span class="job--description">Le deux-en-un – heatmaps & analytics.</span>
           </h1>
         </div>
       </div>
