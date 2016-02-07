@@ -23,7 +23,7 @@ L'analyse des données me donne une image claire de ce qui se passe, mais je peu
 
 <figure class="figure-img mod-note-img">
 <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/interview-test-utilisateur.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg" alt="Les reportings heat maps de Ptengine"></noscript>
-<figcaption>Le contexte d'un échange ou d'un test utilisateur influence les réponses.</figcaption>
+<figcaption>Le contexte d'un échange ou d'un test utilisateur influence les réponses des participants.</figcaption>
 </figure>
 
 J’ai souvent l’impression que les **feedbacks récoltés ne sont pas authentiques** car les participants se comportent différemment quand ils se sentent épiés.
