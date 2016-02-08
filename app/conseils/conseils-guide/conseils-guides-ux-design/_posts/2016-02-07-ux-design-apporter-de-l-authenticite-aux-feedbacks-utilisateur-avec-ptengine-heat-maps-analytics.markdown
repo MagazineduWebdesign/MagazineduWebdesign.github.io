@@ -22,7 +22,7 @@ L'analyse des données me donne une image claire de ce qui se passe, mais je peu
 Échanger avec des utilisateurs et mener des tests d’utilisabilité sont des excellents moyens pour affiner ces hypothèses. Néanmoins les conditions d’échanges influencent grandement la qualité des résultats.
 
 <figure class="figure-img mod-note-img">
-<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/interview-test-utilisateur.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg" alt="Les reportings heat maps de Ptengine"></noscript>
+<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/interview-test-utilisateur.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/interview-test-utilisateur.jpg"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/interview-test-utilisateur.jpg" alt="Le contexte d'un échange ou d'un test utilisateur influence les réponses des participants"></noscript>
 <figcaption>Le contexte d'un échange ou d'un test utilisateur influence les réponses des participants.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ J’ai souvent l’impression que les **feedbacks récoltés ne sont pas authent
 ##Points clés
 
 * Analyser les données issues d’outils analytics est un excellent moyen pour obtenir une image claire de ce qui se passe au sein d’un site Web. Néanmoins cela ne permet pas de comprendre les raisons qui poussent par exemple un utilisateur à abandonner un process d’inscription.
-* Les outils tels que Google analytics manquent d’informations visuelles sur les zones d’interfaces les plus attractives pour les utilisateurs : ces centres de gravité au sein d’une interface où l’attention des personnes se focalise.
+* **Les outils tels que Google analytics manquent d’informations visuelles sur les zones d’interfaces les plus attractives pour les utilisateurs** : ces centres de gravité au sein d’une interface où l’attention des personnes se focalise.
 * Mettre en place des interviews et des tests utilisateurs ne garantit pas l’authenticité des feedbacks récoltés. **Les utilisateurs se comportent différemment quand ils se savent surveillés**.
 
 ## Apporter de l’authenticité aux feedbacks utilisateur grâce à Ptengine
@@ -60,10 +60,11 @@ Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.pten
   </a>
 </div>
 
-## Trouvez le centre de gravité de vos interfaces avec les heat maps colorés de Ptengine
+## Trouver le centre de gravité d'une interface avec les heat maps colorés de Ptengine
 
 <figure class="figure-img mod-note-img">
-<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/ptengine-heat-maps-analytics.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png" alt="Les reportings heat maps de Ptengine"></noscript>
+<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/ptengine-heat-maps-analytics.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png" alt="heat maps via Ptengine"></noscript>
+<figcaption>heat maps via Ptengine.</figcaption>
 </figure>
 
 Cette application couple une solution complète d’analyses de données avec des <a href="https://fr.wikipedia.org/wiki/Heat_map" target="_blank">heat maps</a> : ces cartes de chaleurs pleines de couleurs apportant un peu de gaieté à vos reportings analytics.
@@ -73,10 +74,10 @@ Une application telle que Ptengine peut être une puissante alliée pour les per
 >Les heat maps sont un excellent moyen pour trouver le centre de gravité d'une interface. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/ux-design-apporter-de-l-authenticite-aux-feedbacks-utilisateur-avec-ptengine-heat-maps-analytics/&text={{ 'Les heat maps sont un excellent moyen pour trouver le centre de gravité de vos interfaces.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
 ### Ptengine en 6 points
-* Analyse des tunnels et des taux de conversions via la mise en place d'objectifs ;
-* Heat maps pour les clics, les profondeurs de scroll et les hubs d’attention par page ;
-* Comparaison de heat maps en fonction de filtres multicritères. Par exemple : type de devices (PC / mobile / tablette), nouveaux visiteurs vs visiteurs connus, etc ;
-* Analyse en temps réel du trafic ;
+* Analyse des **tunnels et des taux de conversions** via la mise en place d'objectifs ;
+* **Heat maps** pour les clics, les profondeurs de scroll et les hubs d’attention par page ;
+* Comparaison de heat maps en fonction de **filtres multicritères**. Par exemple : type de devices (PC / mobile / tablette), nouveaux visiteurs vs visiteurs connus, etc ;
+* Analyse en **temps réel** du trafic ;
 * Suivi de campagnes ;
 * <a href="https://fr.wordpress.org/plugins/ptengine-real-time-web-analytics-and-heatmap/" target="_blank">Plugin WordPress gratuit</a>.
 
@@ -91,7 +92,7 @@ Les heats maps vous permettent de mesurer l’engagement de vos utilisateurs. A 
 Vous pouvez ainsi utiliser cette information pour tester et modifier vos designs afin d’optimiser vos indicateurs de succès.
 
 ### Heat maps clic, tap & scroll
-Ptengine offre deux types de heat maps. Le premier type permet d’observer les zones d’interface avec lesquelles les utilisateurs ont interagi sur devices desktop (clics) et sur devices mobile (taps). Ce type de rapport indique également le pourcentage d'utilisateurs qui défilent à une profondeur donnée au sein de la page.
+Ptengine offre deux types de heat maps. Le premier type permet d’observer les zones de l'interface avec lesquelles les utilisateurs ont interagi sur devices desktop (clics) et sur devices mobile (taps). Ce type de rapport indique également le pourcentage d'utilisateurs qui défilent à une profondeur donnée au sein de la page.
 
 <figure class="figure-img mod-note-img">
 <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics-heat-maps-clic-attention-scroll.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/ptengine-heat-maps-analytics-heat-maps-clic-attention-scroll.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics-heat-maps-clic-attention-scroll.png, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics-heat-maps-clic-attention-scroll.png"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics-heat-maps-clic-attention-scroll.png" alt="Les reportings heat maps de Ptengine"></noscript>
