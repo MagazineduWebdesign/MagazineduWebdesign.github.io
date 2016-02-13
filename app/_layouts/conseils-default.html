@@ -132,6 +132,14 @@ layout: default
                 </div>
               </figure>
             {% endif %}
+            <!-- if conseil is a guide without a nice cover -->
+            {% if page.image-no-cover-book %}
+            <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+              <a href="{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+                <img src="{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
+              </a>
+            </figure>
+            {% endif %}
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
             <div class="hide-for-large-up">
