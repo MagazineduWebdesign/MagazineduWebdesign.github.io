@@ -62,6 +62,14 @@ layout: default
             {% endif %}
 
           </div>
+          <!-- if ressource have a nice cover -->
+          {% if page.image-sub-post-intro %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
+            </a>
+          </figure>
+          {% endif %}
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">
           {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
@@ -163,6 +171,14 @@ layout: default
             {% endif %}
 
           </div>
+          <!-- if ressource have a nice cover -->
+          {% if page.image-sub-post-intro %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
+            </a>
+          </figure>
+          {% endif %}
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">
           {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
