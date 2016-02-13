@@ -7,6 +7,39 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Gabriele Brombin &amp;ndash; Sand sea</title>
+				
+				
+					<description>Une belle narration tout en scroll pour ce portfolio de Gabriele Brombin. L'atmosphère et les paysages sont une réussite.</description>
+				
+				<pubDate>Fri, 12 Feb 2016 06:27:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/gabriele-brombin-sand-sea/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/gabriele-brombin-sand-sea/</guid>
+			</item>
+		
+			<item>
+				<title>Fake music</title>
+				
+				
+					<description>Un portfolio de sonorités musicales made in Paris, France. Sympa la navigation entre les morceaux.</description>
+				
+				<pubDate>Fri, 12 Feb 2016 00:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/fakemusic/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/fakemusic/</guid>
+			</item>
+		
+			<item>
+				<title>Spirit JS</title>
+				
+				
+					<description>Animer facilement des éléments sur le web. Coming soon.</description>
+				
+				<pubDate>Fri, 12 Feb 2016 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/spirit-js-animation/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/spirit-js-animation/</guid>
+			</item>
+		
+			<item>
 				<title>Round</title>
 				
 				
@@ -237,40 +270,19 @@
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/desktop-neo-redesign-de-l-experience-de-navigation-sur-desktop/</guid>
 			</item>
 		
-			<item>
-				<title>Sweet Punk &amp;ndash; Voeux 2016</title>
-				
-				
-					<description>Une carte de voeux WebGL pour atteindre le Nirvana grâce à [ThreeJS](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/technologies/threejs/). Sympa la détection du visage avec la Webcam.</description>
-				
-				<pubDate>Sat, 23 Jan 2016 10:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-sweet-punk/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-sweet-punk/</guid>
-			</item>
+		
 		
 			<item>
-				<title>Extra &amp;ndash; Voeux 2016</title>
+				<title>LABS &amp;ndash; Invision Project</title>
 				
 				
-					<description>Extra vous souhaite une année presque parfaite, sans sueurs froides, sans psychose inutile.</description>
+					<description>&lt;p&gt;Outils pour résoudre les problèmes de design du futur.&lt;/p&gt;
+</description>
 				
-				<pubDate>Sat, 23 Jan 2016 10:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-extralagence/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-extralagence/</guid>
+				<pubDate>Fri, 12 Feb 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/labs-ndash-invision-project/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/labs-ndash-invision-project/</guid>
 			</item>
-		
-			<item>
-				<title>This Also &amp;ndash; 360</title>
-				
-				
-					<description>Bubble promenade 🔮.</description>
-				
-				<pubDate>Sat, 23 Jan 2016 10:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-also-360/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-also-360/</guid>
-			</item>
-		
-		
 		
 			<item>
 				<title>Hey user &amp;ndash; Showcase vidéo d'appli mobiles</title>
@@ -582,18 +594,6 @@ Dans la démo, trois règles sont activées avec des variables propres à chacun
 				<pubDate>Mon, 14 Dec 2015 03:00:00 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/note/animation-du-twitter-heart-en-full-css/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/animation-du-twitter-heart-en-full-css/</guid>
-			</item>
-		
-			<item>
-				<title>Vous connaissez des entrepreneurs qui recrutent ?</title>
-				
-				
-					<description>&lt;p&gt;Dites-leur que le Magazine du Webdesign est un bon endroit pour trouver des talents comme vous 👊. &lt;a href=&quot;https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.magazineduwebdesign.com%2Frecruter%2F&amp;amp;text=Vous%20cherchez%20des%20talents%20?%20Publiez%20votre%20annonce%20sur%20le%20job%20board%20du%20Magazine%20du%20Webdesign.&amp;amp;original_referer=http%3A%2F%2Fwww.magazineduwebdesign.com%2Frecruter%2F&amp;amp;related=MagDuWebdesign&amp;amp;hashtags=emploi&quot;&gt;TWEETER&lt;/a&gt;&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 14 Dec 2015 05:00:01 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/vous-connaissez-des-entrepreneurs-qui-recrutent/</guid>
 			</item>
 		
 	</channel>
