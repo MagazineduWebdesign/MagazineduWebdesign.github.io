@@ -62,11 +62,6 @@ Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.pten
 
 ## Trouver le centre de gravité d'une interface avec les heat maps colorés de Ptengine
 
-<figure class="figure-img mod-note-img">
-<img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/ptengine-heat-maps-analytics.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png, (large)]" class="note-container-img" data-uuid="interchange-ikcwyxhk0" src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/ptengine-heat-maps-analytics.png"><noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ptengine-heat-maps-analytics.png" alt="heat maps via Ptengine"></noscript>
-<figcaption>heat maps via Ptengine.</figcaption>
-</figure>
-
 Cette application couple une solution complète d’analyses de données avec des <a href="https://fr.wikipedia.org/wiki/Heat_map" target="_blank">heat maps</a> : ces cartes de chaleurs pleines de couleurs apportant un peu de gaieté à vos reportings analytics.
 
 Une application telle que Ptengine peut être une puissante alliée pour les personnes en charge d’optimiser les performances d’un [site ecommerce](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/) ou d’une plate-forme SaaS (<a href="https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service" target="_blank">Software as a service</a>).
