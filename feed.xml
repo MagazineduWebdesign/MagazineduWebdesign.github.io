@@ -7,6 +7,61 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Design sprint &amp;ndash; Franchir les obstacles UX en 5 jours</title>
+				
+				
+					<description>Designer des services et des produits que les gens veulent, plus rapidement.</description>
+				
+				<pubDate>Sun, 14 Feb 2016 17:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/</guid>
+			</item>
+		
+			<item>
+				<title>Festival Pick Me Up 2016</title>
+				
+				
+					<description>Une interface de site Web pour un événement dédié aux arts graphiques où les visiteurs peuvent librement designer des lettres qui seront ensuite utilisées dans l'identité du festival.</description>
+				
+				<pubDate>Sun, 14 Feb 2016 08:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</guid>
+			</item>
+		
+			<item>
+				<title>Face bug</title>
+				
+				
+					<description>L'entrée dans cette scène 3D se fait via votre webcam. Vous êtes l'expérience jusqu'au moment où vous désirez zoomer. Un jeu de perspectives pouvant traduire l'importance du point de vue.</description>
+				
+				<pubDate>Sun, 14 Feb 2016 06:20:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/buccchi-work-facebug/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/buccchi-work-facebug/</guid>
+			</item>
+		
+			<item>
+				<title>Saat+Saat</title>
+				
+				
+					<description>Portfolio avec une petite 3D pour vous mettre dans l'ambiance. C'est propre mais ça manque d'appel à l'action.</description>
+				
+				<pubDate>Sun, 14 Feb 2016 05:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</guid>
+			</item>
+		
+			<item>
+				<title>La vidéo du lancement de Windows 95</title>
+				
+				
+					<description>Une scène mythique du lancement de Windows 95 avec en guest Steve Ballmer et Bill Gates. Le Magazine du Webdesign vous offre gracieusement les sous-titres : We Will Make Billions. Steve B. aurait pu être G.O (Gentil Organisateur) au Club Med des Menuires.</description>
+				
+				<pubDate>Sun, 14 Feb 2016 00:22:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/videos/lancement-de-windows-95/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/lancement-de-windows-95/</guid>
+			</item>
+		
+			<item>
 				<title>Bouboup &amp;ndash; happy monkey</title>
 				
 				
@@ -57,8 +112,8 @@
 					<description>Animer facilement des éléments sur le web. Coming soon.</description>
 				
 				<pubDate>Fri, 12 Feb 2016 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/outils-services/spirit-js-animation/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/spirit-js-animation/</guid>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/spirit-js-animation/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/spirit-js-animation/</guid>
 			</item>
 		
 			<item>
@@ -213,61 +268,6 @@
 				<pubDate>Mon, 01 Feb 2016 02:24:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ricanza/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ricanza/</guid>
-			</item>
-		
-			<item>
-				<title>Freelance WordPress &amp;ndash; Quel quotidien ?</title>
-				
-				
-					<description>Dans cet excellent podcast, Thierry Pigot, Grégoire Noyelle et iMath explorent les habitudes et les problématiques du quotidien de deux freelances français développant des sites Web WordPress. J'adore ce type de podcasts car c'est généralement avec eux que je découvre des nouveaux outils et des approches de travail exotiques. Ça fait du bien ! Un grand merci à Thierry pour sa suggestion. Très bon choix.</description>
-				
-				<pubDate>Wed, 27 Jan 2016 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/podcasts/freelance-wordpress/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/podcasts/freelance-wordpress/</guid>
-			</item>
-		
-			<item>
-				<title>Agence Mute &amp;ndash; Voeux 2016</title>
-				
-				
-					<description>Inspiration web design – Une carte de voeux tout en sons et animations.</description>
-				
-				<pubDate>Tue, 26 Jan 2016 10:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-agence-mute/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-agence-mute/</guid>
-			</item>
-		
-			<item>
-				<title>Active Theory</title>
-				
-				
-					<description>La qualité californienne nous est fournie aujourd'hui par le studio Active Theory via le renouvellement de son portfolio. De beaux projets et une animation sympa en background de la home page.</description>
-				
-				<pubDate>Tue, 26 Jan 2016 04:55:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/active-theory/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/active-theory/</guid>
-			</item>
-		
-			<item>
-				<title>Web designer freelance – 6 conseils pour augmenter vos revenus</title>
-				
-				
-					<description>Nous avons tous entendu dans notre entourage des histoires de personnes quittant leur CDI pour se lancer dans l'aventure du design en tant que freelance. En général, ce type d'aventure m'évoque un designer plein d'ambition souhaitant construire un empire à partir de pas grand chose. J'admire ce type de personnes. &lt;br /&gt; &lt;br /&gt; Ceux qui choisissent cette voie possèdent une ambition exemplaire. Néanmoins, cela nécessite également un mélange unique de stratégie et de ténacité. Ce n'est pas simple de faire évoluer un business constitué d'une personne en une entreprise gérant des dizaines d'employés et clients.</description>
-				
-				<pubDate>Sun, 24 Jan 2016 17:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/web-designer-freelance-6-conseils-pour-augmenter-vos-revenus/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/web-designer-freelance-6-conseils-pour-augmenter-vos-revenus/</guid>
-			</item>
-		
-			<item>
-				<title>Neuvième page &amp;ndash; Voeux 2016</title>
-				
-				
-					<description>Délire total avec cette expérience WebGL où votre tête fait office de curseur.</description>
-				
-				<pubDate>Sat, 23 Jan 2016 10:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-neuvieme-page/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/voeux-2016-neuvieme-page/</guid>
 			</item>
 		
 		
