@@ -5,32 +5,10 @@ layout: default
 {% include header.html %}
 <section>
 	{% include custom/sections/ressources-entries.html %}
-	{% if page.bgimgheader == 'true' %}
-	  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
-	{% endif %}
+	{% include custom/sections/index-header-bg-img.html %}
+	{% include custom/cartes/carte_items-thn-app-icon_ressources.html param="ressources-outils-services-design" %}
+</section> 
 
-	  <div class="header-collection-shadow">
-	    <div class="header-collection">
-	      <header class="row-liste-index">
-					{% include custom/sections/index-header-bg-img-intro.html %}
-	      </header>
-				{% if page.coming-soon == 'true' %}
-					{% include custom/sections/inscription-alerte-release-modal-box.html %}
-				{% endif %}
-	    </div>
-	  </div>
-	{% if page.bgimgheader == 'true' %}
-	</div>
-	{% endif %}
-
-	<!-- list all section's categories
-	================================================== -->
-	{% include custom/cartes/carte_cross-navigation-ressources.html %}
-
-</section>
+<!-- list all section's categories
+================================================== -->
+{% include custom/cartes/carte_cross-navigation-ressources.html %}}
