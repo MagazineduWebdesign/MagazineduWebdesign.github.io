@@ -6,10 +6,10 @@ layout: default
   <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
-        <div class="small-12 medium-12 large-1 columns small-text-center">
+        <div class="small-12 large-1 columns small-text-center">
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
-        <div class="small-12 large-8 columns small-text-center large-text-left">
+        <div class="small-12 large-7 columns small-text-center large-text-left">
           <h1 itemprop="name">{{ page.title }}</h1>
           <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <p class="article-bgimg-meta-by-time">
@@ -54,14 +54,17 @@ layout: default
                 <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
               {% endif %}
             </p>
-
             {% if page.intro %}
-              <p class="subheader" itemprop="reviewBody">
-                {{ page.intro }}
-              </p>
+              {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
             {% endif %}
-
           </div>
+          {% if page.id-soundcloud %}
+            <figure class="figure-video">
+              <div class="note-flex-video widescreen">
+                <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.id-soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </div>
+            </figure>
+          {% endif %}
           <!-- if ressource have a nice cover -->
           {% if page.image-sub-post-intro %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
@@ -71,18 +74,21 @@ layout: default
           </figure>
           {% endif %}
         </div>
-        <div class="small-12 columns small-text-center hide-for-large-up">
-          {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
-          {% if page.siteweb %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
-          {% if page.no-soundcloud %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
-          {% if page.url-buy %}
-            <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-              <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
-            </a>
-          {% endif %}
-          {% if page.url-version-gratuite %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
-          {% if page.url-telecharger %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
-
+        <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
+          <div class="hide-for-large-up">
+            {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
+            {% if page.siteweb %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a>{% endif %}
+            {% if page.no-soundcloud %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a>{% endif %}
+            {% if page.url-demo %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="button small radius primary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a>{% endif %}
+            {% if page.url-buy %}
+              <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
+              </a>
+            {% endif %}
+            {% if page.url-version-gratuite %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a>{% endif %}
+            {% if page.url-explorer %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Explorer', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-explorer }}" title="Explorer &ndash; {{ page.title }}" target="_blank" rel="nofollow">EXPLORER</a>{% endif %}
+            {% if page.url-telecharger %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>{% endif %}
+          </div>
           {% unless page.metadata == 'false' %}
           <!-- metadata
           ================================================== -->
@@ -93,13 +99,12 @@ layout: default
               {% if page.no-soundcloud %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit to listen podcast', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.no-soundcloud }}" title="Ecouter le podcast &ndash; {{ page.title }}" target="_blank" rel="nofollow">ECOUTER</a></li>{% endif %}
               {% if page.url-demo %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-demo }}" title="Démo &ndash; {{ page.title }}" target="_blank" rel="nofollow">DEMO</a><li>{% endif %}
               {% if page.url-buy %}
-                <li class="show-for-large-up" role="menuitem">
-                  <a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Buy', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-buy }}" title="Acheter &ndash; {{ page.title }}" target="_blank" rel="nofollow" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                   <meta itemprop="priceCurrency" content="USD" /> $<span itemprop="price" content="{{ page.price }}">{{ page.price }}</span> &mdash; ACHETER
-                  </a>
-                </li>
+                </a></li>
               {% endif %}
               {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
+              {% if page.url-explorer %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Explorer', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-explorer }}" title="Explorer &ndash; {{ page.title }}" target="_blank" rel="nofollow">EXPLORER</a>{% endif %}
               {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
 
               {% if page.for-who %}
@@ -108,7 +113,7 @@ layout: default
               {% endif %}
 
               {% if page.by %}
-              <li class="article-meta-data-header-title">Crédit</li>
+              <li class="article-meta-data-header-title">Auteur</li>
               <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
               {% endif %}
             </ul>
@@ -171,14 +176,6 @@ layout: default
             {% endif %}
 
           </div>
-          <!-- if ressource have a nice cover -->
-          {% if page.image-sub-post-intro %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
-            </a>
-          </figure>
-          {% endif %}
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">
           {% if page.url-github %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a>{% endif %}
@@ -278,98 +275,11 @@ layout: default
             {% if page.url-version-gratuite %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download free version', '{{ page.title }}');" class="button expand radius secondary" href="{{ page.url-version-gratuite }}" title="Version gratuite &ndash; {{ page.title }}" target="_blank" rel="nofollow">VERSION GRATUITE</a></li>{% endif %}
             {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
 
-            {% if page.theme %}
-            <li class="article-meta-data-header-title">Thème</li>
-            <li role="menuitem"><a href="{{ page.theme-url }}" title="{{ page.theme }}">{{ page.theme | upcase }}</a></li>
-            {% endif %}
-
-            {% if page.format %}
-            <li class="article-meta-data-header-title">Format</li>
-            <li role="menuitem"><a href="{{ page.format-url }}" title="{{ page.format }}">{{ page.format | upcase }}</a></li>
-            {% endif %}
-
-            {% if page.animation-1 %}
-            <li class="article-meta-data-header-title">Animation</li>
-            <li role="menuitem"><a href="{{ page.animation-url-1 }}" title="{{ page.animation-1 }}">{{ page.animation-1 | upcase }}</a></li>
-            {% endif %}
-            {% if page.animation-2 %}
-            <li role="menuitem"><a href="{{ page.animation-url-2 }}" title="{{ page.animation-2 }}">{{ page.animation-2 | upcase }}</a></li>
-            {% endif %}
-            {% if page.animation-3 %}
-            <li role="menuitem"><a href="{{ page.animation-url-3 }}" title="{{ page.animation-3 }}">{{ page.animation-3 | upcase }}</a></li>
-            {% endif %}
-
-            {% if page.technologie-1 %}
-            <li class="article-meta-data-header-title">Technologies</li>
-            <li role="menuitem"><a href="{{ page.technologie-url-1 }}" title="{{ page.technologie-1 }}">{{ page.technologie-1 | upcase }}</a></li>
-            {% endif %}
-            {% if page.technologie-2 %}
-            <li role="menuitem"><a href="{{ page.technologie-url-2 }}" title="{{ page.technologie-2 }}">{{ page.technologie-2 | upcase }}</a></li>
-            {% endif %}
-            {% if page.technologie-3 %}
-            <li role="menuitem"><a href="{{ page.technologie-url-3 }}" title="{{ page.technologie-3 }}">{{ page.technologie-3 | upcase }}</a></li>
-            {% endif %}
-
             {% if page.by %}
             <li class="article-meta-data-header-title">Crédit</li>
             <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
             {% endif %}
 
-            {% if page.element-ui-1 %}
-              <li class="article-meta-data-header-title">Eléments UI</li>
-              <li role="menuitem"><a href="{{ page.element-ui-url-1 }}" title="Explorer la collection {{ page.element-ui-1 }}">{{ page.element-ui-1 | upcase }}</a></li>
-              {% if page.element-ui-2 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-2 }}" title="Explorer la collection {{ page.element-ui-2 }}">{{ page.element-ui-2 | upcase }}</a></li>
-              {% endif %}
-              {% if page.element-ui-3 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-3 }}" title="Explorer la collection {{ page.element-ui-3 }}">{{ page.element-ui-3 | upcase }}</a></li>
-              {% endif %}
-              {% if page.element-ui-4 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-4 }}" title="Explorer la collection {{ page.element-ui-4 }}">{{ page.element-ui-4 | upcase }}</a></li>
-              {% endif %}
-              {% if page.element-ui-5 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-5 }}" title="Explorer la collection {{ page.element-ui-5 }}">{{ page.element-ui-5 | upcase }}</a></li>
-              {% endif %}
-              {% if page.element-ui-6 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-6 }}" title="Explorer la collection {{ page.element-ui-6 }}">{{ page.element-ui-6 | upcase }}</a></li>
-              {% endif %}
-              {% if page.element-ui-7 %}
-                <li role="menuitem"><a href="{{ page.element-ui-url-7 }}" title="Explorer la collection {{ page.element-ui-7 }}">{{ page.element-ui-7 | upcase }}</a></li>
-              {% endif %}
-            {% endif %}
-
-            {% if page.composant-ui-1 %}
-              <li class="article-meta-data-header-title">Composants UI</li>
-              <li role="menuitem"><a href="{{ page.composant-ui-url-1 }}" title="Explorer la collection {{ page.composant-ui-1 }}">{{ page.composant-ui-1 | upcase }}</a></li>
-              {% if page.composant-ui-2 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-2 }}" title="Explorer la collection {{ page.composant-ui-2 }}">{{ page.composant-ui-2 | upcase }}</a></li>
-              {% endif %}
-              {% if page.composant-ui-3 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-3 }}" title="Explorer la collection {{ page.composant-ui-3 }}">{{ page.composant-ui-3 | upcase }}</a></li>
-              {% endif %}
-              {% if page.composant-ui-4 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-4 }}" title="Explorer la collection {{ page.composant-ui-4 }}">{{ page.composant-ui-4 | upcase }}</a></li>
-              {% endif %}
-              {% if page.composant-ui-5 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-5 }}" title="Explorer la collection {{ page.composant-ui-5 }}">{{ page.composant-ui-5 | upcase }}</a></li>
-              {% endif %}
-              {% if page.composant-ui-6 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-6 }}" title="Explorer la collection {{ page.composant-ui-6 }}">{{ page.composant-ui-6 | upcase }}</a></li>
-              {% endif %}
-              {% if page.composant-ui-7 %}
-                <li role="menuitem"><a href="{{ page.composant-ui-url-7 }}" title="Explorer la collection {{ page.composant-ui-7 }}">{{ page.composant-ui-7 | upcase }}</a></li>
-              {% endif %}
-            {% endif %}
-
-            {% if page.plateformes %}
-              <li class="article-meta-data-header-title">Plate-formes</li>
-              <li role="menuitem"><a href="{{ page.plateformes-url }}" title="Explorer la collection {{ page.plateformes }}">{{ page.plateformes | upcase }}</a></li>
-            {% endif %}
-
-            {% if page.constructeurs %}
-              <li class="article-meta-data-header-title">Constructeurs</li>
-              <li role="menuitem"><a href="{{ page.constructeurs-url }}" title="Explorer la collection {{ page.constructeurs }}">{{ page.constructeurs | upcase }}</a></li>
-            {% endif %}
           </ul>
           {% include custom/cartes/carte_ad_in-article-sidebar-affiliate.html %}
         </div>
