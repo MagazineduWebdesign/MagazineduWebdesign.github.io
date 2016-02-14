@@ -1,8 +1,8 @@
-- name: INSPIRATIONS
-  permalink: /inspirations/
-
 - name: RESSOURCES
   permalink: /ressources/
+
+- name: INSPIRATIONS
+  permalink: /inspirations/
 
 - name: CONSEILS
   permalink: /conseils/
