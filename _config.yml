@@ -144,6 +144,12 @@ defaults:
       permalink: "/ressources/outils-services/:title/"
   -
     scope:
+      path: "ressources/ressources-outils-services/ressources-outils-services-design"
+      type: "posts"
+    values:
+      permalink: "/ressources/outils-services/design/:title/"
+  -
+    scope:
       path: "ressources/ressources-sketch"
       type: "posts"
     values:
