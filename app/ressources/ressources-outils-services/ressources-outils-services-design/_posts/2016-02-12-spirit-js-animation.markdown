@@ -1,5 +1,5 @@
 ---
-layout: "conseils-default"
+layout: "ressources-default"
 title: "Spirit JS"
 date: "2016-02-12 00:23:57"
 path1: "ressources"
