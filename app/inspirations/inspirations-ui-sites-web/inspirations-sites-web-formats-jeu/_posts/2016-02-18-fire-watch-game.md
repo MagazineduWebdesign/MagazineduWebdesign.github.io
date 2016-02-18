@@ -17,7 +17,7 @@ animation-url-1: "/inspirations/ui-design/sites-web/animation/background/"
 animation-2: "animation scroll"
 animation-url-2: "/inspirations/ui-design/sites-web/animation/scroll/"
 url-demo: "http://www.firewatchgame.com/?ref=magazineduwebdesign"
-image: "inspiration-ui-design-site-web-firewatchgame-1.jpg"
+image: "inspiration-ui-design-site-web-firewatchgame.jpg"
 intro: "Une seule chose à voir sur ce site web, l'animation de la perspective en header lors du scroll."
 description: "Une seule chose à voir sur ce site web, l'animation de la perspective en header lors du scroll."
 ---
