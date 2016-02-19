@@ -36,3 +36,15 @@ $(document).ready(function () {
     grabCursor: true
   });
 });
+var faviconTag = $('link[rel=icon]'),
+		titleTag = $('title');
+
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+      faviconTag.attr('href', '/dogeicon.png');
+      titleTag.text('Wow ! Vous êtes si loin, si loin ! wow !');
+    } else {
+      faviconTag.attr('href', '/favicon-16x16.png');
+      titleTag.text('Trop bon de vous revoir !');
+    }
+  });
