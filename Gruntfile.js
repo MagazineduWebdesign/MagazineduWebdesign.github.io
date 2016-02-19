@@ -388,6 +388,7 @@ module.exports = function (grunt) {
             'favicon-96x96.png',
             'favicon-194x194.png',
             'favicon-16x16.png',
+            'dogefavicon.png',
             'manifest.json',
             'mstile-144x144.png',
             'android-chrome-144x144.png',
