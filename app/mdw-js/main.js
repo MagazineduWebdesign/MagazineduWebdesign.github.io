@@ -41,7 +41,7 @@ var faviconTag = $('link[rel=icon]'),
 
   document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
-      faviconTag.attr('href', '/dogeicon.png');
+      faviconTag.attr('href', '/dogefavicon.png');
       titleTag.text('Wow ! Vous êtes si loin, si loin ! wow !');
     } else {
       faviconTag.attr('href', '/favicon-16x16.png');
