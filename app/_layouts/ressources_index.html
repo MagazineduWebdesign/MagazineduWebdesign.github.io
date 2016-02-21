@@ -5,8 +5,14 @@ layout: default
 {% include header.html %}
 <section>
 	{% include custom/sections/ressources-entries.html %}
-	{% include custom/sections/index-header-bg-img.html %}
-	{% include custom/cartes/carte_items-thn-app-icon_ressources.html param="ressources-outils-services-design" %}
+	<div class="header-liste header-background-title mod-header-list-cards-section mod-ressource">
+		<header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+		{% if page.coming-soon == 'true' %}
+			{% include custom/sections/inscription-alerte-release-modal-box.html %}
+		{% endif %}
+	</div>
 	{% include custom/cartes/carte_items-thn_ressources.html param="ressources-kits-ui" %}
 	{% include custom/cartes/carte_items-thn_ressources.html param="ressources-icones" %}
 	{% include custom/cartes/carte_items-thn_ressources.html param="ressources-mockups" %}
@@ -29,6 +35,7 @@ layout: default
 	{% include custom/cartes/carte_twtr_index-large.html %}
 	{% include custom/cartes/carte_items-thn.html param="themes-jekyll" %}
 	{% include custom/cartes/carte_items-thn.html param="themes-joomla" %}
+	{% include custom/cartes/carte_items-thn-app-icon_ressources.html param="ressources-outils-services-design" %}
 </section>
 <!-- list all section's categories
 ================================================== -->

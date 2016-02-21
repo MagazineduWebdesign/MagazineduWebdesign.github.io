@@ -7,7 +7,7 @@ layout: default
     <header class="row-body-article medium-uncollapse large-collapse">
       <!-- if conseil is a book -->
       {% if page.image %}
-        <div class="row column-header-article mod-header-article-no-margin-top">
+        <div class="row column-header-article mod-header-article-no-margin-top header-background-title mod-conseil">
           <div class="small-6 small-centered medium-4 large-uncentered large-3 columns">
             <figure class="figure-img mod-article-couverture-livre">
               <img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (default)],
@@ -188,7 +188,7 @@ layout: default
             {% endunless %}
           </div>
         {% else %}
-          <div class="column-header-article mod-header-article-no-margin-top row collapse">
+          <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-conseil">
             <div class="small-12 large-8 columns small-text-center large-text-left">
               <h1 itemprop="name">{{ page.title }}</h1>
               <div itemprop="review" itemscope itemtype="http://schema.org/Review">

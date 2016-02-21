@@ -5,33 +5,18 @@ layout: default
 {% include header.html %}
 <section>
 	{% include custom/sections/articles-entries.html %}
-	{% if page.bgimgheader == 'true' %}
-	  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
-	{% endif %}
-
-	  <div class="header-collection-shadow">
-	    <div class="header-collection">
-	      <header class="row-liste-index">
-					{% include custom/sections/index-header-bg-img-intro.html %}
-	      </header>
-				<div class="row-liste-index">
-					<div class="small-12 columns">
-						<div class="header-liste-panel-info radius">
-							<p>La plupart des articles de cette section correspondent aux contenus publiés durant la première vie du Magazine du Webdesign, entre 2012-2013. Je vous invite à explorer les nouveaux formats de contenus disponibles dans les sections <a href="/conseils/" title="Section Conseils">Conseils</a>, <a href="/ressources/" title="Section Ressources">Ressources</a>, <a href="/videos/" title="Section Vidéos">Vidéos</a>, etc.</p>
-						</div>
-					</div>
+	<div class="header-liste">
+		<header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+		<div class="row-liste-index">
+			<div class="small-12 columns">
+				<div class="header-liste-panel-info radius">
+					<p>La plupart des articles de cette section correspondent aux contenus publiés durant la première vie du Magazine du Webdesign, entre 2012-2013. Je vous invite à explorer les nouveaux formats de contenus disponibles dans les sections <a href="/conseils/" title="Section Conseils">Conseils</a>, <a href="/ressources/" title="Section Ressources">Ressources</a>, <a href="/videos/" title="Section Vidéos">Vidéos</a>, etc.</p>
 				</div>
-	    </div>
-	  </div>
-	{% if page.bgimgheader == 'true' %}
-	</div>
-	{% endif %}
+			</div>
+		</div>
+  </div>
 
 	<div class="row-liste-index">
 	  <div class="small-12 columns section-header">

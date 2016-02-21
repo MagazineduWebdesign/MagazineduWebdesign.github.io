@@ -6,47 +6,32 @@ layout: default
 
 <section>
 	{% include custom/sections/ressources-entries.html %}
-	{% if page.bgimgheader == 'true' %}
-	  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
-	{% endif %}
-
-	  <div class="header-collection-shadow">
-	    <div class="header-collection">
-	      <header class="row-liste-index">
-					{% include custom/sections/index-header-bg-img-intro.html %}
-	      </header>
-				{% if page.coming-soon == 'true' %}
-					{% include custom/sections/inscription-alerte-release-modal-box.html %}
+	<div class="header-liste header-background-title mod-header-list-index mod-ressource">
+		<header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+		{% if page.coming-soon == 'true' %}
+			{% include custom/sections/inscription-alerte-release-modal-box.html %}
+		{% else %}
+		<!-- number of items in the list
+		================================================== -->
+		<div class="row text-center large-text-left">
+		  <div class="small-12 columns section-header">
+		  	<!-- Number of item by index -->
+				{% if page.category == 'ressources-themes-drupal' %}
+					{% for post in site.categories.ressources-themes-drupal %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
 				{% else %}
-				<!-- number of items in the list
-				================================================== -->
-				<div class="row text-center large-text-left">
-				  <div class="small-12 columns section-header">
-				  	<!-- Number of item by index -->
-						{% if page.category == 'ressources-themes-drupal' %}
-							{% for post in site.categories.ressources-themes-drupal %}
-						    {% capture length %}{{ forloop.length }}{% endcapture %}
-						  {% endfor %}
-						{% else %}
-							{% for post in site.tags[page.tags] %}
-						    {% capture length %}{{ forloop.length }}{% endcapture %}
-						  {% endfor %}
-						{% endif %}
-				    <span class="section-header-titre">{{ length }} thèmes drupal</span>
-				  </div>
-				</div>
+					{% for post in site.tags[page.tags] %}
+				    {% capture length %}{{ forloop.length }}{% endcapture %}
+				  {% endfor %}
 				{% endif %}
-	    </div>
-	  </div>
-	{% if page.bgimgheader == 'true' %}
-	</div>
-	{% endif %}
+		    <span class="section-header-titre">{{ length }} thèmes drupal</span>
+		  </div>
+		</div>
+		{% endif %}
+  </div>
 
 	{% if page.coming-soon == 'true' %}
 	{% else %}

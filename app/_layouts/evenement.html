@@ -19,7 +19,7 @@ layout: default
           {% if page.siteweb %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button radius primary" href="{{ page.siteweb }}" title="Plus d'infos sur cet événement" target="_blank" rel="nofollow">+ INFOS</a>{% endif %}
         </div>
       {% else %}
-      <div class="column-header-article mod-header-article-no-margin-top row collapse">
+      <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-evenement">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline"><span class="left job--entreprise">{{ page.title }}</span><span class="job--description">{% if page.event-ending-date %}Du {% endif %}{{ page.event-start-date }}{% if page.event-ending-date %} au {% endif %}{% if page.event-ending-date %}{{ page.event-ending-date }}{% endif %} &bull; {{ page.event-location }}</span>
           </h1>

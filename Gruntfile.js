@@ -410,19 +410,6 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>'
         }]
       },
-      // Copy *img into .tmp directory
-      stageImg: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>',
-          src: [
-            'img/**/*',
-            '!img/sources/**/*',
-            ],
-          dest: '.tmp'
-        }]
-      },
       // Copy CSS into .tmp directory for Autoprefixer processing
       stageCss: {
         files: [{
@@ -431,6 +418,16 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>/mdw-css',
           src: '**/*.css',
           dest: '.tmp/mdw-css'
+        }]
+      },
+      // Copy Large images files into dist directory for S3 storage when the app is running localy
+      stageIMG: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          src: '*img/large/**/*',
+          dest: '<%= yeoman.dist %>'
         }]
       }
     },
@@ -486,7 +483,6 @@ module.exports = function (grunt) {
       server: [
         'sass:server',
         'copy:stageCss',
-        'copy:stageImg',
         'jekyll:server'
       ],
       dist: [
@@ -581,14 +577,20 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'newer:imagemin:server',
-      'responsive_images:server',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
       'watch'
     ]);
   });
+
+  // Send new images to Amazon S3. Useful when the app is running localy.
+  grunt.registerTask('serveIMG', [
+    'newer:imagemin:server',
+    'responsive_images:server',
+    'copy:stageIMG',
+    's3:distIMG'
+  ]);
 
   grunt.registerTask('server', function () {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
@@ -614,6 +616,8 @@ module.exports = function (grunt) {
     'clean',
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
+    'newer:imagemin:server',
+    'responsive_images:server',
     'concurrent:dist',
     'useminPrepare',
     'concat',

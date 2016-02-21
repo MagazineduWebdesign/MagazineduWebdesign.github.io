@@ -47,7 +47,8 @@
 // b.  TYPOGRAPHIE
 // c.  GLOBAL
 // 01. MEDIA QUERIES
-// 01. TOP BAR
+// 01. NAVIGATION
+// 01. HEADER LIST & POST
 // 02. SECTION BRIEF
 // 02. SECTION TWITTER
 // 02. SECTION CATEGORIE
@@ -195,8 +196,8 @@ sup {
 	.header-liste-content.mod-bg-img{
 		color: $gainsboro;
 	}
-	.header-liste-content-link {@include header-liste-link;}
-	.header-liste-content-link:hover{color: scale-color($primary-color, $lightness: -16%);}
+	.header-liste-content-link {@include header-liste-link($color: $aluminum);}
+	.header-liste-content-link:hover{color: $primary-color;}
   .header-liste-panel-info{
     margin-bottom: 0!important;
     @include panel($bg: $callout-panel-bg);
@@ -206,7 +207,9 @@ sup {
 }
 .row-liste-index {
   @include grid-row;
+  position: relative;
   max-width:640px;
+  z-index: 1;
 }
 .section-header{
 	padding:0 rem-calc(20);
@@ -728,7 +731,9 @@ sup {
 
 // side-nav
 .side-nav.mod-article-meta-data{
-	border:1px solid $secondary-color;
+  position: relative;
+  background: white;
+  border:1px solid $secondary-color;
 	border-radius: $global-radius;
 	.article-meta-data-header-title{
 		@include item-row;
@@ -986,65 +991,12 @@ figcaption{
 		}
 	}
 
-//navigation
-.navigation-sub-header{background-color:$secondary-color}
-@media #{$medium-up} {
-	.grid-cross-nav-wrap{
-		padding: 0;
-	}
-	[class*="block-grid-"].mod-grid-cross-nav{
-		display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-	}
-}
-@media #{$medium-up} {
-	[class*="block-grid-"].mod-grid-cross-nav > li{
-  width: rem-calc(247);
-	}
-	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
-  width: rem-calc(207);
-	}
-}
-@media #{$large-up} {
-	[class*="block-grid-"].mod-grid-cross-nav > li{
-  width: rem-calc(227);
-	}
-	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index-book > li{
-  width: rem-calc(177);
-	}
-}
 //form
 .required.email{
 	background-color: transparent;
 }
 
-// 01. TOP BAR
+// 01. NAVIGATION
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .dropdown{
 	top:rem-calc(2)!important;
@@ -1224,6 +1176,178 @@ figcaption{
 	}
 }
 
+//Filter
+.navigation-sub-header{background-color:$secondary-color}
+@media #{$medium-up} {
+	.grid-cross-nav-wrap{
+		padding: 0;
+	}
+	[class*="block-grid-"].mod-grid-cross-nav{
+		display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	}
+}
+@media #{$medium-up} {
+	[class*="block-grid-"].mod-grid-cross-nav > li{
+  width: rem-calc(247);
+	}
+	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index > li{
+  width: rem-calc(207);
+	}
+}
+@media #{$large-up} {
+	[class*="block-grid-"].mod-grid-cross-nav > li{
+  width: rem-calc(227);
+	}
+	[class*="block-grid-"].mod-grid-cross-nav.mod-liste-index-book > li{
+  width: rem-calc(177);
+	}
+}
+.header-list-filter{
+  position: relative;
+  z-index: 1;
+}
+
+// 02. HEADER LIST & POST
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.header-background-title::after{
+  position: absolute;
+  width: 100%;
+  font-weight: 700;
+  opacity: .04;
+  white-space: nowrap;
+  letter-spacing: -8px;
+  line-height: 1.1;
+}
+@media #{$small-only} {
+  .header-background-title::after{
+    font-size: rem-calc(112);
+    margin-top: rem-calc(-48);
+    left: rem-calc(16);
+  }
+}
+@media #{$medium-only} {
+  .header-background-title::after{
+    font-size: rem-calc(160);
+    margin-top: rem-calc(-68);
+    left: rem-calc(16);
+  }
+}
+@media #{$large-up} {
+  .header-background-title::after{
+    font-size: rem-calc(214);
+    margin-top: rem-calc(-32);
+  }
+}
+// header bg title for list index
+@media #{$small-up} {
+  .header-background-title.mod-header-list-index::after{
+    margin-top: rem-calc(-96);
+    font-size: rem-calc(112);
+    text-align: left;
+  }
+}
+@media #{$medium-only} {
+  .header-background-title.mod-header-list-index::after{
+    font-size: rem-calc(160);
+  }
+}
+@media #{$large-up} {
+  .header-background-title.mod-header-list-index::after{
+    margin-top: rem-calc(-144);
+    font-size: rem-calc(214);
+    text-align: center;
+  }
+}
+// header bg title for list of cards sections (eg. ressources/, inspirations/)
+@media #{$small-up} {
+  .header-background-title.mod-header-list-cards-section::after{
+    margin-top: rem-calc(-16);
+    font-size: rem-calc(112);
+    text-align: left;
+  }
+}
+@media #{$medium-only} {
+  .header-background-title.mod-header-list-cards-section::after{
+    margin-top: rem-calc(-56);
+    font-size: rem-calc(160);
+  }
+}
+@media #{$large-up} {
+  .header-background-title.mod-header-list-cards-section::after{
+    margin-top: rem-calc(-96);
+    font-size: rem-calc(214);
+    text-align: center;
+  }
+}
+// header bg title content
+.header-background-title.mod-inspiration::after,
+.header-background-title.mod-header-list-index.mod-inspiration::after{
+  content: "Inspirations";
+}
+.header-background-title.mod-ressource::after,
+.header-background-title.mod-header-list-index.mod-ressource::after{
+  content: "Ressources";
+}
+.header-background-title.mod-video::after,
+.header-background-title.mod-header-list-index.mod-video::after{
+  content: "Videos";
+}
+.header-background-title.mod-video::after{
+  margin-top: rem-calc(-16);
+  top: rem-calc(-48);
+}
+.header-background-title.mod-header-list-index.mod-video::after{
+  margin-top: rem-calc(-144);
+  top: auto;
+}
+.header-background-title.mod-note::after,
+.header-background-title.mod-header-list-index.mod-note::after{
+  content: "Notes";
+}
+.header-background-title.mod-evenement::after,
+.header-background-title.mod-header-list-index.mod-evenement::after{
+  content: "Evenements";
+}
+.header-background-title.mod-conseil::after,
+.header-background-title.mod-header-list-index.mod-conseil::after{
+  content: "Conseils";
+}
+.header-background-title.mod-collection::after,
+.header-background-title.mod-header-list-index.mod-collection::after{
+  content: "Collections";
+}
+.header-background-title.mod-homepage::after,
+.header-background-title.mod-header-list-index.mod-homepage::after{
+  content: "Design & Code";
+  margin-top: rem-calc(-48);
+}
 // 02. SECTION BRIEF
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .section-brief-header{
@@ -1390,9 +1514,11 @@ figcaption{
 	  max-width:rem-calc(640);
 	  float:none!important
   }
+  .column-header-article{
+    display: table;
+  }
 }
 .row-body-article.item-contenu {padding-top:rem-calc(48)}
-
 // main
 .page-editoriale-intro{
 	@include grid-column($columns:12,$center:true,$collapse:false);
@@ -1698,7 +1824,7 @@ input.index-wide-newsletter-in-grid-submit{
 .header-collection h1{
   @include header-liste-title;
 }
-.header-collection-link a{@include header-liste-link($color:$white)}
+.header-collection-link a{@include header-liste-link;}
 
 // 00. SECTION JOBS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
