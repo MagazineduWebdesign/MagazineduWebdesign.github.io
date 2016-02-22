@@ -1238,7 +1238,9 @@ figcaption{
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .header-background-title::after{
   position: absolute;
+  display: block;
   width: 100%;
+  overflow: hidden;
   font-weight: 700;
   opacity: .04;
   white-space: nowrap;
