@@ -1285,7 +1285,7 @@ figcaption{
   .header-background-title.mod-header-list-index::after{
     margin-top: rem-calc(-144);
     font-size: rem-calc(214);
-    text-align: center;
+    right: 0;
   }
 }
 // header bg title for list of cards sections (eg. ressources/, inspirations/)
@@ -1306,7 +1306,7 @@ figcaption{
   .header-background-title.mod-header-list-cards-section::after{
     margin-top: rem-calc(-96);
     font-size: rem-calc(214);
-    text-align: center;
+    right: 0;
   }
 }
 // header bg title content
@@ -1506,6 +1506,11 @@ figcaption{
 }
 .column-header-article{
   padding-top:rem-calc(48);
+}
+@media #{$large-only} {
+  .column-header-article h1{
+    margin-left: rem-calc(-48);
+  }
 }
 .column-header-article.mod-header-article-no-margin-top{padding-top:rem-calc(0)}
 
