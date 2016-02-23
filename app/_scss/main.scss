@@ -1239,7 +1239,8 @@ figcaption{
 .header-background-title::after{
   position: absolute;
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 92%;
   overflow: hidden;
   font-weight: 700;
   opacity: .04;
