@@ -7,7 +7,7 @@
     {% if page.title %}
       {{ page.title }}
       {% if page.category == 'ui-sites-web' %}
-        &nbsp;Web Design Inspiration &ndash; {{ page.format }}
+        | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}
       {% endif %}
     {% else %}
       {{ site.title }}
