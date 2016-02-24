@@ -9,7 +9,7 @@ layout: default
 
       <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-inspiration">
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
-          <h1 itemprop="headline">{{ page.title }}</h1>
+          <h1 itemprop="headline">{{ page.title }} <small>Web Design Inspiration &ndash; {{ page.format }}</small></h1>
           {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
