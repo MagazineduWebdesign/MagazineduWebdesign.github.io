@@ -10,7 +10,7 @@ layout: null
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit: 24 %}
 			<item>
-				<title>{{ post.title | xml_escape }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format | xml_escape }}{% endif %}{% endif %}</title>
+				<title>{{ post.title | xml_escape }}{% if post.category == 'ui-sites-web' %} | Web Design Inspiration{% if post.format %} &ndash; {{ post.format | xml_escape }}{% endif %}{% endif %}</title>
 				{% if post.author.name %}
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}
