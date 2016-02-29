@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% include custom/sections/article_header.html %}
+<section>
+  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection">
+    <header class="row-liste-index">
+      <div class="small-12 columns">
+        <h1 class="headline-collection text-center">{{ page.title }}</h1>
+        {{ page.intro-header | markdownify }}
+      </div>
+      <div class="small-12 columns">
+        {% include custom/sections/share-article-footer.html %}
+      </div>
+    </header>
+  </div>
+</section>
+
+{% if page.bgimgheader == 'true' %}
+<div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)]">
+</div>
+{% endif %}
+
+<section>
+  <div class="row-liste-index">
+    <div class="small-12 columns section-header">
+      <!-- Number of item by collection -->
+      {% for item in site.data.collections.[page.titre_fichier_data] %}
+        {% capture length %}{{ forloop.length }}{% endcapture %}
+      {% endfor %}
+      <span class="section-header-titre {% if page.bgimgheader == 'true' %}mod-header-collection-bgimg{% endif %}">{{ length | append: ' Items dans cette collection'}}</span>
+    </div>
+  </div>
+
+  <div class="row-liste-index">
+    <main class="small-12 columns note-index">
+      <div class="section-brief-panel">
+
+      {% if site.data.collections.[page.titre_fichier_data] %}
+        {% for item in site.data.collections.[page.titre_fichier_data] %}
+
+		      <article class="note">
+            {% if item.title %}
+            <div class="row collapse">
+		          <div class="small-12 columns">
+		            <a href="{{ item.href }}" title="{{ item.title }}" target="_blank" rel="nofollow">
+		              <h1 itemprop="headline">{{ item.title }}</h1>
+		            </a>
+								{% if item.desc %}{{ item.desc | markdownify }}{% endif %}
+		          </div>
+		        </div>
+            {% endif %}
+		        <div class="row collapse">
+		          <div class="small-12 columns">
+								{% if item.image %}
+									<figure class="figure-img mod-note-img">
+										<a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
+											<img class="right" data-interchange="[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
+											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]" alt="{{ item.title }}" width="640" height="auto" />
+											<noscript><img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ item.title }}" width="640" height="auto" /></noscript>
+										</a>
+										{% if item.image-legende %}
+										<div class="row collapse">
+											<div class="small-12 columns">
+												<figcaption>{{ item.image-legende }}</figcaption>
+											</div>
+										</div>
+										{% endif %}
+									</figure>
+								{% endif %}
+		          </div>
+		        </div>
+
+		      </article>
+        {% endfor %}
+
+      {% else %}
+        <p>Il n'y a pas d'items dans cette collection.</p>
+      {% endif %}
+      </div>
+      <div class="row collapse article-partage mod-partage-section-brief-panel">
+        {% include custom/sections/share-article-footer.html %}
+      </div>
+      {% include custom/cartes/cartenl.html %}
+			{% include custom/cartes/carte_twtr_no-mail.html %}
+      {% include custom/cartes/carte_comment.html %}
+    </main>
+
+  </div>
+</section>
+<!-- list all sections
+================================================== -->
+{% include custom/cartes/carte_cross-navigation-app_liste-index.html %}
