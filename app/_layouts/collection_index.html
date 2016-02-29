@@ -32,7 +32,7 @@ layout: default
         {% for collection in collections %}
 
           <a href="{{ collection.url | prepend: site.baseurl }}" title="{{ collection.title }}">
-            <article class="collection-index-article js-postcount" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)],
+            <article class="collection-index-article" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
             [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],

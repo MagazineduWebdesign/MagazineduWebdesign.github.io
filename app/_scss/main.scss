@@ -224,6 +224,9 @@ sup {
 	font-size:rem-calc(14);
 	color:$jumbo;
 }
+.section-header-titre.mod-header-collection-bgimg{
+	color: $white;
+}
 .section-index-wide-carte{
   max-width: rem-calc(924);
 	margin-top: rem-calc(48);
@@ -1558,9 +1561,11 @@ main.column-body-article h4{
 	border-bottom:0
 }
 .article-partage{margin-bottom:rem-calc(24)}
+.article-partage.mod-partage-section-brief-panel{margin:rem-calc(24) 0;}
 .article-partage-facebook{@include button($bg:$facebook,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 .article-partage-twitter{@include button($bg:$twitter,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 .article-partage-email{@include button($bg:$jet,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
+.article-partage-pinterest{@include button($bg:$pinterest,$full-width:true,$radius:2px); margin-bottom:0; color:$white!important}
 @media #{$small-only} {
 	.row-body-article {
 		.column-body-article{
@@ -1772,19 +1777,20 @@ input.index-wide-newsletter-in-grid-submit{
 }
 
 .header-collection-bgimg{
-  @include header-bgimg($bgsize: 110%);
-    transition-property : background-size;
-    -webkit-transition-property : background-size;
-    animation-iteration-count: 1;
-    -webkit-animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
-    -webkit-animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
-    animation-delay: 300ms;
-    -webkit-animation-delay: 300ms;
-    animation: kenburns 5s;
-    -webkit-animation: kenburns 5s;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
+  @include header-bgimg;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 88%;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: -1px 0 0 -1px;
+  opacity: .5;
+  z-index: -1;
 }
 @keyframes kenburns {
   0% {
@@ -1821,13 +1827,14 @@ input.index-wide-newsletter-in-grid-submit{
 .header-collection-bgimg .tabs-item:hover{
   color: $tuatara;
 }
-.header-collection-bgimg .section-header-titre{
-  color: $white;
-}
 .header-collection-shadow{
   background: linear-gradient(180deg,rgba(0,0,0,.8) 0%,rgba(245,245,245,1) 100%);
   /*min-height: 48vh;*/
   height: auto;
+}
+.header-collection p {
+  color: white;
+  text-align: center;
 }
 .header-collection h1{
   @include header-liste-title;

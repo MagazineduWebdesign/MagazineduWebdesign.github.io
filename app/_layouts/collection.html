@@ -3,39 +3,32 @@ layout: default
 ---
 {% include custom/sections/article_header.html %}
 <section>
-	{% if page.bgimgheader == 'true' %}
-	  <div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
-	  [{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
-	{% endif %}
+  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection">
+    <header class="row-liste-index">
+      <div class="small-12 columns">
+        <h1 class="headline-collection text-center">{{ page.title }}</h1>
+        {{ page.intro-header | markdownify }}
+      </div>
+      <div class="small-12 columns">
+        {% include custom/sections/share-article-footer.html %}
+      </div>
+    </header>
+  </div>
+</section>
 
-	  <div class="header-collection-shadow">
-	    <div class="header-collection">
-	      <header class="row-liste-index">
-	        <div class="small-12 columns">
-	          <h1 class="headline-collection text-center">{{ page.title }}</h1>
-	          <p class="header-liste-content mod-bg-img text-center">{{ page.intro-header }}</p>
-	        </div>
-	      </header>
-	    </div>
-	  </div>
-	</section>
+{% if page.bgimgheader == 'true' %}
+<div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)]">
+</div>
+{% endif %}
 
-	{% if page.bgimgheader == 'true' %}
-	</div>
-	{% endif %}
-
+<section>
   <div class="row-liste-index">
     <div class="small-12 columns section-header">
       <!-- Number of item by collection -->
       {% for item in site.data.collections.[page.titre_fichier_data] %}
         {% capture length %}{{ forloop.length }}{% endcapture %}
       {% endfor %}
-      <span class="section-header-titre">{{ length | append: ' Items dans cette collection'}}</span>
+      <span class="section-header-titre {% if page.bgimgheader == 'true' %}mod-header-collection-bgimg{% endif %}">{{ length | append: ' Items dans cette collection'}}</span>
     </div>
   </div>
 
@@ -52,7 +45,7 @@ layout: default
               <div class="row collapse">
                 <div class="small-9 columns">
                   <h1 class="carte-article-secondaire-post-title">{{ item.title }}</h1>
-                  {% if item.desc %}<p>{{ item.desc }}</p>{% endif %}
+                  {% if item.desc %}{{ item.desc | markdownify }}{% endif %}
                 </div>
 
                 <div class="small-3 columns">
@@ -78,9 +71,12 @@ layout: default
         <p>Il n'y a pas d'items dans cette collection.</p>
       {% endif %}
       </div>
-			{% include custom/cartes/cartenl.html %}
-
-			{% include custom/cartes/carte_twtr_no-mail.html %} 
+      <div class="row collapse article-partage mod-partage-section-brief-panel">
+        {% include custom/sections/share-article-footer.html %}
+      </div>
+      {% include custom/cartes/cartenl.html %}
+      {% include custom/cartes/carte_twtr_no-mail.html %}
+      {% include custom/cartes/carte_comment.html %}
     </main>
 
   </div>
