@@ -6,6 +6,6 @@
     <a onclick="ga('send', 'social', 'Facebook', 'share', '{{ site.url }}{{ page.url | cgi_escape }}');" class="button expand radius small article-partage-facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | cgi_escape }}&amp;t={{ page.title }}" rel="nofollow" target="_blank">PARTAGER SUR FACEBOOK</a>
   </div>
   <div class="small-4 columns">
-    <a onclick="ga('send', 'social', 'Email', 'share', '{{ site.url }}{{ page.url | cgi_escape }}');" class="button expand radius small article-partage-email" href="mailto:?subject={{ page.title | uri_escape }}&amp;body={{ 'Cela pourrait te plaire ' | uri_escape }}{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}?utm_source%3Demail%26utm_medium%3Demail_share" rel="nofollow" target="_blank">ENVOYER A UN AMI</a>
+    <a onclick="ga('send', 'social', 'Pinterest', 'pin', '{{ site.url }}{{ page.url | cgi_escape }}');" href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-custom="true" data-pin-description="{{page.intro}}" data-pin-url="{{ site.url }}{{ page.url }}" class="button expand radius small article-partage-pinterest" rel="nofollow" target="_blank">EPINGLER SUR PINTEREST</a>
   </div>
 </div>
