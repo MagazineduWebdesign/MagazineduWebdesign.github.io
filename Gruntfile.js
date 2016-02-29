@@ -45,7 +45,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
-        tasks: ['jekyll:server']
+        tasks: ['jekyll:server_limited_posts']
       },
       livereload: {
         options: {
@@ -176,6 +176,13 @@ module.exports = function (grunt) {
       server: {
         options: {
           config: '_config.yml',
+          dest: '.jekyll'
+        }
+      },
+      server_limited_posts: {
+        options: {
+          config: '_config.yml',
+          limit_posts: '8',
           dest: '.jekyll'
         }
       },
