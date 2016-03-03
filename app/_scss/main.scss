@@ -658,6 +658,9 @@ sup {
     a h1.grid-article-card-title.mod-add-new::after{
       content: "";
     }
+  	a h1.grid-article-card-title.mod-ads-index-panel-title{
+      margin-left: 0;
+    }
   	a h1.carte-article-secondaire-post-title.mod-videos-relatives-post-title::after, a h1.carte-article-secondaire-post-title.mod-article-two-columns-post-title::after{
       position: inherit;
       margin-left: rem-calc(8);
@@ -735,6 +738,7 @@ sup {
 // side-nav
 .side-nav.mod-article-meta-data{
   position: relative;
+  z-index: 1;
   background: white;
   border:1px solid $secondary-color;
 	border-radius: $global-radius;

@@ -41,7 +41,7 @@ layout: default
             {% unless page.metadata == 'false' %}
             <!-- metadata
             ================================================== -->
-            <div class="article-meta-data">
+            <div>
               <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata livres">
                 {% if page.url-github %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit github repo', '{{ page.title }}');" class="button expand radius small secondary" href="{{ page.url-github }}" title="Repo GitHub &ndash; {{ page.title }}" target="_blank" rel="nofollow">REPO GITHUB</a></li>{% endif %}
                 {% if page.siteweb %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Visit website', '{{ page.title }}');" class="button expand radius small primary" href="{{ page.siteweb }}" title="Site Web &ndash; {{ page.title }}" target="_blank" rel="nofollow">SITE WEB</a></li>{% endif %}
