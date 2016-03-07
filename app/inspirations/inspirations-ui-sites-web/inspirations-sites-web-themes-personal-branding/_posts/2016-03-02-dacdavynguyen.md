@@ -31,8 +31,8 @@ element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/navigation-off-
 url-demo: "http://dacdavynguyen.com/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-dacdavynguyen-0.jpg"
 image-2: "inspiration-ui-design-site-web-dacdavynguyen-1.jpg"
-image-2: "inspiration-ui-design-site-web-dacdavynguyen-2.jpg"
-image-2: "inspiration-ui-design-site-web-dacdavynguyen-3.jpg"
+image-3: "inspiration-ui-design-site-web-dacdavynguyen-2.jpg"
+image-4: "inspiration-ui-design-site-web-dacdavynguyen-3.jpg"
 intro: "Portfolio de Dac Davy, designer français. La mise en page rappelle les codes du print. L'équilibre entre les tailles de typographie et la couleur donnent envie d'explorer les projets. Si ce type de mise en page vous intéresse, rendez-vous sur ce board Pinterest [Print to Web](https://fr.pinterest.com/pausegraphik/print-for-web/)."
 description: "Portfolio de Dac Davy, designer français. La mise en page rappelle les codes du print. L'équilibre entre les tailles de typographie et la couleur donnent envie d'explorer les projets."
 ---
