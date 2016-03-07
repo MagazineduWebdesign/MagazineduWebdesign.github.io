@@ -7,6 +7,30 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>GoldOS | Web Design Inspiration – portfolio</title>
+				
+				
+					<description>Portfolio de Jon Gold. Avec un nom pareil, la [palette de couleurs](http://www.magazineduwebdesign.com/collection/color-palette-generator-12-outils-utilis-s-par-vos-concurrents/) ne pouvait pas être autrement. La ligne éditoriale non plus... Gold OS, tout en modestie.</description>
+				
+				<pubDate>Mon, 07 Mar 2016 02:58:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jon-gold/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jon-gold/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-jon-gold-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Restaurant The Dabney | Web Design Inspiration – landing page</title>
+				
+				
+					<description>Site web d'un restaurant de Washington, DC. Les illustrations en arrière-plan et les transitions de navigation donnent envie de réserver. Dommage qu'il soit si loin.</description>
+				
+				<pubDate>Mon, 07 Mar 2016 02:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thedabney/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/thedabney/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-restaurant-the-dabney-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Dac Davy | Web Design Inspiration – portfolio</title>
 				
 				
@@ -268,30 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-saatundsaat-1.jpg" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>La vidéo du lancement de Windows 95</title>
-				
-				
-					<description>Une scène mythique du lancement de Windows 95 avec en guest Steve Ballmer et Bill Gates. Le Magazine du Webdesign vous offre gracieusement les sous-titres : We Will Make Billions. Steve B. aurait pu être G.O (Gentil Organisateur) au Club Med des Menuires.</description>
-				
-				<pubDate>Sun, 14 Feb 2016 00:22:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/videos/lancement-de-windows-95/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/videos/lancement-de-windows-95/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Bouboup &amp;ndash; happy monkey | Web Design Inspiration – experience interactive</title>
-				
-				
-					<description>On a encore le droit de souhaiter la bonne année.</description>
-				
-				<pubDate>Sat, 13 Feb 2016 06:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bouboup-happy-monkey/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bouboup-happy-monkey/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-bouboup-happy-monkey-1.jpg" length="" type="image/*" />
 			</item>
 		
 		
