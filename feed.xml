@@ -7,6 +7,30 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Irradie | Web Design Inspiration – portfolio</title>
+				
+				
+					<description>[Portfolio d'un studio de création](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/portfolio/) français fondé en 2016 par les frères Alain et Laurent Vonck. Deux designers avec un champ de travail pluridisciplinaire autour du design graphique &amp; numérique.</description>
+				
+				<pubDate>Tue, 08 Mar 2016 03:55:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/irradie/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/irradie/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-irradie-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Andrea Brugi | Web Design Inspiration – portfolio</title>
+				
+				
+					<description>Un [site Web ecommerce](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/) mettant en scène un artisanat d'art dans le domaine des objets en bois.</description>
+				
+				<pubDate>Tue, 08 Mar 2016 02:58:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/andrea-brugi/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/andrea-brugi/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-andrea-brugi-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
 				<title>GoldOS | Web Design Inspiration – portfolio</title>
 				
 				
@@ -268,30 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-pick-me-up-2016-2.jpg" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Face bug | Web Design Inspiration – experience interactive</title>
-				
-				
-					<description>L'entrée dans cette scène 3D se fait via votre webcam. Vous êtes l'expérience jusqu'au moment où vous désirez zoomer. Un jeu de perspectives pouvant traduire l'importance du point de vue.</description>
-				
-				<pubDate>Sun, 14 Feb 2016 06:20:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/buccchi-work-facebug/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/buccchi-work-facebug/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/buccchi-work-facebug-1.png" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Saat+Saat | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Portfolio avec une petite 3D pour vous mettre dans l'ambiance. C'est propre mais ça manque d'appel à l'action.</description>
-				
-				<pubDate>Sun, 14 Feb 2016 05:55:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/saat-saat/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-saatundsaat-1.jpg" length="" type="image/*" />
 			</item>
 		
 		
