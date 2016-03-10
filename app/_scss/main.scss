@@ -738,7 +738,7 @@ sup {
 // side-nav
 .side-nav.mod-article-meta-data{
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   background: white;
   border:1px solid $secondary-color;
 	border-radius: $global-radius;
@@ -1513,11 +1513,6 @@ figcaption{
 }
 .column-header-article{
   padding-top:rem-calc(48);
-}
-@media #{$large-only} {
-  .column-header-article h1{
-    margin-left: rem-calc(-48);
-  }
 }
 .column-header-article.mod-header-article-no-margin-top{padding-top:rem-calc(0)}
 
