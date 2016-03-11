@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>TEDx Portland | Web Design Inspiration – landing pages</title>
+				
+				
+					<description>L'environnement de Portland entre mer et terre est mis en scène avec une rare justesse. Le background de chaque hauteur d'écran reflète les paysages tel un miroir d'eau. On en oublie presque l'[événement](http://www.magazineduwebdesign.com/evenements/) en lui même : TEDx Portland.</description>
+				
+				<pubDate>Fri, 11 Mar 2016 08:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tedx-portland/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tedx-portland/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-tedx-portland-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Irradie | Web Design Inspiration – portfolio</title>
 				
 				
@@ -20,6 +32,18 @@
 		
 			<item>
 				<title>Andrea Brugi | Web Design Inspiration – portfolio</title>
+				
+				
+					<description>De la [belle typographie](http://www.magazineduwebdesign.com/ressources/web-fonts/) en mode Print to Web.</description>
+				
+				<pubDate>Tue, 08 Mar 2016 02:58:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/phillip-fivel/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/phillip-fivel/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-phillip-fivel-nessen-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Andrea Brugi | Web Design Inspiration – ecommerce</title>
 				
 				
 					<description>Un [site Web ecommerce](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/ecommerce/) mettant en scène un artisanat d'art dans le domaine des objets en bois.</description>
@@ -268,30 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nizo-camera-iphone/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nizo-camera-iphone/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-nizoapp.jpg" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Design sprint &amp;ndash; Franchir les obstacles UX en 5 jours</title>
-				
-				
-					<description>Designer des services et des produits que les gens veulent, plus rapidement.</description>
-				
-				<pubDate>Sun, 14 Feb 2016 17:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/sprint-google-venture.jpg" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Festival Pick Me Up 2016 | Web Design Inspiration – experience interactive</title>
-				
-				
-					<description>Une interface de site Web pour un événement dédié aux arts graphiques où les visiteurs peuvent librement designer des lettres qui seront ensuite utilisées dans l'identité du festival.</description>
-				
-				<pubDate>Sun, 14 Feb 2016 08:24:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/festival-pick-me-up-2016/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-pick-me-up-2016-2.jpg" length="" type="image/*" />
 			</item>
 		
 		
