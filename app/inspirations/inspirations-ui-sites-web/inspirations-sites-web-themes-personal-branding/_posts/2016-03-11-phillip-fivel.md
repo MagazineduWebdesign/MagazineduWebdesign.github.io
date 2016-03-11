@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
-title: "Andrea Brugi"
-date: "2016-03-08 02:58:57"
+title: "Phillip Fivel"
+date: "2016-03-11 02:58:57"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
