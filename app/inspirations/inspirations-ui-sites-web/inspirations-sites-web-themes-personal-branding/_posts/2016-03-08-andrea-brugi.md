@@ -7,12 +7,15 @@ path2: "ui-design"
 path3: "sites-web"
 category: "ui-sites-web"
 tags:
+- sites-web-themes-personal-branding
 - sites-web-formats-ecommerce
 - sites-web-animation-typographie
 - sites-web-animation-transition-navigation
 - sites-web-composants-ui-fiche-produit
-format: "portfolio"
-format-url: "/inspirations/ui-design/sites-web/formats/portfolio/"
+theme: "personal branding"
+theme-url: "/inspirations/ui-design/sites-web/themes/personal-branding/"
+format: "ecommerce"
+format-url: "/inspirations/ui-design/sites-web/formats/ecommerce/"
 animation-1: "transition de navigation"
 animation-url-1: "/inspirations/ui-design/sites-web/animation/transition-navigation/"
 animation-2: "animation typographie"

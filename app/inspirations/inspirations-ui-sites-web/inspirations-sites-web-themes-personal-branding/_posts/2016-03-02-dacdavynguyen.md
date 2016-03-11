@@ -7,15 +7,15 @@ path2: "ui-design"
 path3: "sites-web"
 category: "ui-sites-web"
 tags:
-- sites-web-themes-conseil
+- sites-web-themes-personal-branding
 - sites-web-formats-portfolio
 - sites-web-animation-background
 - sites-web-animation-scroll
 - sites-web-animation-transition-navigation
 - sites-web-composants-ui-fiche-projet
 - sites-web-elements-ui-navigation-off-canvas
-theme: "conseil"
-theme-url: "/inspirations/ui-design/sites-web/themes/conseil/"
+theme: "personal branding"
+theme-url: "/inspirations/ui-design/sites-web/themes/personal-branding/"
 format: "portfolio"
 format-url: "/inspirations/ui-design/sites-web/formats/portfolio/"
 animation-1: "transition de navigation"
