@@ -15,9 +15,9 @@ layout: null
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}
 				{% if post.intro %}
-					<description>{{ post.intro | markdownify | xml_escape }}</description>
+					<description>{{ post.intro | markdownify | strip_html | xml_escape }}</description>
 				{% else %}
-					<description>{{ post.description | markdownify | xml_escape }}</description>
+					<description>{{ post.description | markdownify | strip_html | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
@@ -33,7 +33,7 @@ layout: null
 					<dc:creator>{{ note.author.name | xml_escape }}</dc:creator>
 				{% endif %}
 				{% if note.content %}
-					<description>{{ note.content | markdownify | xml_escape }}</description>
+					<description>{{ note.content | markdownify | strip_html | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ note.url }}</link>
