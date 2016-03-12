@@ -21,7 +21,7 @@
   ============================== -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}" />
   <meta property="og:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}" />
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
@@ -45,7 +45,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@MagDuWebdesign" />
   <meta name="twitter:creator" content="@MagDuWebdesign">
-  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}">
   <meta name="twitter:description" content="{% if page.intro %} {{ page.intro }} {% else %} {{ page.description }} {% endif %}">
   {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
