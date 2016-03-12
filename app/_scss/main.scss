@@ -1511,21 +1511,69 @@ figcaption{
 	  padding:0!important
   }
 }
+
+// column-header-article
+
+// used in the top of the main section of article page. Eg. : inspirations-sites-web-default.html
+
 .column-header-article{
   padding-top:rem-calc(48);
+  display: table;
 }
-.column-header-article.mod-header-article-no-margin-top{padding-top:rem-calc(0)}
+  .column-header-article p,
+  .column-header-article h1{
+    z-index: 1;
+    position: relative;
+  }
+
+
+// Modifiers
+
+.column-header-article.mod-header-article-no-margin-top{
+  padding-top:rem-calc(0);
+}
+
+
+// Media Queries
+
+@media #{$small-only} {
+
+  .column-header-article{
+  	padding-left:rem-calc(20)!important;
+  	padding-right:rem-calc(20)!important
+  }
+
+  .column-header-article.mod-header-article-video{
+  	padding-top:rem-calc(0);
+  }
+
+}
+
+@media #{$medium-only} {
+
+  .column-header-article.mod-header-article-video{
+    padding-top:rem-calc(0);
+  }
+
+}
+
+@media #{$large-up} {
+
+	.row-body-article {
+	  @include grid-row;
+
+	}
+
+}
+
 
 // body
 .row-body-article {
   @include grid-row;
-  .column-body-article, .column-header-article, .column-article-featured-image-caption {
+  .column-body-article, .column-article-featured-image-caption {
     @include grid-column($columns:12,$center:true,$collapse:false);
 	  max-width:rem-calc(640);
 	  float:none!important
-  }
-  .column-header-article{
-    display: table;
   }
 }
 .row-body-article.item-contenu {padding-top:rem-calc(48)}
@@ -1572,14 +1620,6 @@ main.column-body-article h4{
   		padding-right:rem-calc(20);
 		}
 	}
-  .column-header-article{
-  	padding-top:rem-calc(48);
-  	padding-left:rem-calc(20)!important;
-  	padding-right:rem-calc(20)!important
-  }
-  .column-header-article.mod-header-article-video{
-  	padding-top:rem-calc(0);
-  }
   .article-meta-footer, .article-via{
 		@include item-row;
 		margin-bottom:rem-calc(24);
@@ -1597,8 +1637,6 @@ main.column-body-article h4{
 	  max-width: rem-calc(1024)!important;
 	  padding:0!important
 	}
-  .column-header-article {padding-top:rem-calc(48)}
-  .column-header-article.mod-header-article-video {padding-top:rem-calc(0)}
 }
 @media #{$large-up} {
 	.row-body-article {
@@ -1619,7 +1657,7 @@ main.column-body-article h4{
 		  max-width: rem-calc(640);
 		  float: none!important;
 	  };
-	  .column-header-article, .column-article-featured-image-caption {
+	  .column-article-featured-image-caption {
 	    @include grid-column(12);
 		  max-width: rem-calc(940);
 		  padding-left: 0;
