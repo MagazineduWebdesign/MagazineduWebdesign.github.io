@@ -4,7 +4,7 @@ date: "2016-03-13 06:00:00"
 source-name: "@shl"
 source-url: "https://twitter.com/shl"
 image: "analogie-css.gif"
-image-legende: ""
+image-legende:
 id-youtube:
 id-vimeo:
 id-soundcloud:
