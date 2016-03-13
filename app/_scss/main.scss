@@ -1550,7 +1550,10 @@ figcaption{
 }
 
 @media #{$medium-only} {
-
+  .column-header-article{
+  	padding-left:rem-calc(20)!important;
+  	padding-right:rem-calc(20)!important
+  }
   .column-header-article.mod-header-article-video{
     padding-top:rem-calc(0);
   }
@@ -1561,7 +1564,6 @@ figcaption{
 
 	.row-body-article {
 	  @include grid-row;
-
 	}
 
 }
