@@ -1,5 +1,5 @@
 ---
-title: "Lequel de ces 2 potentiels sites web êtes vous en train de designer ?"
+title: "Lequel de ces 2 sites web êtes vous en train de designer ?"
 date: "2016-03-13 07:00:00"
 source-name: "@jongold"
 source-url: "https://twitter.com/jongold"
