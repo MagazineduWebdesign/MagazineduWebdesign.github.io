@@ -7,6 +7,6 @@ Que vous soyez sur le point de lancer un nouveau site ecommerce ou en train de r
 titre_fichier_data: "collection_site-web-ecommerce-web-design-inspiration-1"
 date: "2016-03-15 01:00:00"
 bgimgheader: "true"
-image: "inspiration-ui-design-site-web-ikano-georgian-wine-1.jpg"
+image: "inspiration-ui-design-site-web-polo-fangio-1.jpg"
 description: "Que vous soyez sur le point de lancer une nouvelle boutique en ligne ou en train de refondre votre site ecommerce actuel, la liste suivante devrait vous donner l'inspiration nécessaire pour votre prochain projet."
 ---
