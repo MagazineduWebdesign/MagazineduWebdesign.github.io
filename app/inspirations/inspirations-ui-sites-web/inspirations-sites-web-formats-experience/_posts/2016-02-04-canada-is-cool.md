@@ -13,8 +13,8 @@ theme:
 theme-url:
 format: "ecommerce"
 format-url: "/inspirations/ui-design/sites-web/formats/ecommerce/"
-animation-2: "animation background"
-animation-url-2: "/inspirations/ui-design/sites-web/animation/background/"
+animation-1: "animation background"
+animation-url-1: "/inspirations/ui-design/sites-web/animation/background/"
 url-demo: "http://canadais.cool/?ref=magazineduwebdesign"
 image: "inspiration-ui-design-site-web-canada-is-cool-1.jpg"
 image: "inspiration-ui-design-site-web-canada-is-cool-2.jpg"
