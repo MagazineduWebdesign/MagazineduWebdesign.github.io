@@ -17,7 +17,7 @@ tags:
 - sites-web-composants-ui-ecran-lancement
 - sites-web-elements-ui-audio
 - sites-web-elements-ui-carte-interactive
-format: "rexperience interactive"
+format: "experience interactive"
 format-url: "/inspirations/ui-design/sites-web/formats/experience-interactive/"
 animation-1: "Transition de navigation"
 animation-url-1: "/inspirations/ui-design/sites-web/animation/transition-navigation/"
