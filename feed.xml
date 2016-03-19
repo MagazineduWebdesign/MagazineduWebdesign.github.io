@@ -7,6 +7,20 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Digging Into Hip Hop | Web Design Inspiration – experience interactive</title>
+				
+				
+					<description>Digging Into Hip Hop est un site web qui aspire à créer une expérience de crate digging digitale. Il permet de découvrir une sélection de disques en fouillant dans des caisses de vinyles virtuelles, en 3D, et tente de reproduire au maximum une expérience de découverte musicale chez un disquaire.
+Le site web est bâti sur une librairie javascript open source créée par Valentin Ledrapier, elle même basée sur Three.js (WebGL).
+</description>
+				
+				<pubDate>Sat, 19 Mar 2016 00:24:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/digging-into-hip-hop/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/digging-into-hip-hop/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-dihh-1.jpg" length="" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Giovanni Xu | Web Design Inspiration – portfolio</title>
 				
 				
@@ -303,19 +317,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/benvigut-bisgrafic-barcelona/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/benvigut-bisgrafic-barcelona/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-benvigut-bisgrafic-barcelona-1.jpg" length="" type="image/*" />
-			</item>
-		
-			<item>
-				<title>David Bastian | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Portfolio d’un designer chilien avec une belle interaction en drag &amp;amp; drop pour explorer le contenu. Je vous laisse découvrir.
-</description>
-				
-				<pubDate>Wed, 24 Feb 2016 06:27:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-bastian/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/david-bastian/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-david-bastian-1.jpg" length="" type="image/*" />
 			</item>
 		
 		
