@@ -33,9 +33,9 @@ technologie-url-1: "/inspirations/ui-design/sites-web/technologies/threejs/"
 technologie-2: "WebGL"
 technologie-url-2: "/inspirations/ui-design/sites-web/technologies/webgl/"
 url-demo: "http://dihh.io/?ref=magazineduwebdesign"
-image: "inspiration-ui-design-site-web-dihh-1.jpg"
-image-2: "inspiration-ui-design-site-web-dihh-2.jpg"
-image-3: "inspiration-ui-design-site-web-dihh-3.jpg"
+image: "inspiration-ui-design-site-web-digging-into-hip-hop-1.jpg"
+image-2: "inspiration-ui-design-site-web-digging-into-hip-hop-2.jpg"
+image-3: "inspiration-ui-design-site-web-digging-into-hip-hop-3.jpg"
 intro: "Digging Into Hip Hop est un site web qui aspire à créer une expérience de [crate digging](http://www.urbandictionary.com/define.php?term=crate+digging) digitale. Il permet de découvrir une sélection de disques en fouillant dans des caisses de vinyles virtuelles, en 3D, et tente de reproduire au maximum une expérience de découverte musicale chez un disquaire.
 
 Le site web est bâti sur une [librairie javascript open source](https://github.com/risq/cratedigger) créée par [Valentin Ledrapier](https://github.com/risq), elle même basée sur [Three.js (WebGL)](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/technologies/threejs/)."
