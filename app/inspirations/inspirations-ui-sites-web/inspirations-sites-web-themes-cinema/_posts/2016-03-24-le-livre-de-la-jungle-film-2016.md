@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-sites-web-default"
-title: "The law of the jungle"
+title: "Le livre de la jungle &ndash; Film 2016"
 date: "2016-03-24 00:20:00"
 path1: "inspirations"
 path2: "ui-design"
