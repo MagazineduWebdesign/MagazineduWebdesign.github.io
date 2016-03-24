@@ -1,7 +1,7 @@
 ---
 layout: "inspirations-sites-web-default"
 title: "The Jungle Book"
-date: "2015-12-26 00:20:00"
+date: "2016-03-24 00:20:00"
 path1: "inspirations"
 path2: "ui-design"
 path3: "sites-web"
