@@ -32,6 +32,7 @@ url-demo: "https://studiorotate.com/?ref=MagazineDuWebdesign"
 image: "inspiration-ui-design-site-web-studiorotate-1.jpg"
 image-2: "inspiration-ui-design-site-web-studiorotate-2.jpg"
 image-3: "inspiration-ui-design-site-web-studiorotate-3.jpg"
+image-4: "inspiration-ui-design-site-web-studiorotate-4.jpg"
 intro: "[Portfolio d'un studio de création](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/portfolio/) ambitieux avec de très beaux projets. Vous apprécierez certainement les [transitions de navigation](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animation/transition-navigation/) entre les pages et les subtiles animations des éléments de design."
 description: "Portfolio d'un studio de création ambitieux avec de très beaux projets. Vous apprécierez certainement les transitions de navigation entre les pages et les subtiles animations des éléments de design."
 ---
