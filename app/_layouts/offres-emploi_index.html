@@ -270,7 +270,7 @@ layout: default
           </div>
         </article>
 				{% for offre in site.offre-emploi reversed %}
-					<a href="{{ offre.url | prepend: site.baseurl }}" title="{{ offre.title }}">
+					<a onclick="ga('send', 'event', 'offres emploi', 'click', 'Lien externe - {{ offre.title }}');" href="{{ offre.candidater-url }}" title="{{ offre.title }}" target="_blank">
 	          <article class="carte-article-secondaire job--offre-item" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
 	            <div class="row collapse">
