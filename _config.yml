@@ -16,7 +16,7 @@ github_username: jekyll
 source: app
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title
-url: "http://www.magazineduwebdesign.com" # the base hostname & protocol for your site
+url: "http://localhost:9000" # the base hostname & protocol for your site
 highlighter: rouge
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -304,6 +304,13 @@ defaults:
       type: "posts"
     values:
       permalink: "/conseils/podcasts/:title/"
+
+# Jekyll Data Pages Generator : this generator allows one to specify data files for which we want to generate one page per record.
+page_gen:
+  - data: "inspirations-ui-sites-web"
+    template: "inspirations-sites-web-no-tags"
+    name: "title"
+    dir: "/inspirations/ui-design/sites-web/"
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true

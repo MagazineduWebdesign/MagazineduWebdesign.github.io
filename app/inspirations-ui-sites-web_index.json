@@ -1,0 +1,14 @@
+---
+layout: null
+---
+{
+  "posts" : [
+    {% assign sitesweb = site.data.inspirations-ui-sites-web | reverse %}
+    {% for siteweb in sitesweb %}
+    "{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web' | prepend: site.url }}",
+    {% endfor %}
+    {% for post in site.categories.ui-sites-web %}
+    "{{ post.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

@@ -8,6 +8,20 @@ layout: null
 		<description>✨ Juste le meilleur des interfaces, chaque jour. Si vous aimez la vitesse, connectez vous à @MagDuWebdesign sur Twitter, Facebook et LinkedIn.</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		{% for siteweb in site.data.inspirations-ui-sites-web limit: 24 %}
+			<item>
+				<title>{{ siteweb.title | xml_escape }} | Web Design Inspiration</title>
+				{% if siteweb.commentaire %}
+					<description>{{ siteweb.commentaire | markdownify | strip_html | xml_escape }}</description>
+				{% else %}
+					<description>{{ siteweb.description | markdownify | strip_html | xml_escape }}</description>
+				{% endif %}
+				<pubDate>{{ siteweb.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web'| prepend: site.url }}</link>
+				<guid isPermaLink="true">{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web'| prepend: site.url }}</guid>
+				<enclosure url="{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' | append: '.jpg' }}" type="image/*" />
+			</item>
+		{% endfor %}
 		{% for post in site.posts limit: 24 %}
 			<item>
 				<title>{{ post.title | xml_escape }}{% if post.category == 'ui-sites-web' %} | Web Design Inspiration{% if post.format %} – {{ post.format | xml_escape }}{% endif %}{% endif %}</title>
@@ -22,7 +36,7 @@ layout: null
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" length="" type="image/*" />
+				<enclosure url="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" type="image/*" />
 			</item>
 		{% endfor %}
 		{% assign notes = site.note | reverse %}
@@ -38,7 +52,7 @@ layout: null
 				<pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ note.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ note.url }}</guid>
-				<enclosure url="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" length="" type="image/*" />
+				<enclosure url="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" type="image/*" />
 			</item>
 		{% endfor %}
 	</channel>

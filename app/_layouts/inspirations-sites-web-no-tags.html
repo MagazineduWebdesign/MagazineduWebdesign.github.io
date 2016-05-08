@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% include custom/sections/article_header.html %}
+<article>
+  <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
+    <header class="row-body-article medium-uncollapse large-collapse">
+
+      <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-inspiration">
+        <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
+          <h1 class="is-title" data-is-title="{{ page.title | truncate: 48 }}" itemprop="headline">{{ page.title }} <small>Web Design Inspiration &ndash; {% assign metadatas = page.metadata | split: "," %}{{ metadatas.first | downcase }}</small></h1>
+          {% if page.commentaire %}{{ page.commentaire | markdownify }}{% endif %}
+        </div>
+        <div class="small-12 columns hide-for-large-up small-text-center">
+          {% if page.url-demo %}<a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}
+        </div>
+      </div>
+
+      <div class="row-body-article">
+        <!-- screenshots
+        ================================================== -->
+        <div class="column-body-article mod-article-left-body">
+          {% if page.image %}
+          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot" data-is-img="{{ page.image | escape | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}">
+            <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+              <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }} – screenshot 1 – #webdesign #inspiration #design #ux #ui" width="640" height="auto">
+            </a>
+          </figure>
+          {% endif %}
+        </div>
+
+        <!-- metadata
+        ================================================== -->
+        <div class="article-meta-data-right">
+          <ul class="side-nav mod-article-meta-data show-for-large-up" role="navigation" title="metadata site Web">
+
+            {% if page.url-demo %}
+            <li role="menuitem">
+              <a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" class="button expand radius small primary is-url-demo" data-is-url-demo="{{ page.url-demo }}" href="{{ page.url-demo }}" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
+            {% endif %}
+
+          </ul>
+          {% include custom/cartes/carte_ad_in-article-sidebar-affiliate.html %}
+        </div>
+
+      </div>
+
+    </header>
+  </div>
+</article>
+{% include custom/cartes/carte_articles_relatifs_inspirations-sites-web_data-zapier.html %}

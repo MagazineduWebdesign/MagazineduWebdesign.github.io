@@ -1,75 +1,26 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<!--
-o o     o     +              o
-+   +     +             o     +       +
-            +
-o  +    +        o  +           +        +
-  __  __                   _
- |  \/  |__ _ __ _ __ _ __(_)_ _  ___
- | |\/| / _` / _` / _` |_ / | ' \/ -_)
- |_|  |_\__,_\__, \__,_/__|_|_||_\___|
-     _       |___/   __   _        _        _
-  __| |_  _  \ \    / /__| |__  __| |___ __(_)__ _ _ _
- / _` | || |  \ \/\/ / -_) '_ \/ _` / -_|_-< / _` | ' \
- \__,_|\_,_|   \_/\_/\___|_.__/\__,_\___/__/_\__, |_||_|
-                                             |___/
-
-                                             From ☁ since ∞
-               o o     o     +              o
-+   +     +             o     +       +
-            +
-o  +    +        o  +           +        +
-
-Quoi de mieux que l'ASCII pour casser la monotonie
-d'un code source décortiqué par un développeur.
-Je présume que vous êtes ce type de personne si vous bidouillez cette page.
-
-Si vous cherchez des infos concernant les outils et les services que
-j'utilise pour faire tourner l'app, je vous conseille de consulter
-cette page http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign/ et
-ce doc http://magazineduwebdesign.com/humans.txt/
-
-Vous y trouverez la recette pour maintenir ce site performant car votre temps est précieux
-et je n'ai nul envie d'être en travers de votre chemin.
-
-Hey ! Si vous avez un peu temps, consultez la section jobs, il y a du taf pour vous
-http://magazineduwebdesign.com/emploi/
-
-<3'z
-
-@MagDuWebdesign
-@guillaumpalayer
--->
-<html class="no-js" lang="fr">
-
-  {% include head.html %}
-
-  <body itemscope itemtype="http://schema.org/Blog">
-
-    {% include header.html %}
+{% include header.html %}
 
 		<article>
-		  {% if page.bgimgheader == true %}
-			<div class="header-article-bgimg" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]">
-			  <div class="header-article-bgimg-shadow">
-			    <div class="header-article-bgimg-conteneur">
-				    <div class="header-article-bgimg-cellule">
-	    {% else %}
-				<div class="header-liste u-no-padding-top">
-	    {% endif %}
-      <header class="row-liste-index text-center">
-        <div class="column-header-article" >
-          <h1>{{ page.title }}</h1>
-        </div>
-      </header>
-			{% if page.bgimgheader == true %}
-					  </div>
-			    </div>
-			  </div>
+			<div class="header-liste">
+        <header class="row-liste-index">
+          <div class="small-12 columns" >
+            <h1 class="text-center">{{ page.title }}</h1>
+          </div>
+        </header>
 			</div>
 
-				{% if page.image-legende %}
+      <!-- featured page's image -->
+			{% if page.image %}
+			<div class="row-article-featured-image">
+			  <div class="column-article-featured-image">
+			  	<img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}"></noscript>
+			  </div>
+
+			  {% if page.image-legende %}
 			  <div class="row-body-article">
 			  	<div class="column-article-featured-image-caption">
 			  		<p>{{ page.image-legende }}</p>
@@ -77,26 +28,10 @@ http://magazineduwebdesign.com/emploi/
 			  </div>
 			  {% endif %}
 
-			{% else %}
-				</div>
-				{% if page.image %}
-				<div class="row-article-featured-image">
-				  <div class="column-article-featured-image">
-				  	<img data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)]" alt="{{ page.image-legende }}" /><noscript><img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.image-legende }}"></noscript>
-				  </div>
-
-				  {% if page.image-legende %}
-				  <div class="row-body-article">
-				  	<div class="column-article-featured-image-caption">
-				  		<p>{{ page.image-legende }}</p>
-				  	</div>
-				  </div>
-				  {% endif %}
-
-				</div>
-				{% endif %}
+			</div>
 			{% endif %}
 
+      <!-- main content -->
 			<div class="row-body-article">
 
 			  <main class="column-body-article mod-article-1-column">
@@ -108,9 +43,3 @@ http://magazineduwebdesign.com/emploi/
 
 			</div>
 		</article>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>

@@ -3,5 +3,8 @@
 # 2. config.build.yml
 # 3. config.yml
 
+# Site settings différent for build (.dist)
+url: "http://www.magazineduwebdesign.com"
+
 future: false
 show_drafts: false
