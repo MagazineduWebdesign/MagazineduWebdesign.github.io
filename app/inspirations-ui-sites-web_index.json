@@ -3,7 +3,7 @@ layout: null
 ---
 {
   "posts" : [
-    {% assign sitesweb = site.data.inspirations-ui-sites-web | reverse %}
+    {% assign sitesweb = site.data.inspirations-ui-sites-web %}
     {% for siteweb in sitesweb %}
     "{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web' | prepend: site.url }}",
     {% endfor %}
