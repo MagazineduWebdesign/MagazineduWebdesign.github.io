@@ -1,5 +1,105 @@
 [
   {
+    "title": "Renate Rechner",
+    "url-demo": "http://www.renaterechner.at/en/",
+    "image": "Home-Renate-Rechner.jpg",
+    "metadata": "landing page",
+    "commentaire": "Une navigation en mode sablier quelque peu déroutante de prime abord. On note la prise de contact soignée mise en scène via un formulaire phrasé.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Design Embraced - Anthony Goodwin",
+    "url-demo": "http://www.designembraced.com/",
+    "image": "Design-Embraced-Anthony-Goodwin.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Une structure en deux colonnes mettant en scène les projets et la description du propriétaire du portfolio. Un effet hover intéressant sur les images. Si vous avez le nom de cette effet, je suis preneur ! Pour résumé, une navigation entre les projets sympa au sein d'une belle structure 2/3.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Stefan — Creative developer",
+    "url-demo": "http://www.stefangugurel.ro/2015",
+    "image": "Stefan-Creative-developer.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Très simple dans son contenu mais une belle touche d'interaction.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Rob Smittenaar — Interactive Designer & Front-end Developer",
+    "url-demo": "http://www.robsmittenaar.com",
+    "image": "Rob-Smittenaar-Interactive-Designer-Front-end-Developer.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Un site web avec une intéressante structuration des fiches projets. Le site est en cours de complétion donc un peu vide mais agréable à l'oeil.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Kie-Gwan Leihitu",
+    "url-demo": "http://www.kiegwan.com/",
+    "image": "Kie-Gwan-Leihitu.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Des interactions stylées et un discours honnête et drôle. De belles animations sur la partie graphique de la home page.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Object & Subject",
+    "url-demo": "http://objectsubject.com/",
+    "image": "Object-Subject.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Une mise en page simple mais un gros travail sur la typographie et quelques micro-interactions.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "The Next Rembrandt",
+    "url-demo": "https://www.nextrembrandt.com",
+    "image": "The-Next-Rembrandt.jpg",
+    "metadata": "EXPERIENCE INTERACTIVE",
+    "commentaire": "De remarquables animations de transition de page, un contenu structuré et intéressant. La recette d'un site réussi pour une banque en ligne.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Boom Botix",
+    "url-demo": "http://pro.boombotix.com/",
+    "image": "Boom-Botix.jpg",
+    "metadata": "ECOMMERCE",
+    "commentaire": "Une landing page produit tout en motion avec une 3D très qualitative. Un vrai spectacle pour les yeux au fur et à mesure de l'exploration. Le CTA d'achat vous accompagne tout au long du parcours #smart.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Nurture Digital – Creative Digital Content",
+    "url-demo": "http://www.nurturedigital.com",
+    "image": "Nurture-Digital-Creative-Digital-Content.jpg",
+    "metadata": "PORTFOLIO",
+    "commentaire": "Des animations, de la vidéo en background, une belle courbe dans la typo et le bien entendu titre désaxé par rapport au chapô :-) #classique.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "title": "Tourism in the Eastern Region - Burkina Faso.",
+    "url-demo": "https://www.gourmantour.org/en",
+    "image": "Tourism-in-the-Eastern-Region-Burkina-Faso.jpg",
+    "metadata": "CARNETS DE VOYAGE",
+    "commentaire": "Une mise en page soignée pour ce carnet de voyage composé de conseils, de galeries photos/vidéos et de parcours touristiques dans région orientale du Burkina Faso. Une belle inspiration invitant au voyage.",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
     "title": "Maeva Barrière — Docteur en arts plastiques à l’Université de Toulouse Jean Jaurès",
     "url-demo": "http://maevabarriere.com",
     "image": "maeva-barri-re-—-docteur-en-arts-plastiques---l-universit--de-toulouse-jean-jaur-s.jpg",
