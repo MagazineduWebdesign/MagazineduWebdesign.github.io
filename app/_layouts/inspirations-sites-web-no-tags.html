@@ -37,7 +37,7 @@ layout: default
 
             {% if page.url-demo %}
             <li role="menuitem">
-              <a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" class="button expand radius small primary is-url-demo" data-is-url-demo="{{ page.url-demo }}" href="{{ page.url-demo }}" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
+              <a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" class="button expand radius small primary is-url-demo" data-is-url-demo="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" target="_blank" rel="nofollow">VISITER LE SITE WEB</a></li>
             {% endif %}
 
           </ul>
