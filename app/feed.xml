@@ -52,7 +52,7 @@ layout: null
 				<pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ note.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ note.url }}</guid>
-				<enclosure url="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" type="image/*" />
+				<enclosure url="{{ note.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" type="image/*" />
 			</item>
 		{% endfor %}
 	</channel>
