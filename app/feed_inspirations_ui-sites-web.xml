@@ -1,0 +1,26 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Magazine du Webdesign &ndash; Inspirations UI site Web</title>
+		<description>Collection des meilleurs exemples d'UI animation et d'interaction pour votre inspiration, mise à jour chaque semaine.</description>
+		<link>{{ '/inspirations/ui-design/sites-web/'| prepend: site.url }}</link>
+		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		{% for siteweb in site.data.inspirations-ui-sites-web limit: 24 %}
+			<item>
+				<title>{{ siteweb.title | xml_escape }} | Web Design Inspiration</title>
+				{% if siteweb.commentaire %}
+					<description>{{ siteweb.commentaire | markdownify | strip_html | xml_escape }}</description>
+				{% else %}
+					<description>{{ siteweb.description | markdownify | strip_html | xml_escape }}</description>
+				{% endif %}
+				<pubDate>{{ siteweb.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web'| prepend: site.url }}</link>
+				<guid isPermaLink="true">{{ siteweb.title | datapage_url: '/inspirations/ui-design/sites-web'| prepend: site.url }}</guid>
+				<enclosure url="{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" type="image/*" />
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
