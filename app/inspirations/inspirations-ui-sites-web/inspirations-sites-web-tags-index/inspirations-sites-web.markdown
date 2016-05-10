@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-ui-sites-web_index"
-title: "Collection d'interfaces"
+title: "Collection de sites web"
 category: "ui-sites-web"
 permalink: "/inspirations/ui-design/sites-web/"
 intro: "Liste de sites Web sélectionnés pour la qualité de l'expérience proposée, la clarté des contenus, la simplicité d'utilisation &amp; le design sympa. N'hésitez pas à partager vos découvertes et vos créations."
