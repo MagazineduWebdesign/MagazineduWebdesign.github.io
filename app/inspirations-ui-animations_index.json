@@ -1,0 +1,11 @@
+---
+layout: null
+---
+{
+  "posts" : [
+    {% assign animations = site.data.inspirations-ui-animations %}
+    {% for animation in animations %}
+    "{{ animation.title | datapage_url: '/inspirations/ui-design/animations' | prepend: site.url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

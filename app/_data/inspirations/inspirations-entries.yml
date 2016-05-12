@@ -1,3 +1,9 @@
+- name: "SITES WEB"
+  permalink: "/inspirations/ui-design/sites-web/"
+
+- name: "UI ANIMATIONS"
+  permalink: "/inspirations/ui-design/animations/"
+
 - name: "CODE & ART"
   permalink: "/inspirations/code-art/"
 
@@ -9,9 +15,6 @@
 
 - name: "CONNECTED CAR"
   permalink: "/inspirations/ui-design/connected-car/"
-
-- name: "SITES WEB"
-  permalink: "/inspirations/ui-design/sites-web/"
 
 - name: "TV"
   permalink: "/inspirations/ui-design/tv/"

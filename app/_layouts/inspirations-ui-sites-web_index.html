@@ -19,7 +19,7 @@ layout: default
 		<!-- Background heading
 		================================================== -->
 		<div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav is-index-ui-sites-web {% if page.category == 'ui-sites-web' %}current-page{% endif %}" {% if page.category == 'ui-sites-web' %}data-page="ui-sites-web"{% endif %}>
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav is-index-ui-sites-web current-page" data-page="ui-sites-web_from-zapier">
 
 			<!-- Upload yours
 			================================================== -->
@@ -41,7 +41,7 @@ layout: default
 
 			<!-- list all items
 			================================================== -->
-			{% if page.category == 'ui-sites-web' %}
+			{% if page.category == 'ui-sites-web_from-zapier' %}
 				{% for siteweb in site.data.inspirations-ui-sites-web limit: 12 %}
 				<li>
 					<article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>

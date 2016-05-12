@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Magazine du Webdesign &ndash; Inspirations UI site Web</title>
-		<description>Collection des meilleurs exemples d'UI animation et d'interaction pour votre inspiration, mise à jour chaque semaine.</description>
+		<description>Liste de sites Web sélectionnés pour la qualité de l'expérience proposée, la clarté des contenus, la simplicité d'utilisation & le design sympa. N'hésitez pas à partager vos découvertes et vos créations.</description>
 		<link>{{ '/inspirations/ui-design/sites-web/'| prepend: site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for siteweb in site.data.inspirations-ui-sites-web limit: 24 %}

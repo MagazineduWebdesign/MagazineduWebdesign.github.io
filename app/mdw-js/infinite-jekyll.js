@@ -47,8 +47,12 @@ $(function() {
         break;
 
         // inspirations
-        case 'ui-sites-web':
+        case 'ui-sites-web_from-zapier':
           urlJson = '/inspirations-ui-sites-web_index.json';
+        break;
+
+        case 'ui-animations':
+          urlJson = '/inspirations-ui-animations_index.json';
         break;
 
         // divers
@@ -195,7 +199,7 @@ $(function() {
           break;
 
         // inspirations
-        case 'ui-sites-web':
+        case 'ui-sites-web_from-zapier':
           str+='<li><article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>';
           str+='<a class="grid-article-card-link-wrap" href="'+postURL+'" title="'+$(data).find('.is-title').attr('data-is-title')+'">';
           str+='<div class="row collapse grid-article-card-image"><div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">';
@@ -208,6 +212,21 @@ $(function() {
           str+='<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>';
           str+='</a></div></article></li>';
           $('.is-index-ui-sites-web').append(str);
+          break;
+
+        case 'ui-animations':
+          str+='<li><article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>';
+          str+='<a class="grid-article-card-link-wrap" href="'+postURL+'" title="'+$(data).find('.is-title').attr('data-is-title')+'">';
+          str+='<div class="row collapse grid-article-card-image"><div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">';
+          str+='<img src="'+$(data).find('.mod-app-screenshot').attr('data-is-img')+'" alt="'+$(data).find('.is-title').attr('data-is-title')+'" width="219" height="106" />';
+          str+='</div></div><div class="row collapse"><div class="grid-article-card-info small-12 columns">';
+          str+='<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">'+$(data).find('.is-title').attr('data-is-title')+'</h1>';
+          str+='</div></div></a>';
+          str+='<div class="grid-article-card-ctrl">';
+          str+='<a class="grid-article-card-ctrl-preview" href="'+$(data).find('.is-url-demo').attr('data-is-url-demo')+'" title="Voir source – '+$(data).find('.is-title').attr('data-is-title')+'" target="_blank" rel="nofollow">';
+          str+='<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>';
+          str+='</a></div></article></li>';
+          $('.is-index-ui-animations').append(str);
           break;
 
         // divers

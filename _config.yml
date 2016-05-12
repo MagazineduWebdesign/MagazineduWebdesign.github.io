@@ -248,6 +248,12 @@ defaults:
       permalink: "/inspirations/ui-design/sites-web/:title/"
   -
     scope:
+      path: "inspirations/inspirations-ui-animations"
+      type: "posts"
+    values:
+      permalink: "/inspirations/ui-design/animations/:title/"
+  -
+    scope:
       path: "inspirations/inspirations-ui-tv"
       type: "posts"
     values:
@@ -311,6 +317,11 @@ page_gen:
     template: "inspirations-sites-web-no-tags"
     name: "title"
     dir: "/inspirations/ui-design/sites-web/"
+    
+  - data: "inspirations-ui-animations"
+    template: "inspirations-animations"
+    name: "title"
+    dir: "/inspirations/ui-design/animations/"
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
