@@ -31,7 +31,7 @@ Voici un petit guide sur la façon de surmonter l'inertie des débuts. Il est fo
   <figcaption>C'est cadeau.</figcaption>
 </figure>
 
-Nous verrons notamment comment une solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank">site ecommerce</a> peut être une excellente source de revenus pour démarrer une activité en freelance. Découvrez pourquoi dans quelques paragraphes.
+Nous verrons notamment comment une solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank" rel="nofollow">site ecommerce</a> peut être une excellente source de revenus pour démarrer une activité en freelance. Découvrez pourquoi dans quelques paragraphes.
 
 ##Via negativa – augmenter votre bien être par la soustraction
 
@@ -92,7 +92,7 @@ Pour de nombreux designers, gagner du temps se traduit par le fait d'acheter des
 
 A moins d'avoir les compétences techniques nécessaires pour mettre en place une plateforme ecommerce, tirer profit de ce marché en tant que freelance débutant s'avère difficile. La seule solution est de vendre ses propres créations via des marketplaces qui se prennent de généreuses commissions sur votre dos.
 
-C'est là que la solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank">site ecommerce</a> Wix peut être utile. Vous avez des ressources à vendre (icônes, templates, fonts, etc.), mais pas forcément les compétences techniques pour mettre en place une boutique en ligne et pas l'envie de laisser 30% de vos revenus à une marketplace.
+C'est là que la solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank" rel="nofollow">site ecommerce</a> Wix peut être utile. Vous avez des ressources à vendre (icônes, templates, fonts, etc.), mais pas forcément les compétences techniques pour mettre en place une boutique en ligne et pas l'envie de laisser 30% de vos revenus à une marketplace.
 
 ### Une solution d'hébergement et de création de site ecommerce clés en main
 

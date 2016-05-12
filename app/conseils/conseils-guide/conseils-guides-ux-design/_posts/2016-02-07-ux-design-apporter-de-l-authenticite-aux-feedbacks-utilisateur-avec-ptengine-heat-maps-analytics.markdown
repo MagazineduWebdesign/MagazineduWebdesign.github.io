@@ -40,7 +40,7 @@ J’ai souvent l’impression que les **feedbacks récoltés ne sont pas authent
 
 Observer les comportement de navigation et identifier où se situent les hubs d’attention &ndash; les centres de gravité &ndash; au sein d’une interface est un avantage compétitif indéniable pour tout business online.
 
-Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.ptengine.com/fr/home" target="_blank">Ptengine</a>. Il s’agit d’une plate-forme proposant un moyen efficace pour identifier les centres de gravité d’un design en visualisant les actions des utilisateurs. Le tout, sans interagir avec eux.
+Il y a quelques jours, j’ai testé la release 3.0 de <a href="https://www.ptengine.com/fr/home" target="_blank" rel="nofollow">Ptengine</a>. Il s’agit d’une plate-forme proposant un moyen efficace pour identifier les centres de gravité d’un design en visualisant les actions des utilisateurs. Le tout, sans interagir avec eux.
 
 <div class="section-carte-index-panel">
   <a onclick="ga('send', 'event', 'Publicite', 'click', 'Ptengine middle article');" href="https://www.ptengine.com/fr/home?ref=magazineduwebdesign" title="Ptengine – le deux-en-un heatmaps & analytics" target="_blank" rel="nofollow">
@@ -120,7 +120,7 @@ Suite à quelques jours d’utilisation, j’ai observé que les bénéfices de 
 
 Cette approche permet de prendre des décisions de design guidées par des données d’utilisateurs ayant une expérience de navigation en conditions réelles.
 
-Si vous souhaitez obtenir des feedbacks utilisateurs authentiques quelques minutes après avoir déployé une nouvelle version d’interfaces, je vous invite à tester <a href="http://demo.ptengine.com/" target="_blank">la démo</a> et la version gratuite de Ptengine.
+Si vous souhaitez obtenir des feedbacks utilisateurs authentiques quelques minutes après avoir déployé une nouvelle version d’interfaces, je vous invite à tester <a href="http://demo.ptengine.com/" target="_blank" rel="nofollow">la démo</a> et la version gratuite de Ptengine.
 
 <div class="section-carte-index-panel">
   <a onclick="ga('send', 'event', 'Publicite', 'click', 'Ptengine bottom article');" href="https://www.ptengine.com/fr/home?ref=magazineduwebdesign" title="Ptengine – le deux-en-un heatmaps & analytics" target="_blank" rel="nofollow">
