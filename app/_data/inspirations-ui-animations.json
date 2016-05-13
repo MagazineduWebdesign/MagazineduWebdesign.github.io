@@ -9,5 +9,16 @@
     "path1": "inspirations",
     "path2": "ui-design",
     "path3": "sites-web"
+  },
+  {
+    "title": "IPSA FACE MELODY",
+    "url-demo": "https://face.ipsa.co.jp/",
+    "image": "IPSA-FACE-MELODY.jpg",
+    "metadata": "EXPERIENCE INTERACTIVE",
+    "commentaire": "Une belle expérience musicale tirant profit des capacités du WebGL. La présentation du concept et de la promesse tout en mouvement donne le ton et invite à l'engagement.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
   }
 ]
