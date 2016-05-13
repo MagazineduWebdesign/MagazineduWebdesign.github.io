@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Magazine du Webdesign – Inspirations UI animation</title>
-		<description>{{ 'Les meilleures UI animations et interactions de sites Web et d'applications mobiles mise en scène en GIFs animés.' | xml_escape }}</description>
+		<description>{{ 'Les meilleures UI animations et interactions de sites Web et d&apos;applications mobiles mise en scène en GIFs animés.' | xml_escape }}</description>
 		<link>{{ '/inspirations/ui-design/animations/'| prepend: site.url }}</link>
 		<atom:link href="{{ site.url }}/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		{% for animation in site.data.inspirations-ui-animations limit: 24 %}
