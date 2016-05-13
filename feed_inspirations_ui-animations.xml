@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Magazine du Webdesign – Inspirations UI animation</title>
-		<description>Les meilleures UI animations et interactions de sites Web et d</description>
+		<description>Les meilleures UI animations et interactions de sites Web et d&amp;apos;applications mobiles mise en scène en GIFs animés.</description>
 		<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/</link>
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		
