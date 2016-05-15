@@ -662,8 +662,8 @@ sup {
       margin-left: 0;
     }
   	a h1.carte-article-secondaire-post-title.mod-videos-relatives-post-title::after, a h1.carte-article-secondaire-post-title.mod-article-two-columns-post-title::after{
-      position: inherit;
-      margin-left: rem-calc(8);
+      top: rem-calc(8);
+      right: rem-calc(-8);
     }
 	a:visited h1.carte-article-secondaire-post-title::after, a:visited h1.grid-article-card-title::after{
     color: $success-color;
