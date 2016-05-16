@@ -71,14 +71,7 @@
               <div class="row collapse grid-article-card-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if siteweb.image %}
-                    <img data-interchange="[{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
-                    [{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ siteweb.title }}" width="219" height="106" />
-                    <noscript><img src="{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ siteweb.title }}" width="219" height="106" /></noscript>
+                    <img src="{{ siteweb.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ siteweb.title }}" width="219" /></noscript>
                   {% endif %}
                 </div>
               </div>

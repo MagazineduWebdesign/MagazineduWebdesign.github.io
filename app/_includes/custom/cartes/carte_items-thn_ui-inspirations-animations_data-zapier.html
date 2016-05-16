@@ -1,0 +1,75 @@
+<section>
+  <div class="row text-center large-text-left">
+    <div class="small-12 columns section-header">
+      <h1 class="section-carte-header-title">{{ include.param | replace: '-', ' ' | upcase }}</h1>
+    </div>
+  </div>
+  <!-- list items
+  ================================================== -->
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav" data-equalizer>
+
+        <!-- list all items
+        ================================================== -->
+        {% for animation in site.data.[include.param] limit:3 %}
+        <li>
+          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
+
+            <a class="grid-article-card-link-wrap" href="{{ animation.title | datapage_url: '/inspirations/ui-design/animations' | prepend: site.url }}" title="{{ animation.title }}">
+
+              <div class="row collapse grid-article-card-image">
+                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                  {% if animation.image %}
+                    <img data-interchange="[{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
+                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ animation.title }}" width="219" height="106" />
+                    <noscript><img src="{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ animation.title }}" width="219" height="106" /></noscript>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="row collapse">
+                <div class="grid-article-card-info small-12 columns">
+                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ animation.title | truncate: 48 }}</h1>
+                </div>
+              </div>
+
+            </a>
+
+            <div class="grid-article-card-ctrl">
+              {% if animation.url-demo %}
+                <a onclick="ga('send', 'event', '{{ include.param | remove:'inspirations-' }}', 'Visit demo', '{{ animation.title }}');" class="grid-article-card-ctrl-preview" href="{{ animation.url-demo | append: '?ref=magazineduwebdesign' }}" title="Aperçu – {{ animation.title }}" target="_blank" rel="nofollow">
+                  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
+                </a>
+              {% endif %}
+            </div>
+
+          </article>
+        </li>
+        {% endfor %}
+        <li>
+          <article class="grid-article-card" data-equalizer-watch>
+            <a class="grid-article-card-link-wrap" href="{{ site.baseurl }}{{ page.permalink }}ui-design/{{ include.param | remove:'inspirations-ui-' }}/" title="Explorer les inspirations UI">
+              <div class="row collapse grid-article-card-image mod-action hide-for-small">
+                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                </div>
+              </div>
+
+              <div class="row collapse text-center">
+                <div class="grid-article-card-info mod-section-home mod-action small-12 columns">
+                  <h2 class="grid-article-card-title mod-action"><span class="grid-article-card-title-action-ascii">(∩｀-´)⊃━☆ﾟ.*･｡ﾟ</span>EN VOIR PLUS <svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path d="M9 3L7.94 4.06l4.19 4.19H3v1.5h9.13l-4.19 4.19L9 15l6-6z" fill="#999999"/></svg></h2>
+                </div>
+              </div>
+            </a>
+          </article>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>

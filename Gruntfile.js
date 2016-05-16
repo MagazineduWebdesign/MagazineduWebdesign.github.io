@@ -8,11 +8,6 @@
 //   images: img
 //   fonts: fonts
 
-// imagemin's dependencies
-var pngquant = require('imagemin-pngquant');
-var mozjpeg  = require('imagemin-mozjpeg');
-var gifsicle = require('imagemin-gifsicle');
-
 // param Cache-Headers S3 storage
 var EXPIRE_IN_2030 = new Date('2030');
 var TWO_YEAR_CACHE_PERIOD_IN_SEC = 60 * 60 * 24 * 365 * 2;
@@ -312,18 +307,25 @@ module.exports = function (grunt) {
         }]
       }
     },
-    imagemin: {
+    image: {
       server: {
         options: {
-          optimizationLevel: 7,
-          progressive: true,
-          use: [pngquant(), mozjpeg(), gifsicle()]
+          pngquant: true,
+          optipng: false,
+          zopflipng: true,
+          advpng: true,
+          jpegRecompress: false,
+          jpegoptim: true,
+          mozjpeg: true,
+          gifsicle: true,
+          svgo: true,
+          interlaced: true,
+          optimizationLevel: 3
         },
-
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>',
-          src: ['img/sources/**/*.{jpg,jpeg,png,PNG,gif}'],
+          src: ['img/sources/**/*.{png,jpg,gif,svg}'],
           dest: '<%= yeoman.app %>'
         }]
       }
@@ -593,7 +595,7 @@ module.exports = function (grunt) {
 
   // Send new images to Amazon S3. Useful when the app is running localy.
   grunt.registerTask('serveIMG', [
-    'newer:imagemin:server',
+    'newer:image:server',
     'responsive_images:server',
     'copy:stageIMG',
     's3:distIMG'
@@ -623,7 +625,7 @@ module.exports = function (grunt) {
     'clean',
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
-    'newer:imagemin:server',
+    'newer:image:server',
     'responsive_images:server',
     'concurrent:dist',
     'useminPrepare',
