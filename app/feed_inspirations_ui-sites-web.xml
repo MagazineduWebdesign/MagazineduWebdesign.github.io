@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Magazine du Webdesign – Inspirations UI site Web</title>
-		<description>{{ 'Liste de sites Web sélectionnés pour la qualité de l&apos;expérience proposée, la clarté des contenus, la simplicité d&apos;utilisation et le design sympa. N&apos;hésitez pas à partager vos découvertes et vos créations.' | xml_escape }}</description>
+			<description>{{ 'Liste de sites Web sélectionnés pour la qualité de l&apos;expérience proposée, la clarté des contenus, la simplicité d&apos;utilisation et le design sympa. N&apos;hésitez pas à partager vos découvertes et vos créations.' | xml_escape }}</description>
 		<link>{{ '/inspirations/ui-design/sites-web/'| prepend: site.url }}</link>
 		<atom:link href="{{ site.url }}/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		{% for siteweb in site.data.inspirations-ui-sites-web limit: 24 %}
