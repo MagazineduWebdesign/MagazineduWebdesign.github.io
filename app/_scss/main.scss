@@ -200,7 +200,7 @@ sup {
 	.header-liste-content-link:hover{color: $primary-color;}
   .header-liste-panel-info{
     margin-bottom: 0!important;
-    @include panel($bg: $callout-panel-bg);
+    @include panel($bg: $white);
   }
 @media #{$small-only} {
 	.header-liste.u-no-padding-bottom{padding-bottom: 0}
