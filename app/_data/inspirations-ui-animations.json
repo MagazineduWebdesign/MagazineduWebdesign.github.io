@@ -1,24 +1,211 @@
 [
   {
-    "title": "IPSA FACE MELODY",
-    "url-demo": "https://face.ipsa.co.jp/",
-    "image": "IPSA-FACE-MELODY.jpg",
-    "metadata": "EXPERIENCE INTERACTIVE",
-    "commentaire": "Une belle expérience musicale tirant profit des capacités du WebGL. La présentation du concept et de la promesse tout en mouvement donne le ton et invite à l'engagement.",
+    "title": "Timeline activité",
+    "url-demo": "https://dribbble.com/shots/2523673-Timeline-activity-animation",
+    "image": "ui-animation-inspiration-timeline-activity-animation.gif",
+    "metadata": "TIMELINE",
+    "commentaire": "La flèche en bas à droite pointe vers la dernière activité. Un autre point de vue est accessible pour parcourir l'activité d'une manière plus détaillée (carte et calendrier plus précis).",
     "category": "ui-animations",
     "path1": "inspirations",
     "path2": "ui-design",
-    "path3": "sites-web"
+    "path3": "animations"
   },
   {
-    "title": "IPSA FACE MELODY",
-    "url-demo": "https://face.ipsa.co.jp/",
-    "image": "IPSA-FACE-MELODY.jpg",
-    "metadata": "EXPERIENCE INTERACTIVE",
-    "commentaire": "Une belle expérience musicale tirant profit des capacités du WebGL. La présentation du concept et de la promesse tout en mouvement donne le ton et invite à l'engagement.",
+    "title": "Inscription Optin",
+    "url-demo": "https://dribbble.com/shots/2462442-Daily-UI-Day-026-Subscribe",
+    "image": "ui-animation-inspiration-daily-ui-day-026-subscribe.gif",
+    "metadata": "INSCRIPTION",
+    "commentaire": "Abonnement rapide en utilisant seulement la flèche bas du clavier et la touche entrée.",
     "category": "ui-animations",
     "path1": "inspirations",
     "path2": "ui-design",
-    "path3": "sites-web"
+    "path3": "animations"
+  },
+  {
+    "title": "Concept App mobile carte d'embarquement 1",
+    "url-demo": "https://dribbble.com/shots/2456379-Day-024-Boarding-Pass",
+    "image": "ui-animation-inspiration-day-024-boarding-pass.gif",
+    "metadata": "LISTE ITEMS",
+    "commentaire": "Concept d'application iOS de logs de voyages avec 3D Touch pour une prévisualisation des items de liste.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "App musicale portrait et paysage",
+    "url-demo": "https://dribbble.com/shots/2221406-Music-app-concept-portrait-and-landscape-views",
+    "image": "ui-animation-inspiration-music-app-concept_portrait-and-landscape-views.gif",
+    "metadata": "PLAYER",
+    "commentaire": "L'écran en portrait est une vue \"play now\" mettant en scène les détails de la chanson en cours d'écoute. Lorsque les utilisateurs passent du mode portrait au mode paysage, la vue met en scène une liste des chansons de l'album et l'utilisateur peut rapidement passer à une autre chanson. Lorsqu'un utilisateur clique sur l'icône de la collection, il montre une liste des albums que l'artiste a créé – l'utilisateur peut les explorer et les acheter.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Calendrier",
+    "url-demo": "https://dribbble.com/shots/2495217-Daily-UI-Day-038-Calendar",
+    "image": "ui-animation-inspiration-daily-ui-day-038-calendar.gif",
+    "metadata": "CALENDRIER",
+    "commentaire": "Transition de navigation entre vue année et vue mois au sein d'une application calendrier.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Recette détails ingrédients",
+    "url-demo": "https://dribbble.com/shots/2510979-Daily-UI-Day-040-Recipe",
+    "image": "ui-animation-inspiration-daily-ui-day-040-recipe.gif",
+    "metadata": "RECETTE",
+    "commentaire": "Transition de navigation au scroll down pour découvrir les ingrédients d'une recette.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Résumé entrainement sport",
+    "url-demo": "https://dribbble.com/shots/2366995-Workout-Summary-freebies",
+    "image": "ui-animation-inspiration-workout-summary_freebies.gif",
+    "metadata": "TIMELINE",
+    "commentaire": "Un concept de widget Mac pour voir son résumé de séance d'entraînement Run Keeper sous la forme d'une timeline chronologique. L'idée est lorsque vous ouvrez la vue de la ligne de temps sur la gauche, il vous donne un bref résumé de votre séance d'entraînement et vous pouvez cliquer sur chaque composant pour voir les détails.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Planning de la journée",
+    "url-demo": "https://dribbble.com/shots/2340978-Today-Schedule-freebies",
+    "image": "ui-animation-inspiration-today-schedule_freebies.gif",
+    "metadata": "CALENDRIER",
+    "commentaire": "Concept de calendrier mettant l'accent sur un agenda de 24 heures avec de multiples vues. Les barres grises sur chaque ligne indique l'importance d'une réunion ou d'un événement.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Widget calendrier",
+    "url-demo": "https://dribbble.com/shots/2209385-Calendar-Widget-ll-Freebie",
+    "image": "ui-animation-inspiration-calendar-widget-ll-freebie.gif",
+    "metadata": "CALENDRIER",
+    "commentaire": "Widget calendrier et météo avec édition rapide dans l'écran \"vue mois\".",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Navigation Trello",
+    "url-demo": "https://dribbble.com/shots/2114816-Trello-Navigation",
+    "image": "ui-animation-inspiration-trello-navigation.gif",
+    "metadata": "NAVIGATION",
+    "commentaire": "Trello est une application formidable pour gérer sa production et collaborer. Le seul hic, une navigation avec quelques frictions lorsque un tableau à plus de 4 ou 5 colonnes (ou 27+). Le designer Aurélien Salomon explore une solution prometteuse pour explorer rapidement les colonnes d'un tableau. A tester.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Navigation paramètre",
+    "url-demo": "https://dribbble.com/shots/2227686-Settings-fun-navigation",
+    "image": "ui-animation-inspiration-settings-fun-navigation.gif",
+    "metadata": "NAVIGATION",
+    "commentaire": "Sympa l'effet de rebond sur l'animation ! Agréable à voir.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Concept App mobile carte d'embarquement 2",
+    "url-demo": "https://dribbble.com/shots/2287001-Boarding-Pass-concept",
+    "image": "ui-animation-inspiration-boarding-pass-concept.gif",
+    "metadata": "DATA",
+    "commentaire": "Concept d'application d'embarquement aérien.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Application gestion budget et prêt",
+    "url-demo": "https://dribbble.com/shots/2088708-Loan-Manager-Application",
+    "image": "ui-animation-inspiration-loan-manager-application.gif",
+    "metadata": "DATA",
+    "commentaire": "Une interface de gestion de prêts composer de données pour vous encourager à le solder le plus rapidement possible.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Animation carte d'embarquement App mobile 1",
+    "url-demo": "https://dribbble.com/shots/2247769-Boarding-Pass-animation",
+    "image": "ui-animation-inspiration-boarding-pass-animation.gif",
+    "metadata": "CHARGEMENT",
+    "commentaire": "Concept d'application pour carte d'embarquement. L'animation de chargement avec l'avion puis l'accélération de fin pour mettre en scène les données passager est une très bonne idée.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Widget météo et calendrier 1",
+    "url-demo": "https://dribbble.com/shots/2033702-Calendar-Weather-Widget",
+    "image": "ui-animation-inspiration-calendar---weather-widget.gif",
+    "metadata": "CALENDRIER",
+    "commentaire": "Le scroll vers le haut et le bas montre une météo moyenne du mois sur la colonne de gauche. L'icône d'exploration en haut à droite permet une vue annuelle des mois, l'utilisateur peut ainsi sélectionner rapidement un mois spécifique.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Animation carte d'embarquement App mobile 2",
+    "url-demo": "https://dribbble.com/shots/2429832-Boarding-Pass-Animated",
+    "image": "ui-animation-inspiration-boarding-pass-animated.gif",
+    "metadata": "MAP",
+    "commentaire": "Interface mettant en scène les données d'embarquement et un résumé du vol.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "App mobile Craiglist",
+    "url-demo": "https://dribbble.com/shots/2361864-Craiglist-Mobile-animation",
+    "image": "ui-animation-inspiration-craiglist-mobile-animation.gif",
+    "metadata": "LISTE ITEMS",
+    "commentaire": "Animation du header lors du scroll down venant se replier en position fixe en haut d'écran. L'espace est donc libre pour explorer la liste de cartes.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "Calculatrice 1",
+    "url-demo": "https://dribbble.com/shots/2563739-Calculator-DailyUI-004",
+    "image": "ui-animation-inspiration-calculator---dailyui-004.gif",
+    "metadata": "DATA",
+    "commentaire": "Une transition de navigation reprenant les codes du Material Design Framework. Le bounce des équations est sympa, cela donne une impression de gravité et de poids aux données affichées :-).",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "title": "App time tracking et productivité",
+    "url-demo": "https://dribbble.com/shots/2058593-Designer-Time-Tracking-App",
+    "image": "ui-animation-inspiration-designer-time-tracking-app.gif",
+    "metadata": "DATA",
+    "commentaire": "Design d'application de gestion de temps et de productivité.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
   }
 ]
