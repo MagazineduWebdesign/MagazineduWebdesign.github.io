@@ -1,6 +1,6 @@
-/*global postCount:false */
-/*global callback:false */
-/*jshint -W020 */
+/* globals postCount:false */
+/* globals callback:false */
+/* jshint -W020 */
 $(function() {
   $('.infinite-spinner').css('display', 'none');
   var postURLs,
@@ -100,7 +100,7 @@ $(function() {
 
 
   // Fetch a chunk of posts
-  function fetchPosts() {
+  function fetchPosts() { // jshint ignore:line
     // Exit if postURLs haven't been loaded
     if (!postURLs) return;
 
@@ -132,7 +132,7 @@ $(function() {
     fetchPostWithIndex(postCount + loadedPosts, callback);
   }
   var dateClean = '';
-  function fetchPostWithIndex(index, callback) {
+  function fetchPostWithIndex(index, callback) { // jshint ignore:line
 
     var postURL = postURLs[index];
     $.get(postURL, function(data) {
@@ -203,7 +203,7 @@ $(function() {
           str+='<li><article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>';
           str+='<a class="grid-article-card-link-wrap" href="'+postURL+'" title="'+$(data).find('.is-title').attr('data-is-title')+'">';
           str+='<div class="row collapse grid-article-card-image"><div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">';
-          str+='<img src="'+$(data).find('.mod-app-screenshot').attr('data-is-img')+'" alt="'+$(data).find('.is-title').attr('data-is-title')+'" width="219" height="106" />';
+          str+='<img src="'+$(data).find('.mod-app-screenshot').attr('data-is-img')+'" alt="'+$(data).find('.is-title').attr('data-is-title')+'" width="219" />';
           str+='</div></div><div class="row collapse"><div class="grid-article-card-info small-12 columns">';
           str+='<h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">'+$(data).find('.is-title').attr('data-is-title')+'</h1>';
           str+='</div></div></a>';
@@ -276,7 +276,7 @@ $(function() {
     });
   }
 
-  function disableFetching() {
+  function disableFetching() { // jshint ignore:line
     shouldFetchPosts = false;
     isFetchingPosts = false;
     $('.infinite-spinner').fadeOut();
