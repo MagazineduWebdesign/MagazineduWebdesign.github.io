@@ -53,7 +53,7 @@
   //*****//
 
   // Invoked by the YouTube API when it's ready
-  function init() {
+  function init() { // jshint ignore:line
 
     var iframes = document.getElementsByTagName( 'iframe' );
     var embeds  = document.getElementsByTagName( 'embed' );
@@ -69,7 +69,7 @@
   firstScriptTag.parentNode.insertBefore( tag, firstScriptTag );
 
   // Take our videos and turn them into trackable videos with events
-  function digestPotentialVideos( potentialVideos ) {
+  function digestPotentialVideos( potentialVideos ) { // jshint ignore:line
 
     var i;
 
@@ -89,7 +89,7 @@
   }
 
   // Determine if the element is a YouTube video or not
-  function checkIfYouTubeVideo( potentialYouTubeVideo ) {
+  function checkIfYouTubeVideo( potentialYouTubeVideo ) { // jshint ignore:line
 
     var potentialYouTubeVideoSrc = potentialYouTubeVideo.src || '';
 
@@ -105,7 +105,7 @@
   }
 
   // Turn embed objects into iframe objects and ensure they have the right parameters
-  function normalizeYouTubeIframe( youTubeVideo ) {
+  function normalizeYouTubeIframe( youTubeVideo ) { // jshint ignore:line
 
     var a           = document.createElement( 'a' );
         a.href      = youTubeVideo.src;
@@ -154,7 +154,7 @@
   }
 
   // Add event handlers for events emitted by the YouTube API
-  function addYouTubeEvents( youTubeIframe ) {
+  function addYouTubeEvents( youTubeIframe ) { // jshint ignore:line
 
     youTubeIframe.pauseFlag  = false;
 
@@ -248,7 +248,7 @@
   }
 
   // Event handler for events emitted from the YouTube API
-  function onStateChangeHandler( evt, youTubeIframe ) {
+  function onStateChangeHandler( evt, youTubeIframe ) { // jshint ignore:line
 
     var stateIndex     = evt.data;
     var player         = evt.target;
@@ -324,7 +324,7 @@
   }
 
   // Fire an event to Google Analytics or Google Tag Manager
-  function fireAnalyticsEvent( videoId, state ) {
+  function fireAnalyticsEvent( videoId, state ) { // jshint ignore:line
 
     var videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
     var _ga = window.GoogleAnalyticsObject;

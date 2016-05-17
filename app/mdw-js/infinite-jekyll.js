@@ -1,6 +1,6 @@
-/*global postCount:false */
-/*global callback:false */
-/*jshint -W020 */
+/* globals postCount:false */
+/* globals callback:false */
+/* jshint -W020 */
 $(function() {
   $('.infinite-spinner').css('display', 'none');
   var postURLs,
@@ -100,7 +100,7 @@ $(function() {
 
 
   // Fetch a chunk of posts
-  function fetchPosts() {
+  function fetchPosts() { // jshint ignore:line
     // Exit if postURLs haven't been loaded
     if (!postURLs) return;
 
@@ -132,7 +132,7 @@ $(function() {
     fetchPostWithIndex(postCount + loadedPosts, callback);
   }
   var dateClean = '';
-  function fetchPostWithIndex(index, callback) {
+  function fetchPostWithIndex(index, callback) { // jshint ignore:line
 
     var postURL = postURLs[index];
     $.get(postURL, function(data) {
@@ -276,7 +276,7 @@ $(function() {
     });
   }
 
-  function disableFetching() {
+  function disableFetching() { // jshint ignore:line
     shouldFetchPosts = false;
     isFetchingPosts = false;
     $('.infinite-spinner').fadeOut();
