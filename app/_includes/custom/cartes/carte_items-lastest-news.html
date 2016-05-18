@@ -105,14 +105,7 @@
               <div class="row collapse grid-article-card-image">
                 <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                   {% if animation.image %}
-                    <img data-interchange="[{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
-                    [{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ animation.title }}" width="219" height="106" />
-                    <noscript><img src="{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ animation.title }}" width="219" height="106" /></noscript>
+                    <img src="{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ animation.title }}" width="219" />
                   {% endif %}
                 </div>
               </div>
