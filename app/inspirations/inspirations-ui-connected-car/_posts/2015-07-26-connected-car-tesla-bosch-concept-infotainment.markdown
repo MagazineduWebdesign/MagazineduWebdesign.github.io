@@ -1,4 +1,4 @@
-  ---
+---
 layout: "inspirations-default"
 title: "Tesla &ndash; Concept d'infotainment Bosch Auto"
 date: "2015-07-26 00:24:57"
