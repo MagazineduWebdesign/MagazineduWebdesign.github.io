@@ -7,6 +7,235 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Timeline activité | UI Animation</title>
+				
+					<description>La flèche en bas à droite pointe vers la dernière activité. Un autre point de vue est accessible pour parcourir l’activité d’une manière plus détaillée (carte et calendrier plus précis).
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/timeline-activit.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/timeline-activit.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-timeline-activity-animation.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Inscription Optin | UI Animation</title>
+				
+					<description>Abonnement rapide en utilisant seulement la flèche bas du clavier et la touche entrée.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/inscription-optin.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/inscription-optin.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-daily-ui-day-026-subscribe.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept App mobile carte d'embarquement 1 | UI Animation</title>
+				
+					<description>Concept d’application iOS de logs de voyages avec 3D Touch pour une prévisualisation des items de liste.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-app-mobile-carte-dembarquement-1.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-app-mobile-carte-dembarquement-1.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-day-024-boarding-pass.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>App musicale portrait et paysage | UI Animation</title>
+				
+					<description>L’écran en portrait est une vue “play now” mettant en scène les détails de la chanson en cours d’écoute. Lorsque les utilisateurs passent du mode portrait au mode paysage, la vue met en scène une liste des chansons de l’album et l’utilisateur peut rapidement passer à une autre chanson. Lorsqu’un utilisateur clique sur l’icône de la collection, il montre une liste des albums que l’artiste a créé – l’utilisateur peut les explorer et les acheter.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/app-musicale-portrait-et-paysage.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/app-musicale-portrait-et-paysage.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-music-app-concept_portrait-and-landscape-views.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Calendrier | UI Animation</title>
+				
+					<description>Transition de navigation entre vue année et vue mois au sein d’une application calendrier.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/calendrier.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/calendrier.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-daily-ui-day-038-calendar.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Recette détails ingrédients | UI Animation</title>
+				
+					<description>Transition de navigation au scroll down pour découvrir les ingrédients d’une recette.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/recette-dtails-ingrdients.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/recette-dtails-ingrdients.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-daily-ui-day-040-recipe.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Résumé entrainement sport | UI Animation</title>
+				
+					<description>Un concept de widget Mac pour voir son résumé de séance d’entraînement Run Keeper sous la forme d’une timeline chronologique. L’idée est lorsque vous ouvrez la vue de la ligne de temps sur la gauche, il vous donne un bref résumé de votre séance d’entraînement et vous pouvez cliquer sur chaque composant pour voir les détails.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rsum-entrainement-sport.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/rsum-entrainement-sport.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-workout-summary_freebies.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Planning de la journée | UI Animation</title>
+				
+					<description>Concept de calendrier mettant l’accent sur un agenda de 24 heures avec de multiples vues. Les barres grises sur chaque ligne indique l’importance d’une réunion ou d’un événement.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/planning-de-la-journe.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/planning-de-la-journe.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-today-schedule_freebies.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Widget calendrier | UI Animation</title>
+				
+					<description>Widget calendrier et météo avec édition rapide dans l’écran “vue mois”.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/widget-calendrier.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/widget-calendrier.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calendar-widget-ll-freebie.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Navigation Trello | UI Animation</title>
+				
+					<description>Trello est une application formidable pour gérer sa production et collaborer. Le seul hic, une navigation avec quelques frictions lorsque un tableau à plus de 4 ou 5 colonnes (ou 27+). Le designer Aurélien Salomon explore une solution prometteuse pour explorer rapidement les colonnes d’un tableau. A tester.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/navigation-trello.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-trello-navigation.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Navigation paramètre | UI Animation</title>
+				
+					<description>Sympa l’effet de rebond sur l’animation ! Agréable à voir.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/navigation-paramtre.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-paramtre.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-settings-fun-navigation.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept App mobile carte d'embarquement 2 | UI Animation</title>
+				
+					<description>Concept d’application d’embarquement aérien.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-app-mobile-carte-dembarquement-2.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-app-mobile-carte-dembarquement-2.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-boarding-pass-concept.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Application gestion budget et prêt | UI Animation</title>
+				
+					<description>Une interface de gestion de prêts composer de données pour vous encourager à le solder le plus rapidement possible.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/application-gestion-budget-et-prt.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/application-gestion-budget-et-prt.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-loan-manager-application.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Animation carte d'embarquement App mobile 1 | UI Animation</title>
+				
+					<description>Concept d’application pour carte d’embarquement. L’animation de chargement avec l’avion puis l’accélération de fin pour mettre en scène les données passager est une très bonne idée.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animation-carte-dembarquement-app-mobile-1.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animation-carte-dembarquement-app-mobile-1.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-boarding-pass-animation.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Widget météo et calendrier 1 | UI Animation</title>
+				
+					<description>Le scroll vers le haut et le bas montre une météo moyenne du mois sur la colonne de gauche. L’icône d’exploration en haut à droite permet une vue annuelle des mois, l’utilisateur peut ainsi sélectionner rapidement un mois spécifique.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/widget-mto-et-calendrier-1.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/widget-mto-et-calendrier-1.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calendar---weather-widget.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Animation carte d'embarquement App mobile 2 | UI Animation</title>
+				
+					<description>Interface mettant en scène les données d’embarquement et un résumé du vol.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animation-carte-dembarquement-app-mobile-2.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animation-carte-dembarquement-app-mobile-2.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-boarding-pass-animated.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>App mobile Craiglist | UI Animation</title>
+				
+					<description>Animation du header lors du scroll down venant se replier en position fixe en haut d’écran. L’espace est donc libre pour explorer la liste de cartes.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/app-mobile-craiglist.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/app-mobile-craiglist.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-craiglist-mobile-animation.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Calculatrice 1 | UI Animation</title>
+				
+					<description>Une transition de navigation reprenant les codes du Material Design Framework. Le bounce des équations est sympa, cela donne une impression de gravité et de poids aux données affichées :-).
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/calculatrice-1.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/calculatrice-1.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calculator---dailyui-004.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>App time tracking et productivité | UI Animation</title>
+				
+					<description>Design d’application de gestion de temps et de productivité.
+</description>
+				
+				<pubDate></pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/app-time-tracking-et-productivit.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/app-time-tracking-et-productivit.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-designer-time-tracking-app.gif" type="image/*" />
+			</item>
+		
+		
+			<item>
 				<title>IPSA FACE MELODY | Web Design Inspiration</title>
 				
 					<description>Une belle expérience musicale tirant profit des capacités du WebGL. La présentation du concept et de la promesse tout en mouvement donne le ton et invite à l’engagement.
