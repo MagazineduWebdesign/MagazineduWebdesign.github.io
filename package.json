@@ -30,7 +30,7 @@
     "grunt-responsive-images": "^0.1.6",
     "grunt-svgmin": "^3.2.0",
     "grunt-usemin": "^3.1.1",
-    "imagemin-gifsicle": "^5.0.0",
+    "imagemin-gifsicle": "^5.0.1",
     "imagemin-mozjpeg": "^5.1.0",
     "imagemin-pngquant": "^4.1.0",
     "jshint-stylish": "^2.2.0",
