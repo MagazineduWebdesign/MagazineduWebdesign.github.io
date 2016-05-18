@@ -23,7 +23,15 @@
       {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ post.excerpt | strip_html }} {% endif %}">
+  <meta name="description" content="
+  {% if page.description %}
+    {{ page.description }}
+  {% elsif page.category == 'ui-animations' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% elsif page.category == 'ui-sites-web_from-zapier' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% else %}
+  {% endif %}">
   <meta name="robots" content="noodp,noydir"/>
 
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
@@ -32,7 +40,15 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}" />
-  <meta property="og:description" content="{% if page.intro %} {{ page.intro | markdownify | strip_html | xml_escape }} {% else %} {{ page.description }} {% endif %}" />
+  <meta property="og:description" content="
+  {% if page.description %}
+    {{ page.description }}
+  {% elsif page.category == 'ui-animations' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% elsif page.category == 'ui-sites-web_from-zapier' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% else %}
+  {% endif %}" />
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
   <meta property="og:image:width" content="640" />
@@ -56,7 +72,15 @@
   <meta name="twitter:site" content="@MagDuWebdesign" />
   <meta name="twitter:creator" content="@MagDuWebdesign">
   <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}">
-  <meta name="twitter:description" content="{% if page.intro %} {{ page.intro | markdownify | strip_html | xml_escape }} {% else %} {{ page.description }} {% endif %}">
+  <meta name="twitter:description" content="
+  {% if page.description %}
+    {{ page.description }}
+  {% elsif page.category == 'ui-animations' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% elsif page.category == 'ui-sites-web_from-zapier' %}
+    {{ page.commentaire | markdownify | strip_html }}
+  {% else %}
+  {% endif %}">
   {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
   {% endif %}
