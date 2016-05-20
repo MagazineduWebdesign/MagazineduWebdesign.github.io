@@ -11,7 +11,7 @@ tags:
 intro: "Clean, ça donne envie de dessiner tous les super héros."
 description: "Clean, ça donne envie de dessiner tous les super héros."
 id-youtube: "Ml-osfOLwxQ"
-viaurl: "http://sketchapp.tv/"
+viaurl:
 viatitle:
 lunametrics-youtube-tracking:
 ---
