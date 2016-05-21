@@ -1,7 +1,7 @@
 ---
 layout: "video"
-title: "Deadpool Speed Drawing"
-date: "2016-01-21 06:22:57"
+title: "Hyper-Reality"
+date: "2016-05-20 06:22:57"
 path1: "videos"
 path2: "design-stories"
 path3:
