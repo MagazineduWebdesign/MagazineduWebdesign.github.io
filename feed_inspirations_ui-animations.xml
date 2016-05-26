@@ -7,6 +7,30 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Principle Experiment | UI animation</title>
+				
+					<description>Mise en scène d’items de liste, animation de la navigation et effet hover sur image.
+</description>
+				
+				<pubDate>Wed, 25 May 2016 21:00:43 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/principle-experiment.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/principle-experiment.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-principle-experiment.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Animation catégories de recettes de cuisine | UI animation</title>
+				
+					<description>Mise en scène d’une exploration de catégories de recettes par un utilisateur.
+</description>
+				
+				<pubDate>Thu, 26 May 2016 11:22:07 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animation-catgories-de-recettes-de-cuisine.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animation-catgories-de-recettes-de-cuisine.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-animation-cat-gories-de-recettes-de-cuisine.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>App mobile BuonApp – Profil utilisateur | UI animation</title>
 				
 					<description>Des transitions ne navigation bien étudiées. C’est clean.
@@ -268,30 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-trello-navigation.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Navigation paramètre | UI animation</title>
-				
-					<description>Sympa l’effet de rebond sur l’animation ! Agréable à voir.
-</description>
-				
-				<pubDate></pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-paramtre.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-paramtre.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-settings-fun-navigation.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Concept App mobile carte d'embarquement 2 | UI animation</title>
-				
-					<description>Concept d’application d’embarquement aérien.
-</description>
-				
-				<pubDate></pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-app-mobile-carte-dembarquement-2.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-app-mobile-carte-dembarquement-2.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-boarding-pass-concept.gif" type="image/*" />
 			</item>
 		
 	</channel>
