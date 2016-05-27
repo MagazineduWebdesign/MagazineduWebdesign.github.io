@@ -1,6 +1,6 @@
 ---
 layout: "inspirations-default"
-title: "Hulu Plus"
+title: "Hulu Plus Android TV"
 date: "2015-07-25 00:24:57"
 path1: "inspirations"
 path2: "ui-design"
