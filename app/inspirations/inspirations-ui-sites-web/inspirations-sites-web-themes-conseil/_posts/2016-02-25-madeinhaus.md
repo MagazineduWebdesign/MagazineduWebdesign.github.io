@@ -34,5 +34,5 @@ image-2: "inspiration-ui-design-site-web-madeinhaus-2.jpg"
 image-3: "inspiration-ui-design-site-web-madeinhaus-3.jpg"
 image-4: "inspiration-ui-design-site-web-madeinhaus-4.jpg"
 intro: "Portfolio avec des transitions de navigation bien clean lors du scroll et lors du changement de page."
-description: "Portfolio d'un bureau d'architecture et de design d'intérieures norvégien."
+description: "Portfolio avec des transitions de navigation bien clean lors du scroll et lors du changement de page."
 ---
