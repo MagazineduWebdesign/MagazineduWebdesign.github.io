@@ -21,6 +21,6 @@ image-3:
 image-4:
 image-5:
 intro: "Avada, le thème le plus populaire de la market place Themeforest. Une quantité d'options incroyables qui vous laissera maître du moindre aspect de votre site Web. Que ce soit pour un hôtel, un ecommerce, un tour opérateur ou un portfolio personnel, ce thème WordPress est la panacée de tout entrepreneur du Web. Tout y est."
-description: "Une quantité d'options incroyables qui vous laissera maître du moindre aspect de votre site Web Ecommerce, hôtel, portfolio, blog."
+description: "Le plus populaire de la market place Themeforest qui couvrira tous vos besoins en terme de développement de site WordPress."
 rating: "8"
 ---
