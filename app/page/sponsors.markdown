@@ -27,7 +27,19 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="https://www.ptengine.com/?ref=magazineduwebdesign" title="ptengine" target="_blank" rel="nofollow">
+          <a class="grid-article-card-link-wrap" href="http://istockphoto.7eer.net/c/262183/258824/4205" title="istockphoto" target="_blank" rel="nofollow">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/istock-logo.jpg" alt="icône istockphoto" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">iStock</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/ux-design-apporter-de-l-authenticite-aux-feedbacks-utilisateur-avec-ptengine-heat-maps-analytics/" title="ptengine" target="_blank" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-ptengine.jpeg" alt="icône app ptengine" width="64" height="64">
@@ -39,7 +51,7 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="https://www.themecloud.io/?ref=magazineduwebdesign" title="themecloud.io" target="_blank" rel="nofollow">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/comment-un-herbergement-wordpress-peut-vous-eviter-des-ennuis/" title="themecloud.io" target="_blank" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/themecloud-logo.png" alt="icône app themecloud" width="64" height="64">
@@ -51,7 +63,7 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://www.wix.com/" title="wix.com" target="_blank" rel="nofollow">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/web-designer-freelance-6-conseils-pour-augmenter-vos-revenus/" title="wix.com" target="_blank" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-wix.png" alt="icône app wix" width="64" height="64">
