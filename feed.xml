@@ -585,6 +585,32 @@
 		
 		
 			<item>
+				<title>Web Summit 2016</title>
+				
+				
+					<description>Lisbonne sera le centre du monde Tech en 2016.
+</description>
+				
+				<pubDate>Mon, 30 May 2016 00:33:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/evenements/web-design/WebSummit-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/WebSummit-2016/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-summit-2016.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Conférence Awwwards New York 2016</title>
+				
+				
+					<description>Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences.
+</description>
+				
+				<pubDate>Mon, 30 May 2016 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/evenements/web-design/awwwards-conferences-new-york-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/awwwards-conferences-new-york-2016/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/conference-awwwards-2016.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Redesign Soundcloud Material Design - Partie 002</title>
 				
 				
@@ -869,32 +895,6 @@ Le site web est bâti sur une librairie javascript open source créée par Valen
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ruben-sanchez/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ruben-sanchez/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-rubensanchez-3.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Made in HAUS | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Portfolio avec des transitions de navigation bien clean lors du scroll et lors du changement de page.
-</description>
-				
-				<pubDate>Thu, 25 Feb 2016 13:57:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/madeinhaus/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/madeinhaus/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-madeinhaus-1.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>El espacio | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Digital creative agency - Barcelona &amp;amp; Berlin.
-</description>
-				
-				<pubDate>Thu, 25 Feb 2016 13:56:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/elespacio/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/elespacio/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-elespacio-1.jpg" type="image/*" />
 			</item>
 		
 		
