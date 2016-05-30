@@ -19,7 +19,7 @@ image: conference-awwwards-2016.jpg
 description: 'Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences.'
 ---
 
-Les invités proviennent de sociétés telles que Stink Digital, The Barbarian Group, Behance, GitHub, Droga5 et Fjord, agrémentés de personnalités de renommée mondiale, primées, tels que Mike Monteiro, Mike Kus et Benjamin Guedj. Ils interviendront sur des thèmes pointues tels que la VR, le WebGL, les objets connectés, et plus largement d'expérience utilisateur.
+Les invités proviennent de sociétés telles que Stink Digital, The Barbarian Group, Behance, GitHub, Droga5 et Fjord, agrémentés de personnalités de renommée mondiale, primées, tels que Mike Monteiro, Mike Kus et Benjamin Guedj. Ils interviendront sur des thèmes pointues tels que la [VR](http://www.magazineduwebdesign.com/inspirations/web-vr-realite-virtuelle/), le [WebGL](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/technologies/webgl/), les [objets connectés](http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/), et plus largement d'expérience utilisateur.
 
 Rechargez ensuite vos batteries à l'after party qui se tiendra sur le plus grand rooftop de NY – 230 FIFTH – où vous pourrez échanger et réseauter avec les experts et l'ensemble des invités, tout en admirant une vue à 360° de la skyline new-yorkaise.
 
