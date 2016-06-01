@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Weaver Prototype | UI animation</title>
+				
+					<description>Parcours au sein d’une application Material Design mettant en scène la transition de navigation entre une liste de contacts et une fiche contact. Fichiers source .Principle et .Sketch téléchargeables gratuitement en cliquant sur le bouton Télécharger. Un grand merci à Nicolas Meuzard.
+</description>
+				
+				<pubDate>Wed, 01 Jun 2016 08:33:11 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/weaver-prototype.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/weaver-prototype.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-weaver-prototype.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Principle Experiment | UI animation</title>
 				
 					<description>Mise en scène d’items de liste, animation de la navigation et effet hover sur image.
@@ -280,18 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/widget-calendrier.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/widget-calendrier.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calendar-widget-ll-freebie.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Navigation Trello | UI animation</title>
-				
-					<description>Trello est une application formidable pour gérer sa production et collaborer. Le seul hic, une navigation avec quelques frictions lorsque un tableau à plus de 4 ou 5 colonnes (ou 27+). Le designer Aurélien Salomon explore une solution prometteuse pour explorer rapidement les colonnes d’un tableau. A tester.
-</description>
-				
-				<pubDate></pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-trello-navigation.gif" type="image/*" />
 			</item>
 		
 	</channel>

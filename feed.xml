@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Weaver Prototype | UI Animation</title>
+				
+					<description>Parcours au sein d’une application Material Design mettant en scène la transition de navigation entre une liste de contacts et une fiche contact. Fichiers source .Principle et .Sketch téléchargeables gratuitement en cliquant sur le bouton Télécharger. Un grand merci à Nicolas Meuzard.
+</description>
+				
+				<pubDate>Wed, 01 Jun 2016 08:33:11 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/weaver-prototype.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/weaver-prototype.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-weaver-prototype.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Principle Experiment | UI Animation</title>
 				
 					<description>Mise en scène d’items de liste, animation de la navigation et effet hover sur image.
@@ -282,18 +294,114 @@
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calendar-widget-ll-freebie.gif" type="image/*" />
 			</item>
 		
+		
 			<item>
-				<title>Navigation Trello | UI Animation</title>
+				<title>Cubic Time | Web Design Inspiration</title>
 				
-					<description>Trello est une application formidable pour gérer sa production et collaborer. Le seul hic, une navigation avec quelques frictions lorsque un tableau à plus de 4 ou 5 colonnes (ou 27+). Le designer Aurélien Salomon explore une solution prometteuse pour explorer rapidement les colonnes d’un tableau. A tester.
+					<description>Horloge WebGL 3D.
 </description>
 				
-				<pubDate></pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/navigation-trello.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/navigation-trello.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-trello-navigation.gif" type="image/*" />
+				<pubDate>Wed, 01 Jun 2016 08:26:23 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cubic-time.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cubic-time.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-cubic-time.jpg" type="image/*" />
 			</item>
 		
+			<item>
+				<title>Rizzi Charpente Artisan charpentier à Albertville Savoie | Web Design Inspiration</title>
+				
+					<description>Un composition super clean pour ce site Web de charpentier.
+</description>
+				
+				<pubDate>Wed, 01 Jun 2016 08:21:40 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rizzi-charpente-artisan-charpentier--albertville-savoie.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rizzi-charpente-artisan-charpentier--albertville-savoie.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-rizzi-charpente-artisan-charpentier---albertville-savoie.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>20160525_coolada | Web Design Inspiration</title>
+				
+					<description>Expérience WebGL exploitant la caméra pour créée un effet fish-eye
+</description>
+				
+				<pubDate>Wed, 01 Jun 2016 08:23:44 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/20160525_coolada.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/20160525_coolada.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-20160525_coolada.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>SIRIN SOLARIN | Web Design Inspiration</title>
+				
+					<description>Une navigation WebGL tout en douceur pour cette présentation éclatée de téléphone.
+</description>
+				
+				<pubDate>Wed, 01 Jun 2016 08:19:40 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sirin-solarin.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sirin-solarin.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-sirin-solarin.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Projet Tsunami | Web Design Inspiration</title>
+				
+					<description>Une série documentaire de 12 épisodes sur différents groupes et leur vision de la musique au Québec. Sympa les effets hover psychés sur les players.
+</description>
+				
+				<pubDate>Mon, 30 May 2016 23:21:14 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projet-tsunami.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projet-tsunami.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-projet-tsunami.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>JPRS | Web Design Inspiration</title>
+				
+					<description>C’est décalé, c’est japonais. L’interaction au scroll est étonnante :-). Bien vu, ça colle à la promesse du service.
+</description>
+				
+				<pubDate>Mon, 30 May 2016 23:25:40 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jprs.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jprs.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-jprs.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>NewActon | Web Design Inspiration</title>
+				
+					<description>Comment créer une zone culturelle véritablement innovante ? NewAction en Australie a un début de réponse. Le site reflète très bien l’esprit et l’univers de ce lieu culturel : du mouvement et des couleurs symbolisant la vie culturelle de la ville de Canberra.
+</description>
+				
+				<pubDate>Mon, 30 May 2016 23:18:56 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/newacton.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/newacton.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-newacton.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>wrk - French Creative Web Studio | Web Design Inspiration</title>
+				
+					<description>Du très lourd en terme d’animations UI, de transitions de page et d’illustrations. Le listing de projets est très agréable à parcourir.
+</description>
+				
+				<pubDate>Tue, 31 May 2016 08:46:14 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/wrk---french-creative-web-studio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/wrk---french-creative-web-studio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-wrk---french-creative-web-studio.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ryan Moore | Creative Direction &amp; Motion Graphic Design | Web Design Inspiration</title>
+				
+					<description>Une belle composition minimaliste.
+</description>
+				
+				<pubDate>Tue, 31 May 2016 08:43:11 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ryan-moore--creative-direction--motion-graphic-design.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ryan-moore--creative-direction--motion-graphic-design.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-ryan-moore---creative-direction---motion-graphic-design.jpg" type="image/*" />
+			</item>
 		
 			<item>
 				<title>Berghaintrainer | Web Design Inspiration</title>
@@ -473,114 +581,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/pharrell-williams.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/pharrell-williams.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-pharrellwilliams-com.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Daniel Savio - Against All Odds | Web Design Inspiration</title>
-				
-					<description>Une superbe expérience #webgl par @herrpotemkin pour Savio’s ‘Nigredo’. #lowpoly
-</description>
-				
-				<pubDate>Thu, 26 May 2016 10:26:35 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/daniel-savio---against-all-odds.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/daniel-savio---against-all-odds.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-daniel-savio---against-all-odds.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Boosted - The Ultimate Electric Skateboard | Web Design Inspiration</title>
-				
-					<description>Une belle vidéo en background avec une superbe transition de page entre l’écran de landing et le player vidéo. La composition des pages est simple et clean.
-</description>
-				
-				<pubDate>Thu, 26 May 2016 10:54:46 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/boosted---the-ultimate-electric-skateboard.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/boosted---the-ultimate-electric-skateboard.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-boosted---the-ultimate-electric-skateboard.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Long Live Synesthesia | Web Design Inspiration</title>
-				
-					<description>Une créature musicale WebGL dansante créée avec ThreeJS.
-</description>
-				
-				<pubDate>Thu, 26 May 2016 11:01:41 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/long-live-synesthesia.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/long-live-synesthesia.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-long-live-synesthesia.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>An Interesting Day | Web Design Inspiration</title>
-				
-					<description>Landing page pour la conférence An Interesting Day composée d’illustrations bien fraîches.
-</description>
-				
-				<pubDate>Thu, 26 May 2016 11:12:52 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/an-interesting-day.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/an-interesting-day.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-an-interesting-day.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Enod | Web Design Inspiration</title>
-				
-					<description>Un joli petit site Web pour un restaurant avec une composition originale et des animations au scroll bien fraîches.
-</description>
-				
-				<pubDate>Thu, 26 May 2016 11:16:50 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/enod.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/enod.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-enod.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>SKYLARK – Architecture responsable | Web Design Inspiration</title>
-				
-					<description>Site web de l’architecte Peter Bohlin. Skylark est une collection de résidences exceptionnelles dans les Blue Ridge Mountains. Une vidéo en background et un beau jeu de typographies mettent en scène le travail d’une équipe d’artisans et d’écologistes visionnaires qui se sont réunis pour créer des maisons élégantes embrassant un paysage à couper le souffle.
-</description>
-				
-				<pubDate>Thu, 26 May 2016 11:26:11 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/skylark--architecture-responsable.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/skylark--architecture-responsable.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-skylark-–-architecture-responsable.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Audiograph | Web Design Inspiration</title>
-				
-					<description>Une exploration visuelle en WebGL du dernier album de Pilotpriest, TRANS.
-</description>
-				
-				<pubDate>Fri, 20 May 2016 20:11:15 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/audiograph.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/audiograph.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-audiograph.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>An deiner Seite | Web Design Inspiration</title>
-				
-					<description>Un clip interactif avec une histoire pleine d’émotions. La qualité de la réalisation et les superpositions des histoires sont une belle surprise offerte par UNIT9.
-</description>
-				
-				<pubDate>Fri, 20 May 2016 20:24:09 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/an-deiner-seite.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/an-deiner-seite.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-an-deiner-seite.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Wise by Front Row | Web Design Inspiration</title>
-				
-					<description>A noter : un système de navigation au sein de la page via des ancres sur la gauche de l’écran. Jamais vu des comme ça :-).
-</description>
-				
-				<pubDate>Fri, 20 May 2016 21:22:54 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/wise-by-front-row.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/wise-by-front-row.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-wise-by-front-row.jpg" type="image/*" />
 			</item>
 		
 		
