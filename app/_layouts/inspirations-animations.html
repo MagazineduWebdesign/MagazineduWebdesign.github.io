@@ -13,7 +13,12 @@ layout: default
           {% if page.commentaire %}{{ page.commentaire | markdownify }}{% endif %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
-          {% if page.url-demo %}<a onclick="ga('send', 'event', 'ui-animations', 'Visit source', '{{ page.title }}');" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" class="button radius small primary" target="_blank" rel="nofollow">VOIR SOURCE</a>{% endif %}
+          {% if page.url-demo %}
+            <a onclick="ga('send', 'event', 'ui-animations', 'Visit source', '{{ page.title }}');" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" class="button radius small primary" target="_blank" rel="nofollow">VOIR SOURCE</a>
+          {% endif %}
+          {% if page.url-telecharger %}
+            <a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>
+          {% endif %}
         </div>
       </div>
 
@@ -37,7 +42,13 @@ layout: default
 
             {% if page.url-demo %}
             <li role="menuitem">
-              <a onclick="ga('send', 'event', 'ui-animations', 'Visit source', '{{ page.title }}');" class="button expand radius small primary is-url-demo" data-is-url-demo="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" target="_blank" rel="nofollow">VOIR SOURCE</a></li>
+              <a onclick="ga('send', 'event', 'ui-animations', 'Visit source', '{{ page.title }}');" class="button expand radius small primary is-url-demo" data-is-url-demo="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" target="_blank" rel="nofollow">VOIR SOURCE</a>
+            </li>
+            {% endif %}
+            {% if page.url-telecharger %}
+            <li role="menuitem">
+              <a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a>
+            </li>
             {% endif %}
 
           </ul>
