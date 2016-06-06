@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>MTCHMV | Web Design Inspiration</title>
+				
+					<description>MTCHMV explore comment la caméra de tracking 3D d’After Effetcs peut être exportée et utilisée sur le Web grâce à ThreeJS. Les résultats de ce prototype ouvriront de nouvelles façons de manipuler et d’interagir avec le contenu vidéo en temps réel.
+</description>
+				
+				<pubDate>Sun, 05 Jun 2016 10:54:49 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mtchmv.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mtchmv.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-mtchmv.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>STOOOORM | Web Design Inspiration</title>
 				
 					<description>Du polyshape, de la vidéo en full background, des animations lors du scroll, la recette d’un site à awards. Stoooorm est une plate-forme pour les artistes et designers du monde entier qui souhaitent apprendre via de la co-création et une expérience de partage sans fin. Découvrez, sélectionnez, transformez, partagez.
@@ -280,18 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/reputation-squad.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/reputation-squad.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-reputation-squad.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Airbus Group | Web Design Inspiration</title>
-				
-					<description>Un rapport annuel impressionnant en terme d’interactivités et de richesse de contenus.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 11:15:32 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/airbus-group.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/airbus-group.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-airbus-group.jpg" type="image/*" />
 			</item>
 		
 	</channel>
