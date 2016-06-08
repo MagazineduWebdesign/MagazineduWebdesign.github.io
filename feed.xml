@@ -7,6 +7,90 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Frame.io iPhone | UI Animation</title>
+				
+					<description>UI animation mettant en scène un listing d’items avec des interactions au niveau de la prévisualisation des contenus vidéo. Une deuxième interaction concerne l’ouverture d’un panel détaillant des informations concernant les membres de la liste.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 15:37:55 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/frame.io-iphone.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/frame.io-iphone.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-frame-io-iphone.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Interaction Airbnb | UI Animation</title>
+				
+					<description>Quelques interactions autour d’un concept d’appli Airbnb sur des écrans de listing.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 14:53:48 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/interaction-airbnb.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-airbnb.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-airbnb.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Dashboard email | UI Animation</title>
+				
+					<description>UI animation mettant en scène une ouverture d’application email.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 15:36:30 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dashboard-email.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/dashboard-email.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-dashboard-email.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Détails album musique | UI Animation</title>
+				
+					<description>Interaction au scroll pour cette présentation d’album avec une réduction des infos principales en header d’application.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 15:37:36 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dtails-album-musique.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/dtails-album-musique.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-d-tails-album-musique.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Menu contextuel quick preview | UI Animation</title>
+				
+					<description>Modèle d’interactions pour une application dictionnaire. Appuyez et maintenez sur un mot, un menu contextuel apparaît pour vous offrir quelques éléments d’action.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 14:53:41 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/menu-contextuel-quick-preview.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/menu-contextuel-quick-preview.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-menu-contextuel-quick-preview.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Summer Onboarding | UI Animation</title>
+				
+					<description>Animation d’illustrations sur différents écrans tutoriel.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 14:44:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/summer-onboarding.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/summer-onboarding.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-summer-onboarding.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Application bancaire - choix carte de paiement | UI Animation</title>
+				
+					<description>Interactions combinant un aperçu clair des cartes disponibles et le processus de paiement peut être initié avec facilité via le lecteur d’empreinte digitale.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 14:49:26 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/application-bancaire---choix-carte-de-paiement.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/application-bancaire---choix-carte-de-paiement.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-application-bancaire---choix-carte-de-paiement.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Antivirus software | UI Animation</title>
 				
 					<description>UI animation du processus de nettoyage d’une application antivirus.
@@ -210,90 +294,42 @@
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-onboarding-social-app.gif" type="image/*" />
 			</item>
 		
+		
 			<item>
-				<title>Black and white | UI Animation</title>
+				<title>Anagram.paris | Creative digital agency | Web Design Inspiration</title>
 				
-					<description>UI animation d’interactions zoom et swipe.
+					<description>Un portfolio qui n’en est presque pas un. Une interaction d’exploration de contenu unique qui marque l’esprit. Hop, dans les carnets d’inspirations !
 </description>
 				
-				<pubDate>Sun, 05 Jun 2016 11:40:47 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/black-and-white.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/black-and-white.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-black-and-white.gif" type="image/*" />
+				<pubDate>Wed, 08 Jun 2016 19:33:48 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-anagram-paris---creative-digital-agency.jpg" type="image/*" />
 			</item>
 		
 			<item>
-				<title>Map Interactions | UI Animation</title>
+				<title>Booounce | Web Design Inspiration</title>
 				
-					<description>Mise en scène d’interactions gravitant autour d’un trajet et affichant des prix gagnés et des erreurs commises durant le parcours.
+					<description>Booounce est une collection de courtes vidéos et GIFs sympas. L’UI animation est omniprésente dans ce site Web via des transitions de pages et des effets hovers accompagnant chaque interaction de l’utilisateur.
 </description>
 				
-				<pubDate>Sun, 05 Jun 2016 12:45:53 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/map-interactions.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/map-interactions.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-map-interactions.gif" type="image/*" />
+				<pubDate>Tue, 07 Jun 2016 17:53:26 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/booounce.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/booounce.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-booounce.jpg" type="image/*" />
 			</item>
 		
 			<item>
-				<title>Arco Eshop | UI Animation</title>
+				<title>Party Pooper | Web Design Inspiration</title>
 				
-					<description>UI animation d’interactions sur une grille et une vue détail permettant de swiper entre les items de la grille.
+					<description>Une belle expérience Web proposé par Animade, un studio d’animation avant-gardiste.
 </description>
 				
-				<pubDate>Sun, 05 Jun 2016 11:46:40 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/arco-eshop.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/arco-eshop.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-arco-eshop.gif" type="image/*" />
+				<pubDate>Wed, 08 Jun 2016 17:45:46 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/party-pooper.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/party-pooper.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-party-pooper.jpg" type="image/*" />
 			</item>
-		
-			<item>
-				<title>Product Card Animation | UI Animation</title>
-				
-					<description>Exploration de potentiels interactions sur une fiche produit.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:47:26 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/product-card-animation.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/product-card-animation.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-product-card-animation.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Appli location immobilier | UI Animation</title>
-				
-					<description>UI animation d’un écran permettant de filtrer via une map une sélection de biens immobilier à louer.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 12:46:15 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/appli-location-immobilier.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/appli-location-immobilier.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-appli-location-immobilier.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>TimeFlash Onboarding Animations | UI Animation</title>
-				
-					<description>UI animation des écrans d’onboarding via des illustrations.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 12:06:36 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/timeflash-onboarding-animations.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/timeflash-onboarding-animations.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-timeflash-onboarding-animations.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Sundance Detail | UI Animation</title>
-				
-					<description>Subtile animation d’une transition de navigation entre différents écrans d’une application mobile.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 12:06:28 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sundance-detail.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/sundance-detail.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-sundance-detail.gif" type="image/*" />
-			</item>
-		
 		
 			<item>
 				<title>Type Terms | Web Design Inspiration</title>
@@ -545,42 +581,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/m-s-d-s-studio.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/m-s-d-s-studio.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-m-s-d-s-studio.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>This was Louise's Phone | Web Design Inspiration</title>
-				
-					<description>Du lourd pour cette campagne contre le harcèlement online. Vivez une expérience désagréable via une vidéo interactive.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 10:52:02 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-was-louises-phone.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-was-louises-phone.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-this-was-louise-s-phone.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>HP | Magic Words | Web Design Inspiration</title>
-				
-					<description>Une pure merveille cette composition. Un beau projet avec du mouvement et une belle mise en page des galeries photos et Instragram.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 10:48:29 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hp--magic-words.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hp--magic-words.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-hp---magic-words.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Cantor Fine Art | Web Design Inspiration</title>
-				
-					<description>Site Web de la galerie d’art Cantor Fine Art présentant les œuvres et les artistes au sein d’une mise en scène riche en interactions pour la partie fiche détail. Toutes les œuvres peuvent être achetées directement à partir du portfolio.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 11:09:54 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cantor-fine-art.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cantor-fine-art.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-cantor-fine-art.jpg" type="image/*" />
 			</item>
 		
 		

@@ -7,6 +7,42 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Anagram.paris | Creative digital agency | Web Design Inspiration</title>
+				
+					<description>Un portfolio qui n’en est presque pas un. Une interaction d’exploration de contenu unique qui marque l’esprit. Hop, dans les carnets d’inspirations !
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 19:33:48 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-anagram-paris---creative-digital-agency.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Booounce | Web Design Inspiration</title>
+				
+					<description>Booounce est une collection de courtes vidéos et GIFs sympas. L’UI animation est omniprésente dans ce site Web via des transitions de pages et des effets hovers accompagnant chaque interaction de l’utilisateur.
+</description>
+				
+				<pubDate>Tue, 07 Jun 2016 17:53:26 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/booounce.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/booounce.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-booounce.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Party Pooper | Web Design Inspiration</title>
+				
+					<description>Une belle expérience Web proposé par Animade, un studio d’animation avant-gardiste.
+</description>
+				
+				<pubDate>Wed, 08 Jun 2016 17:45:46 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/party-pooper.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/party-pooper.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-party-pooper.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Type Terms | Web Design Inspiration</title>
 				
 					<description>L’outil idéal pour les designers afin d’apprendre les rudiments de la terminologie typographique. Si vous êtes un nouveau dans la typographie ou si vous souhaitez vous rafraîchir la mémoire, Type terms est parfait pour vous.
@@ -256,42 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/m-s-d-s-studio.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/m-s-d-s-studio.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-m-s-d-s-studio.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>This was Louise's Phone | Web Design Inspiration</title>
-				
-					<description>Du lourd pour cette campagne contre le harcèlement online. Vivez une expérience désagréable via une vidéo interactive.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 10:52:02 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-was-louises-phone.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/this-was-louises-phone.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-this-was-louise-s-phone.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>HP | Magic Words | Web Design Inspiration</title>
-				
-					<description>Une pure merveille cette composition. Un beau projet avec du mouvement et une belle mise en page des galeries photos et Instragram.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 10:48:29 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hp--magic-words.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/hp--magic-words.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-hp---magic-words.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Cantor Fine Art | Web Design Inspiration</title>
-				
-					<description>Site Web de la galerie d’art Cantor Fine Art présentant les œuvres et les artistes au sein d’une mise en scène riche en interactions pour la partie fiche détail. Toutes les œuvres peuvent être achetées directement à partir du portfolio.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 11:09:54 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cantor-fine-art.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cantor-fine-art.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-cantor-fine-art.jpg" type="image/*" />
 			</item>
 		
 	</channel>
