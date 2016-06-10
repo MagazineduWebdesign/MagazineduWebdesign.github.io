@@ -1,5 +1,41 @@
 [
   {
+    "date": "June 10 2016 08:14:59 AM",
+    "title": "Concept Tesla control center",
+    "url-demo": "https://dribbble.com/shots/2750143-Tesla-control-center-for-smart-home-product",
+    "image": "ui-animation-inspiration-concept-tesla-control-center.gif",
+    "metadata": "DASHBOARD",
+    "commentaire": "Mise en scène d'interactions permettant le contrôle à distance de la Tesla model S #transition.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "date": "June 10 2016 08:14:50 AM",
+    "title": "Livraison",
+    "url-demo": "https://dribbble.com/shots/2753803-Refresh-your-delivery",
+    "image": "ui-animation-inspiration-livraison.gif",
+    "metadata": "LOADER",
+    "commentaire": "UI animation servant à actualiser une timeline de livraison.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
+    "date": "June 10 2016 08:15:00 AM",
+    "title": "Facebook Messenger Bots & système de paiement",
+    "url-demo": "https://dribbble.com/shots/2749390-Messenger-Bots-Partial-payment-Concept",
+    "image": "ui-animation-inspiration-facebook-messenger-bots---syst-me-de-paiement.gif",
+    "metadata": "bot",
+    "commentaire": "UI animation offrant une vue détaillée d'une conversation avec un bot au sein d'un écran de dialogue Messenger. En insérant le symbole \"=\", l'application suggère des lignes de commandes (réserver un avion, un taxi, un tacos, etc.) et entame une conversation avec l'utilisateur afin d'obtenir le détail de ses désirs. Cette démo met en scène une réflexion poussée autour du système de paiement #conversational #design.",
+    "category": "ui-animations",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "animations"
+  },
+  {
     "date": "June 08 2016 03:37:55 PM",
     "title": "Frame.io iPhone",
     "url-demo": "https://dribbble.com/shots/2754462-Frame-io-for-iPhone",
