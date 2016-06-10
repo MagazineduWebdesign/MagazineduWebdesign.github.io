@@ -7,6 +7,42 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Concept Tesla control center | UI animation</title>
+				
+					<description>Mise en scène d’interactions permettant le contrôle à distance de la Tesla model S #transition.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:14:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-tesla-control-center.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-tesla-control-center.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-tesla-control-center.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Livraison | UI animation</title>
+				
+					<description>UI animation servant à actualiser une timeline de livraison.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:14:50 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/livraison.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/livraison.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-livraison.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Facebook Messenger Bots &amp; système de paiement | UI animation</title>
+				
+					<description>UI animation offrant une vue détaillée d’une conversation avec un bot au sein d’un écran de dialogue Messenger. En insérant le symbole “=”, l’application suggère des lignes de commandes (réserver un avion, un taxi, un tacos, etc.) et entame une conversation avec l’utilisateur afin d’obtenir le détail de ses désirs. Cette démo met en scène une réflexion poussée autour du système de paiement #conversational #design.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:15:00 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/facebook-messenger-bots--systme-de-paiement.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/facebook-messenger-bots--systme-de-paiement.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-facebook-messenger-bots---syst-me-de-paiement.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Frame.io iPhone | UI animation</title>
 				
 					<description>UI animation mettant en scène un listing d’items avec des interactions au niveau de la prévisualisation des contenus vidéo. Une deuxième interaction concerne l’ouverture d’un panel détaillant des informations concernant les membres de la liste.
@@ -256,42 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/shopping-list.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/shopping-list.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-shopping-list.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>iCabs Drive Redesign | UI animation</title>
-				
-					<description>Une refonte complète d’une appli de taxi à la demande.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:47:33 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/icabs-drive-redesign.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/icabs-drive-redesign.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-icabs-drive-redesign.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Webshop UI/UX experiments | UI animation</title>
-				
-					<description>UI animation originale pour une navigation mise en scène sur des lignes diagonales.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:47:07 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/webshop-uiux-experiments.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/webshop-uiux-experiments.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-webshop-ui-ux-experiments.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Onboarding social app | UI animation</title>
-				
-					<description>UI animation de parcours d’accueil via une map.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 12:46:08 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/onboarding-social-app.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/onboarding-social-app.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-onboarding-social-app.gif" type="image/*" />
 			</item>
 		
 	</channel>
