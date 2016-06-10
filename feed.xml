@@ -585,6 +585,19 @@
 		
 		
 			<item>
+				<title>beyond tellerrand Berlin 2016</title>
+				
+				
+					<description>Une conférence sur la créativité au sein du Web design et du développement Web.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 00:33:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/evenements/web-design/beyond-tellerrand-berlin-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/beyond-tellerrand-berlin-2016/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/beyond_tellerrand_2016.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Texte sur photo – 7 conseils de design pour résoudre tous vos problèmes</title>
 				
 				
@@ -607,7 +620,7 @@
 				<pubDate>Mon, 30 May 2016 00:33:57 +0200</pubDate>
 				<link>http://www.magazineduwebdesign.com/evenements/web-design/WebSummit-2016/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/evenements/web-design/WebSummit-2016/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-summit-2016.jpg" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
 			</item>
 		
 			<item>
@@ -882,19 +895,6 @@ Le site web est bâti sur une librairie javascript open source créée par Valen
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mydigitalluxurygalaxy/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mydigitalluxurygalaxy/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-mydigitalluxurygalaxy-1.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Jae Yoon | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Portfolio avec une sympathique gestion de l’espace et de la typographie.
-</description>
-				
-				<pubDate>Thu, 25 Feb 2016 13:59:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jae-yoon/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jae-yoon/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-hellojaeho-1.jpg" type="image/*" />
 			</item>
 		
 		
