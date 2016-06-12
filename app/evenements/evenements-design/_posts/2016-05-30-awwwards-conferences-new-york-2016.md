@@ -1,22 +1,21 @@
 ---
-layout: evenement
-title: Conférence Awwwards New York 2016
-date: '2016-05-30 00:23:57'
-path1: evenements
-path2: null
-path3: null
-category: evenements
-tags:
-  - evenements-design-interactif
-intro: 'Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences.'
-logo: awwwards-conference.png
-event-start-date-iso: '2016-06-16'
-event-start-date: '16'
-event-ending-date: 17 juin 2016
-event-location: New York City
-siteweb: 'http://conference.awwwards.com/nyc-2016/?ref=MagazineDuWebdesign'
-image: conference-awwwards-2016.jpg
-description: 'Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences.'
+layout: "evenement"
+title: "Conférence Awwwards New York 2016"
+date: "2016-05-30 00:23:57"
+path1: "evenements"
+path2:
+path3:
+category: "evenements"
+tags: "evenements-design-interactif"
+intro: "Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences."
+logo: "awwwards-conference.png"
+event-start-date-iso: "2016-06-16"
+event-start-date: "16"
+event-ending-date: "17 juin 2016"
+event-location: "New York City"
+siteweb: "http://conference.awwwards.com/nyc-2016/?ref=MagazineDuWebdesign"
+image: "conference-awwwards-2016.jpg"
+description: "Le Fi:af Auditorium (à un jet de pierre de Central Park) accueillera les talents du Web Design pour 2 jours autour de 16 conférences."
 ---
 
 Les invités proviennent de sociétés telles que Stink Digital, The Barbarian Group, Behance, GitHub, Droga5 et Fjord, agrémentés de personnalités de renommée mondiale, primées, tels que Mike Monteiro, Mike Kus et Benjamin Guedj. Ils interviendront sur des thèmes pointues tels que la [VR](http://www.magazineduwebdesign.com/inspirations/web-vr-realite-virtuelle/), le [WebGL](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/technologies/webgl/), les [objets connectés](http://www.magazineduwebdesign.com/inspirations/ui-design/apple-watch/), et plus largement d'expérience utilisateur.
