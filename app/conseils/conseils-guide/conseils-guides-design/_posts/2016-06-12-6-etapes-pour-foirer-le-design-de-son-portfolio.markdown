@@ -47,11 +47,29 @@ De plus, **vouloir présenter tous ses projets depuis 1998 est le moyen le plus 
 ## 3. Se trouver des excuses
 Mieux vaut mettre quelque chose en ligne plutôt que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
 
-Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://wixstats.com/?a=4246&c=22&s1=" target="blank" rel="nofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
+Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://wixstats.com/?a=4246&c=22&s1=" target="_blank" rel="nofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
 
 > Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
 Peu importe ce que vous pensez être le minimum pour mettre en ligne votre portfolio, faites-le. Ce n’est qu’une première itération, vous aurez tout le temps de l’améliorer par la suite. **La perfection n’est pas un but en soi**. Elle existe uniquement dans l’esprit des personnes souhaitant se donner de l’importance via des critères d’exigence insensés.
+
+<div class="section-carte-index-panel">
+  <a href="http://www.magazineduwebdesign.com/collection/les-meilleurs-sites-web-portfolio-perso-et-d-agence-juin-2016/" title="Les meilleurs sites Web portfolio perso et d'agence – Juin 2016">
+    <article class="carte-article-secondaire mod-ads">
+      <div class="row collapse">
+        <div class="small-3 medium-2 columns">
+          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/books-stack.gif, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/books-stack.gif);"></div>
+        </div>
+        <div class="small-9 medium-10 columns">
+          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
+            <span class="left job--entreprise">Les meilleurs sites Web portfolio perso et d'agence – Juin 2016 <span class="label--new">NEW</span></span>
+            <span class="job--description">La collection d’inspirations répertoriant les meilleurs sites portfolio de designers et d’agences du mois de Juin.</span>
+          </h1>
+        </div>
+      </div>
+    </article>
+  </a>
+</div>
 
 ## 4. Dissimuler votre rôle
 Je ne sais pas pour vous, mais j’ai l’impression que chaque designer présente dans son [portfolio](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/portfolio/) un projet pour Adidas, Nike, Orange. Jusqu’ici rien de choquant, si ce n’est l’absence de description concernant leur rôle dans ce projet. Ont-ils créé une page, le site entier ou juste les bannières de lancement pour des pubs sur Facebook ?
@@ -60,7 +78,23 @@ Lorsqu’on travaille pour des grandes marques, ce genre d’erreurs est fréque
 
 **L’honnêteté est votre meilleur allié**. Cela évitera la confusion et la suspicion en présentant des projets de différentes qualités sans aucune indication sur le rôle que vous avez joué dans le résultat final.
 
-[Développez vos process de design avec The sprint book](http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/).
+<div class="section-carte-index-panel">
+  <a href="http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/" title="Développez vos process de design avec The sprint book">
+    <article class="carte-article-secondaire mod-ads">
+      <div class="row collapse">
+        <div class="small-3 medium-2 columns">
+          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/sprint-book.jpg, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/sprint-book.jpg);"></div>
+        </div>
+        <div class="small-9 medium-10 columns">
+          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
+            <span class="left job--entreprise">Développez vos process de design avec The sprint book <span class="label--new">NEW</span></span>
+            <span class="job--description">5 jours pour tester votre intuition.</span>
+          </h1>
+        </div>
+      </div>
+    </article>
+  </a>
+</div>
 
 ## 5. Des redesigns non sollicités
 
