@@ -44,8 +44,10 @@ Analyser et supprimer des projets de votre portfolio peut être douleureux, mais
 
 De plus, vouloir présenter tous ses projets depuis 1998 est le moyen le plus sûr de ne jamais lancer son portfolio. Concentrez vous sur l’essentiel car personne ne passera trois heures à explorer l’ensemble de votre travail.
 
+## 3. Se trouver des excuses
 Mieux vaut mettre quelques choses en ligne que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
-Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de [créer un site gratuitement](http://wixstats.com/?a=4246&c=22&s1=) avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
+
+Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://wixstats.com/?a=4246&c=22&s1=" target="blank" rel="nofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
 
 > Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
