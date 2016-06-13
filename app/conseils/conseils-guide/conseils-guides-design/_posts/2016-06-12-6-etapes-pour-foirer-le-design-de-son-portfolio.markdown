@@ -11,7 +11,7 @@ by: "Guillaume du MDW"
 by-url: "https://www.linkedin.com/in/guillaumepalayer"
 logo:
 intro: "Tout le monde sait qu’un potentiel client jugera votre talent via la qualité de votre portfolio. En partant de cette constatation, un processus assez étonnant se met en place : toutes les bonnes pratiques concernant le design et l’accessibilité d’un site Web semblent être oubliées lorsque nous créons un portfolio seul dans notre coin."
-description: "6 erreurs de débutant à éviter lorsque vous créer votre portfolio de designer."
+description: "6 erreurs de débutant à éviter lorsque vous créez votre portfolio de designer."
 ---
 Après l’examen de nombreux sites Web pour mes [collections d’UI inspirations](http://www.magazineduwebdesign.com/inspirations/), j’ai souhaité partager avec vous 6 erreurs les plus souvent faites lors de la conception d’un portfolio. Bien entendu, ces dernières sont relatives à votre contexte et à votre objectif. Choisissez les plus pertinentes pour vous.
 
