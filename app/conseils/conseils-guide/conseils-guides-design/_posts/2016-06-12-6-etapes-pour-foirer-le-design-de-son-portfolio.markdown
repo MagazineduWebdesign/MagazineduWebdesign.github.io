@@ -37,7 +37,7 @@ Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. **Mettez en sc�
 <figure class="figure-img mod-note-img">
   <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/awesome-mix-volume-1.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/awesome-mix-volume-1.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/awesome-mix-volume-1.jpg, (large)]" class="note-container-img" alt="Awesome mix vol.1 - Les gardiens de la galaxie" width="736" height="auto" />
   <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/awesome-mix-volume-1.jpg" alt="Awesome mix vol.1 - Les gardiens de la galaxie" width="736" height="auto" /></noscript>
-  <figcaption>Awesome mix vol.1 – soource : <a href="http://marvel.com/news/movies/22846/get_the_full_tracklist_for_marvels_guardians_of_the_galaxy_soundtrack" target="blank">marvel.com</a>.</figcaption>
+  <figcaption>Awesome mix vol.1 – source : <a href="http://marvel.com/news/movies/22846/get_the_full_tracklist_for_marvels_guardians_of_the_galaxy_soundtrack" target="blank">marvel.com</a>.</figcaption>
 </figure>
 
 Analyser et supprimer des projets de votre portfolio peut être douleureux, mais c’est la meilleure manière d’évoluer en tant que designer.
