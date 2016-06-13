@@ -6,6 +6,7 @@ Dans une expérience interactive, une animation peut guider efficacement l'atten
 titre_fichier_data: "collection_interaction-design-in-motion-animations-web-1"
 date: "2016-02-28 01:00:00"
 bgimgheader: "true"
+header-intro-dark: "true"
 image: "interaction-design-in-motion-animations-web-settings-page-static.png"
 description: "Faites le premier pas vers le motion design en prenant votre dose d'animations de site web & d'applications pour la semaine."
 ---
