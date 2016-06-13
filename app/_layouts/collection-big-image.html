@@ -3,7 +3,7 @@ layout: default
 ---
 {% include custom/sections/article_header.html %}
 <section>
-  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection">
+  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection {% if page.header-intro-dark == 'true' %}header-intro-dark{% endif %}">
     <header class="row-liste-index">
       <div class="small-12 columns">
         <h1 class="headline-collection text-center">{{ page.title }}</h1>

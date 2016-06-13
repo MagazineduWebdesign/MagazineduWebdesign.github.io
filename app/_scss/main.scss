@@ -1870,12 +1870,14 @@ input.index-wide-newsletter-in-grid-submit{
   /*min-height: 48vh;*/
   height: auto;
 }
-.header-collection p {
-  color: white;
-  text-align: center;
-}
 .header-collection h1{
   @include header-liste-title;
+}
+.header-collection.header-intro-dark p {
+  color: $tuatara;
+}
+.header-collection p {
+  color: white;
 }
 .header-collection-link a{@include header-liste-link;}
 
