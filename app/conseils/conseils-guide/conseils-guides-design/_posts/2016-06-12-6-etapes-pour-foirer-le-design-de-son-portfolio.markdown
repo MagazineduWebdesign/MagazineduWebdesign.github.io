@@ -76,7 +76,7 @@ Expliquer les raisons qui vous ont poussé à faire tel ou tel choix est votre m
 
 On a souvent tendance à voir notre site Web personnel comme un **exutoire créatif**. Un terrain de jeu où notre âme d’artiste peut enfin se libérer après ces longues journées passées sur des projets client frustrants. Si cela peut être vrai pour un artiste libéré de toutes contraintes d’un carnet de commandes, elle l’est beaucoup moins pour un designer, dont la mission n’est pas de questionner des problèmes mais bel et bien de les résoudre.
 
-> L’art questionne les problèmes, le design tente de les résoudre.. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'L’art questionne les problèmes, le design tente de les résoudre.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
+> L’art questionne les problèmes, le design tente de les résoudre. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'L’art questionne les problèmes, le design tente de les résoudre.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
 En ne prenant pas garde, on peut vite arriver à créer son oeuvre d’art mettant en scène une navigation extravagante accompagnée d’un contraste n’offrant aucune lisibilité.
 
