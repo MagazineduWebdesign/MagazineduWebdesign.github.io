@@ -10,10 +10,10 @@ tags: "guides-design"
 by: "Guillaume du MDW"
 by-url: "https://www.linkedin.com/in/guillaumepalayer"
 logo:
-intro: "Tout le monde sait qu’un potentiel client jugera votre talent via la qualité de votre portfolio. En partant de cette constatation, un processus assez étonnant se met en place : toutes les bonnes pratiques concernant le design et l’accessibilité d’un site Web semblent être oubliées lorsque nous créons un portfolio seul dans notre coin."
+intro: "Un potentiel client peut juger très rapidement votre talent via la qualité de votre portfolio. En partant de cette constatation, un processus assez étonnant se met en place : toutes les bonnes pratiques concernant le design et l’accessibilité d’un site Web semblent être oubliées lorsque nous créons un portfolio seul dans notre coin."
 description: "6 erreurs de débutant à éviter lorsque vous créez votre portfolio de designer."
 ---
-Après l’examen de nombreux sites Web pour mes [collections d’UI inspirations](http://www.magazineduwebdesign.com/inspirations/), j’ai souhaité partager avec vous 6 erreurs les plus souvent faites lors de la conception d’un portfolio. Bien entendu, ces dernières sont relatives à votre contexte et à votre objectif. Choisissez les plus pertinentes pour vous.
+Après l’examen de nombreux sites Web pour mes [collections d’UI inspirations](http://www.magazineduwebdesign.com/inspirations/), j’ai souhaité partager avec vous **6 erreurs les plus souvent faites lors de la conception d’un portfolio**. Bien entendu, ces dernières sont relatives à votre contexte et à votre objectif. Choisissez les plus pertinentes pour vous.
 
 ## 1. Une punch line bullshit
 En examinant des centaines de portfolio, j’ai relevé une tendance dans la structure des introductions. 90% d’entre elles proposent une phrase telle que “La passion du pixel perfect”, “Conception et réalisation de sites internet innovants et performants” combinée avec un MacBook Pro 15 pouces et une tasse de cappuccino. Oui, tous les designers aiment le café !
@@ -25,14 +25,14 @@ En examinant des centaines de portfolio, j’ai relevé une tendance dans la str
   <figcaption>Intrduction de portfolio ayant peu de valeur ajoutée.</figcaption>
 </figure>
 
-A ce qu’il paraît, les personnes ne lisent pas sur le Web. Il faut donc faire court. Votre punch line doit être concise pour décrire votre nature et votre promesse.
+Il est généralement admis que les personnes ne lisent pas sur le Web. Il faut donc faire court. Votre punch line doit être concise pour décrire votre nature et votre promesse.
 
-Néanmoins, concis ne veut pas dire introductions vides de sens prenant beaucoup de place et que l’on retrouve sur 90% des portfolio de la concurrence. Solution : vous supprimez cette introduction ou vous mettez en scène votre originalité en présentant qui vous êtes. Par exemple, John, designer avec un penchant pour les applications mobiles. 26 ans, Paris.
+Néanmoins, concis ne veut pas dire introductions vides de sens prenant beaucoup de place et que l’on retrouve sur 90% des portfolio de la concurrence. Solution : supprimez cette introduction ou mettez en scène votre originalité en présentant qui vous êtes. Par exemple, John, designer avec un penchant pour les applications mobiles. 26 ans, Paris.
 
-Dites simplement qui vous êtes et trouvez un nom pas trop compliqué pour décrire votre métier – peu de personnes savent ce que signifie UI designer. Dernier conseil, éviter de mixer des titres de fonction au risque de vous disperser – le fameux UI/UX designer ou le fullstack hmm hmm.
+**Dites simplement qui vous êtes et trouvez un nom pas trop compliqué pour décrire votre métier** – peu de personnes savent ce que signifie UI designer. Dernier conseil, évitez de mixer des titres de fonction au risque de vous disperser – le fameux UI/UX designer ou le fullstack hmm hmm.
 
 ## 2. Mes projets depuis France 98
-Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. Mettez en scène uniquement vos hits – la crème de la crème, le travail le plus représentatif de votre talent – et laissez le reste de côté. A l’instar d’un top 5, votre portfolio doit transformer un novice en fan.
+Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. **Mettez en scène uniquement vos hits** – la crème de la crème, le travail le plus représentatif de votre talent – et laissez le reste de côté. A l’instar d’un top 5, votre portfolio doit transformer un novice en fan.
 
 <figure class="figure-img mod-note-img">
   <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/awesome-mix-volume-1.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/awesome-mix-volume-1.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/awesome-mix-volume-1.jpg, (large)]" class="note-container-img" alt="Awesome mix vol.1 - Les gardiens de la galaxie" width="736" height="auto" />
@@ -42,23 +42,23 @@ Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. Mettez en scèn
 
 Analyser et supprimer des projets de votre portfolio peut être douleureux, mais c’est la meilleure manière d’évoluer en tant que designer.
 
-De plus, vouloir présenter tous ses projets depuis 1998 est le moyen le plus sûr de ne jamais lancer son portfolio. Concentrez vous sur l’essentiel car personne ne passera trois heures à explorer l’ensemble de votre travail.
+De plus, **vouloir présenter tous ses projets depuis 1998 est le moyen le plus sûr de ne jamais lancer son portfolio**. Concentrez vous sur l’essentiel car personne ne passera trois heures à explorer l’ensemble de votre travail.
 
 ## 3. Se trouver des excuses
-Mieux vaut mettre quelques choses en ligne que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
+Mieux vaut mettre quelque chose en ligne plutôt que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
 
 Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://wixstats.com/?a=4246&c=22&s1=" target="blank" rel="nofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
 
 > Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
-Peu importe ce que vous pensez être le minimum pour mettre en ligne votre portfolio, faites-le. Ce n’est qu’une première itération, vous aurez tout le temps de l’améliorer par la suite. La perfection n’est pas un but en soi. Elle existe uniquement dans l’esprit des personnes souhaitant se donner de l’importance via des critères d’exigence insensés.
+Peu importe ce que vous pensez être le minimum pour mettre en ligne votre portfolio, faites-le. Ce n’est qu’une première itération, vous aurez tout le temps de l’améliorer par la suite. **La perfection n’est pas un but en soi**. Elle existe uniquement dans l’esprit des personnes souhaitant se donner de l’importance via des critères d’exigence insensés.
 
 ## 4. Dissimuler votre rôle
 Je ne sais pas pour vous, mais j’ai l’impression que chaque designer présente dans son [portfolio](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/formats/portfolio/) un projet pour Adidas, Nike, Orange. Jusqu’ici rien de choquant, si ce n’est l’absence de description concernant leur rôle dans ce projet. Ont-ils créé une page, le site entier ou juste les bannières de lancement pour des pubs sur Facebook ?
 
 Lorsqu’on travaille pour des grandes marques, ce genre d’erreurs est fréquent. Il peut être très vite résolu en proposant une courte description de votre rôle dans le projet, accompagnée du processus de création et des personnes ayant travaillé avec vous. Pensez-le comme un film avec la longue liste des crédits à la fin.
 
-L’honnêteté est votre meilleur allié. Cela évitera la confusion et la suspicion en présentant des projets de différentes qualités sans aucune indication sur le rôle que vous avez joué dans le résultat final.
+**L’honnêteté est votre meilleur allié**. Cela évitera la confusion et la suspicion en présentant des projets de différentes qualités sans aucune indication sur le rôle que vous avez joué dans le résultat final.
 
 [Développez vos process de design avec The sprint book](http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/).
 
@@ -68,13 +68,13 @@ Le redesign de sites et d’applications des compagnies les plus hypes du moment
 
 > Même si c’est moins photogénique, vous devez expliquer la recherche soutenant le livrable. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Même si c’est moins photogénique, vous devez expliquer la recherche soutenant le livrable.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
-Un designer ne se limite pas à créer de jolies interfaces. Il est avant tout un chercheur de solutions à des problèmes. Il doit donc faire ses devoirs avant de proposer une nouvelle interface contenant toutes les [dernières tendances du Web design](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/).
+Un designer ne se limite pas à créer de jolies interfaces. Il est avant tout **un chercheur de solutions à des problèmes**. Il doit donc faire ses devoirs avant de proposer une nouvelle interface contenant toutes les [dernières tendances du Web design](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/).
 
 Expliquer les raisons qui vous ont poussé à faire tel ou tel choix est votre meilleur gage de crédibilité. Cela permet de mettre en avant vos qualités pour [résoudre de réelles problématiques d’usages](https://medium.com/bridge-collection/a-guerilla-usability-test-on-dropbox-photos-e6a1e37028b4#.rr31p8sjn).
 
 ## 6. L’amalgame entre portfolio & oeuvre d’art
 
-On a souvent tendance à voir notre site Web personnel comme un exutoire créatif. Un terrain de jeu où notre âme d’artiste peut enfin se libérer après ces longues journées passées sur des projets client frustrants. Si cela peut être vrai pour un artiste libéré de toutes contraintes d’un carnet de commandes, elle l’est beaucoup moins pour un designer, dont la mission n’est pas de questionner des problèmes mais bel et bien de les résoudre.
+On a souvent tendance à voir notre site Web personnel comme un **exutoire créatif**. Un terrain de jeu où notre âme d’artiste peut enfin se libérer après ces longues journées passées sur des projets client frustrants. Si cela peut être vrai pour un artiste libéré de toutes contraintes d’un carnet de commandes, elle l’est beaucoup moins pour un designer, dont la mission n’est pas de questionner des problèmes mais bel et bien de les résoudre.
 
 > L’art questionne les problèmes, le design tente de les résoudre.. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'L’art questionne les problèmes, le design tente de les résoudre.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
