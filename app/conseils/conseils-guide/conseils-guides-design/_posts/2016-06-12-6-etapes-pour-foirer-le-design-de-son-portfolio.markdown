@@ -49,7 +49,7 @@ Mieux vaut mettre quelque chose en ligne plutôt que rien du tout. Arrêter de c
 
 Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://fr.wix.com/" target="_blank" rel="dofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les [haters](http://www.urbandictionary.com/define.php?term=hater) qui n’ont jamais rien construit et présenté devant un public.
 
-Petite aparté, il y a quelques mois, Wix m'avait proposé de tester leur site builder. Pour la faire courte et vous donner une idée du concept, les thèmes sont hautement personnalisables et l'interface offre un grand nombre de composants design à utiliser : des icônes, des systèmes de navigations poussés, des boutons, des blocs de contenus multimodales, des listes et j'en passe. Vous pouvez même concevoir votre propre thème à partir de zéro.
+Petit aparté, il y a quelques mois, Wix m'avait proposé de tester leur site builder. Pour vous donner une idée du concept, les thèmes sont hautement personnalisables et l'interface offre un grand nombre de composants design à utiliser : des icônes, des systèmes poussés de navigations, des boutons, des blocs multimodales de contenus, des listes et j'en passe. Vous pouvez même concevoir votre propre thème à partir de zéro.
 
 > Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
