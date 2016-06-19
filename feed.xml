@@ -7,6 +7,234 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Day009-Recipe App | UI Animation</title>
+				
+					<description>Interaction de scroll au sein d’une application de recettes de cuisine et mise en scène de la transition d’écran entre la liste de recettes et le détail d’une fiche recette.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:01 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/day009-recipe-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/day009-recipe-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-day009-recipe-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Material calendar | UI Animation</title>
+				
+					<description>Animation d’une interface d’application Material Design avec un fragment de micro-interaction entre une vue calendrier et le détail d’une date.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:01 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/material-calendar.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/material-calendar.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-material-calendar.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Curated playlists | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène le scroll au sein d’un listing de playlists et la transition de navigation suite à l’action de play.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:12 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/curated-playlists.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/curated-playlists.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-curated-playlists.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>UI Day 035 Blog Post | UI Animation</title>
+				
+					<description>Un grand classique de l’UI animation : la transition entre une vue liste et le détail d’un article de blog. La transition et le loading de l’image adopte un mouvement naturel.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:55 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ui-day-035-blog-post.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/ui-day-035-blog-post.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-ui-day-035-blog-post.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ticket Concept | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène une ouverture de panel au sein d’un concept d’application de gestion de tickets.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:53 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ticket-concept.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/ticket-concept.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-ticket-concept.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Notification icône | UI Animation</title>
+				
+					<description>Micro-interaction sur une icône de notification. Cette interaction avec le marqueur rouge et l’icône cloche est bien trouvée.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:51 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/notification-icne.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/notification-icne.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-notification.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Animated flow MR. Meow app | UI Animation</title>
+				
+					<description>Ensemble de transitions d’écran et de micro-interactions pour une application mobile. L’animation d’illustrations apporte une grande valeur ajoutée pour mettre en exergue l’univers et l’identité de l’application.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animated-flow-mr.-meow-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animated-flow-mr.-meow-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-animated-flow-mr--meow-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Apple Music for Mac | UI Animation</title>
+				
+					<description>Une suite de micro-interactions sur un concept de player Apple Music avec une mise en avant de la transition audio / vidéo du son en écoute.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:14 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/apple-music-for-mac.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/apple-music-for-mac.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-apple-music-for-mac.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Bouton Download-Open | UI Animation</title>
+				
+					<description>Le bouton d’action 3-en-1 : la mise en scène en un unique composant de l’appel à l’action (download), du feedback (progress bar) et de la promesse (open file).
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:11 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bouton-download-open.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/bouton-download-open.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-bouton-download-open.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Calories Calculator | UI Animation</title>
+				
+					<description>Configurateur pour un ecommerce de compléments alimentaires permettant de spécifier ses besoins. La configuration en dual screen et la transition vers la page de résultat sont intéressantes.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:33:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/calories-calculator.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/calories-calculator.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calories-calculator.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept Web Radio | UI Animation</title>
+				
+					<description>Enchaînement de micro-interactions sur un concept de player pour une Web radio.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:05 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-web-radio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-web-radio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-web-radio.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>ToFind - Concept Controller | UI Animation</title>
+				
+					<description>Mise en scène de l’exploration d’une liste via un scroll horizontal et transition d’écran pour accéder au contenu d’un item de la liste.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:45:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tofind---concept-controller.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/tofind---concept-controller.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-tofind---concept-controller.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Mr. Meow site web application | UI Animation</title>
+				
+					<description>Animation du scroll pour le site Web de l’application Mr. Meow. Les jeux d’encadrés permettent de belles transitions entre les sections de page.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:28:15 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mr.-meow-site-web-application.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/mr.-meow-site-web-application.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-mr--meow-site-web-application.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Interaction menu contrôleur liste | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène l’accès à un panel d’outils pour éditer une liste d’items.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:46 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/interaction-menu-contrleur-liste.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-menu-contrleur-liste.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-menu-contrôleur-liste.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept appli événements | UI Animation</title>
+				
+					<description>Mise en scène d’une exploration d’événements via une carte et une liste à scroll horizontal. Animation du parcours d’exploration d’une fiche événement.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:28:13 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-appli-vnements.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-appli-vnements.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-appli--v-nements.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Interaction mode édition | UI Animation</title>
+				
+					<description>Micro-interaction autour d’un composant d’édition.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/interaction-mode-dition.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-mode-dition.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-mode--dition.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Finance App | UI Animation</title>
+				
+					<description>Micro-interactions mettant en scène la catégorisation d’items de liste au sein d’une application de gestion financière.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:32 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/finance-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/finance-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-finance-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Nouveau projet | UI Animation</title>
+				
+					<description>Fragment d’interaction accompagnant un parcours d’ajout de projet. La simplicité d’ouverture du formulaire fait tout le charme de cette animation.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:35 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nouveau-projet.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/nouveau-projet.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-nouveau-projet.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept landing page Casa Mia | UI Animation</title>
+				
+					<description>Concept de site Web pour un restaurant italien. L’écran de l’application iOS est synchronisé avec le scroll de l’utilisateur. Il est également possible d’interagir directement avec l’interface de l’appli.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:55:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-landing-page-casa-mia.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-landing-page-casa-mia.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-landing-page-casa-mia.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Concept Tesla control center | UI Animation</title>
 				
 					<description>Mise en scène d’interactions permettant le contrôle à distance de la Tesla model S #transition.
@@ -66,234 +294,54 @@
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-airbnb.gif" type="image/*" />
 			</item>
 		
+		
 			<item>
-				<title>Dashboard email | UI Animation</title>
+				<title>Adult Swim Singles 2016 | Web Design Inspiration</title>
 				
-					<description>UI animation mettant en scène une ouverture d’application email.
+					<description>Des magnifiques compositions graphiques en WebGL accompagnant de la bonne musique. Ce site Web pour le groupe Adulte Swim est une pure merveille en terme d’expérience et de transition de navigation. L’interface du player de musique est réussie.
 </description>
 				
-				<pubDate>Wed, 08 Jun 2016 15:36:30 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dashboard-email.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/dashboard-email.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-dashboard-email.gif" type="image/*" />
+				<pubDate>Fri, 17 Jun 2016 22:19:56 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/adult-swim-singles-2016.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/adult-swim-singles-2016.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-adult-swim-singles-2016.jpg" type="image/*" />
 			</item>
 		
 			<item>
-				<title>Détails album musique | UI Animation</title>
+				<title>Ali Sharaf | Web Design Inspiration</title>
 				
-					<description>Interaction au scroll pour cette présentation d’album avec une réduction des infos principales en header d’application.
+					<description>Portfolio avec une structure de page reprenant les codes du print.
 </description>
 				
-				<pubDate>Wed, 08 Jun 2016 15:37:36 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dtails-album-musique.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/dtails-album-musique.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-d-tails-album-musique.gif" type="image/*" />
+				<pubDate>Fri, 17 Jun 2016 22:46:31 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ali-sharaf.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ali-sharaf.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-ali-sharaf.jpg" type="image/*" />
 			</item>
 		
 			<item>
-				<title>Menu contextuel quick preview | UI Animation</title>
+				<title>Juggle Challenge | Web Design Inspiration</title>
 				
-					<description>Modèle d’interactions pour une application dictionnaire. Appuyez et maintenez sur un mot, un menu contextuel apparaît pour vous offrir quelques éléments d’action.
+					<description>Site Web permettant le partage de vidéos pour un challenge autour du foot. L’interactivité et le storytelling sont très bien développés dans cette expérience. Notamment la mise en scène du concours vidéo sur une sphère.
 </description>
 				
-				<pubDate>Wed, 08 Jun 2016 14:53:41 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/menu-contextuel-quick-preview.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/menu-contextuel-quick-preview.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-menu-contextuel-quick-preview.gif" type="image/*" />
+				<pubDate>Sat, 18 Jun 2016 19:58:29 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/juggle-challenge.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/juggle-challenge.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-juggle-challenge.jpg" type="image/*" />
 			</item>
 		
 			<item>
-				<title>Summer Onboarding | UI Animation</title>
+				<title>Pocket Penguins | Web Design Inspiration</title>
 				
-					<description>Animation d’illustrations sur différents écrans tutoriel.
+					<description>De belles micro-interactions accompagnent le scroll au sein de cette landing page présentant les nouveaux formats de poche des éditions Penguin.
 </description>
 				
-				<pubDate>Wed, 08 Jun 2016 14:44:57 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/summer-onboarding.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/summer-onboarding.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-summer-onboarding.gif" type="image/*" />
+				<pubDate>Sun, 19 Jun 2016 16:50:22 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/pocket-penguins.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/pocket-penguins.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-pocket-penguins.jpg" type="image/*" />
 			</item>
-		
-			<item>
-				<title>Application bancaire - choix carte de paiement | UI Animation</title>
-				
-					<description>Interactions combinant un aperçu clair des cartes disponibles et le processus de paiement peut être initié avec facilité via le lecteur d’empreinte digitale.
-</description>
-				
-				<pubDate>Wed, 08 Jun 2016 14:49:26 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/application-bancaire---choix-carte-de-paiement.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/application-bancaire---choix-carte-de-paiement.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-application-bancaire---choix-carte-de-paiement.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Antivirus software | UI Animation</title>
-				
-					<description>UI animation du processus de nettoyage d’une application antivirus.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:40:18 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/antivirus-software.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/antivirus-software.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-antivirus-software.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Beauty Review | UI Animation</title>
-				
-					<description>UI animation d’interactions de drag et de scroll.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:40:40 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/beauty-review.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/beauty-review.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-beauty-review.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Onboarding - JIRA iOS app | UI Animation</title>
-				
-					<description>UI animation du parcours de première connexion de l’appli iOS Jira.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:39:57 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/onboarding---jira-ios-app.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/onboarding---jira-ios-app.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-onboarding---jira-ios-app.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Onboarding Screen | UI Animation</title>
-				
-					<description>Illustration pour un parcours de première connexion par Ghani Pradita.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:39:44 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/onboarding-screen.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/onboarding-screen.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-onboarding-screen.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Login Interaction | UI Animation</title>
-				
-					<description>UI animation d’un processus de connexion à une application.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:36:11 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/login-interaction.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/login-interaction.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-login-interaction.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>City intro animation | UI Animation</title>
-				
-					<description>Concept d’animation d’intro.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:34:53 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/city-intro-animation.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/city-intro-animation.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-city-intro-animation.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>App Navigation Pulldown | UI Animation</title>
-				
-					<description>L’utilisateur est en mesure de tirer l’écran de l’application vers le bas afin d’accéder aux options de navigation dans la partie supérieure de l’écran.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:31:55 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/app-navigation-pulldown.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/app-navigation-pulldown.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-app-navigation-pulldown.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Pull Down to Refresh | UI Animation</title>
-				
-					<description>UI animation pour rafraîchir le contenu de l’écran en tirant la timeline vers le bas.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:35:21 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/pull-down-to-refresh.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/pull-down-to-refresh.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-pull-down-to-refresh.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Bounce | UI Animation</title>
-				
-					<description>Animation d’un parcours d’onboarding pour une application dédiée au tourisme et au voyage.
-</description>
-				
-				<pubDate>Fri, 03 Jun 2016 11:31:51 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bounce.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/bounce.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-bounce.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Animation Concept app tracking livraison | UI Animation</title>
-				
-					<description>UI animation mettant en scène un parcours de suivi de livraison via une map et une fiche détaillant les étapes du process.
-</description>
-				
-				<pubDate>Fri, 03 Jun 2016 10:49:36 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animation-concept-app-tracking-livraison.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animation-concept-app-tracking-livraison.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-animation-concept-app-tracking-livraison.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Exercise screen | UI Animation</title>
-				
-					<description>Ensemble d’UI animations mettant en scène un parcours de navigation au sein d’une application de sport.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:48:05 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/exercise-screen.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/exercise-screen.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-exercise-screen.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Rating Version A | UI Animation</title>
-				
-					<description>UI animation mettant en scène une approche innovante de vote concernant un événement via le morphing d’un emoji par l’utilisateur.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:47:50 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rating-version-a.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/rating-version-a.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-rating-version-a.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Minimap Pin | UI Animation</title>
-				
-					<description>UI animation mettant en scène la publication de contenus attachés à une map.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 12:45:56 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/minimap-pin.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/minimap-pin.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-minimap-pin.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Shopping List | UI Animation</title>
-				
-					<description>UI animation d’une interaction de drop down.
-</description>
-				
-				<pubDate>Sun, 05 Jun 2016 11:47:37 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/shopping-list.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/shopping-list.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-shopping-list.gif" type="image/*" />
-			</item>
-		
 		
 			<item>
 				<title>Parallel Studio | Web Design Inspiration</title>
@@ -533,54 +581,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rizzi-charpente-artisan-charpentier--albertville-savoie.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rizzi-charpente-artisan-charpentier--albertville-savoie.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-rizzi-charpente-artisan-charpentier---albertville-savoie.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>20160525_coolada | Web Design Inspiration</title>
-				
-					<description>Expérience WebGL exploitant la caméra pour créée un effet fish-eye.
-</description>
-				
-				<pubDate>Wed, 01 Jun 2016 08:23:44 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/20160525_coolada.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/20160525_coolada.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-20160525_coolada.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>SIRIN SOLARIN | Web Design Inspiration</title>
-				
-					<description>Une navigation WebGL tout en douceur pour cette présentation éclatée de téléphone.
-</description>
-				
-				<pubDate>Wed, 01 Jun 2016 08:19:40 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sirin-solarin.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/sirin-solarin.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-sirin-solarin.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Projet Tsunami | Web Design Inspiration</title>
-				
-					<description>Une série documentaire de 12 épisodes sur différents groupes et leur vision de la musique au Québec. Sympa les effets hover psychés sur les players.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 23:21:14 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projet-tsunami.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projet-tsunami.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-projet-tsunami.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>JPRS | Web Design Inspiration</title>
-				
-					<description>C’est décalé, c’est japonais. L’interaction au scroll est étonnante :-). Bien vu, ça colle à la promesse du service.
-</description>
-				
-				<pubDate>Mon, 30 May 2016 23:25:40 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jprs.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/jprs.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-jprs.jpg" type="image/*" />
 			</item>
 		
 		
