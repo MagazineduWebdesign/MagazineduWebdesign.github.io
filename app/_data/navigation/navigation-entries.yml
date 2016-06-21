@@ -7,20 +7,29 @@
 - name: CONSEILS
   permalink: /conseils/
 
-- name: VIDEOS
-  permalink: /videos/
-
-- name: ACTUS
-  permalink: /notes/
+- name: "COLLECTIONS"
+  permalink: "/collections/"
 
 - name: "JOBS"
   permalink: "/emploi/"
 
+- name: VIDEOS
+  permalink: /videos/
+
 - name: "EVENEMENTS"
   permalink: "/evenements/"
 
-- name: "COLLECTIONS"
-  permalink: "/collections/"
-
 - name: "ARTICLES"
   permalink: "/articles/"
+
+- name: "A PROPOS"
+  permalink: /a-propos/
+
+- name: "HELLO"
+  permalink: /hello/
+
+- name: "SPONSORS"
+  permalink: /sponsors/
+
+- name: "FEEDBACK"
+  permalink: /feedback/

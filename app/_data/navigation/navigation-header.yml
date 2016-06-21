@@ -7,11 +7,8 @@
 - name: CONSEILS
   permalink: /conseils/
 
-- name: VIDEOS
-  permalink: /videos/
-
-- name: ACTUS
-  permalink: /notes/
+- name: COLLECTIONS
+  permalink: /collections/
 
 - name: "JOBS"
   permalink: "/emploi/"

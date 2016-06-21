@@ -1,8 +1,8 @@
+- name: VIDEOS
+  permalink: /videos/
+
 - name: EVENEMENTS
   permalink: /evenements/
-
-- name: COLLECTIONS
-  permalink: /collections/
 
 - name: ARTICLES
   permalink: /articles/
