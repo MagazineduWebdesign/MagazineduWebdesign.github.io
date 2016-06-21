@@ -27,6 +27,18 @@ permalink: "/sponsors/"
       </li>
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.slidepro.fr/?ref=MagazineDuWebdesign" title="SlidePro" target="_blank" rel="nofollow">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/slidepro-logo.png" alt="logo slidepro" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">SlidePro</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
           <a class="grid-article-card-link-wrap" href="http://istockphoto.7eer.net/c/262183/258824/4205" title="istockphoto" target="_blank" rel="nofollow">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
