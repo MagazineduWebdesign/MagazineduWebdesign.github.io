@@ -53,7 +53,7 @@ Petit aparté, il y a quelques mois, Wix m'avait proposé de tester leur site bu
 
 > Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte. <a class="twitter" href="https://twitter.com/share?url=http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/&text={{ 'Les bonnes idées ne coûtent rien, les mettre en oeuvre est tout ce qui compte.' | cgi_escape }}&via=MagDuWebdesign" target="_blank">Tweeter</a>
 
-Peu importe ce que vous pensez être le minimum pour mettre en ligne votre portfolio, faites-le. Ce n’est qu’une première itération, vous aurez tout le temps de l’améliorer par la suite. **La perfection n’est pas un but en soi**. Elle existe uniquement dans l’esprit des personnes souhaitant se donner de l’importance via des critères d’exigence insensés.
+Peu importe ce que vous pensez être le minimum pour mettre en ligne votre portfolio, faites-le. Ce n’est qu’une première itération, vous aurez tout le temps de l’améliorer par la suite. **La perfection n’est pas un but en soi**. Elle existe uniquement dans l’esprit des personnes souhaitant se donner de l’importance via des critères insensés d’exigence.
 
 <div class="section-carte-index-panel">
   <a href="http://www.magazineduwebdesign.com/collection/les-meilleurs-sites-web-portfolio-perso-et-d-agence-juin-2016/" title="Les meilleurs sites Web portfolio perso et d'agence – Juin 2016">
