@@ -140,9 +140,9 @@
                 <!-- if no thumbnail -->
                 <div class="row collapse">
                   <div class="grid-article-card-info mod-mix-th-no-th small-12 columns">
-                    <h1 class="grid-article-card-title">{{ post.title | truncate: 48 }}</h1>
+                    <h1 class="grid-article-card-title">{{ post.title | truncate: 70 }}</h1>
                     {% if post.intro %}
-                      <p class="grid-article-card-meta">{{ post.intro | markdownify | strip_html | truncate: 72 }}</p>
+                      <p class="grid-article-card-meta">{{ post.intro | markdownify | strip_html | truncate: 70 }}</p>
                     {% endif %}
                   </div>
                 </div>
