@@ -42,7 +42,7 @@ Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. **Mettez en sc�
 
 Analyser et supprimer des projets de votre portfolio peut être douleureux, mais c’est la meilleure manière d’évoluer en tant que designer.
 
-De plus, **vouloir présenter tous ses projets depuis 1998 est le moyen le plus sûr de ne jamais lancer son portfolio**. Concentrez vous sur l’essentiel car personne ne passera trois heures à explorer l’ensemble de votre travail.
+De plus, **vouloir présenter tous ses projets depuis 1998 est le moyen le plus sûr de ne jamais lancer son portfolio**. Concentrez-vous sur l’essentiel car personne ne passera trois heures à explorer l’ensemble de votre travail.
 
 ## 3. Se trouver des excuses
 Mieux vaut mettre quelque chose en ligne plutôt que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
