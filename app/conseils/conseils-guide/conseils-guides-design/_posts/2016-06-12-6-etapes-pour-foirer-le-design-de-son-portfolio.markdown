@@ -22,7 +22,7 @@ En examinant des centaines de portfolio, j’ai relevé une tendance dans la str
 <figure class="figure-img mod-note-img">
   <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/portfolio-pixel-lover.png, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/portfolio-pixel-lover.png, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/portfolio-pixel-lover.png, (large)]" class="note-container-img" alt="portfolio avec introduction généraliste" width="736" height="auto" />
   <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/portfolio-pixel-lover.png" alt="portfolio avec introduction généraliste." width="736" height="auto" /></noscript>
-  <figcaption>Intrduction de portfolio ayant peu de valeur ajoutée.</figcaption>
+  <figcaption>Introduction de portfolio ayant peu de valeur ajoutée.</figcaption>
 </figure>
 
 Il est généralement admis que les personnes ne lisent pas sur le Web. Il faut donc faire court. Votre punch line doit être concise pour décrire votre nature et votre promesse.
