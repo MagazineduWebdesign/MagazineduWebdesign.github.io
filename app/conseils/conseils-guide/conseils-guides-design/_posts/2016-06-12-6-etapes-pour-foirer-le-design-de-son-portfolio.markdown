@@ -32,7 +32,7 @@ Néanmoins, concis ne veut pas dire introductions vides de sens prenant beaucoup
 **Dites simplement qui vous êtes et trouvez un nom pas trop compliqué pour décrire votre métier** – peu de personnes savent ce que signifie UI designer. Dernier conseil, évitez de mixer des titres de fonction au risque de vous disperser – le fameux UI/UX designer ou le fullstack hmm hmm.
 
 ## 2. Mes projets depuis France 98
-Pensez votre porfolio comme un vinyle de vos meilleurs morceaux. **Mettez en scène uniquement vos hits** – la crème de la crème, le travail le plus représentatif de votre talent – et laissez le reste de côté. A l’instar d’un top 5, votre portfolio doit transformer un novice en fan.
+Pensez votre portfolio comme un vinyle de vos meilleurs morceaux. **Mettez en scène uniquement vos hits** – la crème de la crème, le travail le plus représentatif de votre talent – et laissez-le reste de côté. A l’instar d’un top 5, votre portfolio doit transformer un novice en fan.
 
 <figure class="figure-img mod-note-img">
   <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/awesome-mix-volume-1.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/awesome-mix-volume-1.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/awesome-mix-volume-1.jpg, (large)]" class="note-container-img" alt="Awesome mix vol.1 - Les gardiens de la galaxie" width="736" height="auto" />
@@ -129,4 +129,4 @@ Je suis sûr que vous avez beaucoup de questions, n’hésitez pas à m’en fai
 Vous êtes génial, continuez.
 Guillaume, UX designer aka chercheur et designer d’expériences 😉.
 
-Si vous connaissez des designers avec des portfolio, n'hésitez pas à leur partager cet article. Posez toutes vos questions sur [twitter](http://twitter.com/@MagDuWebdesign). Je serai ravi de vous apporter mon aide.
+Si vous connaissez des designers avec des portfolio, n'hésitez pas à leur partager cet article. Posez toutes vos questions sur [Twitter](http://twitter.com/@MagDuWebdesign). Je serai ravi de vous apporter mon aide.
