@@ -1,16 +1,10 @@
 ---
 layout: "page-1-column"
-title: "😻 Bienvenue dans la communauté du Magazine du Webdesign. Juste une dernière chose !"
-intro: "Cliquez sur le lien de confirmation que je viens de vous envoyer pour valider votre adresse e-mail."
-description: "Vous recevrez chaque lundi une newsletter hebdomadaire à la hauteur de vos exigences pour cultiver vos talents."
+title: "Merci de vérifiez votre adresse mail ! 😻"
+intro: "Pourquoi ? Pour être certain que nos messages vous sont bien destinés."
+description: ""
 permalink: "/salut/"
 ---
-
-La promesse du Magazine du Webdesign est de rendre votre travail quotidien plus simple, plus plaisant et plus productif avec une source intarissable d'inspirations et de ressources.
-
-Pour commencer, validez votre adresse email en vous connectant à votre boîte mail favorite – Je sais, un email pour valider un autre email :-s.
-
-Après ça, vous recevrez chaque lundi une newsletter hebdomadaire à la hauteur de vos exigences pour cultiver vos talents.
 
 <p class="text-center">En attendant l'email de confirmation &ndash; qui ne devrait plus tarder &ndash; je tenais à vous remercier de m'accorder votre temps et votre confiance !</p>
 <figure class="text-center"><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/gif-raton-laveur-1.gif" alt="Merci" width="388" height="260"><figcaption>Bas de l'image : votre adresse email. Haut de l'image : le Magazine du Web design.</figcaption></figure>

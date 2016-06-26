@@ -1691,6 +1691,12 @@ main.column-body-article h4{
 	margin-bottom:rem-calc(24);
 	padding:rem-calc(24);
 }
+.section-carte-newsletter.mod-carte-background-white-smoke{
+  background: $white-smoke;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $secondary-color;
+}
 .section-carte-newsletter.is-header-liste{margin-bottom:0}
 	.section-carte-newsletter h1{
 		margin-bottom: rem-calc(24);
@@ -1713,6 +1719,7 @@ main.column-body-article h4{
 		font-size:rem-calc(16)!important;
 		margin-bottom: $rem-base;
 	}
+
 	@media #{$large-up}{
 		.section-carte-newsletter-description{
 			margin-bottom: 0;

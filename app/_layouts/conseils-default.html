@@ -23,6 +23,9 @@ layout: default
           <div class="small-12 large-5 columns small-text-center large-text-left">
             <h1 itemprop="headline">{{ page.title }}</h1>
             {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+            {% if page.carte-optin-downoload-pdf == 'true' %}
+              {% include custom/cartes/carte-optin-download-pdf.html %}
+            {% endif %}
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
             <div class="hide-for-large-up">
@@ -121,8 +124,9 @@ layout: default
                   <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                 {% endif %}
               </p>
-              {% if page.intro %}
-                {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+              {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+              {% if page.carte-optin-downoload-pdf == 'true' %}
+                {% include custom/cartes/carte-optin-download-pdf.html %}
               {% endif %}
             </div>
             {% if page.id-soundcloud %}
@@ -234,8 +238,9 @@ layout: default
                     <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                   {% endif %}
                 </p>
-                {% if page.intro %}
-                  {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+                {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+                {% if page.carte-optin-downoload-pdf == 'true' %}
+                  {% include custom/cartes/carte-optin-download-pdf.html %}
                 {% endif %}
               </div>
               {% if page.id-soundcloud %}
