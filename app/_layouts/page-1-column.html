@@ -36,7 +36,7 @@ layout: default
 
 			  <main class="column-body-article mod-article-1-column">
 			   	{% if page.intro %}
-			   		<p class="subheader text-center">{{ page.intro }}</p>
+			   		<p class="subheader text-center">{{ page.intro | markdownify }}</p>
 			   	{% endif %}
 			   	{{ content }}
 			  </main>
