@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Alexandre Delalleau - Interactive designer at Gobelins – portfolio | Web Design Inspiration</title>
+				
+					<description>Un portfolio avec une mise en page linéaire, intuitive et originale grâce à la timeline faisant partie intégrante des projets.
+</description>
+				
+				<pubDate>Mon, 27 Jun 2016 01:53:15 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/alexandre-delalleau---interactive-designer-at-gobelins--portfolio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/alexandre-delalleau---interactive-designer-at-gobelins--portfolio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-alexandredelalleau-portfolio.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Cuberto — Interactive Design Studio | Web Design Inspiration</title>
 				
 					<description>Portfolio de l’agence Cuberto contenant un grand nombre de micro-interactions avec des transitions élégantes mais qui ne vous font pas perdre votre temps.
@@ -280,18 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/la-slection-naturelle-dans-votre-navigateur.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/la-slection-naturelle-dans-votre-navigateur.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-la-s-lection-naturelle-dans-votre-navigateur.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Anagram.paris | Creative digital agency | Web Design Inspiration</title>
-				
-					<description>Un portfolio qui n’en est presque pas un. Une interaction d’exploration de contenu unique qui marque l’esprit. Hop, dans les carnets d’inspirations !
-</description>
-				
-				<pubDate>Wed, 08 Jun 2016 19:33:48 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/anagram.paris--creative-digital-agency.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-anagram-paris---creative-digital-agency.jpg" type="image/*" />
 			</item>
 		
 	</channel>
