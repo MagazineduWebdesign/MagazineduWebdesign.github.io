@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-animations.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Supera blog | UI animation</title>
+				
+					<description>Animation présentant des micro-interactions lors du scroll et une transition de navigation vers la page article d’un blog de site ecommerce.
+</description>
+				
+				<pubDate>Mon, 27 Jun 2016 14:03:47 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/supera-blog.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/supera-blog.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-supera-blog.gif" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Day009-Recipe App | UI animation</title>
 				
 					<description>Interaction de scroll au sein d’une application de recettes de cuisine et mise en scène de la transition d’écran entre la liste de recettes et le détail d’une fiche recette.
@@ -280,18 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/frame.io-iphone.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/frame.io-iphone.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-frame-io-iphone.gif" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Interaction Airbnb | UI animation</title>
-				
-					<description>Quelques interactions autour d’un concept d’appli Airbnb sur des écrans de listing.
-</description>
-				
-				<pubDate>Wed, 08 Jun 2016 14:53:48 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-airbnb.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-airbnb.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-airbnb.gif" type="image/*" />
 			</item>
 		
 	</channel>
