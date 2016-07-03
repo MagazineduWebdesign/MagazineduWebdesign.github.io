@@ -65,7 +65,7 @@ layout: default
                 {% endif %}
 
                 {% if page.by %}
-                <li class="article-meta-data-header-title">{% if page.sponsored-by %}Sponsorisé par{else}Auteur{% endif %}</li>
+                <li class="article-meta-data-header-title">{% if page.sponsored == 'true' %}Sponsorisé par{else}Auteur{% endif %}</li>
                 <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                 {% endif %}
               </ul>
@@ -183,7 +183,7 @@ layout: default
                 {% endif %}
 
                 {% if page.by %}
-                <li class="article-meta-data-header-title">{% if page.sponsored-by %}Sponsorisé par{else}Auteur{% endif %}</li>
+                <li class="article-meta-data-header-title">{% if page.sponsored == 'true' %}Sponsorisé par{else}Auteur{% endif %}</li>
                 <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                 {% endif %}
               </ul>
@@ -297,7 +297,7 @@ layout: default
                   {% endif %}
 
                   {% if page.by %}
-                  <li class="article-meta-data-header-title">{% if page.sponsored-by %}Sponsorisé par{else}Auteur{% endif %}</li>
+                  <li class="article-meta-data-header-title">{% if page.sponsored == 'true' %}Sponsorisé par{else}Auteur{% endif %}</li>
                   <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
                   {% endif %}
                 </ul>
