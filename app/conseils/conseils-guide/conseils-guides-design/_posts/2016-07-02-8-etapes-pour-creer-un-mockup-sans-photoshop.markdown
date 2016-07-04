@@ -20,7 +20,7 @@ Bien souvent, un mockup offre une nouvelle perspective sur son travail. Par exem
 Néanmoins, les [ressources Web dédiées à la création de mockups](http://www.magazineduwebdesign.com/ressources/mockups/) sont le plus souvent disponibles qu’au format PSD. Je ne suis pas un grand fan de Photoshop. Ma paresse me pousse donc vers des outils de création de mockup online. Plus rapide et plus pratique, j’ai testé pour vous <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a>. Une Web app dont la promesse est d’offrir l’outil parfait pour la création de mockup online, que ce soit pour une affiche, un site Web ou une application mobile.
 
 <div class="section-carte-index-panel">
-  <a href="https://mockupeditor.com/plans/MDW50" title="MockupEditor offre pour les lecteurs du Magazine du Webdesign 50% de réduction sur l’abonnement pro 1 an" target="_blank" rel="nofollow">
+  <a onclick="ga('send', 'event', 'Publicite', 'click', 'mockupeditor card article body top coupon code MDW50');" href="https://mockupeditor.com/plans/MDW50" title="MockupEditor offre pour les lecteurs du Magazine du Webdesign 50% de réduction sur l’abonnement pro 1 an" target="_blank" rel="nofollow">
     <article class="carte-article-secondaire mod-ads">
       <div class="row collapse">
         <div class="small-3 medium-2 columns">
@@ -94,7 +94,7 @@ Si vous n’êtes pas un expert Photoshop, <a href="https://mockupeditor.com/" t
 Si vous êtes conquis(e), n’oublie pas d’utiliser le voucher dédié à la communauté du Magazine du Webdesign pour bénéficier de <a href="https://mockupeditor.com/plans/MDW50" target="_blank" rel="nofollow">50% de réduction sur l’abonnement annuel</a> à MockupEditor.
 
 <div class="section-carte-index-panel">
-  <a href="https://mockupeditor.com/plans/MDW50" title="MockupEditor &ndash; 6 mois offert aux lecteurs du Magazine du Webdesign" target="_blank" rel="nofollow">
+  <a onclick="ga('send', 'event', 'Publicite', 'click', 'mockupeditor card article body bottom coupon code MDW50');" href="https://mockupeditor.com/plans/MDW50" href="https://mockupeditor.com/plans/MDW50" title="MockupEditor &ndash; 6 mois offert aux lecteurs du Magazine du Webdesign" target="_blank" rel="nofollow">
     <article class="carte-article-secondaire mod-ads">
       <div class="row collapse">
         <div class="small-3 medium-2 columns">
