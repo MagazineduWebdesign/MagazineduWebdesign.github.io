@@ -113,8 +113,8 @@ layout: default
               {% endif %}
 
               {% if page.by %}
-              <li class="article-meta-data-header-title">Auteur</li>
-              <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
+                <li class="article-meta-data-header-title">{% if page.sponsored == 'true' %}Sponsorisé par{% else %}Auteur{% endif %}</li>
+                <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
               {% endif %}
             </ul>
             {% include custom/cartes/carte_ad_in-article-sidebar-affiliate.html %}
@@ -171,7 +171,7 @@ layout: default
 
             {% if page.intro %}
               <p class="subheader" itemprop="reviewBody">
-                {{ page.intro }}
+                {{ page.intro | markdownify }}
               </p>
             {% endif %}
 
@@ -276,8 +276,8 @@ layout: default
             {% if page.url-telecharger %}<li class="show-for-large-up" role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'Download item', '{{ page.title }}');" class="button expand radius success" href="{{ page.url-telecharger }}" title="Télécharger &ndash; {{ page.title }}" target="_blank" rel="nofollow">TELECHARGER</a></li>{% endif %}
 
             {% if page.by %}
-            <li class="article-meta-data-header-title">Crédit</li>
-            <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
+              <li class="article-meta-data-header-title">{% if page.sponsored == 'true' %}Sponsorisé par{% else %}Auteur{% endif %}</li>
+              <li role="menuitem"><a href="{{ page.by-url }}" title="{{ page.by }}" target="_blank" rel="nofollow">{{ page.by | upcase }}</a></li>
             {% endif %}
 
           </ul>
@@ -294,6 +294,9 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      <div class="row collapse article-partage">
+			  {% include custom/sections/share-article-footer.html %}
+			</div>
       {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">
