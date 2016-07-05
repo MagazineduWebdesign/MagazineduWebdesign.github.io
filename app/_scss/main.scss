@@ -420,8 +420,8 @@ sup {
 			text-align: center;
 		}
 		.grid-article-card-info.mod-app-icon{
-				min-height: rem-calc(100);
-				max-height: rem-calc(100);
+				min-height: rem-calc(196);
+				max-height: rem-calc(196);
 		}
 		.grid-article-card-info.mod-large-height{
 				min-height: rem-calc(128);
@@ -479,6 +479,7 @@ sup {
 				width: rem-calc(64)!important;
 				height: rem-calc(64);
 				margin: rem-calc(-34) auto rem-calc(16);
+        background-color: white;
         border: 1px solid $white-smoke;
 				border-radius: rem-calc(4);
 			}
