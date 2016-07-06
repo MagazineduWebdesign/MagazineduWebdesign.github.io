@@ -81,9 +81,7 @@
     {{ page.commentaire | markdownify | strip_html }}
   {% else %}
   {% endif %}">
-  {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" />
-  {% endif %}
 
   <!-- Usemin CSS
   ================================================== -->
