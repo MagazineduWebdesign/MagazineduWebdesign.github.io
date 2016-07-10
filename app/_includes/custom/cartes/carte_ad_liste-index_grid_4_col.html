@@ -1,19 +1,20 @@
 <!-- Promoted content -->
 <li>
   <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-
-    <a onclick="ga('send', 'event', 'Publicite', 'click', 'Treehouse grid 4 col')" class="grid-article-card-link-wrap" href="http://treehouse.7eer.net/c/262183/230393/3944" title="Découvrez pourquoi nous recommandons Treehouse" target="_blank" rel="nofollow">
+    {% for ad in site.data.ad.ad-content %}
+    <a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} grid 4 col')" class="grid-article-card-link-wrap" href="{{ ad.url }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
       <div class="row collapse grid-article-card-image">
         <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-          <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/Treehouse-Ipad-Abstract.jpg" alt="Treehouse screenshot homepage" width="219" height="auto" />
+          <span class="label--new mod-ads-w-card-image">Sponso</span>
+          <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/{{ ad.image }}" alt="{{ ad.title }}" width="219" height="auto" />
         </div>
       </div>
       <div class="row collapse">
         <div class="grid-article-card-info small-12 columns">
-          <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">Treehouse – apprendre à designer et coder gratuitement <span class="label--new mod-ads-sidebar">Recommandé</span></h1>
+          <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ ad.tiny-title | truncate: 50 }}</h1>
         </div>
       </div>
     </a>
-
+    {% endfor %}
   </article>
 </li>

@@ -1,11 +1,17 @@
 <aside class="job--in-article mod-job-in-article show-for-large-up">
 	<article class="grid-article-card mod-app-icon" data-equalizer-watch>
-		<a onclick="ga('send', 'event', 'Publicite', 'click', 'nucleoapp');" class="grid-article-card-link-wrap" href="https://nucleoapp.com/?ref=palayer" title="Nucleo, icônes vectorisées personnalisables" target="_blank" rel="nofollow">
+		{% for ad in site.data.ad.ad-content %}
+		<a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} sidebar bottom right article');" class="grid-article-card-link-wrap" href="{{ ad.company }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
 			<div class="row collapse text-center">
 				<div class="grid-article-card-info mod-large-auto small-12 columns">
-					<img src="https://goo.gl/w91adk" alt="Nucleo, icônes vectorisées personnalisables" title="Nucleo, icônes vectorisées personnalisables" style="width: 250px; max-width: 100%;"/>
+					<img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/{{ ad.logo }}" alt="icône {{ ad.company }}" width="64" height="64">
+					<h1 class="grid-article-card-title mod-ads-index-panel-title">
+						{{ ad.title }} <span class="label--new mod-ads-sidebar">Recommandé</span>
+					</h1>
+					<p class="grid-article-card-meta">{{ ad.description }}</p>
 				</div>
 			</div>
 		</a>
+		{% endfor %}
 	</article>
 </aside>

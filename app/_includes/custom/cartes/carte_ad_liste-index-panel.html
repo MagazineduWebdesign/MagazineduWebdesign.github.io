@@ -1,15 +1,17 @@
-<a onclick="ga('send', 'event', 'Publicite', 'click', 'Treehouse top liste index panel');" href="http://treehouse.7eer.net/c/262183/230393/3944" title="Treehouse – apprendre à designer et coder gratuitement" target="_blank" rel="nofollow">
+{% for ad in site.data.ad.ad-content %}
+<a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} top liste index panel');" href="{{ ad.url }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
 	<article class="carte-article-secondaire mod-ads-index-panel {% if site.tags[page.tag] %}{% else %}js-postcount{% endif %}">
 		<div class="row collapse">
 			<div class="small-3 medium-2 columns">
-				<div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/treehouse.png, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/small/treehouse.png);"></div>
+				<div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/{{ ad.logo }}, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/small/{{ ad.logo }};"></div>
 			</div>
 			<div class="small-9 medium-10 columns">
 				<h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
-					<span class="left job--entreprise">Treehouse <span class="label--new">Recommandé</span></span>
-					<span class="job--description">Apprenez à designer et coder des sites Web, des applications mobiles, etc. – INSCRIPTION GRATUITE</span>
+					<span class="left job--entreprise">{{ ad.title }} <span class="label--new">Recommandé</span></span>
+					<span class="job--description">{{ ad.description }}</span>
 				</h1>
 			</div>
 		</div>
 	</article>
 </a>
+{% endfor %}

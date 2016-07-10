@@ -146,7 +146,14 @@ $paypal:#003087;
   }
 }
 .label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
-.label--new.mod-ads-sidebar{top:rem-calc(-2)}
+.label--new.mod-ads-sidebar {
+  top:rem-calc(-2)
+}
+.label--new.mod-ads-w-card-image {
+  position: absolute;
+  top: 0;
+  z-index: 1
+}
 .highlight {
 	background:$jet;
 	overflow:auto;
