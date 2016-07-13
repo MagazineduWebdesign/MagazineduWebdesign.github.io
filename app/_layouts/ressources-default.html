@@ -10,6 +10,7 @@ layout: default
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
         <div class="small-12 large-7 columns small-text-center large-text-left">
+          {% include custom/cartes/carte_ad_leaderboard_header.html %}
           <h1 itemprop="name">{{ page.title }}</h1>
           <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <p class="article-bgimg-meta-by-time">
@@ -57,6 +58,7 @@ layout: default
             {% if page.intro %}
               {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
             {% endif %}
+            {% include custom/cartes/carte_ad_liens-texte.html %}
           </div>
           {% if page.id-soundcloud %}
             <figure class="figure-video">
@@ -174,7 +176,7 @@ layout: default
                 {{ page.intro | markdownify }}
               </p>
             {% endif %}
-
+            {% include custom/cartes/carte_ad_liens-texte.html %}
           </div>
         </div>
         <div class="small-12 columns small-text-center hide-for-large-up">

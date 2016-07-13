@@ -5,9 +5,11 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article>
   <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
+
     <header class="row-body-article medium-uncollapse large-collapse">
 
       <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-inspiration">
+        {% include custom/cartes/carte_ad_leaderboard_header.html %}
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 class="is-title" data-is-title="{{ page.title }}" itemprop="headline">{{ page.title }} <small>Web Design Inspiration &ndash; {{ page.format }}</small></h1>
           {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
@@ -63,6 +65,7 @@ layout: default
             </a>
           </figure>
           {% endif %}
+          {% include custom/cartes/carte_ad_liens-texte.html %}
         </div>
 
         <!-- metadata

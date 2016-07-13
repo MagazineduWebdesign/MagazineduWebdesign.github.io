@@ -4,9 +4,11 @@ layout: default
 {% include custom/sections/article_header.html %}
 <section>
   <div class="header-collection header-background-title mod-header-list-cards-section mod-collection">
+
     <header class="row-liste-index">
-      <div class="small-12 columns">
-        <h1 class="headline-collection text-center">{{ page.title }}</h1>
+      <div class="small-12 columns text-center">
+        {% include custom/cartes/carte_ad_leaderboard_header.html %}
+        <h1 class="headline-collection">{{ page.title }}</h1>
         {{ page.intro-header | markdownify }}
       </div>
       <div class="small-12 columns">
@@ -71,11 +73,13 @@ layout: default
         <p>Il n'y a pas d'items dans cette collection.</p>
       {% endif %}
       </div>
+      {% include custom/cartes/carte_ad_leaderboard.html %}
       <div class="row collapse article-partage mod-partage-section-brief-panel">
         {% include custom/sections/share-article-footer.html %}
       </div>
       {% include custom/cartes/cartenl.html %}
       {% include custom/cartes/carte_twtr_no-mail.html %}
+      {% include custom/cartes/carte_ad_leaderboard.html %}
     </main>
 
   </div>

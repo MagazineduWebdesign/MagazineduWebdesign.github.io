@@ -5,6 +5,9 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article>
   <div class="header-liste mod-no-bg-gradient u-no-padding-bottom">
+
+    {% include custom/cartes/carte_ad_leaderboard_header.html %}
+
     <header class="row-body-article medium-uncollapse large-collapse">
 
       <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-inspiration">
@@ -56,6 +59,7 @@ layout: default
             </a>
           </figure>
           {% endif %}
+          {% include custom/cartes/carte_ad_liens-texte.html %}
         </div>
 
         {% unless page.metadata == 'false' %}

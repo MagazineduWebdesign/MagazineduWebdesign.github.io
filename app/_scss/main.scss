@@ -64,6 +64,7 @@
 // 00. SECTION SWIPER MODULE
 // 02. FOOTER
 // 00. 404
+// 00. ADS
 
 // az. @MIXINS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2066,3 +2067,33 @@ footer a:hover{
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .pagenotefounderror{background-color:$warning-color}
 .pagenotefounderror h1{color:$white}
+
+// 00. ADS
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.adsbygoogle.leaderboard-header{
+  margin-bottom: rem-calc(48);
+  padding: rem-calc(8) 0;
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+.adsbygoogle.leaderboard-in-content{
+  margin: rem-calc(48) 0;
+  padding: rem-calc(8) 0;
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+.adsbygoogle.medium-rect-in-content{
+  margin: rem-calc(24) 0 0;
+  padding: rem-calc(8) 0;
+}
+.adsbygoogle.medium-rect-in-content.mod-negative-margin{
+  position: absolute;
+  margin: rem-calc(48) rem-calc(-128) 0 0;
+  padding: rem-calc(8) 0;
+}
+.adsbygoogle.text-link{
+  margin: rem-calc(24) 0;
+  padding: rem-calc(8) 0;
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}

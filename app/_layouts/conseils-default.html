@@ -4,6 +4,7 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article itemscope itemtype="http://schema.org/Product">
   <div class="header-liste mod-no-bg-gradient">
+    {% include custom/cartes/carte_ad_leaderboard_header.html %}
     <header class="row-body-article medium-uncollapse large-collapse">
       <!-- if conseil is a book -->
       {% if page.image %}
@@ -22,10 +23,18 @@ layout: default
           </div>
           <div class="small-12 large-5 columns small-text-center large-text-left">
             <h1 itemprop="headline">{{ page.title }}</h1>
+
+            <!-- intro -->
             {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+
+            <!-- adsbygoogle -->
+            {% include custom/cartes/carte_ad_liens-texte.html %}
+
+            <!-- carte-optin-downoload-pdf -->
             {% if page.carte-optin-downoload-pdf == 'true' %}
               {% include custom/cartes/carte-optin-download-pdf.html %}
             {% endif %}
+
           </div>
           <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
             <div class="hide-for-large-up">
@@ -124,10 +133,18 @@ layout: default
                   <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                 {% endif %}
               </p>
+
+              <!-- intro -->
               {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+
+              <!-- adsbygoogle -->
+              {% include custom/cartes/carte_ad_liens-texte.html %}
+
+              <!-- carte-optin-downoload-pdf -->
               {% if page.carte-optin-downoload-pdf == 'true' %}
                 {% include custom/cartes/carte-optin-download-pdf.html %}
               {% endif %}
+
             </div>
             {% if page.id-soundcloud %}
               <figure class="figure-video">
@@ -238,10 +255,18 @@ layout: default
                     <a href="https://twitter.com/{{ page.auteur }}" title="Profil Twitter – {{ page.auteur }}" target="_blank" rel="nofollow" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">@{{ page.auteur }}</span></a>
                   {% endif %}
                 </p>
+
+                <!-- intro -->
                 {% if page.intro %}{{ page.intro | markdownify }}{% endif %}
+
+                <!-- adsbygoogle -->
+                {% include custom/cartes/carte_ad_liens-texte.html %}
+
+                <!-- carte-optin-downoload-pdf -->
                 {% if page.carte-optin-downoload-pdf == 'true' %}
                   {% include custom/cartes/carte-optin-download-pdf.html %}
                 {% endif %}
+
               </div>
               {% if page.id-soundcloud %}
                 <figure class="figure-video">
@@ -250,6 +275,7 @@ layout: default
                   </div>
                 </figure>
               {% endif %}
+
               <!-- if conseil is a guide without a nice cover -->
               {% if page.image-no-cover-book %}
               <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
@@ -258,6 +284,7 @@ layout: default
                 </a>
               </figure>
               {% endif %}
+
             </div>
             <div class="small-12 large-offset-1 large-3 columns small-text-center large-text-left">
               <div class="hide-for-large-up">
@@ -314,6 +341,7 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      {% include custom/cartes/carte_ad_liens-texte.html %}
       <div class="row collapse article-partage">
 			  {% include custom/sections/share-article-footer.html %}
 			</div>

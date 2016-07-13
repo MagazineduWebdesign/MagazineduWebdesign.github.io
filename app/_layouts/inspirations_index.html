@@ -10,13 +10,15 @@ layout: default
 			{% include custom/sections/index-header-intro.html %}
 		</header>
 		{% if page.coming-soon == 'true' %}
-			{% include custom/sections/inscription-alerte-release-modal-box.html %} 
+			{% include custom/sections/inscription-alerte-release-modal-box.html %}
 		{% endif %}
 	</div>
 	{% include custom/cartes/carte_items-thn_ui-inspirations-animations_data-zapier.html param="inspirations-ui-animations" %}
 	{% include custom/cartes/carte_items-thn_ui-inspirations-sites-web_data-zapier.html param="inspirations-ui-sites-web" %}
+	{% include custom/cartes/carte_ad_leaderboard.html %}
 	{% include custom/cartes/carte_items-thn_ui-inspirations.html param="ui-apple-watch" %}
 	{% include custom/cartes/carte_items-thn_ui-inspirations.html param="ui-tv" %}
+	{% include custom/cartes/carte_ad_leaderboard.html %}
 	{% include custom/cartes/carte_nl-index-large.html %}
 	<article class="row section-index-wide-carte">
 		<div class="small-12 columns">
@@ -33,6 +35,7 @@ layout: default
 	</article>
 	{% include custom/cartes/carte_items-thn_ui-inspirations.html param="ui-connected-car" %}
 	{% include custom/cartes/carte_items-thn_ui-inspirations.html param="ui-android-wear" %}
+	{% include custom/cartes/carte_ad_leaderboard.html %}
 	{% include custom/cartes/carte_items-thn.html param="code-art" %}
 	{% include custom/cartes/carte_twtr_index-large.html %}
 

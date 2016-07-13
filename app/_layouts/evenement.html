@@ -5,6 +5,7 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article>
   <div class="header-liste mod-no-bg-gradient {% if page.image %}u-no-padding-bottom{% endif %}">
+    {% include custom/cartes/carte_ad_leaderboard_header.html %}
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 medium-12 large-1 columns small-text-center">
@@ -53,6 +54,7 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      {% include custom/cartes/carte_ad_liens-texte.html %}
       {% include custom/sections/article_footer_left.html %}
     </main>
     <div class="article-meta-data-right mod-article-contenu-meta-data">

@@ -15,6 +15,7 @@ layout: default
 	</div>
 	{% include custom/cartes/carte_items-thn-ratio-8-11.html param="conseils-livres" %}
 	{% include custom/cartes/carte_items-no-thn.html param="podcasts" %}
+	{% include custom/cartes/carte_ad_leaderboard.html %}
 	{% include custom/cartes/carte_nl-index-large.html %}
 	{% include custom/cartes/carte_items-no-thn.html param="guides" %}
 	{% for post in site.categories.citations limit:1 %}
@@ -40,6 +41,7 @@ layout: default
 			</div>
 		</div>
 	{% endfor %}
+	{% include custom/cartes/carte_ad_leaderboard.html %}
 </section>
 
 <!-- list all section's categories
