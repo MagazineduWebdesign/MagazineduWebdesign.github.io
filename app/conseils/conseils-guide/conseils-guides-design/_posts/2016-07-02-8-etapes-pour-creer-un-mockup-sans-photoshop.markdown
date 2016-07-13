@@ -15,6 +15,9 @@ intro: "Mettre en valeur le design d’une application, d’un site Web ou d’u
 description: "Comment designer un mockup de site Web, d’application mobile ou d’une affiche sans Adobe Photoshop grâce à l’éditeur de mockup online MockupEditor."
 carte-optin-downoload-pdf: "false"
 ---
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 Bien souvent, un mockup offre une nouvelle perspective sur son travail. Par exemple, l’intégration d’un site web au sein d’un Macbook Pro 15’’ n’offre pas le même rendu qu’une simple capture d’écran au sein d’une [slide de présentation](http://www.magazineduwebdesign.com/conseils/guides/slidepro-presentation-powerpoint-unique/) ou d’un [portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/).
 
 Néanmoins, les [ressources Web dédiées à la création de mockups](http://www.magazineduwebdesign.com/ressources/mockups/) sont le plus souvent disponibles qu’au format PSD. Je ne suis pas un grand fan de Photoshop. Ma paresse me pousse donc vers des outils de création de mockup online. Plus rapide et plus pratique, j’ai testé pour vous <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a>. Une Web app dont la promesse est d’offrir l’outil parfait pour la création de mockup online, que ce soit pour une affiche, un site Web ou une application mobile.
@@ -88,6 +91,8 @@ Les quelques lignes suivantes détaillent **les étapes de création d’un mock
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/editeur-mockup-online-sans-photoshop-save-as-ANIMATION.gif" class="note-container-img" alt="MockupEditor - choix accessoires de décoration." width="736" height="auto" />
   <figcaption>Enregistrez et téléchargez votre mockup.</figcaption>
 </figure>
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 Si vous n’êtes pas un expert Photoshop, <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a> peut vous faire gagner en productivité grâce à son éditeur online très facile à prendre en main. Il permet de créer des designs uniques de mockup grâce à la multitude d’accessoires et la grande liberté de positionnement des objets. Les principaux [mockups de devices mobiles et desktop](http://www.magazineduwebdesign.com/ressources/mockups/) sont disponibles via l’interface. Je vous invite à faire un test avec la <a href="https://mockupeditor.com/editor" target="_blank" rel="nofollow">version gratuite</a>.
 

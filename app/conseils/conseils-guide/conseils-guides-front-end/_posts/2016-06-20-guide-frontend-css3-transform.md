@@ -14,5 +14,7 @@ url-explorer: "https://codepen.io/vineethtr/pen/XKKEgM?ref=magazineduwebdesign"
 image-no-cover-book:
 description: "A garder sous la main pour tous vos projets nécessitant des transform scale, transform rotate, transform opacity, etc."
 ---
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 <p data-height="382" data-theme-id="dark" data-slug-hash="XKKEgM" data-default-tab="html,result" data-user="vineethtr" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/vineethtr/pen/XKKEgM/">Css3 Transform</a> by Vineeth.TR (<a href="http://codepen.io/vineethtr">@vineethtr</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

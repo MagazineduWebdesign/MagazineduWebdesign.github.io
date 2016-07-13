@@ -15,6 +15,9 @@ description: "6 erreurs de débutant à éviter lorsque vous créez votre portfo
 carte-optin-downoload-pdf: "true"
 carte-optin-downoload-pdf-id-mailchimp-list: "607322c066"
 ---
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 Après l’examen de nombreux sites Web pour mes [collections d’UI inspirations](http://www.magazineduwebdesign.com/inspirations/), j’ai souhaité partager avec vous **6 erreurs les plus souvent faites lors de la conception d’un portfolio**. Bien entendu, ces dernières sont relatives à votre contexte et à votre objectif. Choisissez les plus pertinentes pour vous.
 
 ## 1. Une punch line bullshit
@@ -50,6 +53,8 @@ De plus, **vouloir présenter tous ses projets depuis 1998 est le moyen le plus 
 Mieux vaut mettre quelque chose en ligne plutôt que rien du tout. Arrêter de cherchez des prétextes pour repousser sa date de mise en ligne.
 
 Si vous attendez que votre pote développeur fasse le job pour vous, n’ayez pas honte dans un premier temps de <a href="http://fr.wix.com/" target="_blank" rel="dofollow">créer un site gratuitement</a> avec des outils tels que Squarespace, Wix & Cie. Personne ne vous en tiendra rigueur, à part les haters qui n’ont jamais rien construit et présenté devant un public.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 Petit aparté, il y a quelques mois, Wix m'avait proposé de tester leur site builder. Pour vous donner une idée du concept, les thèmes sont hautement personnalisables et l'interface offre un grand nombre de composants design à utiliser : des icônes, des systèmes poussés de navigations, des boutons, des blocs multimodales de contenus, des listes et j'en passe. Vous pouvez même concevoir votre propre thème à partir de zéro.
 

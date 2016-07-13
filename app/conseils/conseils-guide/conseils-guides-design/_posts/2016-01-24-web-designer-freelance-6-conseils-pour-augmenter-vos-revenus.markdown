@@ -17,6 +17,8 @@ Ceux qui choisissent cette voie possèdent une ambition exemplaire. Néanmoins, 
 description: "Découvrez comment créer une source de revenus passifs en vous concentrant sur l'essentiel."
 ---
 
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 Toute personne qui a déjà poussé une voiture en panne vous dira que les premiers mètres sont les plus difficiles. L'inertie s'applique aussi au monde des freelances : les revenus les plus difficiles à obtenir sont généralement les premiers. Tout devient plus facile après.
 
 <figure>
@@ -38,6 +40,8 @@ Nous verrons notamment comment une solution de création de <a href="http://fr.w
 Via negativa est une expression latine utilisée dans la théologie chrétienne pour expliquer une façon de décrire Dieu en se concentrant sur ce qu'il n'est pas, plutôt que sur ce qu'il est ; comprendre les qualités positives d'une divinité est une tâche réputée impossible pour l'esprit "fini" de l'homme.
 
 Cette expression peut également être utilisée pour décrire une piste "négative" d'amélioration du quotidien ; au lieu de se concentrer sur ce que vous faites, l'attention se tourne vers ce que vous ne faites pas. Ce chemin a deux axes principaux : supprimer les mauvaises habitudes et les situations stériles du quotidien, et apprendre à les éviter en premier lieu.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 ### Exploiter le chaos et ses échecs personnels
 Dans son livre <a href="http://www.amazon.fr/gp/product/2251444769/ref=as_li_tl?ie=UTF8&amp;camp=1642&amp;creative=6746&amp;creativeASIN=2251444769&amp;linkCode=as2&amp;tag=mdw-21" target="_blank">Antifragile</a>, Nassim Taleb soutient que la meilleure façon pour une personne ou une organisation de devenir antifragile (tirer profit des échecs et des situations de chaos plutôt que de seulement y survivre) est d'abord de diminuer les inconvénients.
@@ -76,6 +80,8 @@ Peut être que je m'y suis pris mal, néanmoins, le business avec la famille et 
 On peut le définir comme des appels téléphoniques vers des personnes qui ne vous connaissent pas et qui n'ont jamais sollicité un appel de votre part.   
 C'est non seulement l'approche la plus pénible pour vous, mais également la plus ennuyeuse pour la personne recevant l'appel. Ce n'est vraiment pas efficace pour vendre des sites Web, sauf si vous avez beaucoup de temps à y consacrer. Vous pourrez peut être obtenir un client ou deux, mais au prix d'après-midis assis, le téléphone à la main, en regardant par la fenêtre. Ce n'est pas l'image que l'on se fait du quotidien en tant que freelance.
 
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 ### Refuser les invitations aux meetups et autres événements de networking
 
 J'y ai consacré de nombreuses soirées. On y passe de très bons moments en compagnie de charmantes personnes. Cette méthodologie m'a fourni un seul bénéfice : rencontrer de talentueux designers. Elle n'a jamais été une source pertinente de contacts pour des projets concrets malgré le temps investi. Il est préférable d'entretenir des relations privilégiées avec quelques confrères et agences plutôt que des dizaines sans lendemain ; au détour d'une discussion, des projets nécessitant vos compétences peuvent voir le jour. La patience et des relations professionnels suivies sont vos meilleurs alliés. Ne vous sentez pas coupable de refuser des invitations, c'est sans doute la meilleure façon de réussir votre carrière de freelance.
@@ -89,6 +95,8 @@ Si vous avez lu jusqu'à cette section, c'est que vous devez sans doute être un
 **Pourquoi laisser cette fabuleuse matière première dormante ?** Gisant au fond d'un dossier mal rangé ou entre deux calques Photoshop anonymes.
 
 Pour de nombreux designers, gagner du temps se traduit par le fait d'acheter des éléments de design réalisés par d'autres. **Cela constitue un marché de plusieurs centaines de millions d'euros**.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 A moins d'avoir les compétences techniques nécessaires pour mettre en place une plateforme ecommerce, tirer profit de ce marché en tant que freelance débutant s'avère difficile. La seule solution est de vendre ses propres créations via des marketplaces qui se prennent de généreuses commissions sur votre dos.
 

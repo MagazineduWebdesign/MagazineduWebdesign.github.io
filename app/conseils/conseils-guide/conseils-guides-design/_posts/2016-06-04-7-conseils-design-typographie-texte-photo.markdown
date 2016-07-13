@@ -13,6 +13,7 @@ logo: "istock-logo.jpg"
 intro: "Intégrer du texte au sein d’une image est un jeu d’équilibre subtil. Pour obtenir un résultat parfait, efficace, avec un rendu plaisant, tous les élements doivent trouver leur place d’une manière harmonieuse. Autrement, le résultat peut être incohérent. Voici quelques astuces pour une composition texte-image lisible et résistante à toutes les réunions de design critique."
 description: "Vous devez avoir la photo idéale, un bon oeil pour la typographie et savoir ce que vous voulez accomplir pour tirer le maximum d'un texte en overlay sur une image."
 ---
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 ## 1. Prêter attention au contraste de couleur et à la luminosité
 La couleur du texte doit toujours avoir un contraste fort avec l’image en arrière-plan. Dans le cas contraire, votre texte sera illisible. La stratégie la plus courante est de composer avec une couleur de texte plus claire lorsque l’image est sombre ou vice versa. Pour une mise en scène sortant de l’ordinaire, choisissez une couleur de texte complémentaire à l’image. Consultez la collection de [générateurs de palettes de couleur](http://www.magazineduwebdesign.com/collection/color-palette-generator-12-outils-utilis-s-par-vos-concurrents/) pour injecter des couleurs supplémentaires à votre design.
@@ -32,6 +33,8 @@ La couleur du texte doit toujours avoir un contraste fort avec l’image en arri
   </a>
   <figcaption>Texte clair sur une image plus sombre.</figcaption>
 </figure>
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 <figure class="figure-img mod-note-img">
   <a href="http://istockphoto.7eer.net/c/262183/258824/4205/?u=http%3A%2F%2Fwww.istockphoto.com%2Fgb%2Fphoto%2Fit-just-had-to-be-red-gm187597161-29047162" target="_blank">
