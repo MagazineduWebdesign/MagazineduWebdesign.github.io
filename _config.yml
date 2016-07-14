@@ -4,7 +4,7 @@
 # 3. config.yml
 
 # Site settings
-title: Magazine du Webdesign
+title: "Magazine du Webdesign &ndash; Inspiration & ressources Web"
 description:
 author:
   name: guillaumepalayer
@@ -317,7 +317,7 @@ page_gen:
     template: "inspirations-sites-web-no-tags"
     name: "title"
     dir: "/inspirations/ui-design/sites-web/"
-    
+
   - data: "inspirations-ui-animations"
     template: "inspirations-animations"
     name: "title"
