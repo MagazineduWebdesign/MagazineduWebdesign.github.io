@@ -4,13 +4,13 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article itemscope itemtype="http://schema.org/Product">
   <div class="header-liste mod-no-bg-gradient">
+    {% include custom/cartes/carte_ad_leaderboard_header.html %}
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 large-1 columns small-text-center">
           <div class="rounded-img-d64 is-img" data-is-img="{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}" data-interchange="[{{ page.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/' }}, (small)]" itemprop="image"></div>
         </div>
         <div class="small-12 large-7 columns small-text-center large-text-left">
-          {% include custom/cartes/carte_ad_leaderboard_header.html %}
           <h1 itemprop="name">{{ page.title }}</h1>
           <div itemprop="review" itemscope itemtype="http://schema.org/Review">
             <p class="article-bgimg-meta-by-time">
