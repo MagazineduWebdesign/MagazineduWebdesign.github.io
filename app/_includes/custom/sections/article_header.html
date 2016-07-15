@@ -15,7 +15,7 @@
       {% if page.path1 %}
         <a href="{{ site.baseurl }}/{{ page.path1 }}/{% if page.path2 %}{{ page.path2 }}/{% endif %}{% if page.path3 %}{{ page.path3 }}/{% endif %}">
       {% else %}
-        <a href="{{ site.baseurl }}/{{ layout | remove: ' ' }}/">
+        <a href="{{ site.baseurl }}/{{ layout | slugify }}/">
       {% endif %}
 
           <div class="left">
