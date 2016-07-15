@@ -55,7 +55,6 @@ viatitle:
 <p><img class="alignnone size-full wp-image-4645" title="Flat-3D-mockup-kit" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Flat-3D-mockup-kit.jpg" alt="Flat-3D-mockup-kit" width="555" height="333"></p>
 <p><strong>Des idées en images</strong></p>
 <p><iframe src="http://player.vimeo.com/video/56827053" frameborder="0" width="555" height="300"></iframe></p>
-<p><strong><a href="goo.gl/smYjC" target="_blank">Les futures nuits de Larry Page seront difficiles&nbsp;</a></strong></p>
 <p><img class="alignnone size-full wp-image-4653" title="The-Joy-of-Tech-Larry-page-s-nightmare" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/The-Joy-of-Tech-Larry-page-s-nightmare.jpg" alt="The-Joy-of-Tech-Larry-page-s-nightmare" width="555" height="417"></p>
 <p><strong><a href="http://modbot.me/" target="_blank">Web design inspiration</a></strong></p>
 <p><img class="alignnone size-full wp-image-4652" title="MODBOT" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/MODBOT.jpg" alt="MODBOT" width="555" height="273"></p>
