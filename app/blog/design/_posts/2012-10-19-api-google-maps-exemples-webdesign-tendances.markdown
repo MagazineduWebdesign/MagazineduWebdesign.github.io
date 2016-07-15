@@ -1,7 +1,7 @@
 ---
 title: 30 Webdesign tendances avec l’API Google Maps
 date: 2012-10-19 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 intro: Un voyage au coeur des meilleurs Webdesign intégrant d'une manière inventive l'API Google Maps.

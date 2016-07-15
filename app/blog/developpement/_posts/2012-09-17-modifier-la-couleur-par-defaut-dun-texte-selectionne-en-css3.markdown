@@ -1,7 +1,7 @@
 ---
 title: Modifier la couleur par défaut d’un texte sélectionné en CSS3
 date: 2012-09-17 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - css3
 - tutoriels

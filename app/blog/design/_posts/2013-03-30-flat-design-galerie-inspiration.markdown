@@ -1,7 +1,7 @@
 ---
 title: Fltdsgn – une galerie d’inspiration flat design
 date: 2013-03-30 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

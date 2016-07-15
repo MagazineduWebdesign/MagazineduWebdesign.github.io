@@ -1,7 +1,7 @@
 ---
 title: Connaissez-vous ces 40 fabuleux packs d’icônes flat design
 date: 2013-05-23 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 - icones

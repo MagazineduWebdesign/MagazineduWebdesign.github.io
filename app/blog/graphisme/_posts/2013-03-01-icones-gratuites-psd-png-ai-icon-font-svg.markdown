@@ -1,7 +1,7 @@
 ---
 title: Icônes gratuites pour vos prochains Web designs
 date: 2013-03-01 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - icones
 - ressources

@@ -1,7 +1,7 @@
 ---
 title: Webdesign hebdo – ressources gratuites, actualités et tutoriels – 1
 date: 2013-03-10 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 intro: La Magie des Internets reprend du service sous un nouveau format.

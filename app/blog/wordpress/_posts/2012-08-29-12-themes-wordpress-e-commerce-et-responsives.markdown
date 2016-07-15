@@ -1,7 +1,7 @@
 ---
 title: 12 Thèmes WordPress e-commerce et responsives
 date: 2012-08-29 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - e-commerce

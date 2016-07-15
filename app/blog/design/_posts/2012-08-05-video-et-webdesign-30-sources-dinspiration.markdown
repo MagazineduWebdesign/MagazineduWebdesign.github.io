@@ -1,7 +1,7 @@
 ---
 title: Vidéo et Webdesign – 30 sources d’inspiration
 date: 2012-08-05 17:22:56
-category: design
+category: "design"
 tags:
 - video
 - webdesign

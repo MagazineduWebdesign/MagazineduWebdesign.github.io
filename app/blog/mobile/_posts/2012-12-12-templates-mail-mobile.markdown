@@ -1,7 +1,7 @@
 ---
 title: Du moniteur au mobile – optimisation des templates mail mobile
 date: 2012-12-12 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - email
 - mobile

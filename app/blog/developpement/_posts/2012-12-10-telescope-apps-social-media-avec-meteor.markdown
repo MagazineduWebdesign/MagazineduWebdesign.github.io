@@ -1,7 +1,7 @@
 ---
 title: Telescope – une nouvelle apps social media conçue avec Meteor
 date: 2012-12-10 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - javascript
 - ressources

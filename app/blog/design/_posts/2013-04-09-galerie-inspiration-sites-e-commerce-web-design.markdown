@@ -1,7 +1,7 @@
 ---
 title: Avez-vous déjà vu ces 30 sites Web E-Commerce élégants et innovants
 date: 2013-04-09 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - e-commerce

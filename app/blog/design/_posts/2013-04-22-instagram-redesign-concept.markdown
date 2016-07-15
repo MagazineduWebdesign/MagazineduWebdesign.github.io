@@ -1,7 +1,7 @@
 ---
 title: Un designer imagine un nouveau concept graphique pour Instagram
 date: 2013-04-21 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - ui

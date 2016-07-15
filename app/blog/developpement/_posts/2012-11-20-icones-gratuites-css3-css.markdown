@@ -1,7 +1,7 @@
 ---
 title: Icônes gratuites en CSS3 – Télécharger la sélection fraîcheur 2012
 date: 2012-11-20 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - css3
 - icones

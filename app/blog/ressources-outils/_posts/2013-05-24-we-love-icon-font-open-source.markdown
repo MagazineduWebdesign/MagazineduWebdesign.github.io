@@ -1,7 +1,7 @@
 ---
 title: WLIF – le like Google Web font pour les icon fonts open source
 date: 2013-05-24 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - fonts-gratuites
 - icones

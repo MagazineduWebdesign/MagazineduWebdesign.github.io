@@ -1,7 +1,7 @@
 ---
 title: Webdesign hebdo – ressources gratuites, actualités et tutoriels – 9
 date: 2013-05-20 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 - webdesign

@@ -1,7 +1,7 @@
 ---
 title: Webdesign hebdo – ressources gratuites, actualités et tutoriels – 3
 date: 2013-03-27 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 intro: Les dernières actu et ressources en Web design.

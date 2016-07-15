@@ -1,7 +1,7 @@
 ---
 title: Modern.IE, Internet Explorer met l’accent sur la compatibilité et l’optimisation du Web
 date: 2013-02-03 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - outils
 intro:

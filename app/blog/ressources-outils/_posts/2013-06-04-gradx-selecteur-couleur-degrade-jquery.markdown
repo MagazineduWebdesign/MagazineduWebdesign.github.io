@@ -1,7 +1,7 @@
 ---
 title: GRADX, un sélecteur de couleurs jQuery
 date: 2013-06-04 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - plugin

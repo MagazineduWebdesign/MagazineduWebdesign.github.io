@@ -1,7 +1,7 @@
 ---
 title: Comment bien positionner IE sur son bureau
 date: 2013-06-21 17:22:56
-category: fun
+category: "fun"
 tags:
 - techniques
 intro: ...

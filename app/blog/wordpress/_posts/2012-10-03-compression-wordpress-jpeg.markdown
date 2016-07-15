@@ -1,7 +1,7 @@
 ---
 title: Comment contrôler la compression WordPress des JPEG
 date: 2012-10-03 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - techniques
 - tutoriels  

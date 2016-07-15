@@ -1,7 +1,7 @@
 ---
 title: Prototype d’un wireframe codé – pléonasme – 2
 date: 2012-08-13 17:23:56
-category: ux-design
+category: "ux-design"
 tags: 
 - wireframing
 intro: Une controverse agite la communauté des architectes de l’information et les concepteurs UX. L’objet du délit ? Savoir si un wireframe HTML n’est autre que la création d’un prototype fonctionnel et codé. Autrement dit, est-ce que les deux concepts renvoient à la même chose ? ou sont-ils radicalement différents ?

@@ -1,7 +1,7 @@
 ---
 title: Tabulous.js, plugin jQuery pour l’animation de tabs
 date: 2013-06-25 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - plugin

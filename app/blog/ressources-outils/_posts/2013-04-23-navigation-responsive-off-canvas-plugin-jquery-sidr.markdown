@@ -1,7 +1,7 @@
 ---
 title: Créez un menu responsive off canvas avec Sidr
 date: 2013-04-23 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - mobile

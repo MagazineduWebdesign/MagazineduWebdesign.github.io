@@ -1,7 +1,7 @@
 ---
 title: Plugin jQuery Tourist.js, une visite guidée en toute simplicité
 date: 2013-05-24 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - plugin

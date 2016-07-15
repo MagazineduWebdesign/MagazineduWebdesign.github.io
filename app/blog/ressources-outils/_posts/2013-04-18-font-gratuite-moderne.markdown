@@ -1,7 +1,7 @@
 ---
 title: 14 fonts gratuites avant-gardistes
 date: 2013-04-18 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - fonts
 - fonts-gratuites

@@ -1,7 +1,7 @@
 ---
 title: Less – le template WordPress gratuit ultra minimal
 date: 2013-02-19 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - plugin
 - wordpress

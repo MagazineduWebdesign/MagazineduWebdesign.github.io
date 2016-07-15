@@ -1,8 +1,8 @@
 ---
 title: Wireframe codé, l’HTML au service de l’expérience utilisateur – 1
 date: 2012-08-12 17:22:56
-category: ux-design
-tags: 
+category: "ux-design"
+tags:
 - wireframing
 intro: Première partie de notre dossier consacré au wireframing codé – petit rappel de ce que recouvre le wireframe d'un projet. Pour qui, pour quoi, comment le réaliser ?
 description:

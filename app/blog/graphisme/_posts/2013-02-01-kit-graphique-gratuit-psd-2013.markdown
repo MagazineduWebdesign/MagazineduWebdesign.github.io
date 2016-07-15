@@ -1,7 +1,7 @@
 ---
 title: 40 kits graphiques gratuits en PSD pour 2013
 date: 2013-02-01 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - psd
 - ressources

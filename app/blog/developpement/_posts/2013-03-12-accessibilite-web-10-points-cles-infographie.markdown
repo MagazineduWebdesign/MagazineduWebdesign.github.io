@@ -1,7 +1,7 @@
 ---
 title: Accessibilité Web – 10 points clés en une infographie
 date: 2013-03-12 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - accessibilite
 intro: L'accessibilité Web est un principe à ne pas négliger dans un projet.

@@ -1,7 +1,7 @@
 ---
 title: FPSMeter, la librairie JavaScript pour personnaliser un compteur FPS
 date: 2013-04-19 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - javascript
 - ressources

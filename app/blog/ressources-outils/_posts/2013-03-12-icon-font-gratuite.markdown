@@ -1,7 +1,7 @@
 ---
 title: 22 Icon Fonts gratuites – La grosse liste
 date: 2013-03-12 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - fonts
 - icones

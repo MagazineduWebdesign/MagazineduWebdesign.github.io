@@ -1,7 +1,7 @@
 ---
 title: 7 points pour être prêt à passer au Web mobile en 2013
 date: 2013-01-17 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - mobile
 intro: Définir une stratégie pour le Web mobile est une des premières choses à faire en 2013. Cela requiert une planification méticuleuse, une connaissance des technologies disponibles et le plus important, une compréhension des attentes de vos utilisateurs sur les terminaux mobiles.

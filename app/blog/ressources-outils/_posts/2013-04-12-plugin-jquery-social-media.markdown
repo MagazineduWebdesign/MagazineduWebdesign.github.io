@@ -1,7 +1,7 @@
 ---
 title: 5 plugins jQuery pour améliorer l’expérience social media d’un site Web
 date: 2013-04-12 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - plugin

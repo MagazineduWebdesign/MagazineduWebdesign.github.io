@@ -1,7 +1,7 @@
 ---
 title: Thème WordPress gratuit AyoShop - thème e-commerce responsive
 date: 2013-04-11 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - wordpress

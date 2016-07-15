@@ -1,7 +1,7 @@
 ---
 title: Dispatch.io, partage de fichiers collaboratif
 date: 2012-11-06 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 - outils

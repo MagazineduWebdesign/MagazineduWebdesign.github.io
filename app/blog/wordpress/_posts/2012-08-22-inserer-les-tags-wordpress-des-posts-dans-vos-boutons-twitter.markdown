@@ -1,7 +1,7 @@
 ---
 title: Insérer les tags WordPress des posts dans vos boutons Twitter
 date: 2012-08-22 17:22:56
-category: wordpress
+category: "wordpress"
 tags: 
 - techniques
 - tutoriels

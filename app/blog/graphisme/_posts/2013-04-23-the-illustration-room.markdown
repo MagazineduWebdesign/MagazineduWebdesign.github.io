@@ -1,7 +1,7 @@
 ---
 title: Les meilleurs illustrateurs se comptent sur les doigts d’une main
 date: 2013-04-23 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - illustration
 - inspiration

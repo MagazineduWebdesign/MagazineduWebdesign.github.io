@@ -1,7 +1,7 @@
 ---
 title: Backup WordPress – Le top 6 des plugins gratuits
 date: 2013-03-24 17:22:56
-category: wordpress
+category: "wordpress"
 tags: 
 - plugin
 - wordpress

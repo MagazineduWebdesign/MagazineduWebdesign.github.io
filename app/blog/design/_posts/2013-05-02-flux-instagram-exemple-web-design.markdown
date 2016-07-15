@@ -1,7 +1,7 @@
 ---
 title: Instagram et Webdesign – C’est la créativité qui parle
 date: 2013-05-02 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

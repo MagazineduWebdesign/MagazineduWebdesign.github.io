@@ -1,7 +1,7 @@
 ---
 title: GIF animé et Webdesign, 21 exemples de créativité animée
 date: 2012-12-07 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

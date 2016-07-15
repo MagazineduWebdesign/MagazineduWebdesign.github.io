@@ -1,7 +1,7 @@
 ---
 title: Le best of 2012 du Web design
 date: 2012-12-28 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - best-of
 intro: Durant les 4 derniers mois de 2012, j'ai écumé les Internets afin d'y dénicher les meilleures ressources et outils pour les designers et développeurs.

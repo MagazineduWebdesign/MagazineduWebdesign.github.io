@@ -1,7 +1,7 @@
 ---
 title: Application POP, création d’un prototype fonctionnel mobile
 date: 2013-01-03 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - outils
 - ressources

@@ -1,7 +1,7 @@
 ---
 title: Facebook Home, l’interface mobile réinventée pour les utilisateurs, pas pour les apps
 date: 2013-04-05 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - mobile
 - ux

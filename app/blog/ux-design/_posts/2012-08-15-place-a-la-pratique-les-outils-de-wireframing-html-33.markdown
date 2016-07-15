@@ -1,7 +1,7 @@
 ---
 title: Place à la pratique, les outils de wireframing HTML – 3
 date: 2012-08-15 17:29:56
-category: ux-design
+category: "ux-design"
 tags:
 - wireframing
 intro: Après avoir vu en détails quels étaient les objectifs du wireframing, et ses différentes définitions, voici une sélection d'outils de wireframing HTML à découvrir, et à tester (sans attendre).

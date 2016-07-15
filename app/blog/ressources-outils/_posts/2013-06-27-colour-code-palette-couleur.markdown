@@ -1,7 +1,7 @@
 ---
 title: Colour Code, trouvez votre palette de couleurs
 date: 2013-06-27 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 -  outils
 intro: Une nouvelle journée, un nouvel outil. C'est le credo de nombreux professionnels du Web design pour être au top.

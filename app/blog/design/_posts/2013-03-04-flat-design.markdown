@@ -1,7 +1,7 @@
 ---
 title: Flat design ou Swiss design inspiration
 date: 2013-03-04 17:22:56
-category: design
+category: "design"
 tags:
 - ui
 - webdesign

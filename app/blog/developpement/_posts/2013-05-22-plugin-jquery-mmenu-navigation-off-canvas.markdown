@@ -1,7 +1,7 @@
 ---
 title: Créez un menu off canvas en une ligne de code
 date: 2013-05-22 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - jQuery
 - plugin

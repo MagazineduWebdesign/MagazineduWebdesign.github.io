@@ -1,7 +1,7 @@
 ---
 title: Pixel art, des GIFs pas du tout HD
 date: 2013-06-10 17:22:56
-category: design
+category: "design"
 tags:
 - net-art
 intro: Si vous êtes nostalgique des premiers jeux Nintendo et PC des années 80 qui demandaient beaucoup d'imagination pour obtenir un rendu graphique satisfaisant, alors vous allez adorer cette série de GIFs pixelisés.

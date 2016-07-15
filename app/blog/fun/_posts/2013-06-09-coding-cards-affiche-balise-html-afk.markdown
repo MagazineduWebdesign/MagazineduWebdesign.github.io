@@ -1,7 +1,7 @@
 ---
 title: Coding cards – comment les balises HTML peuvent être appliquées à votre quotidien
 date: 2013-06-09 17:22:56
-category: fun
+category: "fun"
 tags:
 - inspiration
 intro: Constantinos Papaconstantinou est un graphiste grecque qui a eu l'idée de juxtaposer des balises HTML et des attributs CSS à des situations du quotidien.

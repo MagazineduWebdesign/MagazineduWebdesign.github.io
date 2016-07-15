@@ -1,7 +1,7 @@
 ---
 title: 10 nouvelles polices à télécharger gratuitement
 date: 2013-05-14 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - fonts
 - fonts-gratuites

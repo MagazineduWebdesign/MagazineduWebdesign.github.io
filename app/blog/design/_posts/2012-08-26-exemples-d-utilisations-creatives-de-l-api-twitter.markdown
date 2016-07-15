@@ -1,7 +1,7 @@
 ---
 title: Exemples d’utilisations créatives de l’API Twitter
 date: 2012-08-26 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - twitter

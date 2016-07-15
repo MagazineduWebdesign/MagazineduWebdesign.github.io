@@ -1,7 +1,7 @@
 ---
 title: Personnaliser facilement une scroll bar verticale ou horizontale en jQuery
 date: 2013-06-06 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - outils
 - plugin

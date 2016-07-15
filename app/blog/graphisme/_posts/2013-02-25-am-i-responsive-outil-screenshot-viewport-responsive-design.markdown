@@ -1,7 +1,7 @@
 ---
 title: Réaliser une capture d’écran d’un site Web responsive selon différents viewports
 date: 2013-02-25 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - outils
 - responsive

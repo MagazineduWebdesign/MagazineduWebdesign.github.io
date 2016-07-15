@@ -1,7 +1,7 @@
 ---
 title: Personnalisation du lien WordPress Read more
 date: 2013-05-10 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - tutoriels
 - wordpress

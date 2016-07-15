@@ -1,7 +1,7 @@
 ---
 title: Strength.js – vérification de la fiabilité d’un mot de passe en temps réel
 date: 2013-06-24 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - plugin
 - jquery

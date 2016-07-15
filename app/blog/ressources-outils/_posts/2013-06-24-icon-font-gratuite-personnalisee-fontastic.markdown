@@ -1,7 +1,7 @@
 ---
 title: Fontastic – créer une icon font personnalisée en trois clics
 date: 2013-06-24 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - icon-font
 intro: Les icon fonts envahissent l'univers du Web design depuis quelques temps. Elles sont un allié précieux pour l'amélioration des performances d'une app Web et possèdent un potentiel créatif similaire aux images. Alors pourquoi s'en priver...

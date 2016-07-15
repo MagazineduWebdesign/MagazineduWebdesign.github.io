@@ -1,7 +1,7 @@
 ---
 title: Comment estimer le coût d’un projet Web
 date: 2013-04-04 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - outils
 intro: Web Development Project Estimator est un outil facile à prendre en main permettant aux concepteurs et aux développeurs de sites web d'estimer le temps et les ressources nécessaires pour un projet web.

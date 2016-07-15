@@ -1,7 +1,7 @@
 ---
 title: 10 packs d’icônes à télécharger gratuitement – Zombie Edition
 date: 2013-04-15 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - icones
 - ressources

@@ -1,9 +1,9 @@
 ---
 layout: "inspirations-ui-sites-web_index"
-title: "Collection de sites web"
+title: "Web design inspiration"
 category: "ui-sites-web_from-zapier"
 permalink: "/inspirations/ui-design/sites-web/"
-intro: "Liste de sites Web sélectionnés pour la qualité de l'expérience proposée, la clarté des contenus, la simplicité d'utilisation &amp; le design sympa. N'hésitez pas à partager vos découvertes et vos créations."
-description: "Explorez la liste d'inspirations Web Design du Magazine du Webdesign."
-text-twtr: "En train d'explorer la collection de designs de sites Web du @MagDuWebdesign."
+intro: "Une collection mettant à l'honneur la créativité de dispositifs innovants en Web design et en développement. Une sélection encourageant le dépassement des limites techniques via un flot d'inspirations en design actualisé chaque jour. Cette galerie célèbre le talent des meilleurs Web designers, développeurs et agences du monde entier via ces exemples de sites Web responsive, d'applications Web et mobile, d'expériences Web VR et bien d'autres designs d'interfaces."
+description: "Une sélection encourageant le dépassement des limites techniques via un flot d'inspirations en design actualisé chaque jour. Cette galerie célèbre le talent des meilleurs Web designers, développeurs et agences du monde entier via ces exemples de sites Web responsive, d'applications Web et mobile, d'expériences Web VR et bien d'autres designs d'interfaces."
+text-twtr: "En train d'explorer la collection de designs de sites et d'appli du @MagDuWebdesign."
 ---

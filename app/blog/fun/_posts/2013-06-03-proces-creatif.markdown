@@ -1,7 +1,7 @@
 ---
 title: Le planning de la semaine et le procès créa
 date: 2013-06-03 17:22:56
-category: fun
+category: "fun"
 tags:
 - techniques
 intro: La bonne méthodo du lundi pour un procès créa réussi.

@@ -1,7 +1,7 @@
 ---
 title: Pourquoi les landing pages sont de plus en plus longues
 date: 2013-03-06 17:22:56
-category: ux-design
+category: "ux-design"
 tags: 
 - ux
 intro: Il y a quelques semaines, je me demandais quels étaient les avantages d'un site Web du type one page.

@@ -1,7 +1,7 @@
 ---
 title: 12 thèmes WordPress gratuits pour 2013
 date: 2013-01-07 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - responsive

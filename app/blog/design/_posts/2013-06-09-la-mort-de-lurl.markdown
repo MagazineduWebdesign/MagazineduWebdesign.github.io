@@ -1,7 +1,7 @@
 ---
 title: La mort de l’URL
 date: 2013-06-09 17:22:56
-category: design
+category: "design"
 tags:
 - net-art
 intro:

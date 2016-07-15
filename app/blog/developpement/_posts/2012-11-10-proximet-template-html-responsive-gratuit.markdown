@@ -1,7 +1,7 @@
 ---
 title: PROXIMET – Template HTML5 responsive gratuit
 date: 2012-11-10 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - responsive
 - templates

@@ -1,7 +1,7 @@
 ---
 title: Editr – Installez vos démos HTML, CSS et JavaScript sur votre serveur
 date: 2013-05-16 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - outils
 intro: Editr est un bac à sable JavaScript permettant d'héberger directement sur son serveur des démos perso en HTML, CSS et JS.

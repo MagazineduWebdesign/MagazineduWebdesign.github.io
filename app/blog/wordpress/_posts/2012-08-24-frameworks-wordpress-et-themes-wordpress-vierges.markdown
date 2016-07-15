@@ -1,7 +1,7 @@
 ---
 title: Sélection de frameworks WordPress et thèmes WordPress vierges
 date: 2012-08-24 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - ressources
 intro: Lorsque vous développez un thème WordPress, une grande quantité de fonctions, de filtres et de fichiers est commune à chacun de vos projets. En les regroupant dans un unique thème de base, votre productivité pourrait être grandement améliorée. Réunir les fichiers et les styles CSS par défaut dans un unique thème peut prendre un certain temps. Fort heureusement, de nombreux frameworks WordPress sont disponibles. Pourquoi s'en priver..

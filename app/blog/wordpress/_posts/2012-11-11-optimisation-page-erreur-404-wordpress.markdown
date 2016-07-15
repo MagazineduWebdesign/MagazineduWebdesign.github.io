@@ -1,7 +1,7 @@
 ---
 title: Comment optimiser la page WordPress erreur 404 en vue de l’apocalypse
 date: 2012-11-11 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - techniques
 - tutoriels

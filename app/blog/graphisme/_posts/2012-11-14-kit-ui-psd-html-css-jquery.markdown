@@ -1,7 +1,7 @@
 ---
 title: 30 Kits graphiques gratuits – sources HTML/PSD incluses
 date: 2012-11-14 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - psd
 - ressources

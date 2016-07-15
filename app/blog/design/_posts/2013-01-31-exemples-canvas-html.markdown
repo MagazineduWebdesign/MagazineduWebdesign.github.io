@@ -1,7 +1,7 @@
 ---
 title: Connaissez-vous le potentiel de l’élément Canvas – 12 exemples à découvrir
 date: 2013-01-31 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

@@ -1,7 +1,7 @@
 ---
 title: Flat design et Thèmes WordPress – 15 exemples à suivre
 date: 2013-03-29 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - wordpress

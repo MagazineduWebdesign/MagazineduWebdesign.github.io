@@ -1,7 +1,7 @@
 ---
 title: Vos landing pages racontent des histoires
 date: 2013-03-14 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

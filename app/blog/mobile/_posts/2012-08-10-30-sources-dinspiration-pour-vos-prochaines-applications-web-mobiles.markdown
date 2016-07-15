@@ -1,7 +1,7 @@
 ---
 title: 30 sources d’inspiration pour vos prochaines applications Web mobile
 date: 2012-08-10 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - mobile
 - ressources

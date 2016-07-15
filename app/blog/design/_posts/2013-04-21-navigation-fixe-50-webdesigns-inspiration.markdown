@@ -1,7 +1,7 @@
 ---
 title: Navigation fixe, 50 exemples de web designs pour votre inspiration
 date: 2013-04-21 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - navigation

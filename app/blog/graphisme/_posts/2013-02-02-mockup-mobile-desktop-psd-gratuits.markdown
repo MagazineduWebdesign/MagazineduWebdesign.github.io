@@ -1,7 +1,7 @@
 ---
 title: 10 astuces pour embellir son portfolio en un temps record
 date: 2013-02-02 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - psd
 - ressources

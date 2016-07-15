@@ -1,7 +1,7 @@
 ---
 title: 40 points à checker pour atteindre le nirvāṇa de l’accessibilité Web
 date: 2013-02-13 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - accessibilite
 intro: La puissance du Web réside dans son universalité. Un accès pour tous, quelle que soit la déficience est un aspect essentiel — Tim Berners-Lee.
@@ -106,4 +106,4 @@ $( "p.total" ).text( "Score : " + n + "/40" );
 scoretotal();
 $( "input[type=checkbox]" ).on( "click", scoretotal );
 };
-</script> 
+</script>

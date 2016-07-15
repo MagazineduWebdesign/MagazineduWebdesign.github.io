@@ -1,7 +1,7 @@
 ---
 title: Brain.js – le script JS intelligent
 date: 2013-05-14 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 - javascript

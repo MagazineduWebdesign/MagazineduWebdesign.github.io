@@ -1,7 +1,7 @@
 ---
 title: Fonte Helvetica, 11 alternatives méconnues
 date: 2013-05-22 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - fonts
 - webdesign

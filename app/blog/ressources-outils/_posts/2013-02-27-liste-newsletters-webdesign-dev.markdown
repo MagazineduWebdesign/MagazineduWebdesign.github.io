@@ -1,7 +1,7 @@
 ---
 title: 30 newsletters que tout veilleur du Web devrait connaître
 date: 2013-02-27 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - useful
 intro: Prendre connaissance des dernières innovations dans son domaine de compétences est essentiel mais chronophage lorsqu'on doit consulter plusieurs sources d'informations.

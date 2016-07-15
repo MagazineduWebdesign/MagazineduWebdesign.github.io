@@ -1,7 +1,7 @@
 ---
 title: Avez-vous commis l’erreur du Skeuomorphisme vs. Flat design
 date: 2013-01-27 17:22:56
-category: ux-design
+category: "ux-design"
 tags:
 - ux
 - ui

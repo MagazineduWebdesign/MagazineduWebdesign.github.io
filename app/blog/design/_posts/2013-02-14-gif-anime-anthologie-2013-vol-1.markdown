@@ -1,7 +1,7 @@
 ---
 title: GIF animé – Anthologie 2013 – vol.1
 date: 2013-02-14 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - net-art

@@ -1,7 +1,7 @@
 ---
 title: Magie des Internets – Inspirations, tutoriels et ressources – 7
 date: 2012-11-06 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - ressources
 intro: Chaque semaine, un condensé d'articles, de ressources et diverses trouvailles glanées aux quatre coins des Internets.

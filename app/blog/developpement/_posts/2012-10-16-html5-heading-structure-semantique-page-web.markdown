@@ -1,7 +1,7 @@
 ---
 title: Headings HTML5 – au service de la sémantique
 date: 2012-10-16 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - html5
 - techniques
@@ -21,7 +21,7 @@ Le W3C a annoncé une [standardisation officiel](http://dev.w3.org/html5/decisio
 La sémantique est l’étude du sens des unités lexicales – les mots et de leurs combinaisons.
 
 >Nous définirons (…) le mot comme l’unité sémantique minima de la parole. (…) La science du mot s’appelle lexicologie. Elle comportera deux subdivisions, selon qu’on s’intéresse au nom ou au sens.
->L’aspect formel des mots est examiné par la morphologie (…). Les significations lexicales constituent le domaine de la sémantique. 
+>L’aspect formel des mots est examiné par la morphologie (…). Les significations lexicales constituent le domaine de la sémantique.
 ><cite>S. Ullmann, [Précis de sém. fr.](http://www.cnrtl.fr/definition/semantique "Précis de sém. fr."), Berne, éd. A. Francke, 1952, p. 33.</cite>
 
 ##Appliqué au Web, cela donne le Web sémantique

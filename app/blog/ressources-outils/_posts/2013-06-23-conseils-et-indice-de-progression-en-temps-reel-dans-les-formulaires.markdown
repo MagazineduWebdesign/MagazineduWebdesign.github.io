@@ -1,7 +1,7 @@
 ---
 title: Conseils et indice de progression en temps réel dans les formulaires
 date: 2013-06-23 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - plugin

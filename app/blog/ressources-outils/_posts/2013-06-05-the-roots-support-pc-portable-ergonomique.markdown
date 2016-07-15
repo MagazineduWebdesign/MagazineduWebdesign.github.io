@@ -1,7 +1,7 @@
 ---
 title: The roots, l’arme ultime pour votre confort au travail
 date: 2013-06-05 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - outils
 intro: Manier du pixel ou du code sur PC portable de nombreuses heures peut s'avérer une torture pour notre dos et notre nuque.

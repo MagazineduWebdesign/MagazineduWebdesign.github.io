@@ -1,7 +1,7 @@
 ---
 title: MixItUp, le plugin jQuery CSS3 pour filtrer et trier vos listes HTML
 date: 2013-05-15 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - jquery
 - plugin

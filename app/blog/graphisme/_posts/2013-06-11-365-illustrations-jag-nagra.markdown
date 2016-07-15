@@ -1,7 +1,7 @@
 ---
 title: Une illustration par jour pendant 365 jours
 date: 2013-06-11 17:22:56
-category: graphisme
+category: "graphisme"
 tags:
 - illustration
 - inspiration

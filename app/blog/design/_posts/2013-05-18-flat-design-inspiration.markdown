@@ -1,7 +1,7 @@
 ---
 title: L’approche flat design en 26 inspirations
 date: 2013-05-18 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - webdesign

@@ -1,7 +1,7 @@
 ---
 title: Filtrer vos articles via les custom taxonomies des post types WordPress
 date: 2012-08-08 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - techniques
 - tutoriels

@@ -1,7 +1,7 @@
 ---
 title: Filtre jQuery, comment organiser et trier vos données
 date: 2013-05-01 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - jquery
 - plugin

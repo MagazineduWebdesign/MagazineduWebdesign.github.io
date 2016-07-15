@@ -1,7 +1,7 @@
 ---
 title: Table responsive design avec Stacktable.js
 date: 2013-06-22 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - jquery
 - responsive

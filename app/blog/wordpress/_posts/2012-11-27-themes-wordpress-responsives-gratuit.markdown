@@ -1,7 +1,7 @@
 ---
 title: 4 thèmes WordPress gratuits responsive
 date: 2012-11-27 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - responsive

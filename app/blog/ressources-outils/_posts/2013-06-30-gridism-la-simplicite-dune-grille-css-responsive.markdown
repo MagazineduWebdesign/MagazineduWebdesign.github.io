@@ -1,7 +1,7 @@
 ---
 title: Gridism — la simplicité d’une grille CSS responsive
 date: 2013-06-30 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - responsive
 - ressources  

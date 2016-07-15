@@ -1,7 +1,7 @@
 ---
 title: Off-canvas – contrer la verticalité des sites Web mobiles
 date: 2012-09-02 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - mobile
 - ux

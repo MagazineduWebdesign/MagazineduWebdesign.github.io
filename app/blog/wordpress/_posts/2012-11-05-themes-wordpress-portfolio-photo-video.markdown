@@ -1,7 +1,7 @@
 ---
 title: 20+ Thèmes WordPress portfolio pour les blogueurs photographes
 date: 2012-11-05 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 intro: Internet est une excellente vitrine pour les photographes et les designers souhaitant exposer leurs meilleures créations. L’audience pour ce type de créations est énorme. Couplez le tout à une astucieuse stratégie de social media, le cocktail peut être détonnant pour vos photos.

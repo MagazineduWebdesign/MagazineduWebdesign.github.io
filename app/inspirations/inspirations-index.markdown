@@ -1,9 +1,9 @@
 ---
 layout: "inspirations_index"
-title: "💉 Inspirations pour cultiver votre créativité"
+title: "💉 Design inspiration"
 permalink: "/inspirations/"
-intro: "L'inspiration est partout, mais surtout ici. Puisez à la source en explorant ces collections d'interfaces & d'expériences issues d'applis, de sites web et d'objets plus ou moins connectés."
-description: "L'inspiration est partout, mais surtout ici. Puisez à la source en explorant ces collections d'interfaces & d'expériences. La Web Design Inspiration française."
+intro: "Pour rendre la vie de chaque designer plus facile, le Magazine Du Webdesign sélectionne pour vous les meilleurs exemples de sites web, de portfolio, d'applications mobile et d'UI animation conçus par de talentueux designers. Avec l'assurance que vous trouverez chaque jour les meilleures et les plus récentes inspirations en design."
+description: "Pour rendre la vie de chaque designer plus facile, le Magazine Du Webdesign sélectionne pour vous les meilleurs exemples de sites web, de portfolio, d'applications mobile et d'UI animation conçus par de talentueux designers."
 header-liste-tag-title-1: "apple watch"
 header-liste-tag-url-1: "/inspirations/ui-design/apple-watch/"
 header-liste-tag-title-2: "material design"

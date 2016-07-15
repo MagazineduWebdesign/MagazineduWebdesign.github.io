@@ -1,7 +1,7 @@
 ---
 title: SVG, le format d’image vectorielle des internets
 date: 2013-03-21 17:22:56
-category: design
+category: "design"
 tags:
 - inspiration
 - svg

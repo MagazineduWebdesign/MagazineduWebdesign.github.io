@@ -1,7 +1,7 @@
 ---
 title: Quelques thèmes WordPress gratuits de grande qualité
 date: 2013-04-10 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - wordpress

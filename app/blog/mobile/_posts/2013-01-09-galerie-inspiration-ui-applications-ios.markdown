@@ -1,7 +1,7 @@
 ---
 title: Mobile Mozaic – Galerie d’inspirations pour les applications iOS
 date: 2013-01-09 17:22:56
-category: mobile
+category: "mobile"
 tags:
 - outils
 - mobile

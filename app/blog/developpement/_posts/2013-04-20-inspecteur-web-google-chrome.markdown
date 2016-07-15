@@ -1,7 +1,7 @@
 ---
 title: Connaissez-vous la fonction cachée de l’inspecteur Chrome
 date: 2013-04-20 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - useful
 intro: Google Chrome permet depuis un certain temps de placer l'inspecteur Web sur la droite du navigateur.

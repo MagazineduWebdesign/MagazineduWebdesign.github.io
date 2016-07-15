@@ -1,7 +1,7 @@
 ---
 title: Astuce WordPress, créer un bouton via un shortcode
 date: 2012-09-17 17:22:56
-category: wordpress
+category: "wordpress"
 tags: 
 - techniques
 - tutoriels  

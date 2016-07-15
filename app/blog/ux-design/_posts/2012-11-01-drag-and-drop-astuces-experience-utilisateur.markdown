@@ -1,7 +1,7 @@
 ---
 title: Utilisabilité du Drag and Drop, astuces pour une meilleure expérience utilisateur
 date: 2012-11-01 17:22:56
-category: ux-design
+category: "ux-design"
 tags: 
 - ux
 intro: Le drag and drop ou glissé-déposé est une interaction de plus en plus répandue au sein des interfaces graphiques. Cette technique imaginée par le PARC (Palo Alto Research Center) s'est immiscée sur tous nos terminaux fixes et mobiles. S'inspirant du monde réel, cette interaction offre à l'utilisateur la possibilité de déplacer des éléments graphiques présents à l'écran d'un endroit à un autre.

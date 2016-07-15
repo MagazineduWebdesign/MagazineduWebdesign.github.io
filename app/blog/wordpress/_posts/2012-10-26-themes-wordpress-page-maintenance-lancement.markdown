@@ -1,7 +1,7 @@
 ---
 title: 20 Thèmes WordPress pour vos pages de maintenance et de lancement
 date: 2012-10-26 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 intro: Si vous avez un nouveau projet dans les starting blocks, ces thèmes sont faits pour vous.

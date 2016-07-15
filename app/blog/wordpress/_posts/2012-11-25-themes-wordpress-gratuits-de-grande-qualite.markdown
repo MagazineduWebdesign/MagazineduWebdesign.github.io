@@ -1,7 +1,7 @@
 ---
 title: 14 Thèmes WordPress gratuits de grande qualité
 date: 2012-11-25 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 intro: Je vous ai sélectionné 14 thèmes WordPress à télécharger gratuitement.

@@ -1,7 +1,7 @@
 ---
 title: Ajouter en 5 min de sublimes backgrounds texturés à un thème WordPress
 date: 2013-01-28 17:22:56
-category: wordpress
+category: "wordpress"
 tags: 
 - plugin
 - wordpress

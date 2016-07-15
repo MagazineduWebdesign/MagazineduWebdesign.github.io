@@ -1,7 +1,7 @@
 ---
 title: Icônes météo – La ressource pour les Web designers climatologues
 date: 2013-01-29 17:22:56
-category: design
+category: "design"
 tags:
 - icones
 - ressourcses

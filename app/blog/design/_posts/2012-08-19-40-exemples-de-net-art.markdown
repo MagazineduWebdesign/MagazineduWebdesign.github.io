@@ -1,7 +1,7 @@
 ---
 title: 40+ exemples de Net Art
 date: 2012-08-19 17:22:56
-category: design
+category: "design"
 tags:
 - net-art
 - webdesign

@@ -1,7 +1,7 @@
 ---
 title: Reverie, thème WordPress responsive basé sur le framework Foundation
 date: 2012-11-07 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - responsive

@@ -1,7 +1,7 @@
 ---
 title: Design et développement d’une application Android, par où commencer
 date: 2013-05-21 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - android
 - ressources

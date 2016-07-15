@@ -1,7 +1,7 @@
 ---
 title: Présentation de Clean Response – Thème WordPress gratuit responsive
 date: 2013-05-10 17:22:56
-category: wordpress
+category: "wordpress"
 tags:
 - themes
 - wordpress

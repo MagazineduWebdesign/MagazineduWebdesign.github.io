@@ -1,7 +1,7 @@
 ---
 title: jQuery, déterminer le nombre d’éléments input checkbox cochés
 date: 2013-02-20 17:22:56
-category: developpement
+category: "developpement"
 tags:
 - javascript
 - tutoriels

@@ -1,7 +1,7 @@
 ---
 title: 11 packs d’icônes gratuites pour la conception d’interfaces utilisateur
 date: 2013-04-08 17:22:56
-category: ressources-outils
+category: "ressources-outils"
 tags:
 - icones
 - ressources
@@ -32,11 +32,11 @@ viatitle:
 <p><a href="http://adamwhitcroft.com/batch/" target="_blank">Batch</a></p>
 <p><img title="02-batch-preview" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/02-batch-preview.jpg" alt="02-batch-preview" width="555" height="337"></p>
 <p><a href="http://brankic1979.com/icons/" target="_blank">350 pixel perfect glyphs icons</a></p>
-<p><a href="http://magazineduwebdesign.com/icone-gratuite-packs-web-interface-utilisateur/06-350-icones-gratuites" rel="attachment wp-att-4471"><img class="alignnone size-full wp-image-4471" title="06-350-icones-gratuites" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/06-350-icones-gratuites.jpg" alt="06-350-icones-gratuites" width="555" height="379"></a></p>
+<p><img class="alignnone size-full wp-image-4471" title="06-350-icones-gratuites" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/06-350-icones-gratuites.jpg" alt="06-350-icones-gratuites" width="555" height="379"></p>
 <p><a href="http://blog.roamdesign.co.uk/?page_id=218" target="_blank">99+ICONS</a>&nbsp;(Gratuit uniquement pour un usage à titre personnel)</p>
-<p><a href="http://magazineduwebdesign.com/icone-gratuite-packs-web-interface-utilisateur/07-99-icons" rel="attachment wp-att-4472"><img class="alignnone size-full wp-image-4472" title="07-99-Icons" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/07-99-Icons.jpg" alt="07-99-Icons" width="536" height="316"></a></p>
+<p><img class="alignnone size-full wp-image-4472" title="07-99-Icons" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/07-99-Icons.jpg" alt="07-99-Icons" width="536" height="316"></p>
 <p><a href="http://www.designkindle.com/2011/10/13/glyph-icons/" target="_blank">Glyph Icons</a></p>
-<p><a href="http://magazineduwebdesign.com/icone-gratuite-packs-web-interface-utilisateur/08-glyph-icons" rel="attachment wp-att-4473"><img class="alignnone size-full wp-image-4473" title="08-glyph-icons" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/08-glyph-icons.jpg" alt="08-glyph-icons" width="555" height="396"></a></p>
+<p><img class="alignnone size-full wp-image-4473" title="08-glyph-icons" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/08-glyph-icons.jpg" alt="08-glyph-icons" width="555" height="396"></p>
 <p><a href="http://dribbble.com/shots/587469-Free-16px-Broccolidryiconsaniconsetitisfullof-icons" target="_blank">Broccolidryiconsaniconsetitisfullof…icons</a></p>
 <p><img class="size-full wp-image-4474 aligncenter" title="09-broccoli-dry-icons-an-icon-set" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/09-broccoli-dry-icons-an-icon-set.jpg" alt="09-broccoli-dry-icons-an-icon-set" width="400" height="300"></p>
 <p><a href="http://dribbble.com/shots/598215-Icon-Minia-139-Vector-Icons" target="_blank">Minia</a></p>
