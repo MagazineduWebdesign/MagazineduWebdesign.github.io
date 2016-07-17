@@ -14,6 +14,7 @@ layout: default
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 itemprop="headline">{{ page.title }}</h1>
           {% if page.intro %}<p class="subheader">{{ page.intro }}</p>{% endif %}
+          {% include custom/cartes/carte_ad_liens-texte.html %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
           {% if page.url-demo %}<a onclick="ga('send', 'event', '{{ page.category }}', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo }}" class="button radius small primary" target="_blank" rel="nofollow">DEMO</a>{% endif %}
@@ -59,7 +60,6 @@ layout: default
             </a>
           </figure>
           {% endif %}
-          {% include custom/cartes/carte_ad_liens-texte.html %}
         </div>
 
         {% unless page.metadata == 'false' %}

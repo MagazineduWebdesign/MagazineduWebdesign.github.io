@@ -94,9 +94,10 @@ layout: default
 			  	{% endcase %}
 			  	{{ page.date | date: " %Y" }}
 		  	{% endcapture %}
-		  	<p class="article-meta-item-time">
-		  		<meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/><time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
-		  	</p>
+				<p class="article-meta-item-time">
+		      <time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
+		    </p>
+				<meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/>
 		  </aside>
 
 			{% include custom/cartes/carte_ad_in-article-sidebar.html %}
@@ -109,7 +110,7 @@ layout: default
 			{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 			<div itemprop="articleBody">
 				{{ content }}
-				{% include custom/cartes/carte_ad_liens-texte.html %}
+				{% include custom/cartes/carte_ad_liens_texte_white_card.html %}
 			</div>
 
 			<!-- Tags on GitHub Pages without plugin

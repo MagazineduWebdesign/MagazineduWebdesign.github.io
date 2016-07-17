@@ -216,7 +216,7 @@ sup {
 .row-liste-index {
   @include grid-row;
   position: relative;
-  max-width:640px;
+  max-width: rem-calc(752);
   z-index: 1;
 }
 .section-header{
@@ -2070,30 +2070,32 @@ footer a:hover{
 
 // 00. ADS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.adsbygoogle.leaderboard-header{
-  margin-bottom: rem-calc(48);
-  padding: rem-calc(8) 0;
+.leaderboard{
+  padding: rem-calc(10) 0 rem-calc(4);
   border-top: 1px solid $secondary-color;
   border-bottom: 1px solid $secondary-color;
 }
-.adsbygoogle.leaderboard-in-content{
+.leaderboard.mod-header{
+  margin-bottom: rem-calc(64);
+}
+.leaderboard.mod-content{
   margin: rem-calc(48) 0 rem-calc(32);
-  padding: rem-calc(8) 0;
-  border-top: 1px solid $secondary-color;
-  border-bottom: 1px solid $secondary-color;
 }
-.adsbygoogle.medium-rect-in-content{
-  margin: rem-calc(24) 0 0;
-  padding: rem-calc(8) 0;
+.leaderboard.mod-no-margin-b{
+  margin: rem-calc(48) 0 0;
 }
-.adsbygoogle.medium-rect-in-content.mod-negative-margin{
-  position: absolute;
-  margin: rem-calc(48) rem-calc(-128) 0 0;
-  padding: rem-calc(8) 0;
+.medium-rect-in-content{
+  margin: 0 0 rem-calc(48) ;
 }
-.adsbygoogle.text-link{
-  margin: rem-calc(24) 0;
-  padding: rem-calc(8) 0;
-  border-top: 1px solid $secondary-color;
-  border-bottom: 1px solid $secondary-color;
+.text-link{
+  margin: 0  0 rem-calc(24);
+  padding: rem-calc(8) 0 rem-calc(8);
+}
+.text-link.mod-card{
+  background-color: $white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $secondary-color;
+  border-bottom-width: 0.125rem;
+  border-top-width: 0;
 }

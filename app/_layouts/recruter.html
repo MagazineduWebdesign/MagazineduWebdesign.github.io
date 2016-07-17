@@ -97,8 +97,9 @@ layout: default
 		      {{ page.date | date: " %Y" }}
 		    {% endcapture %}
 		    <p class="article-meta-item-time">
-		      <time>{{ datearticle }}</time>
+		      <time itemprop="datePublished" datetime="{{ page.date | date: "%F %X" }}">{{ datearticle }}</time>
 		    </p>
+				<meta itemprop="datePublished" content="{{ page.date | date: "%F %X" }}"/>
 		  </aside>
 
 		  {% include custom/cartes/carte_post-a-job-in-article_left.html %}
@@ -107,9 +108,9 @@ layout: default
 
 	  <main class="column-body-article">
 	  	{% if page.intro %}<p class="article-intro">{{ page.intro }}</p>{% endif %}
-			{% include custom/cartes/carte_ad_leaderboard.html %}
+			{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 	  	{{ content }}
-			{% include custom/cartes/carte_ad_leaderboard.html %}
+			{% include custom/cartes/carte_ad_liens_texte_white_card.html %}
 			<!-- Partage social
 			================================================== -->
 			<div class="row collapse article-partage">
