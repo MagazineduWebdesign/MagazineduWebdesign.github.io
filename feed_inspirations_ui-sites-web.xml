@@ -7,6 +7,18 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Arkade London / Audio Reactive Art | Web Design Inspiration</title>
+				
+					<description>Une expérience de WebVJ bien chiadée avec de la bonne musique. Je vous invite à interagir avec les différentes vidéos associées à chaque musique.
+</description>
+				
+				<pubDate>Tue, 19 Jul 2016 07:48:27 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/arkade-london--audio-reactive-art.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/arkade-london--audio-reactive-art.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-arkade-london---audio-reactive-art.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Hennessy V.S.O.P Privilège - Harmonie. Maîtrise du chaos. | Web Design Inspiration</title>
 				
 					<description>Une des plus belles expériences WebGL de l’année 2016. Découvrez les savoir-faire de la maison Hennessy nécessaires à l’élaboration du cognac V.S.O.P Privilège. Un monde de particules né du chaos s’offrira à vous !
@@ -280,18 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/d--c.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/d--c.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-d---c.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Defonic - a fabulous ambient noise generator | Web Design Inspiration</title>
-				
-					<description>Générateur de sons d’ambiance pour se relaxer et se concentrer. L’univers graphique est sympa et le switch jour/nuit apporte une touche d’originalité à l’ensemble.
-</description>
-				
-				<pubDate>Mon, 04 Jul 2016 08:18:10 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/defonic---a-fabulous-ambient-noise-generator.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/defonic---a-fabulous-ambient-noise-generator.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-defonic---a-fabulous-ambient-noise-generator.jpg" type="image/*" />
 			</item>
 		
 	</channel>
