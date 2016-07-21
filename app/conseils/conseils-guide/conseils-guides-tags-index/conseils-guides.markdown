@@ -6,6 +6,4 @@ permalink: "/conseils/guides/"
 intro: "Collection de guides, de conseils et d'astuces pour designers, développeurs & product managers. N'hésitez pas à partager vos découvertes et vos créations."
 description: "Collection de guides, de conseils et d'astuces pour designers, développeurs & product managers"
 text-twtr: "En train d'explorer la sélection de guides, de conseils et d'astuces du @MagDuWebdesign"
-bgimgheader: "true"
-image: "outils-trouver-offre-emploi-teletravail.jpg"
 ---
