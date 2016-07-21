@@ -94,8 +94,6 @@ Les solutions de CI autogérée (serveur en interne au sein de votre organisatio
 
 Un autre avantage est l’autonomie gagnée par rapport à une solution de CI dans le cloud. Si la plateforme en ligne met la clé sous la porte ou est achetée, vous aurez des garanties limitées sur l’avenir de votre outil de travail. Avec les solutions de serveurs sur site, la plupart offrent un service de migration – un gage de sécurité en cas d’événement imprévu. Exemple avec Bamboo, la solution de serveur d’intégration continue d'Atlassian, qui offre une option pour migrer votre configuration Jenkins.
 
-{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
-
 Votre écosystème interne d’outils est également une bonne raison de choisir une solution de CI autogérée – plus vous aurez de contrôle sur votre serveur CI, plus il sera facile pour vous de créer et de manager vos outils internes et votre environnement de build.
 
 Une solution autogérée est généralement plus évolutive qu'une solution cloud. Vous êtes le seul mettre des ressources humaines et techniques attribuées à la configuration et à la personnalisation de votre système d’intégration continue. L’unique inconnue reste la maintenance à long terme qui peut se révéler importante.
