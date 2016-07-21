@@ -25,7 +25,7 @@ Voici ce que vous apprendrez dans cet article :
 
 ## Qu'est-ce que l'intégration continue ?
 
-L’intégration continue (CI) est une approche du développement qui favorise les tests et le reporting de changements sur une base de code en temps réel. Cela signifie que chaque nouvelle intégration de code est vérifiée automatiquement par des scénarios de test afin de détecter le plus rapidement possible les erreurs.
+L'intégration continue (CI : Continuous integration) est une approche du développement qui favorise les tests et le reporting de changements sur une base de code en temps réel. Cela signifie que chaque nouvelle intégration de code est vérifiée automatiquement par des scénarios de test afin de détecter le plus rapidement possible les erreurs.
 
 L’objectif de l’intégration continue pour des applications mobiles est d’établir un système de feedback rapide et pertinent qui permettra aux développeurs de corriger ou d’adapter les intégrations à une application au fur et à mesure de son développement. Le bénéfice à court terme est une réduction significative des problèmes de compatibilité et la garantie d’offrir une expérience utilisateur irréprochable grâce à des mises à jour stables.
 
