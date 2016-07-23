@@ -50,31 +50,27 @@ layout: default
 		          </div>
 		        </div>
             {% endif %}
-		        <div class="row collapse">
-		          <div class="small-12 columns">
-								{% if item.image %}
-									<figure class="figure-img mod-note-img">
-										<a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
-											<img class="right" data-interchange="[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
-											[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]" alt="{{ item.title }}" width="640" height="auto" />
-											<noscript><img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ item.title }}" width="640" height="auto" /></noscript>
-										</a>
-										{% if item.image-legende %}
-										<div class="row collapse">
-											<div class="small-12 columns">
-												<figcaption>{{ item.image-legende }}</figcaption>
-											</div>
-										</div>
-										{% endif %}
-									</figure>
-								{% endif %}
-		          </div>
-		        </div>
+            {% if item.image %}
+              <figure class="figure-img mod-note-img">
+                <a href="{{ item.href }}" title="{{ item.title }}" target="_blank">
+                  <img data-interchange="[{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (default)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (small)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (smallretina)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (large)],
+                  [{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]" alt="{{ item.title }}" width="726" height="auto" />
+                  <noscript><img class="right" src="{{ item.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ item.title }}" width="726" height="auto" /></noscript>
+                </a>
+                {% if item.image-legende %}
+                <div class="row collapse">
+                  <div class="small-12 columns">
+                    <figcaption>{{ item.image-legende }}</figcaption>
+                  </div>
+                </div>
+                {% endif %}
+              </figure>
+            {% endif %} 
 
 		      </article>
         {% endfor %}
