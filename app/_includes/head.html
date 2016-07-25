@@ -39,7 +39,7 @@
   ============================== -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}" />
+  <meta property="og:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}{% if page.category == 'ui-sites-web_from-zapier' %} | Web Design Inspiration{% if page.metadata %} &ndash; {{ page.metadata }}{% endif %}{% endif %}" />
   <meta property="og:description" content="
   {% if page.description %}
     {{ page.description }}
@@ -71,7 +71,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@MagDuWebdesign" />
   <meta name="twitter:creator" content="@MagDuWebdesign">
-  <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}">
+  <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}{% if page.category == 'ui-sites-web_from-zapier' %} | Web Design Inspiration{% if page.metadata %} &ndash; {{ page.metadata }}{% endif %}{% endif %}">
   <meta name="twitter:description" content="
   {% if page.description %}
     {{ page.description }}
