@@ -11,7 +11,7 @@ layout: default
 			{% include custom/sections/index-header-intro.html %}
 		</header>
 		{% if page.coming-soon == 'true' %}
-			{% include custom/sections/inscription-alerte-release-modal-box.html %}
+      {% include components/modal-box-optin.html %}
 		{% else %}
 		<!-- number of items in the list
 		================================================== -->

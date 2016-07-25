@@ -1,0 +1,25 @@
+<header class="content-header">
+  <div class="content-header-body text-center">
+    <div class="small-12 columns">
+      <h1 class="content-header-title">
+        {{ page.title }}
+        {% if page.coming-soon == 'true' %}
+          <span class="chips">BETA</span>
+        {% endif %}
+      </h1>
+      {{ page.intro | markdownify }}
+      {% if page.header-liste-tag-title-1 %}
+        <a class="chips" href="{{ page.header-liste-tag-url-1 }}" title="Explorer la collection {{ page.header-liste-tag-title-1 | downcase }}">{{ page.header-liste-tag-title-1 | upcase }}</a>
+        {% if page.header-liste-tag-title-2 %}
+          <a class="chips" href="{{ page.header-liste-tag-url-2 }}" title="Explorer la collection {{ page.header-liste-tag-title-2  | downcase }}">{{ page.header-liste-tag-title-2 | upcase }}</a>
+        {% endif %}
+        {% if page.header-liste-tag-title-3 %}
+          <a class="chips" href="{{ page.header-liste-tag-url-3 }}" title="Explorer la collection {{ page.header-liste-tag-title-3 | downcase }}">{{ page.header-liste-tag-title-3 | upcase }}</a>
+        {% endif %}
+      {% endif %}
+      {% if page.coming-soon == 'true' %}
+        <a onclick="ga('send', 'event', 'Newsletter', 'Open modal box', 'Inscription alerte release');" href="#" class="button-without-border" data-reveal-id="inscription-alerte-release" title="Prévenez-moi par email de la release post bêta">PREVENEZ-MOI LORSQUE C'EST PRET</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

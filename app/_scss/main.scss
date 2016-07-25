@@ -43,28 +43,130 @@
 
 // Table of Contents
 // Vanilla CSS
-// a.  COLOR
-// b.  TYPOGRAPHIE
-// c.  GLOBAL
-// 01. MEDIA QUERIES
-// 01. NAVIGATION
-// 01. HEADER LIST & POST
-// 02. SECTION BRIEF
-// 02. SECTION TWITTER
-// 02. SECTION CATEGORIE
-// 02. SECTION ARTICLE BLOG + PAGE EDITORIALE
-// 00. SECTION REFERENCES ARTICLE
-// 00. SECTION COMMENTAIRE
-// 00. SECTION ENCYCLO
-// 00. SECTION COLLECTIONS
-// 00. SECTION COLLECTION
-// 00. SECTION JOB
-// 00. SECTION VIDEO
-// 00. SECTION CITATION
-// 00. SECTION SWIPER MODULE
-// 02. FOOTER
-// 00. 404
-// 00. ADS
+
+// 01. Style
+/// Colors
+/// Icons
+/// Imagery
+/// Typography
+
+// 02. Structure
+/// App bar
+/// Content canvas
+
+// 03. Components
+/// ads
+/// Buttons
+/// Cards
+/// Chips
+/// Dialogs
+/// Grid lists
+/// Lists
+/// Menus
+/// Subheaders
+/// Tabs
+/// Text fields
+/// Toolbars
+
+
+// 01. Style
+
+/// Colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Icons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Imagery
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+// 02. Structure
+
+/// App bar
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+/// Content canvas
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.content {
+  max-width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+  //header
+  .content-header { //remplacer row-liste-index
+    background: linear-gradient(to bottom,$white 0,$white-smoke 100%);
+  }
+  .content-header-body { //remplacer row-liste-index
+    @include grid-row;
+    position: relative;
+    max-width: rem-calc(752);
+    z-index: 1;
+    padding:rem-calc(64 0 48);
+  }
+  .content-header-body p { //remplacer row-liste-index
+    font-size: rem-calc(20);
+  }
+  .content-header-title {
+    font-size: rem-calc(40);
+    margin-bottom: rem-calc(48)
+  }
+  .content-header-meta {
+
+  }
+  //body
+  .content-body.mod-large {
+
+  }
+  .content-body.mod-medium {
+
+  }
+  .content-body.mod-small {
+
+  }
+  //sidebar
+  .content-sidebar {
+
+  }
+  //footer
+  .content-footer {
+
+  }
+
+// 03. Structure
+/// ads
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Buttons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Cards
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Chips
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.chips {
+  margin: rem-calc(0 8);
+  padding: rem-calc(8 12);
+  font-size: rem-calc(13);
+  background-color: $secondary-color;
+  color: $tuatara;
+  border-radius: rem-calc(16)
+}
+/// Dialogs
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Grid lists
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Lists
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Menus
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Subheaders
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Tabs
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Text fields
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Toolbars
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
 // az. @MIXINS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
