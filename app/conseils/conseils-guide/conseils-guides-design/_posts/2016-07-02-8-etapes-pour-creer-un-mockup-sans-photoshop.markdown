@@ -22,24 +22,6 @@ Bien souvent, un mockup offre une nouvelle perspective sur son travail. Par exem
 
 Néanmoins, les [ressources Web dédiées à la création de mockups](http://www.magazineduwebdesign.com/ressources/mockups/) sont le plus souvent disponibles qu’au format PSD. Je ne suis pas un grand fan de Photoshop. Ma paresse me pousse donc vers des outils de création de mockup online. Plus rapide et plus pratique, j’ai testé pour vous <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a>. Une Web app dont la promesse est d’offrir l’outil parfait pour la création de mockup online, que ce soit pour une affiche, un site Web ou une application mobile.
 
-<div class="section-carte-index-panel">
-  <a onclick="ga('send', 'event', 'Publicite', 'click', 'mockupeditor card article body top coupon code MDW50');" href="https://mockupeditor.com/plans/MDW50" title="MockupEditor offre pour les lecteurs du Magazine du Webdesign 50% de réduction sur l’abonnement pro 1 an" target="_blank" rel="nofollow">
-    <article class="carte-article-secondaire mod-ads">
-      <div class="row collapse">
-        <div class="small-3 medium-2 columns">
-          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/mockupeditor-logo.png, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/mockupeditor-logo.png);"></div>
-        </div>
-        <div class="small-9 medium-10 columns">
-          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
-            <span class="left job--entreprise">MockupEditor &ndash; 50% de réduction sur l’abonnement pro offert aux lecteurs du Magazine du Webdesign <span class="label--new">OFFRE</span></span>
-            <span class="job--description">$34 au lieu de $69 / an.</span>
-          </h1>
-        </div>
-      </div>
-    </article>
-  </a>
-</div>
-
 Les quelques lignes suivantes détaillent **les étapes de création d’un mockup sans Photoshop via l’outil MockupEditor**. Dans 5 min, votre mockup sera prêt à être afficher sur votre support de présentation favoris.
 
 ## Comment créer le mockup idéal avec MockupEditor ?
@@ -97,24 +79,6 @@ Les quelques lignes suivantes détaillent **les étapes de création d’un mock
 Si vous n’êtes pas un expert Photoshop, <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a> peut vous faire gagner en productivité grâce à son éditeur online très facile à prendre en main. Il permet de créer des designs uniques de mockup grâce à la multitude d’accessoires et la grande liberté de positionnement des objets. Les principaux [mockups de devices mobiles et desktop](http://www.magazineduwebdesign.com/ressources/mockups/) sont disponibles via l’interface. Je vous invite à faire un test avec la <a href="https://mockupeditor.com/editor" target="_blank" rel="nofollow">version gratuite</a>.
 
 Si vous êtes conquis(e), n’oublie pas d’utiliser le voucher dédié à la communauté du Magazine du Webdesign pour bénéficier de <a href="https://mockupeditor.com/plans/MDW50" target="_blank" rel="nofollow">50% de réduction sur l’abonnement annuel</a> à MockupEditor.
-
-<div class="section-carte-index-panel">
-  <a onclick="ga('send', 'event', 'Publicite', 'click', 'mockupeditor card article body bottom coupon code MDW50');" href="https://mockupeditor.com/plans/MDW50" href="https://mockupeditor.com/plans/MDW50" title="MockupEditor &ndash; 6 mois offert aux lecteurs du Magazine du Webdesign" target="_blank" rel="nofollow">
-    <article class="carte-article-secondaire mod-ads">
-      <div class="row collapse">
-        <div class="small-3 medium-2 columns">
-          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/mockupeditor-logo.png, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/mockupeditor-logo.png);"></div>
-        </div>
-        <div class="small-9 medium-10 columns">
-          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
-            <span class="left job--entreprise">MockupEditor &ndash; 6 mois offert aux lecteurs du Magazine du Webdesign <span class="label--new">OFFRE</span></span>
-            <span class="job--description">$34 au lieu de $69 / an.</span>
-          </h1>
-        </div>
-      </div>
-    </article>
-  </a>
-</div>
 
 J’espère que ce genre de cadeau vous sera utile dans votre quotidien de designer. Vous pouvez réagir à cet article en m’envoyant directement vos [feedbacks](http://www.magazineduwebdesign.com/feedback/).
 
