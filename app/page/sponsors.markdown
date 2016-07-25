@@ -28,6 +28,18 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/" title="Greenhouse CI">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-greenhouse.png" alt="logo Greenhouse" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Greenhouse CI</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
           <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/8-etapes-pour-creer-un-mockup-sans-photoshop/" title="MockupEditor">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
