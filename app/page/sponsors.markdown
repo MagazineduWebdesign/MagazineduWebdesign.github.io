@@ -133,24 +133,22 @@ Les designers et les développeurs sont le plus souvent très engagés avec les 
 
 Le Magazine du Webdesign peut vous accompagner dans votre développement en vous aidant à tisser des liens avec cette communauté de passionnés. Les solutions de promotion proposées sont toujours respectueuse de l'expérience des lecteurs et de l'intégrité éditoriale du MDW. Elles se composent de forfaits de publicité classique (CPM, CPC) et également d'offres sur mesure.
 
-<h2>Le logo de votre entreprise ou de votre produit, un lien et une description au sein d'un emplacement premium</h2>
+## Contenu sponsorisé (article ou publireportage ~500-800 mots)
+- L'objectif est de vous aider à promouvoir une annonce, à raconter une histoire, à partager des détails sur une nouvelle fonctionnalité, sur les évolutions de votre entreprise, ou concernant votre soutien envers la communauté open source. Je suis habitué à écrire moi-même le contenu. Néanmoins, un kit média avec votre histoire, votre ADN et les spécificités de votre produit est très appréciable.
+- Vous avez le contrôle total sur le contenu, mais nous nous réservons les droits éditoriaux afin de respecter la charte éditoriale du Magazine.
+- Le délai moyen est de 1 semaine pour l'écriture.
+- L'article vit sur la page d'accueil durant une moyenne de 2 semaines, et sur le site et le flux RSS pour toujours.
+- Vous gagnez des bons points auprès de la communauté en incluant une offre spéciale ; elle contribue à augmenter la conversion et le click-through.
+- L'article est accompagné de 2 tweets auprès de ~6k followers Twitter et 2k followers sur d'autres canaux social media au cours de la semaine suivant la publication.
+- 1 lien vers l'article est partagé auprès de la mailing list du MDW via la newsletter hebdo ~1 100 abonnés.
 
-1. Votre annonce approuvée apparaîtra dans des emplacements natifs à travers les catégories de contenus de votre choix.
-2. A la fin de chaque mois, vous obtiendrez un rapport détaillant le nombre de vues et de clics pour votre annonce vous permettant d'optimiser vos campagnes au fil des semaines.
-3. Prenez une longueur d'avance par rapport à vos concurrents en affichant votre annonce sur les landings pages ayant le plus fort taux de conversion pour votre annonce. Par exemple, vous êtes un créateur d'icônes, maximisez vos chance de conversion en optant pour un emplacement premium sur la landing page Icônes du MDW. Rien ne sert de payer pour des emplacements non rentables.
+## Encart sponsorisé au sein de la newsletter
+- L'encart sponsorisé est composé d'un encart image (125*125 max), d'un lien avec 2-3 lignes de texte.
+- Notre approche est de privilégié l'inbound marketing via la newsletter. De plus en plus d'organisations envisagent leur blog ent tant que porte d'entrée privilégiée dans le funnel de conversion. Pour ce type de sponsoring, nous recommandons de diriger nos lecteurs vers des contenus riches (type articles, tutoriels, etc.) et de laisser votre entonnoir de conversion faire son travail : convertir.
+- L'écriture du contenu de l'encart est pris en charge, il n'y a donc pas de travail de votre part.
 
-Si vous n'êtes pas certain que cela est adapté à vos besoins, envisagez les articles sponsorisés.
-
-<h2>Des contenus sponsorisés</h2>
-Un des moyens les plus efficaces pour créer du lien avec les lecteurs passe par le contenu sponsorisé. Un article commandité par un annonceur est :
-
-* composé par le MDW afin de respecter la ligne éditoriale et conserver une harmonie avec le reste du site.
-* bénéficie d'un emplacement au sein de la newsletter hebdomadaire, d'un tweet, d'un post Facebook.
-* mis en avant dans certains cas au sein d'un emplacement pub afin d'étendre le reach.
-
-Les articles sponsorisés sont publiés de manière permanente avec l'ensemble des éléments de marque du sponsor &ndash; logo et URL.
-
-Si vous pensez qu'un de vos produits peut rendre le quotidien de la communauté plus facile, n'hésitez pas à prendre contact afin de connaître les coûts et obtenir plus d'informations concernant les offres de contenus sponsorisés.
+## Placement de lien sponsorisé sur le site Web :
+- Une image avec du texte pour 2 semaines de visibilité dans les emplacements premium (top barre latérale et placement natif au sein des listes de contenu).
 
 <p class="text-center">
   <a onclick="ga('send', 'event', 'Publicite', 'sponsoriser le mdw', 'btn native in bottom text');" class="typeform-share link button radius" href="https://magazineduwebdesign.typeform.com/to/BeCnsj" data-mode="2" target="_blank" title="Sponsoriser le MDW">SPONSORISER LE MDW</a>
