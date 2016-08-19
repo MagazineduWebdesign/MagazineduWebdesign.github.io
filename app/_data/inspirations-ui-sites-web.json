@@ -1,5 +1,77 @@
 [
   {
+    "date": "August 19 2016 08:23:52 AM",
+    "title": "Kygo Life - Music Meets Fashion",
+    "url-demo": "https://kygolife.com",
+    "image": "web-design-inspiration-kygo-life---music-meets-fashion.jpg",
+    "metadata": "ECOMMERCE",
+    "commentaire": "La nouvelle ligne de fringues du DJ Kygo. Une belle structuration de page avec une mise en scène travaillée de la typographie.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "date": "August 19 2016 08:42:32 AM",
+    "title": "Divenamic – Aiia",
+    "url-demo": "http://divenamicone.enjoy-aiia.com/#",
+    "image": "web-design-inspiration-divenamic---aiia.jpg",
+    "metadata": "landing page",
+    "commentaire": "Une page produit bien sympa avec de nombreuses micro-interactions autour de l'objet : vue 360°, vidéo en background, animation lors du scroll down, etc.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "date": "August 19 2016 08:40:58 AM",
+    "title": "Space Advisor",
+    "url-demo": "http://www.space-advisor.ca/en",
+    "image": "web-design-inspiration-space-advisor.jpg",
+    "metadata": "EXPERIENCE INTERACTIVE",
+    "commentaire": "Une expérience interactive prenant la forme d'une formulaire au sujet d'un documentaire : The begining of NewSpace.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "date": "August 19 2016 08:38:09 AM",
+    "title": "Next Art",
+    "url-demo": "http://nextart.tech",
+    "image": "web-design-inspiration-next-art.jpg",
+    "metadata": "landing page",
+    "commentaire": "Une animation en background sympa pour cette landing page dédiée à un événement.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "date": "August 19 2016 08:34:37 AM",
+    "title": "Bitter Renter",
+    "url-demo": "http://www.bitterrenter.nyc",
+    "image": "web-design-inspiration-bitter-renter.jpg",
+    "metadata": "GUIDE",
+    "commentaire": "Un guide interactif pour votre première location d'appartement à New York. Le design du formulaire est sympa.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
+    "date": "August 19 2016 08:36:55 AM",
+    "title": "Likeminds Camp",
+    "url-demo": "http://likeminds.camp",
+    "image": "web-design-inspiration-likeminds-camp.jpg",
+    "metadata": "landing page",
+    "commentaire": "Une conférence au carrefour de l'art et de la technologie à Beacon, NY. Le but est d'inspirer la collaboration en suscitant de nouvelles idées.",
+    "category": "ui-sites-web_from-zapier",
+    "path1": "inspirations",
+    "path2": "ui-design",
+    "path3": "sites-web"
+  },
+  {
     "date": "August 17 2016 11:41:24 AM",
     "title": "Stranger Things Type Generator - magazine duwebdesign - Nelson Cash",
     "url-demo": "http://makeitstranger.com/magazine-duwebdesign",
