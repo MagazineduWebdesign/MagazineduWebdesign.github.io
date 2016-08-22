@@ -62,7 +62,7 @@ Quelques exemples de structures à rechercher lors d’une sélection de thèmes
 - Le format tableur : [claudiadoms.com](http://claudiadoms.com/) – original !
 
 <div class="section-carte-index-panel">
-  <a href="https://themeforest.net/item/uncode-creative-multiuse-wordpress-theme/13373220?ref=carcsn" title="Collection de design de sites internet">
+  <a href="http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/" title="Collection de design de sites internet">
     <article class="carte-article-secondaire mod-ads">
       <div class="row collapse">
         <div class="small-3 medium-2 columns">
