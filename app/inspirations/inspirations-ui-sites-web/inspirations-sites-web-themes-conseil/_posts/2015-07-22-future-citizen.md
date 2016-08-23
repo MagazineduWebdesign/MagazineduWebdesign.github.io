@@ -15,7 +15,7 @@ tags:
 theme: "conseil"
 theme-url: "/inspirations/ui-design/sites-web/themes/conseil/"
 format: "landing page"
-format-url: "/inspirations/ui-design/sites-web/formats/landing-page/"
+format-url: "/inspirations/ui-design/sites-web/formats/landing-pages/"
 animation-1: "animation background"
 animation-url-1: "/inspirations/ui-design/sites-web/animation/background/"
 animation-2:

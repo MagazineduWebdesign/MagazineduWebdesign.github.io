@@ -26,5 +26,5 @@ rating: "8"
 ---
 **Caractéristiques**
 
-* Structure similaire au [thème Jekyll Poole](/theme-jekyll-poole/) ;
+* Structure similaire au [thème Jekyll Poole](http://www.magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-poole/) ;
 * Compatible [Jekyll `2.5.3`](http://jekyllrb.com/) et [GitHub Pages](https://pages.github.com/).

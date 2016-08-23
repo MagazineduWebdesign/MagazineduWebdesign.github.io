@@ -28,7 +28,7 @@ composant-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/liste-image
 composant-ui-2: "ecran de lancement"
 composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/ecran-lancement/"
 element-ui-1: "navigation off canvas"
-element-ui-url-1: "/inspirations/ui-design/sites-web/composants-ui/navigation-off-canvas/"
+element-ui-url-1: "/inspirations/ui-design/sites-web/elements-ui/navigation-off-canvas/"
 composant-ui-2: "Fiche produit"
 composant-ui-url-2: "/inspirations/ui-design/sites-web/composants-ui/fiche-produit/"
 url-demo: "http://ikano.ge/?ref=magazineduwebdesign"

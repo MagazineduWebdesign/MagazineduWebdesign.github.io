@@ -26,7 +26,7 @@ rating: "8"
 ---
 **Caractéristiques**
 
-* Structure empruntée au [thème Jekyll Poole](/theme-jekyll-poole/) ;
+* Structure empruntée au [thème Jekyll Poole](http://www.magazineduwebdesign.com/ressources/themes-jekyll/theme-jekyll-poole/) ;
 * Compatible [Jekyll `2.5.3`](http://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/) ;
 * Possibilité de placer la sidebar à gauche ou à droite de l'interface ;
 * Gestion des tailles de textes et des dimensions de composants UI avec les unités `rem` ;

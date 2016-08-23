@@ -9,7 +9,7 @@ image: "proces-creatif.jpg"
 image-legende: ""
 auteur: "MagDuWebdesign"
 keyword_title: ""
-keyword_desc: "..."
+keyword_desc: ""
 viaurl: "http://9gag.com/gag/aD0R7gB"
 viatitle: "9gag"
 ---
