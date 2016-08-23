@@ -1,17 +1,17 @@
 ---
-title: Coding cards – comment les balises HTML peuvent être appliquées à votre quotidien
-date: 2013-06-09 17:22:56
+title: "Coding cards – comment les balises HTML peuvent être appliquées à votre quotidien"
+date: "2013-06-09 17:22:56"
 category: "fun"
 tags:
 - inspiration
-intro: Constantinos Papaconstantinou est un graphiste grecque qui a eu l'idée de juxtaposer des balises HTML et des attributs CSS à des situations du quotidien.
-image: affiche-coding-cards-00.jpg
-image-legende: ...
-auteur: MagDuWebdesign
-keyword_title: ...
-keyword_desc: ...
-viaurl: http://thedsgnblog.com/post/52221411497/coding-cards
-viatitle: thedsgnblog.com
+intro: "Constantinos Papaconstantinou est un graphiste grecque qui a eu l'idée de juxtaposer des balises HTML et des attributs CSS à des situations du quotidien."
+image: "affiche-coding-cards-00.jpg"
+image-legende: ""
+auteur: "MagDuWebdesign"
+keyword_title: ""
+keyword_desc: ""
+viaurl: "http://thedsgnblog.com/post/52221411497/coding-cards"
+viatitle: "thedsgnblog.com"
 ---
 
 <p>Intitulé «&nbsp;<a href="http://www.behance.net/gallery/Coding-Cards/8996991" target="_blank">Coding cards – Applying tags in Life</a>«&nbsp;, ce projet d’affiches minimalistes traduit avec élégance les éléments HTML.<span id="more-5601"></span></p>
