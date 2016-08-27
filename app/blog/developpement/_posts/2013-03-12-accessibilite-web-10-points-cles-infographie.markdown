@@ -17,7 +17,7 @@ viatitle:
 <h2>L’accessibilité Web n’est pas un luxe</h2>
 <p>La conception d’un site respectant les <strong>principes de l’accessibilité Web</strong> n’engendre pas forcément une hausse de son coût. La majorité des&nbsp;<a href="http://www.w3.org/WAI/intro/wcag" target="_blank">directives pour l’accessibilité aux contenus Web</a> éditées par le WAI (Web Accessibility Initiative) reprennent en grande partie les standards du W3C. Si ces derniers sont respectés comme il se doit, votre site Web sera en grande partie accessible.</p>
 <p>Vous pouvez évaluer dès à présent l’accessibilité de votre site Web en calculant votre score grâce à cette checklist listant les 40 techniques à mettre en place pour un Web accessible :</p>
-<p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist" target="_blank">Evaluez mon score d’accessibilité</a></p>
+<p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist" target="_blank">Evaluer mon score d’accessibilité</a></p>
 <h2 style="text-align: left;">Un Web accessible en 10 points</h2>
 <p>Voici 10&nbsp;règles&nbsp;pouvant être mises en place facilement dans un projet Web :<br>
 <img class="aligncenter size-full wp-image-3947" title="Accessibilité Web Infographie" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/accessibilite-web-infographie-magazine-du-web-design.jpg" alt="Accessibilité Web Infographie" width="534" height="517"></p>
@@ -34,4 +34,4 @@ viatitle:
 <li>Les erreurs d’un formulaire sont notifiées à l’utilisateur.</li>
 </ol>
 <p>N’oubliez pas d’évaluer l’accessibilité de votre site Web. Cette checklist peut être utilisée comme une To-do list :</p>
-<p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist" target="_blank">Evaluez mon score d’accessibilité</a></p>
+<p style="text-align: center;"><a class="button primary radius" href="http://magazineduwebdesign.com/accessibilite-web-ckecklist" target="_blank">Evaluer mon score d’accessibilité</a></p>
