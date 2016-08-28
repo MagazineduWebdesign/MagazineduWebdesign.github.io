@@ -56,6 +56,9 @@ layout: default
   <div class="row-body-article item-contenu">
     <main class="column-body-article mod-article-left-body">
       {{ content }}
+      <div class="row collapse article-partage">
+        {% include custom/sections/share-article-footer.html %}
+      </div>
       {% include custom/sections/article_footer_left.html %}
       {% include custom/cartes/carte_ad_liens_texte_white_card.html %}
     </main>
