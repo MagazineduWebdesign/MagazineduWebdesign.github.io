@@ -14,7 +14,7 @@ event-start-date: "15"
 event-ending-date: "16 sept. 2016"
 event-location: "Bologne"
 siteweb: "https://2016.fromthefront.it/?ref=MagazineDuWebdesign"
-image: "from-the-front_ambiance.png"
+image: "from-the-front_ambiance.jpg"
 description: "La conférence From the Front est une source d'inspiration et de connaissance, rassemblant les meilleurs développeurs frontend et experts UX de la planète Web. Bologne, septembre 2016."
 ---
 Seront abordés des thèmes pointus tels que la VoiceUI, le design modulaire, les récentes évolutions concernant le CSS et le SVG, et plus largement du design d’expérience et du [quotidien des designers et développeurs](http://www.magazineduwebdesign.com/conseils/podcasts/).
