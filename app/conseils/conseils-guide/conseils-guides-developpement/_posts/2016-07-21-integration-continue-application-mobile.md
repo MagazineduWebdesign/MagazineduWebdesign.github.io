@@ -15,7 +15,7 @@ description: "L'intégration continue (CI : Continuous integration) est un ensem
 carte-optin-downoload-pdf: "false"
 ---
 
-Dans son rapport 2015, Puppet Labs conclut que les équipes ayant embrassé les méthodologies [Devops](https://fr.wikipedia.org/wiki/Devops) – dont l’intégration continue constitue un élément central – déploient leur code **30 fois plus fréquemment** et **200 fois plus vite** que les équipes n’ayant pas mis en place ce type de pratiques. Elles rencontrent également 60% moins d’erreurs et trouvent des solutions **168 fois plus vite** – [source](https://puppet.com/resources/white-paper/2015-state-devops-report).
+Dans son rapport 2015, Puppet Labs conclut que les équipes ayant embrassé les méthodologies [Devops](https://fr.wikipedia.org/wiki/Devops) – dont l’intégration continue (l'équivalent en anglais de CI : Continuous integration) constitue un élément central – déploient leur code **30 fois plus fréquemment** et **200 fois plus vite** que les équipes n’ayant pas mis en place ce type de pratiques. Elles rencontrent également 60% moins d’erreurs et trouvent des solutions **168 fois plus vite** – [source](https://puppet.com/resources/white-paper/2015-state-devops-report).
 
 Voici ce que vous apprendrez dans cet article :
 
@@ -23,9 +23,9 @@ Voici ce que vous apprendrez dans cet article :
 - Pourquoi devrais-je adopter un processus d’intégration continue et quels sont ses avantages ?
 - Quels sont les bénéfices des plateformes cloud d’intégration continue ?
 
-## Qu'est-ce que l'intégration continue ?
+## Qu'est-ce que l'intégration continue (CI : Continuous integration) ?
 
-L'intégration continue (CI : Continuous integration) est une approche du développement qui favorise les tests et le reporting de changements sur une base de code en temps réel. Cela signifie que chaque nouvelle intégration de code est vérifiée automatiquement par des scénarios de test afin de détecter le plus rapidement possible les erreurs.
+L'intégration continue est une approche du développement qui favorise les tests et le reporting de changements sur une base de code en temps réel. Cela signifie que chaque nouvelle intégration de code est vérifiée automatiquement par des scénarios de test afin de détecter le plus rapidement possible les erreurs.
 
 L’objectif de l’intégration continue pour des applications mobiles est d’établir un système de feedback rapide et pertinent qui permettra aux développeurs de corriger ou d’adapter les intégrations à une application au fur et à mesure de son développement. Le bénéfice à court terme est une réduction significative des problèmes de compatibilité et la garantie d’offrir une expérience utilisateur irréprochable grâce à des mises à jour stables.
 
