@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 /*
 
    _____ _       _                 _  _____
@@ -1600,3 +1601,4 @@ $(document).ready(function() { "use strict";
 
 // end on dom ready
 });
+/* jshint ignore:end */
