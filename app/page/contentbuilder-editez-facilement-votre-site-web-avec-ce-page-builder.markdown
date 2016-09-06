@@ -31,7 +31,7 @@ L’avantage d’une telle solution réside dans le fait que des utilisateurs n�
 
 Inclure les fichiers HTML et JS nécessaire au sein de votre site Internet :
 
-{% highlight %}
+{% highlight js %}
 $("#contentarea").contentbuilder({      
   snippetFile: 'snippets.html'      
   });
@@ -41,13 +41,13 @@ Le paramètre snippetFile vous permet de spécifier un fichier html contenant un
 
 Pour obtenir le contenu HTML, déclarez :
 
-{% highlight %}
+{% highlight js %}
 var sHTML = $('#contentarea').data('contentbuilder').html();
 {% endhighlight %}
 
 Vous trouverez ci-dessous un exemple de snippet :
 
-{% highlight %}
+{% highlight html %}
 <div data-thumb="assets/simple/thumbnails/01.png">
   <div>
     <h1>Heading 1</h1>
