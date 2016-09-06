@@ -32,7 +32,11 @@
     {{ page.commentaire | markdownify | strip_html }}
   {% else %}
   {% endif %}">
+  {% if page.noindex == 'true' %}
+  <meta name="robots" content="noindex"/>
+  {% else %}
   <meta name="robots" content="noodp,noydir"/>
+  {% endif %}
 
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
   Twitter: https://dev.twitter.com/docs/cards/types/summary-card

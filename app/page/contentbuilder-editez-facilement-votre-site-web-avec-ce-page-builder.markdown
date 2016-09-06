@@ -13,6 +13,7 @@ logo: "innovastudio-logo.jpeg"
 image-sub-post-intro: "contentbuilder-js-editeur.jpg"
 intro: "Avec ce page builder, vous pouvez désormais éditer via Drag & drop des contenus dans votre propre site Internet / CMS."
 description: "Un éditeur de contenu user friendly vous permettant de modifier facilement vos pages Web en utilisant un mélange de WYSIWYG classique et une expérience de drag & drop."
+noindex: "true"
 ---
 ContentBuilder.js est un plugin jQuery qui convertit un élément  &lt;div&gt; d’une page Web en un bloc éditable. Vous pouvez utiliser le plugin dans vos applications web, CMS, etc. Contrairement aux autres éditeurs, le plugin vous fournit des blocs de contenu très bien conçus, prêts à être glisser-déposer au sein de n’importe quelle zone de vos pages. Vous pouvez même créer vos propres blocs de contenu.
 
