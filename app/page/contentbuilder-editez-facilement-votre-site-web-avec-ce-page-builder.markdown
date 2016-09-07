@@ -69,8 +69,8 @@ Vous trouverez ci-dessous un exemple de snippet :
 {% endhighlight %}
 
 <figure class="figure-img mod-note-img">
-  <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/contentbuilder-js-snippet.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/contentbuilder-js-snippet.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbuilder-js-snippet.jpg, (large)]" class="note-container-img" alt="Création d'un custom snippet ContentBuilder" width="auto" height="auto" />
-  <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbuilder-js-snippet.jpg" alt="Création d'un custom snippet ContentBuilder" width="auto" height="auto" /></noscript>
+  <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/contentbuilder-js-snippet-1.jpg, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/contentbuilder-js-snippet-1.jpg, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbuilder-js-snippet-1.jpg, (large)]" class="note-container-img" alt="Création d'un custom snippet ContentBuilder" width="auto" height="auto" />
+  <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbuilder-js-snippet-1.jpg" alt="Création d'un custom snippet ContentBuilder" width="736" height="auto" /></noscript>
   <figcaption>Création d'un custom snippet ContentBuilder.</figcaption>
 </figure>
 
