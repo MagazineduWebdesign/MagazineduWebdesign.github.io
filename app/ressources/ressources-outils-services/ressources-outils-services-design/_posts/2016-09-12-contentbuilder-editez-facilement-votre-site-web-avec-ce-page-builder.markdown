@@ -1,7 +1,7 @@
 ---
 layout: "ressources-default"
 title: "ContentBuilder – Editez facilement votre site Web avec ce page builder"
-date: "2016-09-05 00:23:57"
+date: "2016-09-12 00:23:57"
 path1: "ressources"
 path2: "outils-services"
 path3: "design"
