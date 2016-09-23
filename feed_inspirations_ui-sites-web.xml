@@ -7,6 +7,42 @@
 		<atom:link href="http://www.magazineduwebdesign.com/feed_inspirations_ui-sites-web.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Chilid | Web Design Inspiration</title>
+				
+					<description>Site portfolio de l’agence digital Chilid. Les interactions lors du scroll permettent de dérouler un intéressant récit sur l’histoire de l’agence.
+</description>
+				
+				<pubDate>Fri, 23 Sep 2016 10:30:06 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/chilid.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/chilid.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-chilid.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Discover your Patronus - Pottermore | Web Design Inspiration</title>
+				
+					<description>Explorez l’univers de J.K. Rowling et découvrez votre Patronus. L’expérience consiste à répondre à quelques questions mise en scène au sein d’une balade dans cette forêt enchantée.
+</description>
+				
+				<pubDate>Fri, 23 Sep 2016 10:34:29 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/discover-your-patronus---pottermore.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/discover-your-patronus---pottermore.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-discover-your-patronus---pottermore.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Autumn-Winter 2016 Campaign. Lois Jeans. | Web Design Inspiration</title>
+				
+					<description>Sympathique landing page pour la saison AW de Lois Jeans. L’exploration des contenus se fait via des micro-interactions au clavier. Bonne idée.
+</description>
+				
+				<pubDate>Fri, 23 Sep 2016 11:57:51 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/autumn-winter-2016-campaign.-lois-jeans..html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/autumn-winter-2016-campaign.-lois-jeans..html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-autumn-winter-2016-campaign--lois-jeans-.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Vodafone - Powerful Connections | Web Design Inspiration</title>
 				
 					<description>De belles micro-interactions et une structure de page sympa.
@@ -256,42 +292,6 @@
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projections---design-conference-poznan---poland.html</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/projections---design-conference-poznan---poland.html</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-projections---design-conference--poznan---poland.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Plasticbionic - Art Direction, Graphic Design &amp; Illustration | Web Design Inspiration</title>
-				
-					<description>Pro : le panel off canvas présentant les projets de la team. Le :hover sur les images du listing principal.
-</description>
-				
-				<pubDate>Fri, 16 Sep 2016 00:40:30 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/plasticbionic---art-direction-graphic-design--illustration.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/plasticbionic---art-direction-graphic-design--illustration.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-plasticbionic---art-direction--graphic-design---illustration.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Nuage | Web Design Inspiration</title>
-				
-					<description>Pro : les couleurs, le logo animé, le mariage des typos, le rythme vertical.
-</description>
-				
-				<pubDate>Fri, 16 Sep 2016 00:38:15 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nuage.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nuage.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-nuage.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Bastille: Eye Of The Stormers | Web Design Inspiration</title>
-				
-					<description>Eye of the Stormers est un projet de collaboration entre Bastille et Spotify, un genre de compagnon pour leur nouvel album, Wild World. Plus une ville écoutera la musique de Bastille sur Spotify, plus la tempête sera grande.
-</description>
-				
-				<pubDate>Fri, 16 Sep 2016 08:54:03 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bastille-eye-of-the-stormers.html</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bastille-eye-of-the-stormers.html</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-bastille--eye-of-the-stormers.jpg" type="image/*" />
 			</item>
 		
 	</channel>
