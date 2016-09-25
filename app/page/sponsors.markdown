@@ -28,6 +28,71 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/" title="sarbacane">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-sarbacane.png" alt="logo Sarbacane" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Sarbacane</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/depositphotos/" title="depositphotos">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-depositphotos.png" alt="logo depositphotos" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Depositphotos</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/moo-revolutionne-les-cartes-de-visite/" title="MOO">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/moo-logo.png" alt="logo MOO" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">MOO</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbuilder-editez-facilement-votre-site-web-avec-ce-page-builder/" title="Innovastudio">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/innovastudio-logo.jpeg" alt="logo innovastudio" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Innovastudio</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/design-portfolio-graphiste-wordpress/" title="Uncode">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/uncode-logo.jpg" alt="logo uncode" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Uncode</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
           <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/" title="Greenhouse CI">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
