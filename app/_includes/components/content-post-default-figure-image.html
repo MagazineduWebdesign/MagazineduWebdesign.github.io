@@ -1,0 +1,5 @@
+<figure class="figure-img mod-note-img">
+  <img data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/small/{{ include.param }}, (small)],[https://s3-eu-west-1.amazonaws.com/mdw-images/medium/{{ include.param }}, (medium)],[https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ include.param }}, (large)]" class="note-container-img" alt="{{ include.param | replace: '-', ' ' | upcase }}" width="736" height="auto" />
+  <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ include.param }}" alt="{{ include.param | replace: '-', ' ' | upcase }}" width="736" height="auto" /></noscript>
+  <figcaption>{{ include.param | replace: '-', ' ' | upcase | replace: '.png', ' ' | replace: '.jpg', ' ' }}</figcaption>
+</figure>
