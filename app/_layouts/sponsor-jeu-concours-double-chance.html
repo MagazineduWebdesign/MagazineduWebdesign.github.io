@@ -251,7 +251,7 @@
 				</div>
 			</div>
 			<div class="fix-10-12 frame-94 ae-3">
-				<div class="ae-3"><p class="cropBottom inline">Tweetez pour obtenir une deuxième chance de gagner.</p><br /><a onclick="ga('send', 'social', 'Twitter', 'tweet', '{{ site.url }}{{ page.url }}');" href="https://twitter.com/share?url={{ site.url }}/depositphotos/&amp;text={{ page.twitter-text  | cgi_escape }}" class="button button-94 uppercase twitter ae-3 middle" rel="nofollow" target="_blank">Tweeter</a></div>
+				<div class="ae-3"><p class="cropBottom inline">Tweetez pour obtenir une deuxième chance de gagner.</p><br /><a onclick="ga('send', 'social', 'Twitter', 'tweet', '{{ site.url }}{{ page.url }}');" href="https://twitter.com/share?url={{ page.twitter-landing-page-url }}&amp;text={{ page.twitter-text  | cgi_escape }}" class="button button-94 uppercase twitter ae-3 middle" rel="nofollow" target="_blank">Tweeter</a></div>
 			</div>
 
 		</div>
@@ -264,13 +264,13 @@
 	<nav class="panel bottom forceMobileView">
 	<div class="sections desktop">
 	<div class="left"></div>
-	<div class="center space"><p class="micro">Proposé par <a href="http://www.magazineduwebdesign.com/" target="_blank"><b>Magazine du Webdesign</b></a> + <a href="http://fr.depositphotos.com/?utm_source=Magazineduwebdesign&utm_medium=freesub&utm_campaign=FR-brand" target="_blank"><b>Depositphotos</b></a></p></div>
+	<div class="center space"><p class="micro">Proposé par <a href="http://www.magazineduwebdesign.com/" target="_blank"><b>Magazine du Webdesign</b></a> + <a href="{{ page.by-url }}" target="_blank"><b>{{ page.by }}</b></a></p></div>
 	<div class="right"></div>
 	</div>
 	<div class="sections compact hidden">
-	<div class="left"></div>
-	<div class="center space"><a href="http://www.magazineduwebdesign.com/" target="_blank"><b>MDW</b></a> + <a href="http://fr.depositphotos.com/?utm_source=Magazineduwebdesign&utm_medium=freesub&utm_campaign=FR-brand" target="_blank"><b>Depositphotos</b></a></div>
-	<div class="right"></div>
+		<div class="left"></div>
+		<div class="center space"><a href="http://www.magazineduwebdesign.com/" target="_blank"><b>MDW</b></a> + <a href="{{ page.by-url }}" target="_blank"><b>{{ page.by }}</b></a></div>
+		<div class="right"></div>
 	</div>
 	</nav>
 
