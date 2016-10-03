@@ -8,7 +8,7 @@ layout: default
     <header class="row-body-article medium-uncollapse large-collapse">
 
       <div class="column-header-article mod-header-article-no-margin-top row collapse header-background-title mod-inspiration">
-        {% include custom/cartes/carte_ad_leaderboard_header.html %}
+        {% include custom/cartes/carte_ad_custom_leaderboard_header.html %}
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 class="is-title" data-is-title="{{ page.title | truncate: 48 }}" itemprop="headline">{{ page.title }} <small>Web Design Inspiration &ndash; {{ page.metadata | downcase }}</small></h1>
           {% if page.commentaire %}{{ page.commentaire | markdownify }}{% endif %}
