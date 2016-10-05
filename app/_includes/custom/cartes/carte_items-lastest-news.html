@@ -39,7 +39,7 @@
   ================================================== -->
   <div class="row">
 	  <div class="small-12 columns">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4 mod-grid-cross-nav">
+			<ul class="small-block-grid-1 medium-block-grid-3 mod-grid-cross-nav">
 
         <!-- Promoted content -->
         <li>
@@ -63,7 +63,7 @@
         </li>
 
         <!-- latest inspirations ui sites web posts from zapier automated publication workflow -->
-        {% for siteweb in site.data.inspirations-ui-sites-web limit: 3 %}
+        {% for siteweb in site.data.inspirations-ui-sites-web limit: 7 %}
         <li>
           <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
 
@@ -96,133 +96,6 @@
           </article>
         </li>
         {% endfor %}
-        <!-- latest inspirations ui animation posts from zapier automated publication workflow -->
-        {% for animation in site.data.inspirations-ui-animations limit: 4 %}
-        <li>
-          <article class="grid-article-card js-postcount" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-
-            <a class="grid-article-card-link-wrap" href="{{ animation.title | datapage_url: '/inspirations/ui-design/animations' | prepend: site.url }}" title="{{ animation.title }}">
-
-              <div class="row collapse grid-article-card-image">
-                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                  {% if animation.image %}
-                    <img src="{{ animation.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ animation.title }}" width="219" />
-                  {% endif %}
-                </div>
-              </div>
-
-              <div class="row collapse">
-                <div class="grid-article-card-info small-12 columns">
-                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ animation.title | truncate: 48 }}</h1>
-                </div>
-              </div>
-
-            </a>
-
-            <div class="grid-article-card-ctrl">
-              {% if animation.url-demo %}
-                <a onclick="ga('send', 'event', 'ui-animations', 'Visit demo', '{{ animation.title }}');" class="grid-article-card-ctrl-preview" href="{{ animation.url-demo | append: '?ref=magazineduwebdesign' }}" title="Aperçu – {{ animation.title }}" target="_blank" rel="nofollow">
-                  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
-                </a>
-              {% endif %}
-            </div>
-
-          </article>
-        </li>
-        {% endfor %}
-        <!-- latest posts from classic jekyll publication workflow -->
-        {% for post in site.posts limit: 4 %}
-        <li>
-          <article class="grid-article-card" itemscope="" itemtype="http://schema.org/Article" data-equalizer-watch>
-
-            <a class="grid-article-card-link-wrap" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
-
-              {% unless post.image or post.id-youtube or post.id-vimeo %}
-                <!-- if no thumbnail -->
-                <div class="row collapse">
-                  <div class="grid-article-card-info mod-mix-th-no-th small-12 columns">
-                    <h1 class="grid-article-card-title">{{ post.title | truncate: 70 }}</h1>
-                    {% if post.intro %}
-                      <p class="grid-article-card-meta">{{ post.intro | markdownify | strip_html | truncate: 70 }}</p>
-                    {% endif %}
-                  </div>
-                </div>
-              {% endunless %}
-
-              <!-- if thumbnail image -->
-              {% if post.image %}
-              <div class="row collapse grid-article-card-image">
-                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                  <img data-interchange="[{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (default)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (medium)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (mediumretina)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}, (large)],
-                  [{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (largeretina)]" alt="{{ post.title }}" width="219" height="106" />
-                  <noscript><img src="{{ post.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/lsmall/' }}" alt="{{ post.title }}" width="219" height="106" /></noscript>
-                </div>
-              </div>
-              <div class="row collapse">
-                <div class="grid-article-card-info small-12 columns">
-                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
-                </div>
-              </div>
-              {% endif %}
-
-              <!-- if thumbnail youtube -->
-              {% if post.id-youtube %}
-              <div class="row collapse grid-article-card-image">
-                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                  <img src="http://img.youtube.com/vi/{{ post.id-youtube | remove: ' ' }}/mqdefault.jpg" alt="{{ post.title }}" width="219" height="106" />
-                </div>
-                <div class="grid-article-card-ctrl">
-                  <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 5v14l11-7z"/>
-                    <path d="M0 0h24v24H0z" fill="none"/>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="row collapse">
-                <div class="grid-article-card-info small-12 columns">
-                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
-                </div>
-              </div>
-              {% endif %}
-
-              <!-- if thumbnail vimeo -->
-              {% if post.id-vimeo %}
-              <div class="row collapse grid-article-card-image">
-                <div class="small-12 columns" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                  <img src="" data-vimeo-id="{{ post.id-vimeo | remove: ' ' }}" class="large" alt="{{ post.title }}" width="219" height="106" />
-                </div>
-                <div class="grid-article-card-ctrl">
-                  <svg class="grid-article-card-ctrl-play" fill="#FFFFFF" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 5v14l11-7z"/>
-                    <path d="M0 0h24v24H0z" fill="none"/>
-                  </svg>
-                </div>
-              </div>
-              <div class="row collapse">
-                <div class="grid-article-card-info small-12 columns">
-                  <h1 class="grid-article-card-title mod-card-w-tag" itemprop="headline">{{ post.title | truncate: 48 }}</h1>
-                </div>
-              </div>
-              {% endif %}
-            </a>
-
-            {% if post.url-demo %}
-              <div class="grid-article-card-ctrl">
-                <a onclick="ga('send', 'event', '{{ post.category }}', 'Visit demo', '{{ post.title }}');" class="grid-article-card-ctrl-preview" href="{{ post.url-demo }}" title="Aperçu – {{ post.title }}" target="_blank" rel="nofollow">
-                  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" ><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="#FFFFFF"/></svg>
-                </a>
-              </div>
-            {% endif %}
-
-          </article>
-        </li>
-  			{% endfor %}
 			</ul>
 	  </div>
 	</div>
