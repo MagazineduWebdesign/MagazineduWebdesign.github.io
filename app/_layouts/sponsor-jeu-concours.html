@@ -214,9 +214,17 @@
 
 			<div class="fix-10-12">
 				<div class="ae-1">
+					{% if page.expire == 'true' %}
+						<h2 class="micro ae-1 done">C'est terminé !</h2>
+					{% endif %}
 					<h1 class="small ae-1 done">{% if page.title %}{{ page.title }}{% endif %}</h1>
 					<p class="small ae-1">{{ page.intro }}</p>
 				</div>
+				{% if page.winner %}
+				<div class="form-12 ae-2">
+					<p class="ae-3 opaque text-25 done">🎉 Et le gagnant est... <br><a href="{{ page.winner-url }}"><b>{{ page.winner }}</b></a></p>
+				</div>
+				{% else %}
 				<div class="form-12 ae-2">
 					<form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id={{ page.mailchimp-form-id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate ae-4" target="_self" novalidate>
 
@@ -240,6 +248,7 @@
 						{{ page.conditions }}
 					</p>
 				</div>
+				{% endif %}
 			</div>
 
 		</div>
