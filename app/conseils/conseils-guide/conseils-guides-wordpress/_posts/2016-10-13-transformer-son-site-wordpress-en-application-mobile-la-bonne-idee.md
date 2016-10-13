@@ -30,7 +30,7 @@ Revenons un instant sur ces fameuses études. La majorité des réponses qu'elle
 
 **Le comment** ? Exemple : quelle est la répartition du temps entre les différentes activités possibles sur mobile ? 90% du temps passé sur mobile aux U.S. en 2015 est dédié à l'usage d'applications (Source : [Flurry Analytics](http://flurrymobile.tumblr.com/post/127638842745/seven-years-into-the-mobile-revolution-content-is) – Yahoo).
 
-{% include components/content-post-default-figure-image.html param="percent-time-spent-on-mobile-apps-2016..png" %}
+{% include components/content-post-default-figure-image.html param="percent-time-spent-on-mobile-apps-2016.png" %}
 
 ## A première vue
 
@@ -95,7 +95,7 @@ Voici une liste des fonctionnalités incluses dans votre **application Android/i
 
 - Un onglet statistiques est présent au sein du plugin pour visualiser toutes les infos liées à l'app.
 
-{% include components/content-post-default-figure-image.html param="wpappninja-plugin-wordpress-statistiques-app-mobile-android-ios.png" %}
+{% include components/content-post-default-figure-image.html param="wp-app-ninja-plugin-wordpress-statistiques-app-mobile-android-ios.png" %}
 
 ### Combien ça coûte
 
