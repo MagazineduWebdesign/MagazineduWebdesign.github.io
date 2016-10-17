@@ -3,7 +3,7 @@ layout: "offres-emploi_index"
 tab3: "true"
 title: "Salaire du design et du développement web"
 permalink: "/salaire-design-developpement-web/"
-intro: "Avant de postuler, explorez les salaires du web design par rôles, compétences et régions. Vous serez mieux armé(e) pour négocier."
+intro: "Avant de postuler, explorez les salaires du web design par rôles, compétences et régions. Vous serez mieux armé(e) pour négocier – Bientôt disponible."
 description: "Avant de postuler, explorez les salaires du design et du développement web par rôles, compétences et régions"
 ---
 
