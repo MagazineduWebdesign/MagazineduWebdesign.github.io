@@ -220,9 +220,9 @@
 					<h1 class="small ae-1 done">{% if page.title %}{{ page.title }}{% endif %}</h1>
 					<p class="small ae-1">{{ page.intro }}</p>
 				</div>
-				{% if page.winner %}
+				{% if page.expire == 'true' %}
 				<div class="form-12 ae-2">
-					<p class="ae-3 opaque text-25 done">🎉 Et le gagnant est... <br><a href="{{ page.winner-url }}"><b>{{ page.winner }}</b></a></p>
+					<p class="ae-3 opaque text-25 done">🎉 Et le gagnant est... <br><a href="{{ page.winner-url }}"><b>{{ page.winner-name }}</b></a></p>
 				</div>
 				{% else %}
 				<div class="form-12 ae-2">
