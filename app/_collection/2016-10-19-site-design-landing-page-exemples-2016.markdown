@@ -6,6 +6,6 @@ titre_fichier_data: "collection_site-web-landing-page-web-design-inspiration-oct
 date: "2016-10-19 01:00:00"
 bgimgheader: "true"
 header-intro-dark: "true"
-image: "web-design-inspiration-project-sunday.jpg"
+image: "web-design-inspiration-2016-winners---best-design-awards.jpg"
 description: "Les meilleurs designs de landing pages de la rentrée 2016."
 ---
