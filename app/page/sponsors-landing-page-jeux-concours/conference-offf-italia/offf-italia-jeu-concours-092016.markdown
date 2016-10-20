@@ -9,7 +9,7 @@ description: "Tentez votre chance pour gagner un pass Aqua vous offrant 3 jours 
 image: "ddd-offf-italia-background-cover.jpg"
 mailchimp-form-id: "15114063d4"
 permalink: "/ddd-offf-italia/"
-expire: "false"
-winner: ""
-wwinner-url: ""
+expire: "true"
+winner: "catepeli"
+wwinner-url: "https://twitter.com/catepeli"
 ---
