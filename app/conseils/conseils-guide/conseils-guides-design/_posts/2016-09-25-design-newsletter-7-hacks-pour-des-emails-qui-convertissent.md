@@ -52,7 +52,7 @@ La croyance voudrait que l'objet de l'email saute littéralement à la figure du
 
 ## 2. Embrassez le design responsive
 
-Les marques qui ont adopté le **design responsive** pour leurs emails connaissent un t **aux de clics 24% plus élevés** que les marques n'envoyant aucun email optimisé pour les différentes résolutions d'écran – source [Yesmail’s Q4 2015 benchmark data](http://www.yesmail.com/resources/benchmarks/yesmail-q4-2015-email-marketing-benchmarks-toolkit) .
+Les marques qui ont adopté le **design responsive** pour leurs emails connaissent un **taux de clics 24% plus élevés** que les marques n'envoyant aucun email optimisé pour les différentes résolutions d'écran – source [Yesmail’s Q4 2015 benchmark data](http://www.yesmail.com/resources/benchmarks/yesmail-q4-2015-email-marketing-benchmarks-toolkit) .
 
  **Astuce** :
 
