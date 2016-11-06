@@ -28,7 +28,7 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="BrowseEmAll>
+          <a class="grid-article-card-link-wrap" href="http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="BrowseEmAll">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-browseemall.png" alt="logo BrowseEmAll" width="64" height="64">
