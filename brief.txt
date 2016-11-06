@@ -1,0 +1,33 @@
+Contexte de l'article:
+
+Nous sommes l’imprimeur en ligne de référence pour les professionnels des arts graphiques. Notre spécificité sur le marché est notre positionnement unique, strictement réservé aux pros (agences de pub, graphistes, imprimeurs, photographes, designers…). Dans le cadre de ce positionnement nous proposons à nos clients (qui sont avant tout des partenaires puisque revendeurs de nos produits) de nombreux outils d’aide à la vente. Or nous venons de lancer un tout nouvel outil d’aide à la vente : un kit de démonstration avec des nuanciers et des échantillons de nos produits. Voici un premier aperçu du contenu :
+* http://www.exaprint.fr/page/presentation-palette
+* http://blog.exaprint.fr/palette-nouvel-outil-revendeur-devoile-salon-viscom-2016-exaprint/
+
+Attente pour la livraison :
+
+L'article doit être positionné pour répondre au scénario ci-dessous :
+En tant que pro des arts graphiques, je souhaite découvrir la nature et la promesse de ce kit de démonstration proposé par Exaprint, afin de savoir s'il pourrait m'aider à préparer mes premières commandes et améliorer mon process de vente d'objets (Flyers, dépliants, cartes de visite, brochures, affiches, etc.) mettant en scène l'identité de marque de mes clients.
+
+L'article ne doit pas être qu'une longue liste descriptive. En lisant l'article, on doit pouvoir s'identifier à la problématique à laquelle tente de répondre le kit de démonstration.
+
+L'article doit présenter en introduction l'idée que les lecteurs devraient retirer suite à sa lecture, et pourquoi il devrait y prêter attention dans le cadre de leur profession.
+
+Au fil de la lecture, le visiteur doit pouvoir découvrir le produit via des liens discrets pointant vers : http://www.exaprint.fr/page/activez-vos-supers-pouvoirs
+
+Détails concernant l'article :
+* Titre article 70 caractères max.
+* Description de l'article de 15O caractères max.
+* 1 excerpt (3-4 phrases)
+* L'article doit avoir une conclusion comportant une incitation à la création d'un compte sur exaprint.fr
+* Article ~1000 mots
+* Ton : Enthousiaste, sérieux, pétillant
+* Ne pas être trop technique dans la description du produit. Utiliser des exemples pour illustrer les potentiels usages
+* Etre concis et direct. Privilégier la voix active à la voix passive
+* Eviter les phrases longues (+25 mots)
+* Structurer l'article avec des paragraphes et des sous-titres
+
+Voici quelques exemples d'articles écrits concernant ce produit. Ils ne sont néanmoins pas des exemples à suivre en tant que tel :
+* http://etapes.com/arts-graphiques-5-astuces-pour-booster-son-business
+* http://lareclame.fr/impact-objets-publicitaires-149891
+* https://www.blogduwebdesign.com/ressources/45-sacs-designs-mockups-inspiration-projets/2181
