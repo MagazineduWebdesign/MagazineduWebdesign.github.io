@@ -183,7 +183,7 @@ module.exports = function (grunt) {
       },
       check: {
         options: {
-          doctor: true
+          doctor: false
         }
       }
     },
@@ -357,12 +357,6 @@ module.exports = function (grunt) {
             // Jekyll processes and moves HTML and text files.
             // Usemin moves CSS and javascript inside of Usemin blocks.
             // Copy moves asset files and directories.
-            'img/large/**/*',
-            'img/lsmall/**/*',
-            'img/medium/**/*',
-            'img/small/**/*',
-            'img/xsmall/**/*',
-            'fonts/**/*',
             '.gitignore',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
@@ -537,7 +531,7 @@ module.exports = function (grunt) {
       },
       distIMG: {
         files: [{
-          cwd: '<%= yeoman.dist %>/img',
+          cwd: '<%= yeoman.app %>/img',
           src: [
             '**/*',
             '!sources/**/*',
