@@ -51,7 +51,7 @@ Vous aurez toujours le temps d'innover sur votre projet après son lancement.
  **Liens utiles :**
 
 -  [Airbnb design system](http://airbnb.design/building-a-visual-language/) ;
--  [Lean product design](https://pages.18f.gov/lean-product-design/) au sein du [18F](https://18f.gsa.gov/) .
+-  [Lean product design](https://pages.18f.gov/lean-product-design/) au sein du [18F](https://18f.gsa.gov/).
 
 ## Réduire le nombre de composants de design
 
@@ -59,7 +59,7 @@ Au fil du temps, un projet a souvent tendance à prendre de l'ampleur et à dév
 
 Ce sont ces variations qui augmentent de manière exponentielle le temps nécessaire pour tester et corriger les erreurs. De plus, le nombre important d'éléments accroît les chances qu'une modification est des répercutions non souhaitées sur d'autres éléments.
 
-Un inventaire de votre design est le premier pas pour être en mesure de réduire le nombre de composants de votre projet et le temps nécessaire aux tests. Vous pouvez ensuite les répertorier au sein d'un [style guide](https://standards.usa.gov/) .
+Un inventaire de votre design est le premier pas pour être en mesure de réduire le nombre de composants de votre projet et le temps nécessaire aux tests. Vous pouvez ensuite les répertorier au sein d'un [style guide](https://standards.usa.gov/).
 
  **Liens utiles :**
 
@@ -76,7 +76,7 @@ Si vous n'avez pas encore de styles guide en HTML, pas de panique. Vous pourrez 
 
  **Liens utiles :**
 
-- Exemples de styles guide frontend : [AuthO](http://styleguide.auth0.com/) , [Salesforce](https://www.lightningdesignsystem.com/)
+- Exemples de styles guide frontend : [AuthO](http://styleguide.auth0.com/), [Salesforce](https://www.lightningdesignsystem.com/)
 
 ## Réduire le nombre de points de rupture
 
@@ -92,7 +92,7 @@ Moins de points de rupture (en anglais break points) au sein de votre design res
 
 De nombreux outils proposent de tester son site Internet sur différents navigateurs et différents OS. Il y a du gratuit et du payant. Un seul bémol : la plupart sont des solutions cloud avec des serveurs de tests aux U.S.
 
-Ma connexion Internet transatlantique n'étant pas très en forme, j'ai opté récemment pour la solution de cross testing en local [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) .
+Ma connexion Internet transatlantique n'étant pas très en forme, j'ai opté récemment pour la solution de cross testing en local [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign).
 
  **Les avantages :**
 
@@ -152,7 +152,7 @@ Cette liste de conseils n'est qu'un aperçu de toutes les techniques pour améli
 
 ### Quelle approche mettre en place en priorité ?
 
-A vous de voir car chaque projet et chaque équipe est différente. A votre place, je parierais sur la simplification et la rationalisation de votre design, puis j’enchaînerais avec l'achat de la licence [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) . Non pas parce que c'est le [sponsor](http://www.magazineduwebdesign.com/sponsors/) de cet article, mais juste parce que le gain de temps en phase de test est énorme. Et le temps, c'est ce que j'ai de plus précieux.
+A vous de voir car chaque projet et chaque équipe est différente. A votre place, je parierais sur la simplification et la rationalisation de votre design, puis j’enchaînerais avec l'achat de la licence [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Non pas parce que c'est le [sponsor](http://www.magazineduwebdesign.com/sponsors/) de cet article, mais juste parce que le gain de temps en phase de test est énorme. Et le temps, c'est ce que j'ai de plus précieux.
 
 Bref, faites une chose à la fois, observez ce qui fonctionne, répétez et améliorez.
 
@@ -162,6 +162,6 @@ Et si vous avez une équipe de support client, travailler avec eux pour comprend
 
 Si vous avez apprécié cet article, vous pourriez être intéressé(e) par [les avantages de l'intégration continue](http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/) pour le développement d'applications mobiles.
 
-Un grand merci à [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) pour avoir sponsorisé la rédaction de cet article. Si vous souhaitez faire connaître vos produits et vos services, consultez la page [Sponsors](http://www.magazineduwebdesign.com/sponsors/) .
+Un grand merci à [BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) pour avoir sponsorisé la rédaction de cet article. Si vous souhaitez faire connaître vos produits et vos services, consultez la page [Sponsors](http://www.magazineduwebdesign.com/sponsors/).
 
-—Guillaume du [Magazine du Webdesign](http://www.magazineduwebdesign.com/) .
+—Guillaume du [Magazine du Webdesign](http://www.magazineduwebdesign.com/).
