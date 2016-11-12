@@ -113,7 +113,7 @@ Ma connexion Internet transatlantique n'étant pas très en forme, j'ai opté r�
 - Page analytics : rapport sur les potentielles sources d'erreurs HTML, CSS et JavaScript ;
 - Support du framework de test Selenium.
 
-La [licence BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) est disponible au tarif de $249. Un prix plus que raisonnable par rapport à la concurrence (~28% moins cher) et le gain de temps. [**Faites le test**](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) .
+La [licence BrowseEmAll](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) est disponible au tarif de $249. Un prix plus que raisonnable par rapport à la concurrence (~28% moins cher) et le gain de temps. [**Faites le test**](http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign).
 
 ## Anticiper les problèmes avant de tester
 
