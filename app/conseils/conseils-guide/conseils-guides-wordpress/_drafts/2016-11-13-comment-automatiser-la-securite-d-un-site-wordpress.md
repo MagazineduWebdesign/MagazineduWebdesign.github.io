@@ -46,11 +46,11 @@ La **sécurité de son site WordPress** est une mission redondante et chronophag
 
 ## Comment protéger son site WordPress avec Plesk
 
-Plesk offre une gestion simplifiée et automatisée des mises à jour de WordPress, des plugins et des [thèmes](http://www.magazineduwebdesign.com/ressources/themes-wordpress/). Voyons comment.
+Avec le lancement de la version [Plesk Onyx](https://www.plesk.com/onyx/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), la plateforme de WebOps souhaite offrir une gestion simplifiée et automatisée des mises à jour de WordPress, des plugins et des [thèmes](http://www.magazineduwebdesign.com/ressources/themes-wordpress/). Voyons comment.
 
 ### Analyse de sécurité WordPress
 
-Renforcez toutes vos installations WordPress à l'aide du scanner de sécurité Plesk. Pour profiter des avantages de [Plesk WordPress Toolkit](https://www.plesk.com/features/wordpress-management-toolkit/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), connectez votre site Web actuel en renseignant les infos de votre serveur ou créez une nouvelle application pour votre nom de domaine au sein de l'admin Plesk. Vérifiez les éléments requis, puis cliquez sur "Check Security".
+Renforcez toutes vos installations WordPress à l'aide du scanner de sécurité Plesk. Pour profiter des avantages de [Plesk WordPress Toolkit](https://www.plesk.com/features/wordpress-management-toolkit/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), connectez votre site Web actuel au service Plesk en renseignant les infos de votre serveur ou créez une nouvelle application pour votre nom de domaine au sein de l'admin Plesk. Vérifiez les éléments requis, puis cliquez sur "Check Security".
 
 {% include components/content-post-default-figure-image.html param="plesk-check-security.png" %}
 
