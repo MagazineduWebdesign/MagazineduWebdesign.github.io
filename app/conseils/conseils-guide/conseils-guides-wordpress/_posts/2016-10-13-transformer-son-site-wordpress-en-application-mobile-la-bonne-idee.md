@@ -10,7 +10,7 @@ tags: "guides-wordpress"
 sponsored: "true"
 by: "MDW + WP APP NINJA"
 by-url: "https://wpapp.ninja/"
-intro: "On voit fleurir un peu partout des statistiques sur les usages mobiles. La plupart des cabinets d'études annoncent des évolutions à deux chiffres d'une année à l'autre. En tant que propriétaire de **sites WordPress**, ce type de constat m'inspire deux questions. "
+intro: "On voit fleurir un peu partout des statistiques sur les usages mobiles. La plupart des cabinets d'études annoncent des évolutions à deux chiffres d'une année à l'autre. En tant que propriétaire de **sites WordPress**, ce type de constat m'inspire deux questions."
 description: "Pertinence de la mise en place d'une application mobile pour mon site WordPress et quel outil pour le faire ?"
 ---
 
