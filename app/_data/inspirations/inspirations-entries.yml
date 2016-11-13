@@ -19,16 +19,8 @@
 - name: "TV"
   permalink: "/inspirations/ui-design/tv/"
 
-- name: "MATERIAL DESIGN"
-  permalink: "/inspirations/ui-design/material-design/"
-  coming-soon: "<sup>β</sup>"
-
 - name: "USER FLOW iOS"
   permalink: "/inspirations/parcours-apps/ios/"
-  coming-soon: "<sup>β</sup>"
-
-- name: "USER FLOW ANDROID"
-  permalink: "/inspirations/parcours-apps/android/"
   coming-soon: "<sup>β</sup>"
 
 - name: "WEB VR – REALITE VIRTUELLE"
