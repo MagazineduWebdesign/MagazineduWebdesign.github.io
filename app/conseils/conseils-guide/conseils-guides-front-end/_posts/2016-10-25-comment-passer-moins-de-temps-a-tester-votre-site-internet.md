@@ -64,7 +64,7 @@ Un inventaire de votre design est le premier pas pour être en mesure de réduir
  **Liens utiles :**
 
 - Exemple d'un [styles guide](https://standards.usa.gov/) ;
--  [Styleguide.io](http://styleguides.io/) – Articles et outils pour les styles guides.
+-  [Styleguides.io](http://styleguides.io/) – Articles et outils pour les styles guides.
 
 ## Tester son style guide en front
 
