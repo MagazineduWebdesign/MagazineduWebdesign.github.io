@@ -585,6 +585,19 @@
 		
 		
 			<item>
+				<title>Testez votre style guide, pas votre site Web</title>
+				
+				
+					<description>Les tests de navigateurs sont des tests d’intégration pour les fonctionnalités côté client, c’est-à-dire tout ce qui se passe dans un navigateur Web. Lorsque je conçois un nouveau site Web, j’utilise généralement des tests manuels pour optimiser les fonctionnalités et le design en frontend. Cela implique d’ouvrir l’URL du site à tester dans un ou plusieurs navigateurs et d’interagir avec la page. Cette approche des tests multi-navigateurs est chronophage. Le style guide frontend s’avère être une solution idéale pour réduire le temps de test d’un site Internet. Voyons ensemble pourquoi.
+</description>
+				
+				<pubDate>Sun, 13 Nov 2016 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/testez-votre-style-guide-pas-votre-site-web/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/testez-votre-style-guide-pas-votre-site-web/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Comment passer moins de temps à tester votre site Internet ?</title>
 				
 				
@@ -882,19 +895,6 @@ Le site web est bâti sur une librairie javascript open source créée par Valen
 				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/digging-into-hip-hop/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/digging-into-hip-hop/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-digging-into-hip-hop-1.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Giovanni Xu | Web Design Inspiration – portfolio</title>
-				
-				
-					<description>Portfolio de Giovanni Xu. L’oeil ne s’ennuie pas grâce à cette mise en page rappellant les codes du print.
-</description>
-				
-				<pubDate>Fri, 18 Mar 2016 00:59:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/giovanni-xu/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/giovanni-xu/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-giovanni-xu-portfolio-1.jpg" type="image/*" />
 			</item>
 		
 		
