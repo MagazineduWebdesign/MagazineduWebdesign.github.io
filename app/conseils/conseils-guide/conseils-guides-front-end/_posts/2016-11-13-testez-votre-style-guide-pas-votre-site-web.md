@@ -78,9 +78,9 @@ Les offres payantes permettent de déverrouiller vos navigateurs préférés tel
 
 {% include components/content-post-default-figure-image.html param="internet-explorer-joke-firefox-browserling-comic.png" %}
 
-Le premier prix commence à 17 EUR par mois d'utilisation. Vous pouvez annuler votre abonnement quand bon vous semble.
+Le premier prix commence à [17 EUR](https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) par mois d'utilisation mais grâce au Magazine du Webdesign, vous bénéficiez de 25% de réduction avec le code promo [MDW25](https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Vous pouvez annuler votre abonnement quand bon vous semble.
 
-[Browserling](https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) offre une multitude d' [outils](https://www.browserling.com/tools) et d' [extensions](https://www.browserling.com/extensions) pour faciliter la vie des développeurs. Je vous invite à tester par vous même les gains de productivité que vous pourrez obtenir avec ce service. Et si vous avez 2 min en plus, je vous conseille la lecture de leur [web-série illustrée](https://comic.browserling.com/) sur le quotidien des développeurs.
+Browserling offre une multitude d' [outils](https://www.browserling.com/tools) et d' [extensions](https://www.browserling.com/extensions) pour faciliter la vie des développeurs. Je vous invite à tester par vous même les gains de productivité que vous pourrez obtenir avec ce service. Et si vous avez 2 min en plus, je vous conseille la lecture de leur [web-série illustrée](https://comic.browserling.com/) sur le quotidien des développeurs.
 
 {% include components/content-post-default-figure-image.html param="big-bang.png" %}
 
