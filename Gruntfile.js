@@ -180,11 +180,6 @@ module.exports = function (grunt) {
           limit_posts: '8',
           dest: '.jekyll'
         }
-      },
-      check: {
-        options: {
-          doctor: true
-        }
       }
     },
     useminPrepare: {
