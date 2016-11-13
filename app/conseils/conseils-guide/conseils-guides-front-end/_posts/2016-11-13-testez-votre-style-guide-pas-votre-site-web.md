@@ -82,7 +82,7 @@ Le premier prix commence à [17 EUR](https://www.browserling.com/?utm_medium=blo
 
 Browserling offre une multitude d' [outils](https://www.browserling.com/tools) et d' [extensions](https://www.browserling.com/extensions) pour faciliter la vie des développeurs. Je vous invite à tester par vous même les gains de productivité que vous pourrez obtenir avec ce service. Et si vous avez 2 min en plus, je vous conseille la lecture de leur [web-série illustrée](https://comic.browserling.com/) sur le quotidien des développeurs.
 
-{% include components/content-post-default-figure-image.html param="big-bang-hires.png" %}
+{% include components/content-post-default-figure-image.html param="big-bang-before.png" %}
 
 ## Style guide + Browserling = ❤
 
