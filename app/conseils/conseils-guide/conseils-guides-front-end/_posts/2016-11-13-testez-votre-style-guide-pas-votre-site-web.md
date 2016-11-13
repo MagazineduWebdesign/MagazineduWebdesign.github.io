@@ -76,7 +76,7 @@ Voyons ensemble ce qu'il offre pour le test d'un style guide ou d'un site Web co
 
 Les offres payantes permettent de déverrouiller vos navigateurs préférés tels qu'Internet Explorer 6, 7, 8, 10, 11 et également des tunnels SSH, des changements de résolution, des captures d'écran, un explorateur de bugs et un support client premium.
 
-{% include components/content-post-default-figure-image.html param="internet-explorer-joke-firefox-browserling-comic.png" %}
+{% include components/content-post-default-figure-image.html param="internet-explorer-download-and-install-firefox.png" %}
 
 Le premier prix commence à [17 EUR](https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) par mois d'utilisation mais grâce au Magazine du Webdesign, vous bénéficiez de 25% de réduction avec le code promo [MDW25](https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Vous pouvez annuler votre abonnement quand bon vous semble.
 
