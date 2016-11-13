@@ -25,9 +25,6 @@ exclude: ['img', 'css', 'js', 'fonts',
 include: ['.nojekyll']
 # Collections settings
 collections:
-  encyclo:
-    output: true
-    permalink: /:collection/:title/
   note:
     output: true
     permalink: /:collection/:title/
@@ -61,13 +58,6 @@ defaults:
       type: "note"
     values:
       layout: "note" # overrides previous default layout
-  -
-    scope:
-      path: "apprendre/encyclo"
-      type: "encyclo"
-    values:
-      layout: "encyclo" # overrides previous default layout
-      bgimgheader: "false"
   -
     scope:
       path: "collection"
@@ -108,18 +98,6 @@ defaults:
   # ressources - overrides default permlink
   -
     scope:
-      path: "ressources/ressources-accessoires-fournitures"
-      type: "posts"
-    values:
-      permalink: "/ressources/accessoires-fournitures/:title/"
-  -
-    scope:
-      path: "ressources/ressources-fonts"
-      type: "posts"
-    values:
-      permalink: "/ressources/fonts/:title/"
-  -
-    scope:
       path: "ressources/ressources-icones"
       type: "posts"
     values:
@@ -150,24 +128,6 @@ defaults:
       permalink: "/ressources/outils-services/design/:title/"
   -
     scope:
-      path: "ressources/ressources-sketch"
-      type: "posts"
-    values:
-      permalink: "/ressources/application-sketch/:title/"
-  -
-    scope:
-      path: "ressources/ressources-themes-drupal"
-      type: "posts"
-    values:
-      permalink: "/ressources/themes-drupal/:title/"
-  -
-    scope:
-      path: "ressources/ressources-themes-ghost"
-      type: "posts"
-    values:
-      permalink: "/ressources/themes-ghost/:title/"
-  -
-    scope:
       path: "ressources/ressources-themes-jekyll"
       type: "posts"
     values:
@@ -178,18 +138,6 @@ defaults:
       type: "posts"
     values:
       permalink: "/ressources/themes-joomla/:title/"
-  -
-    scope:
-      path: "ressources/ressources-themes-shopify"
-      type: "posts"
-    values:
-      permalink: "/ressources/themes-shopify/:title/"
-  -
-    scope:
-      path: "ressources/ressources-themes-tumblr"
-      type: "posts"
-    values:
-      permalink: "/ressources/themes-tumblr/:title/"
   -
     scope:
       path: "ressources/ressources-themes-wordpress"
@@ -204,12 +152,6 @@ defaults:
       type: "posts"
     values:
       permalink: "/inspirations/code-art/:title/"
-  -
-    scope:
-      path: "inspirations/inspirations-parcours-apps-android"
-      type: "posts"
-    values:
-      permalink: "/inspirations/parcours-apps-android/:title/"
   -
     scope:
       path: "inspirations/inspirations-parcours-apps-ios"
@@ -236,12 +178,6 @@ defaults:
       permalink: "/inspirations/ui-design/connected-car/:title/"
   -
     scope:
-      path: "inspirations/inspirations-ui-material-design"
-      type: "posts"
-    values:
-      permalink: "/inspirations/ui-design/material-design/:title/"
-  -
-    scope:
       path: "inspirations/inspirations-ui-sites-web"
       type: "posts"
     values:
@@ -258,12 +194,6 @@ defaults:
       type: "posts"
     values:
       permalink: "/inspirations/ui-design/tv/:title/"
-  -
-    scope:
-      path: "inspirations/inspirations-ui-web-vr"
-      type: "posts"
-    values:
-      permalink: "/inspirations/ui-design/web-vr/:title/"
 
   # evenements - overrides default permlink
   -
@@ -286,12 +216,6 @@ defaults:
       permalink: "/evenements/ux-design/:title/"
 
   # conseils - overrides default permlink
-  -
-    scope:
-      path: "conseils/conseils-citations"
-      type: "posts"
-    values:
-      permalink: "/conseils/citations/:title/"
   -
     scope:
       path: "conseils/conseils-guide"
