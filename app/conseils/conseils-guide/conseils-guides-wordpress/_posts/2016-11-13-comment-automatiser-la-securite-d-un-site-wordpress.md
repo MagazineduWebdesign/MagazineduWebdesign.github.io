@@ -11,7 +11,7 @@ sponsored: "true"
 by: "MDW + Plesk"
 by-url: "https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 intro: "Cela fait désormais 8 ans que j'utilise [WordPress](https://fr.wordpress.org/). J'ai participé à la création et à la sécurisation de nombreux sites portfolio, sites ecommerce et réseaux sociaux utilisant une [stack WordPress](http://stackshare.io/wordpress).<br />
-Cependant, la sécurité de WordPress peut être compliquée. Elle représente pour moi trop de travail en maintenance. Mes sites WordPress ne doivent pas être une source de stress. C'est là que des méthodes alternatives de protection de WordPress entrent en jeu. Elles sont des moyens plus simples de protéger le fruit de mon travail tout en optimisant ma productivité."
+Cependant, la sécurité de WordPress peut être compliquée. Elle représente pour moi trop de travail en maintenance. Mes sites WordPress ne doivent pas être une source de stress. C'est là que des méthodes alternatives de protection contre le piratage entrent en jeu. Elles sont des moyens plus simples de protéger le fruit de mon travail tout en optimisant ma productivité."
 description: "Tout savoir sur les risques pesant sur la sécurité de WordPress et comment protéger son site WordPress sans utiliser de plugins."
 ---
 En novembre 2016, plus de [27%](https://w3techs.com/technologies/history_overview/content_management/all/y) des sites Internet gérés via un CMS utilisent WordPress. Cette popularité est la cible de nombreuses attaques visant à pirater le cœur d'une installation WordPress.
