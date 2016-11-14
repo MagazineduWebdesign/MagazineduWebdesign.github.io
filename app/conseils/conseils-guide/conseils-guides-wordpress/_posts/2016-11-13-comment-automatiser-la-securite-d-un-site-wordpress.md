@@ -10,14 +10,15 @@ tags: "guides-wordpress"
 sponsored: "true"
 by: "MDW + Plesk"
 by-url: "https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
-intro: "Cela fait désormais 8 ans que j'utilise [WordPress](https://fr.wordpress.org/) pour une multitude de projets. J'ai accompagné près d'une centaine d'acteurs dans cet engouement planétaire pour ce CMS – Content Management System. J'ai participé à la création et à la sécurisation de nombreux sites portfolio, sites ecommerce et réseaux sociaux utilisant une [stack WordPress](http://stackshare.io/wordpress)."
+intro: "Cela fait désormais 8 ans que j'utilise [WordPress](https://fr.wordpress.org/). J'ai participé à la création et à la sécurisation de nombreux sites portfolio, sites ecommerce et réseaux sociaux utilisant une [stack WordPress](http://stackshare.io/wordpress).<br />
+Cependant, la sécurité de WordPress peut être compliquée. Elle représente pour moi trop de travail en maintenance. Mes sites WordPress ne doivent pas être une source de stress. C'est là que des méthodes alternatives de protection de WordPress entrent en jeu. Elles sont des moyens plus simples de protéger le fruit de mon travail tout en optimisant ma productivité."
 description: "Tout savoir sur les risques pesant sur la sécurité de WordPress et comment protéger son site WordPress sans utiliser de plugins."
 ---
 En novembre 2016, plus de [27%](https://w3techs.com/technologies/history_overview/content_management/all/y) des sites Internet gérés via un CMS utilisent WordPress. Cette popularité est la cible de nombreuses attaques visant à pirater le cœur d'une installation WordPress.
 
-Les failles de sécurité WordPress sont bien connus et dans la plupart des cas, il est assez simple de s'en débarrasser. Mais comme toujours, cela prend du temps et ces tâches ne sont pas une partie de plaisir pour moi. J'ai donc cherché un outil qui pourrait faire le travail à ma place et automatiser la protection des sites WordPress qui sont sous ma responsabilité.
+Les failles de sécurité WordPress sont bien connus et dans la plupart des cas, il est assez simple de s'en débarrasser. Mais comme toujours, cela prend du temps et ces tâches ne sont pas une partie de plaisir pour moi.
 
-J'ai donné une chance à [Plesk WordPress Toolkit](https://www.plesk.com/features/wordpress-management-toolkit/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Une solution clés en main pour sécuriser et gérer un ou plusieurs sites WordPress de manière simplifiée. Pour vous faire une idée de la puissance de l'outil, je vous invite à tester la [démo en ligne](https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Une analyse détaillée de l'outil est disponible dans la suite de l'article.
+J'ai donc cherché un outil qui pourrait faire le travail à ma place et automatiser la protection de mes sites WordPress. J'ai donné une chance à [Plesk WordPress Toolkit](https://www.plesk.com/features/wordpress-management-toolkit/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Une solution clés en main pour sécuriser et gérer un ou plusieurs sites WordPress de manière simplifiée. Pour vous faire une idée de la puissance de l'outil, je vous invite à tester la [démo en ligne](https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Une analyse détaillée de l'outil est disponible dans la suite de l'article.
 
 ## Pourquoi sécuriser son site WordPress
 
