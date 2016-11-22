@@ -9,7 +9,7 @@ category: "ressources-outils-services-developpement"
 sponsored: "true"
 by: "MDW + Updown"
 url-demo: "https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
-logo: "updown-logo"
+logo: "updown-logo.png"
 intro: "L'aspect le plus intéressant du métier de blogger est de pouvoir partager et échanger avec des personnes plus intelligentes que soi. J'ai eu la chance de faire la rencontre de Adrien, créateur de l'outil [updown.io](https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Un service en ligne qui vérifie le statut de votre site Web en envoyant périodiquement une requête HTTP HEAD à l'URL de votre choix. Il vous avertit alors par e-mail, Slack ou SMS lorsque votre [site Web](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/) ne répond pas correctement."
 description: "Un service en ligne qui vérifie le statut de votre site Web en envoyant périodiquement une requête HTTP HEAD à l'URL de votre choix. Il vous avertit alors par e-mail, Slack ou SMS lorsque votre site Web ne répond pas correctement."
 ---
@@ -23,14 +23,14 @@ J'ai imaginé 2 scénarios où ce service de [monitoring de sites Web](https://u
 J'ai rarement eu des bonnes expériences avec les prestataires d'hébergement et de stockage en ligne. La plupart vous annoncent une garantie de fonctionnement à 99,9% sur une période d'un an. Un rapide calcul permet d'identifier que votre site Web peut être dans les choux durant 9h. Sur un an, cela reste raisonnable. Mais il y a cette fameuse loi de Murphy :
 
 > Tout ce qui est susceptible de mal tourner, tournera nécessairement mal
-> 
-> – Edward A. Murphy Jr, ingénieur aérospatial | [Bio](https://fr.wikipedia.org/wiki/Loi_de_Murphy)
+>
+> – Edward A. Murphy Jr, ingénieur aérospatial [Bio](https://fr.wikipedia.org/wiki/Loi_de_Murphy)
 
 J'ai pu expérimenter les foudres de mes clients lorsque un serveur lâchait en pleine campagne promotionnelle. La recette parfaite pour qu'un client vous estampille _incapable_ sur le front _e_ t vous inscrive durablement dans sa liste noire des prestataires à éviter.
 
 Même si vous n'y êtes pour rien, à ces yeux, c'est vous le [DevOps](http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/) chargé du bon fonctionnement des Internets.
 
-{% include components/content-post-default-figure-image.html param="data-center-google-source-beyondtech.jpg" %}
+{% include components/content-post-default-figure-image.html param="data-center-google-campus-mountain-view.jpg" %}
 
 ### Quel est le lien avec Updown ?
 
