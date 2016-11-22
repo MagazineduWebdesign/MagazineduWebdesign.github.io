@@ -369,8 +369,6 @@ module.exports = function (grunt) {
             '_bower_components/foundation/js/foundation/foundation.topbar.js',
             '_bower_components/swiper/dist/js/swiper.jquery.min.js',
             '_bower_components/swiper/dist/css/swiper.min.css',
-            '/_bower_components/fluidbox/jquery.fluidbox.min.js',
-            '/_bower_components/fluidbox/css/fluidbox.css',
             '/_bower_components/jquery-vimeothumb/jquery-vimeothumb.min.js',
             'apple-touch-icon-57x57.png',
             'apple-touch-icon-60x60.png',

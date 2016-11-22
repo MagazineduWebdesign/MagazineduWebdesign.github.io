@@ -16,7 +16,6 @@
     "modernizr": "~2.8.3",
     "foundation": "zurb/bower-foundation#~5.5.1",
     "swiper": "~3.0.6",
-    "fluidbox": "~1.4.3",
     "jquery-vimeothumb": "~0.3.1"
   },
   "resolutions": {

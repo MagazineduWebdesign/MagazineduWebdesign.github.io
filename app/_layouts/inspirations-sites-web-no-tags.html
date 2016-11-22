@@ -24,7 +24,7 @@ layout: default
         ================================================== -->
         <div class="column-body-article mod-article-left-body">
           {% if page.image %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot" data-is-img="{{ page.image | escape | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}">
+          <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot" data-is-img="{{ page.image | escape | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}">
             <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
               <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }} – screenshot 1 – #webdesign #inspiration #design #ux #ui" width="640" height="auto">
             </a>
