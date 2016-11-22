@@ -25,7 +25,7 @@ layout: default
         <div class="column-body-article mod-article-left-body">
           {% if page.image %}
           <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot" data-is-img="{{ page.image | escape | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}">
-            <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+            <a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" target="_blank" rel="nofollow">
               <img src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }} – screenshot 1 – #webdesign #inspiration #design #ux #ui" width="640" height="auto">
             </a>
           </figure>
