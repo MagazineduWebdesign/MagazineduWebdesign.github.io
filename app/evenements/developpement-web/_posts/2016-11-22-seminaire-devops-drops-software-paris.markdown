@@ -12,7 +12,7 @@ logo: "drops-software.jpg"
 event-start-date-iso: "2016-12-06"
 event-start-date: "06 dec. 2016"
 event-location: "Paris"
-siteweb: "http://drops-software.com/fr/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
+siteweb: "http://drops-software.com/infos-et-evenements/webinars-fr/seminaire-devops-deploiement-continu-avec-drops-software/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 image:
 description: "Un séminaire exceptionnel pour vous présenter une nouvelle innovation majeure : le déploiement de données critiques."
 ---
