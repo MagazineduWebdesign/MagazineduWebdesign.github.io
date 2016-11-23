@@ -57,7 +57,7 @@ Updown propose l'essentiel nécessaire pour [monitorer simplement son site Inter
 - L'URL du site Web à surveiller ;
 - La fréquence de vérification du statut du site Web. Vous avez le choix entre 10 min, 5 min, 2 min, 1 min et 30 secondes ;
 
-Des options avancées permettent de générer une alerte personnalisée : vous pouvez demander à l’outil de détecter les performances en fonction d'un seuil d' [Apdex](https://updown.uservoice.com/knowledgebase/articles/915588/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) – calcul de la performance perçue côté client ;
+Des options avancées permettent de générer une alerte personnalisée : vous pouvez demander à l’outil de détecter les performances en fonction d'un seuil d'[Apdex](https://updown.uservoice.com/knowledgebase/articles/915588/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) – calcul de la performance perçue côté client ;
 
 Vous pouvez également choisir d’exclure certains serveurs de monitoring pour éviter les filtrages IP ou pour concentrer votre surveillance sur des zones géographiques spécifiques.
 
