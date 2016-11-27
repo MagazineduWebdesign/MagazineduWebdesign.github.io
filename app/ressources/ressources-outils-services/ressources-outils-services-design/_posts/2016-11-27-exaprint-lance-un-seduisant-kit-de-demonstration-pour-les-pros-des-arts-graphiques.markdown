@@ -10,7 +10,7 @@ sponsored: "true"
 by: "MDW + Exaprint"
 url-demo: "http://www.exaprint.fr/page/activez-vos-supers-pouvoirs/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "exaprint-logo.png"
-image-sub-post-intro: ""
+image-sub-post-intro:
 intro: "En tant que professionnel des arts graphiques, vous avez besoin de mettre en avant vos créations pour convaincre vos clients. Vous êtes donc sans relâche à la recherche d’idées pour présenter vos réalisations. Exaprint y a songé et a présenté son tout nouvel outil au salon Viscom à Paris : un kit de démonstration en marque blanche qu'ils ont nommé _[La Palette](http://www.exaprint.fr/page/activez-vos-supers-pouvoirs/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign)_.<br>Ce kit prend la forme d'une sacoche au design contemporain qui embarque une multitude d’échantillons et 6 nuanciers haut de gamme."
 description: "Exaprint propose son nouveau kit de démonstration nommé La Palette qui contient une large gamme d'échantillons d'imprimerie et de nuanciers papiers."
 ---
