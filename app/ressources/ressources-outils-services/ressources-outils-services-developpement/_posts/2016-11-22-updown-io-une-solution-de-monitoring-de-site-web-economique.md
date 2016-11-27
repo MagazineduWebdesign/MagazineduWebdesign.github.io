@@ -26,7 +26,7 @@ J'ai rarement eu des bonnes expériences avec les prestataires d'hébergement et
 >
 > – Edward A. Murphy Jr, ingénieur aérospatial [Bio](https://fr.wikipedia.org/wiki/Loi_de_Murphy)
 
-J'ai pu expérimenter les foudres de mes clients lorsque un serveur lâchait en pleine campagne promotionnelle. La recette parfaite pour qu'un client vous estampille _incapable_ sur le front _e_ t vous inscrive durablement dans sa liste noire des prestataires à éviter.
+J'ai pu expérimenter les foudres de mes clients lorsque un serveur lâchait en pleine campagne promotionnelle. La recette parfaite pour qu'un client vous estampille _incapable_ sur le front et vous inscrive durablement dans sa liste noire des prestataires à éviter.
 
 Même si vous n'y êtes pour rien, à ces yeux, c'est vous le [DevOps](http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/) chargé du bon fonctionnement des Internets.
 
