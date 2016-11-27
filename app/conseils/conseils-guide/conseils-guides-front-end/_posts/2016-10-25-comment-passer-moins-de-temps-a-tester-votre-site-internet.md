@@ -20,7 +20,7 @@ Voici une liste d'astuces pour améliorer l'efficacité de vos tests cross-brows
 
 ## Une chose à retenir avant d'aller plus loin
 
- **La complexité de votre projet détermine la complexité de vos tests** . Assurez-vous d'adopter l'approche la plus simple dès le début de votre projet. Cela sera payant à long terme.
+ **La complexité de votre projet détermine la complexité de vos tests**. Assurez-vous d'adopter l'approche la plus simple dès le début de votre projet. Cela sera payant à long terme.
 
 Les conseils de test listés ci-dessous peuvent être difficile à implémenter sur des projets existants. Je vous invite donc à les inclure le plus tôt possible dans votre réflexion lorsque vous débuterez un nouveau projet.
 
