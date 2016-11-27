@@ -28,6 +28,32 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.exaprint.fr/page/activez-vos-supers-pouvoirs/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Exaprint">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/exaprint-logo.png" alt="logo Plesk" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Exaprint</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Updown">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/updown-logo.png" alt="logo Plesk" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Updown</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
           <a class="grid-article-card-link-wrap" href="https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Plesk">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
