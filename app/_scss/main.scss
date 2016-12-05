@@ -2155,6 +2155,7 @@ footer a:hover{
 }
 .inline-list-app-footer {
   @include inline-list;
+  margin-left: 0;
 }
   .inline-list-app-footer > li{
       display: inline-block!important;
@@ -2187,7 +2188,7 @@ footer a:hover{
   margin: rem-calc(48) 0 0;
 }
 .medium-rect-in-content{
-  margin: 0 0 rem-calc(48) ;
+  margin: rem-calc(24) 0;
 }
 .text-link{
   margin: 0  0 rem-calc(24);
