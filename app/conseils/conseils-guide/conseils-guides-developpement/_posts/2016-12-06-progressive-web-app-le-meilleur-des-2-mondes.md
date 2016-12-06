@@ -37,7 +37,7 @@ Cette vidéo met en scène le cheminement nécessaire pour accéder à la progre
 2. Ajouter à l'écran d'accueil AliExpress ;
 3. Ouvrir la progressive Web App via l'icône installée sur l'écran d'accueil du téléphone.
 
-2 ingrédients clés pour passer du site Web classique à la PWA :
+Deux ingrédients clés pour passer du site Web classique à la PWA :
 
 - Une icône qui est installée automatiquement sur l'écran d'accueil du téléphone après avoir sélectionné l'option Chrome `Ajouter à mon écran d'accueil` ;
 - Un splash screen affiché après le tap sur l'icône pour faire patienter l'utilisateur durant le téléchargement des contenus.
