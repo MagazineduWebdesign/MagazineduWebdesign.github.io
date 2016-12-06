@@ -20,7 +20,10 @@ Pourquoi y croire ? Car Google a déclaré la guerre aux frictions engendrées l
 
 ## Progressive Web App – le meilleur des 2 mondes
 
-{% include components/content-post-default-figure-image.html param="progressive-web-app-le-meilleur-des-2-mondes.gif" %}
+<figure class="figure-img mod-note-img">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-le-meilleur-des-deux-mondes.gif" alt="Progressive Web App – offline-first" width="640" height="auto"/>
+  <figcaption>Progressive Web App – Le meilleur des 2 mondes</figcaption>
+</figure>
 
 Ci-dessous, une animation présentant le parcours pour accéder à la progressive Web App de AliExpress – un site ecommerce chinois.
 
@@ -29,11 +32,13 @@ Ci-dessous, une animation présentant le parcours pour accéder à la progressiv
 </figure>
 
 Cette vidéo met en scène le cheminement nécessaire pour accéder à la progressive Web App AliExpress :
+
 1. Se rendre sur le site Web d'AliExpress via le navigateur mobile Chrome ;
 2. Ajouter à l'écran d'accueil AliExpress ;
 3. Ouvrir la progressive Web App via l'icône installée sur l'écran d'accueil du téléphone.
 
 2 ingrédients clés pour passer du site Web classique à la PWA :
+
 - Une icône qui est installée automatiquement sur l'écran d'accueil du téléphone après avoir sélectionné l'option Chrome `Ajouter à mon écran d'accueil` ;
 - Un splash screen affiché après le tap sur l'icône pour faire patienter l'utilisateur durant le téléchargement des contenus.
 
@@ -70,14 +75,20 @@ Pour la petite histoire, AliExpress a fait [croître son taux de conversion de 1
 ### Engageante
 Les progressive Web Apps permettent d'engager l'utilisateur avec les notifications similaires à celles des Apps natives. Une excellente manière de garder le contact avec sa base d'utilisateurs. Si vous avez un site ecommerce, c'est idéal pour les relances de paniers abandonnés.
 
-{% include components/content-post-default-figure-image.html param="progressive-web-app-notification-panel.png" %}
+<figure class="figure-img mod-note-img">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-notification-panel.png" alt="Progressive Web App – panel notification" width="468" height="auto"/>
+  <figcaption>Progressive Web App – panel notification</figcaption>
+</figure>
 
 ### Offline-first
 Les PWA offrent une indépendance par rapport aux conditions incertaines des réseaux mobiles. Lors de la première utilisation, certains écrans ou la totalité de la progressive Web App peuvent être téléchargés et stockés sur le téléphone.
 
 Cette fonctionnalité hors-ligne donne une autonomie partielle ou complète par rapport aux conditions du réseau. Les données stockées en local seront automatiquement mises à jour lorsqu'une connexion sera à nouveau disponible.
 
-{% include components/content-post-default-figure-image.html param="progressive-web-app-offline-first.gif" %}
+<figure class="figure-img mod-note-img">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-offline-first-info.gif" alt="Progressive Web App – offline-first" width="468" height="auto"/>
+  <figcaption>Progressive Web App – offline-first</figcaption>
+</figure>
 
 ### Responsive
 Opter pour les progressives Web Apps est synonyme d'économies sur les côuts de développement. Vu qu'il s'agit d'un site Web responsive, il est compatible par défaut avec la majorité des plateformes (iOS, Android, Firefox OS et Windows Phone) et la majorité des devices (desktop/tablette/mobile). Nul besoin de dépenser une fortune dans le développement d'une application iOS et Android.
@@ -116,6 +127,7 @@ Les PWA ont **des qualités naturellement connectées aux valeurs qui prévalent
 
 ##Exemples de progressive Web Apps
 Consultez cette liste sur mobile pour profiter de l'expérience PWA :
+
 - [AliExpress](https://m.fr.aliexpress.com/) ;
 - [Pokedex](https://www.pokedex.org/) ;
 - [Houses](https://housing.com/) ;
