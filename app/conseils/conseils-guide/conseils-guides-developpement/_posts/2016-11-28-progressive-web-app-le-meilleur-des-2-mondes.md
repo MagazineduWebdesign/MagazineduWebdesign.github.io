@@ -1,6 +1,6 @@
 ---
 layout: "conseils-default"
-title: "Progressive Web app – la fin des applications mobiles natives ?"
+title: "Progressive Web App – la fin des applications mobiles natives ?"
 date: "2016-12-04 06:23:57"
 path1: "conseils"
 path2: "guides"
