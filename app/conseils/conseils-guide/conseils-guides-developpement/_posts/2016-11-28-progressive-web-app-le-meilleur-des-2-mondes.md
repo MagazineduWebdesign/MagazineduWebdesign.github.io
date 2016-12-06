@@ -9,13 +9,13 @@ category: "guides"
 tags: "guides-developpement"
 sponsored: "false"
 by: "Guillaume"
-by-url: ""
-intro: ""
-description: ""
----
-Je n'installe que très rarement de nouvelles applications sur mon téléphone, faute de place. D'où ces 2 questions : pourquoi développer des applications natives pour des smartphones à la mémoire saturée ? Existe-t-il un moyen de se débarrasser de la friction d'installation induite par les Apps natives ?
+by-url: "https://www.linkedin.com/in/guillaumepalayer"
+intro: "Je n'installe que très rarement de nouvelles applications sur mon téléphone, faute de place. D'où ces 2 questions : pourquoi développer des applications natives pour des smartphones à la mémoire saturée ? Existe-t-il un moyen de se débarrasser de la friction d'installation induite par les Apps natives ?
 Une partie de la réponse est à chercher dans une solution hybride : les progressive Web Apps.
-Sous ce nom exotique se cache une techno très simple : un [site Web au design responsive](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/) empruntant des comportements propres aux applicatons mobiles natives. Une alternative crédible qui a toute sa place sur l'écran d'accueil de nos téléphones.
+Sous ce nom exotique se cache une techno très simple : un [site Web au design responsive](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/) empruntant des comportements propres aux applicatons mobiles natives. Une alternative crédible qui a toute sa place sur l'écran d'accueil de nos téléphones."
+description: "Caractéristiques et avantages d'une progressive Web App – une alternative crédible à l'application mobile native."
+---
+
 Pourquoi y croire ? Car Google a déclaré la guerre aux frictions engendrées lors de l'installation d'une application native. Sa réponse est le programme [Android instant Apps](https://developer.android.com/topic/instant-apps/index.html). Autre bonne nouvelle, la team de Google Chrome soutient ouvertement les PWA – Progressive Web Apps. Le mouvement pour réduire les frictions d'installation est lancé. Cet article vous expliquera en détail la nature et les avantages d'une progressive Web App avec de nombreux exemples.
 
 ## Progressive Web App – le meilleur des 2 mondes
