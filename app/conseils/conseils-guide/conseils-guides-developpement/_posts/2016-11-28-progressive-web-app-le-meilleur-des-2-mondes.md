@@ -20,7 +20,7 @@ Pourquoi y croire ? Car Google a déclaré la guerre aux frictions engendrées l
 
 ## Progressive Web App – le meilleur des 2 mondes
 
-<figure class="figure-img mod-note-img">
+<figure class="figure-img mod-img-large">
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-le-meilleur-des-deux-mondes.gif" alt="Progressive Web App – offline-first" width="640" height="auto"/>
   <figcaption>Progressive Web App – Le meilleur des 2 mondes</figcaption>
 </figure>
@@ -75,8 +75,8 @@ Pour la petite histoire, AliExpress a fait [croître son taux de conversion de 1
 ### Engageante
 Les progressive Web Apps permettent d'engager l'utilisateur avec les notifications similaires à celles des Apps natives. Une excellente manière de garder le contact avec sa base d'utilisateurs. Si vous avez un site ecommerce, c'est idéal pour les relances de paniers abandonnés.
 
-<figure class="figure-img mod-note-img">
-  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-notification-panel.png" alt="Progressive Web App – panel notification" width="468" height="auto"/>
+<figure class="figure-img mod-img-small-align-middle">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-notification-panel.png" alt="Progressive Web App – panel notification" width="320" height="auto"/>
   <figcaption>Progressive Web App – panel notification</figcaption>
 </figure>
 
@@ -85,8 +85,8 @@ Les PWA offrent une indépendance par rapport aux conditions incertaines des ré
 
 Cette fonctionnalité hors-ligne donne une autonomie partielle ou complète par rapport aux conditions du réseau. Les données stockées en local seront automatiquement mises à jour lorsqu'une connexion sera à nouveau disponible.
 
-<figure class="figure-img mod-note-img">
-  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-offline-first-info.gif" alt="Progressive Web App – offline-first" width="468" height="auto"/>
+<figure class="figure-img mod-img-small-align-middle">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/progressive-web-app-offline-first-info.gif" alt="Progressive Web App – offline-first" width="320" height="auto"/>
   <figcaption>Progressive Web App – offline-first</figcaption>
 </figure>
 

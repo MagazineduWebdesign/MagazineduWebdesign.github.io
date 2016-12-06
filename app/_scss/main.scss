@@ -1073,6 +1073,11 @@ background-position: center}
 .figure-img.mod-article-couverture-livre{margin: 0 0 rem-calc(24)}
 .figure-img.mod-article-couverture-livre > img {border-radius: $global-radius;}
 .figure-img.mod-note-img{margin: 0 rem-calc(-48) 0}
+.figure-img.mod-img-large{margin: 0}
+.figure-img.mod-img-small-align-middle{
+  width: rem-calc(320);
+  margin: 0 auto;
+}
 	@media #{$medium-up} {
 		.figure-img.mod-note-img figcaption{
 			padding:rem-calc(12) rem-calc(48) 0;
