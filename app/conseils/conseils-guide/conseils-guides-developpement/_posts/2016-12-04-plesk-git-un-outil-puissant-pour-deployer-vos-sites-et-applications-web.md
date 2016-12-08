@@ -1,7 +1,7 @@
 ---
 layout: "conseils-default"
 title: "Plesk + Git – un outil puissant pour déployer vos sites et vos applications Web"
-date: "2016-12-04 06:23:57"
+date: "2016-12-07 06:23:57"
 path1: "conseils"
 path2: "guides"
 path3: "developpement"
