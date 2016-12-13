@@ -7,7 +7,7 @@ path2: "guides"
 path3: "design"
 category: "guides"
 tags: "guides-design"
-sponsored: "true"
+sponsored: "False"
 by: "MDW + JustCoded"
 by-url: "https://justcoded.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 intro: "Je connais l'Ukraine de nom et par un ami qui m'a raconté ses nombreuses péripéties à Odessa – une belle ville bordée par la Mer Noire. Ce grand pays est le théâtre d'une renaissance créatives intense depuis la fin des années 2000. De nombreux acteurs du design et du développement Web sont établis en Ukraine. Il suffit de faire un tour sur Dribbble et Behance pour s'en rendre compte."
@@ -52,7 +52,5 @@ Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
 -  [17 expériences ecommerce élégantes avec un parcours client convaincant](http://www.magazineduwebdesign.com/collection/17-exp-riences-ecommerce-l-gantes-novembre-2016/) ;
 -  [56 approches créatives de portfolios mettant en scène le travail de talentueux passionnés](http://www.magazineduwebdesign.com/collection/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/).
-
-Article réalisé en partenariat avec JustCoded.
 
 — [Guillaume du Magazine du Webdesign](https://www.linkedin.com/in/gpalayer).

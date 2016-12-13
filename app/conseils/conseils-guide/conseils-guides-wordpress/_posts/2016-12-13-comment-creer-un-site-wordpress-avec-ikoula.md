@@ -1,7 +1,7 @@
 ---
 layout: "conseils-default"
 title: "Comment créer un site WordPress avec Ikoula"
-date: "2016-11-13 06:23:57"
+date: "2016-12-13 00:23:57"
 path1: "conseils"
 path2: "guides"
 path3: "wordpress"
@@ -23,7 +23,7 @@ Cette solution permet à de nombreux designers d'être autonomes dans la créati
 
 ## Installer WordPress en 1 clic
 
-Ce titre à l'allure commerciale n'en est pas moins vrai. Rappelez-vous, il y a quelques semaines, je vous présentais l'outil Plesk permettant d'[automatiser la sécurité d'un site WordPress](http://www.magazineduwebdesign.com/conseils/guides/comment-automatiser-la-securite-d-un-site-wordpress/). C'est ce même outil qui vous permettra de créer en un clic une installation WordPress dans l'écosystème Ikoula. 
+Ce titre à l'allure commerciale n'en est pas moins vrai. Rappelez-vous, il y a quelques semaines, je vous présentais l'outil Plesk permettant d'[automatiser la sécurité d'un site WordPress](http://www.magazineduwebdesign.com/conseils/guides/comment-automatiser-la-securite-d-un-site-wordpress/). C'est ce même outil qui vous permettra de créer en un clic une installation WordPress dans l'écosystème Ikoula.
 
 Pour cela, choisissez le nom de domaine associé et remplissez les infos d'administration du WordPress. Et voilà, vous avez un site Internet prêt à l'emploi.
 
