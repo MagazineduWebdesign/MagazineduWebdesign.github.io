@@ -10,7 +10,7 @@ tags: "guides-design"
 sponsored: "true"
 by: "MDW + Sarbacane"
 by-url: "https://www.sarbacane.com/?ref=magazineduwebdesign"
-intro: "Il existe une raison qui explique pourquoi votre boîte mail semble toujours pleine à craquer : l'email est un vecteur de business efficace. C'est la même raison depuis 10 ans, l'email est le canal générant le meilleur retour sur investissement pour les commerçants. Pour chaque dollar dépensé aux U.S., les campagnes email [génèrent $38 de ROI](http://insight.venturebeat.com/node/886/preview) ."
+intro: "Il existe une raison qui explique pourquoi votre boîte mail semble toujours pleine à craquer : l'email est un vecteur de business efficace. C'est la même raison depuis 10 ans, l'email est le canal générant le meilleur retour sur investissement pour les commerçants. Pour chaque dollar dépensé aux U.S., les campagnes email [génèrent $38 de ROI](http://insight.venturebeat.com/node/886/preview)."
 description: "Comment j'ai réussi à designer des newsletters qui convertissent grâce à de simples astuces."
 carte-optin-downoload-pdf: "false"
 ---
