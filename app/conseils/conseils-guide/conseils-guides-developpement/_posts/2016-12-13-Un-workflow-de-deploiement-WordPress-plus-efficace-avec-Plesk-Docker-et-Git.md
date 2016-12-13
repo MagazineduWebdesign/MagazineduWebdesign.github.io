@@ -13,7 +13,7 @@ by-url: "https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=
 intro: "Cela fait plusieurs semaines que j'explore le potentiel de Plesk. J'ai testé pour vous les bénéfices d'utiliser Plesk pour [automatiser la sécurité d'un site WordPress](http://www.magazineduwebdesign.com/conseils/guides/comment-automatiser-la-securite-d-un-site-wordpress/). Nous avons également vu que Plesk était adapté pour [travailler avec un répertoire Git](http://www.magazineduwebdesign.com/conseils/guides/plesk-git-un-outil-puissant-pour-deployer-vos-sites-et-applications-web/). Afin de garder le rythme, j'ai souhaité mettre à l'épreuve l'extension Docker de Plesk. L'objectif de cet article est de présenter l'outil, l'expérience utilisateur proposée, la technicité et les avantages que l'on peut en retirer en tant que développeur WordPress."
 description: "Découvrez comment utiliser Docker, Git et WordPress avec l'outil Plesk."
 ---
- **Transparence #OnVousAuraPreven** : Ce test a été réalisé par mes soins à la demande de la team Plesk. L'évaluation ci-dessous reflète mes propres opinions. L'objectif est de vous apporter une vue d'ensemble de la solution avec une approche franche et honnête. Voilà.
+ **Transparence #OnVousAuraPrevenu** : Ce test a été réalisé par mes soins à la demande de la team Plesk. L'évaluation ci-dessous reflète mes propres opinions. L'objectif est de vous apporter une vue d'ensemble de la solution avec une approche franche et honnête. Voilà.
 
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
