@@ -14,7 +14,7 @@ intro: "Je connais l'Ukraine de nom et par un ami qui m'a raconté ses nombreuse
 description: "Présentation du travail réalisé par l'agence JustCoded pour Mindsparkle Mag."
 carte-optin-downoload-pdf: "false"
 ---
-C'est notamment le cas de [JustCoded](https://justcoded.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), une agence digitale composée de 55 passionnés basé à Kharkiv, une ville située au Nord-Est du pays. Leur ambition est de délivrer un design intelligent, à la finition exceptionnelle. Autrement dit, un process de design tourné vers le faire, qui met l'accent sur la qualité, les détails et un examen auto-critique constant sur l'exécution. Pas de planeur stratégique volant à 20 milles au-dessus d'un concept flou. JustCoded délivre uniquement du concret.
+C'est notamment le cas de [JustCoded](https://justcoded.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), une agence digitale composée de 55 passionnés basée à Kharkiv, une ville située au Nord-Est du pays. Leur ambition est de délivrer un design intelligent, à la finition exceptionnelle. Autrement dit, un process de design tourné vers le faire, qui met l'accent sur la qualité, les détails et un examen auto-critique constant sur l'exécution. Pas de planeur stratégique volant à 20 milles au-dessus d'un concept flou. JustCoded délivre uniquement du concret.
 
 {% include components/content-post-default-figure-image.html param="justcoded-site-web.jpg" %}
 
