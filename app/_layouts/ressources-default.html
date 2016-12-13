@@ -199,30 +199,24 @@ layout: default
         ================================================== -->
         <div class="column-body-article mod-article-left-body">
           {% if page.image %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img itemprop="image" src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1" width="640" height="auto">
-            </a>
+          <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <img itemprop="image" src="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-1" width="640" height="auto">
             {% if page.image-legende-1 %}
             <figcaption>{{ page.image-legende-1 }}</figcaption>
             {% endif %}
           </figure>
           {% endif %}
           {% if page.image-2 %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img itemprop="image" src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2" width="640" height="auto">
-            </a>
+          <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <img itemprop="image" src="{{ page.image-2 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-2" width="640" height="auto">
             {% if page.image-legende-2 %}
             <figcaption>{{ page.image-legende-2 }}</figcaption>
             {% endif %}
           </figure>
           {% endif %}
           {% if page.image-3 %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
-              <img itemprop="image" src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3" width="640" height="auto">
-            </a>
+          <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <img itemprop="image" src="{{ page.image-3 | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="{{ page.title }}-3" width="640" height="auto">
             {% if page.image-legende-3 %}
             <figcaption>{{ page.image-legende-3 }}</figcaption>
             {% endif %}
