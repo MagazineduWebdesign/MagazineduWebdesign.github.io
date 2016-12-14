@@ -69,3 +69,15 @@
   desc: "Le dernier de cette collection mais le plus réussi. Son utilisation est très simple et il vous donne l'essentiel nécessaire pour concevoir une palette de couleur. L'export permet d'avoir les valeurs colorimétriques de la palette dans plusieurs formats (HEX, RGB, SCSS, etc.) en un clin d'oeil"
   image: "color-palette-generator-color-picker-html-color-codes.jpg"
   image-legende: "Générateur de palettes de couleurs – HTML Color Codes"
+
+- title: "13 . Culrs"
+  href: "hhttp://culrs.com/?ref=MagazineduWebdesign"
+  desc: "Collections de palettes de couleurs organisées par catégories."
+  image: "color-palette-generator-culrs.jpg"
+  image-legende: "Palettes de couleurs – Culrs"
+
+- title: "14 . Palette"
+  href: "hhttp://culrs.com/?ref=MagazineduWebdesign"
+  desc: "Analysez facilement le contraste de couleurs RGB, #HEX et CSS à partir de la barre de menus de votre Mac."
+  image: "outil-palette-mac-os.jpg"
+  image-legende: "Palette pour Mac OS"
