@@ -24,6 +24,7 @@ intro: "Les icônes Pioneer sont une collection premium de 1010 icônes soigneus
 rating: "8"
 ---
 ## Jeu concours
+Retweetez pour tenter de gagner une licence Pioneer icons. 50% et 30% de réduction sur la licence pour tous participants. Voilà :-).
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="fr"><p lang="fr" dir="ltr">RT pour tenter de gagner un pack d&#39;icônes Pioneer compatible <a href="https://twitter.com/hashtag/sketch?src=hash">#sketch</a> &amp; <a href="https://twitter.com/hashtag/Illustrator?src=hash">#Illustrator</a>. Tirage au sort le 20 déc. <a href="https://t.co/XaUZnlsE7t">https://t.co/XaUZnlsE7t</a> 🎁🌲 <a href="https://t.co/dRH00b21Qh">pic.twitter.com/dRH00b21Qh</a></p>&mdash; MagazineDuWebdesign (@MagDuWebdesign) <a href="https://twitter.com/MagDuWebdesign/status/808656391007309825">13 décembre 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
