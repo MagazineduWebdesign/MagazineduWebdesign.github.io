@@ -17,7 +17,6 @@ description: "Découvrez comment utiliser Docker, Git et WordPress avec l'outil 
 
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
-
 ## Le problème
 
 J'ai eu l'occasion de travailler avec des entreprises dont les workflows de développement étaient très variés. La seule constante à souligner était le chaos. Voici quelques scénarios typiques rencontrés au sein de ces organisations lorsque un nouveau développeur est débarqué dans un projet :
