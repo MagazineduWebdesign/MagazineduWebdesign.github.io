@@ -16,9 +16,6 @@ intro: "Nous avons tous entendu dans notre entourage des histoires de personnes 
 Ceux qui choisissent cette voie possèdent une ambition exemplaire. Néanmoins, cela nécessite également un mélange unique de stratégie et de ténacité. Ce n'est pas simple de faire évoluer un business constitué d'une personne en une entreprise gérant des dizaines d'employés et clients."
 description: "Découvrez comment créer une source de revenus passifs en vous concentrant sur l'essentiel."
 ---
-
-{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
-
 Toute personne qui a déjà poussé une voiture en panne vous dira que les premiers mètres sont les plus difficiles. L'inertie s'applique aussi au monde des freelances : les revenus les plus difficiles à obtenir sont généralement les premiers. Tout devient plus facile après.
 
 <figure>
@@ -34,6 +31,8 @@ Voici un petit guide sur la façon de surmonter l'inertie des débuts. Il est fo
 </figure>
 
 Nous verrons notamment comment une solution de création de <a href="http://fr.wix.com/ecommerce/site-vente-en-ligne" target="_blank" rel="nofollow">site ecommerce</a> peut être une excellente source de revenus pour démarrer une activité en freelance. Découvrez pourquoi dans quelques paragraphes.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 ##Via negativa – augmenter votre bien être par la soustraction
 
