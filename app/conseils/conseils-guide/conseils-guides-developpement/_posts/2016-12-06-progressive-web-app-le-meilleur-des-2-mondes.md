@@ -18,6 +18,8 @@ description: "Caractéristiques et avantages d'une progressive Web App – une a
 
 Pourquoi y croire ? Car Google a déclaré la guerre aux frictions engendrées lors de l'installation d'une application native. Sa réponse est le programme [Android instant Apps](https://developer.android.com/topic/instant-apps/index.html). Autre bonne nouvelle, la team de Google Chrome soutient ouvertement les PWA – Progressive Web Apps. Le mouvement pour réduire les frictions d'installation est lancé. Cet article vous expliquera en détail la nature et les avantages d'une progressive Web App avec de nombreux exemples.
 
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 ## Progressive Web App – le meilleur des 2 mondes
 
 <figure class="figure-img mod-img-large">
