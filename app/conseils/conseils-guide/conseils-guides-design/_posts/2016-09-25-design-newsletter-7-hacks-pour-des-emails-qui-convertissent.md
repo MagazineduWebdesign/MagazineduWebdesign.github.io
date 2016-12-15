@@ -16,6 +16,8 @@ carte-optin-downoload-pdf: "false"
 ---
 Une autre tendance qui confirme le succès de l'email est la montée en puissance des business basés sur les newsletters. Emmenés par des piliers tels que [The Skimm](http://www.theskimm.com/) ou [Inside](https://inside.com/) , les éditeurs et les équipes marketing voient la newsletter comme un moyen d'atteindre un public engagé tout en contournant les adblockers et les flux sans fin des plateformes telles que Facebook.
 
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 ## L'email n'est pas mort
 
 Selon une étude réalisée par MarketingSherpa en janvier 2015, une grande majorité des adultes américains – [**72%**](http://www.marketingsherpa.com/article/case-study/customer-communication-by-channel) – choisissent la communication par email pour garder contact avec leurs compagnies préférées. La même étude a montré que **86%** d'entre eux aimeraient recevoir des courriels promotionnels au moins chaque mois et **61%** au moins chaque semaine.
