@@ -27,7 +27,7 @@ Pourquoi y croire ? Car Google a déclaré la guerre aux frictions engendrées l
 
 Ci-dessous, une animation présentant le parcours pour accéder à la progressive Web App de AliExpress – un site ecommerce chinois.
 
-<figure class="figure-video mod-article-video">
+<figure class="figure-video mod-article-video note-flex-video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/lzQhw_wbr7c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 
@@ -65,7 +65,7 @@ Avec les PWA, nul besoin d'avoir 40 Mb disponibles sur son smartphone. Seule une
 
 > La progressive Web App est un poids plume dans le monde des apps. Konga – plateforme ecommerce leader en Afrique – a réduit de 92% l'utilisation des données destinées aux premières étapes de leur expérience client. Plus d'infos en consultant la vidéo ci-dessous (2:35).
 
-<figure class="figure-video mod-article-video">
+<figure class="figure-video mod-article-video note-flex-video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/3od1gsnKNC0?list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 
@@ -143,7 +143,7 @@ Les PWA ne symbolisent pas la fin de toutes les applications natives. A l'instar
 
 Pour développer votre connaissance sur le sujet, je vous invite à regarder la série de vidéos issues du Progressive Web App Summit 2016 organisé par Google.
 
-<figure class="figure-video mod-article-video">
+<figure class="figure-video mod-article-video note-flex-video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 
