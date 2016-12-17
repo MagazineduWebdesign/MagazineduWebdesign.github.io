@@ -151,4 +151,14 @@ Pour développer votre connaissance sur le sujet, je vous invite à regarder la 
 
 Quelles sont vos impressions sur les progressive Web Apps ? Réagissez sur le compte [Twitter](https://twitter.com/MagDuWebdesign) du Magazine du Webdesign ou dans le groupe LinkedIn [Web design et développement Web](https://www.linkedin.com/groups/8446027).
 
-—Guillaume du Magazine du Webdesign.
+## Liens
+
+- [Comment transformer un site WordPress en PWA – Retour d'expérience de Cloud Four](https://cloudfour.com/thinks/hey-hey-cloud-four-is-a-pwa/) ;
+- [lighthouse par Google Chrome : auditing, performance metrics, and best practices for Progressive Web Apps](https://github.com/GoogleChrome/lighthouse) ;
+- [Android instant Apps](https://developer.android.com/topic/instant-apps/index.html) ;
+- [Création de la PWA Pokedex](http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org) ;
+- [Guide Google sur les progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) ;
+- [Guide Firefox sur les progressive Web Apps](https://developer.mozilla.org/fr/Apps/Progressive).
+
+
+—[Guillaume du Magazine du Webdesign](https://twitter.com/guillaumpalayer).
