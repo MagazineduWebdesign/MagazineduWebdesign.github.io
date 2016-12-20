@@ -171,7 +171,7 @@ Découvrez la nouvelle version de cet outil de création de wireframes et de pro
 
 ---
 
-Si vous avez apprécié cet article, vous pourriez être intéressé(e) par
+Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
 -  [Testez votre style guide, pas votre site Web](http://www.magazineduwebdesign.com/conseils/guides/testez-votre-style-guide-pas-votre-site-web/) ;
 -  [Comment passer moins de temps à tester votre site Internet ?](http://www.magazineduwebdesign.com/conseils/guides/comment-passer-moins-de-temps-a-tester-votre-site-internet/)
