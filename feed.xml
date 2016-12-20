@@ -585,6 +585,19 @@
 		
 		
 			<item>
+				<title>4 ans pour rien</title>
+				
+				
+					<description>Durant mes 4 premières années en agence Web, j’ai pratiqué ce que l’on appelle l’attentisme. J’attendais que l’on me serve sur un plateau les informations dont j’avais besoin pour prototyper ou wireframer un projet Web. J’étais souvent du genre : il est où le brief ? A part cette question, j’en posais rarement d’autres. Grave erreur d’autant plus importante lorsque ma signature d’email comporte le terme designer.
+</description>
+				
+				<pubDate>Tue, 20 Dec 2016 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/designer-posez-les-bonnes-questions-pour-prototyper-site-web/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/designer-posez-les-bonnes-questions-pour-prototyper-site-web/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Kameliweb – Développer un site Web en complète autonomie</title>
 				
 				
@@ -614,7 +627,7 @@
 				<title>Mindsparkle Mag – Le travail de JustCoded, l'agence de l'Est</title>
 				
 				
-					<description>Je connais l’Ukraine de nom et par un ami qui m’a raconté ses nombreuses péripéties à Odessa – une belle ville bordée par la Mer Noire. Ce grand pays est le théâtre d’une renaissance créatives intense depuis la fin des années 2000. De nombreux acteurs du design et du développement Web sont établis en Ukraine. Il suffit de faire un tour sur Dribbble et Behance pour s’en rendre compte.
+					<description>Je connais l’Ukraine de nom et par un ami qui m’a raconté ses nombreuses péripéties à Odessa – une belle ville bordée par la Mer Noire. Ce grand pays est le théâtre d’une renaissance créative intense depuis la fin des années 2000. De nombreux acteurs du design et du développement Web sont établis en Ukraine. Il suffit de faire un tour sur Dribbble et Behance pour s’en rendre compte.
 </description>
 				
 				<pubDate>Tue, 13 Dec 2016 00:23:57 +0100</pubDate>
@@ -880,19 +893,6 @@
 				<pubDate>Sat, 02 Jul 2016 12:23:57 +0200</pubDate>
 				<link>http://www.magazineduwebdesign.com/conseils/guides/8-etapes-pour-creer-un-mockup-sans-photoshop/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/8-etapes-pour-creer-un-mockup-sans-photoshop/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Le guide interactif CSS3 transform</title>
-				
-				
-					<description>Je pense souvent à vous – en bien – c’est pour cette raison que je partage avec vous ce guide interactif pour comprendre les propriétés CSS3 Transform. La démo ci-dessous est à garder en favoris pour tous vos projets nécessitant des transform scale, transform rotate, transform opacity, etc. La bible de l’animation Web 2D et 3D en CSS3. Si vous avez le même type de guide pour les transitions en CSS3, je suis preneur.
-</description>
-				
-				<pubDate>Mon, 20 Jun 2016 00:23:57 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/guide-frontend-css3-transform/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/guide-frontend-css3-transform/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
 			</item>
 		
