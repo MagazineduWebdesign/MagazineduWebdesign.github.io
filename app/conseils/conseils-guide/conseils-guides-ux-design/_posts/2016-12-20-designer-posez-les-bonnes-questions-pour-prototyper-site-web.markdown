@@ -155,7 +155,7 @@ Cet article a été rédigé afin de réaffirmer le fait qu'il n'y a pas de ques
 -  [La recherche UX sans prise de tête](https://userresearch.blog.gov.uk/) – le blog d'une agence digitale au sein du gouvernement britannique ;
 - [The sprint book](http://www.magazineduwebdesign.com/conseils/livres/sprint-process-design-google-ventures/) – Un process de design rapide avec des résultats concrets ;
 - [UX for lean startups](http://www.magazineduwebdesign.com/conseils/livres/UX-Lean-Startups-Experience-Research-laura-klein/) – L'approche non universitaire du design et de la recherche UX. Le livre qui m'a fait comprendre ce qu'était le design de produit ;
-- Les guides [UX design](http://www.magazineduwebdesign.com/conseils/guides/ux-design/), [design](http://www.magazineduwebdesign.com/conseils/guides/design/) et [product management](http://www.magazineduwebdesign.com/conseils/guides/product-management/) du MDW ;
+- Les guides [UX design](http://www.magazineduwebdesign.com/conseils/guides/ux-design/), [design](http://www.magazineduwebdesign.com/conseils/guides/design/) et [product management](http://www.magazineduwebdesign.com/conseils/guides/product-management/) du MDW.
 
 ## Supporté par Pidoco
 
