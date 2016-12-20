@@ -10,7 +10,7 @@ tags: "guides-design"
 sponsored: "False"
 by: "MDW + JustCoded"
 by-url: "https://justcoded.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
-intro: "Je connais l'Ukraine de nom et par un ami qui m'a raconté ses nombreuses péripéties à Odessa – une belle ville bordée par la Mer Noire. Ce grand pays est le théâtre d'une renaissance créatives intense depuis la fin des années 2000. De nombreux acteurs du design et du développement Web sont établis en Ukraine. Il suffit de faire un tour sur Dribbble et Behance pour s'en rendre compte."
+intro: "Je connais l'Ukraine de nom et par un ami qui m'a raconté ses nombreuses péripéties à Odessa – une belle ville bordée par la Mer Noire. Ce grand pays est le théâtre d'une renaissance créative intense depuis la fin des années 2000. De nombreux acteurs du design et du développement Web sont établis en Ukraine. Il suffit de faire un tour sur Dribbble et Behance pour s'en rendre compte."
 description: "Présentation du travail réalisé par l'agence JustCoded pour Mindsparkle Mag."
 carte-optin-downoload-pdf: "false"
 ---
