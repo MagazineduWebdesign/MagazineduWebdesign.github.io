@@ -16,6 +16,8 @@ carte-optin-downoload-pdf: "false"
 ---
 J'ai heureusement fait évoluer mon approche du design en laissant désormais une grande place aux questions. Je ne le faisais pas auparavant, sans doute par peur de paraître stupide. Je n’avais jamais appris à poser des questions. **Mon parcours scolaire m’a surtout dicté ce que je devais apprendre. Et il me récompensait lorsque j’avais plus de réponses que de questions**. Une approche pas très adaptée à la réalité du monde pro 😄.
 
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
+
 ## Ce n'est qu'une question de questions
 
 Dans son livre [The Principles](https://www.principles.com/), Ray Dalio décrit les personnes qui ont plus de réponses que de questions comme dangereuses. Dangereuses pour elles-mêmes et les autres car elles ont tendance à voir la réalité d'un seul point de vue.
@@ -89,7 +91,7 @@ Sérieusement ! Ne pas savoir dire _non_ est le fléau du XXIème siècle. La mi
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Practice saying no. “Productivity tips, tricks, and hacks” are all about managing what happens when you say yes to too many things…</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/809054503521648640">14 décembre 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Livre recommandé : [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.fr/gp/product/0804140839/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=0804140839&linkCode=as2&tag=mdw-21)
+**Livre recommandé** : [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.fr/gp/product/0804140839/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=0804140839&linkCode=as2&tag=mdw-21)
 
 Cette nécessité de prioriser passe par la sélection des étapes clés d'un parcours utilisateur. Choisissez-les en posant cette question :
 
@@ -175,3 +177,5 @@ Si vous avez apprécié cet article, vous pourriez être intéressé(e) par
 -  [Comment passer moins de temps à tester votre site Internet ?](http://www.magazineduwebdesign.com/conseils/guides/comment-passer-moins-de-temps-a-tester-votre-site-internet/)
 
 — [Guillaume du Magazine du Webdesign](https://www.linkedin.com/in/gpalayer).
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
