@@ -1,11 +1,11 @@
-- name: RESSOURCES
-  permalink: /ressources/
+- name: "RESSOURCES"
+  permalink: "/ressources/"
 
-- name: INSPIRATIONS
-  permalink: /inspirations/
+- name: "INSPIRATIONS"
+  permalink: "/inspirations/"
 
-- name: CONSEILS
-  permalink: /conseils/
+- name: "CONSEILS"
+  permalink: "/conseils/"
 
 - name: "COLLECTIONS"
   permalink: "/collections/"
@@ -13,8 +13,8 @@
 - name: "JOBS"
   permalink: "/emploi/"
 
-- name: VIDEOS
-  permalink: /videos/
+- name: "VIDEOS"
+  permalink: "/videos/"
 
 - name: "EVENEMENTS"
   permalink: "/evenements/"
@@ -23,13 +23,19 @@
   permalink: "/articles/"
 
 - name: "A PROPOS"
-  permalink: /a-propos/
-
-- name: "HELLO"
-  permalink: /hello/
+  permalink: "/a-propos/"
 
 - name: "SPONSORS"
-  permalink: /sponsors/
+  permalink: "/sponsors/"
 
-- name: "FEEDBACK"
-  permalink: /feedback/
+- name: "TWITTER"
+  permalink: "http://twitter.com/@MagDuWebdesign"
+
+- name: "FACEBOOK"
+  permalink: "https://www.facebook.com/MagazineDuWebdesign/"
+
+- name: "INSTAGRAM"
+  permalink: "https://www.instagram.com/magazineduwebdesign/"
+
+- name: "PINTEREST"
+  permalink: "https://www.pinterest.com/MagDuWebdesign/"

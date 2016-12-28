@@ -1,14 +1,14 @@
-- name: RESSOURCES
-  permalink: /ressources/
+- name: "RESSOURCES"
+  permalink: "/ressources/"
 
-- name: INSPIRATIONS
-  permalink: /inspirations/
+- name: "INSPIRATIONS"
+  permalink: "/inspirations/"
 
-- name: CONSEILS
-  permalink: /conseils/
+- name: "CONSEILS"
+  permalink: "/conseils/"
 
-- name: COLLECTIONS
-  permalink: /collections/
+- name: "COLLECTIONS"
+  permalink: "/collections/"
 
 - name: "JOBS"
   permalink: "/emploi/"
