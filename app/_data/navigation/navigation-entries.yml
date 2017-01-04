@@ -10,14 +10,8 @@
 - name: "COLLECTIONS"
   permalink: "/collections/"
 
-- name: "JOBS"
-  permalink: "/emploi/"
-
 - name: "VIDEOS"
   permalink: "/videos/"
-
-- name: "EVENEMENTS"
-  permalink: "/evenements/"
 
 - name: "ARTICLES"
   permalink: "/articles/"

@@ -1,9 +1,6 @@
 - name: "VIDEOS"
   permalink: "/videos/"
 
-- name: "EVENEMENTS"
-  permalink: "/evenements/"
-
 - name: "ARTICLES"
   permalink: "/articles/"
 
