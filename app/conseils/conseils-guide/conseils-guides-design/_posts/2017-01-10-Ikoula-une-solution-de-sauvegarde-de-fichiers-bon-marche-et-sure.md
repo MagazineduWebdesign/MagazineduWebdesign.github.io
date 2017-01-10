@@ -35,7 +35,7 @@ Néanmoins, la facilité d'utilisation me séduit encore. Et je dors sur mes 2 o
 
 Je suis dans la catégorie de personnes qui veulent du matos permettant d’exercer son métier sans prise de tête sur des configurations. Et sans passer 3 jours à éplucher des comparatifs de LDLC ou Banggood. Je souhaite être le plus vite opérationnel sans devoir me transformer en ingénieur réseau à chaque achat de matériel.
 
-## La sauvegarde de fichier antifragile
+## La sauvegarde de fichiers antifragile
 
 Entre les boulettes de formatage – oui, j'ai formaté sans sauvegarder... oupsy – et les crashs de disques bas de gamme, j'ai fini par perdre la moitié de mes photos et documents.
 
