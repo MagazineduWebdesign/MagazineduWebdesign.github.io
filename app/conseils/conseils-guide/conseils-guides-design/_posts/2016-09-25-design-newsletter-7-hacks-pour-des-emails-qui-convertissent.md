@@ -14,7 +14,7 @@ intro: "Il existe une raison qui explique pourquoi votre boîte mail semble touj
 description: "Comment j'ai réussi à designer des newsletters qui convertissent grâce à de simples astuces."
 carte-optin-downoload-pdf: "false"
 ---
-Une autre tendance qui confirme le succès de l'email est la montée en puissance des business basés sur les newsletters. Emmenés par des piliers tels que [The Skimm](http://www.theskimm.com/) ou [Inside](https://inside.com/) , les éditeurs et les équipes marketing voient la newsletter comme un moyen d'atteindre un public engagé tout en contournant les adblockers et les flux sans fin des plateformes telles que Facebook.
+Une autre tendance qui confirme le succès de l'email est la montée en puissance des business basés sur les newsletters. Emmenés par des piliers tels que [The Skimm](http://www.theskimm.com/) ou [Inside](https://inside.com/), les éditeurs et les équipes marketing voient la newsletter comme un moyen d'atteindre un public engagé tout en contournant les adblockers et les flux sans fin des plateformes telles que Facebook.
 
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
