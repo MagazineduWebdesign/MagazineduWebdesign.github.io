@@ -16,7 +16,9 @@ viaurl:
 viatitle:
 ---
 
-Le studio Zurb l’a bien compris et a donc décidé de réaliser une série de 5 templates mail responsive. Les fêtes de fin d’année approchant, ils sont disponibles en téléchargement gratuit sur le Zurb’s playground[Zurb’s playground](http://www.zurb.com/playground/responsive-email-templates "Zurb’s playground").
+Le studio Zurb l’a bien compris et a donc décidé de réaliser une série de 5 templates mail responsive. Les fêtes de fin d’année approchant, ils sont disponibles en téléchargement gratuit sur le [Zurb’s playground](http://www.zurb.com/playground/responsive-email-templates "Zurb’s playground").
+
+**A lire** – [Design newsletter : 7 Hacks pour des emails qui convertissent](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/)
 
 ##Fonctionnement d’un template mail responsive
 
