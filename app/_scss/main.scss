@@ -1707,6 +1707,9 @@ figcaption{
 main.column-body-article p, main.column-body-article ul, main.column-body-article ol, main.column-body-article blockquote, .page-editoriale-intro p{
 	@include font-serif-paragraphe
 }
+main.column-body-article li{
+  margin-bottom: rem-calc(24)
+}
 main.column-body-article h2, main.column-body-article h3,{
 	margin-top: rem-calc(48);
 	font-weight: $font-weight-bold;
