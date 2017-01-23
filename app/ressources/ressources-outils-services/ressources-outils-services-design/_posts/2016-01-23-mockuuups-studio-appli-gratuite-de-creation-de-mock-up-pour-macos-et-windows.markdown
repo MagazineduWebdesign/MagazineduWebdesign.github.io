@@ -28,6 +28,9 @@ Comme d'habitude, j'essaie d'écarter de mon chemin toutes les tâches répétit
 
 Ils ont créé [Mockuuups Studio](https://mockuuups.studio?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), une application gratuite pour MacOS et Windows qui vous permet de créer de belles mises en scène pour vos maquettes. Peu importe si vous êtes designer ou non, l'App a été créée pour faciliter au maximum la création d'un mock-up.
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">RT pour tenter de gagner 5 licences premium Mockuuups Studio compatibles <a href="https://twitter.com/hashtag/sketch?src=hash">#sketch</a> &amp; <a href="https://twitter.com/hashtag/Photoshop?src=hash">#Photoshop</a>. <a href="https://t.co/xAOqyG0bQL">https://t.co/xAOqyG0bQL</a> T. au sort le 31/01. <a href="https://t.co/bLOtu3X5xN">pic.twitter.com/bLOtu3X5xN</a></p>&mdash; MagazineDuWebdesign (@MagDuWebdesign) <a href="https://twitter.com/MagDuWebdesign/status/823440391911469056">23 janvier 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 D'un simple glisser-déposer, Mockuuups Studio s'occupe d'insérer votre design dans plusieurs centaines de devices au choix. Et visualisez instantanément le résultat :
 
 {% include components/content-post-default-figure-image.html param="import-du-mock-up-en-glisser-deposer.gif" %}
@@ -60,6 +63,9 @@ La dernière raison qui m'a incité à vous parler de cet outil est le fait qu'i
 Oui, ce n'est pas une blague ! Des centaines de templates sont accessibles via Mockuuups Studio.
 
 Une [version premium](https://mockuuups.studio/start/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) est disponible pour avoir accès à des mises à jour mensuelles des devices et des mises en scènes personnalisées. Et le plus qui fait gagner du temps : une intégration directe au sein de l'écosystème de Sketch et Photoshop.
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">RT pour tenter de gagner 5 licences premium Mockuuups Studio compatibles <a href="https://twitter.com/hashtag/sketch?src=hash">#sketch</a> &amp; <a href="https://twitter.com/hashtag/Photoshop?src=hash">#Photoshop</a>. <a href="https://t.co/xAOqyG0bQL">https://t.co/xAOqyG0bQL</a> T. au sort le 31/01. <a href="https://t.co/bLOtu3X5xN">pic.twitter.com/bLOtu3X5xN</a></p>&mdash; MagazineDuWebdesign (@MagDuWebdesign) <a href="https://twitter.com/MagDuWebdesign/status/823440391911469056">23 janvier 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Penses-y pour la prochaine update de votre [site portfolio](http://www.magazineduwebdesign.com/collection/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/) ou pour la [présentation client](http://www.magazineduwebdesign.com/conseils/guides/slidepro-presentation-powerpoint-unique/) de la semaine prochaine.
 
