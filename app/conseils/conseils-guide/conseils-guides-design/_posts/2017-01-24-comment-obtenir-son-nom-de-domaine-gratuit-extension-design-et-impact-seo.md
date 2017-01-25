@@ -10,7 +10,7 @@ tags: "guides-design"
 sponsored: "true"
 by: "MDW + Web.design"
 by-url: "http://mdw.design/2kkE2u8"
-intro: "Avoir son extension de nom de domaine en .design n'est pas réservé qu'aux grands. C'est pour cette raison que le Magazine du Webdesign **offre à tous les **[abonnés de la newsletter](http://mdw.design/2jUWbyh) un nom de domaine en .design**. Et je vous explique en quoi ces nouveaux domaines de premier niveau peuvent avoir un impact sur le référencement de votre site Internet."
+intro: "Avoir son extension de nom de domaine en .design n'est pas réservé qu'aux grands. C'est pour cette raison que le Magazine du Webdesign **offre à tous les [abonnés de la newsletter](http://mdw.design/2jUWbyh) un nom de domaine en .design**. Et je vous explique en quoi ces nouveaux domaines de premier niveau peuvent avoir un impact sur le référencement de votre site Internet."
 description: "Obtenez gratuitement un nom de domaine en .design et découvrez les impacts potentiels sur votre SEO."
 carte-optin-downoload-pdf: "false"
 ---
@@ -18,12 +18,7 @@ carte-optin-downoload-pdf: "false"
 
 Vous recevrez un lien d'accès personnel par e-mail le 1 février. Il vous permettra de réserver gratuitement un nom de domaine de votre choix avec une extension en .design. Ce domaine est vendu entre 40 EUR et 70 EUR. Grâce aux copains de Porkbun de Portland, votre nom de domaine en .design vous est offert pour une durée d'un an sans engagement. **Aucune carte bancaire est nécessaire**. **Juste un .design gratuit pour 2017**. La vie est belle !
 
-Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via la carte Twitter ci-dessous.
-
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Obtenez votre nom de domaine en .design gratuit par e-mail le 1er février 👇 <a href="https://t.co/gLp3uawIaP">https://t.co/gLp3uawIaP</a></p>&mdash; MagazineDuWebdesign (@MagDuWebdesign) <a href="https://twitter.com/MagDuWebdesign/status/824155971551432704">25 janvier 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Si vous n'avez pas de compte Twitter, utilisez votre adresse e-mail préférée dans le formulaire ci-dessous.
+Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée dans le formulaire ci-dessous.
 
 <div class="row-liste-index">
   <div class="small-12 columns section-carte-newsletter section-carte-panel radius">
@@ -123,12 +118,7 @@ Des exemples concrets pour vous décider à franchir le pas.
 
 Si ce n'est pas déjà fait, inscrivez-vous à la newsletter du Magazine du Webdesign pour recevoir votre lien personnalisé mardi 1 février 2017. Il vous permettra de réserver gratuitement un nom de domaine de votre en choix avec une extension en .design. Cette extension est vendue normalement entre 40 EUR et 70 EUR. Grâce à Porkbun, elle vous est offerte pour une durée d'un an sans engagement. Pas d'entourloupe, pas de spam. Juste un .design parce que je suis sympa et que vous le valez bien.
 
-Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via la carte Twitter ci-dessous.
-
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Obtenez votre nom de domaine en .design gratuit par e-mail le 1er février 👇 <a href="https://t.co/gLp3uawIaP">https://t.co/gLp3uawIaP</a></p>&mdash; MagazineDuWebdesign (@MagDuWebdesign) <a href="https://twitter.com/MagDuWebdesign/status/824155971551432704">25 janvier 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Si vous n'avez pas Twitter, utilisez votre adresse e-mail préférée dans le formulaire ci-dessous.
+Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée dans le formulaire ci-dessous.
 
 <div class="row-liste-index">
   <div class="small-12 columns section-carte-newsletter section-carte-panel radius">
