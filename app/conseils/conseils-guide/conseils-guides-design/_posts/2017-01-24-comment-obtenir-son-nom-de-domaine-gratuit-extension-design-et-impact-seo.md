@@ -51,7 +51,7 @@ Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pou
   </div>
 </div>
 
- **Si vous souhaitez plus d'un .design ou ne pouvez pas attendre quelques jours, utilisez le code MDWDESIGN pour obtenir un domaine .design pour $5 en vous rendant sur ** **[web.design](http://mdw.design/2kkE2u8)** **.**
+ **Si vous souhaitez plus d'un .design ou ne pouvez pas attendre quelques jours, utilisez le code MDWDESIGN pour obtenir un domaine .design pour $5 en vous rendant sur [web.design](http://mdw.design/2kkE2u8)**.
 
 ## Les questions que je me suis posées avant de vous proposer cette offre
 
