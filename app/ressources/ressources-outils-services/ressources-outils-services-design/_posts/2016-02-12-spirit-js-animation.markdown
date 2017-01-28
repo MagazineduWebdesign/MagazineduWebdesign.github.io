@@ -11,6 +11,7 @@ by-url: "http://inlet.nl/?ref=MagazineDuWebdesign"
 url-demo: "https://spiritjs.io/?ref=MagazineDuWebdesign"
 logo: "logo-spirit-js.png"
 image-sub-post-intro: "ressources-web-spirit-js-animation-element.jpg"
+image: "ressources-web-spirit-js-animation-element.jpg"
 intro: "Animer facilement des éléments sur le web. Coming soon."
 description: "Animer facilement des éléments sur le web."
 ---

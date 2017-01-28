@@ -10,6 +10,7 @@ sponsored: "false"
 url-demo: "https://www.prototypo.io/"
 logo: "prototypo-logo.png"
 image-sub-post-intro: "prototypo-home-screenshot.png"
+image: "prototypo-home-screenshot.png"
 intro: "Prototypo est un logiciel en ligne qui permet de créer sa propre police de caractère en quelques clics."
 description: "Prototypo est un logiciel en ligne qui permet de créer sa propre police de caractère en quelques clics."
 ---

@@ -10,7 +10,7 @@ sponsored: "false"
 by: "MDW"
 url-demo: "https://mockuuups.studio?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "logo_mockuuups-studio.jpg"
-image-sub-post-intro:
+image: "creation-avec-mockuuups-studio.jpg"
 intro: "D'un simple glisser-déposer, obtenez un aperçu de vos maquettes de sites Web et d'applications mobiles sur des centaines de templates de mock-up d'iPhones et de MacBook 👌."
 description: "Obtenez un aperçu de vos maquettes de sites Web et d'applications mobiles sur des centaines de templates de mock-up d'iPhone et de MacBook."
 ---

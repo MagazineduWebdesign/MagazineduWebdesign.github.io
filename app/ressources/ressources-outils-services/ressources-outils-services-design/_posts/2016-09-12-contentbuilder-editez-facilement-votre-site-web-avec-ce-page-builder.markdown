@@ -11,6 +11,7 @@ by: "MDW + ContentBuilder"
 url-demo: "http://innovastudio.com/content-builder.aspx"
 logo: "innovastudio-logo.jpeg"
 image-sub-post-intro: "contentbuilder-js-editeur.jpg"
+image: "contentbuilder-js-editeur.jpg"
 intro: "Avec ce **page builder**, vous pouvez désormais éditer via Drag & drop des contenus dans votre propre site Internet / CMS."
 description: "Un éditeur de contenu user friendly vous permettant de modifier facilement vos pages Web en utilisant un mélange de WYSIWYG classique et une expérience de drag & drop."
 ---

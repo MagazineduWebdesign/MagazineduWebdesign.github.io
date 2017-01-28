@@ -10,6 +10,7 @@ sponsored: "true"
 by: "MDW + Updown"
 url-demo: "https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "updown-logo.png"
+image: "updown-statistiques.jpg"
 intro: "L'aspect le plus intéressant du métier de blogger est de pouvoir partager et échanger avec des personnes plus intelligentes que soi. J'ai eu la chance de faire la rencontre de Adrien, créateur de l'outil [updown.io](https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Un service en ligne qui vérifie le statut de votre site Web en envoyant périodiquement une requête HTTP HEAD à l'URL de votre choix. Il vous avertit alors par e-mail, Slack ou SMS lorsque votre [site Web](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/) ne répond pas correctement."
 description: "Un service en ligne qui vérifie le statut de votre site Web en envoyant périodiquement une requête HTTP HEAD à l'URL de votre choix. Il vous avertit alors par e-mail, Slack ou SMS lorsque votre site Web ne répond pas correctement."
 ---

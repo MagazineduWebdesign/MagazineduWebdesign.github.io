@@ -10,7 +10,7 @@ sponsored: "true"
 by: "MDW + Kameliweb"
 url-demo: "http://www.weerty.com/l-essentiel-en-1-page/og/6039?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "logo_kameliweb.png"
-image-sub-post-intro:
+image: "kameliweb-edition-footer.jpg"
 intro: "J'ai testé pour vous le [site builder en ligne Kameliweb](http://www.weerty.com/l-essentiel-en-1-page/og/6039?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign). Un outil pour créer en quelques minutes une [landing page](http://www.magazineduwebdesign.com/site-one-page-avantages-story-telling/) ou un site Internet complet. Découvrez mes impressions sur cette solution destinée à un public pro. La promesse de Kameliweb est double. Donner un moyen aux designers de réaliser des projets client sur mesure, sans connaissance en développement Web. Et leur apporter une autonomie sur des prestations réservées normalement à des développeurs. J'ai voulu tester l'outil en segmentant mon analyse sur les critères suivants : expérience utilisateur, fonctionnalités, pratique de facturation, exemples de réalisation, tarifs et commentaire général pour conclure."
 description: "Test du site builder Kameliweb pour créer une landing page ou un site Internet complet en toute autonomie."
 ---

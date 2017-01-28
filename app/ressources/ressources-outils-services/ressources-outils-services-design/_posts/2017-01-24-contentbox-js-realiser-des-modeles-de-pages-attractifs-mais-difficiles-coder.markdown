@@ -11,6 +11,7 @@ by: "MDW"
 url-demo: "http://www.innovastudio.com/contentbox.aspx?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "contentbox-logo.png"
 image-sub-post-intro: "contentbox.jpg"
+image: "contentbox.jpg"
 intro: "Créer des mises en page flexibles et responsives – sans écrire une ligne de code."
 description: "Créer des mises en page flexibles et responsives – sans écrire une ligne de code."
 ---

@@ -11,6 +11,7 @@ by: "MDW + MOO"
 by-url: "https://www.moo.com/fr/"
 logo: "moo-logo.png"
 image-sub-post-intro: "moo-cartes-de-visite-en-ligne-1.jpg"
+image: "moo-cartes-de-visite-en-ligne-1.jpg"
 intro: "Si vous voulez une carte de visite haut de gamme avec une touche différente et unique, alors [MOO](https://www.moo.com/fr/) devrait être au top de votre liste. Ne vous méprenez pas, vous allez bel et bien payer plus parce qu’il s’agit d’un service professionnel de conception et d'impression, mais les résultats dépassent ce qui est offert par d'autres services d'impression en ligne. J’étais prêt à payer un peu plus et j’ai testé pour vous leur service en me basant sur l'identité graphique du Magazine du Webdesign : je suis très satisfait des cartes qu’ils ont conçues."
 description: "Comment créer une carte de visite haut de gamme avec une touche différente et unique ? J'ai testé le service en ligne MOO."
 ---
