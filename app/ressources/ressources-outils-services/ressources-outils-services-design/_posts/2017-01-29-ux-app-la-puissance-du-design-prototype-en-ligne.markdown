@@ -125,4 +125,4 @@ Si vous avez apprécié cet article, vous pourriez aimer :
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyer tout ça à guillaume@magazineduwebdesign.com.
 
-Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer
+Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
