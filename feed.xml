@@ -585,6 +585,32 @@
 		
 		
 			<item>
+				<title>MockupEditor – créer un mockup HD en ligne sans Photoshop</title>
+				
+				
+					<description>Découvrez l’histoire de UX-App, une puissante application de prototypage qui a atteint son plein potentiel en mettant en œuvre une révision complète de son architecture et de son design.
+</description>
+				
+				<pubDate>Sat, 28 Jan 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/ux-app-la-puissance-du-design-prototype-en-ligne/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/ux-app-la-puissance-du-design-prototype-en-ligne/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/nouvelle-interface.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>MockupEditor – créer un mockup HD en ligne sans Photoshop</title>
+				
+				
+					<description>Mockup Editor est un outil en ligne pour créer une mise en scène haute définition de votre design d’affiche et de site Web.
+</description>
+				
+				<pubDate>Sat, 28 Jan 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/mockupeditor-mock-up-en-ligne-hires-retina-maquettes-sans-photoshop/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/mockupeditor-mock-up-en-ligne-hires-retina-maquettes-sans-photoshop/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/editeur-mockup-online-sans-photoshop-design-poster.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Comment obtenir son nom de domaine gratuit en .design</title>
 				
 				
@@ -607,7 +633,7 @@
 				<pubDate>Tue, 24 Jan 2017 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbox-js-realiser-des-modeles-de-pages-attractifs-mais-difficiles-coder/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbox-js-realiser-des-modeles-de-pages-attractifs-mais-difficiles-coder/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbox.jpg" type="image/*" />
 			</item>
 		
 			<item>
@@ -620,7 +646,7 @@
 				<pubDate>Mon, 23 Jan 2017 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/creation-avec-mockuuups-studio.jpg" type="image/*" />
 			</item>
 		
 			<item>
@@ -672,7 +698,7 @@
 				<pubDate>Thu, 15 Dec 2016 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/Kameliweb-Developper-un-site-Web-en-complete-autonomie/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/Kameliweb-Developper-un-site-Web-en-complete-autonomie/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/kameliweb-edition-footer.jpg" type="image/*" />
 			</item>
 		
 			<item>
@@ -763,7 +789,7 @@
 				<pubDate>Sun, 27 Nov 2016 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/exaprint-lance-un-seduisant-kit-de-demonstration-pour-les-pros-des-arts-graphiques/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/exaprint-lance-un-seduisant-kit-de-demonstration-pour-les-pros-des-arts-graphiques/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/exaprnt-la-palette-details-echantillons-nuanciers.png" type="image/*" />
 			</item>
 		
 			<item>
@@ -789,7 +815,7 @@
 				<pubDate>Tue, 22 Nov 2016 00:23:57 +0100</pubDate>
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/updown-io-une-solution-de-monitoring-de-site-web-economique/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/updown-io-une-solution-de-monitoring-de-site-web-economique/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/updown-statistiques.jpg" type="image/*" />
 			</item>
 		
 			<item>
@@ -867,32 +893,6 @@
 				<pubDate>Thu, 15 Sep 2016 06:23:57 +0200</pubDate>
 				<link>http://www.magazineduwebdesign.com/conseils/guides/design-portfolio-graphiste-wordpress/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/design-portfolio-graphiste-wordpress/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
-			</item>
-		
-			<item>
-				<title>ContentBuilder – Editez facilement votre site Web avec ce page builder</title>
-				
-				
-					<description>Avec ce page builder, vous pouvez désormais éditer via Drag &amp;amp; drop des contenus dans votre propre site Internet / CMS.
-</description>
-				
-				<pubDate>Mon, 12 Sep 2016 00:23:57 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbuilder-editez-facilement-votre-site-web-avec-ce-page-builder/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbuilder-editez-facilement-votre-site-web-avec-ce-page-builder/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
-			</item>
-		
-			<item>
-				<title>5 habitudes pour créer un portfolio de graphiste avec WordPress</title>
-				
-				
-					<description>Créer son portfolio : je ne vais pas vous rappeler à quel point un portfolio est important pour un graphiste et je ne vais pas non plus vous expliquer à quel point il est facile de mettre en ligne son portfolio avec WordPress. J’ai préféré vous restituer les extraits d’une discussion que j’ai eu avec Damiano, un des créateurs de la fonderie de thèmes WordPress Undsgn, composée d’un duo italo-suédois.
-</description>
-				
-				<pubDate>Mon, 22 Aug 2016 08:23:57 +0200</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/creer-portfolio-graphiste-wordpress/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/creer-portfolio-graphiste-wordpress/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
 			</item>
 		
