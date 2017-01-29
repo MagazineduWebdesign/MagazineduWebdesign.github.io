@@ -8,6 +8,7 @@ path3: "design"
 category: "ressources-outils-services-design"
 sponsored: "false"
 by: "MDW"
+by-url: "https://twitter.com/MagDuWebdesign"
 url-demo: "https://mockupeditor.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "mockupeditor-logo.png"
 image-sub-post-intro: "editeur-mockup-online-sans-photoshop-design-poster.jpg"
@@ -21,6 +22,8 @@ description: "Mockup Editor est un outil en ligne pour créer une mise en scène
 Il sait combien vous détestez travailler avec des maquettes d'affiches dans la mauvaise taille ! Mockup Editor est capable d'adapter le cadre de l'affiche ou le moniteur d'un écran à la taille excacte dont vous avez besoin.
 
 De nombreux styles de cadres sont disponibles, mais vous pouvez toujours créer votre style personnalisé. Suspendu ou posé contre un mur, l'éditeur sait comment bien gérer les ombres. Il suffit de placer les objets sur le bureau, et une ombre portée apparaît.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 D'un simple [glisser-déposer](http://www.magazineduwebdesign.com/drag-and-drop-astuces-experience-utilisateur/), créez [sans Photoshop votre mock-up](http://www.magazineduwebdesign.com/conseils/guides/8-etapes-pour-creer-un-mockup-sans-photoshop/) de Poster ou de maquettes de site Web.
 Des centaines de mises en scène sont disponibles pour créer un environnement unique. C'est l'outil idéal pour vous faire gagner du temps si vous vendez des affiches sur Etsy ou si vous devez [mettre à jour votre portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/).
