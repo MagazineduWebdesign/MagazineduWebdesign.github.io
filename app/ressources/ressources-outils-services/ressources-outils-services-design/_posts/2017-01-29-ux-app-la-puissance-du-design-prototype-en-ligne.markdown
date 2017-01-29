@@ -1,7 +1,7 @@
 ---
 layout: "ressources-default"
-title: "MockupEditor – créer un mockup HD en ligne sans Photoshop"
-date: "2017-01-28 00:23:57"
+title: "UX-App – La puissance du design au service du prototypage"
+date: "2017-01-29 00:23:57"
 path1: "ressources"
 path2: "outils-services"
 path3: "design"
@@ -17,7 +17,7 @@ intro: "Découvrez l'histoire de [UX-App](https://www.ux-app.com/?ref=magazinedu
 description: "Découvrez l'histoire du redesign de UX-App, une application de prototypage pour les designers et développeurs."
 ---
 
-## Entre nous
+## Des histoires d'entrepreneurs
 
 _Hey, c'est Guillaume du Magazine du Webdesign. En 2017, je souhaite donner la parole à des entrepreneurs afin qu'ils puissent partager leur expérience et leur expertise concernant le design de services en ligne. En signe de reconnaissance envers la communauté du magazineduwebdesign.com, UX-App offre 20 licences gratuites, d'une valeur de $150 chacune. Pour obtenir votre licence gratuite, visitez la page dédiée aux lecteurs du MagDuWebdesign : [https://www.ux-app.com/magazineduwebdesign-promo](https://www.ux-app.com/magazineduwebdesign-promo.html)._
 
