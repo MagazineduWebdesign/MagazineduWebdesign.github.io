@@ -19,7 +19,7 @@ description: "Découvrez l'histoire du redesign de UX-App, une application de pr
 
 ## Des histoires d'entrepreneurs
 
-_Hey, c'est Guillaume du Magazine du Webdesign. En 2017, je souhaite donner la parole à des entrepreneurs afin qu'ils puissent partager leur expérience et leur expertise concernant le design de services en ligne. En signe de reconnaissance envers la communauté du magazineduwebdesign.com, UX-App offre 20 licences gratuites, d'une valeur de $150 chacune. Pour obtenir votre licence gratuite, visitez la page dédiée aux lecteurs du MagDuWebdesign : [https://www.ux-app.com/magazineduwebdesign-promo](https://www.ux-app.com/magazineduwebdesign-promo.html)._
+_Hey, c'est Guillaume du Magazine du Webdesign. En 2017, je souhaite donner la parole à des entrepreneurs afin qu'ils puissent partager leur expérience et leur expertise concernant le design de services en ligne. En signe de reconnaissance envers la communauté du magazineduwebdesign.com, UX-App offre 20 licences gratuites, d'une valeur de $150 chacune. Pour obtenir votre licence gratuite, visitez la [page dédiée aux lecteurs du MagDuWebdesign](https://www.ux-app.com/magazineduwebdesign-promo.html)._
 
 _Si vous souhaitez également partager votre histoire, envoyez un message à guillaume@magazineduwebdesign.com._
 
