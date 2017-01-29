@@ -28,7 +28,98 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://www.exaprint.fr/page/activez-vos-supers-pouvoirs/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Exaprint">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/designer-posez-les-bonnes-questions-pour-prototyper-site-web/" title="Pidoco">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-pidoco.png" alt="logo Pidoco" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Pidoco</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/mindsparkle-mag-travail-agence-justcoded/" title="justcoded">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-justcoded.jpg" alt="logo justcoded" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">JustCoded</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/Ikoula-une-solution-de-sauvegarde-de-fichiers-bon-marche-et-sure/" title="Ikoula">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-ikoula.jpg" alt="logo Ikoula" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Ikoula</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/comment-obtenir-son-nom-de-domaine-gratuit-extension-design-et-impact-seo/" title="PorkBun">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-porkbun.jpeg" alt="logo PorkBun" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">PorkBun</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbox-js-realiser-des-modeles-de-pages-attractifs-mais-difficiles-coder/" title="contentbox js">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/contentbox-logo.png" alt="logo contentbox js" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">ContentBox.js</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/" title="mockuuups-studio">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo_mockuuups-studio.jpg" alt="logo mockuuups-studio" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Mockuuups Studio</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/Kameliweb-Developper-un-site-Web-en-complete-autonomie/" title="Kameliweb">
+            <div class="row collapse text-center">
+              <div class="grid-article-card-info mod-app-icon small-12 columns">
+                <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo_kameliweb.png" alt="logo Kameliweb" width="64" height="64">
+                <h1 class="grid-article-card-title mod-card-w-tag">Kameliweb</h1>
+              </div>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      <li>
+        <article class="grid-article-card mod-app-icon" data-equalizer-watch>
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/design/exaprint-lance-un-seduisant-kit-de-demonstration-pour-les-pros-des-arts-graphiques/" title="Exaprint">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/exaprint-logo.png" alt="logo Plesk" width="64" height="64">
@@ -41,7 +132,7 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="https://updown.io/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Updown">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/ressources/outils-services/updown-io-une-solution-de-monitoring-de-site-web-economique/" title="Updown">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/updown-logo.png" alt="logo Plesk" width="64" height="64">
@@ -54,7 +145,7 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Plesk">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/Un-workflow-de-deploiement-WordPress-plus-efficace-avec-Plesk-Docker-et-Git/" title="Plesk">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-plesk.png" alt="logo Plesk" width="64" height="64">
@@ -67,7 +158,7 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="https://www.browserling.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="Browserling">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/testez-votre-style-guide-pas-votre-site-web/" title="Browserling">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-browserling.png" alt="logo Browserling" width="64" height="64">
@@ -80,7 +171,7 @@ permalink: "/sponsors/"
 
       <li>
         <article class="grid-article-card mod-app-icon" data-equalizer-watch>
-          <a class="grid-article-card-link-wrap" href="http://www.browseemall.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" title="BrowseEmAll">
+          <a class="grid-article-card-link-wrap" href="http://www.magazineduwebdesign.com/conseils/guides/comment-passer-moins-de-temps-a-tester-votre-site-internet/" title="BrowseEmAll">
             <div class="row collapse text-center">
               <div class="grid-article-card-info mod-app-icon small-12 columns">
                 <img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-browseemall.png" alt="logo BrowseEmAll" width="64" height="64">
