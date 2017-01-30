@@ -1,6 +1,6 @@
 ---
 layout: "conseils-default"
-title: "Texte sur photo – 7 conseils de design pour résoudre tous vos problèmes"
+title: "Contraste texte sur photo – 7 conseils de designer"
 date: "2016-06-04 12:23:57"
 path1: "conseils"
 path2: "guides"
@@ -10,7 +10,7 @@ tags: "guides-design"
 by: "MDW + iStock"
 by-url: "http://istockphoto.7eer.net/c/262183/258824/4205"
 logo: "istock-logo.jpg"
-intro: "Intégrer du texte au sein d’une image est un jeu d’équilibre subtil. Pour obtenir un résultat parfait, efficace, avec un rendu plaisant, tous les élements doivent trouver leur place d’une manière harmonieuse. Autrement, le résultat peut être incohérent. Voici quelques astuces pour une composition texte-image lisible et résistante à toutes les réunions de design critique."
+intro: "Intégrer du texte au sein d’une image est un jeu d’équilibre subtil. Pour obtenir un résultat parfait, efficace, avec un rendu plaisant, tous les élements doivent trouver leur place d’une manière harmonieuse. Autrement, le résultat peut être incohérent. Voici quelques astuces pour une composition texte-image proposant un fort contraste et résistante à toutes les réunions de design critique."
 description: "Vous devez avoir la photo idéale, un bon oeil pour la typographie et savoir ce que vous voulez accomplir pour tirer le maximum d'un texte en overlay sur une image."
 ---
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
