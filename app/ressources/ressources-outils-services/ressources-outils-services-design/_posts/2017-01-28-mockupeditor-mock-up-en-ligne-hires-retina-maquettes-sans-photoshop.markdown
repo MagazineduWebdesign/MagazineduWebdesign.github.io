@@ -31,6 +31,7 @@ Des centaines de mises en scène sont disponibles pour créer un environnement u
 Tester la [démo gratuite][fda557e7] de Mockup Editor.
 
 Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
 - [Collection de templates de mock-up PSD & Sketch](http://www.magazineduwebdesign.com/ressources/mockups/) ;
 - [Mockuuups Studio](http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/).
 
