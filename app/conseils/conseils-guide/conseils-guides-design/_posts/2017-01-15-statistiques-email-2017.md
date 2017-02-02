@@ -13,7 +13,7 @@ by-url: "https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_sou
 intro: "J'apprécie le fait d'avoir des données à jour sur les usages et les performances de l'email. Cela permet de prendre des décisions plus judicieuses pour optimiser leur design. Néanmoins, les statistiques sur l'email sont souvent obsolètes. Afin de [designer des templates email](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) plus en phase avec les usages de mon audience, j'ai parcouru une centaine de sources pour disposer des derniers chiffres sur l'email en 2017."
 description: "Les statistiques clés de l'emailing marketing avec ses implications sur le design et le développement des templates email."
 carte-optin-downoload-pdf: "false"
-image: "sarbacane-statistiques-email-2017.png"
+image-no-cover-book: "sarbacane-statistiques-email-2017.png"
 ---
 
 ## Les statistiques clés de l'email

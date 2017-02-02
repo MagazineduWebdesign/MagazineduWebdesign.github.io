@@ -11,7 +11,6 @@ by: "Sophie Paxton x MDW"
 by-url: "https://twitter.com/sophie_paxtonUX"
 url-demo: "https://www.ux-app.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 logo: "logo-ux-app.png"
-image-sub-post-intro:
 image: "nouvelle-interface.png"
 intro: "Découvrez l'histoire de [UX-App](https://www.ux-app.com/?ref=magazineduwebdesign), une puissante application de prototypage qui a atteint son plein potentiel en mettant en œuvre une révision complète de son architecture et de son design."
 description: "Découvrez l'histoire du redesign de UX-App, une application de prototypage pour les designers et développeurs."

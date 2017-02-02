@@ -13,7 +13,7 @@ by-url: "https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_sou
 intro: "Je vous annonçais en 2012 que le [design responsive était l'avenir des templates e-mail](http://www.magazineduwebdesign.com/templates-mail-mobile/). Je dois avouer que l'adaptation des emails aux contraintes du mobile a pris plus de temps que prévu. Les grands changements annoncés pour 2013/14 ont pratiquement tous eu lieu en 2016. Gmail et Inbox by Gmail [supportent désormais les media queries](https://developers.google.com/gmail/design/css) et [iOS 10 nous offre à nouveau le support de la balise HTML5 video](https://litmus.com/blog/9-things-you-need-to-know-about-email-in-ios-10). Toutes ces années d'attente n'ont pas étaient passées en vain. 2017 sera l'année de l'email riche en contenus et plus mobile."
 description: "Tour d'horizon des grandes évolutions en terme de design pour les templates email. Plus riche en contenu vidéo et plus responsive."
 carte-optin-downoload-pdf: "false"
-image: "sarbacane-design-email-2017-header-kv.png"
+image-no-cover-book: "sarbacane-design-email-2017-header-kv.png"
 ---
 La semaine dernière, je vous présenté les [statistiques email](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/) utiles pour préparer cette nouvelle année grâce au soutien de l'équipe [Sarbacane](https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) 😍.
 
