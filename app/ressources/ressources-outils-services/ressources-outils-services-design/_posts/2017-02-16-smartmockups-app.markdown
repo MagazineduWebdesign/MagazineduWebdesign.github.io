@@ -11,7 +11,7 @@ by: "MDW"
 by-url: "https://twitter.com/MagDuWebdesign"
 url-demo: "https://gumroad.com/a/448083059"
 logo: "logo-smartmockups.jpg"
-  image: "smartmockups_Image_MacBook.jpg"
+image: "smartmockups_Image_MacBook.jpg"
 intro: "La manière la plus simple de créer de superbes mock-ups sans utiliser Photoshop."
 description: "Smartmockups vous donne la possibilité de concevoir des mock-ups pour du print, du social media ou au sein de devices sans être un pro de Photoshop"
 ---
