@@ -113,7 +113,7 @@ Affichez l'interface du lecteur et les contrôles associés (volume du son, pist
 
 ## Conseil #3
 
- [Créer un site](http://mdw.design/2lKPC2d) Web avec de la vidéo est un excellent moyen pour injecter du mouvement. Néanmoins, si l'utilisateur ne réalise aucune action, les vidéos sont bien souvent figées. Un clic ou un tap est nécessaire pour lire une vidéo. Pour capter l'attention de vos visiteurs vers vos vidéos, une solution peut être une image au format .gif ou une boucle vidéo de quelques secondes. Cette mise en scène permet d'en montrer plus à vos visiteurs et de les inciter à voir vos vidéos.
+ Créer un site Web avec de la vidéo est un excellent moyen pour injecter du mouvement. Néanmoins, si l'utilisateur ne réalise aucune action, les vidéos sont bien souvent figées. Un clic ou un tap est nécessaire pour lire une vidéo. Pour capter l'attention de vos visiteurs vers vos vidéos, une solution peut être une image au format .gif ou une boucle vidéo de quelques secondes. Cette mise en scène permet d'en montrer plus à vos visiteurs et de les inciter à voir vos vidéos.
 
 ## Conseil #4
 
@@ -209,6 +209,14 @@ Coupez le son. N'imposez pas à vos visiteurs des sons intrusifs. Si votre site 
   <noscript><img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-bangui-l-oubli-e---action-contre-la-faim.jpg" alt="Exemple vidéo site Internet - Bangui l'oubliée" width="736" height="auto" /></noscript>
   <figcaption>Source – http://mdw.design/2l758Sj</figcaption>
 </figure>
+
+## Transformez la création de votre site Web en entreprise rentable
+
+La plupart des sites Web présentés dans cet article ont été réalisés avec l'aide de développeurs talentueux. Mais il n'est pas toujours nécessaire de passer par un expert pour obtenir un site Web de qualité. Des outils tels que Webflow, Squarespace ou Wix offrent un moyen simple et accessible à toutes les bourses pour [créer un site](http://mdw.design/2lKPC2d).
+
+En parlant de Wix, leur approche du design se base sur un principe simple : proposer une plateforme de développement Web basée sur le Cloud utile à des millions d’utilisateurs à travers le monde. Wix permet à chacun de créer facilement un site web de qualité. Ils font partie des leaders de la création de site Internet pour présenter ses travaux, créer sa boutique en ligne ou exprimer simplement sa créativité.
+
+Wix propose des modèles de page entièrement personnalisables, permettant d’ajouter en quelques clics vos textes, images et autres contenus. Pour rester dans le sujet, essayez les templates Wix avec un arrière-plan vidéo !
 
 ## On en parle ?!
 
