@@ -20,7 +20,7 @@ C'est notamment le cas de [JustCoded](https://justcoded.com/?utm_medium=blog&utm
 
 ## Une expertise reconnue
 
-L'agence s'est spécialisée dans le développement frontend, la customisation de CMS et le développement de back-offices en PHP. En écrivant cette description, je me suis dit _Encore une agence de l'Est qui fait de l'outsourcing_ .
+L'agence s'est spécialisée dans le développement frontend, la customisation de CMS et le développement de back-offices en PHP. En écrivant cette description, je me suis dit _Encore une agence de l'Est qui fait de l'outsourcing_.
 
 {% include components/content-post-default-figure-image.html param="fuck-that-bitch yao-pff.jpg" %}
 
