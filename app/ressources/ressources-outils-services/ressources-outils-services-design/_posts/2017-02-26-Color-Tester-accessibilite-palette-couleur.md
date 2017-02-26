@@ -1,0 +1,17 @@
+---
+layout: "ressources-default"
+title: "Color Tester"
+date: "2017-02-26 00:23:57"
+path1: "ressources"
+path2: "outils-services"
+path3: "design"
+category: "ressources-outils-services-design"
+sponsored: "false"
+by: "@mediaandme"
+by-url: "https://twitter.com/mediaandme/"
+url-demo: "http://color.mediaandme.be/"
+logo: "color-tester-logo.jpg"
+image: "color-tester-screen.jpg"
+intro: "Outil pour les UI designers prêtant attention aux problématiques d'[accessibilité](http://www.magazineduwebdesign.com/accessibilite-web-ckecklist/) des couleurs. Il permet de créer sa palette de couleurs, de la valider en temps réel (daltonisme et contraste [WCAG 2.0](https://www.w3.org/TR/WCAG20/)) et de l'exporter dans toute une série de formats (HSLA, RGBA et hex pour votre CSS)."
+description: "Créez et testez votre palette de couleurs, validez les contrastes et le daltonisme (WCAG 2.0), convertissez-la en HSL, HSLA, RGB, RGBA, hex, CMJN."
+---
