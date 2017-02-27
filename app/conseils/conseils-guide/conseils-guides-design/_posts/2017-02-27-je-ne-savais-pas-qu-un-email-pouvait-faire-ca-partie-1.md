@@ -45,9 +45,6 @@ Le moyen le plus rapide pour sortir du lot parmi les dizaines d'emails reçus ch
 - Les e-mails doivent être authentifiés en utilisant les méthodologies [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) (Sender Policy Framework) ou [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) (DomainKeys Identified Mail). SPF spécifie quels hôtes sont autorisés à envoyer des messages à partir d'un [domaine](http://www.magazineduwebdesign.com/conseils/guides/comment-obtenir-son-nom-de-domaine-gratuit-extension-design-et-impact-seo/) donné en créant un enregistrement SPF. DKIM permet à l'expéditeur de signer électroniquement les e-mails légitimes d'une manière qui peut être vérifiée par les destinataires en utilisant une clé publique. La plupart des fournisseurs de services pour gérer des campagnes email proposent la possibilité de personnaliser les SPF et DKIM via l'interface d'administration du compte utilisateur.
 - Pour savoir le SPF et le DKIM de vos campagnes, ouvrez le menu déroulant situé à droite de l'email dans Gmail ou Inbox et cliquez sur Afficher l'original.
 
-
-{% include components/content-post-default-figure-image.html param="gmail-acces-menu-deroulant.jpg" %}
-
 {% include components/content-post-default-figure-image.html param="SPF-et-DKIM-de-la-gazette-du-MDW.jpg" %}
 
 **Note** : j'ai testé différentes approches pour optimiser mon taux d'ouverture. La photo de profil est un bon moyen de proposer un visage plus humain aux emails envoyés tout en optimisant l'ouverture.
