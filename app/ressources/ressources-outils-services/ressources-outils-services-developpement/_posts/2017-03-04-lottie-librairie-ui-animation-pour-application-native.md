@@ -12,7 +12,7 @@ by-url: "https://twitter.com/guillaumpalayer"
 url-demo: "http://airbnb.design/lottie/"
 logo: "lottie-logo.gif"
 image-sub-post-intro: "lottie-ui-animation-native-app-1.gif"
-image: "lottie-ui-animation-native-app-2.gif"
+image: "lottie-ui-animation-native-app-3.gif"
 intro: "Ajoutez facilement une animation de haute qualité à n'importe quelle application native"
 description: "Ajoutez facilement une animation de haute qualité à n'importe quelle application native"
 ---
