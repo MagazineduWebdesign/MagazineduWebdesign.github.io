@@ -70,7 +70,7 @@ layout: default
           <!-- if ressource have a nice cover -->
           {% if page.image-sub-post-intro %}
           <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" rel="lightbox">
+            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}">
               <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
             </a>
           </figure>
