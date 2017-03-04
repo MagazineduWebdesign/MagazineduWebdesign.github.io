@@ -21,7 +21,10 @@ Airbnb a publié un nouvel outil open source appelé Lottie, qui permet à quico
 
 Lottie est une bibliothèque iOS, Android et React Native qui offre un rendu d'animations After Effects en temps réel, permettant aux applications d'utiliser des animations aussi facilement qu'elles utilisent des images statiques.
 
-{% include components/content-post-default-figure-image.html param="lottie-ui-animation-native-app-3.gif" %}
+<figure class="figure-img mod-img-small-align-middle">
+  <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/lottie-ui-animation-native-app-3.gif" alt="lottie-ui-animation-native-app-3" width="580" height="auto"/>
+  <figcaption>Motion UI avec Lottie.</figcaption>
+</figure>
 
 Vous aimerez cette bibliothèque d'[UI animations][ce197df2] si vous cherchez à différencier votre application avec un peu plus de mouvement.
 
