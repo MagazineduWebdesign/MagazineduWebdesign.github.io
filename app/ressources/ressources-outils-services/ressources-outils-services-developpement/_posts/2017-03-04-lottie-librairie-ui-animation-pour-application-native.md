@@ -1,7 +1,7 @@
 ---
 layout: "ressources-default"
 title: "Lottie par Airbnb – UI animation"
-date: "2017-02-22 00:23:57"
+date: "2017-03-04 00:23:57"
 path1: "ressources"
 path2: "outils-services"
 path3: "developpement"
