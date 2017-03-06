@@ -12,7 +12,6 @@ layout: default
         <div class="small-12 medium-12 large-8 columns small-text-center large-text-left">
           <h1 class="is-title" data-is-title="{{ page.title | truncate: 48 }}" itemprop="headline">{{ page.title }} <small>Web Design Inspiration &ndash; {{ page.metadata | downcase }}</small></h1>
           {% if page.commentaire %}{{ page.commentaire | markdownify }}{% endif %}
-          {% include custom/cartes/carte_ad_liens-texte.html %}
         </div>
         <div class="small-12 columns hide-for-large-up small-text-center">
           {% if page.url-demo %}<a onclick="ga('send', 'event', 'ui-sites-web', 'Visit demo', '{{ page.title }}');" href="{{ page.url-demo | append: '?ref=magazineduwebdesign' }}" class="button radius small primary" target="_blank" rel="nofollow">VISITER LE SITE WEB</a>{% endif %}
