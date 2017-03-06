@@ -11,5 +11,5 @@ mailchimp-form-id: "460dc49acc"
 permalink: "/depositphotos/"
 expire: "true"
 winner: "KabDriver1"
-wwinner-url: "https://twitter.com/KabDriver1"
+winner-url: "https://twitter.com/KabDriver1"
 ---
