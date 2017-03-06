@@ -11,22 +11,22 @@ sponsored: "true"
 by: "MDW + Sarbacane"
 by-url: "https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 intro: "Voici quelques astuces pour optimiser le design d'email et impressionner vos collègues avec la classe de [Salt Bae](https://www.instagram.com/p/BO9dI9ujWNI)."
-description: "Hacks pour optimiser le designer et la conversion de votre template d'email ou de newsletter."
+description: "Astuces oour afficher un logo d'expéditeur dans Gmail & Inbox by Gmail, afficher un élément en position fixe, insérer un texte de preheader non visible par l'utilisateur, etc."
 carte-optin-downoload-pdf: "false"
 image-no-cover-book: "salt-bae.gif"
 ---
-Je publierai la semaine prochaine une seconde partie avec de belles innovations pour [designer un template e-mail](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/). L'objectif est de vous apporter des solutions simples et élégantes en prenant en compte toutes les contraintes que l'on connait au secteur. J'ai sélectionné des approches qui permettent d'innover sans nécessiter de lourds investissements en développement ou en configuration.
+Je publierai la semaine prochaine une [seconde partie](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) avec de belles innovations pour [designer un template e-mail](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/). L'objectif est de vous apporter des solutions simples et élégantes en prenant en compte toutes les contraintes que l'on connait au secteur. J'ai sélectionné des approches qui permettent d'innover sans nécessiter de lourds investissements en développement ou en configuration.
 
 ## Au programme
 
-1. **Afficher un logo d'expéditeur dans Gmail & Inbox by Gmail ;**
-2. **Accompagner l'objet avec un texte de description/preheader fantôme ;**
-3. **Afficher un élément en position fixe dans un email ;**
-4. **Proposer un bouton d'action directement depuis la boîte de réception ;**
-5. **Lire une vidéo dans un email (disponible dans la partie II) ;**
-6. **Insérer un bouton centré dans un email (disponible dans la partie II) ;**
-7. **Supprimer l'icône de téléchargement de l'image dans Gmail (disponible dans la partie II) ;**
-8. **Expérimenter avec les Web Fonts (disponible dans la partie II).**
+1. **Afficher un logo d'expéditeur dans Gmail & Inbox by Gmail** ;
+2. **Accompagner l'objet avec un texte de description/preheader fantôme** ;
+3. **Afficher un élément en position fixe dans un email** ;
+4. **Proposer un bouton d'action directement depuis la boîte de réception** ;
+5. **[Lire une vidéo dans un email](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) (disponible dans la partie II)** ;
+6. **[Insérer un bouton centré dans un email](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) (disponible dans la partie II)** ;
+7. **[Supprimer l'icône de téléchargement de l'image dans Gmail](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) (disponible dans la partie II)** ;
+8. **[Expérimenter avec les Web Fonts](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) (disponible dans la partie II)**.
 
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
@@ -96,7 +96,7 @@ Sarbacane est l’application emailing de référence en France qui vous permet 
 - Et plus de [50 autres fonctionnalités à découvrir](https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) qui en font l’une des solutions les plus complètes du marché.
 
 ## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
-
+-  [Je ne savais pas qu'un email pouvait faire ça ! (Partie II)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) ;
 -  [Design d'email – Comment innover en 2017](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/) ;
 -  [Design newsletter : 7 Hacks pour des emails qui convertissent](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) ;
 -  [Statistiques email 2017](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/).
