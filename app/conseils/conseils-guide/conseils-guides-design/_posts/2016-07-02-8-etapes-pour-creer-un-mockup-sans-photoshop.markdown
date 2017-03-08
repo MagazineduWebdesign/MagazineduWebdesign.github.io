@@ -16,13 +16,29 @@ description: "Comment designer un mockup de site Web, d’application mobile ou 
 carte-optin-downoload-pdf: "false"
 ---
 
-{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
-
 Bien souvent, un mockup offre une nouvelle perspective sur son travail. Par exemple, l’intégration d’un site web au sein d’un Macbook Pro 15’’ n’offre pas le même rendu qu’une simple capture d’écran au sein d’une [slide de présentation](http://www.magazineduwebdesign.com/conseils/guides/slidepro-presentation-powerpoint-unique/) ou d’un [portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/).
 
-Néanmoins, les [ressources Web dédiées à la création de mockups](http://www.magazineduwebdesign.com/ressources/mockups/) sont le plus souvent disponibles qu’au format PSD. Je ne suis pas un grand fan de Photoshop. Ma paresse me pousse donc vers des outils de création de mockup online. Plus rapide et plus pratique, j’ai testé pour vous <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a>. Une Web app dont la promesse est d’offrir l’outil parfait pour la création de mockup online, que ce soit pour une affiche, un site Web ou une application mobile.
+Néanmoins, les [ressources Web dédiées à la création de mockups](http://www.magazineduwebdesign.com/ressources/mockups/) sont le plus souvent disponibles qu’au format PSD. Je ne suis pas un grand fan de Photoshop. Ma paresse me pousse donc vers des outils de création de mockup online. Plus rapide et plus pratique, j’ai testé pour vous <a href="https://mockupeditor.com/" target="blank" rel="nofollow">MockupEditor</a>. Une Web app dont la promesse est d’offrir l’outil parfait pour la création de mockup online, que ce soit pour une affiche, un site Web ou une application mobile.
 
 Les quelques lignes suivantes détaillent **les étapes de création d’un mockup sans Photoshop via l’outil MockupEditor**. Dans 5 min, votre mockup sera prêt à être afficher sur votre support de présentation favoris.
+
+<div class="section-carte-index-panel">
+  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop">
+    <article class="carte-article-secondaire mod-ads">
+      <div class="row collapse">
+        <div class="small-3 medium-2 columns">
+          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-smartmockups.jpg, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-smartmockups.jpg);"></div>
+        </div>
+        <div class="small-9 medium-10 columns">
+          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
+            <span class="left job--entreprise">Smartmockups App <span class="label--new">ALTERNATIVE</span></span>
+            <span class="job--description">La manière la plus simple de créer de superbes mock-ups sans Photoshop.</span>
+          </h1>
+        </div>
+      </div>
+    </article>
+  </a>
+</div>
 
 ## Comment créer le mockup idéal avec MockupEditor ?
 
@@ -74,14 +90,37 @@ Les quelques lignes suivantes détaillent **les étapes de création d’un mock
   <figcaption>Enregistrez et téléchargez votre mockup.</figcaption>
 </figure>
 
-{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
-
 Si vous n’êtes pas un expert Photoshop, <a href="https://mockupeditor.com/" target="_blank" rel="nofollow">MockupEditor</a> peut vous faire gagner en productivité grâce à son éditeur online très facile à prendre en main. Il permet de créer des designs uniques de mockup grâce à la multitude d’accessoires et la grande liberté de positionnement des objets. Les principaux [mockups de devices mobiles et desktop](http://www.magazineduwebdesign.com/ressources/mockups/) sont disponibles via l’interface. Je vous invite à faire un test avec la <a href="https://mockupeditor.com/editor" target="_blank" rel="nofollow">version gratuite</a>.
 
 Si vous êtes conquis(e), n’oublie pas d’utiliser le voucher dédié à la communauté du Magazine du Webdesign pour bénéficier de <a href="https://mockupeditor.com/plans/MDW50" target="_blank" rel="nofollow">50% de réduction sur l’abonnement annuel</a> à MockupEditor.
 
-J’espère que ce genre de cadeau vous sera utile dans votre quotidien de designer. Vous pouvez réagir à cet article en m’envoyant directement vos [feedbacks](http://www.magazineduwebdesign.com/feedback/).
+<div class="section-carte-index-panel">
+  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop">
+    <article class="carte-article-secondaire mod-ads">
+      <div class="row collapse">
+        <div class="small-3 medium-2 columns">
+          <div class="rounded-img-d64 mod-ads" data-interchange="[https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-smartmockups.jpg, (small)]" data-uuid="interchange-if5cwx8k1" style="background-image: url(https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/logo-smartmockups.jpg);"></div>
+        </div>
+        <div class="small-9 medium-10 columns">
+          <h1 class="carte-article-secondaire-post-title mod-ads-index-panel-title mod-job-title">
+            <span class="left job--entreprise">Smartmockups App <span class="label--new">ALTERNATIVE</span></span>
+            <span class="job--description">La manière la plus simple de créer de superbes mock-ups sans Photoshop.</span>
+          </h1>
+        </div>
+      </div>
+    </article>
+  </a>
+</div>
 
-Thanks,
-Guillaume.<br />
-Fondateur, [Magazine du Webdesign](http://www.magazineduwebdesign.com/).
+## On en parle ?!
+
+Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez tout ça à guillaume@magazineduwebdesign.com. Si vous n'aimez pas les e-mails, envoyez un tweet à [@MagDuWebdesign](https://twitter.com/MagDuWebdesign).
+
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
+- [Mockuuups Studio – L'appli gratuite de création de mock-up pour MacOS et Windows](http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/) ;
+- [Smartmockups App](http://www.magazineduwebdesign.com/ressources/outils-services/design/smartmockups-app/) ;
+
+Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
