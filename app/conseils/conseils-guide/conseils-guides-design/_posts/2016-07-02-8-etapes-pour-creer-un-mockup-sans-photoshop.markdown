@@ -23,7 +23,7 @@ Néanmoins, les [ressources Web dédiées à la création de mockups](http://www
 Les quelques lignes suivantes détaillent **les étapes de création d’un mockup sans Photoshop via l’outil MockupEditor**. Dans 5 min, votre mockup sera prêt à être afficher sur votre support de présentation favoris.
 
 <div class="section-carte-index-panel">
-  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop">
+  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop" target="blank">
     <article class="carte-article-secondaire mod-ads">
       <div class="row collapse">
         <div class="small-3 medium-2 columns">
@@ -95,7 +95,7 @@ Si vous n’êtes pas un expert Photoshop, <a href="https://mockupeditor.com/" t
 Si vous êtes conquis(e), n’oublie pas d’utiliser le voucher dédié à la communauté du Magazine du Webdesign pour bénéficier de <a href="https://mockupeditor.com/plans/MDW50" target="_blank" rel="nofollow">50% de réduction sur l’abonnement annuel</a> à MockupEditor.
 
 <div class="section-carte-index-panel">
-  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop">
+  <a href="https://gumroad.com/a/448083059" title="Smartmockups - création de mock-up rapide sans Photoshop" target="blank">
     <article class="carte-article-secondaire mod-ads">
       <div class="row collapse">
         <div class="small-3 medium-2 columns">
