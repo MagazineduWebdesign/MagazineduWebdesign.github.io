@@ -1772,9 +1772,12 @@ main.column-body-article h4{
 		  padding:0!important
 	  };
 	  .column-body-article.mod-article-left-body{
-		  @include grid-column($columns:9,$last-column:false,$collapse:true);
+      position: relative;
+      z-index: 1;
+      @include grid-column($columns:9,$last-column:false,$collapse:true);
 		  max-width: rem-calc(640);
 		  float:left!important;
+
 	  };
 	  .column-body-article.mod-article-1-column{
 		  @include grid-column($columns:9,$last-column:false,$collapse:true);
