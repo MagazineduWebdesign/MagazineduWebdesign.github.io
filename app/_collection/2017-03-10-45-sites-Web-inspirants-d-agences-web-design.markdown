@@ -1,6 +1,6 @@
 ---
 layout: "collection-big-image"
-title: "95 sites Web inspirants d'agences et de studio de design"
+title: "45 sites Web inspirants d'agences et de studio de design"
 intro-header: "Innovant, créatif, minimaliste, WOW. Les qualificatifs ne manquent pas lorsqu'une agence ou un studio décident de refaire son [site Web](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/). En tant que designer, vous n'aurez sans doute pas de meilleures chances de montrer l'étendu de vos talents si ce n'est lors du [redesign d'un portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/) d'agence. C'est le moment idéal pour explorer toutes ces pistes créatives refusées par vos clients. Pardonnez-leur, ils ne savaient pas :-).
 </br></br>
 Hop ! Prenez sous le bras votre développeur préféré. Il est temps d'étonner vos clients, vos concurrents et pourquoi pas le monde avec un concept d'interface où l'oeil ne s'ennuie pas.
