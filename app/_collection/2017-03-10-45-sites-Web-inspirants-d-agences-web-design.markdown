@@ -7,7 +7,7 @@ Hop ! Prenez sous le bras votre développeur préféré. Il est temps d'étonner
 <br/><br/>
 Je suis admiratif du travail que vous fournissez chaque jour. Et encore plus admiratif de la patience que vous démontrez avec vos clients et les chefs de projet 😘. Je suis impatient de voir ce que vous allez produire. Pour vous aider dans votre [process de design](http://www.magazineduwebdesign.com/conseils/guides/design/), j'ai préparé cette collection, dans l'espoir qu'elle vous serve d'inspiration pour votre prochain [site portfolio](http://www.magazineduwebdesign.com/collection/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/). Un conseil : [accessibilité](http://www.magazineduwebdesign.com/accessibilite-web-ckecklist/) et mobilité.
 <br/><br/>
-Note: basta la galère avec vos fichiers de mock-ups. Découvrez [comment créer un mock-up sans PhotoShop](http://www.magazineduwebdesign.com/ressources/outils-services/design/smartmockups-app/).
+Note : basta la galère avec vos fichiers de mock-ups. Découvrez [comment créer un mock-up sans PhotoShop](http://www.magazineduwebdesign.com/ressources/outils-services/design/smartmockups-app/).
 <br/><br/>
 Amitiés – Guillaume du Magazine du Webdesign."
 titre_fichier_data: "collection_site-web-portfolio-agence-inspiration-2017"
