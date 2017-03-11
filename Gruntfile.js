@@ -37,7 +37,8 @@ module.exports = function (grunt) {
       },
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}'
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+          '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server_limited_posts']
       },
@@ -47,13 +48,14 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '.tmp/mdw-css/**/*.css'
+          '.tmp/mdw-css/**/*.css',
+          '!<%= yeoman.app %>/_bower_components/**/*'
         ]
       }
     },
     connect: {
       options: {
-        port: 9000,
+        port: 4000,
         livereload: 35729,
         // change this to '0.0.0.0' to access the server from outside
         hostname: 'localhost'
