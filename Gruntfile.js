@@ -37,8 +37,7 @@ module.exports = function (grunt) {
       },
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
-          '!<%= yeoman.app %>/_bower_components/**/*'
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}'
         ],
         tasks: ['jekyll:server_limited_posts']
       },
@@ -48,9 +47,7 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '.tmp/mdw-css/**/*.css',
-          '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
-          '!<%= yeoman.app %>/_bower_components/**/*'
+          '.tmp/mdw-css/**/*.css'
         ]
       }
     },
