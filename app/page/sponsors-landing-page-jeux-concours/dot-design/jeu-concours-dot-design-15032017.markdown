@@ -1,5 +1,5 @@
 ---
-layout: "sponsor-jeu-concours-rafflecopter"
+layout: "sponsor-jeu-concours-gleam"
 title: "Jeu concours – Gagnez des noms de domaine gratuits en .design"
 by: "dot design"
 by-url: "https://web.design/?coupon=MAGDUWEB"
