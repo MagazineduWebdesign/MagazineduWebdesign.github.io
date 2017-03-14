@@ -2115,6 +2115,15 @@ footer a:hover{
 
 // 00. ADS
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+.big-leardboard{
+  overflow: hidden;
+  background: transparent;
+  line-height: 0;
+}
+  .big-leardboard-content{
+    width: 100%;
+    height: auto;
+  }
 .leaderboard{
   padding: rem-calc(10) 0;
   border-top: 1px solid $secondary-color;
