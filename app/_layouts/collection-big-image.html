@@ -3,11 +3,11 @@ layout: default
 ---
 {% include custom/sections/article_header.html %}
 <section>
-  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection {% if page.header-intro-dark == 'true' %}header-intro-dark{% endif %}">
+  <div class="header-collection header-background-title mod-header-list-cards-section mod-collection">
     <header class="row-liste-index">
       <div class="small-12 columns">
         {% include custom/cartes/carte_ad_leaderboard_header.html %}
-        <h1 class="headline-collection text-center">{{ page.title }}</h1>
+        <h1>{{ page.title }}</h1>
         {{ page.intro-header | markdownify }}
       </div>
       <div class="small-12 columns">
@@ -16,11 +16,6 @@ layout: default
     </header>
   </div>
 </section>
-
-{% if page.bgimgheader == 'true' %}
-<div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)]">
-</div>
-{% endif %}
 
 <section>
   <div class="row-liste-index">
