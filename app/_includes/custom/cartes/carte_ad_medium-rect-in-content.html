@@ -3,9 +3,11 @@
 <div class="row collapse">
   <div class="small-12 columns text-center">
     <div class="show-for-small-only leaderboard mod-content">
+      {% for ad in site.data.ad.ad-content %}
       <a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} 320x100')" href="{{ ad.url }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
         <img style="display:inline-block;width:320px;height:100px" src="https://s3-eu-west-1.amazonaws.com/mdw-img-ads/dot-design-banner-320x100.png" alt="{{ ad.title }}" width="320" height="auto" />
       </a>
+      {% endfor %}
       <!-- NOTE: Desactived for .design campaign
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
@@ -18,9 +20,11 @@
     -->
     </div>
     <div class="show-for-medium-up medium-rect-in-content">
+      {% for ad in site.data.ad.ad-content %}
       <a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} 300x250')" class="grid-article-card-link-wrap" href="{{ ad.url }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
-        <img style="display:inline-block;width:300px;height:250px" src="https://s3-eu-west-1.amazonaws.com/mdw-img-ads/dot-design-banner-300x250.png" alt="300" width="100%" height="auto" />
+        <img style="display:inline-block;width:300px;height:250px" src="https://s3.eu-central-1.amazonaws.com/mdw-img-ads/dot-design-banner-300x250.png" alt="{{ ad.title }}" width="300" height="auto" />
       </a>
+      {% endfor %}
       <!-- NOTE: Desactived for .design campaign
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
