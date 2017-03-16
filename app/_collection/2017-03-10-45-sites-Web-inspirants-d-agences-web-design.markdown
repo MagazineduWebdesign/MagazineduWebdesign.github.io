@@ -12,8 +12,6 @@ Note : basta la galère avec vos fichiers de mock-ups. Découvrez [comment crée
 Amitiés – Guillaume du Magazine du Webdesign."
 titre_fichier_data: "collection_site-web-portfolio-agence-inspiration-2017"
 date: "2017-03-10 01:00:00"
-bgimgheader: "true"
-header-intro-dark: "true"
 image: "web-design-inspiration-baillat.jpg"
 description: "Innovant, créatif, minimaliste, effet waouh. Les qualificatifs ne manquent pas lorsqu'une agence Web décident de refaire son site Web..."
 ---
