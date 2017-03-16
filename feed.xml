@@ -884,15 +884,15 @@
 			</item>
 		
 			<item>
-				<title>Plesk + Git – un outil puissant pour déployer vos sites et vos applications Web</title>
+				<title>Un workflow de déploiement WordPress plus efficace avec Plesk, Docker et Git</title>
 				
 				
-					<description>Il y a quelques jours, j’ai publié un article présentant les avantages d’utiliser Plesk pour gérer la maintenance et la sécurité de sites WordPress. J’ai souhaité poursuivre mon aventure avec Plesk. Cette fois-ci, j’ai testé la compatibilité de Plesk avec Git – le système le plus populaire pour gérer du code. Voilà ce que j’ai appris avec cet outil. Si vous avez un doute sur la prononciation de Git, sachez que c’est [ɡɪt] et non [d͡ʒɪt].
+					<description>Cela fait plusieurs semaines que j’explore le potentiel de Plesk. J’ai testé pour vous les bénéfices d’utiliser Plesk pour automatiser la sécurité d’un site WordPress. Nous avons également vu que Plesk était adapté pour travailler avec un répertoire Git. Afin de garder le rythme, j’ai souhaité mettre à l’épreuve l’extension Docker de Plesk. L’objectif de cet article est de présenter l’outil, l’expérience utilisateur proposée, la technicité et les avantages que l’on peut en retirer en tant que développeur WordPress.
 </description>
 				
-				<pubDate>Wed, 07 Dec 2016 06:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/plesk-git-un-outil-puissant-pour-deployer-vos-sites-et-applications-web/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/plesk-git-un-outil-puissant-pour-deployer-vos-sites-et-applications-web/</guid>
+				<pubDate>Tue, 13 Dec 2016 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/Un-workflow-de-deploiement-WordPress-plus-efficace-avec-Plesk-Docker-et-Git/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/Un-workflow-de-deploiement-WordPress-plus-efficace-avec-Plesk-Docker-et-Git/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
 			</item>
 		
