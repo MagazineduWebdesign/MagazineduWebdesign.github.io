@@ -11,7 +11,7 @@ sponsored: "true"
 by: "MDW + Plesk"
 by-url: "https://www.plesk.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 intro: "Il y a quelques jours, j'ai publié un article présentant les avantages d'utiliser Plesk pour [gérer la maintenance et la sécurité de sites WordPress](http://www.magazineduwebdesign.com/conseils/guides/comment-automatiser-la-securite-d-un-site-wordpress/). J'ai souhaité poursuivre mon aventure avec Plesk. Cette fois-ci, j'ai testé la compatibilité de [Plesk avec Git](https://www.plesk.com/extensions/git/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) – le système le plus populaire pour gérer du code. Voilà ce que j'ai appris avec cet outil. Si vous avez un doute sur la prononciation de Git, sachez que c'est [ɡɪt] et non [d͡ʒɪt]."
-description: "Tutoriel pour utiliser Git avec Plesk sur un répoertoire local ou hébergé sur GitHub ou BitBucket."
+description: "Tutoriel pour utiliser Git avec Plesk sur un répertoire local ou hébergé sur GitHub ou BitBucket."
 ---
 **Transparence** : ce contenu fait partie d'une série d'articles sponsorisés par Plesk. Je sélectionne les outils qui me semblent faciliter le quotidien des développeurs et des designers. L'évaluation ci-dessous reflète mes propres opinions. L'objectif est de vous apporter une vue d'ensemble de la solution. L'approche se veut franche et honnête. Voilà.
 
