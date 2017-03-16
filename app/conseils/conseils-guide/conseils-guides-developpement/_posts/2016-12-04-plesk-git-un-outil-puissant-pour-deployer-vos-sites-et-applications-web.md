@@ -48,7 +48,7 @@ L'extension Git de Plesk offre la possibilité d'afficher les logs Git pour chaq
 
 {% include components/content-post-default-figure-image.html param="plesk-historique-commit-repo-git.jpg" %}
 
-Le seul bémol est l'absence de console intégrée au sein de Plesk. Elle permettrait de diminuer le nombre d'applications nécessaires au workflow d' [intégration continue](http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/). Il faut donc exécuter les commandes Git dans votre interface en ligne de commande préférée. Ensuite, Plesk se chargera de déployer les modifications en production.
+Le seul bémol est l'absence de console intégrée au sein de Plesk. Elle permettrait de diminuer le nombre d'applications nécessaires au workflow d'[intégration continue](http://www.magazineduwebdesign.com/conseils/guides/integration-continue-application-mobile/). Il faut donc exécuter les commandes Git dans votre interface en ligne de commande préférée. Ensuite, Plesk se chargera de déployer les modifications en production.
 
 ### Méthodologies de déploiements en manuel ou en automatique
 
