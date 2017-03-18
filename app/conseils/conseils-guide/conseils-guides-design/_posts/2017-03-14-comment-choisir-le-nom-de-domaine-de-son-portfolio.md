@@ -9,7 +9,7 @@ category: "guides"
 tags: "guides-design"
 sponsored: "true"
 by: "MDW + .DESIGN"
-by-url: "http://mdw.design/2kkE2u8"
+by-url: "https://web.design/?coupon=MAGDUWEB"
 intro: "Bien que de nombreux services en ligne permettent de [créer facilement son portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/) , je préfère l'ancienne méthode. A savoir, acheter mon nom de domaine, uploader mon travail sur un serveur et ouvrir une bouteille de champagne pour fêter ça. Seul problème, le nom de domaine de mon [portfolio](http://www.magazineduwebdesign.com/collection/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/) était tout naze."
 description: "J'ai cherché des moyens pour briser la tradition du nom de domaine patronymique :-). Voilà comment j'ai procédé."
 carte-optin-downoload-pdf: "false"
@@ -41,9 +41,9 @@ Une autre qualité d'un domaine en .design est qu'il indique clairement le conte
 
 La présence du terme design dans le nom de domaine est un autre point positif pour améliorer le référencement de son portfolio.
 
-**Note 1** : obtenez gratuitement plusieurs noms de domaine en .design en participant au [jeu-concours](http://www.magazineduwebdesign.com/concours/) organisé par le [Magazine du Webdesign](http://www.magazineduwebdesign.com/) en partenariat avec [.Design](http://mdw.design/2kkE2u8).
+**Note 1** : obtenez gratuitement plusieurs noms de domaine en .design en participant au [jeu-concours](http://www.magazineduwebdesign.com/concours/) organisé par le [Magazine du Webdesign](http://www.magazineduwebdesign.com/) en partenariat avec [.Design](https://web.design/?coupon=MAGDUWEB).
 
-**Note 2** : si vous avez besoin d'urgence d'un nom de domaine en .design, utilisez le code **[MDWDESIGN](http://mdw.design/2kkE2u8)** pour obtenir une réduction de 85%. Le nom de domaine vous revient à 4EUR – moins cher qu'une pinte de bière #magic. Rendez-vous sur [web.design](http://mdw.design/2kkE2u8) pour vérifier la disponibilité de votre domaine.
+**Note 2** : si vous avez besoin d'urgence d'un nom de domaine en .design, utilisez le code **[MAGDUWEB](https://web.design/?coupon=MAGDUWEB)** pour obtenir une réduction de 85%. Le nom de domaine vous revient à 4EUR – moins cher qu'une pinte de bière #magic. Rendez-vous sur [web.design](https://web.design/?coupon=MAGDUWEB) pour vérifier la disponibilité de votre domaine.
 
 <figure class="figure-img mod-img-small-align-middle">
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/12NUbkX6p4xOO4.gif" alt="agic GIF" width="480" height="auto"/>
@@ -57,7 +57,7 @@ Voici quelques astuces que j'utilise pour accélérer ma recherche de noms de do
 1. [Übersuggest](https://ubersuggest.io/) , l'outil idéal pour générer un maximum de déclinaisons autour d'un mot racine. Il permet d'ouvrir le delta de recherche et d'explorer des pistes auxquelles on aurait pas pensé.
 2. Si je dois sélectionner un nom de domaine avec d'autres personnes, j'utilise la technique [d'exploration et de priorisation KJ](https://articles.uie.com/kj_technique/). Efficace pour arriver à un consensus qui fait sens pour tous les participants.
 3. De manière générale, les outils SEO sont de bons partenaires pour trouver des idées de noms de domaines. Pour n'en citer que 2 : SEMrush et Keyword Tool.
-4. Ne vous épuisez pas à trouver le nom de domaine du siècle. Si vous avez zéro idée, optez pour l'option [prenomNom.design](http://mdw.design/2kkE2u8). Ça le fait aussi :-).
+4. Ne vous épuisez pas à trouver le nom de domaine du siècle. Si vous avez zéro idée, optez pour l'option [prenomNom.design](https://web.design/?coupon=MAGDUWEB). Ça le fait aussi :-).
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyer tout ça à guillaume@magazineduwebdesign.com.
 

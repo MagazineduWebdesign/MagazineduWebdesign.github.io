@@ -9,7 +9,7 @@ category: "guides"
 tags: "guides-design"
 sponsored: "true"
 by: "MDW + Web.design"
-by-url: "http://mdw.design/2kkE2u8"
+by-url: "https://web.design/?coupon=MAGDUWEB"
 intro: "Avoir son extension de nom de domaine en .design n'est pas réservé qu'aux grands. C'est pour cette raison que le Magazine du Webdesign **offre à tous les participants du [jeu concours](http://www.magazineduwebdesign.com/concours/) un nom de domaine en .design**. Et je vous explique en quoi ces nouveaux domaines de premier niveau peuvent avoir un impact sur le référencement de votre site Internet."
 description: "Obtenez gratuitement un nom de domaine en .design et découvrez les impacts potentiels sur votre SEO."
 carte-optin-downoload-pdf: "false"
@@ -21,7 +21,7 @@ Vous recevrez un lien d'accès personnel par e-mail le 16 avril. Il vous permett
 
 Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée sur [cette page](http://www.magazineduwebdesign.com/concours/).
 
-**Si vous ne pouvez pas attendre quelques jours, utilisez le code MDWDESIGN pour obtenir un domaine .design pour $5 en vous rendant sur [web.design](http://mdw.design/2kkE2u8)**.
+**Si vous ne pouvez pas attendre quelques jours, utilisez le code MAGDUWEB pour obtenir un domaine .design pour $5 en vous rendant sur [web.design](https://web.design/?coupon=MAGDUWEB)**.
 
 ## Les questions que je me suis posées avant de vous proposer cette offre
 
@@ -90,7 +90,7 @@ Si ce n'est pas déjà fait, participez au [jeu concours du Magazine du Webdesig
 
 Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée sur [cette page](http://www.magazineduwebdesign.com/concours/).
 
-Si vous ne pouvez pas attendre quelques jours, utilisez le code **MDWDESIGN** pour obtenir un domaine pour $5 maintenant sur [web.design](http://mdw.design/2kkE2u8).
+Si vous ne pouvez pas attendre quelques jours, utilisez le code **MAGDUWEB** pour obtenir un domaine pour $5 maintenant sur [web.design](http://mdw.design/2kkE2u8).
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyer tout ça à guillaume@magazineduwebdesign.com.
 
