@@ -10,48 +10,18 @@ tags: "guides-design"
 sponsored: "true"
 by: "MDW + Web.design"
 by-url: "http://mdw.design/2kkE2u8"
-intro: "Avoir son extension de nom de domaine en .design n'est pas réservé qu'aux grands. C'est pour cette raison que le Magazine du Webdesign **offre à tous les [abonnés de la newsletter](http://mdw.design/2jUWbyh) un nom de domaine en .design**. Et je vous explique en quoi ces nouveaux domaines de premier niveau peuvent avoir un impact sur le référencement de votre site Internet."
+intro: "Avoir son extension de nom de domaine en .design n'est pas réservé qu'aux grands. C'est pour cette raison que le Magazine du Webdesign **offre à tous les participants du [jeu concours](http://www.magazineduwebdesign.com/concours/) un nom de domaine en .design**. Et je vous explique en quoi ces nouveaux domaines de premier niveau peuvent avoir un impact sur le référencement de votre site Internet."
 description: "Obtenez gratuitement un nom de domaine en .design et découvrez les impacts potentiels sur votre SEO."
 carte-optin-downoload-pdf: "false"
 ---
+
 ## Comment ça marche ?
 
-Vous recevrez un lien d'accès personnel par e-mail le 1 février. Il vous permettra de réserver gratuitement un nom de domaine de votre choix avec une extension en .design. Ce domaine est vendu entre 40 EUR et 70 EUR. Grâce aux copains de Porkbun de Portland, votre nom de domaine en .design vous est offert pour une durée d'un an sans engagement. **Aucune carte bancaire est nécessaire**. **Juste un .design gratuit pour 2017**. La vie est belle !
+Vous recevrez un lien d'accès personnel par e-mail le 16 avril. Il vous permettra de réserver gratuitement un ou plusieurs noms de domaine de votre choix avec une extension en .design. Ces domaines sont vendus entre 40 EUR et 70 EUR. Grâce aux copains de Porkbun de Portland, votre nom de domaine en .design vous est offert pour une durée d'un an sans engagement. **Aucune carte bancaire est nécessaire**. **Juste un .design gratuit pour 2017**. La vie est belle !
 
-Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée dans le formulaire ci-dessous.
+Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée sur [cette page](http://www.magazineduwebdesign.com/concours/).
 
-<div class="row-liste-index">
-  <div class="small-12 columns section-carte-newsletter section-carte-panel radius">
-    <h1 class="text-center">👋 Welcome. Obtenez votre nom de domaine en .design gratuit par email le 1er février 👇.</h1>
-    <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
-
-      <div id="mc_embed_signup_scroll">
-        <div class="row">
-          <div class="small-12 medium-6 medium-offset-1 columns">
-            <div class="mc-field-group">
-              <label for="mce-EMAIL"></label>
-              <input type="email" placeholder="Insérez votre adresse@email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-            </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-
-          </div>
-
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
-
-          <div class="small-12 medium-4 columns">
-            <input onclick="ga('send', 'event', 'Newsletter', 'submit email address', 'Inscription newsletter');" type="submit" class="small button radius expand" value="S'INSCRIRE" name="subscribe" id="mc-embedded-subscribe">
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-
- **Si vous souhaitez plus d'un .design ou ne pouvez pas attendre quelques jours, utilisez le code MDWDESIGN pour obtenir un domaine .design pour $5 en vous rendant sur [web.design](http://mdw.design/2kkE2u8)**.
+**Si vous ne pouvez pas attendre quelques jours, utilisez le code MDWDESIGN pour obtenir un domaine .design pour $5 en vous rendant sur [web.design](http://mdw.design/2kkE2u8)**.
 
 ## Les questions que je me suis posées avant de vous proposer cette offre
 
@@ -114,46 +84,19 @@ Des exemples concrets pour vous décider à franchir le pas.
 
 {% include components/content-post-default-figure-image.html param="forcemajeure-design.jpg" %}
 
-## Recevez votre .design gratuit le 1 février par email
+## Recevez votre .design gratuit le 16 avril par email
 
-Si ce n'est pas déjà fait, inscrivez-vous à la newsletter du Magazine du Webdesign pour recevoir votre lien personnalisé mardi 1 février 2017. Il vous permettra de réserver gratuitement un nom de domaine de votre en choix avec une extension en .design. Cette extension est vendue normalement entre 40 EUR et 70 EUR. Grâce à Porkbun, elle vous est offerte pour une durée d'un an sans engagement. Pas d'entourloupe, pas de spam. Juste un .design parce que je suis sympa et que vous le valez bien.
+Si ce n'est pas déjà fait, participez au [jeu concours du Magazine du Webdesign](http://www.magazineduwebdesign.com/concours/) pour recevoir votre code spécial le 16 avril 2017. Il vous permettra de réserver gratuitement un nom de domaine de votre en choix avec une extension en .design. Cette extension est vendue normalement entre 40 EUR et 70 EUR. Grâce à Porkbun, elle vous est offerte pour une durée d'un an sans engagement. Pas d'entourloupe, pas de spam. Juste un .design parce que je suis sympa et que vous le valez bien.
 
-Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée dans le formulaire ci-dessous.
+Pour ceux qui ne sont pas encore inscrit(e), vous avez encore quelques jours pour le faire en 1 clic via votre adresse e-mail préférée sur [cette page](http://www.magazineduwebdesign.com/concours/).
 
-<div class="row-liste-index">
-  <div class="small-12 columns section-carte-newsletter section-carte-panel radius">
-    <h1 class="text-center">👋 Welcome. Obtenez votre nom de domaine en .design gratuit par email le 1er février 👇.</h1>
-    <form action="//magazineduwebdesign.us3.list-manage.com/subscribe/post?u=5f1d68675f48a4d9deba26d69&id=fe09463a6e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
-
-      <div id="mc_embed_signup_scroll">
-        <div class="row">
-          <div class="small-12 medium-6 medium-offset-1 columns">
-            <div class="mc-field-group">
-              <label for="mce-EMAIL"></label>
-              <input type="email" placeholder="Insérez votre adresse@email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-            </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-
-          </div>
-
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_5f1d68675f48a4d9deba26d69_fe09463a6e" tabindex="-1" value=""></div>
-
-          <div class="small-12 medium-4 columns">
-            <input onclick="ga('send', 'event', 'Newsletter', 'submit email address', 'Inscription newsletter');" type="submit" class="small button radius expand" value="S'INSCRIRE" name="subscribe" id="mc-embedded-subscribe">
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-
-Si vous voulez plus d'un .design ou ne pouvez pas attendre quelques jours, utilisez le code **MDWDESIGN** pour obtenir un domaine pour $5 maintenant sur [web.design](http://mdw.design/2kkE2u8).
+Si vous ne pouvez pas attendre quelques jours, utilisez le code **MDWDESIGN** pour obtenir un domaine pour $5 maintenant sur [web.design](http://mdw.design/2kkE2u8).
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyer tout ça à guillaume@magazineduwebdesign.com.
+
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
+- [Comment éviter un nom de domaine tout naze pour son portfolio](http://www.magazineduwebdesign.com/conseils/guides/comment-choisir-le-nom-de-domaine-de-son-portfolio/) ;
 
 Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
 

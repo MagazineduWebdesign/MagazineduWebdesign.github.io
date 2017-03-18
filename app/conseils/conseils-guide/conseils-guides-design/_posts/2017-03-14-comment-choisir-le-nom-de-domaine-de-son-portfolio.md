@@ -61,6 +61,10 @@ Voici quelques astuces que j'utilise pour accélérer ma recherche de noms de do
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyer tout ça à guillaume@magazineduwebdesign.com.
 
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
+- [Les questions que je me suis posées avant d'acheter un nom de domaine en .design](http://www.magazineduwebdesign.com/conseils/guides/comment-obtenir-son-nom-de-domaine-gratuit-extension-design-et-impact-seo/) ;
+
 Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
 
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
