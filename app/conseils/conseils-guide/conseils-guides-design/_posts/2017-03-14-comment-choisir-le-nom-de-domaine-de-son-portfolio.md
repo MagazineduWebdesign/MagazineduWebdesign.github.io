@@ -17,7 +17,7 @@ image-no-cover-book: "dot-design-featured-img.png"
 ---
 J'avais choisi la facilité en réservant l'adresse guillaumepalayer.com. A l'époque, elle me convenait parfaitement pour mettre en ligne mon CV. Néanmoins, cela ne respirait pas la créativité et n'indiquait en rien les services que je proposais. J'ai abandonné ce nom de domaine il y a 3 ans avec la ferme intention d'en acheter un nouveau. Un qui reflète davantage les services que je proposais. Un qui soit moins dans l'esprit patronymePere&Fils.com.
 
-Malheureusement, mon manque de créativité m'a toujours amené des idées molles. Des idées de noms de domaine avec lesquelles je n'étais pas à l'aise. car elles gravitaient toujours autour de l'éternelle nom de domaine prenomNom.com. Cela m'a toujours renvoyé l'image de personnages en manque d'amour-propre, cherchant la gloriole éternelle en perpétuant leur nom à travers un monument : Trump tower, Tour Eiffel, Centre Pompidou, etc. Les exemples ne manquent pas.
+Malheureusement, mon manque de créativité m'a toujours amené des idées molles. Des idées de noms de domaine avec lesquelles je n'étais pas à l'aise. Car elles gravitaient toujours autour de l'éternelle nom de domaine prenomNom.com. Cela m'a toujours renvoyé l'image de personnages en manque d'amour-propre, cherchant la gloriole éternelle en perpétuant leur nom à travers un monument : Trump tower, Tour Eiffel, Centre Pompidou, etc. Les exemples ne manquent pas.
 
 J'ai donc cherché des moyens pour briser la tradition du nom de domaine patronymique :-). Voilà comment j'ai procédé.
 
