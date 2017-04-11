@@ -74,11 +74,11 @@ layout: default
           <ul class="side-nav mod-article-meta-data" role="navigation" title="metadata">
             {% if page.coupon %}
               <li class="article-meta-data-header-title">CODE COUPON</li>
-              <li role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'goToDeal', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-deal }}" title="Code promo &ndash; {{ page.title }}" target="_blank" rel="nofollow">{{ page.coupon }}</a><li>{% endif %}
+              <li role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'goToDeal', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-deal }}" title="Code promo &ndash; {{ page.title }}" target="_blank" rel="nofollow">{{ page.coupon }}</a><li>
               <li role="menuitem">Cliquez pour copier et ouvrir le site  &bull; Dernière utilisation il y a 8 heures</li>
             {% else %}
               <li class="article-meta-data-header-title">Aucun code nécessaire</li>
-              <li role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'goToDeal', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-deal }}" title="Code promo &ndash; {{ page.title }}" target="_blank" rel="nofollow">OBTENIR LA PROMO</a><li>{% endif %}
+              <li role="menuitem"><a onclick="ga('send', 'event', '{{ page.category }}', 'goToDeal', '{{ page.title }}');" class="button expand small radius primary" href="{{ page.url-deal }}" title="Code promo &ndash; {{ page.title }}" target="_blank" rel="nofollow">OBTENIR LA PROMO</a><li>
               <li role="menuitem">Cliquez pour ouvrir le site  &bull; Dernière utilisation il y a 8 heures</li>
             {% endif %}
           </ul>
