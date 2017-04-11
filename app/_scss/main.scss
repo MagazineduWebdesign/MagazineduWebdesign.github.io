@@ -1458,6 +1458,10 @@ figcaption{
 .header-background-title.mod-header-list-index.mod-evenement::after{
   content: "Evenements";
 }
+.header-background-title.mod-deal::after,
+.header-background-title.mod-header-list-index.mod-deal::after{
+  content: "Deals";
+}
 .header-background-title.mod-conseil::after,
 .header-background-title.mod-header-list-index.mod-conseil::after{
   content: "Conseils";
