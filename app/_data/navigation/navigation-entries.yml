@@ -7,6 +7,9 @@
 - name: "CONSEILS"
   permalink: "/conseils/"
 
+- name: "DEALS"
+  permalink: "/deals/"
+
 - name: "COLLECTIONS"
   permalink: "/collections/"
 

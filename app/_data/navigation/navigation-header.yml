@@ -9,3 +9,6 @@
 
 - name: "COLLECTIONS"
   permalink: "/collections/"
+
+- name: "DEALS"
+  permalink: "/deals/"

@@ -108,7 +108,7 @@
             <ul class="dropdown">
               <li><label>EXPLOREZ</label></li>
               {% for item in site.data.navigation.navigation-header %}
-                <li {% if item.name == 'JOBS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
+                <li {% if item.name == 'DEALS' %}class="top-bar-section-alerte-dotted"{% endif %}><a href="{{ item.permalink }}">{{ item.name }}</a></li>
               {% endfor %}
               {% for item in site.data.navigation.navigation-header-more-left %}
                 <li><a href="{{ item.permalink }}" title="{{ item.name }}">{{ item.name }}</a></li>
@@ -157,7 +157,7 @@
 
           <li class="top-bar-section-main-navigation-item top-bar-section-alerte-dotted hide-for-medium-only">
             <a href="/emploi/">
-              <span>JOBS</span>
+              <span>DEALS</span>
               <svg class="top-bar-section-main-navigation-item-icon" fill="#999999" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M3 4l9 16 9-16H3zm3.38 2h11.25L12 16 6.38 6z"></path>
