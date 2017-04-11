@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<section>
+	<div class="header-liste header-background-title mod-header-list-index mod-evenement">
+		<header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+		{% if page.coming-soon == 'true' %}
+      {% include components/modal-box-optin.html %}
+		{% else %}
+		{% endif %}
+	</div>
+
+	{% if page.coming-soon == 'true' %}
+	{% else %}
+
+		<!-- list items
+		================================================== -->
+		<div class="row-liste-index">
+			<main class="small-12 columns section-carte-index-panel">
+				<article>
+			    <div class="carte-article-secondaire mod-index-one-col-action row collapse">
+			      <div class="small-12 columns carte-article-secondaire-container-action">
+			        	<p class="carte-article-secondaire-action-texte text-center">
+								<a onclick="ga('send', 'event', 'Suggestion', 'suggerer', 'list index suggerer');" class="typeform-share link carte-article-secondaire-action-link" href="https://magazineduwebdesign.typeform.com/to/R2wfEq" data-mode="2" target="_blank"><svg class="ic-block-h24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#999999"/></svg>PROPOSER UN DEAL 💵</a>
+								<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+			        	</p>
+			      </div>
+			    </div>
+			  </article>
+				<!-- list all items
+				================================================== -->
+				{% for post in site.categories.deals %}
+					<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+	          <article class="carte-article-secondaire job--offre-item">
+
+	            <div class="row collapse">
+	              <div class="small-2 medium-1 columns">
+	                {% if post.logo %}
+	                <div class="rounded-img-d40 left" data-interchange="[{{ post.logo | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)]"></div>
+	                {% endif %}
+	              </div>
+	              <div class="small-10 medium-11 columns">
+	              	<h2 class="carte-article-secondaire-post-title mod-job-title">
+										<span class="left job--entreprise">{{ post.title }} <span class="label--new">{% if post.percent-off %}{{ post.percent-off }}{% endif %}</span></span>
+									</h2>
+									<span class="job--description">{% if post.intro %}{{ post.intro }}{% endif %} &bull; <b>Coupon : {{ post.coupon }}</b></span>
+	              </div>
+	            </div>
+
+	          </article>
+	        </a>
+				{% endfor %}
+			</main>
+		</div>
+		{% include custom/cartes/cartenl.html %}
+		{% include custom/cartes/carte_ad_leaderboard.html %}
+	{% endif %}
+</section>
+
+<!-- list all sections
+================================================== -->
+{% include custom/cartes/carte_cross-navigation-app_liste-index.html %}
