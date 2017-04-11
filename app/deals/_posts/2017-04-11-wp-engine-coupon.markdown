@@ -13,6 +13,7 @@ rating: "9"
 logo: "wpengine-logo.png"
 image-sub-post-intro: "wp-engine-banner-deal.png"
 image: "wp-engine-banner-deal.png"
+excerpt: "Obtenez 20% de réduction sur tous les plans d'hébergement de WPEngine sur votre 1er paiement et 2 mois gratuits avec le plan annuel."
 intro: "J'ai fait équipe avec WP Engine pour vous offrir un des meilleur rabais sur leur hébergement WordPress. Utilisez le code promo [wpe20off](https://wpeng.in/magduoffer/) pour obtenir 20% de remise sur votre premier paiement, peu importe le plan choisit. Obtenez un supplément de **2 mois gratuit** en choisissant un plan annuel. Migrez facilement votre site WordPress vers WP Engine. Un plugin gratuit de migration automatisée est offert avec chaque compte."
 description: "Ce coupon WPEngine vous offre 20% de réduction sur le 1er paiement. C'est la meilleure réduction WPEngine du moment, alors utilisez notre code de réduction WPEngine maintenant."
 ---

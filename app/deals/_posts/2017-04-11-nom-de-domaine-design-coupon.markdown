@@ -12,6 +12,7 @@ percent-off: "-85%"
 rating: "10"
 logo: "logo-porkbun.jpeg"
 image: "nom-de-domaine-point-design.png"
+excerpt: "Plus de 25 EUR de réduction sur le nom de domaine de votre choix avec l'extension en .design."
 intro: "J'ai fait équipe avec Dot Design pour vous offrir 85% de réduction sur les noms de domaine en .design. Utilisez le code promo [MAGDUWEB](https://we.design/?ref=6535_cc200c73) pour obtenir le nom de domaine de votre choix pour 4 EUR durant la première année."
 description: "Ce coupon vous offre 85% de réduction sur la location d'un nom de domaine en .design. Economisez 25 EUR sur la 1ère année d'abonnement."
 ---
