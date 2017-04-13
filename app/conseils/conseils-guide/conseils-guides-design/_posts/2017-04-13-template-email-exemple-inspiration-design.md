@@ -14,7 +14,6 @@ intro: "Avant d'écrire cet article, j'ai eu un moment de doute. A quoi bon aide
 description: "Astuces et conseils pour trouver des exemples de template email pour inspiration. Consultez cette liste commentée de sites Web pour trouver des exemples de texte d'email, des templates et des ressources graphique pour concevoir un email parfait."
 carte-optin-downoload-pdf: "false"
 image-no-cover-book: "inspiration-design-template-email.png"
-image: "inspiration-design-template-email.png"
 ---
 
 J'ai quand même souhaité tester pour vous la solution moteur de recherche. Contre toutes évidences, qu'ils soient [européens](https://www.qwant.com/?l=fr), [américains](https://duckduckgo.com/) ou [écolos](https://www.ecosia.org/), les moteurs ne m'ont pas apporté l'inspiration désirée.
