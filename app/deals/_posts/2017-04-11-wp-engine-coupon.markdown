@@ -37,7 +37,7 @@ Utilisez ce code de réduction exclusif **wpe20off** pour obtenir une réduction
 - CDN (Content Delivery Network)
 - Rapide
 - Stable
--  [Nettoyage et réparation d'un site WordPress piraté gratuit](https://wpeng.in/magduworth/)
+- [Nettoyage et réparation d'un site WordPress piraté gratuit](https://wpeng.in/magduworth/)
 - Sauvegardes automatiques
 - Plugins et thèmes sélectionnés
 - Aide pour migrer votre site WordPress
