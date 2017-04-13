@@ -11,7 +11,7 @@ logo: "inkydeals-logo.jpg"
 image-sub-post-intro: "summer-clip-art.jpg"
 image: "summer-clip-art.jpg"
 excerpt: "15% de réduction supplémentaire sur toutes les ressources de design en promo proposées par InkyDeals."
-intro: "J'ai discuté avec la team de Brainik, créateur de la plateforme [InkyDeals](http://www.shareasale.com/r.cfm?B=623424&U=1372774&M=50189&urllink), pour vous dégoté un coupon de réduction exclusif de 15% sur l'ensemble de leurs ressources en ligne. Insérez le coupon [magduweb15](http://www.shareasale.com/u.cfm?d=371462&m=50189&u=1372774) au moment de valider votre panier. Il est valable pour tous les articles même ceux soldés à 90%."
+intro: "J'ai discuté avec la team de Brainik, créateur de la plateforme [InkyDeals](http://www.shareasale.com/r.cfm?B=623424&U=1372774&M=50189&urllink), pour vous dégoter un coupon de réduction exclusif de 15% sur l'ensemble de leurs ressources en ligne. Insérez le coupon [magduweb15](http://www.shareasale.com/u.cfm?d=371462&m=50189&u=1372774) au moment de valider votre panier. Il est valable pour tous les articles même ceux soldés à 90%."
 description: "Ce coupon InkyDeals vous offre 15% de réduction exclusive que vous pouvez additionner avec les promos en cours sur le site. C'est la meilleure réduction InkyDeals du moment pour les Web designers."
 ---
 ## InkyDeals en bref
