@@ -44,7 +44,7 @@ Utilisez ce code de réduction exclusif **wpe20off** pour obtenir une réduction
 - Plusieurs offres tarifaires adaptées à la taille de vos besoins
 - Gestion des versions avec Git
 - Points de restauration en 1 clic
--  [Serveur de test en préproduction dispo en 1 clic](https://wpengine.com/developer-program/magduweb/)
+- [Serveur de test en préproduction dispo en 1 clic](https://wpengine.com/developer-program/magduweb/)
 - Transfert de données illimité
 - Pare-feu
 - Scan de malwares
