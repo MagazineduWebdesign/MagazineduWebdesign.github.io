@@ -1,0 +1,14 @@
+{
+    "name": "jquery-vimeothumb",
+    "version": "3.0.1",
+    "main": [
+        "jquery-vimeothumb.js"
+    ],
+    "ignore": [
+        "LICENCE", "README.md"
+    ],
+    "dependencies": {
+        "jquery": ">= 1.9.0"
+    },
+    "homepage": "https://github.com/Ideame/jquery-vimeothumb"
+}

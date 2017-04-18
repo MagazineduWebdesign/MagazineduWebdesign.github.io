@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<section>
+	<div class="header-liste header-background-title mod-header-list-cards-section mod-collection">
+		<header class="row-liste-index">
+			{% include custom/sections/index-header-intro.html %}
+		</header>
+		{% if page.coming-soon == 'true' %}
+      {% include components/modal-box-optin.html %}
+		{% endif %}
+	</div>
+
+  <div class="row-liste-index">
+    <div class="small-12 columns section-header">
+      <!-- Number of item by collection -->
+      {% for collection in site.collection %}
+        {% capture length %}{{ forloop.length }}{% endcapture %}
+      {% endfor %}
+      <span class="section-header-titre">{{ length | append: ' Collections à explorer'}}</span>
+    </div>
+  </div>
+
+  <div class="row-liste-index">
+    <div class="small-12 columns current-page" data-page="collections">
+      {% if site.collection %}
+        {% assign collections = site.collection | reverse %}
+        {% for collection in collections %}
+
+          <a href="{{ collection.url | prepend: site.baseurl }}" title="{{ collection.title }}">
+            <article class="collection-index-article" data-interchange="[{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/small/' }}, (small)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (smallretina)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (medium)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (mediumretina)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (large)],
+            [{{ collection.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}, (largeretina)]">
+              <div class="shadow-img">
+                <div class="collection-index-article-content">
+                  <h1 class="collection-index-article-content-title text-center">{{ collection.title }}</h1>
+                  <p class="text-center">{{ collection.intro-header | truncate: 80 }}</p>
+                </div>
+              </div>
+            </article>
+          </a>
+
+        {% endfor %}
+
+      {% else %}
+        <p>Il n'y a pas de collection.</p>
+      {% endif %}
+      {% include custom/cartes/cartenl.html %}
+    </div>
+  </div>
+  <div class="infinite-spinner"></div>
+
+</section>

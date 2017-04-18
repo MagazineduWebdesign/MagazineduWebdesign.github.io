@@ -1,28 +1,53 @@
-# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
-
-# Site settings
+# Title, decription, tagline and URL for your site
+# Can be used in your theme by calling 'site.title' and so on
 title: "Magazine du Webdesign &ndash; Design inspiration & ressources Web"
 description:
+url: http://www.magazineduwebdesign.com
+twitter_username: MagDuWebdesign
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+source: .tmp/src
+destination: .tmp/dist
+exclude: ['assets']
+include: ['.nojekyll']
+# Same as the title etc for your site but can instead be
+# called by using 'site.author.name' and so on
+# NOTE: Don't use @ in front of your Twitter username
 author:
   name: guillaumepalayer
   email: guillaume.palayer@gmail.com
   avatar: avatar-88.jpg
+  twitter: guillaumpalayer
+# _config.build.yml overwrites these options when you run `gulp build`
+# Enables future posts (posts with dates in the future) and drafts
+future: true
+show_drafts: true
+# Disables the more accurate related posts for faster generating of the site
+lsi: false
+# Only make the last 10 posts so generating isn't slow
+limit_posts: 10
 
-twitter_username: MagDuWebdesign
-github_username: jekyll
-source: app
-baseurl: "" # the subpath of your site, e.g. /blog/
-permalink: /:title
-url: "http://localhost:9000" # the base hostname & protocol for your site
+# Permalink structure and pagination options
+permalink: /:title/
+paginate: 10
+paginate_path: 'page:num'
+excerpt_separator: ''
+
+# Markdown library and options
+markdown: redcarpet
+redcarpet:
+  extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
+              'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
 highlighter: rouge
-# Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-include: ['.nojekyll']
+# Extending Jekyll
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
 # Collections settings
 collections:
   note:
@@ -215,6 +240,14 @@ defaults:
     values:
       permalink: "/evenements/ux-design/:title/"
 
+  # deals - overrides default permlink
+  -
+    scope:
+      path: "deals"
+      type: "posts"
+    values:
+      permalink: "/deals/:title/"
+
   # conseils - overrides default permlink
   -
     scope:
@@ -246,19 +279,3 @@ page_gen:
     template: "inspirations-animations"
     name: "title"
     dir: "/inspirations/ui-design/animations/"
-
-# _config.build.yml sets future and show_drafts to false on `grunt build`
-future: true
-show_drafts: true
-
-# Conversion
-markdown: kramdown
-
-# Markdown Processors
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false

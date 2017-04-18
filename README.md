@@ -1,14 +1,41 @@
-[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/MagazineduWebdesign/magazine-du-webdesign)
+# mdwjekyllgulp
 
-#Magazine du Webdesign
-This repo contains the [Jekyll](http://jekyllrb.com/) source for the publishing platform Magazine du Webdesign. Visit [the live version](http://magazineduwebdesign.github.io) to see the theme in action.
+> test gulp with jekyll
 
-It's designed and developed by [@guillaumpalayer](https://twitter.com/guillaumpalayer) to build and deploy this side project.
+## To get started
 
-##Full vanilla Jekyll install – available soon
+```sh
+$ gulp [--prod]
+```
 
-I will soon provide a clear and concise foundational setup for this theme.
-* Usage
-* Options with example templates, pages, posts, and styles.
+## Usage
 
-Meanwhile, you can copy the source branch and make it your own.
+```sh
+$ gulp build [--prod]
+```
+
+```sh
+$ gulp deploy
+```
+
+#### Settings
+In your `_config.yml` and `humans.txt` you should add your Github and Twitter
+profile if you want to.
+
+## Install
+If you have cloned this repo or want to reinstall, make sure there&#39;s no
+`node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
+`bundle install`.
+
+#### Update
+To update: `npm update generator-jekyllized -g`, then run `yo jekyllized:gulp
+[--rsync|amazon|pages]` in this directory. Note that this will overwrite any
+local changes, so back it up.
+
+## Github
+For more information on how to use your new project, please refer to the [README
+on Github](https://github.com/sondr3/generator-jekyllized).
+
+## Owner
+
+> [Guillaume](http://www.magazineduwebdesign.com/)

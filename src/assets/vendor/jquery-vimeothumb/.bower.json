@@ -1,0 +1,25 @@
+{
+  "name": "jquery-vimeothumb",
+  "version": "0.3.1",
+  "main": [
+    "jquery-vimeothumb.js"
+  ],
+  "ignore": [
+    "LICENCE",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "homepage": "https://github.com/Ideame/jquery-vimeothumb",
+  "_release": "0.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.1",
+    "commit": "58105ac796647f690e7bc2097791efb9723c7ca7"
+  },
+  "_source": "git://github.com/Ideame/jquery-vimeothumb.git",
+  "_target": "~0.3.1",
+  "_originalSource": "jquery-vimeothumb",
+  "_direct": true
+}

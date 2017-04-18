@@ -1,13 +1,31 @@
-# .gitignore for Yeoman-Jekyll projects
+# .gitignore for jekyllized projects
 
-# Ignore hidden folders #
-# This takes care of .tmp, .sass-cache, and many others #
+# Ignore hidden folders
+# This takes care of .tmp, .sass-cache, and many others
 .*/
-# Ignore OS generated files #
-.DS_Store*
+
+# OSX
+._*
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# Windows
+Desktop.ini
 ehthumbs.db
-Icon?
 Thumbs.db
+
+# Linux
+*~
+
+# Tags
+# Ignore tags created by etags and ctags
+TAGS
+tags
 
 # Always-ignore files and folders #
 *.diff
@@ -31,46 +49,56 @@ Thumbs.db
 *.tar
 *.zip
 
-# Ignore for Yeoman-Jekyll projects #
-app/_bower_components
-dist
-node_modules
+# Packages
+node_modules/
 .tmp
-app/img
+test/
 
-# Ignore for S3 storage #
-grunt-aws.json
+# Sublime
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+
+bower_components
+
+# Output folders
+dist
+src/assets/images
+
+# hide the AWS and Rsync credentials file
+aws-identification.json
+aws-credentials.json
+rsync-credentials.json
 
 # Ignore specific files #
-help-snippets.txt
-app/apple-touch-icon-57x57.png
-app/apple-touch-icon-60x60.png
-app/apple-touch-icon-72x72.png
-app/apple-touch-icon-76x76.png
-app/apple-touch-icon-114x114.png
-app/apple-touch-icon-120x120.png
-app/apple-touch-icon-144x144.png
-app/apple-touch-icon-152x152.png
-app/apple-touch-icon-180x180.png
-app/favicon-32x32.png
-app/android-chrome-192x192.png
-app/favicon-96x96.png
-app/favicon-16x16.png
-app/favicon-194x194.png
-app/manifest.json
-app/mstile-144x144.png
-app/android-chrome-144x144.png
-app/android-chrome-36x36.png
-app/android-chrome-48x48.png
-app/android-chrome-72x72.png
-app/android-chrome-96x96.png
-app/apple-touch-icon-precomposed.png
-app/apple-touch-icon.png
-app/browserconfig.xml
-app/favicon.ico
-app/mstile-150x150.png
-app/mstile-310x150.png
-app/mstile-310x310.png
-app/mstile-70x70.png
-app/dogefavicon.png
-app/_mdwriter.cson
+src/assets/apple-touch-icon-57x57.png
+src/assets/apple-touch-icon-60x60.png
+src/assets/apple-touch-icon-72x72.png
+src/assets/apple-touch-icon-76x76.png
+src/assets/apple-touch-icon-114x114.png
+src/assets/apple-touch-icon-120x120.png
+src/assets/apple-touch-icon-144x144.png
+src/assets/apple-touch-icon-152x152.png
+src/assets/apple-touch-icon-180x180.png
+src/assets/favicon-32x32.png
+src/assets/android-chrome-192x192.png
+src/assets/favicon-96x96.png
+src/assets/favicon-16x16.png
+src/assets/favicon-194x194.png
+src/assets/manifest.json
+src/assets/mstile-144x144.png
+src/assets/android-chrome-144x144.png
+src/assets/android-chrome-36x36.png
+src/assets/android-chrome-48x48.png
+src/assets/android-chrome-72x72.png
+src/assets/android-chrome-96x96.png
+src/assets/apple-touch-icon-precomposed.png
+src/assets/apple-touch-icon.png
+src/assets/browserconfig.xml
+src/assets/favicon.ico
+src/assets/mstile-150x150.png
+src/assets/mstile-310x150.png
+src/assets/mstile-310x310.png
+src/assets/mstile-70x70.png
+src/assets/dogefavicon.png
+src/assets/_mdwriter.cson
