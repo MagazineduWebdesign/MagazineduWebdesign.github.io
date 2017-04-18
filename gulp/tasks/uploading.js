@@ -5,9 +5,9 @@ const ghPages = require('gh-pages');
 
 // 'gulp deploy' -- pushes your dist folder to Github
 gulp.task('upload', (done) => {
-  ghPages.publish(path.join(__dirname + '/../../', '!src/assets/images','dist'), {
+  ghPages.publish(path.join(__dirname + '/../../', 'dist'), {
     dotfiles: true,
-    branch: "master"
+    branch: 'master'
 	},
 	done);
 });
