@@ -213,11 +213,11 @@ L'alternative est l'abonnement pro, ce qui est idéal quand plusieurs utilisateu
 
 En ce moment iStock a une promotion sur tous les crédits et abonnements pour les nouveaux clients. Vous pouvez obtenir 10% de rabais sur les packs de crédits et 12% sur les abonnements pro - il suffit d'utiliser le code [NEWISTOCK10](http://istockphoto.7eer.net/c/262183/258824/4205) à l'étape de paiement pour les crédits et le code [2MGPC46N](http://istockphoto.7eer.net/c/262183/258824/4205) pour les abonnements pro.
 
-# On en parle ?!
+## On en parle ?!
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez tout ça à guillaume@magazineduwebdesign.com. Si vous n'aimez pas les e-mails, envoyez un tweet à [@MagDuWebdesign](https://twitter.com/MagDuWebdesign).
 
-# Supporté par iStock
+## Supporté par iStock
 
 Chez iStock, nous croyons que les images ont le pouvoir de changer le monde. Et nous avons la certitude que nos clients doivent avoir accès aux meilleurs contenus. C'est pourquoi nous sommes fiers de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de créateurs en proposant des _ _[millions d'images uniques, dans tous les formats au même prix. Soyez creatif !](http://istockphoto.7eer.net/c/262183/258824/4205)
 
