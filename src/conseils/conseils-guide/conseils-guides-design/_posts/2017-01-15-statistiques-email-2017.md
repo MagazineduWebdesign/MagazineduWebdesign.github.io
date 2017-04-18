@@ -72,7 +72,7 @@ Partagez votre approche du design d'email en 2017 et vos questions avec la commu
 
 ## Supporté par Sarbacane
 
- _Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email._
+Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email.
 
 Sarbacane est l’application emailing de référence en France qui vous permet de :
 

@@ -83,9 +83,9 @@ Peu importe la techno, HDD, NAS ou serveur dédié, le stockage en ligne de vos 
 
 ## Supporté par Ikoula
 
-_Chez Ikoula, notre approche du service nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs._
+Chez Ikoula, notre approche du service nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs.
 
-_Découvrez nos offres de sauvegarde NAS Synology en explorant notre [page dédiée](https://express.ikoula.com/fr/serveur-dedie?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign#synology)_.
+Découvrez nos offres de sauvegarde NAS Synology en explorant notre [page dédiée](https://express.ikoula.com/fr/serveur-dedie?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign#synology).
 
 Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 

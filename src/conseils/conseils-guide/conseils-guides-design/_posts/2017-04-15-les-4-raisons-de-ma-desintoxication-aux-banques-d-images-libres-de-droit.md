@@ -219,7 +219,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 # Supporté par iStock
 
- _Chez iStock, nous croyons que les images ont le pouvoir de changer le monde. Et nous avons la certitude que nos clients doivent avoir accès aux meilleurs contenus. C'est pourquoi nous sommes fiers de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de créateurs en proposant des _ _[millions d'images uniques, dans tous les formats au même prix. Soyez creatif !](http://istockphoto.7eer.net/c/262183/258824/4205)_
+Chez iStock, nous croyons que les images ont le pouvoir de changer le monde. Et nous avons la certitude que nos clients doivent avoir accès aux meilleurs contenus. C'est pourquoi nous sommes fiers de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de créateurs en proposant des _ _[millions d'images uniques, dans tous les formats au même prix. Soyez creatif !](http://istockphoto.7eer.net/c/262183/258824/4205)
 
  <div class="section-carte-index-panel">
    <a onclick="ga('send', 'event', 'Publicite', 'click', 'iStock card article body bottom coupon code NEWISTOCK10');" href="http://istockphoto.7eer.net/c/262183/258824/4205" title="10% de réduction pour les nouveaux membres" target="_blank" rel="nofollow">
