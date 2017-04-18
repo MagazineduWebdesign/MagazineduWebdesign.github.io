@@ -27,7 +27,7 @@ lsi: false
 limit_posts: 10
 
 # Permalink structure and pagination options
-permalink: /:title/
+permalink: /:title
 paginate: 10
 paginate_path: 'page:num'
 excerpt_separator: ''
@@ -77,6 +77,7 @@ defaults:
       layout: "post"
       auteur: "MagDuWebdesign" # overrides previous default layout
       bgimgheader: "false"
+      permalink: "/:title/"
   -
     scope:
       path: "note"
