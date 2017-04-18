@@ -97,6 +97,10 @@
     
     "/ressources/themes-wordpress/theme-wordpress-colors-creative-portfolio/",
     
+    "/ressources/mockups/mockup-nouveau-macbook-air/",
+    
+    "/ressources/mockups/mockup-macbook-bureau/",
+    
     "/ressources/icones/set-premium-line-icons/",
     
     "/ressources/icones/set-icones-gratuites-ego-icons/",
@@ -106,10 +110,6 @@
     "/ressources/icones/set-icones-gratuites-birply/",
     
     "/ressources/icones/set-icones-feather/",
-    
-    "/ressources/mockups/mockup-nouveau-macbook-air/",
-    
-    "/ressources/mockups/mockup-macbook-bureau/",
     
     "/ressources/icones/font-icones-ionicons-gratuit/",
     
@@ -131,23 +131,23 @@
     
     "/ressources/kits-ui/kit-ui-apple-watch-psd/",
     
+    "/ressources/kits-ui/kit-ui-grade-web-app-psd-sketch/",
+    
     "/ressources/kits-ui/kit-ui-weeny-app-mobile-ios-ecommerce/",
     
     "/ressources/kits-ui/kit-ui-snug-magazine-blog/",
-    
-    "/ressources/kits-ui/kit-ui-monobrand_ios-site-web-ecommerce/",
-    
-    "/ressources/kits-ui/kit-ui-grade-web-app-psd-sketch/",
     
     "/ressources/kits-ui/kit-ui-do-mobile-app-psd-sketch-invision/",
     
     "/ressources/kits-ui/kit-ui-aware-ecommerce/",
     
-    "/ressources/kits-ui/kit-ui-parrot/",
+    "/ressources/kits-ui/kit-ui-monobrand_ios-site-web-ecommerce/",
     
     "/ressources/kits-ui/kit-ui-mobile-ghostship-retina-psd/",
     
-    "/ressources/kits-ui/kit-ui-ink-mobile-ios-retina-psd-sketch/"
+    "/ressources/kits-ui/kit-ui-ink-mobile-ios-retina-psd-sketch/",
+    
+    "/ressources/kits-ui/kit-ui-parrot/"
     
   ]
 }
