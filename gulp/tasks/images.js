@@ -13,6 +13,6 @@ gulp.task('images', () =>
       imagemin.optipng(),
       imagemin.svgo({plugins: [{cleanupIDs: false}]})
     ])))
-    .pipe(gulp.dest('.tmp/assets/images'))
+    .pipe(gulp.dest('src/assets/imagemin'))
     .pipe(size({title: 'images'}))
 );
