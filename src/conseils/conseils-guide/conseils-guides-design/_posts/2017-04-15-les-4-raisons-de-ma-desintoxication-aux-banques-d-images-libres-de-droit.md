@@ -239,7 +239,7 @@ Chez iStock, nous croyons que les images ont le pouvoir de changer le monde. Et 
    </a>
  </div>
 
-# Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
 -  [Contraste texte sur photo – 7 conseils de designer](http://www.magazineduwebdesign.com/conseils/guides/7-conseils-design-typographie-texte-photo/).
 
