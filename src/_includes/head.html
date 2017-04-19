@@ -23,46 +23,31 @@
       {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="
-  {% if page.description %}
-    {{ page.description }}
-  {% elsif page.category == 'ui-animations' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% elsif page.category == 'ui-sites-web_from-zapier' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% else %}
-  {% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.category == 'ui-sites-web_from-zapier' %}{{ page.commentaire | markdownify | strip_html }}{% else %}{% endif %}">
   {% if page.noindex == 'true' %}
   <meta name="robots" content="noindex"/>
   {% else %}
-  <meta name="robots" content="noodp,noydir"/>
+  <meta name="robots" content="noodp"/>
   {% endif %}
-
+  <!-- Canonical URL
+  ================================================== -->
+  <link rel="canonical" href="{% if page.canonical-url %}{{ page.canonical-url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
   Twitter: https://dev.twitter.com/docs/cards/types/summary-card
   ============================== -->
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}{% if page.category == 'ui-sites-web_from-zapier' %} | Web Design Inspiration{% if page.metadata %} &ndash; {{ page.metadata }}{% endif %}{% endif %}" />
-  <meta property="og:description" content="
-  {% if page.description %}
-    {{ page.description }}
-  {% elsif page.category == 'ui-animations' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% elsif page.category == 'ui-sites-web_from-zapier' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% else %}
-  {% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.category == 'ui-animations' %}{{ page.commentaire | markdownify | strip_html }}{% elsif page.category == 'ui-sites-web_from-zapier' %}{{ page.commentaire | markdownify | strip_html }}{% else %}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-no-cover-book %}{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-sub-post-intro %}{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% endif %}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image:width" content="640" />
-  <meta property="og:image:height" content="360" />
+  <meta property="og:image:height" content="  " />
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="article:modified_time" content="{{ page.date }}" />
   <meta property="article:author" content="https://www.facebook.com/guillaume.palayer" />
   <meta property="article:publisher" content="https://www.facebook.com/MagazineDuWebdesign" />
   <meta property="og:site_name" content="Magazine du Webdesign" />
   <meta property="fb:app_id" content="417313274987698" />
-  <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:locale:alternate" content="fr_FR" />
   {% if page.id-youtube %}
   <meta property="og:video" content="https://www.youtube.com/watch?v={{ page.id-youtube }}" />
@@ -74,15 +59,7 @@
   <meta name="twitter:site" content="@MagDuWebdesign" />
   <meta name="twitter:creator" content="@MagDuWebdesign">
   <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}{% if page.category == 'ui-sites-web_from-zapier' %} | Web Design Inspiration{% if page.metadata %} &ndash; {{ page.metadata }}{% endif %}{% endif %}">
-  <meta name="twitter:description" content="
-  {% if page.description %}
-    {{ page.description }}
-  {% elsif page.category == 'ui-animations' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% elsif page.category == 'ui-sites-web_from-zapier' %}
-    {{ page.commentaire | markdownify | strip_html }}
-  {% else %}
-  {% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.category == 'ui-animations' %}{{ page.commentaire | markdownify | strip_html }}{% elsif page.category == 'ui-sites-web_from-zapier' %}{{ page.commentaire | markdownify | strip_html }}{% else %}{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-no-cover-book %}{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-sub-post-intro %}{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% endif %}" />
   
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
@@ -90,34 +67,30 @@
   <!-- inject:css -->
   <!-- endinject -->
 
-  <!-- Canonical URL
-  ================================================== -->
-  <link rel="canonical" href="{% if page.canonical-url %}{{ page.canonical-url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-
   <!-- RSS FEED
   ================================================== -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
   <!-- favicon
   ================================================== -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/manifest.json">
   <meta name="apple-mobile-web-app-title" content="Magazine du Webdesign">
   <meta name="application-name" content="Magazine du Webdesign">
   <meta name="msapplication-TileColor" content="#ff5700">
-  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ff5700">
 
   <!-- Schema.org markup for Google+ -->
