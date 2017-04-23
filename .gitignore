@@ -64,10 +64,10 @@ bower_components
 # Output folders
 dist
 src/assets/images
-src/assets/imagemin
+src/assets/imagesmin
+src/assets/imagesresize
 
 # hide the AWS and Rsync credentials file
-aws-identification.json
 aws-credentials.json
 rsync-credentials.json
 
@@ -103,3 +103,6 @@ src/assets/mstile-310x310.png
 src/assets/mstile-70x70.png
 src/assets/dogefavicon.png
 src/assets/_mdwriter.cson
+sharp@0.17.3
+node-gyp
+.awspublish-mdw-images

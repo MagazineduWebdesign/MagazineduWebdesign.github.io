@@ -115,5 +115,7 @@ gulp.task('serve', (done) => {
   gulp.watch(['src/**/*.xml', 'src/**/*.txt'], gulp.series('site', reload));
   gulp.watch('src/assets/javascript/**/*.js', gulp.series('scripts', reload));
   gulp.watch('src/assets/scss/**/*.scss', gulp.series('styles'));
-  gulp.watch('src/assets/images/**/*', gulp.series('images', reload));
+  gulp.watch('src/assets/images/**/*', gulp.series('imagesmin', reload));
+  gulp.watch('src/assets/imagesmin/**/*', gulp.series('imagesresize', reload));
+  gulp.watch('src/assets/imagesresize/**/*', gulp.series('imagesupload', reload));
 });
