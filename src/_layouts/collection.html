@@ -17,11 +17,6 @@ layout: default
   </div>
 </section>
 
-{% if page.bgimgheader == 'true' %}
-<div class="header-collection-bgimg is-img" data-is-img="{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}" data-interchange="[{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/medium/' }}, (default)]">
-</div>
-{% endif %}
-
 <section>
   <div class="row-liste-index">
     <div class="small-12 columns section-header">
@@ -29,7 +24,7 @@ layout: default
       {% for item in site.data.collections.[page.titre_fichier_data] %}
         {% capture length %}{{ forloop.length }}{% endcapture %}
       {% endfor %}
-      <span class="section-header-titre {% if page.bgimgheader == 'true' %}mod-header-collection-bgimg{% endif %}">{{ length | append: ' Items dans cette collection'}}</span>
+      <span class="section-header-titre">{{ length | append: ' Items dans cette collection'}}</span>
     </div>
   </div>
 
