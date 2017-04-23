@@ -248,7 +248,7 @@ $paypal:#003087;
     top:rem-calc(-8);
   }
 }
-.label--new{@include label($bg:$secondary-color,$radius:$global-radius);top:rem-calc(-8)}
+.label--new{@include label($bg:$primary-color,$radius:$global-radius);top:rem-calc(-8)}
 .label--new.mod-ads-sidebar {
   top:rem-calc(-2)
 }

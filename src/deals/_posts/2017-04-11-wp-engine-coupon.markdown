@@ -1,11 +1,11 @@
 ---
 layout: "deal"
-title: "WP Engine offre spéciale"
+title: "WP Engine"
 date: "2017-04-11 00:23:57"
 category: "deals"
 coupon: "Pas besoin de code"
 url-deal: "https://wpengine.com/developer-program/magduweb/"
-percent-off: "Mix gratuit / -20%"
+percent-off: "offre spéciale Mix gratuit / -20%"
 rating: "9"
 logo: "wpengine-logo.png"
 image-sub-post-intro: "wp-engine-developer-program-banner-deal-1.png"

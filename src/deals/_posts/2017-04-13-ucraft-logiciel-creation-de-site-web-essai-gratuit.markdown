@@ -1,11 +1,11 @@
 ---
 layout: "deal"
-title: "Ucraft - 14 jours d'essai gratuit pour créer un site Web"
+title: "Ucraft"
 date: "2017-04-13 00:23:57"
 category: "deals"
 coupon: "Pas besoin de coupon"
 url-deal: "http://mdw.design/2o8p0G8"
-percent-off: "14j gratuits"
+percent-off: "14j d'essai gratuit"
 rating: "8"
 logo: "ucraft-logo.png"
 image-sub-post-intro: "ucraft-featured-banner.jpg"

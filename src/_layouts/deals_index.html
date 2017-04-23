@@ -48,7 +48,11 @@ layout: default
 	              	<h2 class="carte-article-secondaire-post-title mod-job-title">
 										<span class="left job--entreprise">{{ post.title }} <span class="label--new">{% if post.percent-off %}{{ post.percent-off }}{% endif %}</span></span>
 									</h2>
-									<span class="job--description">{% if post.excerpt %}{{ post.excerpt }}{% endif %} &bull; <b>Coupon : {{ post.coupon }}</b></span>
+									<span class="job--description">
+										{% if post.excerpt %}{{ post.excerpt }}{% endif %}
+										<br>
+										<b>Coupon : {{ post.coupon }}</b>
+									</span>
 	              </div>
 	            </div>
 

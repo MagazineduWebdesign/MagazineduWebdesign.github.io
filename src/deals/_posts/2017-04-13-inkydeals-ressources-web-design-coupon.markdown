@@ -1,11 +1,11 @@
 ---
 layout: "deal"
-title: "InkyDeals coupon"
+title: "InkyDeals"
 date: "2017-04-13 00:23:57"
 category: "deals"
 coupon: "magduweb15"
 url-deal: "http://www.shareasale.com/u.cfm?d=371462&m=50189&u=1372774"
-percent-off: "-15%"
+percent-off: "-15% de réduction cumulable"
 rating: "7"
 logo: "inkydeals-logo.jpg"
 image-sub-post-intro: "summer-clip-art.jpg"
