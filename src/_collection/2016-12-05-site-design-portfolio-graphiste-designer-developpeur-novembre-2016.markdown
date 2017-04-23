@@ -8,9 +8,6 @@ Note : Si vous souhaitez des conseils pour la réalisation de votre portfolio, j
 Guillaume du Magazine du Webdesign"
 titre_fichier_data: "collection_site-web-portfolio-web-design-inspiration-novembre-2016"
 date: "2016-12-05 01:00:00"
-bgimgheader: "true"
-header-intro-dark: "true"
 image: "web-design-inspiration-wedding-of-jessica---brennan.jpg"
 description: "Chaque site sélectionné correspond au portfolio d'un graphiste, d'un UI designer ou d'un développeur. Quelques agences y figurent également."
-permalink: "/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/"
 ---

@@ -6,9 +6,6 @@ intro-header: "Il y a quelques temps, je m'étais intéressé au [design de site
 Guillaume du Magazine du Webdesign"
 titre_fichier_data: "collection_inspiration-ui-design-site-ecommerce-2016"
 date: "2016-12-05 01:00:00"
-bgimgheader: "true"
-header-intro-dark: "true"
 image: "web-design-inspiration-the-cool-club--a-design-collection-with-serious-class-.jpg"
 description: "Sélection de sites ecommerce au design élégant et au parcours client convaincant"
-permalink: "/17-exp-riences-ecommerce-l-gantes-novembre-2016/"
 ---

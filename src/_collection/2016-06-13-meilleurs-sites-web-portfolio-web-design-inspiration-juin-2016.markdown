@@ -8,9 +8,6 @@ Cette collection met en avant le travail de designers passionnés qui travaillen
 Note : Cette sélection est subjective. Certains portfolio sont classiques, d'autres très agréables visuellement mais avec une utilisabilité catastrophique. Ce n'est que mon avis. Si vous souhaitez des conseils pour la réalisation de votre portfolio, je vous invite à lire [6 étapes pour foirer le design de son portfolio](http://www.magazineduwebdesign.com/conseils/guides/6-etapes-pour-foirer-le-design-de-son-portfolio/)"
 titre_fichier_data: "collection_site-web-portfolio-web-design-inspiration-1"
 date: "2016-06-13 01:00:00"
-bgimgheader: "true"
-header-intro-dark: "true"
 image: "web-design-inspiration-hoo-koo-e-koo---digital-partner.jpg"
 description: "Collection d'inspirations répertoriant les meilleurs sites portfolio de designers et d'agences du mois de Juin"
-permalink: "/les-meilleurs-sites-web-portfolio-perso-et-d-agence-juin-2016/"
 ---

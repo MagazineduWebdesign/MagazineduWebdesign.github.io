@@ -86,13 +86,6 @@ defaults:
       layout: "note" # overrides previous default layout
   -
     scope:
-      path: "collection"
-      type: "collection"
-    values:
-      layout: "collection" # overrides previous default layout
-      bgimgheader: "false"
-  -
-    scope:
       path: "offre-emploi"
       type: "offre-emploi"
     values:
