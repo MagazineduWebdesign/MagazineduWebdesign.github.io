@@ -10,4 +10,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "web-design-inspiration-the-cool-club--a-design-collection-with-serious-class-.jpg"
 description: "Sélection de sites ecommerce au design élégant et au parcours client convaincant"
+permalink: "/17-exp-riences-ecommerce-l-gantes-novembre-2016/"
 ---

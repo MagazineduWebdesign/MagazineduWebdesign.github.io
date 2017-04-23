@@ -8,4 +8,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "web-design-inspiration-2016-winners---best-design-awards.jpg"
 description: "Les meilleurs designs de landing pages de la rentrée 2016."
+permalink: "/50-exemples-de-landing-pages-design-inspiration/"
 ---

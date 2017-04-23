@@ -6,4 +6,5 @@ date: "2015-12-16 00:00:00"
 bgimgheader: "true"
 image: "star-wars-corgi.jpg"
 description: "Petit échantillon de sites web avec une interface et une expérience made in Star Wars."
+permalink: "/star-wars-ndash-inspir-e-tu-seras/"
 ---

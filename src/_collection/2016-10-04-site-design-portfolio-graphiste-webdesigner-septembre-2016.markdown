@@ -12,4 +12,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "web-design-inspiration-project-sunday.jpg"
 description: "Site design, meilleurs portfolios de designers et d'agences du mois de septembre 2016"
+permalink: "/30-portfolios-de-graphiste-et-webdesigner-design-inspiration/"
 ---

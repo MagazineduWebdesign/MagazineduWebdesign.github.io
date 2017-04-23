@@ -12,4 +12,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "web-design-inspiration-hoo-koo-e-koo---digital-partner.jpg"
 description: "Collection d'inspirations répertoriant les meilleurs sites portfolio de designers et d'agences du mois de Juin"
+permalink: "/les-meilleurs-sites-web-portfolio-perso-et-d-agence-juin-2016/"
 ---

@@ -12,4 +12,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "web-design-inspiration-wedding-of-jessica---brennan.jpg"
 description: "Chaque site sélectionné correspond au portfolio d'un graphiste, d'un UI designer ou d'un développeur. Quelques agences y figurent également."
+permalink: "/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/"
 ---

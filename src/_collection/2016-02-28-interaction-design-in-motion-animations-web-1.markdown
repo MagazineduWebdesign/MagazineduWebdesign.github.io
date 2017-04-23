@@ -9,4 +9,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "interaction-design-in-motion-animations-web-settings-page-static.png"
 description: "Faites le premier pas vers le motion design en prenant votre dose d'animations de site web & d'applications pour la semaine."
+permalink: "/interaction-design-in-motion-animations-web-1/"
 ---

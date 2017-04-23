@@ -8,4 +8,5 @@ bgimgheader: "true"
 header-intro-dark: "true"
 image: "ui-animation-inspiration-tofind---concept-controller-static.jpg"
 description: "Faites le premier pas vers le design interactif en prenant votre dose d'UI animation mobile et Web."
+permalink: "/meilleures-ui-animations-juin-2016/"
 ---

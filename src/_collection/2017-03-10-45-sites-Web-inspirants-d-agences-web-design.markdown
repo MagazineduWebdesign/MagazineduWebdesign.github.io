@@ -14,4 +14,5 @@ titre_fichier_data: "collection_site-web-portfolio-agence-inspiration-2017"
 date: "2017-03-10 01:00:00"
 image: "web-design-inspiration-baillat.jpg"
 description: "Innovant, créatif, minimaliste, effet waouh. Les qualificatifs ne manquent pas lorsqu'une agence Web décident de refaire son site Web..."
+permalink: "/45-sites-web-inspirants-d-agences-et-de-studios-de-design/"
 ---
