@@ -181,6 +181,16 @@ Sarbacane est l’application emailing de référence en France et disponible po
 
 Voilà, maintenant vous savez tout.
 
-_Un grand merci à [Sarbacane](https://www.sarbacane.com/) pour avoir sponsoriser la rédaction de cet article. Sarbacane est le leader français proposant une solution emailing choisie par plus de 75 557 utilisateurs. [Essayer gratuitement Sarbacane](https://www.sarbacane.com/), c'est soutenir le Magazine du Webdesign pour vous apporter des articles flambant neufs chaque semaine._
+*Un grand merci à [Sarbacane](https://www.sarbacane.com/) pour avoir sponsoriser la rédaction de cet article. Sarbacane est le leader français proposant une solution emailing choisie par plus de 75 557 utilisateurs. [Essayer gratuitement Sarbacane](https://www.sarbacane.com/), c'est soutenir le Magazine du Webdesign pour vous apporter des articles flambant neufs chaque semaine.*
 
-_Xoxo, Guillaume du Magazine du Webdesign._
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
+-  [Sources d'inspiration pour le design de templates email](http://www.magazineduwebdesign.com/conseils/guides/template-email-exemple-inspiration-design/) ;
+-  [Je ne savais pas qu'un email pouvait faire ça ! (Partie I)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-1/) ;
+-  [Je ne savais pas qu'un email pouvait faire ça ! (Partie II)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) ;
+-  [Design d'email – Comment innover en 2017](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/) ;
+-  [Statistiques email 2017](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/).
+
+Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}

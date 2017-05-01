@@ -112,7 +112,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 ## Supporté par Sarbacane
 
-Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email.
+*Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email.*
 
 Sarbacane est l’application emailing de référence en France qui vous permet de :
 
@@ -129,7 +129,7 @@ Sarbacane est l’application emailing de référence en France qui vous permet 
 -  [Je ne savais pas qu'un email pouvait faire ça ! (Partie I)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-1/) ;
 -  [Je ne savais pas qu'un email pouvait faire ça ! (Partie II)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) ;
 -  [Design d'email – Comment innover en 2017](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/) ;
--  [Design newsletter : 7 Hacks pour des emails qui convertissen](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) t ;
+-  [Design newsletter : 7 Hacks pour des emails qui convertissent](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) ;
 -  [Statistiques email 2017](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/).
 
 Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).

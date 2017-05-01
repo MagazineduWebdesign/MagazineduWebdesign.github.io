@@ -83,7 +83,7 @@ Rendez-vous la semaine prochaine pour découvrir la 2ème partie de cette série
 
 ## Supporté par Sarbacane
 
-Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email.
+*Chez Sarbacane, notre approche de l'emailing nous pousse sans cesse à proposer les meilleurs outils essentiels à la réussite de vos projets. C’est pourquoi nous sommes fiers de soutenir MDW dans son effort pour défendre et promouvoir une large communauté de créateurs d'email.*
 
 Sarbacane est l’application emailing de référence en France qui vous permet de :
 
@@ -96,6 +96,8 @@ Sarbacane est l’application emailing de référence en France qui vous permet 
 - Et plus de [50 autres fonctionnalités à découvrir](https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) qui en font l’une des solutions les plus complètes du marché.
 
 ## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+
+-  [Sources d'inspiration pour le design de templates email](http://www.magazineduwebdesign.com/conseils/guides/template-email-exemple-inspiration-design/) ;
 -  [Je ne savais pas qu'un email pouvait faire ça ! (Partie II)](http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/) ;
 -  [Design d'email – Comment innover en 2017](http://www.magazineduwebdesign.com/conseils/guides/design-d-email-comment-innover-en-2017/) ;
 -  [Design newsletter : 7 Hacks pour des emails qui convertissent](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) ;
