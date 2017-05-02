@@ -1,5 +1,4 @@
 /*global hljs:false */
-/*global Swiper:false */
 $(document).foundation({
 	topbar : {
 	  sticky_class : 'header--fixed',
@@ -19,18 +18,6 @@ $(document).foundation({
 });
 $('#header').headroom();
 $('img').VimeoThumb();
-$(document).ready(function () {
-  //initialize swiper when document ready
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    scrollbar: '.swiper-scrollbar',
-    scrollbarHide: true,
-    slidesPerView: 'auto',
-    centeredSlides: true,
-    spaceBetween: 16,
-    grabCursor: true
-  });
-});
 var faviconTag = $('link[rel=icon]'),
 		titleTag = $('title');
 
@@ -43,4 +30,3 @@ var faviconTag = $('link[rel=icon]'),
       titleTag.text('Trop bon de vous revoir !');
     }
   });
-
