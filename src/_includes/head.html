@@ -61,8 +61,8 @@
   <meta name="twitter:title" content="{{ page.title }}{% if page.category == 'ui-sites-web' %} | Web Design Inspiration{% if page.format %} &ndash; {{ page.format }}{% endif %}{% endif %}{% if page.category == 'ui-sites-web_from-zapier' %} | Web Design Inspiration{% if page.metadata %} &ndash; {{ page.metadata }}{% endif %}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.category == 'ui-animations' %}{{ page.commentaire | markdownify | strip_html }}{% elsif page.category == 'ui-sites-web_from-zapier' %}{{ page.commentaire | markdownify | strip_html }}{% else %}{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-no-cover-book %}{{ page.image-no-cover-book | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% elsif page.image-sub-post-intro %}{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}{% endif %}" />
-  
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <!-- CSS -->
   <!-- inject:css -->
   <!-- endinject -->
