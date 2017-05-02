@@ -561,6 +561,19 @@
 		
 		
 			<item>
+				<title>GoodBarber - créer une application mobile en ligne</title>
+				
+				
+					<description>GoodBarber est un puissant éditeur d&amp;#39;application en ligne qui permet de créer des progressive Web Apps (PWA) et des applications natives. GoodBarber combine l&amp;#39;hébergement avec des microservices préconfigurés pour obtenir une application rapide, élégante et fluide. Uploadez vos contenus sur GoodBarber et économisez du temps avec les modules d&amp;#39;authentification utilisateur, le geofencing, les pushs automatisés, la gestion des contenus marketing (couponing, live vidéo, etc.) et plus encore.  La promesse de GoodBarber est de vous accompagner étape par étape pour créer une application sans connaissances en développement. Bien entendu, les utilisateurs plus ambitieux ont un accès à des options avancées via l&amp;#39;utilisation de plugins, l&amp;#39;injection de code HTML et l&amp;#39;interface JSON.
+</description>
+				
+				<pubDate>Tue, 02 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/goodbarber-test-app-builder-en-ligne/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/goodbarber-test-app-builder-en-ligne/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/goodbarber-app-builder-templates-de-navigation.jpg" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Mockuuups Studio</title>
 				
 				
@@ -857,19 +870,6 @@
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbox-js-realiser-des-modeles-de-pages-attractifs-mais-difficiles-coder/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/contentbox-js-realiser-des-modeles-de-pages-attractifs-mais-difficiles-coder/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/contentbox.jpg" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Mockuuups Studio – L'appli gratuite de création de mock-up pour MacOS et Windows</title>
-				
-				
-					<description>D&amp;#39;un simple glisser-déposer, obtenez un aperçu de vos maquettes de sites Web et d&amp;#39;applications mobiles sur des centaines de templates de mock-up d&amp;#39;iPhones et de MacBook 👌.
-</description>
-				
-				<pubDate>Mon, 23 Jan 2017 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/mockuuups-studio-appli-gratuite-de-creation-de-mock-up-pour-macos-et-windows/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/creation-avec-mockuuups-studio.jpg" type="image/*" />
 			</item>
 		
 		
