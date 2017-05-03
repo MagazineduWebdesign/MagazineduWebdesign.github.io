@@ -8,11 +8,11 @@ path3: "developpement"
 category: "ressources-outils-services-developpement"
 sponsored: "true"
 by: "MDW X GoodBarber"
-url-demo: "https://fr.goodbarber.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
+url-demo: "http://www.goodbarber.com/?utm_source=magazineduwebdesign&utm_medium=referral"
 logo: "logo-goodbarber.jpg"
 image-sub-post-intro: "goodbarber-app-builder-templates-de-navigation.jpg"
 image: "goodbarber-app-builder-templates-de-navigation.jpg"
-intro: "GoodBarber est un puissant éditeur d'application en ligne qui permet de créer des [progressive Web Apps (PWA)](http://www.magazineduwebdesign.com/conseils/guides/progressive-web-app-le-meilleur-des-2-mondes/) et des applications natives. GoodBarber combine l'hébergement avec des microservices préconfigurés pour obtenir une application rapide, élégante et fluide. [Uploadez vos contenus sur GoodBarber](https://fr.goodbarber.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) et économisez du temps avec les modules d'authentification utilisateur, le [geofencing](https://fr.goodbarber.com/feature-index/#push-notification), les pushs automatisés, la gestion des contenus marketing (couponing, live vidéo, etc.) et plus encore.
+intro: "GoodBarber est un puissant éditeur d'application en ligne qui permet de créer des [progressive Web Apps (PWA)](http://www.magazineduwebdesign.com/conseils/guides/progressive-web-app-le-meilleur-des-2-mondes/) et des applications natives. GoodBarber combine l'hébergement avec des microservices préconfigurés pour obtenir une application rapide, élégante et fluide. [Uploadez vos contenus sur GoodBarber](http://www.goodbarber.com/?utm_source=magazineduwebdesign&utm_medium=referral) et économisez du temps avec les modules d'authentification utilisateur, le [geofencing](https://fr.goodbarber.com/feature-index/?utm_source=magazineduwebdesign&utm_medium=referral), les pushs automatisés, la gestion des contenus marketing (couponing, live vidéo, etc.) et plus encore.
 <br><br>
 La promesse de GoodBarber est de vous accompagner étape par étape pour créer une application sans connaissances en développement. Bien entendu, les utilisateurs plus ambitieux ont un accès à des options avancées via l'utilisation de plugins, l'injection de code HTML et l'interface JSON."
 description: "GoodBarber est un puissant éditeur en ligne qui permet de créer une progressive Web App (PWA) et une application mobile Android, iPhone et iPad."
@@ -36,11 +36,11 @@ Depuis 2011, GoodBarber aide les particuliers, les développeurs web, les agence
 
 ## Prix
 
-- [Essai gratuit 30 jours](https://fr.goodbarber.com/create/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) sans carte bancaire ;
+- [Essai gratuit 30 jours](https://fr.goodbarber.com/create/?utm_source=magazineduwebdesign&utm_medium=referral) sans carte bancaire ;
 - 28 EUR/mois pour l'offre Standard comprenant la création d'une PWA avec [nom de domaine](http://www.magazineduwebdesign.com/deals/nom-de-domaine-design-coupon/), SSL gratuit et trafic illimité ;
 - 40 EUR/mois pour l'offre Full comprenant une PWA et une app native Android et iPhone. Possibilité d'activer le geofence et beacon via les add-ons ;
 - 60 EUR/mois pour l'offre Advanced comprenant une PWA et une app native Android, iPhone et iPad. Cette offre comprend le pack communautaire (connexion, communauté, groupe d'utilisateurs, chat) plus la possibilité d'ajouter les add-ons local business ;
-- 240 EUR/mois pour [l'offre Reseller ciblant les agences et les freelances](https://fr.goodbarber.com/reseller/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) souhaitant construire des **applications progressives et natives en marque blanche** ;
+- 240 EUR/mois pour [l'offre Reseller ciblant les agences et les freelances](https://fr.goodbarber.com/reseller/?utm_source=magazineduwebdesign&utm_medium=referral) souhaitant construire des **applications progressives et natives en marque blanche** ;
 - Une **réduction de 20%** est appliquée si vous choisissez la facturation annuelle.
 
 ## Dans quels cas j'utiliserais Goodbarber
@@ -52,14 +52,14 @@ Pour tester des concepts d'apps, j'utilise actuellement un mix Figma + InVision 
 La bonne nouvelle avec l'app builder GoodBarber est qu'il autorise les utilisateurs à envoyer de la données vers l'application (Favoris, commentaire, etc.). Et la fonction de compte utilisateur couplée à la messagerie intégrée m'intéresse tout particulièrement.
 
 <figure class="figure-img mod-note-img">
-  <a href="https://fr.goodbarber.com/feature-index/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign#feature-login" target="blank">
+  <a href="https://fr.goodbarber.com/feature-index/?utm_source=magazineduwebdesign&utm_medium=referral#feature-login" target="blank">
     <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/goodbarber-app-builder-authentification-utilisateur.jpg" class="note-container-img" alt="App builder GoodBarber - authentification utilisateur" width="736" height="auto" />
   </a>
   <figcaption>App builder GoodBarber - authentification utilisateur avec Facebook et Twitter Connect</figcaption>
 </figure>
 
 <figure class="figure-img mod-note-img">
-  <a href="https://fr.goodbarber.com/feature-index/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign#chat" target="blank">
+  <a href="https://fr.goodbarber.com/feature-index/?utm_source=magazineduwebdesign&utm_medium=referral#chat" target="blank">
     <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/goodbarber-app-builder-gestion-communautaire-et-messagerie-interne.png" class="note-container-img" alt="App builder GoodBarber - gestion communautaire et messagerie interne" width="736" height="auto" />
   </a>
   <figcaption>App builder GoodBarber - gestion communautaire et messagerie interne</figcaption>
@@ -88,7 +88,7 @@ Avant d'accéder gratuitement aux fonctions d'édition, GoodBarber demande de no
 Une fois cette étape réalisée, un tour guidée vous présente les principales fonctionnalités de l'éditeur d'application.
 
 <figure class="figure-img mod-note-img">
-  <a href="https://fr.goodbarber.com/create/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign" target="blank">
+  <a href="https://fr.goodbarber.com/create/?utm_source=magazineduwebdesign&utm_medium=referral" target="blank">
     <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/goodbarber-app-builder-onboarding.png" class="note-container-img" alt="App builder goodbarber - onboarding" width="736" height="auto" />
   </a>
   <figcaption>App builder GoodBarber - onboarding</figcaption>
@@ -119,7 +119,7 @@ L'outil propose différents niveaux d'édition :
 - L'édition du système de navigation ;
 - L'édition des pages de contenus présentant les textes, les galeries, les vidéo, etc.
 
-Chacun de ces grands ensembles repose sur un template dictant leur mise en page. Vous pouvez modifier leur apparence en choisissant un autre template et en personnalisant la couleur, la police, les images d'arrière plan et les espaces du template. Je vous invite à consulter la [liste des templates](https://fr.goodbarber.com/ui-index/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) pour chaque section d'application.
+Chacun de ces grands ensembles repose sur un template dictant leur mise en page. Vous pouvez modifier leur apparence en choisissant un autre template et en personnalisant la couleur, la police, les images d'arrière plan et les espaces du template. Je vous invite à consulter la [liste des templates](https://fr.goodbarber.com/ui-index/?utm_source=magazineduwebdesign&utm_medium=referral) pour chaque section d'application.
 
 {% include components/content-post-default-figure-image.html param="goodbarber-app-builder-templates.png" %}
 
@@ -160,9 +160,9 @@ Ci-dessous, les fonctionnalités qui sont les plus importantes pour mes scénari
 - Génération des icônes de l'application ;
 - Gestion du process de soumission sur les stores et des mises à jour ;
 
-Je vous invite à explorer la [liste complète des fonctionnalités](https://fr.goodbarber.com/feature-index/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign).
+Je vous invite à explorer la [liste complète des fonctionnalités](https://fr.goodbarber.com/feature-index/?utm_source=magazineduwebdesign&utm_medium=referral).
 
-Si vous recherchez un éditeur pour créer une Progressive Web App ou une application native pour votre business ou celui de vos clients, GoodBarber est l'outil en ligne auquel vous devriez donner une chance. [Faites le test](https://fr.goodbarber.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign) gratuitement pendant 30 jours.
+Si vous recherchez un éditeur pour créer une Progressive Web App ou une application native pour votre business ou celui de vos clients, GoodBarber est l'outil en ligne auquel vous devriez donner une chance. [Faites le test](http://www.goodbarber.com/?utm_source=magazineduwebdesign&utm_medium=referral) gratuitement pendant 30 jours.
 
 ## Exemples d'applications réalisées avec GoodBarber
 
@@ -205,7 +205,7 @@ Quelques exemples d'applications natives réalisées avec l'éditeur en ligne Go
 
 ## Si vous êtes freelance ou en agence
 
-GoodBarber propose la [création d'applications mobiles en marque blanche](https://fr.goodbarber.com/pricing/). Vous aurez à votre disposition l'ensemble des fonctionnalités premiums et un outil de gestion des applications en production. Vous pourrez transmettre un backoffice personnalisé à vos clients. Vous gardez le contrôle au cas où il vous faudrait reprendre la main sur un de vos projets client. Ne vous fiez pas à la capture ci-dessous, l'ensemble des interfaces de GoodBarber et le centre d'aide sont en français. Un bon point pour vos clients made in France.
+GoodBarber propose la [création d'applications mobiles en marque blanche](https://fr.goodbarber.com/pricing/?utm_source=magazineduwebdesign&utm_medium=referral). Vous aurez à votre disposition l'ensemble des fonctionnalités premiums et un outil de gestion des applications en production. Vous pourrez transmettre un backoffice personnalisé à vos clients. Vous gardez le contrôle au cas où il vous faudrait reprendre la main sur un de vos projets client. Ne vous fiez pas à la capture ci-dessous, l'ensemble des interfaces de GoodBarber et le centre d'aide sont en français. Un bon point pour vos clients made in France.
 
 {% include components/content-post-default-figure-image.html param="goodbarber-backend-reseller.jpg" %}
 
@@ -215,7 +215,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 ## Supporté par GoodBarber
 
-*Chez [GoodBarber](https://fr.goodbarber.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign), nous croyons que chacun doit pouvoir accéder librement à la création d'application Web et natives. C'est pourquoi nous sommes fiers de soutenir le [Magazine du Webdesign](http://www.magazineduwebdesign.com/) dans son effort pour défendre et promouvoir une large communauté de créateurs en proposant un éditeur d'application en ligne accessible à tous.*
+*Chez [GoodBarber](http://www.goodbarber.com/?utm_source=magazineduwebdesign&utm_medium=referral), nous croyons que chacun doit pouvoir accéder librement à la création d'application Web et natives. C'est pourquoi nous sommes fiers de soutenir le [Magazine du Webdesign](http://www.magazineduwebdesign.com/) dans son effort pour défendre et promouvoir une large communauté de créateurs en proposant un éditeur d'application en ligne accessible à tous.*
 
 ## Pour aller plus loin
 
