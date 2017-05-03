@@ -12,29 +12,30 @@ gulp.task('inject', gulp.parallel('inject:head', 'inject:footer'));
 // 'gulp build:site' -- copies, builds, and then copies it again
 gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
 
-// 'gulp assets' -- cleans out your assets and rebuilds them
-// 'gulp assets --prod' -- cleans out your assets and rebuilds them with
-// production settings
-gulp.task('assets', gulp.series(
-  gulp.parallel('styles', 'scripts', 'fonts', 'imagesmin'),
-  gulp.series('copy:assets')
-));
-
-// 'gulp clean' -- erases your assets and gzipped files
-gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'clean:site'));
 
 // 'gulp imagesresize' -- resize all images in differents size for responsive purposes
 gulp.task('imagesresize', gulp.series(
   gulp.parallel('imagesresizelarge', 'imagesresizemedium', 'imagesresizesmall', 'imagesresizelsmall', 'imagesresizexsmall')
 ));
 
+// 'gulp assets' -- cleans out your assets and rebuilds them
+// 'gulp assets --prod' -- cleans out your assets and rebuilds them with
+// production settings
+gulp.task('assets', gulp.series(
+  gulp.parallel('styles', 'scripts', 'fonts'),
+  gulp.series('imagesmin', 'imagesresize', 'copy:assets')
+));
+
+// 'gulp clean' -- erases your assets and gzipped files
+gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'clean:site'));
+
 // 'gulp build' -- same as 'gulp' but doesn't serve your site in your browser
 // 'gulp build --prod' -- same as above but with production settings
-gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'imagesresize', 'imagesupload', 'html'));
+gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html'));
 
 // You can also just use 'gulp upload' but this way you can see all the main
 // tasks in the gulpfile instead of having to hunt for the deploy tasks
-gulp.task('deploy', gulp.series('upload', 'imagesupload'));
+gulp.task('deploy', gulp.series('imagesupload', 'upload'));
 
 // 'gulp rebuild' -- WARNING: Erases your assets and built site, use only when
 // you need to do a complete rebuild

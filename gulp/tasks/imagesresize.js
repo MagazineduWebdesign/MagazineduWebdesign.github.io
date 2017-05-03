@@ -10,6 +10,7 @@ var imgSrc = 'src/assets/imagesmin/**/*.{jpg,png}';
 // 'gulp imagesresizelarge' -- resizes all images to 1024 pixels wide and caches your images
 gulp.task('imagesresizelarge', () =>
   gulp.src(imgSrc)
+    .pipe(changed('src/assets/imagesresize/large'))
     .pipe(responsive({
       // Resize all images to 1024 pixels wide
       '**/*': {
