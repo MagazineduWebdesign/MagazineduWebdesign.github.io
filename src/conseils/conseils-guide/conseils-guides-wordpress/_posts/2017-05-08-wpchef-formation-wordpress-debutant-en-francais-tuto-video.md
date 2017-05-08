@@ -18,7 +18,7 @@ description: "25h de tuto WordPress de qualité, en vidéo, pour créer et perso
 ---
 ## WordPress ouvre toutes les portes
 
-Lors de mes premiers échanges avec Alex ( [alex_borto](https://twitter.com/alex_borto) ), co-fondateur de WPChef, j'ai eu un petit flash back. J'ai un rapport très particulier avec [WordPress](https://fr.wordpress.org/). C'est grâce à ce CMS que j'ai trouvé mon premier stage et franchi la frontière consommateur | acteur du Web.
+Lors de mes premiers échanges avec Alex ([alex_borto](https://twitter.com/alex_borto)), co-fondateur de WPChef, j'ai eu un petit flash back. J'ai un rapport très particulier avec [WordPress](https://fr.wordpress.org/). C'est grâce à ce CMS que j'ai trouvé mon premier stage et franchi la frontière consommateur | acteur du Web.
 
 J'ai crée mes premiers sites Web il y a 9 ans. Un premier en flash pour le fun avec un copain de fac. Je n'ai pas apprécié le développement avec ActionScript. Je me suis donc intéressé très vite à l'accessibilité et la flexibilité de WordPress. J'ai passé des semaines en mode machine dans ma chambre étudiante.
 
@@ -27,6 +27,8 @@ J'ai crée mes premiers sites Web il y a 9 ans. Un premier en flash pour le fun 
 Avec mes maigres connaissances, je tentais de décortiquer le fonctionnement de ce merveilleux outil. Entre les cours et les examens, ces semaines de formation WordPress en autodidacte se sont transformées en semestres. J'ai fini par maîtriser la création de sites WordPress. Néanmoins l'aventure aurait pu être beaucoup plus efficace avec une formation. Les seules ressources disponibles à l'époque étaient pour la plupart en anglais. Les formations en français étaient dispensés par des organismes pro. Hors budget pour moi.
 
 La rareté des tutoriels en français a été un frein pour mon apprentissage. C'est en partie pour cette raison que WPChef a été créé. Il s'agit d'un condensé sur la création d'un site WordPress. Un subtil équilibre entre la pratique et la connaissance théorique.
+
+{% include custom/cartes/carte_ad_medium-rect-in-content.html %}
 
 ## Contenus clés de la formation WPChef
 
@@ -75,9 +77,9 @@ Note : la formation n'est pas éligible aux budgets de formation. Cependant, si 
 
 WPChef a été créé par 3 passionnés de WordPress :
 
-- Alexandre Bortolotti ( [@alex_borto](https://twitter.com/alex_borto) ), créateur de [wpmarmite.com](https://wpmarmite.com/) ;
-- Maxime Bernard-Jacquet ( [@maximebj](https://twitter.com/maximebj) ), développeur et entrepreneur WordPress ;
-- Nicolas Richer ( [@NicolasRicher](https://twitter.com/NicolasRicher) ), consultant WordPress depuis 2011.
+- Alexandre Bortolotti ([@alex_borto](https://twitter.com/alex_borto)), créateur de [wpmarmite.com](https://wpmarmite.com/) ;
+- Maxime Bernard-Jacquet ([@maximebj](https://twitter.com/maximebj)), développeur et entrepreneur WordPress ;
+- Nicolas Richer ([@NicolasRicher](https://twitter.com/NicolasRicher)), consultant WordPress depuis 2011.
 
 ## Dans quel cas recourir à cette formation WordPress
 {% include components/content-post-default-figure-image.html param="wpchef-la-formation-wordpress-pour-vous.png" %}
