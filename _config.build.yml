@@ -6,3 +6,5 @@ future: false
 show_drafts: false
 # Removes the upper limit for posts generated
 limit_posts: 0
+# Unable custom plugins, and symbolic links.
+safe: false
