@@ -72,7 +72,7 @@ Plus sérieusement, je ne connais pas les contraintes de l'équipe email de Voya
 
 En prenant une bonne dose de GBS — Gros Bon Sens — et en lisant la suite.
 
-Voyages SNCF fait partie de ces 80% d'entreprises qui n'ont pas embrassé le design responsive pour leurs templates email. Je vous indiquais dans mes [statistiques email 201](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/) 7 qu'un template responsive pouvait augmenter de 24% le taux de clics.
+Voyages SNCF fait partie de ces 80% d'entreprises qui n'ont pas embrassé le design responsive pour leurs templates email. Je vous indiquais dans mes [statistiques email 2017](http://www.magazineduwebdesign.com/conseils/guides/statistiques-email-2017/) qu'un template responsive pouvait augmenter de 24% le taux de clics.
 
 Néanmoins, de nombreux clients email ne supportent pas les emails responsives. La solution est d'embrasser une approche légère du design. La plupart des emails sont ouverts sur mobile. Pourquoi vouloir afficher 3 colonnes de textes sur mobile ? Une seule colonne est suffisante sur mobile et desktop.
 
