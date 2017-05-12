@@ -16,7 +16,6 @@ J'ai même trouvé une erreur catégorie grosse bourde. Elle est signé Adidas e
 description: "Analyse d'une erreur trop souvent commise dans un template email et conseils pour y remédier avec exemples à l'appui."
 carte-optin-downoload-pdf: "false"
 image-no-cover-book: "sarbacane-erreurs-design-template-email.jpg"
-image: "sarbacane-erreurs-design-template-email.jpg"
 ---
 ## L'absence d'un texte de description personnalisé accompagnant l'objet de l'email
 
