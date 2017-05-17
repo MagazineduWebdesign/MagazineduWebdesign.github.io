@@ -17,7 +17,7 @@ image-no-cover-book: "app-airbnb-personnalisation-image-a-la-une.jpg"
 ---
 Si vous fermez cet onglet, vous manquerez l'un des détails les plus révélateurs de Badoo, un réseau social lancé en 2006 par Andréi Ogandjanyants. La plateforme a subi un redesign complet de son univers graphique et des parcours utilisateurs.
 
-# L'évolution vers un système de design unifié
+## L'évolution vers un système de design unifié
 
 La démultiplication des marchés et des supports de connexion a rendu la tâche de redesign ardue pour l'équipe produit de Badoo.
 
@@ -27,7 +27,7 @@ A l'instar de Airbnb, l'application a du se réinventer en unifiant sa promesse 
 
 Le design de l'application a pris une direction créative radicalement différente par rapport aux premières versions mobiles de 2009. L'objectif : s'adapter à l'hétérogénéité des contextes d'usages et faciliter le déploiement des nouvelles releases cross platform pour 190 pays et 47 langues.
 
-## Une unification du design qui passe par la bottom bar
+### Une unification du design qui passe par la bottom bar
 
 Une des pièces maîtresses du système de design de Badoo est la barre de navigation dans la partie inférieure de l'écran (Bottom bar en anglais). Elle est le pivot central de l'interface mobile qui regroupe les principales fonctionnalités :
 
@@ -52,31 +52,31 @@ Un retour aux sources qui fait du bien aux pouces comme le montre cette représe
 
 L'interface graphique n'a pas été le seul point optimisé durant le redesign de Badoo. Les données y ont pris une place centrale.
 
-# Les micro-moments au service de la personnalisation
+## Les micro-moments au service de la personnalisation
 
 Connectez-vous avec Facebook, vous saurez instantanément qui a consulté ou ajouté en favoris votre profil, quel membre du réseau vous avez croisé en chemin, les amis que vous avez en commun. La question évidente : comment savent-ils tout cela ? La réponse : la big data, récoltée avec soin.
 
 La plateforme rassemble instantanément toutes les sources de données sur votre réseau de connaissances, tout en faisant en sorte que le processus de découverte et de communication entre les membres soit une affaire de quelques minutes.
 
-## Remodeler l'UX de l'industrie
+### Remodeler l'UX de l'industrie
 
 L'objectif final : remodeler l'UX d'un secteur de 2,5 milliards de dollars aux seuls États-Unis et de plusieurs dizaines de milliards à l'échelle mondiale (source : Marketdata Enterprises Inc.).
 
 Votre position géographique, vos réseaux d'amis et vos actions sur l'application permettent à Badoo de personnaliser en temps réel le contenu. Le but : vous faire gagner du temps en ne proposant que les contenus dignes d'intérêts pour vous.
 
-## Micro-moments et rétention
+### Micro-moments et rétention
 
 Les données récoltées sont d'excellents déclencheurs de micro-moments où il est opportun d'envoyer une notification à l'utilisateur. Les données telles que les likes de profil, les ajouts aux favoris, les visites de profils, les matchs ou encore les profils croisés dans la rue sont autant de chances d'avertir l'utilisateur d'une activité intéressante. Et donc d'augmenter les chances d'ouverture de l'app à plusieurs reprises sur une période de temps donné, le fameux taux de rétention.
 
-# Ce qu'il faut retenir
+## Ce qu'il faut retenir
 
 La force du redesign de Badoo réside dans sa simplicité. L'innovation est au centre d'une grande partie de l'application. Badoo a été le pionnier de nombreuses fonctionnalités standards d'aujourd'hui, comme la découverte de profils par localisation. Les données, la technologie et la confiance croissante des utilisateurs concernant les services en ligne signifient que les industries changent. [Badoo](https://badoo.com/?pid=magduwebdesign&c=app_review) en est un acteur majeur grâce à un investissement massif dans ses équipes de design.
 
-# On en parle ?!
+## On en parle ?!
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez tout ça à guillaume@magazineduwebdesign.com. Si vous n'aimez pas les e-mails, envoyez un tweet à [@MagDuWebdesign](https://twitter.com/MagDuWebdesign).
 
-# Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
+## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
 - [UX-App – La puissance du design au service du prototypage](http://www.magazineduwebdesign.com/ressources/outils-services/design/ux-app-la-puissance-du-design-prototype-en-ligne/) ;
 - [GoodBarber - créer une application mobile en ligne](http://www.magazineduwebdesign.com/ressources/outils-services/goodbarber-test-app-builder-en-ligne/) ;
