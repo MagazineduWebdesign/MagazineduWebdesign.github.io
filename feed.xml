@@ -561,6 +561,19 @@
 		
 		
 			<item>
+				<title>UX wall - Créer un espace d'affichage collaboratif lorsqu'on a pas de murs</title>
+				
+				
+					<description>Le travail entre plusieurs personnes implique d&amp;#39;avoir à sa disposition des espaces d&amp;#39;expression. Ils permettent de fluidifier les conversations en affichant les documents de travail sur des espaces verticaux accessiblent à tous. Les murs sont donc d&amp;#39;excellents outils de collaboration. Et ils le sont encore plus lors d&amp;#39;un atelier de codesign.  Le problème est que l&amp;#39;on ne choisit pas toujours son espace de travail. Les salles spécifiquement dédiées au travail en groupe sont souvent réservées longtemps à l&amp;#39;avance. Il faut donc s&amp;#39;adapter en cherchant des solutions pour optimiser des espaces parfois étroits et qui n&amp;#39;offrent pas forcément des murs disponibles pour collaborer.  Je souhaite partager avec vous une solution pour s&amp;#39;affranchir des contraintes d&amp;#39;un lieu de travail. Elle permet d&amp;#39;avoir toujours à sa disposition des espaces verticaux pour collaborer. Elle est directement inspirée par cette brillante idée de DayLight (cf. photo).
+</description>
+				
+				<pubDate>Fri, 02 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/ux-wall-creer-un-espace-d-affichage-collaboratif-lorsqu-on-a-pas-de-murs/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/ux-wall-creer-un-espace-d-affichage-collaboratif-lorsqu-on-a-pas-de-murs/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
 				<title>Affinity Designer - performance, expérience utilisateur et tarif</title>
 				
 				
@@ -857,19 +870,6 @@
 				<link>http://www.magazineduwebdesign.com/conseils/guides/video-360-vr-storytelling/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/video-360-vr-storytelling/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Smartmockups App</title>
-				
-				
-					<description>La manière la plus simple de créer de superbes mock-ups sans utiliser Photoshop.
-</description>
-				
-				<pubDate>Thu, 16 Feb 2017 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/smartmockups-app/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/smartmockups-app/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/smartmockups_Image_MacBook.jpg" type="image/*" />
 			</item>
 		
 		
