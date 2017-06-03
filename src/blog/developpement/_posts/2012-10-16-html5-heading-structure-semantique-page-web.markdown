@@ -73,7 +73,7 @@ Rétrospective
 
 Un des principaux enjeux de l’HTML5 est la gestion des headings.
 
-Avec l’HTML4, nous devons simplement déclarer un chapelet de tags `H1` ⇒ `H6` pour créer une hiérarchie logique au sein de nos pages Web. L’arborescence de la structure d’un document et de ses éléments peut être détaillée en veillant à ne pas ignorer l’ordre hiérarchique : un tag h3 ne peut pas être déclaré à la suite d’un tag `h1`.
+Avec l’HTML4, nous devons simplement déclarer un chapelet de tags `H1` ⇒ `H6` pour créer une hiérarchie logique au sein de nos pages Web. L’arborescence de la structure d’un document et de ses éléments peut être détaillée en veillant à ne pas ignorer l’ordre hiérarchique : un tag `h3` ne peut pas être déclaré à la suite d’un tag `h1`.
 
 Les moteurs de recherches et les lecteurs d’écran les interprètent telle une succession d’occurrences hiérarchisées, sans se préoccuper de leur emplacement au sein du document. Le rendu du DOM (Document Object Model) – l’arborescence de la structure d’un document et de ses éléments – sera interprété de la manière suivante :
 
@@ -93,7 +93,7 @@ Titre de la page (h1)
 
 Comment faire si nous souhaitons détailler davantage le plan de notre page en ajoutant des noeuds aux sous-sections ?
 
-Avec l’HTML4, la  création d’un nouveau noeud au sein de l’arborescence doit se faire via l’insertion d’un h4 entre deux h3 par exemple. Pas très intuitif.
+Avec l’HTML4, la  création d’un nouveau noeud au sein de l’arborescence doit se faire via l’insertion d’un `h4` entre deux `h3` par exemple. Pas très intuitif.
 
 {% highlight html %}
 <h1>Titre de la page</h1>
@@ -186,7 +186,7 @@ L’ensemble du code est valide en HTML4 et en HTML5. Néanmoins l’HTML5 appor
 
 ID header ne donne aucune information sur sa nature lorsque le document est parcouru. Sa valeur sémantique est nulle. De même pour ID article.  Les user agents Web tels que les navigateurs, les robots d’indexation, en passant par les lecteurs d’écran ou les navigateurs braille ne sont pas en mesure d’interpréter la valeur sémantique d’un ID.
 
-L’HTML5 avec les balises <header> et <article> compense cette absence de valeur sémantique en notifiant à qui veut l’entendre que nous sommes en présence d’une en-tête de document et d’un bloc de contenu indépendant de l’agencement de la page.
+L’HTML5 avec les balises `<header>` et `<article>` compense cette absence de valeur sémantique en notifiant à qui veut l’entendre que nous sommes en présence d’une en-tête de document et d’un bloc de contenu indépendant de l’agencement de la page.
 
 ##HTML5 et bon sens
 
@@ -267,7 +267,7 @@ L’élément section est un des plus générique : il est utilisé afin de cré
 
 Et comme nous venons de le voir, cet élément doit être accompagné d’un heading pour faire sens aux yeux des agents logiciel.
 
-###Une section dans une section dans une section…
+### Une section dans une section dans une section…
 
 **Alors pourquoi l’utiliser comme un simple élément `<div>`**?
 
@@ -311,4 +311,4 @@ Pour vos assurez de la bonne implémentation des nouveaux éléments sémantique
 
 ##Conclusion
 
-A l’aide de standards et en bâtissant un système capable de manipuler les données dans de bonnes conditions d’interopérabilité, le Web sémantique ouvre un accès « intelligent » à l’information.
+A l’aide de standards et en bâtissant un système capable de manipuler les données dans de bonnes conditions d’interopérabilité, le Web sémantique ouvre un accès intelligent à l’information.
