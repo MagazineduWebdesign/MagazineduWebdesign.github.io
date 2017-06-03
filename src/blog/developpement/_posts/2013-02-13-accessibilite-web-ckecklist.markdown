@@ -92,9 +92,7 @@ viatitle:
 </fieldset>
 </ol>
 </form>
-<p class="total">Score : 0/40</p><p>N’oubliez pas de partager votre score dans les commentaires afin de nous montrer à quel point vous êtes un expert de l’<strong>accessibilité Web</strong>.
-Pour en savoir plus sur l’accessibilité Web, consultez le site de l’<a href="http://www.e-accessibility.info/fr/accueil/" target="_blank" title="Association e-accessibility">association e-accessibility</a>.</p>
-
+<p class="total">Score : 0/40</p>
 
 <script type="text/javascript">
 /* Score total */
