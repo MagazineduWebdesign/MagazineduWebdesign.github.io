@@ -56,7 +56,7 @@ Il faut compter un budget de 60 EUR HT par plaque de 122x244cm. Soit 180 EUR HT 
 
 Les plaques peuvent parfois glisser sur le sol. Des [chevalets](http://www.creamousse.fr/chevalet-441.html) sont parfois nécessaires pour bloquer les plaques, surtout sur les moquettes synthétiques. L'alternative à ces supports est de faire une saignée dans l'assise d'un tabouret et d'y loger la plaque. L'avantage est que l'on peut continuer à utiliser le tabouret une fois l'atelier de codesign terminé. Consultez l'excellente idée de DayLight pour [transformer un tabouret Ikea en support de travail](http://www.core77.com/posts/14768/daylights-presentation-board-ikea-hack-14768).
 
-# On en parle ?!
+## On en parle ?!
 
 Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez tout ça à guillaume@magazineduwebdesign.com 💌. Si vous n'aimez pas les e-mails, envoyez un tweet à [@MagDuWebdesign](https://twitter.com/MagDuWebdesign).
 
