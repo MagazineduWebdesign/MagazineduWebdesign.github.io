@@ -106,14 +106,14 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 ## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
 -  [Les designs de sites web de la semaine](http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/) ;
--  [ThreeJs en action](http://www.magazineduwebdesign.com/collection/threejs-en-action/) ;
--  [15 designs de site web ecommerce plus cool que Tobias van Schneider](http://www.magazineduwebdesign.com/collection/15-designs-de-site-web-ecommerce-plus-cool-que-tobias-van-schneider/) ;
--  [Les meilleurs sites Web portfolio perso et d'agence – Juin 2016](http://www.magazineduwebdesign.com/collection/les-meilleurs-sites-web-portfolio-perso-et-d-agence-juin-2016/) ;
--  [Meilleures UI Animations – juin 2016](http://www.magazineduwebdesign.com/collection/meilleures-ui-animations-juin-2016/) ;
--  [30 Portfolios de graphiste et Webdesigner – design inspiration](http://www.magazineduwebdesign.com/collection/30-portfolios-de-graphiste-et-webdesigner-design-inspiration/) ;
--  [50 exemples de landing pages – design inspiration](http://www.magazineduwebdesign.com/collection/50-exemples-de-landing-pages-design-inspiration/) ;
--  [17 expériences ecommerce élégantes – novembre 2016](http://www.magazineduwebdesign.com/collection/17-exp-riences-ecommerce-l-gantes-novembre-2016/) ;
--  [56 approches créatives de portfolios – sélection automne 2016](http://www.magazineduwebdesign.com/collection/56-approches-cr-atives-de-portfolios-s-lection-automne-2016/).
+-  [ThreeJs en action](http://www.magazineduwebdesign.com/collection/inspiration-three-js/) ;
+-  [15 designs de site web ecommerce plus cool que Tobias van Schneider](http://www.magazineduwebdesign.com/collection/site-web-ecommerce-web-design-inspiration/) ;
+-  [Les meilleurs sites Web portfolio perso et d'agence – Juin 2016](http://www.magazineduwebdesign.com/collection/meilleurs-sites-web-portfolio-web-design-inspiration-juin-2016/) ;
+-  [Meilleures UI Animations – juin 2016](http://www.magazineduwebdesign.com/collection/meilleures-ui-animations-web-juin-2016/) ;
+-  [30 Portfolios de graphiste et Webdesigner – design inspiration](http://www.magazineduwebdesign.com/collection/site-design-portfolio-graphiste-webdesigner-septembre-2016/) ;
+-  [50 exemples de landing pages – design inspiration](http://www.magazineduwebdesign.com/collection/site-design-landing-page-exemples-2016/) ;
+-  [17 expériences ecommerce élégantes – novembre 2016](http://www.magazineduwebdesign.com/collection/inspiration-ui-design-site-ecommerce-2016/) ;
+-  [56 approches créatives de portfolios – sélection automne 2016](http://www.magazineduwebdesign.com/collection/site-design-portfolio-graphiste-designer-developpeur-novembre-2016/).
 
 Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer).
 
