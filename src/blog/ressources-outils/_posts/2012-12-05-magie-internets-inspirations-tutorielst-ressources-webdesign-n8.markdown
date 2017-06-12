@@ -39,7 +39,7 @@ viatitle:
 <h2>One Div – Icones et logos en CSS3</h2>
 <p><a title="One Div - Icones et logos en CSS3" href="http://one-div.com/popular/" rel="attachment wp-att-2383" target="_blank"><img class="alignnone size-full wp-image-2383" title="One Div - Icones et logos en CSS3" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/One-Div-Icones-et-logos-en-CSS3.jpg" alt="One Div - Icones et logos en CSS3" width="555" height="250"></a></p>
 <h2>Character-Code.com</h2>
-<p><a title="Character-Code.com" href="http://character-code.com/" rel="attachment wp-att-2377" target="_blank"><img class="alignnone size-full wp-image-2377" title="Character-Code.com" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Character-Code-com.jpg" alt="Character-Code.com" width="555" height="351"></a></p>
+<p><a title="Character-Code.com" href="https://websitebuilders.com/tools/html-codes/a-z/" rel="attachment wp-att-2377" target="_blank"><img class="alignnone size-full wp-image-2377" title="Character-Code.com" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Character-Code-com.jpg" alt="Character-Code.com" width="555" height="351"></a></p>
 <h2>Pappu Pakia</h2>
 <p><a title="Pappu Pakia" href="http://khele.in/pappu-pakia/" rel="attachment wp-att-2384" target="_blank"><img class="alignnone size-full wp-image-2384" title="Pappu Pakia" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/Pappu-Pakia.jpg" alt="Pappu Pakia" width="555" height="275"></a></p>
 <h2>LA liste de ressources Twitter Bootstrap</h2>
