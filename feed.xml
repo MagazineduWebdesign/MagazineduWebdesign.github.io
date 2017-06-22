@@ -561,6 +561,32 @@
 		
 		
 			<item>
+				<title>Installer WordPress en local avec XAMPP sur Windows</title>
+				
+				
+					<description>Un tutoriel présentant étape par étape l&amp;#39;installation de WordPress en local sur Windows. J&amp;#39;utilise le logiciel gratuit XAMPP pour obtenir un site WordPress en local. Si vous suivez chaque instruction, votre install WordPress sera un succès. Réservez-vous environ 20 minutes pour réaliser chaque étape. J&amp;#39;ai également préparé un tutoriel pour installer WordPress en local avec WampServer.
+</description>
+				
+				<pubDate>Thu, 22 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-xampp/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-xampp/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Installer WordPress en local avec Wamp sur Windows</title>
+				
+				
+					<description>Un tutoriel présentant toutes les étapes nécessaires pour installer WordPress en local (Windows 10). J&amp;#39;utilise le logiciel WampServer pour l&amp;#39;installation. Si vous suivez chaque instruction, votre installation locale de WordPress sera un succès. Réservez-vous environ 20 minutes pour obtenir votre site WordPress en local. J&amp;#39;ai également préparé un tutoriel pour installer WordPress en local sur Windows avec XAMPP. Une alternative plus ouverte que WampServer car elle est compatible avec Linux, Windows, MacOS X et les clés USB.
+</description>
+				
+				<pubDate>Thu, 22 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-wampserver/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-wampserver/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
 				<title>UX wall - Créer un espace d'affichage collaboratif lorsqu'on a pas de murs</title>
 				
 				
@@ -844,32 +870,6 @@
 				<link>http://www.magazineduwebdesign.com/ressources/outils-services/nom-de-domaine-votre-propre-adresse-design-sur-internet/</link>
 				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/nom-de-domaine-votre-propre-adresse-design-sur-internet/</guid>
 				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/nom-de-domaine-point-design.png" type="image/*" />
-			</item>
-		
-			<item>
-				<title>21 utilisations créatives de la vidéo en Web design</title>
-				
-				
-					<description>Sélection d&amp;#39;exemples récents de sites Internet utilisant la vidéo comme principale source de contenus – saupoudrés de quelques astuces.
-</description>
-				
-				<pubDate>Wed, 22 Feb 2017 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/exemple-video-web-design/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/exemple-video-web-design/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
-			</item>
-		
-			<item>
-				<title>Vidéo 360/VR – Exploration des nouvelles réalités à travers la narration immersive</title>
-				
-				
-					<description>Explorez une sélection d&amp;#39;expériences Web où la vidéo 360 degrés et les films en réalité virtuelle proposent une nouvelle approche du storytelling.
-</description>
-				
-				<pubDate>Tue, 21 Feb 2017 00:23:57 +0100</pubDate>
-				<link>http://www.magazineduwebdesign.com/conseils/guides/video-360-vr-storytelling/</link>
-				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/video-360-vr-storytelling/</guid>
-				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
 			</item>
 		
 		
