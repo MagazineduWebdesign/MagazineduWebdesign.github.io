@@ -10,7 +10,7 @@ tags: "guides-ux-design"
 sponsored: "true"
 by: "MDW + Pidoco"
 by-url: "https://pidoco.com/en?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
-intro: "Durant mes 4 premières années en agence Web, j'ai pratiqué ce que l’on appelle l’attentisme. J’attendais que l’on me serve sur un plateau les informations dont j’avais besoin pour prototyper ou wireframer un projet Web. J’étais souvent du genre : _il est où le brief ?_ A part cette question, j’en posais rarement d’autres. Grave erreur d’autant plus importante lorsque ma signature d'email comporte le terme designer."
+intro: "Durant mes 4 premières années en agence Web, j'ai pratiqué ce que l’on appelle l’attentisme. J’attendais que l’on me serve sur un plateau les informations dont j’avais besoin pour prototyper ou wireframer un projet Web. J’étais souvent du genre : *il est où le brief ?* A part cette question, j’en posais rarement d’autres. Grave erreur d’autant plus importante lorsque ma signature d'email comporte le terme designer."
 description: "Designer, UX designer, ne faîtes pas comme moi, n'attendez pas 4 ans avant de poser les bonnes questions pour prototyper un site Web ou une application mobile."
 carte-optin-downoload-pdf: "false"
 ---
@@ -32,9 +32,9 @@ A mon sens, **l'expertise d'un designer passe avant tout par la qualité de ses 
 
 ## 1. Prototyper en étant optimiste et pessimiste
 
-Je débute toujours un nouveau projet par 2 questions. La première question que je pose au commanditaire prend généralement cette forme : _Imaginez un futur optimiste, comment définiriez-vous votre succès dans 6 mois ? Pourquoi ?_ Cela me permet d'identifier ses attentes et de bien cerner ses indicateurs de succès.
+Je débute toujours un nouveau projet par 2 questions. La première question que je pose au commanditaire prend généralement cette forme : *Imaginez un futur optimiste, comment définiriez-vous votre succès dans 6 mois ? Pourquoi ?* Cela me permet d'identifier ses attentes et de bien cerner ses indicateurs de succès.
 
-La deuxième question prend cette forme : _Imaginez le pire scénario. Quels seraient les obstacles les plus probables sur la route de votre succès ? Pourquoi ?_ La discussion qui s’en suit permet d’identifier les zones d’ombres, les problématiques aux contours flous, les doutes, et les sources potentielles d’échecs.
+La deuxième question prend cette forme : *Imaginez le pire scénario. Quels seraient les obstacles les plus probables sur la route de votre succès ? Pourquoi ?* La discussion qui s’en suit permet d’identifier les zones d’ombres, les problématiques aux contours flous, les doutes, et les sources potentielles d’échecs.
 
 Avec ces informations, le périmètre du projet est désormais plus clair. Ses challenges et ses risques sont identifiés de manière plus précise.
 
@@ -84,9 +84,9 @@ Vous avez maintenant une connaissance plus approfondie des utilisateurs cibles e
 
 Je réussis mieux mes prototypes lorsque le périmètre du projet est centré sur un seul parcours utilisateur. Par exemple : un parcours de recherche plus fluide, un système de réservation plus performant, etc. La priorisation permet de concentrer son énergie sur un problème à la fois.
 
-Mon conseil si on vous demande de concevoir un [site ecommerce](http://www.magazineduwebdesign.com/collection/17-exp-riences-ecommerce-l-gantes-novembre-2016/) complet au sein d'un unique prototype : dites _non_. Privilégiez la création d'un prototype par parcours utilisateur. Le fait de découper le projet en segments plus petits permet de concentrer les discussions sur le sujet essentiel du moment.
+Mon conseil si on vous demande de concevoir un [site ecommerce](http://www.magazineduwebdesign.com/collection/17-exp-riences-ecommerce-l-gantes-novembre-2016/) complet au sein d'un unique prototype : dites *non*. Privilégiez la création d'un prototype par parcours utilisateur. Le fait de découper le projet en segments plus petits permet de concentrer les discussions sur le sujet essentiel du moment.
 
-Sérieusement ! Ne pas savoir dire _non_ est le fléau du XXIème siècle. La mission du designer ne consiste pas à faire plus en moins de temps. Il s'agit d'obtenir seulement le meilleur de chaque opportunité. Ce n'est pas une stratégie de gestion du temps, ni une technique de productivité qui sauvera votre emploi du temps. Dites simplement _non_ et concentrez-vous sur l'essentiel.
+Sérieusement ! Ne pas savoir dire *non* est le fléau du XXIème siècle. La mission du designer ne consiste pas à faire plus en moins de temps. Il s'agit d'obtenir seulement le meilleur de chaque opportunité. Ce n'est pas une stratégie de gestion du temps, ni une technique de productivité qui sauvera votre emploi du temps. Dites simplement *non* et concentrez-vous sur l'essentiel.
 
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Practice saying no. “Productivity tips, tricks, and hacks” are all about managing what happens when you say yes to too many things…</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/809054503521648640">14 décembre 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
