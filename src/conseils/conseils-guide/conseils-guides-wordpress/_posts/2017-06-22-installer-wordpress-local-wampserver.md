@@ -10,7 +10,7 @@ tags: "guides-wordpress"
 sponsored: "false"
 by: "Guillaume Palayer"
 by-url: "https://twitter.com/guillaumpalayer"
-intro: "Un tutoriel présentant toutes les étapes nécessaires pour installer WordPress en local (Windows 10). J'utilise le logiciel WampServer pour l'installation. Si vous suivez chaque instruction, votre installation locale de WordPress sera un succès. Réservez-vous environ 20 minutes pour obtenir votre site WordPress en local. J'ai également préparé un tutoriel pour installer WordPress sur Windows avec XAMPP. Une alternative plus ouverte que WampServer car elle est compatible avec Linux, Windows, MacOS X et les clés USB."
+intro: "Un tutoriel présentant toutes les étapes nécessaires pour installer WordPress en local (Windows 10). J'utilise le logiciel WampServer pour l'installation. Si vous suivez chaque instruction, votre installation locale de WordPress sera un succès. Réservez-vous environ 20 minutes pour obtenir votre site WordPress en local. J'ai également préparé un tutoriel pour [installer WordPress en local sur Windows avec XAMPP](http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-xampp/). Une alternative plus ouverte que WampServer car elle est compatible avec Linux, Windows, MacOS X et les clés USB."
 image-no-cover-book: "installer-wordpress-local-wamp.jpg"
 description: "Tuto pour installer WordPress en local sur un PC avec le logiciel gratuit WampServer. Laissez-vous guider étape par étape pour lancer votre site WordPress sur votre serveur local Windows."
 ---
