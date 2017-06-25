@@ -37,7 +37,8 @@ Wampla ! Wamp est désormais installé :-D.
 - Ouvrez le dossier WordPress décompressé ;
 - Sélectionnez tous les éléments du dossier et copiez-les ;
 - Ouvrez le dossier `\wamp64\www` situé à la racine de votre disque principal ;
-- Collez tous les éléments dans le dossier `\wamp64\www`. Une pop up s'affichera vous demandant si vous souhaitez remplacer le fichier index.php, cliquez sur *Remplacer* ;
+- Créez un sous-dossier ayant le nom de votre projet. Cela permettra de faire cohabiter facilement plusieurs projets ou installations WordPress ;
+- Collez tous les éléments dans le dossier `\wamp64\www\monProjet`. Une pop up s'affichera vous demandant si vous souhaitez remplacer le fichier index.php, cliquez sur *Remplacer* ;
 - Recherchez sur votre PC l'emplacement de l'application WampServer et exécutez-la (avec douceur). Vous pouvez également la trouver via le menu Démarrer/Programmes/WampServer64 ;
 - Attendez que l'icône Wamp soit verte dans votre barre des tâches ;
 
