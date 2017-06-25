@@ -4,7 +4,7 @@ layout: default
 {% include custom/sections/article_header.html %}
 <article itemscope itemtype="http://schema.org/Product">
   <div class="header-liste mod-no-bg-gradient">
-    
+
     <header class="row-body-article medium-uncollapse large-collapse">
       {% if page.logo %}
         <div class="small-12 large-1 columns small-text-center">
@@ -68,10 +68,8 @@ layout: default
           {% endif %}
           <!-- if ressource have a nice cover -->
           {% if page.image-sub-post-intro %}
-          <figure class="gallery figure-img mod-inspiration-article-gallery mod-app-screenshot">
-            <a href="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}">
-              <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
-            </a>
+          <figure class="figure-img mod-inspiration-article-gallery mod-app-screenshot">
+            <img src="{{ page.image-sub-post-intro | prepend:'https://s3-eu-west-1.amazonaws.com/mdw-images/large/' }}" alt="Capture - {{ page.title }}" width="640" height="auto">
           </figure>
           {% endif %}
         </div>
