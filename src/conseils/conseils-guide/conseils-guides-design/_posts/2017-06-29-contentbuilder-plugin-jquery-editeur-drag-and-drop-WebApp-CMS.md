@@ -13,7 +13,7 @@ by-url: "http://innovastudio.com/content-builder.aspx"
 intro: "[ContentBuilder](http://innovastudio.com/content-builder.aspx) est un puissant générateur de mise en page via [drag and drop](http://www.magazineduwebdesign.com/drag-and-drop-astuces-experience-utilisateur/). Il est une solution idéale pour [prototyper](http://www.magazineduwebdesign.com/conseils/guides/designer-posez-les-bonnes-questions-pour-prototyper-site-web/) en direct une [landing page](http://www.magazineduwebdesign.com/collection/site-design-landing-page-exemples-2016/) avec votre client ou affiner le contenu d'un site existant. ContentBuilder est disponible en version [plugin jQuery](http://innovastudio.com/content-builder/buy.aspx) ou [plugin WordPress](http://innovastudio.com/content-builder-for-wordpress.aspx). Un moyen rapide pour impressionner votre audience avec des mises en page élégantes et un [storytelling](http://www.magazineduwebdesign.com/conseils/guides/video-360-vr-storytelling/) au top."
 description: "Plugin jQuery et WordPress pour éditer vos contenus et leur mises en page avec l'aide d'un générateur de sections HTML/CSS/JS."
 carte-optin-downoload-pdf: "false"
-image-no-cover-book: "content-builder-image-illustration.jpg"
+image-no-cover-book: "content-builder-image-featured.jpg"
 ---
 
 ## Un puissant générateur de landing pages
