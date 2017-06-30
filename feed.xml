@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Magazine du Webdesign</title>
+		<description>✨ Juste le meilleur des interfaces, chaque jour. Si vous aimez la vitesse, connectez vous à @MagDuWebdesign sur Twitter, Facebook et LinkedIn.</description>
+		<link>http://www.magazineduwebdesign.com</link>
+		<atom:link href="http://www.magazineduwebdesign.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Bellagicons | UI Animation</title>
+				
+					<description>Animation yummy lors du scroll avec des micro-interactions sur la sidebar d&amp;#39;aide à la navigation.
+</description>
+				
+				<pubDate>Wed, 29 Jun 2016 18:33:56 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bellagicons.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/bellagicons.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-bellag-icons.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Supera blog | UI Animation</title>
+				
+					<description>Animation présentant des micro-interactions lors du scroll et une transition de navigation vers la page article d&amp;#39;un blog de site ecommerce.
+</description>
+				
+				<pubDate>Mon, 27 Jun 2016 14:03:47 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/supera-blog.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/supera-blog.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-supera-blog.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Day009-Recipe App | UI Animation</title>
+				
+					<description>Interaction de scroll au sein d&amp;#39;une application de recettes de cuisine et mise en scène de la transition d&amp;#39;écran entre la liste de recettes et le détail d&amp;#39;une fiche recette.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:01 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/day009-recipe-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/day009-recipe-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-day009-recipe-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Material calendar | UI Animation</title>
+				
+					<description>Animation d&amp;#39;une interface d&amp;#39;application Material Design avec un fragment de micro-interaction entre une vue calendrier et le détail d&amp;#39;une date.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:01 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/material-calendar.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/material-calendar.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-material-calendar.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Curated playlists | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène le scroll au sein d&amp;#39;un listing de playlists et la transition de navigation suite à l&amp;#39;action de play.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:47:12 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/curated-playlists.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/curated-playlists.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-curated-playlists.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>UI Day 035 Blog Post | UI Animation</title>
+				
+					<description>Un grand classique de l&amp;#39;UI animation : la transition entre une vue liste et le détail d&amp;#39;un article de blog. La transition et le loading de l&amp;#39;image adopte un mouvement naturel.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:55 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ui-day-035-blog-post.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/ui-day-035-blog-post.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-ui-day-035-blog-post.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ticket Concept | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène une ouverture de panel au sein d&amp;#39;un concept d&amp;#39;application de gestion de tickets.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:53 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/ticket-concept.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/ticket-concept.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-ticket-concept.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Notification icône | UI Animation</title>
+				
+					<description>Micro-interaction sur une icône de notification. Cette interaction avec le marqueur rouge et l&amp;#39;icône cloche est bien trouvée.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:51 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/notification-icne.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/notification-icne.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-notification.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Animated flow MR. Meow app | UI Animation</title>
+				
+					<description>Ensemble de transitions d&amp;#39;écran et de micro-interactions pour une application mobile. L&amp;#39;animation d&amp;#39;illustrations apporte une grande valeur ajoutée pour mettre en exergue l&amp;#39;univers et l&amp;#39;identité de l&amp;#39;application.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/animated-flow-mr.-meow-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/animated-flow-mr.-meow-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-animated-flow-mr--meow-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Apple Music for Mac | UI Animation</title>
+				
+					<description>Une suite de micro-interactions sur un concept de player Apple Music avec une mise en avant de la transition audio / vidéo du son en écoute.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:14 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/apple-music-for-mac.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/apple-music-for-mac.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-apple-music-for-mac.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Bouton Download-Open | UI Animation</title>
+				
+					<description>Le bouton d&amp;#39;action 3-en-1 : la mise en scène en un unique composant de l&amp;#39;appel à l&amp;#39;action (download), du feedback (progress bar) et de la promesse (open file).
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:11 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/bouton-download-open.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/bouton-download-open.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-bouton-download-open.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Calories Calculator | UI Animation</title>
+				
+					<description>Configurateur pour un ecommerce de compléments alimentaires permettant de spécifier ses besoins. La configuration en dual screen et la transition vers la page de résultat sont intéressantes.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:33:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/calories-calculator.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/calories-calculator.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-calories-calculator.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept Web Radio | UI Animation</title>
+				
+					<description>Enchaînement de micro-interactions sur un concept de player pour une Web radio.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:46:05 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-web-radio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-web-radio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-web-radio.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>ToFind - Concept Controller | UI Animation</title>
+				
+					<description>Mise en scène de l&amp;#39;exploration d&amp;#39;une liste via un scroll horizontal et transition d&amp;#39;écran pour accéder au contenu d&amp;#39;un item de la liste.
+</description>
+				
+				<pubDate>Sat, 18 Jun 2016 21:45:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tofind---concept-controller.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/tofind---concept-controller.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-tofind---concept-controller.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Mr. Meow site web application | UI Animation</title>
+				
+					<description>Animation du scroll pour le site Web de l&amp;#39;application Mr. Meow. Les jeux d&amp;#39;encadrés permettent de belles transitions entre les sections de page.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:28:15 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mr.-meow-site-web-application.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/mr.-meow-site-web-application.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-mr--meow-site-web-application.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Interaction menu contrôleur liste | UI Animation</title>
+				
+					<description>Micro-interaction mettant en scène l&amp;#39;accès à un panel d&amp;#39;outils pour éditer une liste d&amp;#39;items.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:46 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/interaction-menu-contrleur-liste.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-menu-contrleur-liste.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-menu-contrôleur-liste.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept appli événements | UI Animation</title>
+				
+					<description>Mise en scène d&amp;#39;une exploration d&amp;#39;événements via une carte et une liste à scroll horizontal. Animation du parcours d&amp;#39;exploration d&amp;#39;une fiche événement.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:28:13 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-appli-vnements.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-appli-vnements.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-appli--v-nements.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Interaction mode édition | UI Animation</title>
+				
+					<description>Micro-interaction autour d&amp;#39;un composant d&amp;#39;édition.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/interaction-mode-dition.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/interaction-mode-dition.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-interaction-mode--dition.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Finance App | UI Animation</title>
+				
+					<description>Micro-interactions mettant en scène la catégorisation d&amp;#39;items de liste au sein d&amp;#39;une application de gestion financière.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:32 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/finance-app.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/finance-app.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-finance-app.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Nouveau projet | UI Animation</title>
+				
+					<description>Fragment d&amp;#39;interaction accompagnant un parcours d&amp;#39;ajout de projet. La simplicité d&amp;#39;ouverture du formulaire fait tout le charme de cette animation.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:27:35 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/nouveau-projet.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/nouveau-projet.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-nouveau-projet.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept landing page Casa Mia | UI Animation</title>
+				
+					<description>Concept de site Web pour un restaurant italien. L&amp;#39;écran de l&amp;#39;application iOS est synchronisé avec le scroll de l&amp;#39;utilisateur. Il est également possible d&amp;#39;interagir directement avec l&amp;#39;interface de l&amp;#39;appli.
+</description>
+				
+				<pubDate>Sun, 19 Jun 2016 13:55:39 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-landing-page-casa-mia.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-landing-page-casa-mia.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-landing-page-casa-mia.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Concept Tesla control center | UI Animation</title>
+				
+					<description>Mise en scène d&amp;#39;interactions permettant le contrôle à distance de la Tesla model S #transition.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:14:59 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/concept-tesla-control-center.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/concept-tesla-control-center.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-concept-tesla-control-center.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Livraison | UI Animation</title>
+				
+					<description>UI animation servant à actualiser une timeline de livraison.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:14:50 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/livraison.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/livraison.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-livraison.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Facebook Messenger Bots &amp; système de paiement | UI Animation</title>
+				
+					<description>UI animation offrant une vue détaillée d&amp;#39;une conversation avec un bot au sein d&amp;#39;un écran de dialogue Messenger. En insérant le symbole &amp;ldquo;=&amp;rdquo;, l&amp;#39;application suggère des lignes de commandes (réserver un avion, un taxi, un tacos, etc.) et entame une conversation avec l&amp;#39;utilisateur afin d&amp;#39;obtenir le détail de ses désirs. Cette démo met en scène une réflexion poussée autour du système de paiement #conversational #design.
+</description>
+				
+				<pubDate>Fri, 10 Jun 2016 08:15:00 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/facebook-messenger-bots--systme-de-paiement.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/animations/facebook-messenger-bots--systme-de-paiement.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ui-animation-inspiration-facebook-messenger-bots---syst-me-de-paiement.gif" type="image/*" />
+			</item>
+		
+		
+			<item>
+				<title>Stripe Atlas | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Thu, 06 Apr 2017 20:24:40 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/stripe-atlas.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/stripe-atlas.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-stripe-atlas.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Status - OS Mobile Ethereum | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 21 Apr 2017 13:01:50 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/status---os-mobile-ethereum.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/status---os-mobile-ethereum.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-status---os-mobile-ethereum.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Intorno | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Wed, 26 Apr 2017 22:04:33 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/intorno.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/intorno.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-intorno.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Yala | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 05 May 2017 09:50:47 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/yala.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/yala.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-yala.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Mollie | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Sat, 06 May 2017 16:07:30 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mollie.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mollie.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-mollie.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Mausoleum of Augustus | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Mon, 08 May 2017 10:43:21 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mausoleum-of-augustus.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/mausoleum-of-augustus.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-mausoleum-of-augustus.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>DroneDeploy | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Mon, 08 May 2017 12:33:06 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dronedeploy.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/dronedeploy.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-dronedeploy.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>What city is the microbrew capital of the US? | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Mon, 08 May 2017 16:08:25 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/what-city-is-the-microbrew-capital-of-the-us.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/what-city-is-the-microbrew-capital-of-the-us.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-what-city-is-the-microbrew-capital-of-the-us-.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>The Unlikely Odds of Making it Big | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Mon, 08 May 2017 16:08:50 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-unlikely-odds-of-making-it-big.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-unlikely-odds-of-making-it-big.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-the-unlikely-odds-of-making-it-big.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Studio Michael Satter | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:15:19 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/studio-michael-satter.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/studio-michael-satter.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-studio-michael-satter.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>7h34 - Design graphique &amp; digital | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:16:13 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/7h34---design-graphique--digital.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/7h34---design-graphique--digital.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-7h34---design-graphique---digital.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Knauf and Brown &amp; Tom Chung Studio | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:28:09 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/knauf-and-brown--tom-chung-studio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/knauf-and-brown--tom-chung-studio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-knauf-and-brown---tom-chung-studio.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Reaction Commerce | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:32:36 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/reaction-commerce.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/reaction-commerce.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-reaction-commerce.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>The Young Pope - AiMEN | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:26:19 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-young-pope---aimen.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-young-pope---aimen.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-the-young-pope---aimen.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Earth 2050 | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:21:56 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/earth-2050.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/earth-2050.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-earth-2050.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Cascading Disruption | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:45:03 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cascading-disruption.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/cascading-disruption.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-cascading-disruption.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Kelsey Legault | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:43:33 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kelsey-legault.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/kelsey-legault.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-kelsey-legault.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Behind the Scenes of Endless Night music video by Jazir × Majør. | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:43:06 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/behind-the-scenes-of-endless-night-music-video-by-jazir--majr..html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/behind-the-scenes-of-endless-night-music-video-by-jazir--majr..html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-behind-the-scenes-of-endless-night-music-video-by-jazir---maj-r-.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Here’s What You Missed From President Trump Today | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:40:54 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/heres-what-you-missed-from-president-trump-today.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/heres-what-you-missed-from-president-trump-today.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-here-s-what-you-missed-from-president-trump-today.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>B4XVI | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:40:19 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/b4xvi.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/b4xvi.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-b4xvi.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Secrets et vertus des plantes | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:38:22 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/secrets-et-vertus-des-plantes.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/secrets-et-vertus-des-plantes.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-secrets-et-vertus-des-plantes.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Rule of Three Copywriting Studio | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:47:48 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rule-of-three-copywriting-studio.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/rule-of-three-copywriting-studio.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-rule-of-three-copywriting-studio.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Tsto | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:59:40 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tsto.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/tsto.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-tsto.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>The Best of Everything in Britain | Web Design Inspiration</title>
+				
+					<description></description>
+				
+				<pubDate>Fri, 17 Mar 2017 12:56:24 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-best-of-everything-in-britain.html</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/inspirations/ui-design/sites-web/the-best-of-everything-in-britain.html</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/web-design-inspiration-the-best-of-everything-in-britain.jpg" type="image/*" />
+			</item>
+		
+		
+			<item>
+				<title>ContentBuilder.js – offrez à votre WebApp/CMS le Drag &amp; Drop pour éditer vos pages</title>
+				
+				
+					<description>ContentBuilder est un puissant générateur de mise en page via drag and drop. Il est une solution idéale pour prototyper en direct une landing page avec votre client ou affiner le contenu d&amp;#39;un site existant. ContentBuilder est disponible en version plugin jQuery ou plugin WordPress. Un moyen rapide pour impressionner votre audience avec des mises en page élégantes et un storytelling au top.
+</description>
+				
+				<pubDate>Thu, 29 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/contentbuilder-plugin-jquery-editeur-drag-and-drop-WebApp-CMS/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/contentbuilder-plugin-jquery-editeur-drag-and-drop-WebApp-CMS/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>PrintCarrier.com - Luttez contre l'ennuyante carte de visite avec le bois, l'acier &amp; le vinyle</title>
+				
+				
+					<description>Connaissez-vous cette situation ? Vous discutez avec d&amp;#39;autres personnes hors de votre secteur d&amp;#39;activité, vous échangez des cartes de visite, vous les regardez brièvement, puis elles disparaissent dans une poche arrière ou une saccoche et vous ne les revoyez plus jamais. Je suis sûr que nous connaissons tous cette histoire&amp;hellip; Et vous savez quoi ? Il n&amp;#39;y a pas d&amp;#39;obligation qu&amp;#39;il en soit ainsi ! Si vous arrivez jusqu&amp;#39;à la fin de cet article, vos cartes de visite ne seront plus condamnées aux oubliettes.
+</description>
+				
+				<pubDate>Sun, 25 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/printcarrier-impression-carte-visite-bois-metal-vinyle-acrylique-papier/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/printcarrier-impression-carte-visite-bois-metal-vinyle-acrylique-papier/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/printcarrier-carte-de-visite-metal.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Installer WordPress en local avec XAMPP sur Windows</title>
+				
+				
+					<description>Un tutoriel présentant étape par étape l&amp;#39;installation de WordPress en local sur Windows. J&amp;#39;utilise le logiciel gratuit XAMPP pour obtenir un site WordPress en local. Si vous suivez chaque instruction, votre install WordPress sera un succès. Réservez-vous environ 20 minutes pour réaliser chaque étape. J&amp;#39;ai également préparé un tutoriel pour installer WordPress en local avec WampServer.
+</description>
+				
+				<pubDate>Thu, 22 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-xampp/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-xampp/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Installer WordPress en local avec Wamp sur Windows</title>
+				
+				
+					<description>Un tutoriel présentant toutes les étapes nécessaires pour installer WordPress en local (Windows 10). J&amp;#39;utilise le logiciel WampServer pour l&amp;#39;installation. Si vous suivez chaque instruction, votre installation locale de WordPress sera un succès. Réservez-vous environ 20 minutes pour obtenir votre site WordPress en local. J&amp;#39;ai également préparé un tutoriel pour installer WordPress en local sur Windows avec XAMPP. Une alternative plus ouverte que WampServer car elle est compatible avec Linux, Windows, MacOS X et les clés USB.
+</description>
+				
+				<pubDate>Thu, 22 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-wampserver/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/installer-wordpress-local-wampserver/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>UX wall - Créer un espace d'affichage collaboratif lorsqu'on a pas de murs</title>
+				
+				
+					<description>Le travail entre plusieurs personnes implique d&amp;#39;avoir à sa disposition des espaces d&amp;#39;expression. Ils permettent de fluidifier les conversations en affichant les documents de travail sur des espaces verticaux accessiblent à tous. Les murs sont donc d&amp;#39;excellents outils de collaboration. Et ils le sont encore plus lors d&amp;#39;un atelier de codesign.  Le problème est que l&amp;#39;on ne choisit pas toujours son espace de travail. Les salles spécifiquement dédiées au travail en groupe sont souvent réservées longtemps à l&amp;#39;avance. Il faut donc s&amp;#39;adapter en cherchant des solutions pour optimiser des espaces parfois étroits et qui n&amp;#39;offrent pas forcément des murs disponibles pour collaborer.  Je souhaite partager avec vous une solution pour s&amp;#39;affranchir des contraintes d&amp;#39;un lieu de travail. Elle permet d&amp;#39;avoir toujours à sa disposition des espaces verticaux pour collaborer. Elle est directement inspirée par cette brillante idée de DayLight (cf. photo).
+</description>
+				
+				<pubDate>Fri, 02 Jun 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/ux-wall-creer-un-espace-d-affichage-collaboratif-lorsqu-on-a-pas-de-murs/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/ux-wall-creer-un-espace-d-affichage-collaboratif-lorsqu-on-a-pas-de-murs/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Affinity Designer - performance, expérience utilisateur et tarif</title>
+				
+				
+					<description>Affinity Designer est une sérieuse alternative à Sketch et Figma pour la création d&amp;#39;icônes et la conception d&amp;#39;interfaces. Le tout est compatible Mac, iOS et Windows. En plus, il est possible de tester gratuitement cet éditeur graphique vectoriel pendant 10 jours.
+</description>
+				
+				<pubDate>Mon, 29 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/test-affinity-designer-mac-windows-logiciel-edition-graphique/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/test-affinity-designer-mac-windows-logiciel-edition-graphique/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/affinity-designer-illustration-Skyline.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ce qu'il faut pour remodeler l'UX d'une industrie de 30 milliards d'euros</title>
+				
+				
+					<description>Badoo veut transformer la manière de rapprocher les gens entre eux. Le but étant de remodeler une expérience bien trop souvent ennuyante et spammy en quelque chose que vous apprécierez. Les clés ? Un redesign multiplateforme exceptionnel employant un composant de design prometteur et une personnalisation de l&amp;#39;expérience en temps réel.
+</description>
+				
+				<pubDate>Wed, 17 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/Ce-qu-il-faut-pour-remodeler-l-UX-d-une-industrie-de-30-milliards-d-euros/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/Ce-qu-il-faut-pour-remodeler-l-UX-d-une-industrie-de-30-milliards-d-euros/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>L'erreur critique qui endommage la plupart de vos templates email</title>
+				
+				
+					<description>J&amp;#39;ai écris cet article le 1er mai. Cette journée de repos m&amp;#39;a permis de faire le tri dans mes emails. La plupart sont des newsletters ou des notifications de réseaux sociaux. J&amp;#39;ai parcouru un à un ces emails afin de décider si je souhaitais encore leur accorder un espace dans ma boîte de réception. Le cerveau humain excelle dans la reconnaissance de répétitions, de modèles, de tendances. En parcourant ces emails, je me suis aperçu que certains critères favorisaient ma désinscription ou mon désintérêt.  J&amp;#39;ai même trouvé une erreur catégorie grosse bourde. Elle est signé Adidas et avait comme sujet la participation au marathon de Boston 2017, voir l&amp;#39;image ci-dessous. Je vous laisse imaginer la réaction des participants. Je n&amp;#39;ai pas trouvé d&amp;#39;autre erreur de niveau olympique. Néanmoins, j&amp;#39;en ai reperé quelques unes à ne pas reproduire dans votre template email.
+</description>
+				
+				<pubDate>Fri, 12 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/l-erreur-critique-qui-endommage-la-plupart-de-vos-templates-email/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/l-erreur-critique-qui-endommage-la-plupart-de-vos-templates-email/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>28 faits que vous ignorez à propos de WordPress [INFOGRAPHIE]</title>
+				
+				
+					<description>Célèbre outil Open source, lancé sur le modèle économique du Freemium, WordPress facilite la création, l’édition, l’organisation et la publication de contenus sur la toile. Il fait partie des systèmes de gestion de contenus, traduction littérale de Content Management System (CMS).  Retrouvez dans l’infographie suivante toutes les informations les plus surprenantes sur cet outil méconnu du grand public, qui pourtant l’utilise sans le savoir.
+</description>
+				
+				<pubDate>Mon, 08 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/les-secrets-de-wordpress/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/les-secrets-de-wordpress/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>WPChef - la formation WordPress pour débutant en français</title>
+				
+				
+					<description>Une formation WordPress en français de 6 semaines accessible en e-learning. Elle a été conçue par les copains de WPChef. Ces 25 heures de cours en vidéo ciblent en priorité les débutant(e)s souhaitant créer un site vitrine, un blog WordPress ou proposer des prestations à des clients.  Les cours sont découpés en modules. Vous aurez donc accès à un programme progressif pour apprendre pas à pas. Les mots clés de WPChef sont accessibilité, pédagogie, pratique et bon marché.
+</description>
+				
+				<pubDate>Mon, 08 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/wpchef-formation-wordpress-debutant-en-francais-tuto-video/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/wpchef-formation-wordpress-debutant-en-francais-tuto-video/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>GoodBarber - créer une application mobile en ligne</title>
+				
+				
+					<description>GoodBarber est un puissant éditeur d&amp;#39;application en ligne qui permet de créer des progressive Web Apps (PWA) et des applications natives. GoodBarber combine l&amp;#39;hébergement avec des microservices préconfigurés pour obtenir une application rapide, élégante et fluide. Uploadez vos contenus sur GoodBarber et économisez du temps avec les modules d&amp;#39;authentification utilisateur, le geofencing, les pushs automatisés, la gestion des contenus marketing (couponing, live vidéo, etc.) et plus encore.  La promesse de GoodBarber est de vous accompagner étape par étape pour créer une application sans connaissances en développement. Bien entendu, les utilisateurs plus ambitieux ont un accès à des options avancées via l&amp;#39;utilisation de plugins, l&amp;#39;injection de code HTML et l&amp;#39;interface JSON.
+</description>
+				
+				<pubDate>Tue, 02 May 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/goodbarber-test-app-builder-en-ligne/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/goodbarber-test-app-builder-en-ligne/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/goodbarber-app-builder-templates-de-navigation.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Mockuuups Studio</title>
+				
+				
+					<description>Mockuuups Studio est une application gratuite pour MacOS et Windows qui vous permet de créer de belles mises en scène pour vos maquettes. Peu importe si vous êtes designer ou non, l&amp;#39;App a été créée pour faciliter au maximum la création d&amp;#39;un mock-up. J&amp;#39;ai négocié pour vous 30% de réduction sur l&amp;#39;achat de la licence annuelle. Vous aurez accès à des centaines de mock-ups premiums sur smartphones et tablettes iOS/Android (Samsung et iPhone) et sur desktop (Dell et MacBook).   Je vous invite également à lire mon tutoriel comment créer un mock-up sans PhotoShop où je détaille mon test de l&amp;#39;application Mockuuups Studio.
+</description>
+				
+				<pubDate>Thu, 27 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/mockuuups-studio-coupon-de-reduction/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/mockuuups-studio-coupon-de-reduction/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/creation-avec-mockuuups-studio.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Tuto</title>
+				
+				
+					<description>Tuto.com est une plateforme de référence lorsqu&amp;#39;on est à la recherche de tutoriels vidéo en français. Grâce au coupon de réduction MDW20, vous obtiendrez 20% de réduction sur l&amp;#39;achat de vos premiers crédits. Vous aurez accès à des milliers de vidéos pour optimiser vos compétences en design et en développpement Web. Explorez les formations CSS, HTML, PhotoShop, Illustrator, etc.
+</description>
+				
+				<pubDate>Tue, 25 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/tuto-com-coupon-de-reduction/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/tuto-com-coupon-de-reduction/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/tuto-com-coupon-reduction-alt.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Les 4 raisons de ma désintoxication aux banques d'images libres de droit</title>
+				
+				
+					<description>J&amp;#39;ai crée le Magazine du Webdesign il y a 5 ans. A l&amp;#39;époque, 2 choses m&amp;#39;angoissaient. La première était l&amp;#39;opinion des autres sur la qualité de mon contenu. La deuxième était le temps passé à chercher des visuels pour mes articles. Dans cet article, je vous explique pourquoi j&amp;#39;abandonne progressivement l&amp;#39;usage des banques d&amp;#39;images libres de droit pour passer au payant.
+</description>
+				
+				<pubDate>Sat, 15 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/les-4-raisons-de-ma-desintoxication-aux-banques-d-images-libres-de-droit/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/les-4-raisons-de-ma-desintoxication-aux-banques-d-images-libres-de-droit/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ucraft</title>
+				
+				
+					<description>Ucraft est un logiciel de création de site Web et de landing page accessible en ligne gratuitement pendant 14 jours. La promesse de cet éditeur est de faciliter la création de sites modernes dans leur aspect et respectueux des standards techniques actuels.
+</description>
+				
+				<pubDate>Thu, 13 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/ucraft-logiciel-creation-de-site-web-essai-gratuit/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/ucraft-logiciel-creation-de-site-web-essai-gratuit/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/ucraft-featured-banner.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>InkyDeals</title>
+				
+				
+					<description>J&amp;#39;ai discuté avec la team de Brainik, créateur de la plateforme InkyDeals, pour vous dégoter un coupon de réduction exclusif de 15% sur l&amp;#39;ensemble de leurs ressources en ligne. Insérez le coupon magduweb15 au moment de valider votre panier. Il est valable pour tous les articles même ceux soldés à 90%.
+</description>
+				
+				<pubDate>Thu, 13 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/inkydeals-ressources-web-design-coupon/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/inkydeals-ressources-web-design-coupon/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/summer-clip-art.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Design de template email – Mes sources secrètes d'inspiration et de ressources</title>
+				
+				
+					<description>Avant d&amp;#39;écrire cet article, j&amp;#39;ai eu un moment de doute. A quoi bon aider la communauté du Magazine du Webdesign à trouver l&amp;#39;inspiration et les ressources graphiques pour un template email ? Il y a Google pour ça et vous êtes des grandes personnes. Pas vrai ?
+</description>
+				
+				<pubDate>Thu, 13 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/template-email-exemple-inspiration-design/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/template-email-exemple-inspiration-design/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Ucraft test 2017 – Logiciel de création de site Web</title>
+				
+				
+					<description>Ucraft est un éditeur de sites Web et de landing pages basé sur une approche en blocs. C&amp;#39;est-à-dire que les pages sont construites en empilant des blocs de contenus et des fonctionnalités.
+</description>
+				
+				<pubDate>Tue, 11 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/design/ucraft-logiciel-de-creation-de-site-web-landing-page-en-ligne/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/design/ucraft-logiciel-de-creation-de-site-web-landing-page-en-ligne/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/site-builder-ucraft-featured-img.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>WP Engine</title>
+				
+				
+					<description>J&amp;#39;ai fait équipe avec WP Engine pour vous offrir la meilleure offre sur leur hébergement WordPress. Ce partenariat exclusif vous permet d&amp;#39;accéder au programme développeur dédié à la communauté du MDW. Déployez ainsi facilement des sites clients en utilisant un compte personnel WP Engine gratuit avec des sites WordPress illimités en préproduction et des installations WP transférables. N&amp;#39;oubliez pas, si vous référez un client à WP Engine lorsque par exemple vous mettez en production son site WordPress, vous gagnez $200 ou 100% du paiement du premier mois du client (en fonction du montant le plus élevé). Ce n&amp;#39;est pas tout. Utilisez le code promo wpe20off pour obtenir 20% de remise sur votre premier paiement pour un hébergement WordPress de production, peu importe le plan choisit. Obtenez un supplément de 2 mois gratuit en choisissant un plan annuel. Migrez facilement votre site WordPress vers WP Engine. Un plugin gratuit de migration automatisée est offert avec chaque compte.
+</description>
+				
+				<pubDate>Tue, 11 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/wp-engine-coupon/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/wp-engine-coupon/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/wp-engine-developer-program-banner-deal-1.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Nom de domaine .design</title>
+				
+				
+					<description>J&amp;#39;ai fait équipe avec Dot Design pour vous offrir 85% de réduction sur les noms de domaine en .design. Utilisez le coupon de réduction MAGDUWEB pour obtenir le nom de domaine de votre choix pour 4 EUR durant la première année.
+</description>
+				
+				<pubDate>Tue, 11 Apr 2017 00:23:57 +0200</pubDate>
+				<link>http://www.magazineduwebdesign.com/deals/nom-de-domaine-design-coupon/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/deals/nom-de-domaine-design-coupon/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/nom-de-domaine-point-design.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Comment éviter un nom de domaine tout naze pour son portfolio</title>
+				
+				
+					<description>Bien que de nombreux services en ligne permettent de créer facilement son portfolio , je préfère l&amp;#39;ancienne méthode. A savoir, acheter mon nom de domaine, uploader mon travail sur un serveur et ouvrir une bouteille de champagne pour fêter ça. Seul problème, le nom de domaine de mon portfolio était tout naze.
+</description>
+				
+				<pubDate>Tue, 14 Mar 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/comment-choisir-le-nom-de-domaine-de-son-portfolio/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/comment-choisir-le-nom-de-domaine-de-son-portfolio/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Je ne savais pas qu'un email pouvait faire ça ! (Partie II)</title>
+				
+				
+					<description>Il s&amp;#39;agit de la deuxième partie d&amp;#39;une série d&amp;#39;articles. Vous devriez d&amp;#39;abord lire la première partie. Cette série a pour objectif d&amp;#39;apporter des solutions simples et élégantes pour designer des templates email avec toutes les contraintes que l&amp;#39;on connait au secteur. J&amp;#39;ai sélectionné des approches qui permettent d&amp;#39;innover sans nécessiter de lourds investissements en développement.
+</description>
+				
+				<pubDate>Mon, 06 Mar 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-2/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Lottie par Airbnb – UI animation</title>
+				
+				
+					<description>Ajoutez facilement une animation de haute qualité à n&amp;#39;importe quelle application native
+</description>
+				
+				<pubDate>Sat, 04 Mar 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/ressources/outils-services/lottie-librairie-ui-animation-pour-application-native/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/ressources/outils-services/lottie-librairie-ui-animation-pour-application-native/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/lottie-ui-animation-native-app-3.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Je ne savais pas qu'un email pouvait faire ça ! (Partie I)</title>
+				
+				
+					<description>Voici quelques astuces pour optimiser le design d&amp;#39;email et impressionner vos collègues avec la classe de Salt Bae.
+</description>
+				
+				<pubDate>Mon, 27 Feb 2017 00:23:57 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-1/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/conseils/guides/je-ne-savais-pas-qu-un-email-pouvait-faire-ca-partie-1/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+		
+		
+			<item>
+				<title>Lequel de ces 2 sites web êtes vous en train de designer ?</title>
+				
+				
+					<description>Un potentiel remède à cette pandémie serait d&amp;#39;explorer l&amp;#39;héritage du print. Il y a un excellent board Print for Web sur Pinterest. Votre aide est la bienvenue pour l&amp;#39;alimenter avec des inspirations. N&amp;#39;oubliez pas de vous abonnez ;-).
+</description>
+				
+				<pubDate>Sun, 13 Mar 2016 07:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/template-web-design-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/template-web-design-2016/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/template-web-design-2016.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Instant CSS</title>
+				
+				
+					<description>Je suis certain que vous comprenez l&amp;#39;analogie. Pour info, une collection de guides développement front-end est en cours d&amp;#39;édition sur le MDW.
+</description>
+				
+				<pubDate>Sun, 13 Mar 2016 06:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/analogie-css/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/analogie-css/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/analogie-css.gif" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Design – Si vous pensez que cela est trop cher</title>
+				
+				
+					<description>
+If you think good design is expensive, you should look at the costs of bad design.
+- Dr Ralph Dieter Speth, CEO, Jaguar Land Rover
+
+</description>
+				
+				<pubDate>Sun, 13 Mar 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/valeur-du-design/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/valeur-du-design/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/valeur-du-design.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Comment résumer trois ans de web design en une seule image</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sun, 13 Mar 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/evolution-web-design-2014-2016/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/evolution-web-design-2014-2016/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/evolution-web-design-2014-2016.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>LABS &amp;ndash; Invision Project</title>
+				
+				
+					<description>Outils pour résoudre les problèmes de design du futur.
+</description>
+				
+				<pubDate>Fri, 12 Feb 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/labs-invision/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/labs-invision/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/labs-invision.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Hey user &amp;ndash; Showcase vidéo d'appli mobiles</title>
+				
+				
+					<description>Une galerie vidéo mettant en scène des parcours d&amp;#39;onboarding d&amp;#39;applications mobiles. Parfait pour être inspirer.
+</description>
+				
+				<pubDate>Thu, 04 Feb 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/heyuser/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/heyuser/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-hey-user-galerie-video-onboarding-app-mobile.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>The dancer &amp;ndash; Hypnotique</title>
+				
+				
+					<description>See the Pen The Dancer by Szenia Zadvornykh (@zadvorsky) on CodePen.
+
+
+</description>
+				
+				<pubDate>Wed, 27 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/the-dancer/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/the-dancer/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Statsbot &amp;ndash; Google Analytics directement dans Slack</title>
+				
+				
+					<description>Un bot Slack pour se tenir informé des performances de vos projets directement dans Slack.
+</description>
+				
+				<pubDate>Wed, 27 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/statsbot-google-analytics-bot-pour-slack/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/statsbot-google-analytics-bot-pour-slack/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/statsbot-google-analytics-bot-pour-slack.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Glittering blue &amp;ndash; une vue satellite animée de la Terre</title>
+				
+				
+					<description>Ceci est une des observations quotidiennes de Himawari-8, un satellite météorologique japonais, animées en boucle. Il montre le Pacifique occidental, l&amp;#39;Australie, certaines régions d&amp;#39;Asie, l&amp;#39;Antarctique et l&amp;#39;Alaska à la mi-2015. Il couvre 24 heures en accéléré &amp;ndash; 7200 fois.
+</description>
+				
+				<pubDate>Wed, 27 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/glittering-blue/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/glittering-blue/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-glittering-blue.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Brain.fm App &amp;ndash; AI music</title>
+				
+				
+					<description>Musique générée artificiellement pour améliorer la concentration, la relaxation et le sommeil #useful.
+</description>
+				
+				<pubDate>Wed, 27 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/brain-fm/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/brain-fm/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-brain-fm.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>A quoi pourra ressembler facebook dans 3 ans ?</title>
+				
+				
+					<description>Un début de réponse avec Canvas. Un outil de story telling destiné aux marques souhaitant mettre en scène leurs contenus sur Facebook avec un design augmenté.
+</description>
+				
+				<pubDate>Fri, 22 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/canvas-facebook/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/canvas-facebook/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/facebook-canvas-1.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Framework CSS Milligram</title>
+				
+				
+					<description>Un framework CSS aussi minimaliste que cette note.
+</description>
+				
+				<pubDate>Tue, 12 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/milligram/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/milligram/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/milligram-framework-css.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Chat bots weekly</title>
+				
+				
+					<description>Si vous souhaitez en apprendre tous les jours un peu plus sur le design de chat bots : il y a une newsletter pour ça. Visitez chatbotsweekly.com
+</description>
+				
+				<pubDate>Tue, 12 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/chatbotsweekly/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/chatbotsweekly/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Internet Explorer 8, 9 et 10 — Microsoft met fin à leur support</title>
+				
+				
+					<description>Ce mardi 12 janvier 2016, Microsoft stoppera les mises à jour de sécurité et le support de son navigateur. Seul IE11 continuera a être officiellement mis à jour sur les versions d’OS compatibles.
+
+Microsoft avait annoncé depuis plusieurs mois son intention de ne plus apporter de mises à jour à ses anciens navigateurs. Son objectif étant de se concentrer sur la dernière version d&amp;#39;Internet Explorer et sur son nouveau navigateur Edge.
+
+Pas d&amp;#39;inquiétudes à avoir pour les entreprises utilisant des applications sur les anciennes versions du navigateur : IE11 pourra émuler les anciennes versions 8, 9 et 10.
+
+C&amp;#39;est une excellente nouvelle, qui fera gagner beaucoup de temps à tous les dév frontend et à tous ceux qui ouvrent accidentellement IE #freeeeeze.
+</description>
+				
+				<pubDate>Sun, 10 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/internet-explorer-8-9-10-microsoft-met-fin-au-support-de-ce-legendaire-navigateur/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/internet-explorer-8-9-10-microsoft-met-fin-au-support-de-ce-legendaire-navigateur/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/internet-explorer-8-9-10-microsoft-arrete-leur-support.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Tendances 2016 du Web design – Passé, présent, futur</title>
+				
+				
+					<description>Un Slideshare sur les grandes tendances qui marqueront le Web design en 2016, proposé par le directeur artistique Philippe Rondepierre. Un panorama assez exhaustif du design interactif où on parcourt en quelques slides les dernières approches en matière de responsive design, d&amp;#39;internet des objets et d&amp;#39;environnements de développement. Pour tout savoir, explorez la présentation slidershare ci-dessous.
+
+ 
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 05:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/webdesign-tendances-2016-passe-present-futur/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/webdesign-tendances-2016-passe-present-futur/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Créez un porfolio gratuit avec Adobe</title>
+				
+				
+					<description>Avec Adobe porfolio, vous obtiendrez rapidement et simplement un site Web personnalisé afin de présenter votre travail de création. Désormais inclus gratuitement avec tout abonnement Creative Cloud..
+
+Des options qui donnent envie :
+
+
+La synchronisation des publications entre votre portfolio Adobe et votre compte Behance ;
+L&amp;#39;accès illimité à la libraire Typekit de fonts ;
+la possiblité d&amp;#39;utiliser un nom de domaine personnalisé.
+
+
+Le service est pour l&amp;#39;instant en bêta privée. Demandez votre invite sur le site web myportfolio.com.
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 04:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/adobe-portfolio/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/adobe-portfolio/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/adobe-portfolio-share.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Facebook offre des mockups de devices au format Sketch</title>
+				
+				
+					<description>Chaque mockup de device est livré avec une image bitmap (avec et sans ombres) et le fichier sketch original.
+Facebook promet de mettre à jour prochainement cette liste de mockups avec d&amp;#39;autres devices tels que des designs de TVs, de tablettes et de montres connectées.
+
+Si vous avez de très bons exemples de ressources, n&amp;#39;hésitez pas à les ajouter à cette liste de mockups.
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/facebook-devices-ressources-sketch/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/facebook-devices-ressources-sketch/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/facebook-design-resource-devices.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Morphogenèse, Design génératif et léopard</title>
+				
+				
+					<description>Vous vous êtes toujours demandé(e) comment les léopards 🐯 obtiennent leurs tâches ou pourquoi les coquillages 🐚 ont telle ou telle forme ?
+
+Si oui, explorez cette démonstration de morphogenèse : un énoncé de règles simples – par exemple celles contenues dans l&amp;#39;ADN – qui déterminent la forme, la structure des tissus, des organes et des organismes.
+Dans la démo, trois règles sont activées avec des variables propres à chacune d&amp;#39;entre elles. Après quelques cycles de génération, des spirales de points se forment. Modifiez un paramètre à la fois et vous observerez un tout autre &amp;ldquo;pelage&amp;rdquo;, ou vous déclencherez le chaos. Magique ✨.
+
+On peut se prendre à rêver d&amp;#39;outils permettant de créer par l&amp;#39;intermédiaire de quelques règles simples la couleur, la forme, la typographie et l’image de systèmes d&amp;#39;interfaces complexes. Certains le promettent, à l&amp;#39;instar de thegrid, actuellement en bêta privée.
+
+D&amp;#39;autres démos sont disponibles où vous pouvez jouer aux pompiers ou créer votre propre système.
+
+Si vous souhaitez en savoir plus sur les théories du chaos, la morphogenèse et par extension sur le design génératif, je vous invite à explorer l’excellent livre de l’astrophysicien John Gribbin : Deep Simplicity: Bringing Order to Chaos and Complexity.
+</description>
+				
+				<pubDate>Sat, 09 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/design-generatif-et-morphogenese/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/design-generatif-et-morphogenese/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/design-generatif-morphogenese.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Font'n &amp;ndash; Le test de fonts en mode pirate</title>
+				
+				
+					<description>Trouvez, téléchargez et testez des fonts payantes via Google. L&amp;#39;objectif n&amp;#39;est pas de voler les fonts, mais bien de les tester puis de les acheter.
+</description>
+				
+				<pubDate>Fri, 08 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/fontn-recherche-de-typo-en-mode-pirate/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/fontn-recherche-de-typo-en-mode-pirate/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-font-n-recherche-de-fonts-avec-google.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Design workflow avec Sketch</title>
+				
+				
+					<description>Une série de leçons hebdomadaires directement dans votre boîte mail envoyées par la charmante team design de Invision. Vous apprendrez à maîtriser votre design workflow avec Sketch pour le wireframing, la typographie, les symboles, etc. Tout ça est bien entendu gratuit. L&amp;#39;objectif de ces connaissances est de vous accompagner au quotidien sur vos projets.
+</description>
+				
+				<pubDate>Fri, 08 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/design-workflow-avec-sketch/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/design-workflow-avec-sketch/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/design-workflow-avec-sketch.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Codrops &amp;ndash; la rétrospective 2015</title>
+				
+				
+					<description>L&amp;#39;année 2015 aura été marquée par la sortie d&amp;#39;un nombre impressionnant de ressources et de tutoriels en webdesign. Codrops fait le bilan de son année. Congrats à la team 😍.
+</description>
+				
+				<pubDate>Fri, 01 Jan 2016 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/codrops-2015/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/codrops-2015/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/inspiration-ui-design-site-web-2015-codrops-ressources.jpg" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Theme Cloud</title>
+				
+				
+					<description>Theme Cloud est un service d&amp;#39;hébergement WordPress de nouvelle génération qui permet de déployer en un clic plus de 50 thèmes WordPress créés par des boutiques de renom. La plateforme vous donne la possibilité de tester un thème comme si vous l&amp;#39;aviez déjà installé – même le panel admin. Une belle promesse pour cette plateforme réalisé par une équipe française. Le support client est français. Congrats 😻. A tester.
+</description>
+				
+				<pubDate>Wed, 30 Dec 2015 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/themecloud-creer-un-site-web-en-un-clic/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/themecloud-creer-un-site-web-en-un-clic/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/themecloud-site-wordpress-en-un-clic.png" type="image/*" />
+			</item>
+		
+			<item>
+				<title>CSS box shadow particules</title>
+				
+				
+					<description>See the Pen CSS box shadow particles v3 by Giana (@giana) on CodePen.
+
+
+</description>
+				
+				<pubDate>Sun, 20 Dec 2015 02:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/css-box-shadow-particule/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/css-box-shadow-particule/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/" type="image/*" />
+			</item>
+		
+			<item>
+				<title>Adobe Comet &amp;ndash; La mauvaise nouvelle</title>
+				
+				
+					<description>La team annonce que la fonctionnalité permettant d&amp;#39;intégrer des données dynamiques ne sera pas publiée avec la première release 😥.
+</description>
+				
+				<pubDate>Fri, 18 Dec 2015 03:00:00 +0100</pubDate>
+				<link>http://www.magazineduwebdesign.com/note/adobe-comet-prochaine-release/</link>
+				<guid isPermaLink="true">http://www.magazineduwebdesign.com/note/adobe-comet-prochaine-release/</guid>
+				<enclosure url="https://s3-eu-west-1.amazonaws.com/mdw-images/large/adobe-comet-beta.jpg" type="image/*" />
+			</item>
+		
+	</channel>
+</rss>
