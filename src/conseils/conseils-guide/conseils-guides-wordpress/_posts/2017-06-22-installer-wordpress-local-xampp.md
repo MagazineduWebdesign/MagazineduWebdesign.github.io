@@ -35,7 +35,7 @@ Xampla ! XAMPP est désormais installé :-D.
 - Sélectionnez tous les éléments du dossier et copiez-les ;
 - Ouvrez le dossier `\xampp\htdocs` situé à la racine de votre disque principal ;
 - Créez un sous-dossier ayant le nom de votre projet. Cela permettra de faire cohabiter facilement plusieurs projets ou installations WordPress ;
-- Collez tous les éléments dans le dossier `\xampp\htdocs\monProjet`. Une pop up s'affichera vous demandant si vous souhaitez remplacer le fichier index.php, cliquez sur *Remplacer* ;
+- Collez tous les éléments dans le dossier `\xampp\htdocs\monProjet`;
 - Recherchez sur votre PC l'emplacement de l'application XAMPP Control Panel et exécutez-la (avec douceur). Vous pouvez également la trouver via le menu Démarrer/Programmes/XAMPP Control Panel ;
 - L'application s'ouvre et affiche différents modules avec des boutons en face de chacun d'entres eux ;
 - Cliquez sur le bouton *Start* situé en face des modules Apache et MySQL. Le nom de chaque module doit être surligné en vert après quelques secondes ;
