@@ -14,7 +14,7 @@ intro: "Célèbre outil Open source, lancé sur le modèle économique du Freemi
 <br><br>
 Retrouvez dans l’infographie suivante toutes les informations les plus surprenantes sur cet outil méconnu du grand public, qui pourtant l’utilise sans le savoir."
 image-no-cover-book: "wordpress-101-skilled.jpg"
-description: "25h de tuto WordPress de qualité, en vidéo, pour créer et personnaliser des sites WordPress ou proposer des prestations à vos clients."
+description: "Infographie sur WordPress, le CMS le plus populaire au monde."
 canonical-url: "https://skilled.co/fr/ressources/28-faits-que-vous-ignorez-a-propos-de-wordpress/"
 ---
 
