@@ -14,6 +14,7 @@ intro: "Le travail entre plusieurs personnes implique d'avoir à sa disposition 
 Le problème est que l'on ne choisit pas toujours son espace de travail. Les salles spécifiquement dédiées au travail en groupe sont souvent réservées longtemps à l'avance. Il faut donc s'adapter en cherchant des solutions pour optimiser des espaces parfois étroits et qui n'offrent pas forcément des murs disponibles pour collaborer.
 <br><br>
 Je souhaite partager avec vous une solution pour s'affranchir des contraintes d'un lieu de travail. Elle permet d'avoir toujours à sa disposition des espaces verticaux pour collaborer. Elle est directement inspirée par cette brillante idée de [DayLight](http://www.daylightdesign.com/ikeahack/) (cf. photo)."
+description: "Différentes approches pour avoir toujours à disposition des espaces d'affichage pour collaborer lors d'ateliers de codesign."
 carte-optin-downoload-pdf: "false"
 image-no-cover-book: "dayLightDesign-Ikea-Hack-01.jpg"
 ---
