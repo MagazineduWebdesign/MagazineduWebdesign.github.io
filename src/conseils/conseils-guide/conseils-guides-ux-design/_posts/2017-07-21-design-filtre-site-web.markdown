@@ -14,7 +14,7 @@ by-url: "https://twitter.com/guillaumpalayer"
 intro: "Lorsque la quantité de contenus d'une site Web connaît une croissance exponentielle, un moteur de recherche est le bienvenu. Mais cela ne suffit pas toujours. En s'appuyant sur l'exemple de Housing.com — un géant de l'immobilier indien — cet article met à jour des approches nouvelles pour naviguer parmi des contenus pléthoriques."
 description: "Quelle solution de design adopter pour intégrer nativement un système de filtre de contenu dans un site Web."
 carte-optin-downoload-pdf: "false"
-image-no-cover-book: "dayLightDesign-Ikea-Hack-01.jpg"
+image-no-cover-book: "housing-filtre-desktop.jpg"
 ---
 
 ## Des filtres intégrés nativement aux listes d'offres
