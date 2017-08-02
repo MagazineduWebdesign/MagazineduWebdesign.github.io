@@ -4,7 +4,7 @@
 		<a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} sidebar bottom right article');" class="grid-article-card-link-wrap" href="{{ ad.company }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
 			<div class="row collapse text-center">
 				<div class="grid-article-card-info mod-large-auto small-12 columns">
-					<img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/xsmall/{{ ad.logo }}" alt="icône {{ ad.company }}" width="64" height="64">
+					<img class="grid-article-card-app-icon" src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ ad.logo | url_encode }}" alt="icône {{ ad.company }}" width="64" height="64">
 					<h1 class="grid-article-card-title mod-ads-index-panel-title">
 						{{ ad.title }} <span class="label--new mod-ads-sidebar">Recommandé</span>
 					</h1>

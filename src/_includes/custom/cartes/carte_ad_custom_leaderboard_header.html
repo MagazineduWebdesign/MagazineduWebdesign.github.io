@@ -5,10 +5,10 @@
   <a onclick="ga('send', 'event', 'Publicite', 'click', '{{ ad.company }} {% if ad.campaign %}{{ ad.campaign }}{% endif %} grid 4 col')" class="grid-article-card-link-wrap" href="{{ ad.url }}" title="{{ ad.title }}" target="_blank" rel="nofollow">
     <div class="small-12 columns text-center">
       <div class="show-for-small-only leaderboard mod-header">
-        <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/small/{{ ad.image-small }}" alt="{{ ad.title }}" width="320" height="auto" />
+        <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ ad.image-small | url_encode }}" alt="{{ ad.title }}" width="320" height="auto" />
       </div>
       <div class="show-for-large-up leaderboard mod-header">
-        <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ ad.image-large }}" alt="{{ ad.title }}" width="728" height="auto" />
+        <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/{{ ad.image-large | url_encode }}" alt="{{ ad.title }}" width="728" height="auto" />
       </div>
     </div>
   </a>
