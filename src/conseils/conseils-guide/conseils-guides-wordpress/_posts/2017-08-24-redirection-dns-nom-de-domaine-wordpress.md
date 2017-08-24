@@ -126,7 +126,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 ## Supporté par Web.design
 
-_[Web.design](https://web.design/) est fier de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de designer et de développeurs_.
+*[Web.design](https://web.design/) est fier de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de designer et de développeurs*.
 
 En partenariat avec le Magazine du Webdesign, obtenez un **nom de domaine gratuit** en .design pendant une durée d'un an sans engagement. Aucune information de paiement ne vous sera demandée. Recherchez le nom de domaine de votre choix en cliquant sur le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB).
 
