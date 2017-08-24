@@ -15,7 +15,7 @@ image-no-cover-book: "redirection-nom-de-domaine.jpg"
 description: "3 techniques différentes pour réaliser une redirection DNS d'un nom de domaine vers un site Web WordPress."
 ---
 
-**Note** : le Magazine du Webdesign encourage tous vos talents en vous offrant un **nom de domaine gratuit** en .design. 1 an sans engagement. Aucune carte bancaire est nécessaire. Juste un .design gratuit pour vos projets. Utilisez le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB) — cliquez pour copier et ouvrir le site.
+**Note** : le Magazine du Webdesign encourage tous vos talents en vous offrant un **nom de domaine gratuit** en .design. 1 an sans engagement. Un moyen de paiement vous sera néanmmoins demandé afin d'éviter les spammeurs. Vous pourrez supprimer ce moyen de paiement après votre commande dans votre espace perso. Aucune transaction ne sera débitée de votre compte. Juste un .design gratuit pour vos projets. Utilisez le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB) — cliquez pour copier et ouvrir le site.
 
 ## Pourquoi éditer ses serveurs ou sa zone DNS
 
@@ -128,7 +128,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 *[Web.design](https://web.design/) est fier de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de designer et de développeurs*.
 
-En partenariat avec le Magazine du Webdesign, obtenez un **nom de domaine gratuit** en .design pendant une durée d'un an sans engagement. Aucune information de paiement ne vous sera demandée. Recherchez le nom de domaine de votre choix en cliquant sur le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB).
+En partenariat avec le Magazine du Webdesign, obtenez un **nom de domaine gratuit** en .design pendant une durée d'un an sans engagement. Un moyen de paiement vous sera néanmmoins demandé afin d'éviter les spammeurs. Vous pourrez supprimer ce moyen de paiement après votre commande dans votre espace perso. Aucune transaction ne sera débitée de votre compte. Recherchez le nom de domaine de votre choix en cliquant sur le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB).
 
 ## Si vous avez apprécié cet article, vous pourriez être intéressé(e) par :
 
