@@ -8,8 +8,8 @@ path3: "wordpress"
 category: "guides"
 tags: "guides-wordpress"
 sponsored: "true"
-by: "MDW + We.design"
-by-url: "https://twitter.com/guillaumpalayer"
+by: "MDW + Web.design"
+by-url: "https://web.design/?coupon=MAGAZINEDUWEB"
 intro: "Laissez vous guider étape par étape pour associer votre nom de domaine à votre site [WordPress](http://www.magazineduwebdesign.com/conseils/guides/wordpress/). Dans ce guide pratique, vous apprendrez à éditer vos serveurs DNS ou votre zone DNS en fonction de vos besoins."
 image-no-cover-book: "redirection-nom-de-domaine.jpg"
 description: "3 techniques différentes pour réaliser une redirection DNS d'un nom de domaine vers un site Web WordPress."
@@ -126,7 +126,7 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 ## Supporté par Web.design
 
-_[Web.design](https://web.design/)_ _ est fier de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de designer et de développeurs._
+_[Web.design](https://web.design/) est fier de soutenir le Magazine du Webdesign dans son effort pour défendre et promouvoir une large communauté de designer et de développeurs_.
 
 En partenariat avec le Magazine du Webdesign, obtenez un **nom de domaine gratuit** en .design pendant une durée d'un an sans engagement. Aucune information de paiement ne vous sera demandée. Recherchez le nom de domaine de votre choix en cliquant sur le code coupon [MAGAZINEDUWEB](https://web.design/?coupon=MAGAZINEDUWEB).
 
