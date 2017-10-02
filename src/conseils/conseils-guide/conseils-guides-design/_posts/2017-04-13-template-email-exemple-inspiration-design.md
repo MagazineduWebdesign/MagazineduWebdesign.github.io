@@ -58,7 +58,7 @@ Alex Turnbull est un personnage admirable. C'est le genre de gars qui est capabl
 
 Il trouve le temps de raconter tout ça via un blog. Il y raconte ses aventures et surtout offre une tonne de conseils et d'exemples testés dans son business. On y retrouve un tas d'expérimentations sur les emails.
 
-Je vous conseille de découvrir [cet article](https://www.groovehq.com/blog/doubled-email-subscribers) où il dévoile 5 templates email qui lui ont permis de faire croître sa rétention à 30 jours de 25% (l [ien direct vers les templates](https://www.groovehq.com/attachments/blog/doubled-email-subscribers/autoresponder.png) ). Ce n'est qu'un exemple parmi tant d'autres.
+Je vous conseille de découvrir [cet article](https://www.groovehq.com/blog/doubled-email-subscribers) où il dévoile 5 templates email qui lui ont permis de faire croître sa rétention à 30 jours de 25% ([lien direct vers les templates](https://www.groovehq.com/attachments/blog/doubled-email-subscribers/autoresponder.png) ). Ce n'est qu'un exemple parmi tant d'autres.
 
 ### **Just Good Copy**
 
