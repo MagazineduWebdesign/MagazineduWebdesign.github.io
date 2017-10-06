@@ -1,6 +1,6 @@
 ---
 layout: "conseils-default"
-title: "Les 20 chiffres à connaître sur l'email en 2017"
+title: "Emailing 2017 - les 20 chiffres à connaître"
 date: "2017-01-15 00:23:57"
 path1: "conseils"
 path2: "guides"
@@ -11,7 +11,7 @@ sponsored: "true"
 by: "MDW + Sarbacane"
 by-url: "https://www.sarbacane.com/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
 intro: "J'apprécie le fait d'avoir des données à jour sur les usages et les performances de l'email. Cela permet de prendre des décisions plus judicieuses pour optimiser leur design. Néanmoins, les statistiques sur l'email sont souvent obsolètes. Afin de [designer des templates email](http://www.magazineduwebdesign.com/conseils/guides/design-newsletter-7-hacks-pour-des-emails-qui-convertissent/) plus en phase avec les usages de mon audience, j'ai parcouru une centaine de sources pour disposer des derniers chiffres sur l'email en 2017."
-description: "Les statistiques clés de l'emailing marketing avec ses implications sur le design et le développement des templates email."
+description: "Les statistiques emailing 2017 pour tout savoir sur les chiffres clés et optimisez ainsi votre marketing digital."
 carte-optin-downoload-pdf: "false"
 image-no-cover-book: "sarbacane-statistiques-email-2017.png"
 ---
