@@ -9,7 +9,7 @@ category: "guides"
 tags: "guides-design"
 sponsored: "true"
 by: "MDW + MailStyler"
-by-url: "http://www.newslettercreator.com/fr/?utm_medium=blog&utm_campaign=content&utm_source=magazineduwebdesign"
+by-url: "http://www.newslettercreator.com/fr/?utm_source=magazineduwebdesign.com&utm_medium=review-magazine&utm_campaign=nm-mailstyler2"
 intro: "Avez-vous des problèmes avec le design de votre template email ? C'est un sujet avec lequel beaucoup de personnes luttent au quotidien. Heureusement, il existe des solutions simples pour vous aider à résoudre le problème. Dans cet article, vous apprendrez à identifier les éléments et les outils qui vous permettront d'optimiser le design de vos newsletters et campagnes email. Vous gagnerez ainsi un temps précieux qui pourra être utilisé pour optimiser votre stratégie d'email marketing."
 description: "Créez facilement le template email de vos newsletters et campagnes emailing avec ces outils et astuces."
 carte-optin-downoload-pdf: "false"
@@ -55,7 +55,7 @@ L'apparence de votre newsletter est primordiale. Outre le message, c’est le de
 
 Pour un design optimal, oubliez les logiciels tels que Microsoft Word ou des programmes conçus pour faire autre chose que des emails. Tout ce que vous obtiendrez est untemplate email généré avec un code HTML incorrect. Il sera mal interprété par les clients de messagerie et n’invitera donc pas votre audience à recevoir d’autres emails de votre part. Combien de fois avez-vous supprimé des newsletters qui n'avaient pas d'images ? Ouqui avaient des call to action masqués par du texte, sur lesquels il était impossible de cliquer ou taper ?
 
-Les templates email proposés par des logiciels email tels que [MailStyler](http://www.newslettercreator.com/fr/) vous éviteront bien des maux de tête. Les modèles ont été vérifiés sur l’ensemble des clients mail. Le code HTML est audité pour vous assurer un affichage parfait sur n'importe quel écran.
+Les templates email proposés par des logiciels email tels que [MailStyler](http://www.newslettercreator.com/fr/?utm_source=magazineduwebdesign.com&utm_medium=review-magazine&utm_campaign=nm-mailstyler2) vous éviteront bien des maux de tête. Les modèles ont été vérifiés sur l’ensemble des clients mail. Le code HTML est audité pour vous assurer un affichage parfait sur n'importe quel écran.
 
 {% include components/content-post-default-figure-image.html param="interface-mailstyler.jpg" %}
 
