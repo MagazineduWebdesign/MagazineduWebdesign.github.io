@@ -73,7 +73,7 @@ La délivrabilité de votre newsletter, c'est-à-dire la capacité de vos emails
 
 Première chose à ne pas faire : envoyer sa campagne email avec un client mail grand public. Ils n'ont pas été développés pour envoyer des emails en masse. En outre, certains clients mail peuvent générer d'autres problèmes. Par exemple, lorsque Microsoft Outlook envoie vos emails, il supprime du template la partie du code qui lui permet d’être responsive.
 
-Vous devez vous appuyer sur des [logiciels professionnels](http://www.magazineduwebdesign.com/ressources/outils-services/design/) pour l'envoi massif d’emails. Par exemple, [SendBlaster](http://www.sendblaster.fr/), l'un des meilleurs expéditeur d'emails pour Windows. Cela vous permet de gérer vos listes de diffusion segmentées, vos formulaires d'inscription, vos listes noires, vos paramètres de serveurs SMTP, vos planifications d’envoi, etc.
+Vous devez vous appuyer sur des [logiciels professionnels](http://www.magazineduwebdesign.com/ressources/outils-services/design/) pour l'envoi massif d’emails. Par exemple, [SendBlaster](www.sendblaster.fr/?utm_source=magazineduwebdesign.com&utm_medium=review-magazine&utm_campaign=nm-mailstyler2), l'un des meilleurs expéditeur d'emails pour Windows. Cela vous permet de gérer vos listes de diffusion segmentées, vos formulaires d'inscription, vos listes noires, vos paramètres de serveurs SMTP, vos planifications d’envoi, etc.
 
 Vous pouvez analyser les résultats de vos campagnes dans l’interface de reporting en bénéficiant de l’intégration de TrackReports et Google Analytics.
 
@@ -83,7 +83,7 @@ MailStyler a une fonction d'exportation dédiée à SendBlaster.
 
 Vous pouvez également utiliser une plate-forme d’email marketing en ligne.
 
-[eMailChef](http://emailchef.com/fr/) est un exemple de web app dédiée à la gestion de campagnes email. Il combine des fonctionnalités pro avec des prix compétitifs.
+[eMailChef](http://emailchef.com/fr/?utm_source=magazineduwebdesign.com&utm_medium=review-magazine&utm_campaign=nm-mailstyler2) est un exemple de web app dédiée à la gestion de campagnes email. Il combine des fonctionnalités pro avec des prix compétitifs.
 
 eMailChef propose une segmentation avancée des listes de diffusion, des mécaniques automatisées d’envoi avec une excellente délivrabilité, des intégrations avec les [sites e-commerce](http://www.magazineduwebdesign.com/collection/inspiration-ui-design-site-ecommerce-2016/) Magento et Prestashop, des rapports avancés. Vous aurez également la certitude que vous disposez toujours de la dernière version d’eMailChef à travers le navigateur.
 
