@@ -55,4 +55,6 @@ Avez-vous des commentaires, des questions, de l'amour ou de la haine ? Envoyez t
 
 Prenez soin de vous. A bientôt — [@guillaumpalayer](https://twitter.com/guillaumpalayer) du [Magazine du Webdesign](http://www.magazineduwebdesign.com/).
 
+*Cet article a été publié à l'origine sur [netwave.eu](http://blog.netwave.eu/airbnb-personnalisation-voyage-ep.1).*
+
 {% include custom/cartes/carte_ad_medium-rect-in-content.html %}
