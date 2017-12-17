@@ -1,3 +1,21 @@
+- title: "ContentBuilder.js"
+  image-small: "contentbuilder-banner-320x100@2.jpg"
+  image-mobile-big-leardboard: "contentbuilder-banner-320x100@2.jpg"
+  image-large: "contentbuilder-banner-300x250@2.jpg"
+  image-desktop-big-leardboard: "contentbuilder-banner-2625x600@2.jpg"
+  url: "http://innovastudio.com/content-builder.aspx"
+  company: "ContentBuilder.js"
+  campaign: "content-builder"
+
+- title: "ContentBuilder.js"
+  tiny-title: "Offrez le Drag & Drop à votre Web App →"
+  description: "Offrez à votre Web App l'édition de contenu par Drag & Drop."
+  image: "contentbuilder-banner-220x110-A@2.jpg"
+  url: "http://innovastudio.com/content-builder.aspx"
+  logo: "contentbuilder-logo-64x64@2.jpg"
+  company: "ContentBuilder.js"
+  campaign: "content-builder"
+
 - title: "Smartmockups App"
   image-small: "smartmockups-app-banner-220x110-Abis@2.jpg"
   image-mobile-big-leardboard: "smartmockups-app-banner-320x100bis@2.jpg"
@@ -6,7 +24,7 @@
   url: "https://gumroad.com/a/448083059"
   company: "smartmockups"
   campaign: "smartmockups-elements"
-  
+
 - title: "Smartmockups App"
   tiny-title: "Smartmockups App"
   description: "La manière la plus simple de créer de superbes mock-ups sans Photoshop."
