@@ -42,7 +42,7 @@ redcarpet:
 highlighter: rouge
 
 # Extending Jekyll
-gems:
+plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate

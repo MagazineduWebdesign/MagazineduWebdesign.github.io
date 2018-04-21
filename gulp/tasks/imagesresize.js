@@ -33,7 +33,7 @@ gulp.task('imagesresizelarge', () =>
       // Keep unmatched images in the stream
       passThroughUnused: false,
       // Disable the use of chroma subsampling with JPEG output (4:4:4)
-      withoutChromaSubsampling: true,
+      withoutChromaSubsampling: false,
       // Emit the error when image is enlarged
       errorOnEnlargement: false,
     }))
@@ -66,7 +66,7 @@ gulp.task('imagesresizemedium', () =>
       // Keep unmatched images in the stream
       passThroughUnused: false,
       // Disable the use of chroma subsampling with JPEG output (4:4:4)
-      withoutChromaSubsampling: true,
+      withoutChromaSubsampling: false,
       // Emit the error when image is enlarged
       errorOnEnlargement: false,
     }))
@@ -99,7 +99,7 @@ gulp.task('imagesresizesmall', () =>
       // Keep unmatched images in the stream
       passThroughUnused: false,
       // Disable the use of chroma subsampling with JPEG output (4:4:4)
-      withoutChromaSubsampling: true,
+      withoutChromaSubsampling: false,
       // Emit the error when image is enlarged
       errorOnEnlargement: false,
     }))
@@ -132,7 +132,7 @@ gulp.task('imagesresizelsmall', () =>
       // Keep unmatched images in the stream
       passThroughUnused: false,
       // Disable the use of chroma subsampling with JPEG output (4:4:4)
-      withoutChromaSubsampling: true,
+      withoutChromaSubsampling: false,
       // Emit the error when image is enlarged
       errorOnEnlargement: false,
     }))
@@ -165,7 +165,7 @@ gulp.task('imagesresizexsmall', () =>
       // Keep unmatched images in the stream
       passThroughUnused: false,
       // Disable the use of chroma subsampling with JPEG output (4:4:4)
-      withoutChromaSubsampling: true,
+      withoutChromaSubsampling: false,
       // Emit the error when image is enlarged
       errorOnEnlargement: false,
     }))
