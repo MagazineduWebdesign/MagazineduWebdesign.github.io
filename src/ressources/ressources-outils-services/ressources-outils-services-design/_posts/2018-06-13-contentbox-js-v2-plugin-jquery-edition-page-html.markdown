@@ -16,11 +16,11 @@ image: "contentbox-exemple-ui.jpg"
 intro: "Editer et ajouter des sections directement sur le frontend de vos pages HTML."
 description: "Plugin jQuery éditeur de page HTML en frontend."
 ---
-Fondamentalement, les éditeurs de pages web fonctionnent comme des <TEXTAREA> avec une capacité de formatage en plus. Par exemple, l'insertion d'images, table, style, etc. L'équipe de développeurs à l'origine de ContentBox a de nombreuses années d'expériences sur le développement de ce type d'outil. Mais ils ont aussi remarqué que les pages Web devraient être composées de plusieurs sections afin de répondre à de multiples contextes d'usages. C'est de là qu'est venue l'idée de ContentBox.
+Fondamentalement, les éditeurs de pages web fonctionnent comme des `TEXTAREA` avec une capacité de formatage en plus. Par exemple, l'insertion d'images, table, style, etc. L'équipe de développeurs à l'origine de ContentBox a de nombreuses années d'expériences sur le développement de ce type d'outil. Mais ils ont aussi remarqué que les pages Web devraient être composées de plusieurs sections afin de répondre à de multiples contextes d'usages. C'est de là qu'est venue l'idée de ContentBox.
 
 Ce plugin jQuery vous permet d'ajouter en ligne des sections éditables et de les modifier directement au sein de votre page HTML — non pas en back end mais directement en front end.
 
-Le résultat peut être ensuite exporter au format HTML/CSS et intégrer sur votre serveur. Chaque section peut avoir une ou plusieurs colonnes (boîtes) et chacune est éditable. Cela permet d'avoir la main sur la mise en page et le contenu parallèlement. C'est une chose que les éditeurs de texte riche type <TEXTAREA> ne peuvent pas faire.
+Le résultat peut être ensuite exporter au format HTML/CSS et intégrer sur votre serveur. Chaque section peut avoir une ou plusieurs colonnes (boîtes) et chacune est éditable. Cela permet d'avoir la main sur la mise en page et le contenu parallèlement. C'est une chose que les éditeurs de texte riche type `TEXTAREA` ne peuvent pas faire.
 
 ## Réalisez des interfaces de connexion sans écrire une ligne de code avec ContentBox.js
 
