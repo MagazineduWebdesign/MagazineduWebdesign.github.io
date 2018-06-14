@@ -28,7 +28,7 @@ En septembre 2017, l'annonce de l'iPhone X a suscité de vives réactions concer
 
 <figure class="figure-img mod-img-small-align-middle">
   <img src="https://s3-eu-west-1.amazonaws.com/mdw-images/large/atombank-connexion.png" alt="Atom Bank - exemple interface de connexion application mobile" width="250" height="auto"/>
-  <figcaption>Application mobile Airbnb - vue carte</figcaption>
+  <figcaption>Application mobile Atom Bank - écran de connexion reconnaissance faciale</figcaption>
 </figure>
 
 Néanmoins, l'intérêt de cette fonctionnalité ne doit pas être ignoré. Dans une approche moins direct, [Atom bank](http://atombank.co.uk/) propose la reconnaissance faciale via la prise d'une photo en tant qu'option de connexion à son application Android et iOS.
@@ -38,8 +38,6 @@ Souriez, vous êtes connecté.
 ## 2. La connexion par empreintes digitales
 
 Les appareils mobiles récents disposent d'un capteur d'empreintes permettant de déverrouiller le téléphone. Cette fonctionnalité peut être utilisée pour les applications natives Android et iOS. C'est le cas par exemple de [Bankin'](https://bankin.com/en/home.html) et [PayPal](https://www.paypal.com/fr/webapps/mpp/mobile-apps).
-
-![](https://lh6.googleusercontent.com/imW1WEAmlwCPWI2HQgqhINvaXfnRxqpdY4FPcTJFJa2nCHH_EaFzP0oe3zWFrIJmnmBn4qCD5zWxbYwTydre0BNY1Afo9zfqvmHBelsEnkogQTksd251qpERlHWcmmtvoNSHJV1t)
 
 {% include components/content-post-default-figure-image.html param="paypal-log-in.jpg" %}
 
