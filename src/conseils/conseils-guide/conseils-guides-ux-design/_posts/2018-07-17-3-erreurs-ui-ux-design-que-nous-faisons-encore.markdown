@@ -26,7 +26,7 @@ Néanmoins, il s'avère qu'il existe des trucs et astuces à votre disposition p
 
 Je ne suis pas un grand fan des visites guidée pour expliquer comment interagir avec une application, puisque l'objectif est de s'efforcer de rendre l'interface utilisateur aussi naturelle et explicite que possible. Néanmoins, certains secteurs d'activités comme la banque ou la santé nécessitent la gestion de données très sensibles. Il est donc difficile d'être trop prudent quand il s'agit de s'assurer que l'utilisateur ne fait rien de dangereux.
 
-{% include components/content-post-default-figure-image.html param="tuto-betoken-f0c8e0ee-7e3e-472d-b226-146f368b147c.png" %}
+{% include components/content-post-default-figure-image.html param="tuto-onboarding.png" %}
 
 Un tutoriel expliquant les actions clés dans une première version de votre application n'est pas forcément un frein à l'acquisition d'utilisateur. Et vous pouvez vous en assurer en organisant des interviews utilisateurs pour recueillir les feedbacks sur ce process d'onboarding. Des tests A / B peuvent également être mis en place pour voir quelle approche fonctionne le mieux.
 
@@ -42,15 +42,15 @@ De même, les éléments qui sont liées logiquement doivent être liés visuell
 
 On pense généralement à hiérarchiser des éléments en modifiant leur taille, leur graisse ou leur emplacement. Néanmoins, une astuce très simple consiste à trouver la bonne couleur pour distinguer le rang hiérarchique d'éléments de design.
 
-{% include components/content-post-default-figure-image.html param="buttons-hierarchy-ea87d1f7-0745-4540-b933-7909226f5e73.png" %}
+{% include components/content-post-default-figure-image.html param="hierarchie-boutons.png" %}
 
 Idem pour les actions destructrices primaires et secondaire. Chacun d'entre elles doit avoir une interface utilisateur spécifique.
 
-{% include components/content-post-default-figure-image.html param="destructive-actions-hierarchy-b6034000-6849-4eb0-a5fa-fcd84643f6eb.png" %}
+{% include components/content-post-default-figure-image.html param="hierarchie-boutons-action-destructive.png" %}
 
 ## Pour aller plus loin
 
-Si vous aussi, vous souhaitez ne plus reproduire ces erreurs de conception, les site builders peuvent s'avérer être un bon pari. Des outils tels que Shopify, Squarespace ou Wix offrent un moyen simple et accessible pour savoir [comment créer un site internet](https://fr.wix.com/comment-creer/un-site) tout en respectant les bonnes pratiques UI et UX. 
+Si vous aussi, vous souhaitez ne plus reproduire ces erreurs de conception, les site builders peuvent s'avérer être un bon pari. Des outils tels que Shopify, Squarespace ou Wix offrent un moyen simple et accessible pour savoir [comment créer un site internet](https://fr.wix.com/comment-creer/un-site) tout en respectant les bonnes pratiques UI et UX.
 
 Dans notre cas, les fonctionnalités proposées par Wix Code sont un bon point de départ. Tout en bénéficiant du superbe design de l’Éditeur de Wix, l'environnement de développement offert dans Wix Code vous permet de gérer des données et de personnaliser le comportement des éléments de design de votre site pour créer des pages de contenus dynamiques. Cette palette d'outils est disponible directement dans l'éditeur de Wix. Elle vous offre l'opportunité de concevoir une expérience utilisateur agréable pour votre application ou site web en étant guider pas à pas.
 
